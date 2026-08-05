@@ -24,11 +24,6 @@ const translations = {
     labelLocation: "Sijainti",
     locationValue: "Suomi",
     footerRights: "Kaikki oikeudet pidätetään.",
-    privacyTitle: "Tietosuojalauseke",
-    privacyIntro: "Tietosuojalauseke julkaistaan tällä sivulla myöhemmin.",
-    privacyNote:
-      "Placeholder: lopullinen tietosuojasisältö toimitetaan erikseen ja päivitetään tänne.",
-    privacyBack: "Takaisin etusivulle",
   },
   en: {
     metaTitle: "IQSoftCore – simple software and applications",
@@ -55,11 +50,6 @@ const translations = {
     labelLocation: "Location",
     locationValue: "Finland",
     footerRights: "All rights reserved.",
-    privacyTitle: "Privacy policy",
-    privacyIntro: "The privacy policy will be published on this page later.",
-    privacyNote:
-      "Placeholder: the final privacy content will be provided separately and updated here.",
-    privacyBack: "Back to home",
   },
   sv: {
     metaTitle: "IQSoftCore – enkla program och applikationer",
@@ -86,11 +76,6 @@ const translations = {
     labelLocation: "Plats",
     locationValue: "Finland",
     footerRights: "Alla rättigheter förbehållna.",
-    privacyTitle: "Integritetspolicy",
-    privacyIntro: "Integritetspolicyn publiceras på den här sidan senare.",
-    privacyNote:
-      "Platshållare: det slutliga integritetsinnehållet levereras separat och uppdateras här.",
-    privacyBack: "Tillbaka till startsidan",
   },
   no: {
     metaTitle: "IQSoftCore – enkle programmer og applikasjoner",
@@ -117,11 +102,6 @@ const translations = {
     labelLocation: "Sted",
     locationValue: "Finland",
     footerRights: "Alle rettigheter forbeholdt.",
-    privacyTitle: "Personvernerklæring",
-    privacyIntro: "Personvernerklæringen publiseres på denne siden senere.",
-    privacyNote:
-      "Plassholder: det endelige personverninnholdet leveres separat og oppdateres her.",
-    privacyBack: "Tilbake til forsiden",
   },
   da: {
     metaTitle: "IQSoftCore – enkle programmer og applikationer",
@@ -148,11 +128,6 @@ const translations = {
     labelLocation: "Placering",
     locationValue: "Finland",
     footerRights: "Alle rettigheder forbeholdes.",
-    privacyTitle: "Privatlivspolitik",
-    privacyIntro: "Privatlivspolitikken offentliggøres på denne side senere.",
-    privacyNote:
-      "Pladsholder: det endelige privatlivsindhold leveres separat og opdateres her.",
-    privacyBack: "Tilbage til forsiden",
   },
   de: {
     metaTitle: "IQSoftCore – einfache Programme und Anwendungen",
@@ -179,11 +154,6 @@ const translations = {
     labelLocation: "Standort",
     locationValue: "Finnland",
     footerRights: "Alle Rechte vorbehalten.",
-    privacyTitle: "Datenschutzerklärung",
-    privacyIntro: "Die Datenschutzerklärung wird auf dieser Seite später veröffentlicht.",
-    privacyNote:
-      "Platzhalter: der endgültige Datenschutzinhalt wird separat geliefert und hier aktualisiert.",
-    privacyBack: "Zurück zur Startseite",
   },
   es: {
     metaTitle: "IQSoftCore – programas y aplicaciones sencillas",
@@ -210,11 +180,6 @@ const translations = {
     labelLocation: "Ubicación",
     locationValue: "Finlandia",
     footerRights: "Todos los derechos reservados.",
-    privacyTitle: "Política de privacidad",
-    privacyIntro: "La política de privacidad se publicará en esta página más adelante.",
-    privacyNote:
-      "Marcador de posición: el contenido final de privacidad se entregará por separado y se actualizará aquí.",
-    privacyBack: "Volver al inicio",
   },
   it: {
     metaTitle: "IQSoftCore – programmi e applicazioni semplici",
@@ -241,11 +206,6 @@ const translations = {
     labelLocation: "Località",
     locationValue: "Finlandia",
     footerRights: "Tutti i diritti riservati.",
-    privacyTitle: "Informativa sulla privacy",
-    privacyIntro: "L'informativa sulla privacy sarà pubblicata in questa pagina in seguito.",
-    privacyNote:
-      "Segnaposto: il contenuto privacy definitivo sarà fornito separatamente e aggiornato qui.",
-    privacyBack: "Torna alla home",
   },
   ja: {
     metaTitle: "IQSoftCore – シンプルなプログラムとアプリケーション",
@@ -272,11 +232,6 @@ const translations = {
     labelLocation: "所在地",
     locationValue: "フィンランド",
     footerRights: "無断転載を禁じます。",
-    privacyTitle: "プライバシーポリシー",
-    privacyIntro: "プライバシーポリシーは後日このページに掲載します。",
-    privacyNote:
-      "プレースホルダー：最終的なプライバシー内容は別途ご提供いただき、ここに更新します。",
-    privacyBack: "ホームに戻る",
   },
   ko: {
     metaTitle: "IQSoftCore – 간단한 프로그램과 애플리케이션",
@@ -303,11 +258,6 @@ const translations = {
     labelLocation: "위치",
     locationValue: "핀란드",
     footerRights: "모든 권리 보유.",
-    privacyTitle: "개인정보 처리방침",
-    privacyIntro: "개인정보 처리방침은 추후 이 페이지에 게시됩니다.",
-    privacyNote:
-      "임시 문구: 최종 개인정보 내용은 별도로 제공받아 이곳에 업데이트됩니다.",
-    privacyBack: "홈으로 돌아가기",
   },
 };
 
@@ -356,6 +306,10 @@ function applyTranslations(lang) {
   const url = new URL(window.location.href);
   url.searchParams.set("lang", lang);
   window.history.replaceState({}, "", url);
+
+  if (typeof renderPrivacyPolicy === "function") {
+    renderPrivacyPolicy(lang);
+  }
 }
 
 function initI18n() {

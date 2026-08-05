@@ -348,14 +348,79 @@ a:hover {
 }
 
 .privacy-page h1 {
-  margin: 0 0 1rem;
+  margin: 0 0 0.5rem;
   font-family: var(--font-display);
   font-size: clamp(1.8rem, 4vw, 2.4rem);
   letter-spacing: -0.03em;
 }
 
-.privacy-page p {
+.privacy-page p,
+.privacy-page li {
   color: var(--ink-soft);
+}
+
+.policy-updated {
+  margin: 0 0 2rem;
+  font-size: 0.95rem;
+  color: var(--teal);
+  font-weight: 600;
+}
+
+.policy-section {
+  margin: 0 0 2rem;
+}
+
+.policy-section h2 {
+  margin: 0 0 0.75rem;
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  letter-spacing: -0.02em;
+  color: var(--ink);
+}
+
+.policy-section p {
+  margin: 0 0 0.85rem;
+}
+
+.policy-section ul {
+  margin: 0 0 0.85rem;
+  padding-left: 1.2rem;
+}
+
+.policy-section li {
+  margin: 0.35rem 0;
+}
+
+.policy-app-list {
+  list-style: none;
+  margin: 1rem 0 0;
+  padding: 0;
+}
+
+.policy-app-list li {
+  padding: 0.9rem 0;
+  border-top: 1px solid var(--line);
+}
+
+.policy-app-list li:last-child {
+  border-bottom: 1px solid var(--line);
+}
+
+.policy-app-list a {
+  font-weight: 700;
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.policy-app-list a:hover {
+  color: var(--teal);
+}
+
+.policy-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 2.5rem;
 }
 
 .note {
