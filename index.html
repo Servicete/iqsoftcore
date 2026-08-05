@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="fi">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>IQSoftCore – yksinkertaisia ohjelmia ja sovelluksia</title>
+    <meta
+      name="description"
+      content="IQSoftCore suunnittelee ja rakentaa selkeitä, käytännöllisiä ohjelmia ja sovelluksia."
+    />
+    <link rel="icon" href="assets/logo.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700&family=Syne:wght@600;700;750&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="index.html">
+          <img src="assets/logo.svg" alt="" width="36" height="36" />
+          <span class="brand-name">IQSoftCore</span>
+        </a>
+        <nav class="nav" aria-label="Primary">
+          <a href="#about" data-i18n="navAbout">Toiminta</a>
+          <a href="#contact" data-i18n="navContact">Yhteystiedot</a>
+          <a href="privacy.html" data-i18n="navPrivacy">Tietosuoja</a>
+          <label class="visually-hidden" for="lang-select" data-i18n="langLabel">Kieli</label>
+          <select id="lang-select" class="lang-select" aria-label="Language">
+            <option value="fi">Suomi</option>
+            <option value="en">English</option>
+            <option value="sv">Svenska</option>
+            <option value="no">Norsk</option>
+            <option value="da">Dansk</option>
+            <option value="de">Deutsch</option>
+            <option value="es">Español</option>
+            <option value="it">Italiano</option>
+            <option value="ja">日本語</option>
+            <option value="ko">한국어</option>
+          </select>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-inner">
+          <div class="hero-brand">
+            <img src="assets/logo.svg" alt="" width="54" height="54" />
+            <span>IQSoftCore</span>
+          </div>
+          <h1 id="hero-title" data-i18n="heroTitle">
+            Selkeitä ohjelmia ja sovelluksia ilman turhaa monimutkaisuutta.
+          </h1>
+          <p class="hero-lead" data-i18n="heroLead">
+            Rakennamme kevyitä, luotettavia digitaalisia ratkaisuja, jotka tekevät
+            työnsä hyvin – ja joita on helppo käyttää.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#contact" data-i18n="ctaContact">Ota yhteyttä</a>
+            <a class="btn btn-ghost" href="#about" data-i18n="ctaAbout">Lue lisää</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="about">
+        <div class="section-inner">
+          <h2 data-i18n="aboutTitle">Mitä teemme</h2>
+          <p data-i18n="aboutP1">
+            IQSoftCore on suomalainen ohjelmistoyritys, joka kehittää yksinkertaisia
+            ohjelmia ja sovelluksia yritysten ja käyttäjien arkeen. Keskitymme selkeään
+            tarkoitukseen, sujuvaan käyttökokemukseen ja ratkaisuihin, jotka voi ottaa
+            käyttöön ilman raskasta järjestelmäprojektia.
+          </p>
+          <p data-i18n="aboutP2">
+            Tyypillisiä hankkeita ovat pienet ja keskisuuret sovellukset, työkalut sekä
+            digitaaliset palvelut, joissa tärkeintä on toimivuus, ylläpidettävyys ja
+            nopea hyöty.
+          </p>
+        </div>
+      </section>
+
+      <section class="section" id="contact">
+        <div class="section-inner">
+          <h2 data-i18n="contactTitle">Yhteystiedot</h2>
+          <p data-i18n="contactIntro">
+            Kerro lyhyesti tarpeestasi – vastaamme mahdollisimman pian.
+          </p>
+          <ul class="contact-list">
+            <li>
+              <span class="contact-label" data-i18n="labelEmail">Sähköposti</span>
+              <a href="mailto:info@iqsoftcore.fi">info@iqsoftcore.fi</a>
+            </li>
+            <li>
+              <span class="contact-label" data-i18n="labelPhone">Puhelin</span>
+              <a href="tel:+358451334009">+358 45 133 4009</a>
+            </li>
+            <li>
+              <span class="contact-label" data-i18n="labelLocation">Sijainti</span>
+              <span data-i18n="locationValue">Suomi</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <p>© <span id="year"></span> IQSoftCore. <span data-i18n="footerRights">Kaikki oikeudet pidätetään.</span></p>
+        <div class="footer-links">
+          <a href="privacy.html" data-i18n="navPrivacy">Tietosuoja</a>
+          <a href="mailto:info@iqsoftcore.fi">info@iqsoftcore.fi</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/i18n.js"></script>
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
