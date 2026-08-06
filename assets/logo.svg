@@ -6,7 +6,20 @@
     </linearGradient>
   </defs>
   <rect width="64" height="64" rx="14" fill="url(#mark)"/>
-  <path fill="#F4FBF9" d="M18 20.5c0-1.4 1.1-2.5 2.5-2.5h7.2c5.6 0 9.3 3.5 9.3 8.7 0 5.3-3.7 8.8-9.3 8.8H23v8.3c0 1.4-1.1 2.5-2.5 2.5S18 45.2 18 43.8V20.5zm5 11.5h4.6c2.8 0 4.5-1.6 4.5-4.3s-1.7-4.2-4.5-4.2H23V32z"/>
-  <circle cx="44.5" cy="42.5" r="5.2" fill="none" stroke="#7FD4C8" stroke-width="3.2"/>
-  <path stroke="#7FD4C8" stroke-width="3.2" stroke-linecap="round" d="M48.4 46.4l3.8 3.8"/>
+  <!-- I -->
+  <rect x="10" y="18" width="4.2" height="24" rx="1.2" fill="#F4FBF9"/>
+  <!-- Q -->
+  <circle cx="28.5" cy="30" r="9.2" fill="none" stroke="#F4FBF9" stroke-width="4"/>
+  <path d="M33.2 35.2l4.4 4.8" stroke="#F4FBF9" stroke-width="4" stroke-linecap="round"/>
+  <!-- C -->
+  <path
+    d="M48.8 21.2c-6.4-2.2-12.4 1.4-13.6 8.2-1.2 6.8 3.8 12.8 10.6 13.2 2.2.1 4.3-.4 6.1-1.5"
+    fill="none"
+    stroke="#F4FBF9"
+    stroke-width="4"
+    stroke-linecap="round"
+  />
+  <!-- magnifier, bottom-right -->
+  <circle cx="51.5" cy="51.2" r="4" fill="none" stroke="#7FD4C8" stroke-width="2.3"/>
+  <path stroke="#7FD4C8" stroke-width="2.3" stroke-linecap="round" d="M54.4 54.1l3 3"/>
 </svg>
