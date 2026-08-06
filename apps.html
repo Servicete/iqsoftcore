@@ -3,10 +3,10 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Tuntilappu – Tietosuojakäytäntö | IQSoftCore</title>
+    <title>Sovellukset ja ohjelmistot | IQSoftCore</title>
     <meta
       name="description"
-      content="Tuntilappu-sovelluksen tietosuojakäytäntö. Data säilyy käyttäjän laitteella."
+      content="IQSoftCoren sovellukset – aloita Tuntilapulla, yksinkertaisella työajanseurannalla."
     />
     <link rel="icon" href="assets/logo.svg" type="image/svg+xml" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -26,7 +26,7 @@
         </a>
         <nav class="nav" aria-label="Primary">
           <a href="index.html#about" data-i18n="navAbout">Toiminta</a>
-          <a href="apps.html" data-i18n="navApps">Sovellukset</a>
+          <a href="apps.html" aria-current="page" data-i18n="navApps">Sovellukset</a>
           <a href="index.html#contact" data-i18n="navContact">Yhteystiedot</a>
           <a href="privacy.html" data-i18n="navPrivacy">Tietosuoja</a>
           <label class="visually-hidden" for="lang-select" data-i18n="langLabel">Kieli</label>
@@ -52,9 +52,9 @@
       </div>
     </header>
 
-    <main class="privacy-page">
+    <main class="apps-page">
       <div class="section-inner">
-        <article id="policy-root" data-policy="tuntilappu"></article>
+        <div id="apps-root"></div>
       </div>
     </main>
 
@@ -70,8 +70,7 @@
     </footer>
 
     <script src="js/tuntilappu-names.js"></script>
-    <script src="js/privacy-policies.js"></script>
-    <script src="js/privacy-tuntilappu.js"></script>
+    <script src="js/apps-content.js"></script>
     <script src="js/i18n.js"></script>
     <script>
       document.getElementById("year").textContent = new Date().getFullYear();

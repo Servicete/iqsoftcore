@@ -3,7 +3,7 @@
  * Used on the website when the user switches language.
  */
 const TUNTILAPPU_NAMES = {
-  fi: "Tuntilappu PDF – Tuntikirjaus",
+  fi: "Tuntilappu",
   en: "Timesheet PDF – Work Hours Log",
   de: "Stundenzettel PDF – Arbeitszeiterfassung",
   fr: "Feuille de Temps PDF – Suivi des Heures",

@@ -5,6 +5,7 @@ const translations = {
       "IQSoftCore suunnittelee ja rakentaa selkeitä, käytännöllisiä ohjelmia ja sovelluksia.",
     navAbout: "Toiminta",
     navContact: "Yhteystiedot",
+    navApps: "Sovellukset",
     navPrivacy: "Tietosuoja",
     langLabel: "Kieli",
     heroTitle: "Selkeitä ohjelmia ja sovelluksia ilman turhaa monimutkaisuutta.",
@@ -31,6 +32,7 @@ const translations = {
       "IQSoftCore designs and builds clear, practical programs and applications.",
     navAbout: "What we do",
     navContact: "Contact",
+    navApps: "Apps",
     navPrivacy: "Privacy",
     langLabel: "Language",
     heroTitle: "Simple software and applications without unnecessary complexity.",
@@ -57,6 +59,7 @@ const translations = {
       "IQSoftCore designar och bygger tydliga, praktiska program och applikationer.",
     navAbout: "Vad vi gör",
     navContact: "Kontakt",
+    navApps: "Appar",
     navPrivacy: "Integritet",
     langLabel: "Språk",
     heroTitle: "Enkla program och applikationer utan onödig komplexitet.",
@@ -83,6 +86,7 @@ const translations = {
       "IQSoftCore designer og bygger tydelige, praktiske programmer og applikasjoner.",
     navAbout: "Hva vi gjør",
     navContact: "Kontakt",
+    navApps: "Apper",
     navPrivacy: "Personvern",
     langLabel: "Språk",
     heroTitle: "Enkle programmer og applikasjoner uten unødvendig kompleksitet.",
@@ -109,6 +113,7 @@ const translations = {
       "IQSoftCore designer og bygger klare, praktiske programmer og applikationer.",
     navAbout: "Hvad vi gør",
     navContact: "Kontakt",
+    navApps: "Apps",
     navPrivacy: "Privatliv",
     langLabel: "Sprog",
     heroTitle: "Enkle programmer og applikationer uden unødvendig kompleksitet.",
@@ -135,6 +140,7 @@ const translations = {
       "IQSoftCore entwirft und entwickelt klare, praxisnahe Programme und Anwendungen.",
     navAbout: "Was wir tun",
     navContact: "Kontakt",
+    navApps: "Apps",
     navPrivacy: "Datenschutz",
     langLabel: "Sprache",
     heroTitle: "Einfache Programme und Anwendungen ohne unnötige Komplexität.",
@@ -161,6 +167,7 @@ const translations = {
       "IQSoftCore diseña y construye programas y aplicaciones claros y prácticos.",
     navAbout: "Qué hacemos",
     navContact: "Contacto",
+    navApps: "Aplicaciones",
     navPrivacy: "Privacidad",
     langLabel: "Idioma",
     heroTitle: "Programas y aplicaciones sencillas sin complejidad innecesaria.",
@@ -187,6 +194,7 @@ const translations = {
       "IQSoftCore progetta e realizza programmi e applicazioni chiari e pratici.",
     navAbout: "Cosa facciamo",
     navContact: "Contatti",
+    navApps: "App",
     navPrivacy: "Privacy",
     langLabel: "Lingua",
     heroTitle: "Programmi e applicazioni semplici senza complessità inutili.",
@@ -213,6 +221,7 @@ const translations = {
       "IQSoftCoreは、わかりやすく実用的なプログラムとアプリケーションを設計・開発します。",
     navAbout: "事業内容",
     navContact: "お問い合わせ",
+    navApps: "アプリ",
     navPrivacy: "プライバシー",
     langLabel: "言語",
     heroTitle: "余計な複雑さのない、シンプルなプログラムとアプリケーション。",
@@ -239,6 +248,7 @@ const translations = {
       "IQSoftCore는 명확하고 실용적인 프로그램과 애플리케이션을 설계하고 구축합니다.",
     navAbout: "사업 소개",
     navContact: "연락처",
+    navApps: "앱",
     navPrivacy: "개인정보",
     langLabel: "언어",
     heroTitle: "불필요한 복잡함 없는 간단한 프로그램과 애플리케이션.",
@@ -264,6 +274,7 @@ const translations = {
     metaDescription: "IQSoftCore conçoit et développe des programmes et applications clairs et pratiques.",
     navAbout: "Notre activité",
     navContact: "Contact",
+    navApps: "Applications",
     navPrivacy: "Confidentialité",
     langLabel: "Langue",
     heroTitle: "Des logiciels et applications simples, sans complexité inutile.",
@@ -286,6 +297,7 @@ const translations = {
     metaDescription: "A IQSoftCore projeta e cria programas e aplicativos claros e práticos.",
     navAbout: "O que fazemos",
     navContact: "Contato",
+    navApps: "Aplicativos",
     navPrivacy: "Privacidade",
     langLabel: "Idioma",
     heroTitle: "Programas e aplicativos simples, sem complexidade desnecessária.",
@@ -308,6 +320,7 @@ const translations = {
     metaDescription: "IQSoftCore ontwerpt en bouwt duidelijke, praktische programma’s en applicaties.",
     navAbout: "Wat we doen",
     navContact: "Contact",
+    navApps: "Apps",
     navPrivacy: "Privacy",
     langLabel: "Taal",
     heroTitle: "Eenvoudige programma’s en apps zonder onnodige complexiteit.",
@@ -330,6 +343,7 @@ const translations = {
     metaDescription: "IQSoftCore projektuje i tworzy przejrzyste, praktyczne programy i aplikacje.",
     navAbout: "Czym się zajmujemy",
     navContact: "Kontakt",
+    navApps: "Aplikacje",
     navPrivacy: "Prywatność",
     langLabel: "Język",
     heroTitle: "Proste programy i aplikacje bez zbędnej złożoności.",
@@ -352,6 +366,7 @@ const translations = {
     metaDescription: "IQSoftCore navrhuje a vytváří přehledné, praktické programy a aplikace.",
     navAbout: "Co děláme",
     navContact: "Kontakt",
+    navApps: "Aplikace",
     navPrivacy: "Soukromí",
     langLabel: "Jazyk",
     heroTitle: "Jednoduché programy a aplikace bez zbytečné složitosti.",
@@ -374,6 +389,7 @@ const translations = {
     metaDescription: "IQSoftCore 设计并构建清晰、实用的程序与应用程序。",
     navAbout: "我们做什么",
     navContact: "联系方式",
+    navApps: "应用",
     navPrivacy: "隐私",
     langLabel: "语言",
     heroTitle: "简单的程序与应用，没有不必要的复杂。",
@@ -441,6 +457,10 @@ function applyTranslations(lang) {
 
   if (typeof renderPrivacyPolicy === "function") {
     renderPrivacyPolicy(lang);
+  }
+
+  if (typeof renderAppsPage === "function") {
+    renderAppsPage(lang);
   }
 }
 

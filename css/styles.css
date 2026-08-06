@@ -343,6 +343,85 @@ a:hover {
   padding: 3.5rem 0 5rem;
 }
 
+.apps-page {
+  padding: 3.5rem 0 5rem;
+}
+
+.apps-page .section-inner {
+  max-width: 42rem;
+}
+
+.apps-page h1 {
+  margin: 0 0 0.75rem;
+  font-family: var(--font-display);
+  font-size: clamp(1.8rem, 4vw, 2.4rem);
+  letter-spacing: -0.03em;
+}
+
+.apps-intro {
+  margin: 0 0 2rem;
+  color: var(--ink-soft);
+}
+
+.app-card {
+  padding: 1.5rem 0 0.5rem;
+  border-top: 1px solid var(--line);
+}
+
+.app-name {
+  margin: 0 0 0.6rem;
+  font-family: var(--font-display);
+  font-size: clamp(1.35rem, 3vw, 1.75rem);
+  letter-spacing: -0.03em;
+}
+
+.app-short {
+  margin: 0 0 1rem;
+  font-weight: 700;
+  color: var(--ink);
+}
+
+.app-card h3 {
+  margin: 1.5rem 0 0.75rem;
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  letter-spacing: -0.02em;
+}
+
+.app-card ul {
+  margin: 0 0 1rem;
+  padding-left: 1.2rem;
+  color: var(--ink-soft);
+}
+
+.app-card li {
+  margin: 0.4rem 0;
+}
+
+.app-card p {
+  color: var(--ink-soft);
+}
+
+.app-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem 1rem;
+  margin: 1.5rem 0 0.5rem;
+}
+
+.btn-disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.play-soon {
+  font-size: 0.9rem;
+  color: var(--teal);
+  font-weight: 600;
+}
+
 .privacy-page .section-inner {
   max-width: 42rem;
 }

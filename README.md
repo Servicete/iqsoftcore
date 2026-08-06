@@ -5,9 +5,10 @@ Yksinkertaiset yrityskotisivut IQSoftCorelle.
 ## Sisältö
 
 - Etusivu: lyhyt yritysesittely ja yhteystiedot
+- Sovellukset: `apps.html` (Tuntilappu + lokalisoitu nimi/kuvaus, Play-placeholder)
 - Tietosuoja: yritystason lyhyt käytäntö + sovelluskohtaiset lausekkeet
-- Tuntilappu: oma tietosuojasivu (`privacy-tuntilappu.html`) ja lokalisoitu Google Play -nimi kielittäin
-- Logo: SVG-merkki ja wordmark
+- Tuntilappu: oma tietosuojasivu (`privacy-tuntilappu.html`)
+- Logo: SVG-merkki (IQC) ja wordmark
 - Kielet: fi, en, sv, no, da, de, nl, fr, es, pt, it, pl, cs, ja, ko, zh
 
 ## Paikallinen esikatselu
@@ -22,7 +23,8 @@ npx --yes serve .
 
 Tuntilapun tietosuoja-URL: `privacy-tuntilappu.html` (julkaistuna domainillasi).
 
-Lokalisoitujen nimien lähde: `js/tuntilappu-names.js`.
+Lokalisoitujen nimien lähde: `js/tuntilappu-names.js`.  
+Sovelluskuvaukset: `js/apps-content.js`.
 
 ## Yhteystiedot
 
