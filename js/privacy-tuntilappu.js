@@ -1,8 +1,8 @@
 PRIVACY_POLICIES.tuntilappu = {
   fi: {
-    metaTitle: "Tuntilappu – Tietosuojakäytäntö | IQSoftCore",
+    metaTitle: "{app} – Tietosuojakäytäntö | IQSoftCore",
     metaDescription: "Tuntilappu-sovelluksen tietosuojakäytäntö. Data säilyy käyttäjän laitteella.",
-    title: "Tietosuojakäytäntö – Tuntilappu",
+    title: "Tietosuojakäytäntö – {app}",
     updated: "Viimeksi päivitetty: 2026-08-05",
     sections: [
       {
@@ -86,9 +86,9 @@ PRIVACY_POLICIES.tuntilappu = {
     backHome: "Takaisin etusivulle",
   },
   en: {
-    metaTitle: "Tuntilappu – Privacy Policy | IQSoftCore",
+    metaTitle: "{app} – Privacy Policy | IQSoftCore",
     metaDescription: "Privacy policy for the Tuntilappu app. Data stays on the user’s device.",
-    title: "Privacy Policy – Tuntilappu",
+    title: "Privacy Policy – {app}",
     updated: "Last updated: 2026-08-05",
     sections: [
       {
@@ -172,9 +172,9 @@ PRIVACY_POLICIES.tuntilappu = {
     backHome: "Back to home",
   },
   sv: {
-    metaTitle: "Tuntilappu – Integritetspolicy | IQSoftCore",
+    metaTitle: "{app} – Integritetspolicy | IQSoftCore",
     metaDescription: "Integritetspolicy för Tuntilappu. Data stannar på användarens enhet.",
-    title: "Integritetspolicy – Tuntilappu",
+    title: "Integritetspolicy – {app}",
     updated: "Senast uppdaterad: 2026-08-05",
     sections: [
       {
@@ -258,9 +258,9 @@ PRIVACY_POLICIES.tuntilappu = {
     backHome: "Tillbaka till startsidan",
   },
   no: {
-    metaTitle: "Tuntilappu – Personvernerklæring | IQSoftCore",
+    metaTitle: "{app} – Personvernerklæring | IQSoftCore",
     metaDescription: "Personvernerklæring for Tuntilappu. Data blir på brukerens enhet.",
-    title: "Personvernerklæring – Tuntilappu",
+    title: "Personvernerklæring – {app}",
     updated: "Sist oppdatert: 2026-08-05",
     sections: [
       {
@@ -344,9 +344,9 @@ PRIVACY_POLICIES.tuntilappu = {
     backHome: "Tilbake til forsiden",
   },
   da: {
-    metaTitle: "Tuntilappu – Privatlivspolitik | IQSoftCore",
+    metaTitle: "{app} – Privatlivspolitik | IQSoftCore",
     metaDescription: "Privatlivspolitik for Tuntilappu. Data forbliver på brugerens enhed.",
-    title: "Privatlivspolitik – Tuntilappu",
+    title: "Privatlivspolitik – {app}",
     updated: "Senest opdateret: 2026-08-05",
     sections: [
       {
@@ -430,9 +430,9 @@ PRIVACY_POLICIES.tuntilappu = {
     backHome: "Tilbage til forsiden",
   },
   de: {
-    metaTitle: "Tuntilappu – Datenschutzerklärung | IQSoftCore",
+    metaTitle: "{app} – Datenschutzerklärung | IQSoftCore",
     metaDescription: "Datenschutzerklärung für Tuntilappu. Daten bleiben auf dem Gerät des Nutzers.",
-    title: "Datenschutzerklärung – Tuntilappu",
+    title: "Datenschutzerklärung – {app}",
     updated: "Zuletzt aktualisiert: 2026-08-05",
     sections: [
       {
@@ -516,9 +516,9 @@ PRIVACY_POLICIES.tuntilappu = {
     backHome: "Zurück zur Startseite",
   },
   es: {
-    metaTitle: "Tuntilappu – Política de privacidad | IQSoftCore",
+    metaTitle: "{app} – Política de privacidad | IQSoftCore",
     metaDescription: "Política de privacidad de Tuntilappu. Los datos permanecen en el dispositivo del usuario.",
-    title: "Política de privacidad – Tuntilappu",
+    title: "Política de privacidad – {app}",
     updated: "Última actualización: 2026-08-05",
     sections: [
       {
@@ -602,9 +602,9 @@ PRIVACY_POLICIES.tuntilappu = {
     backHome: "Volver al inicio",
   },
   it: {
-    metaTitle: "Tuntilappu – Informativa sulla privacy | IQSoftCore",
+    metaTitle: "{app} – Informativa sulla privacy | IQSoftCore",
     metaDescription: "Informativa privacy di Tuntilappu. I dati restano sul dispositivo dell’utente.",
-    title: "Informativa sulla privacy – Tuntilappu",
+    title: "Informativa sulla privacy – {app}",
     updated: "Ultimo aggiornamento: 2026-08-05",
     sections: [
       {
@@ -688,9 +688,9 @@ PRIVACY_POLICIES.tuntilappu = {
     backHome: "Torna alla home",
   },
   ja: {
-    metaTitle: "Tuntilappu – プライバシーポリシー | IQSoftCore",
+    metaTitle: "{app} – プライバシーポリシー | IQSoftCore",
     metaDescription: "Tuntilappuアプリのプライバシーポリシー。データはユーザーの端末に保存されます。",
-    title: "プライバシーポリシー – Tuntilappu",
+    title: "プライバシーポリシー – {app}",
     updated: "最終更新日: 2026-08-05",
     sections: [
       {
@@ -774,9 +774,9 @@ PRIVACY_POLICIES.tuntilappu = {
     backHome: "ホームに戻る",
   },
   ko: {
-    metaTitle: "Tuntilappu – 개인정보 처리방침 | IQSoftCore",
+    metaTitle: "{app} – 개인정보 처리방침 | IQSoftCore",
     metaDescription: "Tuntilappu 앱 개인정보 처리방침. 데이터는 사용자 기기에 저장됩니다.",
-    title: "개인정보 처리방침 – Tuntilappu",
+    title: "개인정보 처리방침 – {app}",
     updated: "최종 업데이트: 2026-08-05",
     sections: [
       {
@@ -858,5 +858,557 @@ PRIVACY_POLICIES.tuntilappu = {
     ],
     backCompany: "기업 개인정보 처리방침",
     backHome: "홈으로 돌아가기",
+  },
+  fr: {
+    metaTitle: "{app} – Politique de confidentialité | IQSoftCore",
+    metaDescription: "Politique de confidentialité de l’application {app}. Les données restent sur l’appareil de l’utilisateur.",
+    title: "Politique de confidentialité – {app}",
+    updated: "Dernière mise à jour : 2026-08-05",
+    sections: [
+      {
+        heading: "1. Généralités",
+        paragraphs: [
+          "Cette politique de confidentialité décrit la façon dont l’application {app} traite les données utilisateur. Le responsable du traitement est IQSoftCore, Finlande.",
+          "L’application est conçue pour ne collecter, stocker, partager ni traiter aucune donnée personnelle sur des serveurs. Toutes les données produites par l’application sont conservées uniquement sur l’appareil de l’utilisateur. L’application peut être utilisée sans inscription, connexion ni compte utilisateur.",
+        ],
+      },
+      {
+        heading: "2. Données non collectées",
+        paragraphs: [
+          "L’application ne collecte pas les éléments suivants :",
+        ],
+        bullets: [
+          "données personnelles (nom, e-mail, numéro de téléphone, adresse)",
+          "données de localisation",
+          "identifiants de l’appareil",
+          "données d’analyse",
+          "données d’utilisation",
+          "données de stockage cloud",
+          "cookies",
+        ],
+        after: [
+          "L’application n’envoie aucune donnée à des serveurs externes.",
+        ],
+      },
+      {
+        heading: "3. Données stockées sur l’appareil",
+        paragraphs: [
+          "L’application stocke uniquement le contenu saisi par l’utilisateur, tel que :",
+        ],
+        bullets: [
+          "saisies d’heures",
+          "notes de travail",
+          "rapports PDF",
+          "paramètres (langue, informations d’entreprise)",
+        ],
+        after: [
+          "Toutes les données sont stockées uniquement sur l’appareil de l’utilisateur. L’utilisateur peut supprimer les données à tout moment en désinstallant l’application ou en effaçant ses données dans les paramètres de l’appareil.",
+        ],
+      },
+      {
+        heading: "4. Paiements et Google Play Billing",
+        paragraphs: [
+          "Les éventuelles fonctionnalités payantes sont gérées via Google Play Billing. L’application ne stocke pas les informations de paiement. Google Play traite les paiements de manière sécurisée selon ses propres conditions.",
+        ],
+      },
+      {
+        heading: "5. Services tiers",
+        paragraphs: [
+          "L’application n’utilise ni publicité, ni analytique, ni bibliothèques tierces collectant des données, et n’utilise pas de serveurs externes ni de stockage cloud.",
+        ],
+      },
+      {
+        heading: "6. Fichiers PDF",
+        paragraphs: [
+          "Les rapports PDF sont créés sur l’appareil et ne sont envoyés nulle part automatiquement. L’utilisateur peut partager le fichier PDF comme il le souhaite (par ex. par e-mail).",
+        ],
+      },
+      {
+        heading: "7. Suppression des données",
+        paragraphs: [
+          "Comme l’application ne collecte pas de données personnelles, l’utilisateur peut supprimer toutes les données stockées en désinstallant l’application ou en effaçant ses données dans les paramètres de l’appareil.",
+        ],
+      },
+      {
+        heading: "8. Confidentialité des enfants",
+        paragraphs: [
+          "L’application ne collecte aucune donnée personnelle et est donc sûre pour tous les groupes d’utilisateurs.",
+        ],
+      },
+      {
+        heading: "9. Modifications de la politique",
+        paragraphs: [
+          "Cette politique peut être mise à jour si nécessaire. Les mises à jour seront publiées dans l’application et sur le site web le cas échéant.",
+        ],
+      },
+      {
+        heading: "10. Contact",
+        paragraphs: [
+          "Pour toute question relative à la confidentialité : info@iqsoftcore.fi",
+        ],
+      },
+    ],
+    backCompany: "Politique de confidentialité de l’entreprise",
+    backHome: "Retour à l’accueil",
+  },
+  pt: {
+    metaTitle: "{app} – Política de Privacidade | IQSoftCore",
+    metaDescription: "Política de privacidade do aplicativo {app}. Os dados permanecem no dispositivo do usuário.",
+    title: "Política de Privacidade – {app}",
+    updated: "Última atualização: 2026-08-05",
+    sections: [
+      {
+        heading: "1. Geral",
+        paragraphs: [
+          "Esta política de privacidade descreve como o aplicativo {app} trata dados do usuário. O controlador é a IQSoftCore, Finlândia.",
+          "O aplicativo foi projetado para não coletar, armazenar, compartilhar nem processar dados pessoais em servidores. Todos os dados produzidos pelo app são armazenados apenas no dispositivo do usuário. O app pode ser usado sem registro, login ou conta de usuário.",
+        ],
+      },
+      {
+        heading: "2. Dados que não são coletados",
+        paragraphs: [
+          "O aplicativo não coleta o seguinte:",
+        ],
+        bullets: [
+          "dados pessoais (nome, e-mail, telefone, endereço)",
+          "dados de localização",
+          "identificadores do dispositivo",
+          "dados de análise",
+          "dados de uso",
+          "dados de armazenamento na nuvem",
+          "cookies",
+        ],
+        after: [
+          "O aplicativo não envia nenhum dado a servidores externos.",
+        ],
+      },
+      {
+        heading: "3. Dados armazenados no dispositivo",
+        paragraphs: [
+          "O aplicativo armazena apenas conteúdo inserido pelo usuário, como:",
+        ],
+        bullets: [
+          "registros de horas",
+          "anotações de trabalho",
+          "relatórios PDF",
+          "configurações (idioma, dados da empresa)",
+        ],
+        after: [
+          "Todos os dados são armazenados apenas no dispositivo do usuário. O usuário pode excluir os dados a qualquer momento desinstalando o app ou limpando os dados nas configurações do dispositivo.",
+        ],
+      },
+      {
+        heading: "4. Pagamentos e Google Play Billing",
+        paragraphs: [
+          "Possíveis recursos pagos são processados pelo Google Play Billing. O aplicativo não armazena dados de pagamento. O Google Play processa pagamentos com segurança segundo seus próprios termos.",
+        ],
+      },
+      {
+        heading: "5. Serviços de terceiros",
+        paragraphs: [
+          "O aplicativo não usa publicidade, análise ou bibliotecas de terceiros que coletam dados, e não usa servidores externos nem armazenamento na nuvem.",
+        ],
+      },
+      {
+        heading: "6. Arquivos PDF",
+        paragraphs: [
+          "Relatórios PDF são criados no dispositivo e não são enviados automaticamente a lugar nenhum. O usuário pode compartilhar o PDF como preferir (por exemplo, por e-mail).",
+        ],
+      },
+      {
+        heading: "7. Exclusão de dados",
+        paragraphs: [
+          "Como o aplicativo não coleta dados pessoais, o usuário pode excluir todos os dados armazenados desinstalando o app ou limpando seus dados nas configurações do dispositivo.",
+        ],
+      },
+      {
+        heading: "8. Privacidade de crianças",
+        paragraphs: [
+          "O aplicativo não coleta dados pessoais e, portanto, é seguro para todos os grupos de usuários.",
+        ],
+      },
+      {
+        heading: "9. Alterações nesta política",
+        paragraphs: [
+          "Esta política pode ser atualizada quando necessário. As atualizações serão publicadas no aplicativo e no site, quando aplicável.",
+        ],
+      },
+      {
+        heading: "10. Contato",
+        paragraphs: [
+          "Dúvidas sobre privacidade: info@iqsoftcore.fi",
+        ],
+      },
+    ],
+    backCompany: "Política de privacidade da empresa",
+    backHome: "Voltar ao início",
+  },
+  nl: {
+    metaTitle: "{app} – Privacybeleid | IQSoftCore",
+    metaDescription: "Privacybeleid voor de app {app}. Data blijft op het apparaat van de gebruiker.",
+    title: "Privacybeleid – {app}",
+    updated: "Laatst bijgewerkt: 2026-08-05",
+    sections: [
+      {
+        heading: "1. Algemeen",
+        paragraphs: [
+          "Dit privacybeleid beschrijft hoe de app {app} gebruikersgegevens verwerkt. De verwerkingsverantwoordelijke is IQSoftCore, Finland.",
+          "De app is zo ontworpen dat zij geen persoonsgegevens op servers verzamelt, opslaat, deelt of verwerkt. Alle data die de app produceert, wordt alleen op het eigen apparaat van de gebruiker bewaard. De app kan zonder registratie, login of gebruikersaccount worden gebruikt.",
+        ],
+      },
+      {
+        heading: "2. Gegevens die niet worden verzameld",
+        paragraphs: [
+          "De app verzamelt het volgende niet:",
+        ],
+        bullets: [
+          "persoonsgegevens (naam, e-mail, telefoonnummer, adres)",
+          "locatiegegevens",
+          "apparaat-ID’s",
+          "analysedata",
+          "gebruiksdata",
+          "cloudopslagdata",
+          "cookies",
+        ],
+        after: [
+          "De app stuurt geen gegevens naar externe servers.",
+        ],
+      },
+      {
+        heading: "3. Gegevens op het apparaat",
+        paragraphs: [
+          "De app slaat alleen door de gebruiker zelf ingevoerde inhoud op, zoals:",
+        ],
+        bullets: [
+          "urenregistraties",
+          "werknotities",
+          "PDF-rapporten",
+          "instellingen (taal, bedrijfsgegevens)",
+        ],
+        after: [
+          "Alle data wordt alleen op het apparaat van de gebruiker opgeslagen. De gebruiker kan de data op elk moment verwijderen door de app te deïnstalleren of de app-gegevens in de apparaatinstellingen te wissen.",
+        ],
+      },
+      {
+        heading: "4. Betalingen en Google Play Billing",
+        paragraphs: [
+          "Eventuele betaalde functies verlopen via Google Play Billing. De app slaat geen betaalgegevens op. Google Play verwerkt betalingen veilig volgens de eigen voorwaarden.",
+        ],
+      },
+      {
+        heading: "5. Diensten van derden",
+        paragraphs: [
+          "De app gebruikt geen advertenties, analytics of third-party bibliotheken die data verzamelen, en gebruikt geen externe servers of cloudopslag.",
+        ],
+      },
+      {
+        heading: "6. PDF-bestanden",
+        paragraphs: [
+          "PDF-rapporten worden op het apparaat gemaakt en niet automatisch ergens naartoe gestuurd. De gebruiker kan het PDF-bestand zelf delen zoals gewenst (bijv. per e-mail).",
+        ],
+      },
+      {
+        heading: "7. Gegevens verwijderen",
+        paragraphs: [
+          "Omdat de app geen persoonsgegevens verzamelt, kan de gebruiker alle door de app opgeslagen data verwijderen door de app te deïnstalleren of de gegevens in de apparaatinstellingen te wissen.",
+        ],
+      },
+      {
+        heading: "8. Privacy van kinderen",
+        paragraphs: [
+          "De app verzamelt geen persoonsgegevens en is daarmee veilig voor alle gebruikersgroepen.",
+        ],
+      },
+      {
+        heading: "9. Wijzigingen in dit beleid",
+        paragraphs: [
+          "Dit privacybeleid kan indien nodig worden bijgewerkt. Updates worden in de app en op de website gepubliceerd wanneer van toepassing.",
+        ],
+      },
+      {
+        heading: "10. Contact",
+        paragraphs: [
+          "Vragen over privacy: info@iqsoftcore.fi",
+        ],
+      },
+    ],
+    backCompany: "Bedrijfsprivacybeleid",
+    backHome: "Terug naar home",
+  },
+  pl: {
+    metaTitle: "{app} – Polityka prywatności | IQSoftCore",
+    metaDescription: "Polityka prywatności aplikacji {app}. Dane pozostają na urządzeniu użytkownika.",
+    title: "Polityka prywatności – {app}",
+    updated: "Ostatnia aktualizacja: 2026-08-05",
+    sections: [
+      {
+        heading: "1. Informacje ogólne",
+        paragraphs: [
+          "Niniejsza polityka prywatności opisuje, w jaki sposób aplikacja {app} przetwarza dane użytkownika. Administratorem jest IQSoftCore, Finlandia.",
+          "Aplikacja została zaprojektowana tak, aby nie zbierać, nie przechowywać, nie udostępniać ani nie przetwarzać danych osobowych na serwerach. Wszystkie dane wytwarzane przez aplikację są przechowywane wyłącznie na urządzeniu użytkownika. Aplikacji można używać bez rejestracji, logowania ani konta użytkownika.",
+        ],
+      },
+      {
+        heading: "2. Dane, których nie zbieramy",
+        paragraphs: [
+          "Aplikacja nie zbiera następujących danych:",
+        ],
+        bullets: [
+          "dane osobowe (imię i nazwisko, e-mail, telefon, adres)",
+          "dane lokalizacyjne",
+          "identyfikatory urządzenia",
+          "dane analityczne",
+          "dane o użytkowaniu",
+          "dane przechowywania w chmurze",
+          "pliki cookie",
+        ],
+        after: [
+          "Aplikacja nie wysyła żadnych danych do zewnętrznych serwerów.",
+        ],
+      },
+      {
+        heading: "3. Dane przechowywane na urządzeniu",
+        paragraphs: [
+          "Aplikacja przechowuje wyłącznie treści wprowadzone przez użytkownika, takie jak:",
+        ],
+        bullets: [
+          "wpisy czasu pracy",
+          "notatki służbowe",
+          "raporty PDF",
+          "ustawienia (język, dane firmy)",
+        ],
+        after: [
+          "Wszystkie dane są przechowywane wyłącznie na urządzeniu użytkownika. Użytkownik może usunąć dane w dowolnym momencie, odinstalowując aplikację lub czyszcząc jej dane w ustawieniach urządzenia.",
+        ],
+      },
+      {
+        heading: "4. Płatności i Google Play Billing",
+        paragraphs: [
+          "Ewentualne funkcje płatne są obsługiwane przez Google Play Billing. Aplikacja nie przechowuje danych płatniczych. Google Play przetwarza płatności bezpiecznie zgodnie z własnymi warunkami.",
+        ],
+      },
+      {
+        heading: "5. Usługi stron trzecich",
+        paragraphs: [
+          "Aplikacja nie korzysta z reklam, analityki ani bibliotek zewnętrznych zbierających dane i nie używa zewnętrznych serwerów ani chmury.",
+        ],
+      },
+      {
+        heading: "6. Pliki PDF",
+        paragraphs: [
+          "Raporty PDF są tworzone na urządzeniu i nie są automatycznie nigdzie wysyłane. Użytkownik może udostępnić plik PDF w wybrany sposób (np. e-mailem).",
+        ],
+      },
+      {
+        heading: "7. Usuwanie danych",
+        paragraphs: [
+          "Ponieważ aplikacja nie zbiera danych osobowych, użytkownik może usunąć wszystkie dane przechowywane przez aplikację, odinstalowując ją lub czyszcząc dane w ustawieniach urządzenia.",
+        ],
+      },
+      {
+        heading: "8. Prywatność dzieci",
+        paragraphs: [
+          "Aplikacja nie zbiera żadnych danych osobowych, dlatego jest bezpieczna dla wszystkich grup użytkowników.",
+        ],
+      },
+      {
+        heading: "9. Zmiany polityki prywatności",
+        paragraphs: [
+          "Polityka prywatności może być aktualizowana w razie potrzeby. Aktualizacje będą publikowane w aplikacji i na stronie internetowej, gdy będzie to dotyczyło.",
+        ],
+      },
+      {
+        heading: "10. Kontakt",
+        paragraphs: [
+          "Pytania o prywatność: info@iqsoftcore.fi",
+        ],
+      },
+    ],
+    backCompany: "Firmowa polityka prywatności",
+    backHome: "Powrót do strony głównej",
+  },
+  cs: {
+    metaTitle: "{app} – Zásady ochrany osobních údajů | IQSoftCore",
+    metaDescription: "Zásady ochrany osobních údajů aplikace {app}. Data zůstávají na zařízení uživatele.",
+    title: "Zásady ochrany osobních údajů – {app}",
+    updated: "Naposledy aktualizováno: 2026-08-05",
+    sections: [
+      {
+        heading: "1. Obecné",
+        paragraphs: [
+          "Tyto zásady popisují, jak aplikace {app} zpracovává uživatelská data. Správcem je IQSoftCore, Finsko.",
+          "Aplikace je navržena tak, aby neshromažďovala, neukládala, nesdílela ani nezpracovávala osobní údaje na serverech. Veškerá data vytvořená aplikací se ukládají pouze na zařízení uživatele. Aplikaci lze používat bez registrace, přihlášení nebo uživatelského účtu.",
+        ],
+      },
+      {
+        heading: "2. Údaje, které neshromažďujeme",
+        paragraphs: [
+          "Aplikace neshromažďuje následující:",
+        ],
+        bullets: [
+          "osobní údaje (jméno, e-mail, telefon, adresa)",
+          "údaje o poloze",
+          "identifikátory zařízení",
+          "analytická data",
+          "data o používání",
+          "data cloudového úložiště",
+          "cookies",
+        ],
+        after: [
+          "Aplikace neodesílá žádná data na externí servery.",
+        ],
+      },
+      {
+        heading: "3. Data uložená na zařízení",
+        paragraphs: [
+          "Aplikace ukládá pouze obsah zadaný uživatelem, například:",
+        ],
+        bullets: [
+          "záznamy pracovní doby",
+          "pracovní poznámky",
+          "PDF reporty",
+          "nastavení (jazyk, firemní údaje)",
+        ],
+        after: [
+          "Veškerá data se ukládají pouze na zařízení uživatele. Uživatel může data kdykoli smazat odinstalováním aplikace nebo vymazáním dat aplikace v nastavení zařízení.",
+        ],
+      },
+      {
+        heading: "4. Platby a Google Play Billing",
+        paragraphs: [
+          "Případné placené funkce probíhají přes Google Play Billing. Aplikace neukládá platební údaje. Google Play zpracovává platby bezpečně podle vlastních podmínek.",
+        ],
+      },
+      {
+        heading: "5. Služby třetích stran",
+        paragraphs: [
+          "Aplikace nepoužívá reklamy, analytiku ani knihovny třetích stran, které sbírají data, a nepoužívá externí servery ani cloudové úložiště.",
+        ],
+      },
+      {
+        heading: "6. Soubory PDF",
+        paragraphs: [
+          "PDF reporty se vytvářejí na zařízení a nejsou automaticky nikam odesílány. Uživatel může PDF sdílet podle vlastní volby (např. e-mailem).",
+        ],
+      },
+      {
+        heading: "7. Mazání dat",
+        paragraphs: [
+          "Protože aplikace neshromažďuje osobní údaje, uživatel může smazat všechna data uložená aplikací odinstalováním aplikace nebo vymazáním jejích dat v nastavení zařízení.",
+        ],
+      },
+      {
+        heading: "8. Ochrana soukromí dětí",
+        paragraphs: [
+          "Aplikace neshromažďuje žádné osobní údaje, a je proto bezpečná pro všechny skupiny uživatelů.",
+        ],
+      },
+      {
+        heading: "9. Změny těchto zásad",
+        paragraphs: [
+          "Tyto zásady mohou být podle potřeby aktualizovány. Aktualizace budou zveřejněny v aplikaci a na webu, pokud to bude relevantní.",
+        ],
+      },
+      {
+        heading: "10. Kontakt",
+        paragraphs: [
+          "Dotazy k ochraně soukromí: info@iqsoftcore.fi",
+        ],
+      },
+    ],
+    backCompany: "Firemní zásady ochrany osobních údajů",
+    backHome: "Zpět na úvod",
+  },
+  zh: {
+    metaTitle: "{app} – 隐私政策 | IQSoftCore",
+    metaDescription: "{app} 应用隐私政策。数据保留在用户设备上。",
+    title: "隐私政策 – {app}",
+    updated: "最近更新：2026-08-05",
+    sections: [
+      {
+        heading: "1. 概述",
+        paragraphs: [
+          "本隐私政策说明 {app} 应用如何处理用户数据。控制者为芬兰的 IQSoftCore。",
+          "本应用设计为不会在服务器上收集、存储、共享或处理任何个人数据。应用产生的所有数据仅保存在用户自己的设备上。无需注册、登录或用户账户即可使用。",
+        ],
+      },
+      {
+        heading: "2. 不收集的信息",
+        paragraphs: [
+          "本应用不收集以下信息：",
+        ],
+        bullets: [
+          "个人数据（姓名、电子邮件、电话号码、地址）",
+          "位置数据",
+          "设备标识符",
+          "分析数据",
+          "使用数据",
+          "云存储数据",
+          "Cookie",
+        ],
+        after: [
+          "本应用不会向外部服务器发送任何数据。",
+        ],
+      },
+      {
+        heading: "3. 设备上存储的数据",
+        paragraphs: [
+          "本应用仅存储用户自行输入的内容，例如：",
+        ],
+        bullets: [
+          "工时记录",
+          "工作备注",
+          "PDF 报告",
+          "设置（语言、公司信息）",
+        ],
+        after: [
+          "所有数据仅保存在用户设备上。用户可随时通过卸载应用或在设备设置中清除应用数据来删除数据。",
+        ],
+      },
+      {
+        heading: "4. 付款与 Google Play Billing",
+        paragraphs: [
+          "任何付费功能通过 Google Play Billing 处理。应用不存储支付信息。Google Play 根据其自身条款安全处理付款。",
+        ],
+      },
+      {
+        heading: "5. 第三方服务",
+        paragraphs: [
+          "本应用不使用广告、分析或会收集数据的第三方库，也不使用外部服务器或云存储。",
+        ],
+      },
+      {
+        heading: "6. PDF 文件",
+        paragraphs: [
+          "PDF 报告在设备上生成，不会自动发送到任何地方。用户可以按自己选择的方式（例如电子邮件）分享 PDF。",
+        ],
+      },
+      {
+        heading: "7. 删除数据",
+        paragraphs: [
+          "由于应用不收集个人数据，用户可通过卸载应用或在设备设置中清除数据来删除应用存储的全部数据。",
+        ],
+      },
+      {
+        heading: "8. 儿童隐私",
+        paragraphs: [
+          "本应用不收集任何个人数据，因此对所有用户群体都是安全的。",
+        ],
+      },
+      {
+        heading: "9. 政策变更",
+        paragraphs: [
+          "本政策可在需要时更新。更新将在应用中发布，并在适用时发布在网站上。",
+        ],
+      },
+      {
+        heading: "10. 联系方式",
+        paragraphs: [
+          "隐私相关问题：info@iqsoftcore.fi",
+        ],
+      },
+    ],
+    backCompany: "公司隐私政策",
+    backHome: "返回首页",
   },
 };
