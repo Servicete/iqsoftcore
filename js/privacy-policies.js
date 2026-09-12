@@ -39,7 +39,10 @@ const PRIVACY_POLICIES = {
       ],
       appsHeading: "Sovelluskohtaiset tietosuojalausekkeet",
       appsIntro: "Alla olevat lausekkeet koskevat nimettyä sovellusta:",
-      apps: [{ id: "tuntilappu", href: "privacy-tuntilappu.html", blurb: "Paikallinen tuntikirjaus-sovellus (Google Play)." }],
+      apps: [
+        { id: "tuntilappu", href: "privacy-tuntilappu.html", blurb: "Paikallinen tuntikirjaus-sovellus (Google Play)." },
+        { id: "iqrallynote", href: "privacy-iqrallynote.html", blurb: "Rallinuotitus-sovellus (tabletti)." },
+      ],
       backHome: "Takaisin etusivulle",
     },
     en: {
@@ -77,7 +80,10 @@ const PRIVACY_POLICIES = {
       ],
       appsHeading: "App-specific privacy policies",
       appsIntro: "The following policies apply to the named application:",
-      apps: [{ id: "tuntilappu", href: "privacy-tuntilappu.html", blurb: "Local time-tracking app (Google Play)." }],
+      apps: [
+        { id: "tuntilappu", href: "privacy-tuntilappu.html", blurb: "Local time-tracking app (Google Play)." },
+        { id: "iqrallynote", href: "privacy-iqrallynote.html", blurb: "Rally pace-note app (tablet)." },
+      ],
       backHome: "Back to home",
     },
     sv: {
@@ -115,7 +121,10 @@ const PRIVACY_POLICIES = {
       ],
       appsHeading: "App-specifika integritetspolicys",
       appsIntro: "Följande policys gäller den namngivna applikationen:",
-      apps: [{ id: "tuntilappu", href: "privacy-tuntilappu.html", blurb: "Lokal tidrapporteringsapp (Google Play)." }],
+      apps: [
+        { id: "tuntilappu", href: "privacy-tuntilappu.html", blurb: "Lokal tidrapporteringsapp (Google Play)." },
+        { id: "iqrallynote", href: "privacy-iqrallynote.html", blurb: "Rally-pacenote-app (surfplatta)." },
+      ],
       backHome: "Tillbaka till startsidan",
     },
     no: {
@@ -153,7 +162,10 @@ const PRIVACY_POLICIES = {
       ],
       appsHeading: "App-spesifikke personvernerklæringer",
       appsIntro: "Følgende erklæringer gjelder den navngitte applikasjonen:",
-      apps: [{ id: "tuntilappu", href: "privacy-tuntilappu.html", blurb: "Lokal timeføringsapp (Google Play)." }],
+      apps: [
+        { id: "tuntilappu", href: "privacy-tuntilappu.html", blurb: "Lokal timeføringsapp (Google Play)." },
+        { id: "iqrallynote", href: "privacy-iqrallynote.html", blurb: "Rally-pacenote-app (nettbrett)." },
+      ],
       backHome: "Tilbake til forsiden",
     },
     da: {
@@ -191,7 +203,10 @@ const PRIVACY_POLICIES = {
       ],
       appsHeading: "App-specifikke privatlivspolitikker",
       appsIntro: "Følgende politikker gælder den navngivne applikation:",
-      apps: [{ id: "tuntilappu", href: "privacy-tuntilappu.html", blurb: "Lokal timeregistreringsapp (Google Play)." }],
+      apps: [
+        { id: "tuntilappu", href: "privacy-tuntilappu.html", blurb: "Lokal timeregistreringsapp (Google Play)." },
+        { id: "iqrallynote", href: "privacy-iqrallynote.html", blurb: "Rally-pacenote-app (tablet)." },
+      ],
       backHome: "Tilbage til forsiden",
     },
     de: {
@@ -229,7 +244,10 @@ const PRIVACY_POLICIES = {
       ],
       appsHeading: "App-spezifische Datenschutzerklärungen",
       appsIntro: "Die folgenden Erklärungen gelten für die genannte Anwendung:",
-      apps: [{ id: "tuntilappu", href: "privacy-tuntilappu.html", blurb: "Lokale Zeiterfassungs-App (Google Play)." }],
+      apps: [
+        { id: "tuntilappu", href: "privacy-tuntilappu.html", blurb: "Lokale Zeiterfassungs-App (Google Play)." },
+        { id: "iqrallynote", href: "privacy-iqrallynote.html", blurb: "Rally-Pacenote-App (Tablet)." },
+      ],
       backHome: "Zurück zur Startseite",
     },
     es: {
@@ -267,7 +285,10 @@ const PRIVACY_POLICIES = {
       ],
       appsHeading: "Políticas de privacidad por aplicación",
       appsIntro: "Las siguientes políticas se aplican a la aplicación indicada:",
-      apps: [{ id: "tuntilappu", href: "privacy-tuntilappu.html", blurb: "App local de registro de horas (Google Play)." }],
+      apps: [
+        { id: "tuntilappu", href: "privacy-tuntilappu.html", blurb: "App local de registro de horas (Google Play)." },
+        { id: "iqrallynote", href: "privacy-iqrallynote.html", blurb: "App de notas de rally (tableta)." },
+      ],
       backHome: "Volver al inicio",
     },
     it: {
@@ -305,7 +326,10 @@ const PRIVACY_POLICIES = {
       ],
       appsHeading: "Informative privacy per applicazione",
       appsIntro: "Le seguenti informative riguardano l’applicazione indicata:",
-      apps: [{ id: "tuntilappu", href: "privacy-tuntilappu.html", blurb: "App locale di registrazione ore (Google Play)." }],
+      apps: [
+        { id: "tuntilappu", href: "privacy-tuntilappu.html", blurb: "App locale di registrazione ore (Google Play)." },
+        { id: "iqrallynote", href: "privacy-iqrallynote.html", blurb: "App di pace note da rally (tablet)." },
+      ],
       backHome: "Torna alla home",
     },
     ja: {
@@ -343,7 +367,10 @@ const PRIVACY_POLICIES = {
       ],
       appsHeading: "アプリ別プライバシーポリシー",
       appsIntro: "以下の方針は、記載のアプリケーションに適用されます:",
-      apps: [{ id: "tuntilappu", href: "privacy-tuntilappu.html", blurb: "端末内の勤怠記録アプリ（Google Play）。" }],
+      apps: [
+        { id: "tuntilappu", href: "privacy-tuntilappu.html", blurb: "端末内の勤怠記録アプリ（Google Play）。" },
+        { id: "iqrallynote", href: "privacy-iqrallynote.html", blurb: "ラリーペースノートアプリ（タブレット）。" },
+      ],
       backHome: "ホームに戻る",
     },
     ko: {
@@ -381,7 +408,10 @@ const PRIVACY_POLICIES = {
       ],
       appsHeading: "앱별 개인정보 처리방침",
       appsIntro: "다음 방침은 명시된 애플리케이션에 적용됩니다:",
-      apps: [{ id: "tuntilappu", href: "privacy-tuntilappu.html", blurb: "로컬 근무시간 기록 앱(Google Play)." }],
+      apps: [
+        { id: "tuntilappu", href: "privacy-tuntilappu.html", blurb: "로컬 근무시간 기록 앱(Google Play)." },
+        { id: "iqrallynote", href: "privacy-iqrallynote.html", blurb: "랠리 페이스노트 앱(태블릿)." },
+      ],
       backHome: "홈으로 돌아가기",
     },
     fr: {
@@ -419,7 +449,10 @@ const PRIVACY_POLICIES = {
       ],
       appsHeading: "Politiques de confidentialité par application",
       appsIntro: "Les politiques suivantes concernent l’application indiquée :",
-      apps: [{ id: "tuntilappu", href: "privacy-tuntilappu.html", blurb: "Application locale de suivi du temps (Google Play)." }],
+      apps: [
+        { id: "tuntilappu", href: "privacy-tuntilappu.html", blurb: "Application locale de suivi du temps (Google Play)." },
+        { id: "iqrallynote", href: "privacy-iqrallynote.html", blurb: "Application de notes de rallye (tablette)." },
+      ],
       backHome: "Retour à l’accueil",
     },
     pt: {
@@ -457,7 +490,10 @@ const PRIVACY_POLICIES = {
       ],
       appsHeading: "Políticas de privacidade por aplicativo",
       appsIntro: "As políticas a seguir se aplicam ao aplicativo indicado:",
-      apps: [{ id: "tuntilappu", href: "privacy-tuntilappu.html", blurb: "App local de registro de horas (Google Play)." }],
+      apps: [
+        { id: "tuntilappu", href: "privacy-tuntilappu.html", blurb: "App local de registro de horas (Google Play)." },
+        { id: "iqrallynote", href: "privacy-iqrallynote.html", blurb: "App de anotações de rally (tablet)." },
+      ],
       backHome: "Voltar ao início",
     },
     nl: {
@@ -495,7 +531,10 @@ const PRIVACY_POLICIES = {
       ],
       appsHeading: "App-specifieke privacyverklaringen",
       appsIntro: "De volgende verklaringen gelden voor de genoemde applicatie:",
-      apps: [{ id: "tuntilappu", href: "privacy-tuntilappu.html", blurb: "Lokale urenregistratie-app (Google Play)." }],
+      apps: [
+        { id: "tuntilappu", href: "privacy-tuntilappu.html", blurb: "Lokale urenregistratie-app (Google Play)." },
+        { id: "iqrallynote", href: "privacy-iqrallynote.html", blurb: "Rally-pacenote-app (tablet)." },
+      ],
       backHome: "Terug naar home",
     },
     pl: {
@@ -533,7 +572,10 @@ const PRIVACY_POLICIES = {
       ],
       appsHeading: "Polityki prywatności aplikacji",
       appsIntro: "Poniższe polityki dotyczą wskazanej aplikacji:",
-      apps: [{ id: "tuntilappu", href: "privacy-tuntilappu.html", blurb: "Lokalna aplikacja ewidencji czasu pracy (Google Play)." }],
+      apps: [
+        { id: "tuntilappu", href: "privacy-tuntilappu.html", blurb: "Lokalna aplikacja ewidencji czasu pracy (Google Play)." },
+        { id: "iqrallynote", href: "privacy-iqrallynote.html", blurb: "Aplikacja notatek rajdowych (tablet)." },
+      ],
       backHome: "Powrót do strony głównej",
     },
     cs: {
@@ -571,7 +613,10 @@ const PRIVACY_POLICIES = {
       ],
       appsHeading: "Zásady pro jednotlivé aplikace",
       appsIntro: "Následující zásady platí pro uvedenou aplikaci:",
-      apps: [{ id: "tuntilappu", href: "privacy-tuntilappu.html", blurb: "Lokální aplikace evidence pracovní doby (Google Play)." }],
+      apps: [
+        { id: "tuntilappu", href: "privacy-tuntilappu.html", blurb: "Lokální aplikace evidence pracovní doby (Google Play)." },
+        { id: "iqrallynote", href: "privacy-iqrallynote.html", blurb: "Aplikace rallyových pace notes (tablet)." },
+      ],
       backHome: "Zpět na úvod",
     },
     zh: {
@@ -609,7 +654,10 @@ const PRIVACY_POLICIES = {
       ],
       appsHeading: "应用专属隐私政策",
       appsIntro: "以下政策适用于所列应用程序：",
-      apps: [{ id: "tuntilappu", href: "privacy-tuntilappu.html", blurb: "本地工时记录应用（Google Play）。" }],
+      apps: [
+        { id: "tuntilappu", href: "privacy-tuntilappu.html", blurb: "本地工时记录应用（Google Play）。" },
+        { id: "iqrallynote", href: "privacy-iqrallynote.html", blurb: "拉力赛路书应用（平板）。" },
+      ],
       backHome: "返回首页",
     },
   },
@@ -626,6 +674,9 @@ function escapeHtml(value) {
 function resolveAppDisplayName(app, lang) {
   if (app.id === "tuntilappu" && typeof tuntilappuName === "function") {
     return tuntilappuName(lang);
+  }
+  if (app.id === "iqrallynote") {
+    return "iqRallyNote";
   }
   return app.name || "";
 }
@@ -666,10 +717,12 @@ function renderPrivacyPolicy(lang) {
   const policy = bundle[lang] || bundle.en || bundle.fi;
   if (!policy) return;
 
-  const appName =
-    policyId === "tuntilappu" && typeof tuntilappuName === "function"
-      ? tuntilappuName(lang)
-      : "Tuntilappu";
+  let appName = "Tuntilappu";
+  if (policyId === "tuntilappu" && typeof tuntilappuName === "function") {
+    appName = tuntilappuName(lang);
+  } else if (policyId === "iqrallynote") {
+    appName = "iqRallyNote";
+  }
 
   const title = fillAppPlaceholders(policy.title, appName);
   const metaTitle = fillAppPlaceholders(policy.metaTitle, appName);
