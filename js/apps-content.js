@@ -348,40 +348,41 @@ function escapeAppsHtml(value) {
     .replace(/"/g, "&quot;");
 }
 
-function renderAppsPage(lang) {
-  const root = document.getElementById("apps-root");
+function renderTuntilappuPage(lang) {
+  const root = document.getElementById("tuntilappu-root");
   if (!root || typeof APPS_PAGE === "undefined") return;
 
   const page = APPS_PAGE[lang] || APPS_PAGE.en || APPS_PAGE.fi;
   if (!page) return;
 
-  const appName =
-    typeof tuntilappuName === "function" ? tuntilappuName(lang) : "Tuntilappu";
+  const ui = (typeof translations !== "undefined" && (translations[lang] || translations.en)) || {};
+  const appName = typeof tuntilappuName === "function" ? tuntilappuName(lang) : "Tuntilappu";
 
   const titleEl = document.querySelector("title");
-  if (titleEl && page.metaTitle) titleEl.textContent = page.metaTitle;
+  if (titleEl) titleEl.textContent = "Tuntilappu | IQSoftCore";
 
   const metaDesc = document.querySelector('meta[name="description"]');
-  if (metaDesc && page.metaDescription) {
-    metaDesc.setAttribute("content", page.metaDescription);
-  }
+  if (metaDesc && page.short) metaDesc.setAttribute("content", page.short);
 
-  let html = `<h1>${escapeAppsHtml(page.pageTitle)}</h1>`;
-  html += `<p class="apps-intro">${escapeAppsHtml(page.pageIntro)}</p>`;
-  html += `<article class="app-card">`;
-  html += `<h2 class="app-name">${escapeAppsHtml(appName)}</h2>`;
+  let html = `<h1>Tuntilappu</h1>`;
+  if (appName && appName !== "Tuntilappu") {
+    const playLabel = ui.playNameLabel || "Google Play";
+    html += `<p class="store-title">${escapeAppsHtml(playLabel)}: ${escapeAppsHtml(appName)}</p>`;
+  }
   html += `<p class="app-short">${escapeAppsHtml(page.short)}</p>`;
   html += `<p>${escapeAppsHtml(page.long)}</p>`;
-  html += `<h3>${escapeAppsHtml(page.featuresHeading)}</h3>`;
-  html += `<ul>${page.features.map((f) => `<li>${escapeAppsHtml(f)}</li>`).join("")}</ul>`;
+  html += `<h2>${escapeAppsHtml(page.featuresHeading)}</h2>`;
+  html += `<ul>${page.features.map((item) => `<li>${escapeAppsHtml(item)}</li>`).join("")}</ul>`;
   html += `<p>${escapeAppsHtml(page.closing)}</p>`;
+  if (ui.noPublicPrice) {
+    html += `<p>${escapeAppsHtml(ui.noPublicPrice)} <a href="index.html#contact">${escapeAppsHtml(ui.ctaContact || "")}</a></p>`;
+  }
   html += `<div class="app-actions">`;
-  html += `<span class="btn btn-primary btn-disabled" aria-disabled="true" title="${escapeAppsHtml(page.playSoon)}">${escapeAppsHtml(page.playLabel)}</span>`;
+  html += `<span class="btn btn-primary btn-disabled" aria-disabled="true">${escapeAppsHtml(page.playLabel)}</span>`;
   html += `<span class="play-soon">${escapeAppsHtml(page.playSoon)}</span>`;
   html += `<a class="btn btn-ghost" href="privacy-tuntilappu.html">${escapeAppsHtml(page.privacyLink)}</a>`;
   html += `</div>`;
-  html += `</article>`;
-  html += `<p class="policy-nav"><a class="btn btn-ghost" href="index.html">${escapeAppsHtml(page.backHome)}</a></p>`;
+  html += `<p class="policy-nav"><a class="btn btn-ghost" href="apps.html">${escapeAppsHtml(ui.backApps || page.backHome)}</a></p>`;
 
   root.innerHTML = html;
 }
