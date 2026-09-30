@@ -727,6 +727,12 @@ a:hover {
   white-space: nowrap;
 }
 
+.vat-note {
+  margin: 0.35rem 0 1rem;
+  max-width: 42rem;
+  color: var(--ink-soft);
+}
+
 .price-aside {
   margin: 0.35rem 0;
 }
