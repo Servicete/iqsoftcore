@@ -40,7 +40,7 @@ const PRICING_PAGE = {
       ["51–100", "1,10 €"],
       ["yli 100", "0,90 €"],
     ],
-    trailer: "Perävaunu on 0,5 yksikköä eli 50 % ajoneuvon tai koneen hinnasta samassa portaassa.",
+    trailer: "Perävaunu lasketaan puoleksi yksiköksi samoissa hintaportaissa, joten se maksaa puolet sen portaan ajoneuvohinnasta, johon se osuu, ja ajoneuvot täyttävät portaat ensin.",
     mounted: "Asennettu laite on maksuton, eikä sitä lasketa yksiköihin.",
     users: "Käyttäjiä voi olla rajattomasti. Käyttäjämäärästä ei veloiteta.",
     peak: "Lasku perustuu kalenterikuukauden suurimpaan yksikkömäärään.",
@@ -48,11 +48,18 @@ const PRICING_PAGE = {
     cta: "Kokeile ilmaiseksi 30 päivää",
     terms: "Käyttöehdot",
     calcTitle: "Kuukausihinnan laskuri",
-    calcIntro: "Syötä ajoneuvojen ja koneiden määrä sekä perävaunujen määrä. Laskuri jakaa yksiköt portaisiin.",
+    calcIntro: "Syötä ajoneuvojen ja koneiden määrä sekä perävaunujen määrä. Jokainen rivi näyttää, mistä summa tulee.",
     vehiclesLabel: "Ajoneuvot ja koneet",
     trailersLabel: "Perävaunut",
     vehiclesMath: "Ajoneuvot ja koneet",
     trailersMath: "Perävaunut × 0,5",
+    trailersHalf: "Perävaunut (puoli yksikköä)",
+    totalWord: "Yhteensä",
+    perMonth: "/kk",
+    examplesTitle: "Esimerkkejä",
+    example5: "5 ajoneuvoa",
+    example20: "20 ajoneuvoa ja 5 perävaunua",
+    example60: "60 ajoneuvoa ja 20 perävaunua",
     totalUnits: "Yksiköitä yhteensä",
     unitsSum: "Yksiköiden hinta",
     baseLine: "Perusmaksu",
@@ -84,7 +91,7 @@ const PRICING_PAGE = {
       ["51–100", "1.10 €"],
       ["over 100", "0.90 €"],
     ],
-    trailer: "A trailer is 0.5 units, which is 50% of the vehicle or machine price in the same tier.",
+    trailer: "A trailer counts as half a unit in the same price tiers, so it costs half the vehicle price of the tier it falls into, and vehicles fill the tiers first.",
     mounted: "Mounted equipment is free and is not counted as a unit.",
     users: "Users are unlimited. There is no charge per user.",
     peak: "The bill uses the highest unit count in that calendar month.",
@@ -92,11 +99,18 @@ const PRICING_PAGE = {
     cta: "Try free for 30 days",
     terms: "Terms of use",
     calcTitle: "Monthly price calculator",
-    calcIntro: "Enter the number of vehicles and machines, and the number of trailers. The calculator splits the units across the tiers.",
+    calcIntro: "Enter the number of vehicles and machines, and the number of trailers. Each line shows where that part of the price comes from.",
     vehiclesLabel: "Vehicles and machines",
     trailersLabel: "Trailers",
     vehiclesMath: "Vehicles and machines",
     trailersMath: "Trailers × 0.5",
+    trailersHalf: "Trailers (half a unit)",
+    totalWord: "Total",
+    perMonth: "/month",
+    examplesTitle: "Examples",
+    example5: "5 vehicles",
+    example20: "20 vehicles and 5 trailers",
+    example60: "60 vehicles and 20 trailers",
     totalUnits: "Units in total",
     unitsSum: "Price of the units",
     baseLine: "Base fee",
@@ -123,7 +137,7 @@ const PRICING_PAGE = {
     colRange: "Enheter",
     colPrice: "Pris / enhet / mån",
     tiers: [["1–15", "1,50 €"], ["16–50", "1,30 €"], ["51–100", "1,10 €"], ["över 100", "0,90 €"]],
-    trailer: "Ett släp är 0,5 enheter, alltså 50 % av priset för ett fordon eller en maskin i samma steg.",
+    trailer: "Ett släp räknas som en halv enhet i samma prissteg, så det kostar hälften av fordonspriset i det steg det hamnar i, och fordonen fyller stegen först.",
     mounted: "Monterad utrustning är gratis och räknas inte som en enhet.",
     users: "Antalet användare är obegränsat. Det finns ingen avgift per användare.",
     peak: "Fakturan utgår från det högsta enhetsantalet under kalendermånaden.",
@@ -131,11 +145,18 @@ const PRICING_PAGE = {
     cta: "Prova gratis i 30 dagar",
     terms: "Användarvillkor",
     calcTitle: "Räknare för månadspris",
-    calcIntro: "Ange antal fordon och maskiner samt antal släp. Räknaren fördelar enheterna på stegen.",
+    calcIntro: "Ange antal fordon och maskiner samt antal släp. Varje rad visar var den delen av priset kommer ifrån.",
     vehiclesLabel: "Fordon och maskiner",
     trailersLabel: "Släp",
     vehiclesMath: "Fordon och maskiner",
     trailersMath: "Släp × 0,5",
+    trailersHalf: "Släp (en halv enhet)",
+    totalWord: "Totalt",
+    perMonth: "/mån",
+    examplesTitle: "Exempel",
+    example5: "5 fordon",
+    example20: "20 fordon och 5 släp",
+    example60: "60 fordon och 20 släp",
     totalUnits: "Enheter totalt",
     unitsSum: "Pris för enheterna",
     baseLine: "Grundavgift",
@@ -159,7 +180,7 @@ const PRICING_PAGE = {
     colRange: "Enheter",
     colPrice: "Pris / enhet / mnd",
     tiers: [["1–15", "1,50 €"], ["16–50", "1,30 €"], ["51–100", "1,10 €"], ["over 100", "0,90 €"]],
-    trailer: "En tilhenger er 0,5 enheter, altså 50 % av prisen for et kjøretøy eller en maskin i samme trinn.",
+    trailer: "En tilhenger regnes som en halv enhet i samme prisnivå, så den koster halvparten av kjøretøyprisen i det nivået den havner i, og kjøretøyene fyller nivåene først.",
     mounted: "Montert utstyr er gratis og telles ikke som en enhet.",
     users: "Antall brukere er ubegrenset. Det er ingen pris per bruker.",
     peak: "Fakturaen bruker det høyeste enhetsantallet i kalendermåneden.",
@@ -167,11 +188,18 @@ const PRICING_PAGE = {
     cta: "Prøv gratis i 30 dager",
     terms: "Vilkår",
     calcTitle: "Kalkulator for månedspris",
-    calcIntro: "Oppgi antall kjøretøy og maskiner, og antall tilhengere. Kalkulatoren fordeler enhetene på trinnene.",
+    calcIntro: "Oppgi antall kjøretøy og maskiner, og antall tilhengere. Hver linje viser hvor den delen av prisen kommer fra.",
     vehiclesLabel: "Kjøretøy og maskiner",
     trailersLabel: "Tilhengere",
     vehiclesMath: "Kjøretøy og maskiner",
     trailersMath: "Tilhengere × 0,5",
+    trailersHalf: "Tilhengere (en halv enhet)",
+    totalWord: "Totalt",
+    perMonth: "/mnd",
+    examplesTitle: "Eksempler",
+    example5: "5 kjøretøy",
+    example20: "20 kjøretøy og 5 tilhengere",
+    example60: "60 kjøretøy og 20 tilhengere",
     totalUnits: "Enheter totalt",
     unitsSum: "Pris for enhetene",
     baseLine: "Grunnavgift",
@@ -195,7 +223,7 @@ const PRICING_PAGE = {
     colRange: "Enheder",
     colPrice: "Pris / enhed / md",
     tiers: [["1–15", "1,50 €"], ["16–50", "1,30 €"], ["51–100", "1,10 €"], ["over 100", "0,90 €"]],
-    trailer: "En anhænger er 0,5 enheder, altså 50 % af prisen for et køretøj eller en maskine i samme trin.",
+    trailer: "En anhænger tæller som en halv enhed i samme pristrin, så den koster halvdelen af køretøjsprisen i det trin, den lander i, og køretøjerne fylder trinnene først.",
     mounted: "Monteret udstyr er gratis og tælles ikke som en enhed.",
     users: "Antallet af brugere er ubegrænset. Der er ingen pris pr. bruger.",
     peak: "Regningen bruger det højeste enhedstal i kalendermåneden.",
@@ -203,11 +231,18 @@ const PRICING_PAGE = {
     cta: "Prøv gratis i 30 dage",
     terms: "Vilkår",
     calcTitle: "Beregner til månedspris",
-    calcIntro: "Angiv antal køretøjer og maskiner samt antal anhængere. Beregneren fordeler enhederne på trinnene.",
+    calcIntro: "Angiv antal køretøjer og maskiner samt antal anhængere. Hver linje viser, hvor den del af prisen kommer fra.",
     vehiclesLabel: "Køretøjer og maskiner",
     trailersLabel: "Anhængere",
     vehiclesMath: "Køretøjer og maskiner",
     trailersMath: "Anhængere × 0,5",
+    trailersHalf: "Anhængere (en halv enhed)",
+    totalWord: "I alt",
+    perMonth: "/md.",
+    examplesTitle: "Eksempler",
+    example5: "5 køretøjer",
+    example20: "20 køretøjer og 5 anhængere",
+    example60: "60 køretøjer og 20 anhængere",
     totalUnits: "Enheder i alt",
     unitsSum: "Pris for enhederne",
     baseLine: "Grundgebyr",
@@ -231,7 +266,7 @@ const PRICING_PAGE = {
     colRange: "Einheiten",
     colPrice: "Preis / Einheit / Monat",
     tiers: [["1–15", "1,50 €"], ["16–50", "1,30 €"], ["51–100", "1,10 €"], ["über 100", "0,90 €"]],
-    trailer: "Ein Anhänger ist 0,5 Einheiten, also 50 % des Preises eines Fahrzeugs oder einer Maschine in derselben Stufe.",
+    trailer: "Ein Anhänger zählt als halbe Einheit in derselben Preisstufe, kostet also die Hälfte des Fahrzeugpreises der Stufe, in die er fällt, und Fahrzeuge füllen die Stufen zuerst.",
     mounted: "Anbaugeräte sind kostenlos und zählen nicht als Einheit.",
     users: "Die Zahl der Nutzer ist unbegrenzt. Es gibt keinen Preis je Nutzer.",
     peak: "Die Rechnung verwendet die höchste Einheitenanzahl im Kalendermonat.",
@@ -239,11 +274,18 @@ const PRICING_PAGE = {
     cta: "30 Tage kostenlos testen",
     terms: "Nutzungsbedingungen",
     calcTitle: "Rechner für den Monatspreis",
-    calcIntro: "Geben Sie die Zahl der Fahrzeuge und Maschinen sowie der Anhänger ein. Der Rechner verteilt die Einheiten auf die Stufen.",
+    calcIntro: "Geben Sie die Zahl der Fahrzeuge und Maschinen sowie der Anhänger ein. Jede Zeile zeigt, woher dieser Teil des Preises kommt.",
     vehiclesLabel: "Fahrzeuge und Maschinen",
     trailersLabel: "Anhänger",
     vehiclesMath: "Fahrzeuge und Maschinen",
     trailersMath: "Anhänger × 0,5",
+    trailersHalf: "Anhänger (eine halbe Einheit)",
+    totalWord: "Gesamt",
+    perMonth: "/Monat",
+    examplesTitle: "Beispiele",
+    example5: "5 Fahrzeuge",
+    example20: "20 Fahrzeuge und 5 Anhänger",
+    example60: "60 Fahrzeuge und 20 Anhänger",
     totalUnits: "Einheiten gesamt",
     unitsSum: "Preis der Einheiten",
     baseLine: "Grundgebühr",
@@ -267,7 +309,7 @@ const PRICING_PAGE = {
     colRange: "Eenheden",
     colPrice: "Prijs / eenheid / maand",
     tiers: [["1–15", "1,50 €"], ["16–50", "1,30 €"], ["51–100", "1,10 €"], ["meer dan 100", "0,90 €"]],
-    trailer: "Een aanhanger is 0,5 eenheid, dus 50% van de prijs van een voertuig of machine in dezelfde staffel.",
+    trailer: "Een aanhanger telt als een halve eenheid in dezelfde prijsstaffel en kost dus de helft van de voertuigprijs van de staffel waarin hij valt, en voertuigen vullen de staffels eerst.",
     mounted: "Gemonteerde apparatuur is gratis en telt niet als eenheid.",
     users: "Het aantal gebruikers is onbeperkt. Er is geen prijs per gebruiker.",
     peak: "De rekening gebruikt het hoogste aantal eenheden in die kalendermaand.",
@@ -275,11 +317,18 @@ const PRICING_PAGE = {
     cta: "30 dagen gratis proberen",
     terms: "Gebruiksvoorwaarden",
     calcTitle: "Rekenhulp voor de maandprijs",
-    calcIntro: "Vul het aantal voertuigen en machines in, en het aantal aanhangers. De rekenhulp verdeelt de eenheden over de staffels.",
+    calcIntro: "Vul het aantal voertuigen en machines in, en het aantal aanhangers. Elke regel laat zien waar dat deel van de prijs vandaan komt.",
     vehiclesLabel: "Voertuigen en machines",
     trailersLabel: "Aanhangers",
     vehiclesMath: "Voertuigen en machines",
     trailersMath: "Aanhangers × 0,5",
+    trailersHalf: "Aanhangers (een halve eenheid)",
+    totalWord: "Totaal",
+    perMonth: "/mnd",
+    examplesTitle: "Voorbeelden",
+    example5: "5 voertuigen",
+    example20: "20 voertuigen en 5 aanhangers",
+    example60: "60 voertuigen en 20 aanhangers",
     totalUnits: "Eenheden totaal",
     unitsSum: "Prijs van de eenheden",
     baseLine: "Basisbedrag",
@@ -303,7 +352,7 @@ const PRICING_PAGE = {
     colRange: "Unités",
     colPrice: "Prix / unité / mois",
     tiers: [["1–15", "1,50 €"], ["16–50", "1,30 €"], ["51–100", "1,10 €"], ["plus de 100", "0,90 €"]],
-    trailer: "Une remorque compte pour 0,5 unité, soit 50 % du prix d’un véhicule ou d’une machine dans le même palier.",
+    trailer: "Une remorque compte pour une demi-unité dans les mêmes paliers, elle coûte donc la moitié du prix d’un véhicule du palier où elle tombe, et les véhicules remplissent les paliers d’abord.",
     mounted: "Un équipement monté est gratuit et ne compte pas comme unité.",
     users: "Le nombre d’utilisateurs est illimité. Il n’y a pas de prix par utilisateur.",
     peak: "La facture utilise le nombre d’unités le plus élevé du mois civil.",
@@ -311,11 +360,18 @@ const PRICING_PAGE = {
     cta: "Essayer gratuitement 30 jours",
     terms: "Conditions d’utilisation",
     calcTitle: "Calculateur de prix mensuel",
-    calcIntro: "Indiquez le nombre de véhicules et de machines, et le nombre de remorques. Le calculateur répartit les unités sur les paliers.",
+    calcIntro: "Indiquez le nombre de véhicules et de machines, et le nombre de remorques. Chaque ligne montre d’où vient cette partie du prix.",
     vehiclesLabel: "Véhicules et machines",
     trailersLabel: "Remorques",
     vehiclesMath: "Véhicules et machines",
     trailersMath: "Remorques × 0,5",
+    trailersHalf: "Remorques (une demi-unité)",
+    totalWord: "Total",
+    perMonth: "/mois",
+    examplesTitle: "Exemples",
+    example5: "5 véhicules",
+    example20: "20 véhicules et 5 remorques",
+    example60: "60 véhicules et 20 remorques",
     totalUnits: "Unités au total",
     unitsSum: "Prix des unités",
     baseLine: "Forfait de base",
@@ -339,7 +395,7 @@ const PRICING_PAGE = {
     colRange: "Unidades",
     colPrice: "Precio / unidad / mes",
     tiers: [["1–15", "1,50 €"], ["16–50", "1,30 €"], ["51–100", "1,10 €"], ["más de 100", "0,90 €"]],
-    trailer: "Un remolque es 0,5 unidades, es decir el 50 % del precio de un vehículo o una máquina en el mismo tramo.",
+    trailer: "Un remolque cuenta como media unidad en los mismos tramos, así que cuesta la mitad del precio del vehículo del tramo en el que cae, y los vehículos llenan los tramos primero.",
     mounted: "El equipo montado es gratuito y no cuenta como unidad.",
     users: "Los usuarios son ilimitados. No hay un precio por usuario.",
     peak: "La factura usa el mayor número de unidades de ese mes natural.",
@@ -347,11 +403,18 @@ const PRICING_PAGE = {
     cta: "Probar gratis 30 días",
     terms: "Condiciones de uso",
     calcTitle: "Calculadora del precio mensual",
-    calcIntro: "Indica el número de vehículos y máquinas, y el número de remolques. La calculadora reparte las unidades en los tramos.",
+    calcIntro: "Indica el número de vehículos y máquinas, y el número de remolques. Cada línea muestra de dónde sale esa parte del precio.",
     vehiclesLabel: "Vehículos y máquinas",
     trailersLabel: "Remolques",
     vehiclesMath: "Vehículos y máquinas",
     trailersMath: "Remolques × 0,5",
+    trailersHalf: "Remolques (media unidad)",
+    totalWord: "Total",
+    perMonth: "/mes",
+    examplesTitle: "Ejemplos",
+    example5: "5 vehículos",
+    example20: "20 vehículos y 5 remolques",
+    example60: "60 vehículos y 20 remolques",
     totalUnits: "Unidades en total",
     unitsSum: "Precio de las unidades",
     baseLine: "Cuota base",
@@ -375,7 +438,7 @@ const PRICING_PAGE = {
     colRange: "Unidades",
     colPrice: "Preço / unidade / mês",
     tiers: [["1–15", "1,50 €"], ["16–50", "1,30 €"], ["51–100", "1,10 €"], ["acima de 100", "0,90 €"]],
-    trailer: "Um reboque é 0,5 unidade, ou seja, 50% do preço de um veículo ou máquina na mesma faixa.",
+    trailer: "Um reboque conta como meia unidade nas mesmas faixas, então custa metade do preço do veículo da faixa em que cai, e os veículos preenchem as faixas primeiro.",
     mounted: "Equipamento montado é gratuito e não conta como unidade.",
     users: "Os usuários são ilimitados. Não há preço por usuário.",
     peak: "A cobrança usa a maior quantidade de unidades daquele mês.",
@@ -383,11 +446,18 @@ const PRICING_PAGE = {
     cta: "Testar grátis por 30 dias",
     terms: "Termos de uso",
     calcTitle: "Calculadora do preço mensal",
-    calcIntro: "Informe o número de veículos e máquinas e o número de reboques. A calculadora divide as unidades nas faixas.",
+    calcIntro: "Informe o número de veículos e máquinas e o número de reboques. Cada linha mostra de onde vem essa parte do preço.",
     vehiclesLabel: "Veículos e máquinas",
     trailersLabel: "Reboques",
     vehiclesMath: "Veículos e máquinas",
     trailersMath: "Reboques × 0,5",
+    trailersHalf: "Reboques (meia unidade)",
+    totalWord: "Total",
+    perMonth: "/mês",
+    examplesTitle: "Exemplos",
+    example5: "5 veículos",
+    example20: "20 veículos e 5 reboques",
+    example60: "60 veículos e 20 reboques",
     totalUnits: "Unidades no total",
     unitsSum: "Preço das unidades",
     baseLine: "Taxa base",
@@ -411,7 +481,7 @@ const PRICING_PAGE = {
     colRange: "Unità",
     colPrice: "Prezzo / unità / mese",
     tiers: [["1–15", "1,50 €"], ["16–50", "1,30 €"], ["51–100", "1,10 €"], ["oltre 100", "0,90 €"]],
-    trailer: "Un rimorchio è 0,5 unità, cioè il 50% del prezzo di un veicolo o di una macchina nello stesso scaglione.",
+    trailer: "Un rimorchio conta come mezza unità negli stessi scaglioni, quindi costa la metà del prezzo del veicolo dello scaglione in cui cade, e i veicoli riempiono gli scaglioni per primi.",
     mounted: "L’attrezzatura montata è gratuita e non conta come unità.",
     users: "Gli utenti sono illimitati. Non c’è un prezzo per utente.",
     peak: "La fattura usa il numero di unità più alto di quel mese di calendario.",
@@ -419,11 +489,18 @@ const PRICING_PAGE = {
     cta: "Prova gratis per 30 giorni",
     terms: "Condizioni d’uso",
     calcTitle: "Calcolatore del prezzo mensile",
-    calcIntro: "Inserisci il numero di veicoli e macchine e il numero di rimorchi. Il calcolatore suddivide le unità negli scaglioni.",
+    calcIntro: "Inserisci il numero di veicoli e macchine e il numero di rimorchi. Ogni riga mostra da dove arriva quella parte del prezzo.",
     vehiclesLabel: "Veicoli e macchine",
     trailersLabel: "Rimorchi",
     vehiclesMath: "Veicoli e macchine",
     trailersMath: "Rimorchi × 0,5",
+    trailersHalf: "Rimorchi (mezza unità)",
+    totalWord: "Totale",
+    perMonth: "/mese",
+    examplesTitle: "Esempi",
+    example5: "5 veicoli",
+    example20: "20 veicoli e 5 rimorchi",
+    example60: "60 veicoli e 20 rimorchi",
     totalUnits: "Unità in totale",
     unitsSum: "Prezzo delle unità",
     baseLine: "Quota base",
@@ -447,7 +524,7 @@ const PRICING_PAGE = {
     colRange: "Jednostki",
     colPrice: "Cena / jednostka / mies.",
     tiers: [["1–15", "1,50 €"], ["16–50", "1,30 €"], ["51–100", "1,10 €"], ["powyżej 100", "0,90 €"]],
-    trailer: "Przyczepa to 0,5 jednostki, czyli 50% ceny pojazdu lub maszyny w tym samym progu.",
+    trailer: "Przyczepa liczy się jako pół jednostki w tych samych progach, więc kosztuje połowę ceny pojazdu progu, do którego trafia, a pojazdy wypełniają progi najpierw.",
     mounted: "Zamontowane wyposażenie jest bezpłatne i nie liczy się jako jednostka.",
     users: "Liczba użytkowników jest nieograniczona. Nie ma opłaty za użytkownika.",
     peak: "Rachunek używa największej liczby jednostek w danym miesiącu kalendarzowym.",
@@ -455,11 +532,18 @@ const PRICING_PAGE = {
     cta: "Wypróbuj bezpłatnie przez 30 dni",
     terms: "Regulamin",
     calcTitle: "Kalkulator ceny miesięcznej",
-    calcIntro: "Podaj liczbę pojazdów i maszyn oraz liczbę przyczep. Kalkulator dzieli jednostki na progi.",
+    calcIntro: "Podaj liczbę pojazdów i maszyn oraz liczbę przyczep. Każdy wiersz pokazuje, skąd bierze się ta część ceny.",
     vehiclesLabel: "Pojazdy i maszyny",
     trailersLabel: "Przyczepy",
     vehiclesMath: "Pojazdy i maszyny",
     trailersMath: "Przyczepy × 0,5",
+    trailersHalf: "Przyczepy (pół jednostki)",
+    totalWord: "Razem",
+    perMonth: "/mies.",
+    examplesTitle: "Przykłady",
+    example5: "5 pojazdów",
+    example20: "20 pojazdów i 5 przyczep",
+    example60: "60 pojazdów i 20 przyczep",
     totalUnits: "Jednostki łącznie",
     unitsSum: "Cena jednostek",
     baseLine: "Opłata podstawowa",
@@ -483,7 +567,7 @@ const PRICING_PAGE = {
     colRange: "Jednotky",
     colPrice: "Cena / jednotka / měsíc",
     tiers: [["1–15", "1,50 €"], ["16–50", "1,30 €"], ["51–100", "1,10 €"], ["nad 100", "0,90 €"]],
-    trailer: "Přívěs je 0,5 jednotky, tedy 50 % ceny vozidla nebo stroje ve stejném pásmu.",
+    trailer: "Přívěs se počítá jako půl jednotky ve stejných pásmech, takže stojí polovinu ceny vozidla pásma, do kterého spadá, a vozidla plní pásma první.",
     mounted: "Namontované zařízení je zdarma a nepočítá se jako jednotka.",
     users: "Počet uživatelů není omezen. Za uživatele se nic neúčtuje.",
     peak: "Faktura používá nejvyšší počet jednotek v daném kalendářním měsíci.",
@@ -491,11 +575,18 @@ const PRICING_PAGE = {
     cta: "Vyzkoušet zdarma na 30 dní",
     terms: "Podmínky použití",
     calcTitle: "Kalkulačka měsíční ceny",
-    calcIntro: "Zadejte počet vozidel a strojů a počet přívěsů. Kalkulačka rozdělí jednotky do pásem.",
+    calcIntro: "Zadejte počet vozidel a strojů a počet přívěsů. Každý řádek ukazuje, odkud se ta část ceny bere.",
     vehiclesLabel: "Vozidla a stroje",
     trailersLabel: "Přívěsy",
     vehiclesMath: "Vozidla a stroje",
     trailersMath: "Přívěsy × 0,5",
+    trailersHalf: "Přívěsy (půl jednotky)",
+    totalWord: "Celkem",
+    perMonth: "/měs.",
+    examplesTitle: "Příklady",
+    example5: "5 vozidel",
+    example20: "20 vozidel a 5 přívěsů",
+    example60: "60 vozidel a 20 přívěsů",
     totalUnits: "Jednotek celkem",
     unitsSum: "Cena jednotek",
     baseLine: "Základní poplatek",
@@ -519,7 +610,7 @@ const PRICING_PAGE = {
     colRange: "単位",
     colPrice: "単価 / 月",
     tiers: [["1–15", "1.50 €"], ["16–50", "1.30 €"], ["51–100", "1.10 €"], ["100超", "0.90 €"]],
-    trailer: "トレーラーは0.5単位です。同じ段階の車両または機械の価格の50%です。",
+    trailer: "トレーラーは同じ料金段階の0.5単位で、入った段階の車両価格の半分になり、車両が先に段階を埋めます。",
     mounted: "装着した機器は無料で、単位には数えません。",
     users: "ユーザー数は無制限です。ユーザーごとの料金はありません。",
     peak: "請求は、その暦月の最大単位数に基づきます。",
@@ -527,11 +618,18 @@ const PRICING_PAGE = {
     cta: "30日間無料で試す",
     terms: "利用規約",
     calcTitle: "月額の計算機",
-    calcIntro: "車両・機械の数とトレーラーの数を入力してください。計算機が単位を段階に分けます。",
+    calcIntro: "車両・機械の数とトレーラーの数を入力してください。各行が、その金額の内訳を示します。",
     vehiclesLabel: "車両と機械",
     trailersLabel: "トレーラー",
     vehiclesMath: "車両と機械",
     trailersMath: "トレーラー × 0.5",
+    trailersHalf: "トレーラー（0.5単位）",
+    totalWord: "合計",
+    perMonth: "/月",
+    examplesTitle: "計算例",
+    example5: "車両 5 台",
+    example20: "車両 20 台とトレーラー 5 台",
+    example60: "車両 60 台とトレーラー 20 台",
     totalUnits: "単位の合計",
     unitsSum: "単位の料金",
     baseLine: "基本料金",
@@ -555,7 +653,7 @@ const PRICING_PAGE = {
     colRange: "단위",
     colPrice: "단위 가격 / 월",
     tiers: [["1–15", "1.50 €"], ["16–50", "1.30 €"], ["51–100", "1.10 €"], ["100 초과", "0.90 €"]],
-    trailer: "트레일러는 0.5단위이며, 같은 구간의 차량 또는 기계 가격의 50%입니다.",
+    trailer: "트레일러는 같은 요금 구간의 0.5단위라서 그 구간 차량 가격의 절반이며, 차량이 구간을 먼저 채웁니다.",
     mounted: "장착 장비는 무료이며 단위에 포함하지 않습니다.",
     users: "사용자 수는 제한이 없습니다. 사용자별 요금은 없습니다.",
     peak: "청구는 해당 달의 최대 단위 수를 기준으로 합니다.",
@@ -563,11 +661,18 @@ const PRICING_PAGE = {
     cta: "30일 무료로 사용해 보기",
     terms: "이용약관",
     calcTitle: "월 요금 계산기",
-    calcIntro: "차량·기계 수와 트레일러 수를 입력하세요. 계산기가 단위를 구간으로 나눕니다.",
+    calcIntro: "차량·기계 수와 트레일러 수를 입력하세요. 각 줄이 그 금액이 어디서 나오는지 보여 줍니다.",
     vehiclesLabel: "차량과 기계",
     trailersLabel: "트레일러",
     vehiclesMath: "차량과 기계",
     trailersMath: "트레일러 × 0.5",
+    trailersHalf: "트레일러(0.5단위)",
+    totalWord: "합계",
+    perMonth: "/월",
+    examplesTitle: "계산 예",
+    example5: "차량 5대",
+    example20: "차량 20대와 트레일러 5대",
+    example60: "차량 60대와 트레일러 20대",
     totalUnits: "단위 합계",
     unitsSum: "단위 요금",
     baseLine: "기본요금",
@@ -591,7 +696,7 @@ const PRICING_PAGE = {
     colRange: "单位",
     colPrice: "单价 / 月",
     tiers: [["1–15", "1.50 €"], ["16–50", "1.30 €"], ["51–100", "1.10 €"], ["100 以上", "0.90 €"]],
-    trailer: "挂车计为 0.5 个单位，即同一档中车辆或机器价格的 50%。",
+    trailer: "挂车在同一价格档中计为半个单位，因此按它所落入档的车辆价格的一半收费，并且车辆先填满各档。",
     mounted: "安装的设备免费，不计入单位。",
     users: "用户数量不限。不按用户收费。",
     peak: "账单按该自然月的最高单位数计算。",
@@ -599,11 +704,18 @@ const PRICING_PAGE = {
     cta: "免费试用 30 天",
     terms: "使用条款",
     calcTitle: "月费计算器",
-    calcIntro: "输入车辆和机器的数量，以及挂车的数量。计算器会把单位分到各档。",
+    calcIntro: "输入车辆和机器的数量，以及挂车的数量。每一行都显示这部分价格从哪里来。",
     vehiclesLabel: "车辆和机器",
     trailersLabel: "挂车",
     vehiclesMath: "车辆和机器",
     trailersMath: "挂车 × 0.5",
+    trailersHalf: "挂车（半个单位）",
+    totalWord: "合计",
+    perMonth: "/月",
+    examplesTitle: "计算示例",
+    example5: "5 辆车",
+    example20: "20 辆车和 5 辆挂车",
+    example60: "60 辆车和 20 辆挂车",
     totalUnits: "单位合计",
     unitsSum: "单位费用",
     baseLine: "基础费",
@@ -633,39 +745,44 @@ function formatPriceAmount(cents, lang) {
   return formatted + " €";
 }
 
-function formatPriceUnits(value, lang) {
+const PRICE_EXAMPLES = [
+  { vehicles: 5, trailers: 0, titleKey: "example5" },
+  { vehicles: 20, trailers: 5, titleKey: "example20" },
+  { vehicles: 60, trailers: 20, titleKey: "example60" },
+];
+
+function formatFormulaCount(count, lang) {
   const locale = PRICE_LOCALES[lang] || "fi-FI";
+  const digits = Number.isInteger(count) ? 0 : 1;
   return new Intl.NumberFormat(locale, {
-    minimumFractionDigits: 0,
-    maximumFractionDigits: 1,
-  }).format(value);
+    minimumFractionDigits: digits,
+    maximumFractionDigits: digits,
+  }).format(count);
 }
 
 function renderPriceQuote(lang, page, quote) {
   const lines = [
-    `<li><span>${escapePriceHtml(page.vehiclesMath)}</span><span>${escapePriceHtml(formatPriceUnits(quote.vehicleUnits, lang))}</span></li>`,
-    `<li><span>${escapePriceHtml(page.trailersMath)}</span><span>${escapePriceHtml(formatPriceUnits(quote.trailerUnits, lang))}</span></li>`,
-    `<li><span>${escapePriceHtml(page.totalUnits)}</span><span>${escapePriceHtml(formatPriceUnits(quote.totalUnits, lang))}</span></li>`,
+    `<li class="calc-pair"><span>${escapePriceHtml(page.baseLine)}</span><span>${escapePriceHtml(formatPriceAmount(quote.baseCents, lang))}</span></li>`,
   ];
 
-  quote.tiers.forEach((tier) => {
-    const label = `${formatPriceUnits(tier.units, lang)} × ${formatPriceAmount(tier.rateCents, lang)}`;
-    lines.push(
-      `<li><span>${escapePriceHtml(label)}</span><span>${escapePriceHtml(formatPriceAmount(tier.amountCents, lang))}</span></li>`
-    );
+  ["vehicle", "trailer"].forEach((kind) => {
+    const group = quote.lines.filter((line) => line.kind === kind);
+    if (!group.length) return;
+    const label = kind === "vehicle" ? page.vehiclesMath : page.trailersHalf;
+    group.forEach((line) => {
+      const formula = `${formatFormulaCount(line.count, lang)} × ${formatPriceAmount(line.rateCents, lang)} = ${formatPriceAmount(line.amountCents, lang)}`;
+      lines.push(
+        `<li class="calc-formula"><span class="calc-kind">${escapePriceHtml(label)}:</span> ${escapePriceHtml(formula)}</li>`
+      );
+    });
   });
 
+  const total = `${formatPriceAmount(quote.totalCents, lang)}${page.perMonth}`;
   lines.push(
-    `<li><span>${escapePriceHtml(page.unitsSum)}</span><span>${escapePriceHtml(formatPriceAmount(quote.unitAmountCents, lang))}</span></li>`
-  );
-  lines.push(
-    `<li><span>${escapePriceHtml(page.baseLine)}</span><span>${escapePriceHtml(formatPriceAmount(quote.baseCents, lang))}</span></li>`
-  );
-  lines.push(
-    `<li class="calc-total"><span>${escapePriceHtml(page.monthTotal)}</span><span>${escapePriceHtml(formatPriceAmount(quote.totalCents, lang))}</span></li>`
+    `<li class="calc-total calc-pair"><span>${escapePriceHtml(page.totalWord)}</span><span>${escapePriceHtml(total)}</span></li>`
   );
 
-  return `<ul class="calc-lines">${lines.join("")}</ul><p>${escapePriceHtml(page.vatShort)}. ${escapePriceHtml(page.mounted)} ${escapePriceHtml(page.peak)}</p>`;
+  return `<ul class="calc-lines">${lines.join("")}</ul>`;
 }
 
 function renderPricingPage(lang) {
@@ -722,6 +839,7 @@ function renderPricingPage(lang) {
     </div>
     <h2>${escapePriceHtml(page.calcTitle)}</h2>
     <p>${escapePriceHtml(page.calcIntro)}</p>
+    <p>${escapePriceHtml(page.trailer)}</p>
     <div class="calc-box">
       <div class="calc-fields">
         <div class="field">
@@ -734,6 +852,17 @@ function renderPricingPage(lang) {
         </div>
       </div>
       <div id="calc-result" aria-live="polite"></div>
+      <p class="calc-note">${escapePriceHtml(page.vatShort)}. ${escapePriceHtml(page.mounted)} ${escapePriceHtml(page.peak)}</p>
+    </div>
+    <h2>${escapePriceHtml(page.examplesTitle)}</h2>
+    <div class="example-list">
+      ${PRICE_EXAMPLES.map((example) => {
+        const quote = quoteFleetSync(example.vehicles, example.trailers);
+        return `<article class="example-card">
+          <h3>${escapePriceHtml(page[example.titleKey])}</h3>
+          ${renderPriceQuote(lang, page, quote)}
+        </article>`;
+      }).join("")}
     </div>
     <h2>${escapePriceHtml(page.otherTitle)}</h2>
     <p>${escapePriceHtml(page.otherIntro)}</p>

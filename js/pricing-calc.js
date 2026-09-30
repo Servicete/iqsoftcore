@@ -2,8 +2,9 @@
  * iqFleetSync monthly price.
  * Units are graduated: the first 15 at 1.50 €, the next 35 at 1.30 €,
  * the next 50 at 1.10 €, and anything above 100 at 0.90 €.
- * A trailer is half a unit. Amounts are kept in cents via half-units
- * so 0.50 € steps stay exact.
+ * Vehicles fill those tiers first. A trailer is then half a unit in the
+ * tier it falls into, so its price is half the vehicle price of that tier.
+ * Amounts stay in whole cents.
  */
 const FLEETSYNC_BASE_CENTS = 1000;
 const FLEETSYNC_TIERS = [
@@ -20,40 +21,58 @@ function sanitizeFleetCount(value) {
   return Math.min(100000, Math.floor(parsed));
 }
 
+function tierAtHalf(cursorHalves) {
+  for (let index = 0; index < FLEETSYNC_TIERS.length; index += 1) {
+    const tier = FLEETSYNC_TIERS[index];
+    const end = tier.capUnits === Infinity ? Infinity : tier.capUnits * 2;
+    if (cursorHalves < end) {
+      return {
+        rateCents: tier.cents,
+        room: end === Infinity ? Infinity : end - cursorHalves,
+      };
+    }
+  }
+  const last = FLEETSYNC_TIERS[FLEETSYNC_TIERS.length - 1];
+  return { rateCents: last.cents, room: Infinity };
+}
+
+function consumeFleetItems(lines, state, itemCount, halvesEach, kind) {
+  let leftHalves = itemCount * halvesEach;
+  while (leftHalves > 0) {
+    const tier = tierAtHalf(state.cursor);
+    const room = tier.room === Infinity ? leftHalves : tier.room;
+    const take = Math.min(leftHalves, room);
+    if (take <= 0) break;
+    const amountCents = take * (tier.rateCents / 2);
+    const rateCents = kind === "trailer" ? tier.rateCents / 2 : tier.rateCents;
+    lines.push({
+      kind,
+      count: take / halvesEach,
+      rateCents,
+      amountCents,
+    });
+    state.cursor += take;
+    leftHalves -= take;
+  }
+}
+
 function quoteFleetSync(vehicles, trailers) {
   const vehicleCount = sanitizeFleetCount(vehicles);
   const trailerCount = sanitizeFleetCount(trailers);
-  let remainingHalves = vehicleCount * 2 + trailerCount;
-  const tiers = [];
-  let previousCap = 0;
+  const lines = [];
+  const state = { cursor: 0 };
 
-  FLEETSYNC_TIERS.forEach((tier) => {
-    if (remainingHalves <= 0) return;
-    const roomHalves =
-      tier.capUnits === Infinity ? remainingHalves : (tier.capUnits - previousCap) * 2;
-    const takeHalves = Math.min(remainingHalves, roomHalves);
-    if (takeHalves > 0) {
-      tiers.push({
-        units: takeHalves / 2,
-        rateCents: tier.cents,
-        amountCents: takeHalves * (tier.cents / 2),
-      });
-      remainingHalves -= takeHalves;
-    }
-    previousCap = tier.capUnits;
-  });
+  consumeFleetItems(lines, state, vehicleCount, 2, "vehicle");
+  consumeFleetItems(lines, state, trailerCount, 1, "trailer");
 
-  const unitAmountCents = tiers.reduce((sum, tier) => sum + tier.amountCents, 0);
+  const unitAmountCents = lines.reduce((sum, line) => sum + line.amountCents, 0);
 
   return {
     vehicles: vehicleCount,
     trailers: trailerCount,
-    vehicleUnits: vehicleCount,
-    trailerUnits: trailerCount / 2,
-    totalUnits: vehicleCount + trailerCount / 2,
-    tiers,
-    unitAmountCents,
+    lines,
     baseCents: FLEETSYNC_BASE_CENTS,
+    unitAmountCents,
     totalCents: unitAmountCents + FLEETSYNC_BASE_CENTS,
   };
 }

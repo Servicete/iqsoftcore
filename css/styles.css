@@ -753,26 +753,60 @@ a:hover {
 }
 
 .calc-lines li {
+  padding: 0.45rem 0;
+  border-top: 1px solid var(--line);
+  font-variant-numeric: tabular-nums;
+}
+
+.calc-lines .calc-pair {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 0.35rem 1rem;
-  padding: 0.5rem 0;
-  border-top: 1px solid var(--line);
 }
 
-.calc-lines li span:last-child {
+.calc-lines .calc-pair span:last-child {
   margin-left: auto;
-  font-variant-numeric: tabular-nums;
   white-space: nowrap;
   color: var(--ink);
   font-weight: 700;
+}
+
+.calc-lines .calc-formula {
+  font-weight: 700;
+  color: var(--ink);
+}
+
+.calc-lines .calc-kind {
+  font-weight: 800;
 }
 
 .calc-lines .calc-total {
   font-weight: 800;
   color: var(--ink);
   font-size: 1.12rem;
+}
+
+.calc-note {
+  margin: 0.85rem 0 0;
+}
+
+.example-list {
+  display: grid;
+  gap: 1rem;
+}
+
+.example-card {
+  padding: 0.15rem 1rem 0.85rem;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.72);
+}
+
+.example-card h3 {
+  margin: 0.85rem 0 0;
+  font-family: var(--font-display);
+  font-size: 1.15rem;
 }
 
 .other-products {
