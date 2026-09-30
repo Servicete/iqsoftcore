@@ -697,10 +697,53 @@ a:hover {
 }
 
 .price-table th {
-  font-size: 0.8rem;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
+  font-size: 0.92rem;
+  letter-spacing: 0;
+  text-transform: none;
   color: var(--teal);
+  font-weight: 800;
+}
+
+.price-scroll {
+  overflow-x: auto;
+  margin: 0.5rem 0 1rem;
+}
+
+.price-scroll .price-table {
+  margin: 0;
+}
+
+.price-table td:nth-child(n + 2) {
+  white-space: nowrap;
+}
+
+.price-aside {
+  margin: 0.35rem 0;
+}
+
+.billing-note a {
+  font-weight: 700;
+}
+
+.field-hint {
+  display: block;
+  margin: -0.1rem 0 0.4rem;
+  color: var(--ink-soft);
+  font-size: 0.92rem;
+}
+
+.terms-placeholder {
+  display: inline-block;
+  margin: 0.15rem 0;
+  padding: 0.08rem 0.4rem;
+  border-radius: 6px;
+  background: rgba(15, 118, 110, 0.12);
+  color: var(--ink);
+  font-weight: 800;
+}
+
+.translation-note {
+  margin-top: 0.75rem;
 }
 
 .calc-box {

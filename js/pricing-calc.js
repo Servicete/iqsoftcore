@@ -1,9 +1,12 @@
 /**
  * iqFleetSync monthly price.
- * Units are graduated: the first 15 at 1.50 €, the next 35 at 1.30 €,
+ * Full units are graduated: the first 15 at 1.50 €, the next 35 at 1.30 €,
  * the next 50 at 1.10 €, and anything above 100 at 0.90 €.
- * Vehicles fill those tiers first. A trailer is then half a unit in the
- * tier it falls into, so its price is half the vehicle price of that tier.
+ * Vehicles fill those tiers first, then work machines. Both are full units
+ * at the same tier prices, shown on their own lines.
+ * A trailer is then half a unit in the tier it falls into, so its price is
+ * half the vehicle price of that tier.
+ * Attachments cost nothing and do not take a place in a tier.
  * Amounts stay in whole cents.
  */
 const FLEETSYNC_BASE_CENTS = 1000;
@@ -56,20 +59,34 @@ function consumeFleetItems(lines, state, itemCount, halvesEach, kind) {
   }
 }
 
-function quoteFleetSync(vehicles, trailers) {
+function quoteFleetSync(vehicles, machines, trailers, attachments) {
   const vehicleCount = sanitizeFleetCount(vehicles);
+  const machineCount = sanitizeFleetCount(machines);
   const trailerCount = sanitizeFleetCount(trailers);
+  const attachmentCount = sanitizeFleetCount(attachments);
   const lines = [];
   const state = { cursor: 0 };
 
   consumeFleetItems(lines, state, vehicleCount, 2, "vehicle");
+  consumeFleetItems(lines, state, machineCount, 2, "machine");
   consumeFleetItems(lines, state, trailerCount, 1, "trailer");
+
+  if (attachmentCount > 0) {
+    lines.push({
+      kind: "attachment",
+      count: attachmentCount,
+      rateCents: 0,
+      amountCents: 0,
+    });
+  }
 
   const unitAmountCents = lines.reduce((sum, line) => sum + line.amountCents, 0);
 
   return {
     vehicles: vehicleCount,
+    machines: machineCount,
     trailers: trailerCount,
+    attachments: attachmentCount,
     lines,
     baseCents: FLEETSYNC_BASE_CENTS,
     unitAmountCents,
