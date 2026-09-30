@@ -8,11 +8,9 @@ const TERMS_PAGE = {
     metaTitle: "Käyttöehdot | IQSoftCore",
     metaDescription: "iqFleetSyncin käyttöehdot ja IQSoftCoren palveluiden yleiset ehdot. Luonnos.",
     title: "Käyttöehdot",
-    draft: "Luonnos. Tämä on selkokielinen luonnos iqFleetSyncin käyttöehdoiksi ja IQSoftCoren palveluiden yleisiksi ehdoiksi. Se ei ole oikeudellinen neuvo. Palveluntarjoajan on tarkistettava teksti ennen julkaisua. Tarkista erityisesti Y-tunnus, osoite, maksutapa, 14 päivän eräpäivä ja 30 päivän ilmoitusaika.",
+    draft: "Luonnos. Tämä on selkokielinen luonnos iqFleetSyncin käyttöehdoiksi ja IQSoftCoren palveluiden yleisiksi ehdoiksi. Se ei ole oikeudellinen neuvo. Palveluntarjoajan on tarkistettava teksti ennen julkaisua.",
     updated: "Luonnos päivitetty 2026-09-30.",
     scope: "Nämä ehdot koskevat iqFleetSync-palvelua. Ne ovat myös IQSoftCoren palveluiden yleiset ehdot, jos tuotteelle ei ole omia ehtoja. Hinta veloitetaan vain, jos se on julkaistu hinnastossa tai siitä on sovittu erikseen.",
-    fillId: "[TÄYTÄ Y-TUNNUS]",
-    fillAddress: "[TÄYTÄ KATUOSOITE, POSTINUMERO JA POSTITOIMIPAIKKA]",
     privacyLink: "Tietosuoja",
     pricing: "Hinnasto",
     product: "iqFleetSync",
@@ -21,9 +19,9 @@ const TERMS_PAGE = {
         [
           "1. Osapuolet ja palveluntarjoaja",
           [
-            "Palveluntarjoaja on toiminimi iqsoftcore, joka toimii nimellä IQSoftCore, Suomi.",
-            "Y-tunnus: [[fill-id]]",
-            "Osoite: [[fill-address]]",
+            "Palveluntarjoaja on toiminimi IqSoftCore, Suomi.",
+            "Y-tunnus: 3658340-4",
+            "Osoite: Siihtalantie 56, 62710 Kurejoki, Suomi.",
             "Asiakas on yritys tai muu yhteisö, joka avaa tilin tai käyttää IQSoftCoren palvelua. Yhteys: info@iqsoftcore.fi ja +358 45 133 4009."
           ]
         ],
@@ -63,8 +61,8 @@ const TERMS_PAGE = {
         [
           "6. Maksu ja viivästys",
           [
-            "Maksullinen käyttö laskutetaan kuukausittain. Maksutapa on se, jonka palvelu näyttää maksuhetkellä. Erillistä maksupalvelua ei ole nimetty tässä luonnoksessa.",
-            "Lasku erääntyy 14 päivän kuluttua laskun päiväyksestä, ellei laskussa lue muuta aikaa. Jos maksu myöhästyy, palveluntarjoaja voi periä korkolain mukaisen viivästyskoron ja kohtuulliset perintäkulut.",
+            "Maksullinen käyttö laskutetaan kuukausittain. Maksu tehdään Stripellä kortilla, SEPA-suoraveloituksella tai laskulla tilisiirtona.",
+            "Lasku erääntyy 14 päivän kuluttua laskun päiväyksestä. Jos maksu myöhästyy, palveluntarjoaja voi periä korkolain mukaisen viivästyskoron ja kohtuulliset perintäkulut.",
             "Jos laskua ei makseta eräpäivän jälkeen annetussa muistutuksessa, tili voidaan siirtää vain luku -tilaan."
           ]
         ],
@@ -150,8 +148,7 @@ const TERMS_PAGE = {
         [
           "18. Yhteystiedot",
           [
-            "IQSoftCore, toiminimi iqsoftcore, info@iqsoftcore.fi, +358 45 133 4009.",
-            "Y-tunnus ja osoite täydennetään kohdan 1 paikalle ennen julkaisua."
+            "toiminimi IqSoftCore, Y-tunnus 3658340-4, Siihtalantie 56, 62710 Kurejoki, Suomi. info@iqsoftcore.fi, +358 45 133 4009."
           ]
         ]
     ]
@@ -160,12 +157,10 @@ const TERMS_PAGE = {
     metaTitle: "Terms of use | IQSoftCore",
     metaDescription: "Terms for iqFleetSync and general terms for IQSoftCore services. Draft.",
     title: "Terms of use",
-    draft: "Draft. This is a plain-language draft of the terms for iqFleetSync and the general terms for IQSoftCore services. It is not legal advice. The provider must review the text before it is published. In particular, check the business ID, address, payment method, the 14-day due date, and the 30-day notice period.",
+    draft: "Draft. This is a plain-language draft of the terms for iqFleetSync and the general terms for IQSoftCore services. It is not legal advice. The provider must review the text before it is published.",
     updated: "Draft updated 2026-09-30.",
     translationNote: "The Finnish text is the official version. This translation is for convenience and has not been separately reviewed as a legal text.",
     scope: "These terms apply to the iqFleetSync service. They are also the general terms for IQSoftCore services when a product has no terms of its own. A price is charged only if it is published on the pricing page or agreed separately.",
-    fillId: "[ADD BUSINESS ID / Y-tunnus]",
-    fillAddress: "[ADD STREET ADDRESS, POSTCODE AND CITY]",
     privacyLink: "Privacy",
     pricing: "Pricing",
     product: "iqFleetSync",
@@ -174,9 +169,9 @@ const TERMS_PAGE = {
         [
           "1. Parties and the provider",
           [
-            "The provider is the Finnish sole proprietorship iqsoftcore, trading as IQSoftCore, Finland.",
-            "Business ID: [[fill-id]]",
-            "Address: [[fill-address]]",
+            "The provider is the Finnish sole trader toiminimi IqSoftCore, Finland.",
+            "Business ID (Y-tunnus): 3658340-4",
+            "Address: Siihtalantie 56, 62710 Kurejoki, Finland.",
             "The customer is a company or other organisation that opens an account or uses an IQSoftCore service. Contact: info@iqsoftcore.fi and +358 45 133 4009."
           ]
         ],
@@ -216,8 +211,8 @@ const TERMS_PAGE = {
         [
           "6. Payment and late payment",
           [
-            "Paid use is billed monthly. The payment method is the one the service shows at the time of payment. This draft does not name a separate payment service.",
-            "An invoice is due 14 days after the invoice date, unless the invoice states another time. If payment is late, the provider may charge interest under the Finnish Interest Act and reasonable collection costs.",
+            "Paid use is billed monthly. Payment is made through Stripe by card, by SEPA Direct Debit, or by invoice (bank transfer).",
+            "An invoice is due 14 days after the invoice date. If payment is late, the provider may charge interest under the Finnish Interest Act and reasonable collection costs.",
             "If an invoice is not paid after a reminder sent once it is overdue, the account can be moved to read-only mode."
           ]
         ],
@@ -303,8 +298,7 @@ const TERMS_PAGE = {
         [
           "18. Contact",
           [
-            "IQSoftCore, sole proprietorship iqsoftcore, info@iqsoftcore.fi, +358 45 133 4009.",
-            "The business ID and address will be added in section 1 before publication."
+            "toiminimi IqSoftCore, Y-tunnus 3658340-4, Siihtalantie 56, 62710 Kurejoki, Finland. info@iqsoftcore.fi, +358 45 133 4009."
           ]
         ]
     ]
@@ -313,12 +307,10 @@ const TERMS_PAGE = {
     metaTitle: "Användarvillkor | IQSoftCore",
     metaDescription: "Villkor för iqFleetSync och allmänna villkor för IQSoftCores tjänster. Utkast.",
     title: "Användarvillkor",
-    draft: "Utkast. Det här är ett utkast på klarspråk till villkoren för iqFleetSync och allmänna villkor för IQSoftCores tjänster. Det är inte juridisk rådgivning. Leverantören måste granska texten innan den publiceras. Kontrollera särskilt FO-nummer, adress, betalningssätt, förfallodagen på 14 dagar och varseltiden på 30 dagar.",
+    draft: "Utkast. Det här är ett utkast på klarspråk till villkoren för iqFleetSync och allmänna villkor för IQSoftCores tjänster. Det är inte juridisk rådgivning. Leverantören måste granska texten innan den publiceras.",
     updated: "Utkast uppdaterat 2026-09-30.",
     translationNote: "Den finska texten är den officiella versionen. Den här översättningen är till hjälp och har inte granskats separat som juridisk text.",
     scope: "Villkoren gäller tjänsten iqFleetSync. De är också allmänna villkor för IQSoftCores tjänster när en produkt inte har egna villkor. Ett pris tas ut bara om det är publicerat i prislistan eller avtalat särskilt.",
-    fillId: "[FYLL I FO-NUMMER / Y-tunnus]",
-    fillAddress: "[FYLL I GATUADRESS, POSTNUMMER OCH ORT]",
     privacyLink: "Integritet",
     pricing: "Priser",
     product: "iqFleetSync",
@@ -327,9 +319,9 @@ const TERMS_PAGE = {
         [
           "1. Parter och leverantör",
           [
-            "Leverantören är den finska enskilda firman iqsoftcore, som verkar under namnet IQSoftCore, Finland.",
-            "FO-nummer: [[fill-id]]",
-            "Adress: [[fill-address]]",
+            "Leverantören är den finska enskilda firman toiminimi IqSoftCore, Finland.",
+            "FO-nummer (Y-tunnus): 3658340-4",
+            "Adress: Siihtalantie 56, 62710 Kurejoki, Finland.",
             "Kunden är ett företag eller en annan organisation som öppnar ett konto eller använder en tjänst från IQSoftCore. Kontakt: info@iqsoftcore.fi och +358 45 133 4009."
           ]
         ],
@@ -369,8 +361,8 @@ const TERMS_PAGE = {
         [
           "6. Betalning och dröjsmål",
           [
-            "Betald användning faktureras varje månad. Betalningssättet är det som tjänsten visar vid betalningen. Det här utkastet namnger ingen separat betaltjänst.",
-            "En faktura förfaller 14 dagar efter fakturadatum, om fakturan inte anger annan tid. Vid sen betalning kan leverantören ta ut dröjsmålsränta enligt den finska räntelagen och skäliga inkassokostnader.",
+            "Betald användning faktureras varje månad. Betalning sker via Stripe med kort, med SEPA Direct Debit eller med faktura (banköverföring).",
+            "En faktura förfaller 14 dagar efter fakturadatum. Vid sen betalning kan leverantören ta ut dröjsmålsränta enligt den finska räntelagen och skäliga inkassokostnader.",
             "Om fakturan inte betalas efter en påminnelse som skickats när den förfallit kan kontot flyttas till skrivskyddat läge."
           ]
         ],
@@ -456,8 +448,7 @@ const TERMS_PAGE = {
         [
           "18. Kontakt",
           [
-            "IQSoftCore, enskild firma iqsoftcore, info@iqsoftcore.fi, +358 45 133 4009.",
-            "FO-nummer och adress fylls i under punkt 1 före publicering."
+            "toiminimi IqSoftCore, Y-tunnus 3658340-4, Siihtalantie 56, 62710 Kurejoki, Finland. info@iqsoftcore.fi, +358 45 133 4009."
           ]
         ]
     ]
@@ -466,12 +457,10 @@ const TERMS_PAGE = {
     metaTitle: "Nutzungsbedingungen | IQSoftCore",
     metaDescription: "Bedingungen für iqFleetSync und allgemeine Bedingungen für Dienste von IQSoftCore. Entwurf.",
     title: "Nutzungsbedingungen",
-    draft: "Entwurf. Das ist ein Entwurf in klarer Sprache für die Bedingungen von iqFleetSync und die allgemeinen Bedingungen der Dienste von IQSoftCore. Er ist keine Rechtsberatung. Der Anbieter muss den Text vor der Veröffentlichung prüfen. Prüfen Sie besonders die Geschäftskennnummer, die Anschrift, die Zahlungsart, die 14-tägige Fälligkeit und die 30-tägige Ankündigungsfrist.",
+    draft: "Entwurf. Das ist ein Entwurf in klarer Sprache für die Bedingungen von iqFleetSync und die allgemeinen Bedingungen der Dienste von IQSoftCore. Er ist keine Rechtsberatung. Der Anbieter muss den Text vor der Veröffentlichung prüfen.",
     updated: "Entwurf aktualisiert am 2026-09-30.",
     translationNote: "Der finnische Text ist die maßgebliche Fassung. Diese Übersetzung dient der Verständlichkeit und wurde nicht gesondert als Rechtstext geprüft.",
     scope: "Diese Bedingungen gelten für den Dienst iqFleetSync. Sie sind auch die allgemeinen Bedingungen für Dienste von IQSoftCore, wenn ein Produkt keine eigenen Bedingungen hat. Ein Preis wird nur berechnet, wenn er auf der Preisseite steht oder gesondert vereinbart wurde.",
-    fillId: "[GESCHÄFTSNUMMER / Y-tunnus EINTRAGEN]",
-    fillAddress: "[STRASSE, POSTLEITZAHL UND ORT EINTRAGEN]",
     privacyLink: "Datenschutz",
     pricing: "Preise",
     product: "iqFleetSync",
@@ -480,9 +469,9 @@ const TERMS_PAGE = {
         [
           "1. Parteien und Anbieter",
           [
-            "Anbieter ist das finnische Einzelunternehmen iqsoftcore, das unter dem Namen IQSoftCore, Finnland, auftritt.",
-            "Geschäftskennnummer: [[fill-id]]",
-            "Anschrift: [[fill-address]]",
+            "Anbieter ist das finnische Einzelunternehmen toiminimi IqSoftCore, Finnland.",
+            "Geschäftskennnummer (Y-tunnus): 3658340-4",
+            "Anschrift: Siihtalantie 56, 62710 Kurejoki, Finnland.",
             "Kunde ist ein Unternehmen oder eine andere Organisation, das ein Konto eröffnet oder einen Dienst von IQSoftCore nutzt. Kontakt: info@iqsoftcore.fi und +358 45 133 4009."
           ]
         ],
@@ -522,8 +511,8 @@ const TERMS_PAGE = {
         [
           "6. Zahlung und Verzug",
           [
-            "Die kostenpflichtige Nutzung wird monatlich berechnet. Die Zahlungsart ist die, die der Dienst zum Zeitpunkt der Zahlung anzeigt. Dieser Entwurf nennt keinen gesonderten Zahlungsdienst.",
-            "Eine Rechnung ist 14 Tage nach dem Rechnungsdatum fällig, sofern die Rechnung keine andere Frist nennt. Bei Verzug kann der Anbieter Verzugszinsen nach dem finnischen Zinsgesetz und angemessene Beitreibungskosten verlangen.",
+            "Die kostenpflichtige Nutzung wird monatlich berechnet. Die Zahlung erfolgt über Stripe per Karte, per SEPA-Lastschrift (SEPA Direct Debit) oder per Rechnung als Banküberweisung.",
+            "Eine Rechnung ist 14 Tage nach dem Rechnungsdatum fällig. Bei Verzug kann der Anbieter Verzugszinsen nach dem finnischen Zinsgesetz und angemessene Beitreibungskosten verlangen.",
             "Wird eine Rechnung nach einer Mahnung, die nach Fälligkeit gesendet wurde, nicht bezahlt, kann das Konto in den Nur-Lesen-Modus wechseln."
           ]
         ],
@@ -609,8 +598,7 @@ const TERMS_PAGE = {
         [
           "18. Kontakt",
           [
-            "IQSoftCore, Einzelunternehmen iqsoftcore, info@iqsoftcore.fi, +358 45 133 4009.",
-            "Geschäftskennnummer und Anschrift werden vor der Veröffentlichung in Abschnitt 1 ergänzt."
+            "toiminimi IqSoftCore, Y-tunnus 3658340-4, Siihtalantie 56, 62710 Kurejoki, Finnland. info@iqsoftcore.fi, +358 45 133 4009."
           ]
         ]
     ]
@@ -619,12 +607,10 @@ const TERMS_PAGE = {
     metaTitle: "Vilkår | IQSoftCore",
     metaDescription: "Vilkår for iqFleetSync og generelle vilkår for tjenestene til IQSoftCore. Utkast.",
     title: "Vilkår",
-    draft: "Utkast. Dette er et utkast på klart språk til vilkårene for iqFleetSync og generelle vilkår for tjenestene til IQSoftCore. Det er ikke juridisk rådgivning. Leverandøren må gå gjennom teksten før den publiseres. Sjekk særlig organisasjonsnummer, adresse, betalingsmåte, forfall på 14 dager og varsel på 30 dager.",
+    draft: "Utkast. Dette er et utkast på klart språk til vilkårene for iqFleetSync og generelle vilkår for tjenestene til IQSoftCore. Det er ikke juridisk rådgivning. Leverandøren må gå gjennom teksten før den publiseres.",
     updated: "Utkast oppdatert 2026-09-30.",
     translationNote: "Den finske teksten er den offisielle versjonen. Denne oversettelsen er til hjelp og er ikke gjennomgått separat som juridisk tekst.",
     scope: "Vilkårene gjelder tjenesten iqFleetSync. De er også generelle vilkår for tjenestene til IQSoftCore når et produkt ikke har egne vilkår. En pris kreves bare hvis den er publisert i prislisten eller avtalt særskilt.",
-    fillId: "[FYLL INN ORGANISASJONSNUMMER / Y-tunnus]",
-    fillAddress: "[FYLL INN GATEADRESSE, POSTNUMMER OG STED]",
     privacyLink: "Personvern",
     pricing: "Priser",
     product: "iqFleetSync",
@@ -633,9 +619,9 @@ const TERMS_PAGE = {
         [
           "1. Parter og leverandør",
           [
-            "Leverandøren er det finske enkeltpersonforetaket iqsoftcore, som opptrer under navnet IQSoftCore, Finland.",
-            "Organisasjonsnummer: [[fill-id]]",
-            "Adresse: [[fill-address]]",
+            "Leverandøren er det finske enkeltpersonforetaket toiminimi IqSoftCore, Finland.",
+            "Organisasjonsnummer (Y-tunnus): 3658340-4",
+            "Adresse: Siihtalantie 56, 62710 Kurejoki, Finland.",
             "Kunden er et foretak eller en annen organisasjon som åpner en konto eller bruker en tjeneste fra IQSoftCore. Kontakt: info@iqsoftcore.fi og +358 45 133 4009."
           ]
         ],
@@ -675,8 +661,8 @@ const TERMS_PAGE = {
         [
           "6. Betaling og forsinkelse",
           [
-            "Betalt bruk faktureres hver måned. Betalingsmåten er den tjenesten viser ved betalingen. Dette utkastet navngir ingen egen betalingstjeneste.",
-            "En faktura forfaller 14 dager etter fakturadato, med mindre fakturaen sier en annen tid. Ved for sen betaling kan leverandøren kreve forsinkelsesrente etter den finske renteloven og rimelige inkassokostnader.",
+            "Betalt bruk faktureres hver måned. Betaling skjer via Stripe med kort, med SEPA Direct Debit eller med faktura (bankoverføring).",
+            "En faktura forfaller 14 dager etter fakturadato. Ved for sen betaling kan leverandøren kreve forsinkelsesrente etter den finske renteloven og rimelige inkassokostnader.",
             "Hvis fakturaen ikke betales etter en purring som er sendt etter forfall, kan kontoen settes i skrivebeskyttet modus."
           ]
         ],
@@ -762,8 +748,7 @@ const TERMS_PAGE = {
         [
           "18. Kontakt",
           [
-            "IQSoftCore, enkeltpersonforetak iqsoftcore, info@iqsoftcore.fi, +358 45 133 4009.",
-            "Organisasjonsnummer og adresse fylles inn i punkt 1 før publisering."
+            "toiminimi IqSoftCore, Y-tunnus 3658340-4, Siihtalantie 56, 62710 Kurejoki, Finland. info@iqsoftcore.fi, +358 45 133 4009."
           ]
         ]
     ]
@@ -772,12 +757,10 @@ const TERMS_PAGE = {
     metaTitle: "Vilkår | IQSoftCore",
     metaDescription: "Vilkår for iqFleetSync og generelle vilkår for IQSoftCores tjenester. Udkast.",
     title: "Vilkår",
-    draft: "Udkast. Dette er et udkast i klart sprog til vilkårene for iqFleetSync og de generelle vilkår for IQSoftCores tjenester. Det er ikke juridisk rådgivning. Leverandøren skal gennemgå teksten før offentliggørelse. Tjek især CVR-nummer, adresse, betalingsmåde, forfald på 14 dage og varsel på 30 dage.",
+    draft: "Udkast. Dette er et udkast i klart sprog til vilkårene for iqFleetSync og de generelle vilkår for IQSoftCores tjenester. Det er ikke juridisk rådgivning. Leverandøren skal gennemgå teksten før offentliggørelse.",
     updated: "Udkast opdateret 2026-09-30.",
     translationNote: "Den finske tekst er den officielle version. Denne oversættelse er en hjælp og er ikke gennemgået særskilt som juridisk tekst.",
     scope: "Vilkårene gælder tjenesten iqFleetSync. De er også generelle vilkår for IQSoftCores tjenester, når et produkt ikke har egne vilkår. En pris opkræves kun, hvis den er offentliggjort i prislisten eller aftalt særskilt.",
-    fillId: "[UDFYLD VIRKSOMHEDSNUMMER / Y-tunnus]",
-    fillAddress: "[UDFYLD GADEADRESSE, POSTNUMMER OG BY]",
     privacyLink: "Privatliv",
     pricing: "Priser",
     product: "iqFleetSync",
@@ -786,9 +769,9 @@ const TERMS_PAGE = {
         [
           "1. Parter og leverandør",
           [
-            "Leverandøren er den finske enkeltmandsvirksomhed iqsoftcore, der virker under navnet IQSoftCore, Finland.",
-            "Virksomhedsnummer: [[fill-id]]",
-            "Adresse: [[fill-address]]",
+            "Leverandøren er den finske enkeltmandsvirksomhed toiminimi IqSoftCore, Finland.",
+            "Virksomhedsnummer (Y-tunnus): 3658340-4",
+            "Adresse: Siihtalantie 56, 62710 Kurejoki, Finland.",
             "Kunden er en virksomhed eller en anden organisation, der åbner en konto eller bruger en tjeneste fra IQSoftCore. Kontakt: info@iqsoftcore.fi og +358 45 133 4009."
           ]
         ],
@@ -828,8 +811,8 @@ const TERMS_PAGE = {
         [
           "6. Betaling og forsinkelse",
           [
-            "Betalt brug faktureres hver måned. Betalingsmåden er den, tjenesten viser ved betalingen. Dette udkast nævner ikke en særlig betalingstjeneste.",
-            "En faktura forfalder 14 dage efter fakturadatoen, medmindre fakturaen angiver et andet tidspunkt. Ved for sen betaling kan leverandøren opkræve morarente efter den finske rentelov og rimelige inddrivelsesomkostninger.",
+            "Betalt brug faktureres hver måned. Betaling sker via Stripe med kort, med SEPA Direct Debit eller med faktura (bankoverførsel).",
+            "En faktura forfalder 14 dage efter fakturadatoen. Ved for sen betaling kan leverandøren opkræve morarente efter den finske rentelov og rimelige inddrivelsesomkostninger.",
             "Hvis fakturaen ikke betales efter en rykker sendt efter forfald, kan kontoen sættes i skrivebeskyttet tilstand."
           ]
         ],
@@ -915,8 +898,7 @@ const TERMS_PAGE = {
         [
           "18. Kontakt",
           [
-            "IQSoftCore, enkeltmandsvirksomhed iqsoftcore, info@iqsoftcore.fi, +358 45 133 4009.",
-            "Virksomhedsnummer og adresse udfyldes i punkt 1 før offentliggørelse."
+            "toiminimi IqSoftCore, Y-tunnus 3658340-4, Siihtalantie 56, 62710 Kurejoki, Finland. info@iqsoftcore.fi, +358 45 133 4009."
           ]
         ]
     ]
@@ -925,12 +907,10 @@ const TERMS_PAGE = {
     metaTitle: "Gebruiksvoorwaarden | IQSoftCore",
     metaDescription: "Voorwaarden voor iqFleetSync en algemene voorwaarden voor diensten van IQSoftCore. Concept.",
     title: "Gebruiksvoorwaarden",
-    draft: "Concept. Dit is een concept in gewone taal van de voorwaarden voor iqFleetSync en de algemene voorwaarden voor diensten van IQSoftCore. Het is geen juridisch advies. De aanbieder moet de tekst controleren vóór publicatie. Controleer vooral het ondernemingsnummer, het adres, de betaalwijze, de vervaltermijn van 14 dagen en de kennisgevingstermijn van 30 dagen.",
+    draft: "Concept. Dit is een concept in gewone taal van de voorwaarden voor iqFleetSync en de algemene voorwaarden voor diensten van IQSoftCore. Het is geen juridisch advies. De aanbieder moet de tekst controleren vóór publicatie.",
     updated: "Concept bijgewerkt op 2026-09-30.",
     translationNote: "De Finse tekst is de officiële versie. Deze vertaling is een hulpmiddel en is niet apart beoordeeld als juridische tekst.",
     scope: "Deze voorwaarden gelden voor de dienst iqFleetSync. Ze zijn ook de algemene voorwaarden voor diensten van IQSoftCore als een product geen eigen voorwaarden heeft. Een prijs wordt alleen gerekend als die op de prijspagina staat of apart is afgesproken.",
-    fillId: "[VUL ONDERNEMINGSNUMMER / Y-tunnus IN]",
-    fillAddress: "[VUL STRAAT, POSTCODE EN PLAATS IN]",
     privacyLink: "Privacy",
     pricing: "Prijzen",
     product: "iqFleetSync",
@@ -939,9 +919,9 @@ const TERMS_PAGE = {
         [
           "1. Partijen en aanbieder",
           [
-            "De aanbieder is de Finse eenmanszaak iqsoftcore, die werkt onder de naam IQSoftCore, Finland.",
-            "Ondernemingsnummer: [[fill-id]]",
-            "Adres: [[fill-address]]",
+            "De aanbieder is de Finse eenmanszaak toiminimi IqSoftCore, Finland.",
+            "Ondernemingsnummer (Y-tunnus): 3658340-4",
+            "Adres: Siihtalantie 56, 62710 Kurejoki, Finland.",
             "De klant is een bedrijf of andere organisatie die een account opent of een dienst van IQSoftCore gebruikt. Contact: info@iqsoftcore.fi en +358 45 133 4009."
           ]
         ],
@@ -981,8 +961,8 @@ const TERMS_PAGE = {
         [
           "6. Betaling en te late betaling",
           [
-            "Betaald gebruik wordt maandelijks gefactureerd. De betaalwijze is de wijze die de dienst op het moment van betalen toont. Dit concept noemt geen aparte betaaldienst.",
-            "Een factuur vervalt 14 dagen na de factuurdatum, tenzij de factuur een andere termijn noemt. Bij te late betaling kan de aanbieder vertragingsrente volgens de Finse rentewet en redelijke incassokosten rekenen.",
+            "Betaald gebruik wordt maandelijks gefactureerd. Betaling gebeurt via Stripe met kaart, met SEPA-incasso (SEPA Direct Debit) of met factuur (bankoverschrijving).",
+            "Een factuur vervalt 14 dagen na de factuurdatum. Bij te late betaling kan de aanbieder vertragingsrente volgens de Finse rentewet en redelijke incassokosten rekenen.",
             "Wordt een factuur niet betaald na een aanmaning die na de vervaldag is verstuurd, dan kan het account alleen-lezen worden."
           ]
         ],
@@ -1068,8 +1048,7 @@ const TERMS_PAGE = {
         [
           "18. Contact",
           [
-            "IQSoftCore, eenmanszaak iqsoftcore, info@iqsoftcore.fi, +358 45 133 4009.",
-            "Ondernemingsnummer en adres worden vóór publicatie in punt 1 ingevuld."
+            "toiminimi IqSoftCore, Y-tunnus 3658340-4, Siihtalantie 56, 62710 Kurejoki, Finland. info@iqsoftcore.fi, +358 45 133 4009."
           ]
         ]
     ]
@@ -1078,12 +1057,10 @@ const TERMS_PAGE = {
     metaTitle: "Conditions d’utilisation | IQSoftCore",
     metaDescription: "Conditions d’iqFleetSync et conditions générales des services IQSoftCore. Projet.",
     title: "Conditions d’utilisation",
-    draft: "Projet. Ceci est un projet en langage clair des conditions d’iqFleetSync et des conditions générales des services IQSoftCore. Ce n’est pas un conseil juridique. Le prestataire doit relire le texte avant publication. Vérifiez en particulier le numéro d’entreprise, l’adresse, le moyen de paiement, l’échéance de 14 jours et le préavis de 30 jours.",
+    draft: "Projet. Ceci est un projet en langage clair des conditions d’iqFleetSync et des conditions générales des services IQSoftCore. Ce n’est pas un conseil juridique. Le prestataire doit relire le texte avant publication.",
     updated: "Projet mis à jour le 2026-09-30.",
     translationNote: "Le texte finlandais est la version officielle. Cette traduction est une aide et n’a pas été revue séparément comme texte juridique.",
     scope: "Ces conditions s’appliquent au service iqFleetSync. Elles sont aussi les conditions générales des services IQSoftCore lorsqu’un produit n’a pas de conditions propres. Un prix n’est facturé que s’il est publié au tarif ou convenu séparément.",
-    fillId: "[AJOUTER LE NUMÉRO D’ENTREPRISE / Y-tunnus]",
-    fillAddress: "[AJOUTER LA RUE, LE CODE POSTAL ET LA VILLE]",
     privacyLink: "Confidentialité",
     pricing: "Tarifs",
     product: "iqFleetSync",
@@ -1092,9 +1069,9 @@ const TERMS_PAGE = {
         [
           "1. Parties et prestataire",
           [
-            "Le prestataire est l’entreprise individuelle finlandaise iqsoftcore, qui agit sous le nom IQSoftCore, Finlande.",
-            "Numéro d’entreprise : [[fill-id]]",
-            "Adresse : [[fill-address]]",
+            "Le prestataire est l’entreprise individuelle finlandaise toiminimi IqSoftCore, Finlande.",
+            "Numéro d’entreprise (Y-tunnus) : 3658340-4",
+            "Adresse : Siihtalantie 56, 62710 Kurejoki, Finlande.",
             "Le client est une entreprise ou une autre organisation qui ouvre un compte ou utilise un service d’IQSoftCore. Contact : info@iqsoftcore.fi et +358 45 133 4009."
           ]
         ],
@@ -1134,8 +1111,8 @@ const TERMS_PAGE = {
         [
           "6. Paiement et retard",
           [
-            "L’usage payant est facturé chaque mois. Le moyen de paiement est celui que le service montre au moment du paiement. Ce projet ne nomme pas de service de paiement distinct.",
-            "Une facture est due 14 jours après sa date, sauf si la facture indique un autre délai. En cas de retard, le prestataire peut demander des intérêts selon la loi finlandaise sur les intérêts et des frais de recouvrement raisonnables.",
+            "L’usage payant est facturé chaque mois. Le paiement se fait via Stripe par carte, par prélèvement SEPA (SEPA Direct Debit) ou par facture (virement bancaire).",
+            "Une facture est due 14 jours après sa date. En cas de retard, le prestataire peut demander des intérêts selon la loi finlandaise sur les intérêts et des frais de recouvrement raisonnables.",
             "Si une facture n’est pas payée après un rappel envoyé une fois l’échéance passée, le compte peut passer en lecture seule."
           ]
         ],
@@ -1221,8 +1198,7 @@ const TERMS_PAGE = {
         [
           "18. Contact",
           [
-            "IQSoftCore, entreprise individuelle iqsoftcore, info@iqsoftcore.fi, +358 45 133 4009.",
-            "Le numéro d’entreprise et l’adresse seront ajoutés au point 1 avant la publication."
+            "toiminimi IqSoftCore, Y-tunnus 3658340-4, Siihtalantie 56, 62710 Kurejoki, Finlande. info@iqsoftcore.fi, +358 45 133 4009."
           ]
         ]
     ]
@@ -1231,12 +1207,10 @@ const TERMS_PAGE = {
     metaTitle: "Condiciones de uso | IQSoftCore",
     metaDescription: "Condiciones de iqFleetSync y condiciones generales de los servicios de IQSoftCore. Borrador.",
     title: "Condiciones de uso",
-    draft: "Borrador. Este es un borrador en lenguaje claro de las condiciones de iqFleetSync y de las condiciones generales de los servicios de IQSoftCore. No es asesoramiento jurídico. El proveedor debe revisar el texto antes de publicarlo. Revise en especial el número de empresa, la dirección, la forma de pago, el vencimiento de 14 días y el preaviso de 30 días.",
+    draft: "Borrador. Este es un borrador en lenguaje claro de las condiciones de iqFleetSync y de las condiciones generales de los servicios de IQSoftCore. No es asesoramiento jurídico. El proveedor debe revisar el texto antes de publicarlo.",
     updated: "Borrador actualizado el 2026-09-30.",
     translationNote: "El texto en finés es la versión oficial. Esta traducción es una ayuda y no se ha revisado por separado como texto jurídico.",
     scope: "Estas condiciones se aplican al servicio iqFleetSync. También son las condiciones generales de los servicios de IQSoftCore cuando un producto no tiene condiciones propias. Solo se cobra un precio si está publicado en la página de precios o se ha acordado aparte.",
-    fillId: "[AÑADIR NÚMERO DE EMPRESA / Y-tunnus]",
-    fillAddress: "[AÑADIR CALLE, CÓDIGO POSTAL Y CIUDAD]",
     privacyLink: "Privacidad",
     pricing: "Precios",
     product: "iqFleetSync",
@@ -1245,9 +1219,9 @@ const TERMS_PAGE = {
         [
           "1. Partes y proveedor",
           [
-            "El proveedor es el empresario individual finlandés iqsoftcore, que actúa con el nombre IQSoftCore, Finlandia.",
-            "Número de empresa: [[fill-id]]",
-            "Dirección: [[fill-address]]",
+            "El proveedor es el empresario individual finlandés toiminimi IqSoftCore, Finlandia.",
+            "Número de empresa (Y-tunnus): 3658340-4",
+            "Dirección: Siihtalantie 56, 62710 Kurejoki, Finlandia.",
             "El cliente es una empresa u otra organización que abre una cuenta o usa un servicio de IQSoftCore. Contacto: info@iqsoftcore.fi y +358 45 133 4009."
           ]
         ],
@@ -1287,8 +1261,8 @@ const TERMS_PAGE = {
         [
           "6. Pago y retraso",
           [
-            "El uso de pago se factura cada mes. La forma de pago es la que el servicio muestra en el momento del pago. Este borrador no nombra un servicio de pago aparte.",
-            "Una factura vence a los 14 días de su fecha, salvo que la factura indique otro plazo. Si el pago se retrasa, el proveedor puede cobrar intereses según la ley finlandesa de intereses y unos gastos de cobro razonables.",
+            "El uso de pago se factura cada mes. El pago se hace a través de Stripe con tarjeta, con adeudo directo SEPA (SEPA Direct Debit) o con factura (transferencia bancaria).",
+            "Una factura vence a los 14 días de su fecha. Si el pago se retrasa, el proveedor puede cobrar intereses según la ley finlandesa de intereses y unos gastos de cobro razonables.",
             "Si una factura no se paga después de un aviso enviado una vez vencida, la cuenta puede pasar a solo lectura."
           ]
         ],
@@ -1374,8 +1348,7 @@ const TERMS_PAGE = {
         [
           "18. Contacto",
           [
-            "IQSoftCore, empresario individual iqsoftcore, info@iqsoftcore.fi, +358 45 133 4009.",
-            "El número de empresa y la dirección se completarán en el punto 1 antes de la publicación."
+            "toiminimi IqSoftCore, Y-tunnus 3658340-4, Siihtalantie 56, 62710 Kurejoki, Finlandia. info@iqsoftcore.fi, +358 45 133 4009."
           ]
         ]
     ]
@@ -1384,12 +1357,10 @@ const TERMS_PAGE = {
     metaTitle: "Termos de uso | IQSoftCore",
     metaDescription: "Termos do iqFleetSync e termos gerais dos serviços da IQSoftCore. Rascunho.",
     title: "Termos de uso",
-    draft: "Rascunho. Este é um rascunho em linguagem simples dos termos do iqFleetSync e dos termos gerais dos serviços da IQSoftCore. Não é aconselhamento jurídico. O fornecedor deve rever o texto antes de o publicar. Verifique em especial o número de empresa, o endereço, a forma de pagamento, o vencimento de 14 dias e o aviso de 30 dias.",
+    draft: "Rascunho. Este é um rascunho em linguagem simples dos termos do iqFleetSync e dos termos gerais dos serviços da IQSoftCore. Não é aconselhamento jurídico. O fornecedor deve rever o texto antes de o publicar.",
     updated: "Rascunho atualizado em 2026-09-30.",
     translationNote: "O texto em finlandês é a versão oficial. Esta tradução serve de ajuda e não foi revista à parte como texto jurídico.",
     scope: "Estes termos aplicam-se ao serviço iqFleetSync. São também os termos gerais dos serviços da IQSoftCore quando um produto não tem termos próprios. Um preço só é cobrado se estiver publicado na página de preços ou tiver sido acordado à parte.",
-    fillId: "[ACRESCENTAR NÚMERO DE EMPRESA / Y-tunnus]",
-    fillAddress: "[ACRESCENTAR RUA, CÓDIGO POSTAL E CIDADE]",
     privacyLink: "Privacidade",
     pricing: "Preços",
     product: "iqFleetSync",
@@ -1398,9 +1369,9 @@ const TERMS_PAGE = {
         [
           "1. Partes e fornecedor",
           [
-            "O fornecedor é o empresário em nome individual finlandês iqsoftcore, que atua com o nome IQSoftCore, Finlândia.",
-            "Número de empresa: [[fill-id]]",
-            "Endereço: [[fill-address]]",
+            "O fornecedor é o empresário em nome individual finlandês toiminimi IqSoftCore, Finlândia.",
+            "Número de empresa (Y-tunnus): 3658340-4",
+            "Endereço: Siihtalantie 56, 62710 Kurejoki, Finlândia.",
             "O cliente é uma empresa ou outra organização que abre uma conta ou usa um serviço da IQSoftCore. Contacto: info@iqsoftcore.fi e +358 45 133 4009."
           ]
         ],
@@ -1440,8 +1411,8 @@ const TERMS_PAGE = {
         [
           "6. Pagamento e atraso",
           [
-            "O uso pago é faturado todos os meses. A forma de pagamento é a que o serviço mostra no momento do pagamento. Este rascunho não indica um serviço de pagamento separado.",
-            "Uma fatura vence 14 dias após a data, salvo se a fatura indicar outro prazo. Se o pagamento atrasar, o fornecedor pode cobrar juros segundo a lei finlandesa dos juros e custos razoáveis de cobrança.",
+            "O uso pago é faturado todos os meses. O pagamento é feito pela Stripe com cartão, com débito direto SEPA (SEPA Direct Debit) ou com fatura (transferência bancária).",
+            "Uma fatura vence 14 dias após a data. Se o pagamento atrasar, o fornecedor pode cobrar juros segundo a lei finlandesa dos juros e custos razoáveis de cobrança.",
             "Se uma fatura não for paga depois de um aviso enviado após o vencimento, a conta pode passar a só leitura."
           ]
         ],
@@ -1527,8 +1498,7 @@ const TERMS_PAGE = {
         [
           "18. Contacto",
           [
-            "IQSoftCore, empresário em nome individual iqsoftcore, info@iqsoftcore.fi, +358 45 133 4009.",
-            "O número de empresa e o endereço serão preenchidos no ponto 1 antes da publicação."
+            "toiminimi IqSoftCore, Y-tunnus 3658340-4, Siihtalantie 56, 62710 Kurejoki, Finlândia. info@iqsoftcore.fi, +358 45 133 4009."
           ]
         ]
     ]
@@ -1537,12 +1507,10 @@ const TERMS_PAGE = {
     metaTitle: "Condizioni d’uso | IQSoftCore",
     metaDescription: "Condizioni di iqFleetSync e condizioni generali dei servizi IQSoftCore. Bozza.",
     title: "Condizioni d’uso",
-    draft: "Bozza. Questa è una bozza in linguaggio chiaro delle condizioni di iqFleetSync e delle condizioni generali dei servizi IQSoftCore. Non è una consulenza legale. Il fornitore deve rivedere il testo prima della pubblicazione. Controlli in particolare la partita IVA, l’indirizzo, il modo di pagamento, la scadenza di 14 giorni e il preavviso di 30 giorni.",
+    draft: "Bozza. Questa è una bozza in linguaggio chiaro delle condizioni di iqFleetSync e delle condizioni generali dei servizi IQSoftCore. Non è una consulenza legale. Il fornitore deve rivedere il testo prima della pubblicazione.",
     updated: "Bozza aggiornata il 2026-09-30.",
     translationNote: "Il testo finlandese è la versione ufficiale. Questa traduzione è un aiuto e non è stata rivista separatamente come testo giuridico.",
     scope: "Queste condizioni si applicano al servizio iqFleetSync. Sono anche le condizioni generali dei servizi IQSoftCore quando un prodotto non ha condizioni proprie. Un prezzo si addebita solo se è pubblicato nel listino o concordato a parte.",
-    fillId: "[AGGIUNGERE PARTITA IVA / Y-tunnus]",
-    fillAddress: "[AGGIUNGERE VIA, CAP E CITTÀ]",
     privacyLink: "Privacy",
     pricing: "Prezzi",
     product: "iqFleetSync",
@@ -1551,9 +1519,9 @@ const TERMS_PAGE = {
         [
           "1. Parti e fornitore",
           [
-            "Il fornitore è l’impresa individuale finlandese iqsoftcore, che opera con il nome IQSoftCore, Finlandia.",
-            "Partita IVA / codice impresa: [[fill-id]]",
-            "Indirizzo: [[fill-address]]",
+            "Il fornitore è l’impresa individuale finlandese toiminimi IqSoftCore, Finlandia.",
+            "Codice impresa (Y-tunnus): 3658340-4",
+            "Indirizzo: Siihtalantie 56, 62710 Kurejoki, Finlandia.",
             "Il cliente è un’impresa o un’altra organizzazione che apre un account o usa un servizio di IQSoftCore. Contatto: info@iqsoftcore.fi e +358 45 133 4009."
           ]
         ],
@@ -1593,8 +1561,8 @@ const TERMS_PAGE = {
         [
           "6. Pagamento e ritardo",
           [
-            "L’uso a pagamento si fattura ogni mese. Il modo di pagamento è quello che il servizio mostra al momento del pagamento. Questa bozza non indica un servizio di pagamento separato.",
-            "Una fattura scade 14 giorni dopo la data, salvo che la fattura indichi un altro termine. In caso di ritardo il fornitore può chiedere interessi secondo la legge finlandese sugli interessi e spese ragionevoli di recupero.",
+            "L’uso a pagamento si fattura ogni mese. Il pagamento avviene tramite Stripe con carta, con addebito diretto SEPA (SEPA Direct Debit) o con fattura (bonifico bancario).",
+            "Una fattura scade 14 giorni dopo la data. In caso di ritardo il fornitore può chiedere interessi secondo la legge finlandese sugli interessi e spese ragionevoli di recupero.",
             "Se una fattura non è pagata dopo un sollecito inviato a scadenza passata, l’account può passare in sola lettura."
           ]
         ],
@@ -1680,8 +1648,7 @@ const TERMS_PAGE = {
         [
           "18. Contatto",
           [
-            "IQSoftCore, impresa individuale iqsoftcore, info@iqsoftcore.fi, +358 45 133 4009.",
-            "Il codice impresa e l’indirizzo saranno completati al punto 1 prima della pubblicazione."
+            "toiminimi IqSoftCore, Y-tunnus 3658340-4, Siihtalantie 56, 62710 Kurejoki, Finlandia. info@iqsoftcore.fi, +358 45 133 4009."
           ]
         ]
     ]
@@ -1690,12 +1657,10 @@ const TERMS_PAGE = {
     metaTitle: "Warunki korzystania | IQSoftCore",
     metaDescription: "Warunki iqFleetSync i ogólne warunki usług IQSoftCore. Projekt.",
     title: "Warunki korzystania",
-    draft: "Projekt. To jest projekt prostym językiem warunków iqFleetSync i ogólnych warunków usług IQSoftCore. To nie jest porada prawna. Usługodawca musi sprawdzić tekst przed publikacją. Sprawdź zwłaszcza numer firmy, adres, sposób płatności, 14-dniowy termin płatności i 30-dniowe wypowiedzenie zmiany.",
+    draft: "Projekt. To jest projekt prostym językiem warunków iqFleetSync i ogólnych warunków usług IQSoftCore. To nie jest porada prawna. Usługodawca musi sprawdzić tekst przed publikacją.",
     updated: "Projekt zaktualizowany 2026-09-30.",
     translationNote: "Tekst fiński jest wersją oficjalną. To tłumaczenie jest pomocą i nie zostało osobno sprawdzone jako tekst prawny.",
     scope: "Te warunki dotyczą usługi iqFleetSync. Są też ogólnymi warunkami usług IQSoftCore, gdy produkt nie ma własnych warunków. Cena jest pobierana tylko wtedy, gdy jest opublikowana w cenniku albo uzgodniona osobno.",
-    fillId: "[DOPISZ NUMER FIRMY / Y-tunnus]",
-    fillAddress: "[DOPISZ ULICĘ, KOD POCZTOWY I MIEJSCOWOŚĆ]",
     privacyLink: "Prywatność",
     pricing: "Cennik",
     product: "iqFleetSync",
@@ -1704,9 +1669,9 @@ const TERMS_PAGE = {
         [
           "1. Strony i usługodawca",
           [
-            "Usługodawcą jest fińska jednoosobowa działalność iqsoftcore, działająca pod nazwą IQSoftCore, Finlandia.",
-            "Numer firmy: [[fill-id]]",
-            "Adres: [[fill-address]]",
+            "Usługodawcą jest fińska jednoosobowa działalność toiminimi IqSoftCore, Finlandia.",
+            "Numer firmy (Y-tunnus): 3658340-4",
+            "Adres: Siihtalantie 56, 62710 Kurejoki, Finlandia.",
             "Klientem jest firma lub inna organizacja, która otwiera konto albo korzysta z usługi IQSoftCore. Kontakt: info@iqsoftcore.fi i +358 45 133 4009."
           ]
         ],
@@ -1746,8 +1711,8 @@ const TERMS_PAGE = {
         [
           "6. Płatność i opóźnienie",
           [
-            "Użycie płatne jest rozliczane co miesiąc. Sposób płatności jest taki, jaki usługa pokazuje w chwili płatności. Ten projekt nie wskazuje osobnej usługi płatniczej.",
-            "Faktura jest płatna w ciągu 14 dni od daty, chyba że faktura podaje inny termin. Przy opóźnieniu usługodawca może naliczyć odsetki według fińskiej ustawy o odsetkach i rozsądne koszty windykacji.",
+            "Użycie płatne jest rozliczane co miesiąc. Płatność odbywa się przez Stripe kartą, poleceniem zapłaty SEPA (SEPA Direct Debit) albo fakturą (przelew bankowy).",
+            "Faktura jest płatna w ciągu 14 dni od daty. Przy opóźnieniu usługodawca może naliczyć odsetki według fińskiej ustawy o odsetkach i rozsądne koszty windykacji.",
             "Jeśli faktura nie zostanie zapłacona po przypomnieniu wysłanym po terminie, konto można przełączyć w tryb tylko do odczytu."
           ]
         ],
@@ -1833,8 +1798,7 @@ const TERMS_PAGE = {
         [
           "18. Kontakt",
           [
-            "IQSoftCore, jednoosobowa działalność iqsoftcore, info@iqsoftcore.fi, +358 45 133 4009.",
-            "Numer firmy i adres zostaną uzupełnione w punkcie 1 przed publikacją."
+            "toiminimi IqSoftCore, Y-tunnus 3658340-4, Siihtalantie 56, 62710 Kurejoki, Finlandia. info@iqsoftcore.fi, +358 45 133 4009."
           ]
         ]
     ]
@@ -1843,12 +1807,10 @@ const TERMS_PAGE = {
     metaTitle: "Podmínky použití | IQSoftCore",
     metaDescription: "Podmínky iqFleetSync a obecné podmínky služeb IQSoftCore. Návrh.",
     title: "Podmínky použití",
-    draft: "Návrh. Toto je návrh srozumitelným jazykem podmínek iqFleetSync a obecných podmínek služeb IQSoftCore. Není to právní porada. Poskytovatel musí text zkontrolovat před zveřejněním. Zkontrolujte zejména IČ, adresu, způsob platby, splatnost 14 dní a 30denní oznámení změny.",
+    draft: "Návrh. Toto je návrh srozumitelným jazykem podmínek iqFleetSync a obecných podmínek služeb IQSoftCore. Není to právní porada. Poskytovatel musí text zkontrolovat před zveřejněním.",
     updated: "Návrh aktualizován 2026-09-30.",
     translationNote: "Finský text je oficiální verze. Tento překlad je pomůcka a nebyl samostatně posouzen jako právní text.",
     scope: "Tyto podmínky platí pro službu iqFleetSync. Jsou také obecnými podmínkami služeb IQSoftCore, pokud produkt nemá vlastní podmínky. Cena se účtuje jen tehdy, když je zveřejněna v ceníku nebo zvlášť dohodnuta.",
-    fillId: "[DOPLŇTE IČ / Y-tunnus]",
-    fillAddress: "[DOPLŇTE ULICI, PSČ A MĚSTO]",
     privacyLink: "Ochrana soukromí",
     pricing: "Ceník",
     product: "iqFleetSync",
@@ -1857,9 +1819,9 @@ const TERMS_PAGE = {
         [
           "1. Strany a poskytovatel",
           [
-            "Poskytovatelem je finská živnost iqsoftcore, která vystupuje pod názvem IQSoftCore, Finsko.",
-            "IČ: [[fill-id]]",
-            "Adresa: [[fill-address]]",
+            "Poskytovatelem je finská živnost toiminimi IqSoftCore, Finsko.",
+            "IČ (Y-tunnus): 3658340-4",
+            "Adresa: Siihtalantie 56, 62710 Kurejoki, Finsko.",
             "Zákazník je firma nebo jiná organizace, která si otevře účet nebo používá službu IQSoftCore. Kontakt: info@iqsoftcore.fi a +358 45 133 4009."
           ]
         ],
@@ -1899,8 +1861,8 @@ const TERMS_PAGE = {
         [
           "6. Platba a prodlení",
           [
-            "Placené užívání se fakturuje každý měsíc. Způsob platby je ten, který služba ukáže v okamžiku platby. Tento návrh nejmenuje samostatnou platební službu.",
-            "Faktura je splatná 14 dní od data, pokud faktura neuvádí jinou lhůtu. Při prodlení může poskytovatel účtovat úrok podle finského zákona o úrocích a přiměřené náklady vymáhání.",
+            "Placené užívání se fakturuje každý měsíc. Platba probíhá přes Stripe kartou, inkasem SEPA (SEPA Direct Debit) nebo fakturou (bankovní převod).",
+            "Faktura je splatná 14 dní od data. Při prodlení může poskytovatel účtovat úrok podle finského zákona o úrocích a přiměřené náklady vymáhání.",
             "Pokud faktura není zaplacena po upomínce odeslané po splatnosti, účet lze přepnout do režimu jen pro čtení."
           ]
         ],
@@ -1986,8 +1948,7 @@ const TERMS_PAGE = {
         [
           "18. Kontakt",
           [
-            "IQSoftCore, živnost iqsoftcore, info@iqsoftcore.fi, +358 45 133 4009.",
-            "IČ a adresa se doplní do bodu 1 před zveřejněním."
+            "toiminimi IqSoftCore, Y-tunnus 3658340-4, Siihtalantie 56, 62710 Kurejoki, Finsko. info@iqsoftcore.fi, +358 45 133 4009."
           ]
         ]
     ]
@@ -1996,12 +1957,10 @@ const TERMS_PAGE = {
     metaTitle: "利用規約 | IQSoftCore",
     metaDescription: "iqFleetSyncの利用規約とIQSoftCoreのサービスの一般条件。草案。",
     title: "利用規約",
-    draft: "草案です。これは iqFleetSync の利用規約と IQSoftCore のサービスの一般条件を平易な言葉で書いた草案であり、法的助言ではありません。公開前に提供者が本文を確認する必要があります。特に事業者番号、住所、支払方法、14日の支払期限、30日の事前通知を確認してください。",
+    draft: "草案です。これは iqFleetSync の利用規約と IQSoftCore のサービスの一般条件を平易な言葉で書いた草案であり、法的助言ではありません。公開前に提供者が本文を確認する必要があります。",
     updated: "草案の更新日 2026-09-30。",
     translationNote: "フィンランド語の本文が正式版です。この訳は理解のためのもので、法律文書として別に審査されたものではありません。",
     scope: "この規約は iqFleetSync に適用されます。製品に独自の規約がない場合は、IQSoftCore のサービスの一般条件でもあります。料金は、料金ページに掲載されているか、別に合意した場合にだけ請求します。",
-    fillId: "[事業者番号 / Y-tunnus を記入]",
-    fillAddress: "[番地、郵便番号、市町村を記入]",
     privacyLink: "プライバシー",
     pricing: "料金",
     product: "iqFleetSync",
@@ -2010,9 +1969,9 @@ const TERMS_PAGE = {
         [
           "1. 当事者と提供者",
           [
-            "提供者は、IQSoftCore の名称で事業を行うフィンランドの個人事業主 iqsoftcore です。",
-            "事業者番号: [[fill-id]]",
-            "住所: [[fill-address]]",
+            "提供者は、フィンランドの個人事業主 toiminimi IqSoftCore です。",
+            "事業者番号（Y-tunnus）: 3658340-4",
+            "住所: Siihtalantie 56, 62710 Kurejoki, フィンランド。",
             "顧客は、アカウントを開くか IQSoftCore のサービスを使う会社またはその他の組織です。連絡先: info@iqsoftcore.fi および +358 45 133 4009。"
           ]
         ],
@@ -2052,8 +2011,8 @@ const TERMS_PAGE = {
         [
           "6. 支払いと遅延",
           [
-            "有料利用は毎月請求します。支払方法は、支払いの時点でサービスが表示するものです。この草案は別の決済サービス名を定めていません。",
-            "請求書は、請求日の14日後が期限です。請求書に別の期限がある場合はそれに従います。支払いが遅れると、提供者はフィンランドの利息法に基づく遅延利息と合理的な回収費用を請求できます。",
+            "有料利用は毎月請求します。支払いは Stripe で、カード、SEPA Direct Debit、または請求書（銀行振込）です。",
+            "請求書は、請求日の14日後が期限です。支払いが遅れると、提供者はフィンランドの利息法に基づく遅延利息と合理的な回収費用を請求できます。",
             "期限後の督促のあとでも支払われない場合、アカウントを閲覧専用にできます。"
           ]
         ],
@@ -2139,8 +2098,7 @@ const TERMS_PAGE = {
         [
           "18. 連絡先",
           [
-            "IQSoftCore、個人事業主 iqsoftcore、info@iqsoftcore.fi、+358 45 133 4009。",
-            "事業者番号と住所は、公開前に第1項へ記入します。"
+            "toiminimi IqSoftCore、Y-tunnus 3658340-4、Siihtalantie 56, 62710 Kurejoki、フィンランド。info@iqsoftcore.fi、+358 45 133 4009。"
           ]
         ]
     ]
@@ -2149,12 +2107,10 @@ const TERMS_PAGE = {
     metaTitle: "이용약관 | IQSoftCore",
     metaDescription: "iqFleetSync 이용약관과 IQSoftCore 서비스의 일반 약관. 초안.",
     title: "이용약관",
-    draft: "초안입니다. 이것은 iqFleetSync 이용약관과 IQSoftCore 서비스의 일반 약관을 쉬운 말로 쓴 초안이며 법률 자문이 아닙니다. 공개 전에 제공자가 본문을 확인해야 합니다. 특히 사업자번호, 주소, 결제 방법, 14일 지급 기한, 30일 사전 고지를 확인하세요.",
+    draft: "초안입니다. 이것은 iqFleetSync 이용약관과 IQSoftCore 서비스의 일반 약관을 쉬운 말로 쓴 초안이며 법률 자문이 아닙니다. 공개 전에 제공자가 본문을 확인해야 합니다.",
     updated: "초안 업데이트 2026-09-30.",
     translationNote: "핀란드어 본문이 공식 버전입니다. 이 번역은 이해를 돕기 위한 것이며 법률 문서로 따로 검토되지 않았습니다.",
     scope: "이 약관은 iqFleetSync에 적용됩니다. 제품에 자체 약관이 없으면 IQSoftCore 서비스의 일반 약관이기도 합니다. 요금은 요금 페이지에 나와 있거나 따로 합의한 경우에만 청구합니다.",
-    fillId: "[사업자번호 / Y-tunnus 기입]",
-    fillAddress: "[거리, 우편번호, 도시 기입]",
     privacyLink: "개인정보",
     pricing: "요금",
     product: "iqFleetSync",
@@ -2163,9 +2119,9 @@ const TERMS_PAGE = {
         [
           "1. 당사자와 제공자",
           [
-            "제공자는 IQSoftCore라는 이름으로 영업하는 핀란드 개인사업자 iqsoftcore입니다.",
-            "사업자번호: [[fill-id]]",
-            "주소: [[fill-address]]",
+            "제공자는 핀란드 개인사업자 toiminimi IqSoftCore입니다.",
+            "사업자번호(Y-tunnus): 3658340-4",
+            "주소: Siihtalantie 56, 62710 Kurejoki, 핀란드.",
             "고객은 계정을 열거나 IQSoftCore 서비스를 사용하는 회사 또는 그 밖의 조직입니다. 연락처: info@iqsoftcore.fi 및 +358 45 133 4009."
           ]
         ],
@@ -2205,8 +2161,8 @@ const TERMS_PAGE = {
         [
           "6. 결제와 연체",
           [
-            "유료 사용은 매달 청구합니다. 결제 방법은 결제 시점에 서비스가 보여주는 방법입니다. 이 초안은 별도의 결제 서비스 이름을 정하지 않습니다.",
-            "청구서는 청구일로부터 14일 뒤에 만기가 됩니다. 청구서에 다른 기한이 있으면 그것을 따릅니다. 결제가 늦으면 제공자는 핀란드 이자법에 따른 지연 이자와 합리적인 추심 비용을 청구할 수 있습니다.",
+            "유료 사용은 매달 청구합니다. 결제는 Stripe로 카드, SEPA Direct Debit 또는 청구서(계좌이체)로 합니다.",
+            "청구서는 청구일로부터 14일 뒤에 만기가 됩니다. 결제가 늦으면 제공자는 핀란드 이자법에 따른 지연 이자와 합리적인 추심 비용을 청구할 수 있습니다.",
             "만기 후 보낸 독촉 뒤에도 내지 않으면 계정을 읽기 전용으로 바꿀 수 있습니다."
           ]
         ],
@@ -2292,8 +2248,7 @@ const TERMS_PAGE = {
         [
           "18. 연락처",
           [
-            "IQSoftCore, 개인사업자 iqsoftcore, info@iqsoftcore.fi, +358 45 133 4009.",
-            "사업자번호와 주소는 공개 전에 제1항에 채웁니다."
+            "toiminimi IqSoftCore, Y-tunnus 3658340-4, Siihtalantie 56, 62710 Kurejoki, 핀란드. info@iqsoftcore.fi, +358 45 133 4009."
           ]
         ]
     ]
@@ -2302,12 +2257,10 @@ const TERMS_PAGE = {
     metaTitle: "使用条款 | IQSoftCore",
     metaDescription: "iqFleetSync 使用条款以及 IQSoftCore 服务的一般条款。草案。",
     title: "使用条款",
-    draft: "草案。这是用平白语言写的 iqFleetSync 条款和 IQSoftCore 服务一般条款的草案，不是法律意见。提供者必须在发布前审阅本文。请特别核对营业编号、地址、付款方式、14 天付款期限和 30 天提前通知。",
+    draft: "草案。这是用平白语言写的 iqFleetSync 条款和 IQSoftCore 服务一般条款的草案，不是法律意见。提供者必须在发布前审阅本文。",
     updated: "草案更新日期 2026-09-30。",
     translationNote: "芬兰语文本是正式版本。本译文便于阅读，并未另行作为法律文本审查。",
     scope: "本条款适用于 iqFleetSync。当某项产品没有自己的条款时，本条款也是 IQSoftCore 服务的一般条款。只有价格已在价格页公布或另行约定时，才会收取该价格。",
-    fillId: "[填写营业编号 / Y-tunnus]",
-    fillAddress: "[填写街道、邮编和城市]",
     privacyLink: "隐私",
     pricing: "价格",
     product: "iqFleetSync",
@@ -2316,9 +2269,9 @@ const TERMS_PAGE = {
         [
           "1. 双方与提供者",
           [
-            "提供者是以 IQSoftCore 名义经营的芬兰个体工商户 iqsoftcore。",
-            "营业编号：[[fill-id]]",
-            "地址：[[fill-address]]",
+            "提供者是芬兰个体工商户 toiminimi IqSoftCore。",
+            "营业编号（Y-tunnus）：3658340-4",
+            "地址：Siihtalantie 56, 62710 Kurejoki, 芬兰。",
             "客户是开设账户或使用 IQSoftCore 服务的公司或其他组织。联系方式：info@iqsoftcore.fi 和 +358 45 133 4009。"
           ]
         ],
@@ -2358,8 +2311,8 @@ const TERMS_PAGE = {
         [
           "6. 付款与逾期",
           [
-            "付费使用按月结算。付款方式是服务在付款时显示的方式。本草案没有指定单独的支付服务。",
-            "账单在账单日期后 14 天到期，除非账单写明其他期限。逾期时，提供者可以按芬兰利息法收取逾期利息和合理的催收费用。",
+            "付费使用按月结算。付款通过 Stripe，方式为银行卡、SEPA Direct Debit 或发票（银行转账）。",
+            "账单在账单日期后 14 天到期。逾期时，提供者可以按芬兰利息法收取逾期利息和合理的催收费用。",
             "如果账单在到期后发出的提醒之后仍未支付，账户可以转为只读。"
           ]
         ],
@@ -2445,8 +2398,7 @@ const TERMS_PAGE = {
         [
           "18. 联系方式",
           [
-            "IQSoftCore，个体工商户 iqsoftcore，info@iqsoftcore.fi，+358 45 133 4009。",
-            "营业编号和地址将在发布前填入第 1 条。"
+            "toiminimi IqSoftCore，Y-tunnus 3658340-4，Siihtalantie 56, 62710 Kurejoki，芬兰。info@iqsoftcore.fi，+358 45 133 4009。"
           ]
         ]
     ]
@@ -2466,10 +2418,8 @@ function renderTermsParagraph(paragraph, page) {
   const tokens = {
     "[[privacy]]": `<a href="privacy.html">${escapeTermsHtml(page.privacyLink)}</a>`,
     "[[pricing]]": `<a href="hinnasto.html">${escapeTermsHtml(page.pricing)}</a>`,
-    "[[fill-id]]": `<strong class="terms-placeholder">${escapeTermsHtml(page.fillId)}</strong>`,
-    "[[fill-address]]": `<strong class="terms-placeholder">${escapeTermsHtml(page.fillAddress)}</strong>`,
   };
-  const parts = String(paragraph).split(/(\[\[privacy\]\]|\[\[pricing\]\]|\[\[fill-id\]\]|\[\[fill-address\]\])/);
+  const parts = String(paragraph).split(/(\[\[privacy\]\]|\[\[pricing\]\])/);
   return parts.map((part) => (tokens[part] ? tokens[part] : escapeTermsHtml(part))).join("");
 }
 
