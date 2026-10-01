@@ -3,11 +3,8 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Sovellukset ja ohjelmistot | IQSoftCore</title>
-    <meta
-      name="description"
-      content="IQSoftCoren sovellukset – aloita Tuntilapulla, yksinkertaisella työajanseurannalla."
-    />
+    <title>Tuntilappu | IQSoftCore</title>
+    <meta name="description" content="Tuntilappu on yksinkertainen työajanseuranta. PDF-raportit syntyvät laitteella." />
     <link rel="icon" href="assets/logo.svg" type="image/svg+xml" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -54,9 +51,9 @@
       </div>
     </header>
 
-    <main class="apps-page apps-index">
+    <main class="product-page">
       <div class="section-inner">
-        <div id="apps-root"></div>
+        <div id="tuntilappu-root"></div>
       </div>
     </main>
 
@@ -76,7 +73,8 @@
       </div>
     </footer>
 
-    <script src="js/apps-index.js"></script>
+    <script src="js/tuntilappu-names.js"></script>
+    <script src="js/apps-content.js"></script>
     <script src="js/i18n.js"></script>
     <script>
       document.getElementById("year").textContent = new Date().getFullYear();

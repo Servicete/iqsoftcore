@@ -3,11 +3,8 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Sovellukset ja ohjelmistot | IQSoftCore</title>
-    <meta
-      name="description"
-      content="IQSoftCoren sovellukset – aloita Tuntilapulla, yksinkertaisella työajanseurannalla."
-    />
+    <title>Käyttöehdot | IQSoftCore</title>
+    <meta name="description" content="iqFleetSync-palvelun käyttöehdot. Luonnos." />
     <link rel="icon" href="assets/logo.svg" type="image/svg+xml" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -26,11 +23,11 @@
         </a>
         <nav class="nav" aria-label="Primary">
           <a href="index.html#about" data-i18n="navAbout">Toiminta</a>
-          <a href="apps.html" aria-current="page" data-i18n="navApps">Sovellukset</a>
+          <a href="apps.html" data-i18n="navApps">Sovellukset</a>
           <a href="hinnasto.html" data-i18n="navPricing">Hinnasto</a>
           <a href="index.html#contact" data-i18n="navContact">Yhteystiedot</a>
           <a href="privacy.html" data-i18n="navPrivacy">Tietosuoja</a>
-          <a href="kayttoehdot.html" data-i18n="navTerms">Käyttöehdot</a>
+          <a href="kayttoehdot.html" aria-current="page" data-i18n="navTerms">Käyttöehdot</a>
           <label class="visually-hidden" for="lang-select" data-i18n="langLabel">Kieli</label>
           <select id="lang-select" class="lang-select" aria-label="Language">
             <option value="fi">Suomi</option>
@@ -54,9 +51,9 @@
       </div>
     </header>
 
-    <main class="apps-page apps-index">
+    <main class="terms-page privacy-page">
       <div class="section-inner">
-        <div id="apps-root"></div>
+        <div id="terms-root"></div>
       </div>
     </main>
 
@@ -76,7 +73,7 @@
       </div>
     </footer>
 
-    <script src="js/apps-index.js"></script>
+    <script src="js/terms-content.js"></script>
     <script src="js/i18n.js"></script>
     <script>
       document.getElementById("year").textContent = new Date().getFullYear();

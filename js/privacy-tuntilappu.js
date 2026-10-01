@@ -8,7 +8,7 @@ PRIVACY_POLICIES.tuntilappu = {
       {
         heading: "1. Yleistä",
         paragraphs: [
-          "Tämä tietosuojakäytäntö kuvaa, miten Tuntilappu-sovellus käsittelee käyttäjätietoja. Rekisterinpitäjä on IQSoftCore, Suomi.",
+          "Tämä tietosuojakäytäntö kuvaa, miten Tuntilappu-sovellus käsittelee käyttäjätietoja. Rekisterinpitäjä on toiminimi IqSoftCore, Y-tunnus 3658340-4, Siihtalantie 56, 62710 Kurejoki, Suomi.",
           "Sovellus on suunniteltu siten, että se ei kerää, tallenna, jaa tai käsittele mitään henkilötietoja palvelimilla. Kaikki sovelluksen tuottama data säilytetään vain käyttäjän omalla laitteella. Sovellusta voi käyttää ilman rekisteröitymistä, kirjautumista tai käyttäjätiliä.",
         ],
       },
@@ -94,7 +94,7 @@ PRIVACY_POLICIES.tuntilappu = {
       {
         heading: "1. General",
         paragraphs: [
-          "This privacy policy describes how the Tuntilappu application handles user data. The controller is IQSoftCore, Finland.",
+          "This privacy policy describes how the Tuntilappu application handles user data. The controller is toiminimi IqSoftCore, Y-tunnus 3658340-4, Siihtalantie 56, 62710 Kurejoki, Finland.",
           "The app is designed so that it does not collect, store, share, or process any personal data on servers. All data produced by the app is stored only on the user’s own device. The app can be used without registration, login, or a user account.",
         ],
       },
@@ -180,7 +180,7 @@ PRIVACY_POLICIES.tuntilappu = {
       {
         heading: "1. Allmänt",
         paragraphs: [
-          "Denna integritetspolicy beskriver hur Tuntilappu-appen behandlar användardata. Personuppgiftsansvarig är IQSoftCore, Finland.",
+          "Denna integritetspolicy beskriver hur Tuntilappu-appen behandlar användardata. Personuppgiftsansvarig är toiminimi IqSoftCore, Y-tunnus 3658340-4, Siihtalantie 56, 62710 Kurejoki, Finland.",
           "Appen är utformad så att den inte samlar in, lagrar, delar eller behandlar personuppgifter på servrar. All data som appen skapar lagras endast på användarens egen enhet. Appen kan användas utan registrering, inloggning eller användarkonto.",
         ],
       },
@@ -266,7 +266,7 @@ PRIVACY_POLICIES.tuntilappu = {
       {
         heading: "1. Generelt",
         paragraphs: [
-          "Denne personvernerklæringen beskriver hvordan Tuntilappu-appen behandler brukerdata. Behandlingsansvarlig er IQSoftCore, Finland.",
+          "Denne personvernerklæringen beskriver hvordan Tuntilappu-appen behandler brukerdata. Behandlingsansvarlig er toiminimi IqSoftCore, Y-tunnus 3658340-4, Siihtalantie 56, 62710 Kurejoki, Finland.",
           "Appen er laget slik at den ikke samler inn, lagrer, deler eller behandler personopplysninger på servere. All data appen produserer lagres kun på brukerens egen enhet. Appen kan brukes uten registrering, innlogging eller brukerkonto.",
         ],
       },
@@ -352,7 +352,7 @@ PRIVACY_POLICIES.tuntilappu = {
       {
         heading: "1. Generelt",
         paragraphs: [
-          "Denne privatlivspolitik beskriver, hvordan Tuntilappu-appen behandler brugerdata. Dataansvarlig er IQSoftCore, Finland.",
+          "Denne privatlivspolitik beskriver, hvordan Tuntilappu-appen behandler brugerdata. Dataansvarlig er toiminimi IqSoftCore, Y-tunnus 3658340-4, Siihtalantie 56, 62710 Kurejoki, Finland.",
           "Appen er designet, så den ikke indsamler, gemmer, deler eller behandler personoplysninger på servere. Al data, appen opretter, gemmes kun på brugerens egen enhed. Appen kan bruges uden registrering, login eller brugerkonto.",
         ],
       },
@@ -438,7 +438,7 @@ PRIVACY_POLICIES.tuntilappu = {
       {
         heading: "1. Allgemeines",
         paragraphs: [
-          "Diese Datenschutzerklärung beschreibt, wie die App Tuntilappu Nutzerdaten verarbeitet. Verantwortlicher ist IQSoftCore, Finnland.",
+          "Diese Datenschutzerklärung beschreibt, wie die App Tuntilappu Nutzerdaten verarbeitet. Verantwortlicher ist toiminimi IqSoftCore, Y-tunnus 3658340-4, Siihtalantie 56, 62710 Kurejoki, Finnland.",
           "Die App ist so gestaltet, dass sie keine personenbezogenen Daten auf Servern erhebt, speichert, teilt oder verarbeitet. Alle von der App erzeugten Daten werden nur auf dem eigenen Gerät des Nutzers gespeichert. Die App kann ohne Registrierung, Anmeldung oder Benutzerkonto genutzt werden.",
         ],
       },
@@ -524,7 +524,7 @@ PRIVACY_POLICIES.tuntilappu = {
       {
         heading: "1. General",
         paragraphs: [
-          "Esta política de privacidad describe cómo la aplicación Tuntilappu trata los datos de usuario. El responsable es IQSoftCore, Finlandia.",
+          "Esta política de privacidad describe cómo la aplicación Tuntilappu trata los datos de usuario. El responsable es toiminimi IqSoftCore, Y-tunnus 3658340-4, Siihtalantie 56, 62710 Kurejoki, Finlandia.",
           "La app está diseñada para no recopilar, almacenar, compartir ni tratar datos personales en servidores. Todos los datos que genera la app se guardan solo en el dispositivo del usuario. Se puede usar sin registro, inicio de sesión ni cuenta de usuario.",
         ],
       },
@@ -610,7 +610,7 @@ PRIVACY_POLICIES.tuntilappu = {
       {
         heading: "1. Generale",
         paragraphs: [
-          "La presente informativa descrive come l’app Tuntilappu tratta i dati utente. Il titolare del trattamento è IQSoftCore, Finlandia.",
+          "La presente informativa descrive come l’app Tuntilappu tratta i dati utente. Il titolare del trattamento è toiminimi IqSoftCore, Y-tunnus 3658340-4, Siihtalantie 56, 62710 Kurejoki, Finlandia.",
           "L’app è progettata per non raccogliere, memorizzare, condividere o trattare dati personali su server. Tutti i dati prodotti dall’app sono conservati solo sul dispositivo dell’utente. L’app può essere usata senza registrazione, accesso o account utente.",
         ],
       },
@@ -696,7 +696,7 @@ PRIVACY_POLICIES.tuntilappu = {
       {
         heading: "1. 概要",
         paragraphs: [
-          "本プライバシーポリシーは、Tuntilappuアプリがユーザーデータをどのように取り扱うかを説明します。管理者はフィンランドのIQSoftCoreです。",
+          "本プライバシーポリシーは、Tuntilappuアプリがユーザーデータをどのように取り扱うかを説明します。管理者はフィンランドの個人事業主 toiminimi IqSoftCore（Y-tunnus 3658340-4、Siihtalantie 56, 62710 Kurejoki）です。",
           "本アプリは、サーバー上で個人データを収集・保存・共有・処理しないよう設計されています。アプリが生成するデータはすべてユーザー自身の端末にのみ保存されます。登録、ログイン、ユーザーアカウントなしで利用できます。",
         ],
       },
@@ -782,7 +782,7 @@ PRIVACY_POLICIES.tuntilappu = {
       {
         heading: "1. 일반",
         paragraphs: [
-          "본 개인정보 처리방침은 Tuntilappu 앱이 사용자 데이터를 어떻게 처리하는지 설명합니다. 개인정보처리자는 핀란드의 IQSoftCore입니다.",
+          "본 개인정보 처리방침은 Tuntilappu 앱이 사용자 데이터를 어떻게 처리하는지 설명합니다. 개인정보처리자는 핀란드의 개인사업자 toiminimi IqSoftCore(Y-tunnus 3658340-4, Siihtalantie 56, 62710 Kurejoki)입니다.",
           "본 앱은 서버에서 개인정보를 수집·저장·공유·처리하지 않도록 설계되었습니다. 앱이 생성하는 모든 데이터는 사용자 기기에만 저장됩니다. 등록, 로그인, 사용자 계정 없이 사용할 수 있습니다.",
         ],
       },
@@ -868,7 +868,7 @@ PRIVACY_POLICIES.tuntilappu = {
       {
         heading: "1. Généralités",
         paragraphs: [
-          "Cette politique de confidentialité décrit la façon dont l’application {app} traite les données utilisateur. Le responsable du traitement est IQSoftCore, Finlande.",
+          "Cette politique de confidentialité décrit la façon dont l’application {app} traite les données utilisateur. Le responsable du traitement est toiminimi IqSoftCore, Y-tunnus 3658340-4, Siihtalantie 56, 62710 Kurejoki, Finlande.",
           "L’application est conçue pour ne collecter, stocker, partager ni traiter aucune donnée personnelle sur des serveurs. Toutes les données produites par l’application sont conservées uniquement sur l’appareil de l’utilisateur. L’application peut être utilisée sans inscription, connexion ni compte utilisateur.",
         ],
       },
@@ -960,7 +960,7 @@ PRIVACY_POLICIES.tuntilappu = {
       {
         heading: "1. Geral",
         paragraphs: [
-          "Esta política de privacidade descreve como o aplicativo {app} trata dados do usuário. O controlador é a IQSoftCore, Finlândia.",
+          "Esta política de privacidade descreve como o aplicativo {app} trata dados do usuário. O controlador é toiminimi IqSoftCore, Y-tunnus 3658340-4, Siihtalantie 56, 62710 Kurejoki, Finlândia.",
           "O aplicativo foi projetado para não coletar, armazenar, compartilhar nem processar dados pessoais em servidores. Todos os dados produzidos pelo app são armazenados apenas no dispositivo do usuário. O app pode ser usado sem registro, login ou conta de usuário.",
         ],
       },
@@ -1052,7 +1052,7 @@ PRIVACY_POLICIES.tuntilappu = {
       {
         heading: "1. Algemeen",
         paragraphs: [
-          "Dit privacybeleid beschrijft hoe de app {app} gebruikersgegevens verwerkt. De verwerkingsverantwoordelijke is IQSoftCore, Finland.",
+          "Dit privacybeleid beschrijft hoe de app {app} gebruikersgegevens verwerkt. De verwerkingsverantwoordelijke is toiminimi IqSoftCore, Y-tunnus 3658340-4, Siihtalantie 56, 62710 Kurejoki, Finland.",
           "De app is zo ontworpen dat zij geen persoonsgegevens op servers verzamelt, opslaat, deelt of verwerkt. Alle data die de app produceert, wordt alleen op het eigen apparaat van de gebruiker bewaard. De app kan zonder registratie, login of gebruikersaccount worden gebruikt.",
         ],
       },
@@ -1144,7 +1144,7 @@ PRIVACY_POLICIES.tuntilappu = {
       {
         heading: "1. Informacje ogólne",
         paragraphs: [
-          "Niniejsza polityka prywatności opisuje, w jaki sposób aplikacja {app} przetwarza dane użytkownika. Administratorem jest IQSoftCore, Finlandia.",
+          "Niniejsza polityka prywatności opisuje, w jaki sposób aplikacja {app} przetwarza dane użytkownika. Administratorem jest toiminimi IqSoftCore, Y-tunnus 3658340-4, Siihtalantie 56, 62710 Kurejoki, Finlandia.",
           "Aplikacja została zaprojektowana tak, aby nie zbierać, nie przechowywać, nie udostępniać ani nie przetwarzać danych osobowych na serwerach. Wszystkie dane wytwarzane przez aplikację są przechowywane wyłącznie na urządzeniu użytkownika. Aplikacji można używać bez rejestracji, logowania ani konta użytkownika.",
         ],
       },
@@ -1236,7 +1236,7 @@ PRIVACY_POLICIES.tuntilappu = {
       {
         heading: "1. Obecné",
         paragraphs: [
-          "Tyto zásady popisují, jak aplikace {app} zpracovává uživatelská data. Správcem je IQSoftCore, Finsko.",
+          "Tyto zásady popisují, jak aplikace {app} zpracovává uživatelská data. Správcem je toiminimi IqSoftCore, Y-tunnus 3658340-4, Siihtalantie 56, 62710 Kurejoki, Finsko.",
           "Aplikace je navržena tak, aby neshromažďovala, neukládala, nesdílela ani nezpracovávala osobní údaje na serverech. Veškerá data vytvořená aplikací se ukládají pouze na zařízení uživatele. Aplikaci lze používat bez registrace, přihlášení nebo uživatelského účtu.",
         ],
       },
@@ -1328,7 +1328,7 @@ PRIVACY_POLICIES.tuntilappu = {
       {
         heading: "1. 概述",
         paragraphs: [
-          "本隐私政策说明 {app} 应用如何处理用户数据。控制者为芬兰的 IQSoftCore。",
+          "本隐私政策说明 {app} 应用如何处理用户数据。控制者为芬兰个体工商户 toiminimi IqSoftCore（Y-tunnus 3658340-4，Siihtalantie 56, 62710 Kurejoki）。",
           "本应用设计为不会在服务器上收集、存储、共享或处理任何个人数据。应用产生的所有数据仅保存在用户自己的设备上。无需注册、登录或用户账户即可使用。",
         ],
       },

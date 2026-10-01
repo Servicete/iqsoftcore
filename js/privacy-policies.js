@@ -13,7 +13,7 @@ const PRIVACY_POLICIES = {
         {
           heading: "1. Yleistä",
           paragraphs: [
-            "Tämä tietosuojakäytäntö kuvaa, miten IQSoftCore käsittelee henkilötietoja verkkosivustollaan ja yritystoiminnassaan. Rekisterinpitäjä on IQSoftCore, Suomi.",
+            "Tämä tietosuojakäytäntö kuvaa, miten IQSoftCore käsittelee henkilötietoja verkkosivustollaan ja yritystoiminnassaan. Rekisterinpitäjä on toiminimi IqSoftCore, Y-tunnus 3658340-4, Siihtalantie 56, 62710 Kurejoki, Suomi.",
             "Yksittäisillä sovelluksilla (kuten Google Playn kautta jaettavilla sovelluksilla) on omat tietosuojalausekkeensa, jotka kuvaavat kyseisen sovelluksen tietojenkäsittelyä tarkemmin.",
           ],
         },
@@ -51,7 +51,7 @@ const PRIVACY_POLICIES = {
         {
           heading: "1. General",
           paragraphs: [
-            "This privacy policy describes how IQSoftCore handles personal data on its website and in its business activities. The controller is IQSoftCore, Finland.",
+            "This privacy policy describes how IQSoftCore handles personal data on its website and in its business activities. The controller is toiminimi IqSoftCore, Y-tunnus 3658340-4, Siihtalantie 56, 62710 Kurejoki, Finland.",
             "Individual applications (such as apps distributed via Google Play) have their own privacy policies that describe that app’s data processing in more detail.",
           ],
         },
@@ -89,7 +89,7 @@ const PRIVACY_POLICIES = {
         {
           heading: "1. Allmänt",
           paragraphs: [
-            "Denna integritetspolicy beskriver hur IQSoftCore behandlar personuppgifter på sin webbplats och i sin verksamhet. Personuppgiftsansvarig är IQSoftCore, Finland.",
+            "Denna integritetspolicy beskriver hur IQSoftCore behandlar personuppgifter på sin webbplats och i sin verksamhet. Personuppgiftsansvarig är toiminimi IqSoftCore, Y-tunnus 3658340-4, Siihtalantie 56, 62710 Kurejoki, Finland.",
             "Enskilda applikationer (t.ex. appar via Google Play) har egna integritetspolicys som beskriver den aktuella appens databehandling mer detaljerat.",
           ],
         },
@@ -127,7 +127,7 @@ const PRIVACY_POLICIES = {
         {
           heading: "1. Generelt",
           paragraphs: [
-            "Denne personvernerklæringen beskriver hvordan IQSoftCore behandler personopplysninger på nettstedet og i virksomheten. Behandlingsansvarlig er IQSoftCore, Finland.",
+            "Denne personvernerklæringen beskriver hvordan IQSoftCore behandler personopplysninger på nettstedet og i virksomheten. Behandlingsansvarlig er toiminimi IqSoftCore, Y-tunnus 3658340-4, Siihtalantie 56, 62710 Kurejoki, Finland.",
             "Enkelte applikasjoner (f.eks. apper via Google Play) har egne personvernerklæringer som beskriver den aktuelle appens databehandling mer detaljert.",
           ],
         },
@@ -165,7 +165,7 @@ const PRIVACY_POLICIES = {
         {
           heading: "1. Generelt",
           paragraphs: [
-            "Denne privatlivspolitik beskriver, hvordan IQSoftCore behandler personoplysninger på sit websted og i sin virksomhed. Dataansvarlig er IQSoftCore, Finland.",
+            "Denne privatlivspolitik beskriver, hvordan IQSoftCore behandler personoplysninger på sit websted og i sin virksomhed. Dataansvarlig er toiminimi IqSoftCore, Y-tunnus 3658340-4, Siihtalantie 56, 62710 Kurejoki, Finland.",
             "Enkelte applikationer (f.eks. apps via Google Play) har egne privatlivspolitikker, der beskriver den pågældende apps databehandling mere detaljeret.",
           ],
         },
@@ -203,7 +203,7 @@ const PRIVACY_POLICIES = {
         {
           heading: "1. Allgemeines",
           paragraphs: [
-            "Diese Datenschutzerklärung beschreibt, wie IQSoftCore personenbezogene Daten auf seiner Website und in seiner Geschäftstätigkeit verarbeitet. Verantwortlicher ist IQSoftCore, Finnland.",
+            "Diese Datenschutzerklärung beschreibt, wie IQSoftCore personenbezogene Daten auf seiner Website und in seiner Geschäftstätigkeit verarbeitet. Verantwortlicher ist toiminimi IqSoftCore, Y-tunnus 3658340-4, Siihtalantie 56, 62710 Kurejoki, Finnland.",
             "Einzelne Anwendungen (z. B. Apps über Google Play) haben eigene Datenschutzerklärungen, die die Datenverarbeitung der jeweiligen App genauer beschreiben.",
           ],
         },
@@ -241,7 +241,7 @@ const PRIVACY_POLICIES = {
         {
           heading: "1. General",
           paragraphs: [
-            "Esta política de privacidad describe cómo IQSoftCore trata los datos personales en su sitio web y en su actividad. El responsable es IQSoftCore, Finlandia.",
+            "Esta política de privacidad describe cómo IQSoftCore trata los datos personales en su sitio web y en su actividad. El responsable es toiminimi IqSoftCore, Y-tunnus 3658340-4, Siihtalantie 56, 62710 Kurejoki, Finlandia.",
             "Las aplicaciones individuales (por ejemplo, apps en Google Play) tienen sus propias políticas de privacidad que describen el tratamiento de esa app con más detalle.",
           ],
         },
@@ -279,7 +279,7 @@ const PRIVACY_POLICIES = {
         {
           heading: "1. Generale",
           paragraphs: [
-            "La presente informativa descrive come IQSoftCore tratta i dati personali sul proprio sito e nella propria attività. Il titolare del trattamento è IQSoftCore, Finlandia.",
+            "La presente informativa descrive come IQSoftCore tratta i dati personali sul proprio sito e nella propria attività. Il titolare del trattamento è toiminimi IqSoftCore, Y-tunnus 3658340-4, Siihtalantie 56, 62710 Kurejoki, Finlandia.",
             "Le singole applicazioni (ad es. app su Google Play) hanno informative privacy proprie che descrivono in modo più dettagliato il trattamento di quella app.",
           ],
         },
@@ -317,7 +317,7 @@ const PRIVACY_POLICIES = {
         {
           heading: "1. 概要",
           paragraphs: [
-            "本プライバシーポリシーは、IQSoftCoreがウェブサイトおよび事業活動において個人データをどのように取り扱うかを説明します。管理者はフィンランドのIQSoftCoreです。",
+            "本プライバシーポリシーは、IQSoftCoreがウェブサイトおよび事業活動において個人データをどのように取り扱うかを説明します。管理者はフィンランドの個人事業主 toiminimi IqSoftCore（Y-tunnus 3658340-4、Siihtalantie 56, 62710 Kurejoki）です。",
             "個々のアプリケーション（例: Google Play経由のアプリ）には、そのアプリのデータ処理をより詳しく説明する独自のプライバシーポリシーがあります。",
           ],
         },
@@ -355,7 +355,7 @@ const PRIVACY_POLICIES = {
         {
           heading: "1. 일반",
           paragraphs: [
-            "본 개인정보 처리방침은 IQSoftCore가 웹사이트와 사업 활동에서 개인정보를 어떻게 처리하는지 설명합니다. 개인정보처리자는 핀란드의 IQSoftCore입니다.",
+            "본 개인정보 처리방침은 IQSoftCore가 웹사이트와 사업 활동에서 개인정보를 어떻게 처리하는지 설명합니다. 개인정보처리자는 핀란드의 개인사업자 toiminimi IqSoftCore(Y-tunnus 3658340-4, Siihtalantie 56, 62710 Kurejoki)입니다.",
             "개별 애플리케이션(예: Google Play 앱)에는 해당 앱의 데이터 처리를 더 자세히 설명하는 별도의 개인정보 처리방침이 있습니다.",
           ],
         },
@@ -393,7 +393,7 @@ const PRIVACY_POLICIES = {
         {
           heading: "1. Généralités",
           paragraphs: [
-            "Cette politique de confidentialité décrit la façon dont IQSoftCore traite les données personnelles sur son site web et dans ses activités. Le responsable du traitement est IQSoftCore, Finlande.",
+            "Cette politique de confidentialité décrit la façon dont IQSoftCore traite les données personnelles sur son site web et dans ses activités. Le responsable du traitement est toiminimi IqSoftCore, Y-tunnus 3658340-4, Siihtalantie 56, 62710 Kurejoki, Finlande.",
             "Les applications individuelles (par ex. via Google Play) ont leurs propres politiques décrivant plus précisément le traitement de chaque application.",
           ],
         },
@@ -431,7 +431,7 @@ const PRIVACY_POLICIES = {
         {
           heading: "1. Geral",
           paragraphs: [
-            "Esta política de privacidade descreve como a IQSoftCore trata dados pessoais em seu site e em suas atividades. O controlador é a IQSoftCore, Finlândia.",
+            "Esta política de privacidade descreve como a IQSoftCore trata dados pessoais em seu site e em suas atividades. O controlador é toiminimi IqSoftCore, Y-tunnus 3658340-4, Siihtalantie 56, 62710 Kurejoki, Finlândia.",
             "Aplicativos individuais (por exemplo, no Google Play) têm políticas próprias que descrevem o tratamento de cada app com mais detalhe.",
           ],
         },
@@ -469,7 +469,7 @@ const PRIVACY_POLICIES = {
         {
           heading: "1. Algemeen",
           paragraphs: [
-            "Dit privacybeleid beschrijft hoe IQSoftCore persoonsgegevens verwerkt op de website en in de bedrijfsactiviteiten. De verwerkingsverantwoordelijke is IQSoftCore, Finland.",
+            "Dit privacybeleid beschrijft hoe IQSoftCore persoonsgegevens verwerkt op de website en in de bedrijfsactiviteiten. De verwerkingsverantwoordelijke is toiminimi IqSoftCore, Y-tunnus 3658340-4, Siihtalantie 56, 62710 Kurejoki, Finland.",
             "Afzonderlijke apps (bijv. via Google Play) hebben eigen privacyverklaringen die de gegevensverwerking van die app nauwkeuriger beschrijven.",
           ],
         },
@@ -507,7 +507,7 @@ const PRIVACY_POLICIES = {
         {
           heading: "1. Informacje ogólne",
           paragraphs: [
-            "Niniejsza polityka prywatności opisuje, w jaki sposób IQSoftCore przetwarza dane osobowe na stronie i w działalności. Administratorem jest IQSoftCore, Finlandia.",
+            "Niniejsza polityka prywatności opisuje, w jaki sposób IQSoftCore przetwarza dane osobowe na stronie i w działalności. Administratorem jest toiminimi IqSoftCore, Y-tunnus 3658340-4, Siihtalantie 56, 62710 Kurejoki, Finlandia.",
             "Poszczególne aplikacje (np. w Google Play) mają własne polityki prywatności opisujące przetwarzanie danych danej aplikacji bardziej szczegółowo.",
           ],
         },
@@ -545,7 +545,7 @@ const PRIVACY_POLICIES = {
         {
           heading: "1. Obecné",
           paragraphs: [
-            "Tyto zásady popisují, jak IQSoftCore zpracovává osobní údaje na webu a v rámci podnikání. Správcem je IQSoftCore, Finsko.",
+            "Tyto zásady popisují, jak IQSoftCore zpracovává osobní údaje na webu a v rámci podnikání. Správcem je toiminimi IqSoftCore, Y-tunnus 3658340-4, Siihtalantie 56, 62710 Kurejoki, Finsko.",
             "Jednotlivé aplikace (např. přes Google Play) mají vlastní zásady, které popisují zpracování dané aplikace podrobněji.",
           ],
         },
@@ -583,7 +583,7 @@ const PRIVACY_POLICIES = {
         {
           heading: "1. 概述",
           paragraphs: [
-            "本隐私政策说明 IQSoftCore 如何在其网站及业务活动中处理个人数据。控制者为芬兰的 IQSoftCore。",
+            "本隐私政策说明 IQSoftCore 如何在其网站及业务活动中处理个人数据。控制者为芬兰个体工商户 toiminimi IqSoftCore（Y-tunnus 3658340-4，Siihtalantie 56, 62710 Kurejoki）。",
             "各应用程序（例如通过 Google Play 分发的应用）有各自的隐私政策，更详细地说明该应用的数据处理。",
           ],
         },
