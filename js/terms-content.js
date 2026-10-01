@@ -10,7 +10,7 @@ const TERMS_PAGE = {
     "metaDescription": "iqFleetSyncin käyttöehdot ja IQSoftCoren palveluiden yleiset ehdot. Luonnos.",
     "title": "Käyttöehdot",
     "draft": "Luonnos. Tämä on selkokielinen luonnos IQSoftCoren yleisiksi ehdoiksi ja iqFleetSyncin käyttöehdoiksi. Se ei ole oikeudellinen neuvo. Palveluntarjoajan on tarkistettava teksti ennen julkaisua.",
-    "updated": "Luonnos päivitetty 2026-09-30.",
+    "updated": "Luonnos päivitetty 2026-10-01.",
     "scope": "Nämä ovat IQSoftCoren palveluiden yleiset ehdot. Ne koskevat kuluttajia ja yritysasiakkaita. Jos tuotteella on omat ehdot, niitä käytetään näiden lisäksi. Hinta veloitetaan vain, jos se on julkaistu tai siitä on sovittu erikseen.",
     "privacyLink": "Tietosuoja",
     "pricing": "Hinnasto",
@@ -53,9 +53,9 @@ const TERMS_PAGE = {
       [
         "5. Maksu",
         [
-          "Maksullinen käyttö laskutetaan kuukausittain. Maksu tehdään Stripellä kortilla, SEPA-suoraveloituksella tai laskulla tilisiirtona.",
-          "Lasku erääntyy 14 päivän kuluttua laskun päiväyksestä. Jos maksu myöhästyy, palveluntarjoaja voi periä korkolain mukaisen viivästyskoron ja kohtuulliset perintäkulut.",
-          "Jos laskua ei makseta eräpäivän jälkeen annetussa muistutuksessa, tili voidaan siirtää vain luku -tilaan.",
+          "Maksullinen käyttö laskutetaan kuukausittain. Maksu tehdään Stripellä kortilla, PayPalilla, SEPA-suoraveloituksella tai laskulla tilisiirtona.",
+          "Lasku erääntyy 14 päivän kuluttua laskun päiväyksestä. Jos yritysasiakkaan maksu myöhästyy, palveluntarjoaja voi periä korkolain mukaisen viivästyskoron ja kohtuulliset perintäkulut.",
+          "Jos yritysasiakkaan lasku on maksamatta 7 päivää eräpäivän jälkeen, tili siirtyy vain luku -tilaan. Tallennettuja tietoja voi tarkastella, mutta uusia tietoja ei voi tallentaa. Vain luku -tila päättyy automaattisesti, kun maksu on tehty.",
           "Edellä oleva eräpäivä ja viivästysehto koskevat yritysasiakasta. Kuluttaja maksaa oston yhteydessä hinnan, jonka palvelu näyttää. Kuluttajaan ei sovelleta yritysasiakkaan eräpäivää tai viivästysehtoa siten, että se heikentäisi kuluttajan pakottavia oikeuksia."
         ]
       ],
@@ -75,27 +75,28 @@ const TERMS_PAGE = {
           "Hinta on porrastettu. Ensimmäiset 15 yksikköä ovat 1,50 €, yksiköt 16–50 ovat 1,30 €, yksiköt 51–100 ovat 1,10 € ja yli 100 yksikköä ovat 0,90 € kultakin.",
           "Perävaunu on puoli yksikköä siinä portaassa, johon se osuu. Se maksaa puolet saman portaan ajoneuvohinnasta: 0,75 €, 0,65 €, 0,55 € tai 0,45 €. Laite, esimerkiksi kauhanpyörittäjä, hydraulivasara tai harjalaite, maksaa 0,00 €, eikä sitä lasketa yksiköihin. Käyttäjiä voi olla rajattomasti, eikä heistä veloiteta.",
           "Kuukauden hinta lasketaan sen kalenterikuukauden suurimman yksikkömäärän mukaan. Jos kalustoa lisätään kesken kuukauden, kuukausi laskutetaan huippumäärän mukaan.",
-          "Jos kokeilu päättyy eikä maksua ole tehty, tai jos erääntynyttä laskua ei makseta muistutuksen jälkeen, tili siirtyy vain luku -tilaan.",
-          "Vain luku -tilassa tallennettuja tietoja voi tarkastella. Uusia ilmoituksia ja muutoksia ei voi tallentaa, ennen kuin maksu on tehty. Tiedot säilytetään vain luku -tilassa."
+          "Jos kokeilu päättyy eikä maksua ole tehty, tili siirtyy vain luku -tilaan. Jos yritysasiakkaan lasku on maksamatta 7 päivää eräpäivän jälkeen, tili siirtyy vain luku -tilaan, kunnes lasku on maksettu.",
+          "Vain luku -tilassa tallennettuja tietoja voi tarkastella. Uusia ilmoituksia ja muutoksia ei voi tallentaa. Vain luku -tila päättyy automaattisesti, kun maksu on tehty."
         ]
       ],
       [
         "7. Peruutus ja vastuu (vain yritysasiakkaita)",
         [
           "Tämä kohta koskee vain yritysasiakkaita. Se ei koske kuluttajaa, eikä se rajoita kuluttajan pakottavia oikeuksia.",
-          "Asiakas voi peruuttaa maksullisen käytön palvelussa tai sähköpostitse info@iqsoftcore.fi. Peruutus tulee voimaan sen laskutuskauden lopussa, joka on jo alkanut. Jo laskutettua kuukautta ei palauteta, ellei pakottava laki sitä vaadi.",
-          "Kokeilun keskeyttäminen ei maksa mitään. Peruutuksen jälkeen tili on vain luku -tilassa, kunnes tiedot on poistettu pyynnöstä tai säilytysaika päättyy.",
+          "[[prominent]]iqFleetSync on vain muistiinpano-, muistutus- ja raportointityökalu. Asiakas vastaa yksin ajoneuvon ja työkoneen liikennekelpoisuudesta, huollon laadusta, tarkastuksista, lakisääteisistä velvollisuuksista ja päätöksestä käyttää ajoneuvoa. IqSoftCore ei vastaa ajoneuvon tai työkoneen vahingoista, onnettomuuksista tai rikkoutumisista. Tämä koskee myös tilannetta, jossa muistutus on jäänyt huomaamatta, tieto on kirjattu väärin tai kuljettaja on käyttänyt liikennekelvotonta ajoneuvoa. Tämä ehto ei vaikuta kuluttajan oikeuksiin.",
+          "Yritysasiakas irtisanoo maksullisen palvelun itse sovelluksessa kohdasta Tilaus ja laskutus → Irtisano palvelu, tai sähköpostitse osoitteeseen info@iqsoftcore.fi. Irtisanominen tulee voimaan sen laskutuskauden lopussa, joka on jo alkanut. Jo laskutettua kuukautta ei palauteta, ellei pakottava laki sitä vaadi.",
+          "Kokeilun keskeyttäminen ei maksa mitään. Kun irtisanominen on tullut voimaan, yritysasiakkaan tiedot säilyvät 90 päivää, jotta asiakas voi tarkastella ja viedä ne. Sen jälkeen tiedot poistetaan automaattisesti. Jäljelle jäävät vain kirjanpitolain edellyttämät laskutustiedot.",
           "Palveluntarjoaja voi lopettaa asiakkaan käytön, jos asiakas rikkoo ehtoja olennaisesti eikä korjaa asiaa kirjallisen huomautuksen jälkeen. Jos koko palvelu lakkautetaan, siitä kerrotaan etukäteen, kun se on mahdollista.",
           "Siltä osin kuin Suomen pakottava laki sen sallii, palveluntarjoaja ei vastaa välillisistä vahingoista, saamatta jääneestä tuotosta eikä menetetyistä tiedoista.",
           "Korvausvastuu välittömästä vahingosta on enintään niiden maksujen suuruinen, jotka asiakas on maksanut kyseisestä palvelusta vahinkoa edeltäneiden 12 kuukauden aikana. Jos maksuja ei ole ollut, tämä enimmäismäärä on 0 €.",
-          "Rajoitus ei koske vahinkoa, joka on aiheutettu tahallaan tai törkeällä huolimattomuudella, eikä muutakaan vastuuta, jota ei voi lain mukaan rajoittaa. Palvelu on kirjaamisen työkalu. Se ei korvaa koneen tai ajoneuvon tarkastusta, huoltoa eikä päätöstä siitä, onko kalusto turvallista käyttää."
+          "Rajoitus ei koske vahinkoa, joka on aiheutettu tahallaan tai törkeällä huolimattomuudella, eikä muutakaan vastuuta, jota ei voi lain mukaan rajoittaa."
         ]
       ],
       [
         "8. Kuluttajat",
         [
           "Kuluttajaan sovelletaan Suomen ja EU:n pakottavaa kuluttajansuojaa. Ristiriitainen ehto väistyy.",
-          "Kohdan 7 vastuunrajoitus ja sääntö, jonka mukaan jo laskutettua kautta ei palauteta, eivät rajoita kuluttajan oikeuksia.",
+          "Kohdan 7 vastuun katto, sääntö jo laskutetun kauden palauttamatta jättämisestä ja ehto, jonka mukaan iqFleetSync on vain muistiinpano-, muistutus- ja raportointityökalu, eivät rajoita kuluttajan oikeuksia.",
           "Etämyynnissä kuluttajalla on 14 päivän peruuttamisoikeus, kun kyse on digitaalisesta palvelusta tai digitaalisesta sisällöstä. Aika lasketaan sopimuksen tekopäivästä.",
           "Peruuttamisoikeus päättyy, jos kuluttaja peruuttamisaikana nimenomaisesti pyytää, että toimitus tai suoritus alkaa, ja samalla toteaa menettävänsä peruuttamisoikeuden, kun digitaalisen sisällön toimitus on alkanut tai kun digitaalinen palvelu on kokonaan suoritettu.",
           "Ennen sitä kuluttaja voi peruuttaa sopimuksen selkeällä ilmoituksella, esimerkiksi sähköpostilla osoitteeseen info@iqsoftcore.fi. Palveluntarjoaja palauttaa saadun maksun 14 päivän kuluessa peruutusilmoituksesta siltä osin kuin laki vaatii palautuksen.",
@@ -109,7 +110,8 @@ const TERMS_PAGE = {
           "Asiakkaan palveluun tallentamat kalusto-, huolto- ja käyttäjätiedot ovat asiakkaan tietoja.",
           "Palveluntarjoaja ei myy näitä tietoja. Niitä käytetään palvelun tuottamiseen, laskutukseen, tietoturvaan ja lain edellyttämiin tehtäviin.",
           "Asiakas voi pyytää tietojensa vientiä osoitteeseen info@iqsoftcore.fi. Tiedot toimitetaan yleisessä koneellisesti luettavassa muodossa, kun pyyntö on käsitelty.",
-          "Peruutuksen jälkeen asiakas voi pyytää tietojen poistoa samaan osoitteeseen. Palveluntarjoaja poistaa tai anonymisoi tiedot, kun pyyntö on käsitelty, ellei laki tai kirjanpito edellytä pidempää säilytystä. Laskutustietoja säilytetään kirjanpidon edellyttämä aika. Poistoa ei tehdä, jos tietoja tarvitaan avoimen laskun tai lakisääteisen vaateen käsittelyyn."
+          "Yritysasiakkaan tiedot säilytetään 90 päivää peruutuksen jälkeen. Tänä aikana yritysasiakas voi viedä tiedot, myös pyytämällä viennin osoitteeseen info@iqsoftcore.fi. 90 päivän jälkeen tiedot poistetaan automaattisesti. Sen jälkeen säilytetään vain ne laskutustiedot, jotka kirjanpitolaki edellyttää.",
+          "Kuluttajan tietoja käsitellään niin, että pakottavaa kuluttajansuojaa ja tietosuojaa noudatetaan. Kuluttaja voi pyytää tietojensa vientiä tai poistoa osoitteeseen info@iqsoftcore.fi."
         ]
       ],
       [
@@ -168,7 +170,7 @@ const TERMS_PAGE = {
     "metaDescription": "Terms for iqFleetSync and general terms for IQSoftCore services. Draft.",
     "title": "Terms of use",
     "draft": "Draft. This is a plain-language draft of the general terms for IQSoftCore services and the terms for iqFleetSync. It is not legal advice. The provider must review the text before it is published.",
-    "updated": "Draft updated 2026-09-30.",
+    "updated": "Draft updated 2026-10-01.",
     "translationNote": "The Finnish text is the official version. This translation is for convenience and has not been separately reviewed as a legal text.",
     "scope": "These are the general terms for IQSoftCore services. They apply to consumers and to business customers. If a product has its own terms, those apply as well. A price is charged only if it is published or agreed separately.",
     "privacyLink": "Privacy",
@@ -212,9 +214,9 @@ const TERMS_PAGE = {
       [
         "5. Payment",
         [
-          "Paid use is billed monthly. Payment is made through Stripe by card, by SEPA Direct Debit, or by invoice (bank transfer).",
-          "An invoice is due 14 days after the invoice date. If payment is late, the provider may charge interest under the Finnish Interest Act and reasonable collection costs.",
-          "If an invoice is not paid after a reminder sent once it is overdue, the account can be moved to read-only mode.",
+          "Paid use is billed monthly. Payment is made through Stripe by card, by PayPal, by SEPA Direct Debit, or by invoice (bank transfer).",
+          "An invoice is due 14 days after the invoice date. If a business customer’s payment is late, the provider may charge late-payment interest under the Finnish Interest Act (korkolaki) and reasonable collection costs.",
+          "If a business customer’s invoice is unpaid 7 days after the due date, the account goes to read-only mode. Saved data can be viewed, and new data cannot be saved. Read-only mode ends automatically when the payment is made.",
           "The due date and the late-payment term above apply to a business customer. A consumer pays, at the time of purchase, the price the service shows. The business due date and late-payment term are not applied to a consumer in a way that would weaken mandatory consumer rights."
         ]
       ],
@@ -234,27 +236,28 @@ const TERMS_PAGE = {
           "The price is graduated. The first 15 units are 1.50 €, units 16–50 are 1.30 €, units 51–100 are 1.10 €, and units above 100 are 0.90 € each.",
           "A trailer is half a unit in the tier it falls into. It costs half the vehicle price of that tier: 0.75 €, 0.65 €, 0.55 €, or 0.45 €. An attachment, such as a tiltrotator, a hydraulic breaker, or a sweeper, costs 0.00 € and is not counted as a unit. Users are unlimited and are not charged.",
           "The monthly price uses the highest unit count in that calendar month. If equipment is added during the month, the month is billed at the peak count.",
-          "If the trial ends and no payment has been made, or if an overdue invoice is not paid after a reminder, the account becomes read-only.",
-          "In read-only mode the saved data can still be viewed. New reports and changes cannot be saved until payment is made. The data is kept while the account is read-only."
+          "If the trial ends and no payment has been made, the account becomes read-only. If a business customer’s invoice is unpaid 7 days after the due date, the account stays read-only until the invoice is paid.",
+          "In read-only mode the saved data can still be viewed. New reports and changes cannot be saved. Read-only mode ends automatically when the payment is made."
         ]
       ],
       [
         "7. Cancellation and liability (business customers only)",
         [
           "This section applies only to business customers. It does not apply to a consumer, and it does not limit the consumer’s mandatory rights.",
-          "The customer can cancel paid use in the service or by email to info@iqsoftcore.fi. Cancellation takes effect at the end of the billing period that has already started. A month that has already been billed is not refunded, unless mandatory law requires it.",
-          "Stopping the trial does not cost anything. After cancellation the account is read-only until the data is deleted on request or the retention period ends.",
+          "[[prominent]]iqFleetSync is only a record-keeping, reminder and reporting tool. The customer is solely responsible for the roadworthiness of vehicles and machines, for the quality of maintenance, for inspections, for legal obligations, and for decisions about using a vehicle. IqSoftCore is not liable for damage, accidents, or breakdowns of vehicles or machines. This includes a case where a reminder was missed, data was entered incorrectly, or a driver used a vehicle that was not roadworthy. This clause does not affect consumer rights.",
+          "The business customer cancels the paid service themselves in the app at Tilaus ja laskutus → Irtisano palvelu (Subscription and billing → Cancel the service), or by email to info@iqsoftcore.fi. Cancellation takes effect at the end of the billing period that has already started. A month that has already been billed is not refunded, unless mandatory law requires a refund.",
+          "Stopping the trial does not cost anything. Once cancellation has taken effect, the business customer’s data is kept for 90 days so the customer can view and export it. After that the data is deleted automatically. Only the invoicing data that bookkeeping law requires is kept.",
           "The provider may end the customer’s use if the customer materially breaches these terms and does not fix it after a written notice. If the whole service is discontinued, that is announced in advance when possible.",
           "To the extent Finnish mandatory law allows it, the provider is not liable for indirect damage, lost profit, or lost data.",
           "Liability for direct damage is limited to the fees the customer has paid for that service during the 12 months before the damage. If no fees have been paid, that cap is 0 €.",
-          "The limit does not apply to damage caused intentionally or by gross negligence, or to any other liability that cannot be limited by law. The service is a tool for recording. It does not replace an inspection or maintenance of a machine or vehicle, or the decision about whether the fleet is safe to use."
+          "The limit does not apply to damage caused intentionally or by gross negligence, or to any other liability that cannot be limited by law."
         ]
       ],
       [
         "8. Consumers",
         [
           "Mandatory Finnish and EU consumer protection applies to a consumer. A conflicting term gives way.",
-          "The liability cap in section 7, and the rule that a period already billed is not refunded, do not limit the consumer’s rights.",
+          "The liability cap in section 7, the rule that a period already billed is not refunded, and the clause that iqFleetSync is only a record-keeping, reminder and reporting tool do not limit consumer rights.",
           "In a distance sale, the consumer has a 14-day right of withdrawal for a digital service or digital content. The time runs from the day the contract is made.",
           "The right of withdrawal ends if, during the withdrawal period, the consumer expressly asks for delivery or performance to start and at the same time acknowledges that they lose the right once supply of the digital content has begun or once the digital service has been fully performed.",
           "Until then, the consumer can withdraw with a clear notice, for example by email to info@iqsoftcore.fi. The provider refunds the payment received within 14 days of the notice, to the extent the law requires a refund.",
@@ -268,7 +271,8 @@ const TERMS_PAGE = {
           "Fleet, maintenance, and user data that the customer stores in the service belongs to the customer.",
           "The provider does not sell this data. It is used to provide the service, to bill, to keep the service secure, and to meet duties required by law.",
           "The customer can ask for an export of their data by emailing info@iqsoftcore.fi. The data is delivered in a common machine-readable format once the request has been handled.",
-          "After cancellation the customer can ask for the data to be deleted at the same address. The provider deletes or anonymises the data once the request has been handled, unless the law or bookkeeping requires it to be kept longer. Billing records are kept for the time bookkeeping requires. Data is not deleted if it is needed for an open invoice or a statutory claim."
+          "A business customer’s data is kept for 90 days after cancellation. During that time the business customer can export the data, including by asking for an export at info@iqsoftcore.fi. After 90 days the data is deleted automatically. After that, only the invoicing data that bookkeeping law requires is kept.",
+          "A consumer’s data is handled so that mandatory consumer protection and data protection are followed. A consumer can ask for an export or deletion of their data at info@iqsoftcore.fi."
         ]
       ],
       [
@@ -327,7 +331,7 @@ const TERMS_PAGE = {
     "metaDescription": "Villkor för iqFleetSync och allmänna villkor för IQSoftCores tjänster. Utkast.",
     "title": "Användarvillkor",
     "draft": "Utkast. Det här är ett utkast på klarspråk till allmänna villkor för IQSoftCores tjänster och villkoren för iqFleetSync. Det är inte juridisk rådgivning. Leverantören måste granska texten innan den publiceras.",
-    "updated": "Utkast uppdaterat 2026-09-30.",
+    "updated": "Utkast uppdaterat 2026-10-01.",
     "translationNote": "Den finska texten är den officiella versionen. Den här översättningen är till hjälp och har inte granskats separat som juridisk text.",
     "scope": "Det här är allmänna villkor för IQSoftCores tjänster. De gäller konsumenter och företagskunder. Om en produkt har egna villkor gäller de också. Pris tas bara ut om det är publicerat eller avtalat särskilt.",
     "privacyLink": "Integritet",
@@ -371,9 +375,9 @@ const TERMS_PAGE = {
       [
         "5. Betalning",
         [
-          "Betald användning faktureras varje månad. Betalning sker via Stripe med kort, med SEPA Direct Debit eller med faktura (banköverföring).",
-          "En faktura förfaller 14 dagar efter fakturadatum. Vid sen betalning kan leverantören ta ut dröjsmålsränta enligt den finska räntelagen och skäliga inkassokostnader.",
-          "Om fakturan inte betalas efter en påminnelse som skickats när den förfallit kan kontot flyttas till skrivskyddat läge.",
+          "Betald användning faktureras varje månad. Betalning sker via Stripe med kort, med PayPal, med SEPA Direct Debit eller med faktura (banköverföring).",
+          "En faktura förfaller 14 dagar efter fakturadatum. Om en företagskunds betalning är sen kan leverantören ta ut dröjsmålsränta enligt den finska räntelagen (korkolaki) och skäliga inkassokostnader.",
+          "Om en företagskunds faktura är obetald 7 dagar efter förfallodagen går kontot över till skrivskyddat läge. Sparade uppgifter kan läsas, men nya uppgifter kan inte sparas. Det skrivskyddade läget upphör automatiskt när betalningen är gjord.",
           "Förfallodagen och villkoret om dröjsmål ovan gäller en företagskund. En konsument betalar vid köpet det pris tjänsten visar. Företagskundens förfallodag och dröjsmålsvillkor används inte mot en konsument på ett sätt som försvagar tvingande konsumenträttigheter."
         ]
       ],
@@ -393,27 +397,28 @@ const TERMS_PAGE = {
           "Priset är progressivt. De första 15 enheterna är 1,50 €, enheterna 16–50 är 1,30 €, enheterna 51–100 är 1,10 € och enheter över 100 är 0,90 € styck.",
           "Ett släp är en halv enhet i det steg det hamnar i. Det kostar hälften av fordonspriset i det steget: 0,75 €, 0,65 €, 0,55 € eller 0,45 €. Ett redskap, till exempel en tiltrotator, en hydraulhammare eller en sopvals, kostar 0,00 € och räknas inte som en enhet. Antalet användare är obegränsat och användare debiteras inte.",
           "Månadspriset utgår från det högsta enhetsantalet under kalendermånaden. Om utrustning läggs till under månaden faktureras månaden efter toppantalet.",
-          "Om provperioden tar slut och ingen betalning har gjorts, eller om en förfallen faktura inte betalas efter en påminnelse, blir kontot skrivskyddat.",
-          "I skrivskyddat läge kan sparade uppgifter läsas. Nya anmälningar och ändringar kan inte sparas förrän betalning har gjorts. Uppgifterna behålls i det läget."
+          "Om provperioden tar slut och ingen betalning har gjorts blir kontot skrivskyddat. Om en företagskunds faktura är obetald 7 dagar efter förfallodagen är kontot skrivskyddat tills fakturan är betald.",
+          "I skrivskyddat läge kan sparade uppgifter läsas. Nya anmälningar och ändringar kan inte sparas. Det skrivskyddade läget upphör automatiskt när betalningen är gjord."
         ]
       ],
       [
         "7. Uppsägning och ansvar (endast företagskunder)",
         [
           "Den här punkten gäller bara företagskunder. Den gäller inte en konsument och begränsar inte konsumentens tvingande rättigheter.",
-          "Kunden kan säga upp betald användning i tjänsten eller via e-post till info@iqsoftcore.fi. Uppsägningen gäller från slutet av den påbörjade faktureringsperioden. En redan fakturerad månad återbetalas inte, om inte tvingande lag kräver det.",
-          "Att avbryta provperioden kostar inget. Efter uppsägning är kontot skrivskyddat tills uppgifterna raderas på begäran eller förvaringstiden tar slut.",
+          "[[prominent]]iqFleetSync är bara ett verktyg för registrering, påminnelser och rapportering. Kunden ansvarar ensam för fordonets och arbetsmaskinens trafiksäkerhet, för underhållets kvalitet, för inspektioner, för lagstadgade skyldigheter och för beslutet att använda ett fordon. IqSoftCore ansvarar inte för skador, olyckor eller haverier på fordon eller arbetsmaskiner. Det gäller också när en påminnelse har missats, en uppgift har förts in fel eller en förare har använt ett fordon som inte är trafiksäkert. Detta villkor påverkar inte konsumentens rättigheter.",
+          "Företagskunden säger själv upp den betalda tjänsten i appen under Tilaus ja laskutus → Irtisano palvelu (Prenumeration och fakturering → Säg upp tjänsten), eller via e-post till info@iqsoftcore.fi. Uppsägningen gäller från slutet av den faktureringsperiod som redan har börjat. En redan fakturerad månad återbetalas inte, om inte tvingande lag kräver det.",
+          "Att avbryta provperioden kostar inget. När uppsägningen har börjat gälla sparas företagskundens uppgifter i 90 dagar så att kunden kan läsa och exportera dem. Därefter raderas uppgifterna automatiskt. Kvar blir bara de fakturauppgifter som bokföringslagen kräver.",
           "Leverantören kan avsluta kundens användning om kunden bryter mot villkoren väsentligt och inte rättar det efter en skriftlig anmärkning. Om hela tjänsten läggs ned meddelas det i förväg när det är möjligt.",
           "I den mån tvingande finsk lag tillåter det ansvarar leverantören inte för indirekt skada, utebliven vinst eller förlorade uppgifter.",
           "Ansvaret för direkt skada är högst de avgifter kunden har betalat för den tjänsten under de 12 månader som föregick skadan. Om inga avgifter har betalats är taket 0 €.",
-          "Begränsningen gäller inte skada som orsakats uppsåtligen eller av grov oaktsamhet, och inte heller ansvar som inte får begränsas enligt lag. Tjänsten är ett verktyg för registrering. Den ersätter inte kontroll, underhåll eller beslutet om flottan är säker att använda."
+          "Begränsningen gäller inte skada som orsakats uppsåtligen eller av grov oaktsamhet, och inte heller ansvar som inte får begränsas enligt lag."
         ]
       ],
       [
         "8. Konsumenter",
         [
           "Tvingande finskt och EU-konsumentskydd gäller för en konsument. Ett villkor som strider mot det viker.",
-          "Ansvarsbegränsningen i punkt 7 och regeln att en redan fakturerad period inte återbetalas begränsar inte konsumentens rättigheter.",
+          "Ansvarstaket i punkt 7, regeln att en redan fakturerad period inte återbetalas och villkoret att iqFleetSync bara är ett verktyg för registrering, påminnelser och rapportering begränsar inte konsumentens rättigheter.",
           "Vid distansavtal har konsumenten 14 dagars ångerrätt för en digital tjänst eller digitalt innehåll. Tiden räknas från den dag avtalet ingås.",
           "Ångerrätten upphör om konsumenten under ångerfristen uttryckligen ber att leverans eller utförande ska börja och samtidigt bekräftar att rätten upphör när leveransen av det digitala innehållet har börjat eller när den digitala tjänsten är helt utförd.",
           "Dittills kan konsumenten frånträda med ett tydligt meddelande, till exempel e-post till info@iqsoftcore.fi. Leverantören återbetalar mottagen betalning inom 14 dagar från meddelandet i den mån lagen kräver återbetalning.",
@@ -427,7 +432,8 @@ const TERMS_PAGE = {
           "Flott-, underhålls- och användaruppgifter som kunden sparar i tjänsten tillhör kunden.",
           "Leverantören säljer inte uppgifterna. De används för att tillhandahålla tjänsten, fakturera, skydda tjänsten och uppfylla lagstadgade skyldigheter.",
           "Kunden kan be om export av sina uppgifter till info@iqsoftcore.fi. Uppgifterna lämnas i ett vanligt maskinläsbart format när begäran har hanterats.",
-          "Efter uppsägning kan kunden be om radering till samma adress. Leverantören raderar eller anonymiserar uppgifterna när begäran har hanterats, om inte lag eller bokföring kräver längre förvaring. Fakturauppgifter sparas den tid bokföringen kräver. Uppgifter raderas inte om de behövs för en öppen faktura eller ett lagstadgat krav."
+          "En företagskunds uppgifter sparas i 90 dagar efter uppsägning. Under den tiden kan företagskunden exportera uppgifterna, också genom att be om export till info@iqsoftcore.fi. Efter 90 dagar raderas uppgifterna automatiskt. Därefter sparas bara de fakturauppgifter som bokföringslagen kräver.",
+          "En konsuments uppgifter hanteras så att tvingande konsumentskydd och dataskydd följs. Konsumenten kan be om export eller radering av sina uppgifter till info@iqsoftcore.fi."
         ]
       ],
       [
@@ -486,7 +492,7 @@ const TERMS_PAGE = {
     "metaDescription": "Bedingungen für iqFleetSync und allgemeine Bedingungen für Dienste von IQSoftCore. Entwurf.",
     "title": "Nutzungsbedingungen",
     "draft": "Entwurf. Das ist ein Entwurf in klarer Sprache für die allgemeinen Bedingungen der Dienste von IQSoftCore und die Bedingungen von iqFleetSync. Er ist keine Rechtsberatung. Der Anbieter muss den Text vor der Veröffentlichung prüfen.",
-    "updated": "Entwurf aktualisiert am 2026-09-30.",
+    "updated": "Entwurf aktualisiert am 2026-10-01.",
     "translationNote": "Der finnische Text ist die maßgebliche Fassung. Diese Übersetzung dient der Verständlichkeit und wurde nicht gesondert als Rechtstext geprüft.",
     "scope": "Das sind die allgemeinen Bedingungen für die Dienste von IQSoftCore. Sie gelten für Verbraucher und Geschäftskunden. Wenn ein Produkt eigene Bedingungen hat, gelten diese zusätzlich. Ein Preis wird nur berechnet, wenn er veröffentlicht oder gesondert vereinbart ist.",
     "privacyLink": "Datenschutz",
@@ -530,9 +536,9 @@ const TERMS_PAGE = {
       [
         "5. Zahlung",
         [
-          "Die kostenpflichtige Nutzung wird monatlich berechnet. Die Zahlung erfolgt über Stripe per Karte, per SEPA-Lastschrift (SEPA Direct Debit) oder per Rechnung als Banküberweisung.",
-          "Eine Rechnung ist 14 Tage nach dem Rechnungsdatum fällig. Bei Verzug kann der Anbieter Verzugszinsen nach dem finnischen Zinsgesetz und angemessene Beitreibungskosten verlangen.",
-          "Wird eine Rechnung nach einer Mahnung, die nach Fälligkeit gesendet wurde, nicht bezahlt, kann das Konto in den Nur-Lesen-Modus wechseln.",
+          "Die kostenpflichtige Nutzung wird monatlich berechnet. Die Zahlung erfolgt über Stripe per Karte, per PayPal, per SEPA-Lastschrift (SEPA Direct Debit) oder per Rechnung als Banküberweisung.",
+          "Eine Rechnung ist 14 Tage nach dem Rechnungsdatum fällig. Bei Verzug eines Geschäftskunden kann der Anbieter Verzugszinsen nach dem finnischen Zinsgesetz (korkolaki) und angemessene Beitreibungskosten verlangen.",
+          "Ist die Rechnung eines Geschäftskunden 7 Tage nach der Fälligkeit unbezahlt, wechselt das Konto in den Nur-Lesen-Modus. Gespeicherte Daten können angesehen werden, neue Daten können nicht gespeichert werden. Der Nur-Lesen-Modus endet automatisch, wenn die Zahlung erfolgt ist.",
           "Die Fälligkeit und die Verzugsklausel oben gelten für einen Geschäftskunden. Ein Verbraucher zahlt beim Kauf den Preis, den der Dienst anzeigt. Fälligkeit und Verzugsklausel des Geschäftskunden werden gegenüber einem Verbraucher nicht so angewendet, dass zwingende Verbraucherrechte geschwächt würden."
         ]
       ],
@@ -552,27 +558,28 @@ const TERMS_PAGE = {
           "Der Preis ist gestaffelt. Die ersten 15 Einheiten kosten 1,50 €, die Einheiten 16–50 kosten 1,30 €, die Einheiten 51–100 kosten 1,10 €, und Einheiten über 100 kosten je 0,90 €.",
           "Ein Anhänger ist eine halbe Einheit in der Stufe, in die er fällt. Er kostet die Hälfte des Fahrzeugpreises dieser Stufe: 0,75 €, 0,65 €, 0,55 € oder 0,45 €. Ein Anbaugerät, zum Beispiel ein Tiltrotator, ein Hydraulikhammer oder eine Kehrmaschine, kostet 0,00 € und zählt nicht als Einheit. Die Zahl der Benutzer ist unbegrenzt, Benutzer werden nicht berechnet.",
           "Der Monatspreis richtet sich nach der höchsten Einheitenzahl in diesem Kalendermonat. Kommt während des Monats Gerät hinzu, wird der Monat nach der Höchstzahl berechnet.",
-          "Endet die Testphase ohne Zahlung, oder wird eine fällige Rechnung nach einer Mahnung nicht bezahlt, wird das Konto nur noch lesbar.",
-          "Im Nur-Lesen-Modus können gespeicherte Daten angesehen werden. Neue Meldungen und Änderungen können erst nach Zahlung gespeichert werden. Die Daten bleiben in diesem Modus erhalten."
+          "Endet die Testphase ohne Zahlung, wird das Konto nur noch lesbar. Ist die Rechnung eines Geschäftskunden 7 Tage nach der Fälligkeit unbezahlt, bleibt das Konto nur lesbar, bis die Rechnung bezahlt ist.",
+          "Im Nur-Lesen-Modus können gespeicherte Daten angesehen werden. Neue Meldungen und Änderungen können nicht gespeichert werden. Der Nur-Lesen-Modus endet automatisch, wenn die Zahlung erfolgt ist."
         ]
       ],
       [
         "7. Kündigung und Haftung (nur Geschäftskunden)",
         [
           "Dieser Abschnitt gilt nur für Geschäftskunden. Er gilt nicht für einen Verbraucher und beschränkt nicht dessen zwingende Rechte.",
-          "Der Kunde kann die kostenpflichtige Nutzung im Dienst oder per E-Mail an info@iqsoftcore.fi kündigen. Die Kündigung wirkt zum Ende des bereits begonnenen Abrechnungszeitraums. Ein bereits berechneter Monat wird nicht erstattet, sofern nicht zwingendes Recht das verlangt.",
-          "Das Beenden der Testphase kostet nichts. Nach der Kündigung ist das Konto nur lesbar, bis die Daten auf Wunsch gelöscht sind oder die Aufbewahrungsfrist endet.",
+          "[[prominent]]iqFleetSync ist nur ein Werkzeug zur Erfassung, für Erinnerungen und für Berichte. Der Kunde ist allein verantwortlich für die Verkehrssicherheit von Fahrzeugen und Arbeitsmaschinen, für die Qualität der Wartung, für Prüfungen, für gesetzliche Pflichten und für die Entscheidung, ein Fahrzeug zu benutzen. IqSoftCore haftet nicht für Schäden, Unfälle oder Ausfälle von Fahrzeugen oder Arbeitsmaschinen. Das gilt auch, wenn eine Erinnerung übersehen wurde, Daten falsch eingetragen wurden oder eine Fahrerin oder ein Fahrer ein nicht verkehrssicheres Fahrzeug benutzt hat. Diese Klausel berührt nicht die Rechte von Verbrauchern.",
+          "Der Geschäftskunde kündigt den kostenpflichtigen Dienst selbst in der App unter Tilaus ja laskutus → Irtisano palvelu (Abonnement und Abrechnung → Dienst kündigen) oder per E-Mail an info@iqsoftcore.fi. Die Kündigung wirkt zum Ende des bereits begonnenen Abrechnungszeitraums. Ein bereits berechneter Monat wird nicht erstattet, sofern nicht zwingendes Recht das verlangt.",
+          "Das Beenden der Testphase kostet nichts. Sobald die Kündigung wirkt, bleiben die Daten des Geschäftskunden 90 Tage erhalten, damit der Kunde sie ansehen und exportieren kann. Danach werden die Daten automatisch gelöscht. Übrig bleiben nur die Rechnungsdaten, die das Buchhaltungsrecht verlangt.",
           "Der Anbieter kann die Nutzung des Kunden beenden, wenn der Kunde diese Bedingungen wesentlich verletzt und das nach einer schriftlichen Aufforderung nicht behebt. Wird der ganze Dienst eingestellt, wird das vorab mitgeteilt, wenn das möglich ist.",
           "Soweit zwingendes finnisches Recht es erlaubt, haftet der Anbieter nicht für mittelbare Schäden, entgangenen Gewinn oder verlorene Daten.",
           "Die Haftung für unmittelbaren Schaden ist auf die Entgelte begrenzt, die der Kunde für diesen Dienst in den 12 Monaten vor dem Schaden gezahlt hat. Wurden keine Entgelte gezahlt, beträgt die Obergrenze 0 €.",
-          "Die Beschränkung gilt nicht für vorsätzlich oder grob fahrlässig verursachten Schaden und nicht für eine Haftung, die gesetzlich nicht beschränkt werden darf. Der Dienst ist ein Werkzeug zum Erfassen. Er ersetzt nicht die Prüfung oder Wartung einer Maschine oder eines Fahrzeugs und nicht die Entscheidung, ob der Fuhrpark sicher genutzt werden kann."
+          "Die Beschränkung gilt nicht für vorsätzlich oder grob fahrlässig verursachten Schaden und nicht für eine Haftung, die gesetzlich nicht beschränkt werden darf."
         ]
       ],
       [
         "8. Verbraucher",
         [
           "Für einen Verbraucher gilt zwingendes finnisches und EU-Verbraucherrecht. Eine widersprechende Klausel tritt zurück.",
-          "Die Haftungsgrenze in Abschnitt 7 und die Regel, dass ein bereits berechneter Zeitraum nicht erstattet wird, beschränken nicht die Rechte des Verbrauchers.",
+          "Die Haftungsobergrenze in Abschnitt 7, die Regel, dass ein bereits berechneter Zeitraum nicht erstattet wird, und die Klausel, dass iqFleetSync nur ein Werkzeug zur Erfassung, für Erinnerungen und für Berichte ist, beschränken nicht die Rechte von Verbrauchern.",
           "Beim Fernabsatz hat der Verbraucher ein 14-tägiges Widerrufsrecht für einen digitalen Dienst oder digitale Inhalte. Die Frist beginnt am Tag des Vertragsschlusses.",
           "Das Widerrufsrecht endet, wenn der Verbraucher während der Widerrufsfrist ausdrücklich verlangt, dass die Lieferung oder die Leistung beginnt, und zugleich bestätigt, dass das Recht endet, sobald die Lieferung der digitalen Inhalte begonnen hat oder der digitale Dienst vollständig erbracht ist.",
           "Bis dahin kann der Verbraucher mit einer klaren Erklärung widerrufen, zum Beispiel per E-Mail an info@iqsoftcore.fi. Der Anbieter erstattet die erhaltene Zahlung innerhalb von 14 Tagen nach der Erklärung, soweit das Gesetz eine Erstattung verlangt.",
@@ -586,7 +593,8 @@ const TERMS_PAGE = {
           "Fuhrpark-, Wartungs- und Benutzerdaten, die der Kunde im Dienst speichert, gehören dem Kunden.",
           "Der Anbieter verkauft diese Daten nicht. Sie werden genutzt, um den Dienst zu erbringen, abzurechnen, den Dienst zu sichern und gesetzliche Pflichten zu erfüllen.",
           "Der Kunde kann einen Export seiner Daten an info@iqsoftcore.fi verlangen. Die Daten werden in einem üblichen maschinenlesbaren Format geliefert, sobald die Anfrage bearbeitet ist.",
-          "Nach der Kündigung kann der Kunde an dieselbe Adresse die Löschung verlangen. Der Anbieter löscht oder anonymisiert die Daten, sobald die Anfrage bearbeitet ist, sofern nicht Gesetz oder Buchhaltung eine längere Aufbewahrung verlangen. Rechnungsdaten werden so lange aufbewahrt, wie die Buchhaltung es verlangt. Daten werden nicht gelöscht, wenn sie für eine offene Rechnung oder einen gesetzlichen Anspruch benötigt werden."
+          "Die Daten eines Geschäftskunden werden 90 Tage nach der Kündigung aufbewahrt. In dieser Zeit kann der Geschäftskunde die Daten exportieren, auch durch eine Exportanfrage an info@iqsoftcore.fi. Nach 90 Tagen werden die Daten automatisch gelöscht. Danach werden nur die Rechnungsdaten aufbewahrt, die das Buchhaltungsrecht verlangt.",
+          "Die Daten eines Verbrauchers werden so behandelt, dass zwingender Verbraucherschutz und Datenschutz eingehalten werden. Ein Verbraucher kann Export oder Löschung seiner Daten an info@iqsoftcore.fi verlangen."
         ]
       ],
       [
@@ -645,7 +653,7 @@ const TERMS_PAGE = {
     "metaDescription": "Vilkår for iqFleetSync og generelle vilkår for tjenestene til IQSoftCore. Utkast.",
     "title": "Vilkår",
     "draft": "Utkast. Dette er et utkast på klart språk til generelle vilkår for tjenestene til IQSoftCore og vilkårene for iqFleetSync. Det er ikke juridisk rådgivning. Leverandøren må gå gjennom teksten før den publiseres.",
-    "updated": "Utkast oppdatert 2026-09-30.",
+    "updated": "Utkast oppdatert 2026-10-01.",
     "translationNote": "Den finske teksten er den offisielle versjonen. Denne oversettelsen er til hjelp og er ikke gjennomgått separat som juridisk tekst.",
     "scope": "Dette er generelle vilkår for tjenestene til IQSoftCore. De gjelder forbrukere og bedriftskunder. Hvis et produkt har egne vilkår, gjelder de i tillegg. Pris kreves bare hvis den er publisert eller avtalt særskilt.",
     "privacyLink": "Personvern",
@@ -689,9 +697,9 @@ const TERMS_PAGE = {
       [
         "5. Betaling",
         [
-          "Betalt bruk faktureres hver måned. Betaling skjer via Stripe med kort, med SEPA Direct Debit eller med faktura (bankoverføring).",
-          "En faktura forfaller 14 dager etter fakturadato. Ved for sen betaling kan leverandøren kreve forsinkelsesrente etter den finske renteloven og rimelige inkassokostnader.",
-          "Hvis fakturaen ikke betales etter en purring som er sendt etter forfall, kan kontoen settes i skrivebeskyttet modus.",
+          "Betalt bruk faktureres hver måned. Betaling skjer via Stripe med kort, med PayPal, med SEPA Direct Debit eller med faktura (bankoverføring).",
+          "En faktura forfaller 14 dager etter fakturadato. Ved for sen betaling fra en bedriftskunde kan leverandøren kreve forsinkelsesrente etter den finske renteloven (korkolaki) og rimelige inkassokostnader.",
+          "Hvis en bedriftskundes faktura er ubetalt 7 dager etter forfallsdagen, går kontoen i skrivebeskyttet modus. Lagrede opplysninger kan leses, men nye opplysninger kan ikke lagres. Skrivebeskyttet modus opphører automatisk når betalingen er gjort.",
           "Forfallsdagen og vilkåret om forsinkelse ovenfor gjelder en bedriftskunde. En forbruker betaler ved kjøpet den prisen tjenesten viser. Bedriftskundens forfall og forsinkelsesvilkår brukes ikke mot en forbruker på en måte som svekker ufravikelige forbrukerrettigheter."
         ]
       ],
@@ -711,27 +719,28 @@ const TERMS_PAGE = {
           "Prisen er trinnvis. De første 15 enhetene er 1,50 €, enhetene 16–50 er 1,30 €, enhetene 51–100 er 1,10 €, og enheter over 100 er 0,90 € hver.",
           "En tilhenger er en halv enhet i nivået den havner i. Den koster halvparten av kjøretøyprisen i det nivået: 0,75 €, 0,65 €, 0,55 € eller 0,45 €. Et utstyr, for eksempel en tiltrotator, en hydraulisk hammer eller en feiekost, koster 0,00 € og telles ikke som en enhet. Antall brukere er ubegrenset, og brukere faktureres ikke.",
           "Månedsprisen bruker det høyeste enhetsantallet i den kalendermåneden. Hvis utstyr legges til i løpet av måneden, faktureres måneden etter toppantallet.",
-          "Hvis prøveperioden tar slutt og det ikke er betalt, eller hvis en forfalt faktura ikke betales etter en purring, blir kontoen skrivebeskyttet.",
-          "I skrivebeskyttet modus kan lagrede opplysninger leses. Nye meldinger og endringer kan ikke lagres før det er betalt. Opplysningene beholdes i denne modusen."
+          "Hvis prøveperioden tar slutt og det ikke er betalt, blir kontoen skrivebeskyttet. Hvis en bedriftskundes faktura er ubetalt 7 dager etter forfallsdagen, er kontoen skrivebeskyttet til fakturaen er betalt.",
+          "I skrivebeskyttet modus kan lagrede opplysninger leses. Nye meldinger og endringer kan ikke lagres. Skrivebeskyttet modus opphører automatisk når betalingen er gjort."
         ]
       ],
       [
         "7. Oppsigelse og ansvar (bare bedriftskunder)",
         [
           "Dette punktet gjelder bare bedriftskunder. Det gjelder ikke en forbruker og begrenser ikke forbrukerens ufravikelige rettigheter.",
-          "Kunden kan si opp betalt bruk i tjenesten eller på e-post til info@iqsoftcore.fi. Oppsigelsen gjelder fra slutten av den påbegynte faktureringsperioden. En måned som allerede er fakturert, refunderes ikke, med mindre ufravikelig lov krever det.",
-          "Å avbryte prøveperioden koster ingenting. Etter oppsigelse er kontoen skrivebeskyttet til dataene er slettet på forespørsel eller oppbevaringstiden er ute.",
+          "[[prominent]]iqFleetSync er bare et verktøy for registrering, påminnelser og rapportering. Kunden svarer alene for kjøretøyets og arbeidsmaskinens trafikksikkerhet, for kvaliteten på vedlikeholdet, for kontroller, for lovpålagte plikter og for avgjørelsen om å bruke et kjøretøy. IqSoftCore svarer ikke for skade, ulykker eller havari på kjøretøy eller arbeidsmaskiner. Det gjelder også når en påminnelse er oversett, en opplysning er ført inn feil, eller en sjåfør har brukt et kjøretøy som ikke er trafikksikkert. Dette vilkåret påvirker ikke forbrukerens rettigheter.",
+          "Bedriftskunden sier selv opp den betalte tjenesten i appen under Tilaus ja laskutus → Irtisano palvelu (Abonnement og fakturering → Si opp tjenesten), eller på e-post til info@iqsoftcore.fi. Oppsigelsen gjelder fra slutten av den faktureringsperioden som allerede er påbegynt. En måned som allerede er fakturert, refunderes ikke, med mindre ufravikelig lov krever det.",
+          "Å avbryte prøveperioden koster ingenting. Når oppsigelsen har trådt i kraft, oppbevares bedriftskundens data i 90 dager slik at kunden kan se og eksportere dem. Deretter slettes dataene automatisk. Igjen blir bare de fakturaopplysningene bokføringsloven krever.",
           "Leverandøren kan avslutte kundens bruk hvis kunden bryter vilkårene vesentlig og ikke retter det etter en skriftlig merknad. Hvis hele tjenesten legges ned, varsles det på forhånd når det er mulig.",
           "I den grad ufravikelig finsk lov tillater det, svarer leverandøren ikke for indirekte tap, tapt fortjeneste eller tapte data.",
           "Ansvaret for direkte tap er høyst de avgiftene kunden har betalt for den tjenesten i de 12 månedene før skaden. Hvis ingen avgifter er betalt, er taket 0 €.",
-          "Begrensningen gjelder ikke skade som er forårsaket forsettlig eller ved grov uaktsomhet, og heller ikke ansvar som ikke kan begrenses etter loven. Tjenesten er et verktøy for registrering. Den erstatter ikke kontroll, vedlikehold eller avgjørelsen av om flåten er trygg å bruke."
+          "Begrensningen gjelder ikke skade som er forårsaket forsettlig eller ved grov uaktsomhet, og heller ikke ansvar som ikke kan begrenses etter loven."
         ]
       ],
       [
         "8. Forbrukere",
         [
           "Ufravikelig finsk og EU-forbrukervern gjelder for en forbruker. Et vilkår som strider mot det, viker.",
-          "Ansvarsgrensen i punkt 7 og regelen om at en periode som allerede er fakturert, ikke tilbakebetales, begrenser ikke forbrukerens rettigheter.",
+          "Ansvarstaket i punkt 7, regelen om at en allerede fakturert periode ikke refunderes, og vilkåret om at iqFleetSync bare er et verktøy for registrering, påminnelser og rapportering, begrenser ikke forbrukerens rettigheter.",
           "Ved fjernsalg har forbrukeren 14 dagers angrerett for en digital tjeneste eller digitalt innhold. Fristen regnes fra den dagen avtalen inngås.",
           "Angreretten opphører hvis forbrukeren i angrefristen uttrykkelig ber om at levering eller utførelse starter, og samtidig bekrefter at retten opphører når leveringen av det digitale innholdet har startet eller når den digitale tjenesten er fullt utført.",
           "Inntil da kan forbrukeren gå fra avtalen med en tydelig melding, for eksempel e-post til info@iqsoftcore.fi. Leverandøren tilbakebetaler mottatt betaling innen 14 dager etter meldingen i den grad loven krever tilbakebetaling.",
@@ -745,7 +754,8 @@ const TERMS_PAGE = {
           "Flåte-, vedlikeholds- og brukerdata som kunden lagrer i tjenesten, tilhører kunden.",
           "Leverandøren selger ikke disse opplysningene. De brukes til å levere tjenesten, fakturere, sikre tjenesten og oppfylle lovpålagte plikter.",
           "Kunden kan be om eksport av dataene sine til info@iqsoftcore.fi. Dataene leveres i et vanlig maskinlesbart format når forespørselen er behandlet.",
-          "Etter oppsigelse kan kunden be om sletting til samme adresse. Leverandøren sletter eller anonymiserer dataene når forespørselen er behandlet, med mindre lov eller regnskap krever lengre oppbevaring. Fakturaopplysninger oppbevares den tiden regnskapet krever. Data slettes ikke hvis de trengs for en åpen faktura eller et lovbestemt krav."
+          "En bedriftskundes data oppbevares i 90 dager etter oppsigelse. I den tiden kan bedriftskunden eksportere dataene, også ved å be om eksport til info@iqsoftcore.fi. Etter 90 dager slettes dataene automatisk. Deretter oppbevares bare de fakturaopplysningene bokføringsloven krever.",
+          "En forbrukers opplysninger behandles slik at ufravikelig forbrukervern og personvern følges. Forbrukeren kan be om eksport eller sletting av opplysningene sine til info@iqsoftcore.fi."
         ]
       ],
       [
@@ -804,7 +814,7 @@ const TERMS_PAGE = {
     "metaDescription": "Vilkår for iqFleetSync og generelle vilkår for IQSoftCores tjenester. Udkast.",
     "title": "Vilkår",
     "draft": "Udkast. Dette er et udkast i klart sprog til generelle vilkår for IQSoftCores tjenester og vilkårene for iqFleetSync. Det er ikke juridisk rådgivning. Leverandøren skal gennemgå teksten før offentliggørelse.",
-    "updated": "Udkast opdateret 2026-09-30.",
+    "updated": "Udkast opdateret 2026-10-01.",
     "translationNote": "Den finske tekst er den officielle version. Denne oversættelse er en hjælp og er ikke gennemgået særskilt som juridisk tekst.",
     "scope": "Dette er generelle vilkår for IQSoftCores tjenester. De gælder forbrugere og erhvervskunder. Hvis et produkt har egne vilkår, gælder de også. Pris opkræves kun, hvis den er offentliggjort eller aftalt særskilt.",
     "privacyLink": "Privatliv",
@@ -848,9 +858,9 @@ const TERMS_PAGE = {
       [
         "5. Betaling",
         [
-          "Betalt brug faktureres hver måned. Betaling sker via Stripe med kort, med SEPA Direct Debit eller med faktura (bankoverførsel).",
-          "En faktura forfalder 14 dage efter fakturadatoen. Ved for sen betaling kan leverandøren opkræve morarente efter den finske rentelov og rimelige inddrivelsesomkostninger.",
-          "Hvis fakturaen ikke betales efter en rykker sendt efter forfald, kan kontoen sættes i skrivebeskyttet tilstand.",
+          "Betalt brug faktureres hver måned. Betaling sker via Stripe med kort, med PayPal, med SEPA Direct Debit eller med faktura (bankoverførsel).",
+          "En faktura forfalder 14 dage efter fakturadatoen. Ved for sen betaling fra en erhvervskunde kan leverandøren opkræve morarente efter den finske rentelov (korkolaki) og rimelige inddrivelsesomkostninger.",
+          "Hvis en erhvervskundes faktura er ubetalt 7 dage efter forfaldsdagen, går kontoen i skrivebeskyttet tilstand. Gemte oplysninger kan læses, men nye oplysninger kan ikke gemmes. Den skrivebeskyttede tilstand ophører automatisk, når betalingen er sket.",
           "Forfaldsdagen og vilkåret om forsinkelse ovenfor gælder en erhvervskunde. En forbruger betaler ved købet den pris, tjenesten viser. Erhvervskundens forfald og forsinkelsesvilkår bruges ikke over for en forbruger på en måde, der svækker ufravigelige forbrugerrettigheder."
         ]
       ],
@@ -870,27 +880,28 @@ const TERMS_PAGE = {
           "Prisen er trinvis. De første 15 enheder er 1,50 €, enhederne 16–50 er 1,30 €, enhederne 51–100 er 1,10 €, og enheder over 100 er 0,90 € hver.",
           "En anhænger er en halv enhed i det trin, den lander i. Den koster halvdelen af køretøjsprisen i det trin: 0,75 €, 0,65 €, 0,55 € eller 0,45 €. Et udstyr, for eksempel en tiltrotator, en hydraulisk hammer eller en fejekost, koster 0,00 € og tæller ikke som en enhed. Antallet af brugere er ubegrænset, og brugere faktureres ikke.",
           "Månedsprisen bruger det højeste antal enheder i den kalendermåned. Hvis udstyr tilføjes i løbet af måneden, faktureres måneden efter toppen.",
-          "Hvis prøveperioden slutter, og der ikke er betalt, eller hvis en forfalden faktura ikke betales efter en rykker, bliver kontoen skrivebeskyttet.",
-          "I skrivebeskyttet tilstand kan gemte oplysninger læses. Nye indberetninger og ændringer kan ikke gemmes, før der er betalt. Oplysningerne beholdes i denne tilstand."
+          "Hvis prøveperioden slutter, og der ikke er betalt, bliver kontoen skrivebeskyttet. Hvis en erhvervskundes faktura er ubetalt 7 dage efter forfaldsdagen, er kontoen skrivebeskyttet, indtil fakturaen er betalt.",
+          "I skrivebeskyttet tilstand kan gemte oplysninger læses. Nye indberetninger og ændringer kan ikke gemmes. Den skrivebeskyttede tilstand ophører automatisk, når betalingen er sket."
         ]
       ],
       [
         "7. Opsigelse og ansvar (kun erhvervskunder)",
         [
           "Dette punkt gælder kun erhvervskunder. Det gælder ikke en forbruger og begrænser ikke forbrugerens ufravigelige rettigheder.",
-          "Kunden kan opsige betalt brug i tjenesten eller på e-mail til info@iqsoftcore.fi. Opsigelsen gælder fra slutningen af den påbegyndte faktureringsperiode. En måned, der allerede er faktureret, refunderes ikke, medmindre ufravigelig lov kræver det.",
-          "At stoppe prøveperioden koster ikke noget. Efter opsigelse er kontoen skrivebeskyttet, indtil dataene er slettet efter anmodning, eller opbevaringstiden er udløbet.",
+          "[[prominent]]iqFleetSync er kun et værktøj til registrering, påmindelser og rapportering. Kunden er alene ansvarlig for køretøjets og arbejdsmaskinens trafiksikkerhed, for vedligeholdelsens kvalitet, for syn og kontroller, for lovpligtige pligter og for beslutningen om at bruge et køretøj. IqSoftCore hæfter ikke for skader, ulykker eller nedbrud på køretøjer eller arbejdsmaskiner. Det gælder også, når en påmindelse er overset, en oplysning er indtastet forkert, eller en chauffør har brugt et køretøj, der ikke er trafiksikkert. Dette vilkår påvirker ikke forbrugerens rettigheder.",
+          "Erhvervskunden opsiger selv den betalte tjeneste i appen under Tilaus ja laskutus → Irtisano palvelu (Abonnement og fakturering → Opsig tjenesten) eller på e-mail til info@iqsoftcore.fi. Opsigelsen gælder fra slutningen af den faktureringsperiode, der allerede er begyndt. En måned, der allerede er faktureret, refunderes ikke, medmindre ufravigelig lov kræver det.",
+          "At stoppe prøveperioden koster ikke noget. Når opsigelsen er trådt i kraft, opbevares erhvervskundens data i 90 dage, så kunden kan se og eksportere dem. Derefter slettes dataene automatisk. Tilbage bliver kun de fakturaoplysninger, bogføringsloven kræver.",
           "Leverandøren kan afslutte kundens brug, hvis kunden væsentligt bryder vilkårene og ikke retter det efter en skriftlig påmindelse. Hvis hele tjenesten lukkes, varsles det på forhånd, når det er muligt.",
           "I det omfang ufravigelig finsk lov tillader det, hæfter leverandøren ikke for indirekte tab, tabt fortjeneste eller tabte data.",
           "Ansvaret for direkte tab er højst de gebyrer, kunden har betalt for den tjeneste i de 12 måneder før skaden. Hvis der ikke er betalt gebyrer, er loftet 0 €.",
-          "Begrænsningen gælder ikke skade, der er forvoldt forsætligt eller ved grov uagtsomhed, og heller ikke ansvar, der ikke kan begrænses efter loven. Tjenesten er et værktøj til registrering. Den erstatter ikke kontrol, vedligeholdelse eller afgørelsen af, om flåden er sikker at bruge."
+          "Begrænsningen gælder ikke skade, der er forvoldt forsætligt eller ved grov uagtsomhed, og heller ikke ansvar, der ikke kan begrænses efter loven."
         ]
       ],
       [
         "8. Forbrugere",
         [
           "Ufravigelig finsk og EU-forbrugerbeskyttelse gælder for en forbruger. Et vilkår, der strider mod den, viger.",
-          "Ansvarsloftet i punkt 7 og reglen om, at en periode, der allerede er faktureret, ikke tilbagebetales, begrænser ikke forbrugerens rettigheder.",
+          "Ansvarsloftet i punkt 7, reglen om at en allerede faktureret periode ikke refunderes, og vilkåret om at iqFleetSync kun er et værktøj til registrering, påmindelser og rapportering, begrænser ikke forbrugerens rettigheder.",
           "Ved fjernsalg har forbrugeren 14 dages fortrydelsesret for en digital tjeneste eller digitalt indhold. Fristen regnes fra den dag, aftalen indgås.",
           "Fortrydelsesretten ophører, hvis forbrugeren i fortrydelsesfristen udtrykkeligt beder om, at levering eller udførelse begynder, og samtidig anerkender, at retten ophører, når leveringen af det digitale indhold er begyndt, eller når den digitale tjeneste er fuldt udført.",
           "Indtil da kan forbrugeren fortryde med en klar meddelelse, for eksempel e-mail til info@iqsoftcore.fi. Leverandøren tilbagebetaler modtaget betaling inden 14 dage efter meddelelsen i det omfang, loven kræver tilbagebetaling.",
@@ -904,7 +915,8 @@ const TERMS_PAGE = {
           "Flåde-, vedligeholdelses- og brugerdata, som kunden gemmer i tjenesten, tilhører kunden.",
           "Leverandøren sælger ikke disse oplysninger. De bruges til at levere tjenesten, fakturere, sikre tjenesten og opfylde lovpligtige pligter.",
           "Kunden kan bede om eksport af sine data til info@iqsoftcore.fi. Dataene leveres i et almindeligt maskinlæsbart format, når anmodningen er behandlet.",
-          "Efter opsigelse kan kunden bede om sletning til samme adresse. Leverandøren sletter eller anonymiserer dataene, når anmodningen er behandlet, medmindre lov eller bogføring kræver længere opbevaring. Fakturaoplysninger opbevares den tid, bogføringen kræver. Data slettes ikke, hvis de skal bruges til en åben faktura eller et lovbestemt krav."
+          "En erhvervskundes data opbevares i 90 dage efter opsigelse. I den tid kan erhvervskunden eksportere dataene, også ved at bede om eksport til info@iqsoftcore.fi. Efter 90 dage slettes dataene automatisk. Derefter opbevares kun de fakturaoplysninger, bogføringsloven kræver.",
+          "En forbrugers oplysninger behandles, så ufravigelig forbrugerbeskyttelse og databeskyttelse overholdes. Forbrugeren kan bede om eksport eller sletning af sine oplysninger til info@iqsoftcore.fi."
         ]
       ],
       [
@@ -963,7 +975,7 @@ const TERMS_PAGE = {
     "metaDescription": "Voorwaarden voor iqFleetSync en algemene voorwaarden voor diensten van IQSoftCore. Concept.",
     "title": "Gebruiksvoorwaarden",
     "draft": "Concept. Dit is een concept in gewone taal van de algemene voorwaarden voor diensten van IQSoftCore en de voorwaarden voor iqFleetSync. Het is geen juridisch advies. De aanbieder moet de tekst controleren vóór publicatie.",
-    "updated": "Concept bijgewerkt op 2026-09-30.",
+    "updated": "Concept bijgewerkt op 2026-10-01.",
     "translationNote": "De Finse tekst is de officiële versie. Deze vertaling is een hulpmiddel en is niet apart beoordeeld als juridische tekst.",
     "scope": "Dit zijn de algemene voorwaarden voor diensten van IQSoftCore. Ze gelden voor consumenten en zakelijke klanten. Als een product eigen voorwaarden heeft, gelden die erbij. Een prijs wordt alleen gerekend als die is gepubliceerd of apart afgesproken.",
     "privacyLink": "Privacy",
@@ -1007,9 +1019,9 @@ const TERMS_PAGE = {
       [
         "5. Betaling",
         [
-          "Betaald gebruik wordt maandelijks gefactureerd. Betaling gebeurt via Stripe met kaart, met SEPA-incasso (SEPA Direct Debit) of met factuur (bankoverschrijving).",
-          "Een factuur vervalt 14 dagen na de factuurdatum. Bij te late betaling kan de aanbieder vertragingsrente volgens de Finse rentewet en redelijke incassokosten rekenen.",
-          "Wordt een factuur niet betaald na een aanmaning die na de vervaldag is verstuurd, dan kan het account alleen-lezen worden.",
+          "Betaald gebruik wordt maandelijks gefactureerd. Betaling gebeurt via Stripe met kaart, met PayPal, met SEPA-incasso (SEPA Direct Debit) of met factuur (bankoverschrijving).",
+          "Een factuur vervalt 14 dagen na de factuurdatum. Bij te late betaling door een zakelijke klant kan de aanbieder vertragingsrente volgens de Finse rentewet (korkolaki) en redelijke incassokosten rekenen.",
+          "Als de factuur van een zakelijke klant 7 dagen na de vervaldatum onbetaald is, gaat het account naar de alleen-lezenstand. Opgeslagen gegevens kunnen worden bekeken, nieuwe gegevens kunnen niet worden opgeslagen. De alleen-lezenstand eindigt automatisch wanneer de betaling is gedaan.",
           "De vervaldatum en het beding over te late betaling hierboven gelden voor een zakelijke klant. Een consument betaalt bij de aankoop de prijs die de dienst toont. De vervaldatum en het vertragingsbeding van de zakelijke klant worden niet zo op een consument toegepast dat dwingende consumentenrechten worden verzwakt."
         ]
       ],
@@ -1029,27 +1041,28 @@ const TERMS_PAGE = {
           "De prijs loopt op. De eerste 15 eenheden zijn 1,50 €, eenheden 16–50 zijn 1,30 €, eenheden 51–100 zijn 1,10 € en eenheden boven 100 zijn 0,90 € per stuk.",
           "Een aanhanger is een halve eenheid in de staffel waarin hij valt. Hij kost de helft van de voertuigprijs van die staffel: 0,75 €, 0,65 €, 0,55 € of 0,45 €. Een uitrustingsstuk, bijvoorbeeld een tiltrotator, een hydraulische hamer of een veegmachine, kost 0,00 € en telt niet als eenheid. Het aantal gebruikers is onbeperkt en gebruikers worden niet apart gerekend.",
           "De maandprijs gebruikt het hoogste aantal eenheden in die kalendermaand. Wordt er tijdens de maand materieel toegevoegd, dan wordt de maand tegen het hoogste aantal gerekend.",
-          "Eindigt de proefperiode zonder betaling, of wordt een vervallen factuur na een aanmaning niet betaald, dan wordt het account alleen-lezen.",
-          "In de alleen-lezenstand kunnen opgeslagen gegevens worden bekeken. Nieuwe meldingen en wijzigingen kunnen pas worden opgeslagen na betaling. De gegevens blijven bewaard."
+          "Eindigt de proefperiode zonder betaling, dan wordt het account alleen-lezen. Als de factuur van een zakelijke klant 7 dagen na de vervaldatum onbetaald is, blijft het account alleen-lezen tot de factuur is betaald.",
+          "In de alleen-lezenstand kunnen opgeslagen gegevens worden bekeken. Nieuwe meldingen en wijzigingen kunnen niet worden opgeslagen. De alleen-lezenstand eindigt automatisch wanneer de betaling is gedaan."
         ]
       ],
       [
         "7. Opzegging en aansprakelijkheid (alleen zakelijke klanten)",
         [
           "Dit punt geldt alleen voor zakelijke klanten. Het geldt niet voor een consument en beperkt niet diens dwingende rechten.",
-          "De klant kan betaald gebruik opzeggen in de dienst of per e-mail aan info@iqsoftcore.fi. De opzegging geldt aan het einde van de al begonnen factuurperiode. Een al gefactureerde maand wordt niet terugbetaald, tenzij dwingend recht dat eist.",
-          "De proefperiode stoppen kost niets. Na opzegging is het account alleen-lezen tot de gegevens op verzoek zijn verwijderd of de bewaartermijn eindigt.",
+          "[[prominent]]iqFleetSync is alleen een hulpmiddel voor registratie, herinneringen en rapportage. De klant is als enige verantwoordelijk voor de verkeersveiligheid van voertuigen en werkmachines, voor de kwaliteit van het onderhoud, voor keuringen, voor wettelijke plichten en voor de beslissing om een voertuig te gebruiken. IqSoftCore is niet aansprakelijk voor schade, ongevallen of pech aan voertuigen of werkmachines. Dat geldt ook wanneer een herinnering is gemist, gegevens verkeerd zijn ingevoerd of een bestuurder een voertuig heeft gebruikt dat niet verkeersveilig was. Dit beding laat de rechten van de consument onverlet.",
+          "De zakelijke klant zegt de betaalde dienst zelf op in de app via Tilaus ja laskutus → Irtisano palvelu (Abonnement en facturering → Dienst opzeggen), of per e-mail aan info@iqsoftcore.fi. De opzegging werkt aan het einde van de al begonnen factureringsperiode. Een al gefactureerde maand wordt niet terugbetaald, tenzij dwingend recht dat vereist.",
+          "De proefperiode stoppen kost niets. Zodra de opzegging werkt, blijven de gegevens van de zakelijke klant 90 dagen bewaard zodat de klant ze kan bekijken en exporteren. Daarna worden de gegevens automatisch verwijderd. Alleen de factuurgegevens die de boekhoudwet vereist, blijven bewaard.",
           "De aanbieder kan het gebruik van de klant beëindigen als de klant deze voorwaarden wezenlijk schendt en dat na een schriftelijke aanmaning niet herstelt. Wordt de hele dienst beëindigd, dan wordt dat vooraf gemeld als dat kan.",
           "Voor zover dwingend Fins recht het toestaat, is de aanbieder niet aansprakelijk voor indirecte schade, gederfde winst of verloren gegevens.",
           "De aansprakelijkheid voor directe schade is beperkt tot de bedragen die de klant voor die dienst heeft betaald in de 12 maanden vóór de schade. Zijn er geen bedragen betaald, dan is het maximum 0 €.",
-          "De beperking geldt niet voor schade door opzet of grove nalatigheid en niet voor aansprakelijkheid die wettelijk niet mag worden beperkt. De dienst is een hulpmiddel om te registreren. Hij vervangt geen keuring of onderhoud van een machine of voertuig en niet de beslissing of het wagenpark veilig te gebruiken is."
+          "De beperking geldt niet voor schade door opzet of grove nalatigheid en niet voor aansprakelijkheid die wettelijk niet mag worden beperkt."
         ]
       ],
       [
         "8. Consumenten",
         [
           "Op een consument is dwingend Fins en EU-consumentenrecht van toepassing. Een strijdig beding wijkt.",
-          "Het aansprakelijkheidsplafond in punt 7 en de regel dat een al gefactureerde periode niet wordt terugbetaald, beperken niet de rechten van de consument.",
+          "Het aansprakelijkheidsplafond in punt 7, de regel dat een al gefactureerde periode niet wordt terugbetaald, en het beding dat iqFleetSync alleen een hulpmiddel voor registratie, herinneringen en rapportage is, beperken de rechten van de consument niet.",
           "Bij verkoop op afstand heeft de consument 14 dagen herroepingsrecht voor een digitale dienst of digitale inhoud. De termijn begint op de dag van de overeenkomst.",
           "Het herroepingsrecht eindigt als de consument tijdens de herroepingstermijn uitdrukkelijk vraagt dat levering of uitvoering begint en tegelijk erkent dat het recht eindigt zodra de levering van de digitale inhoud is begonnen of de digitale dienst volledig is uitgevoerd.",
           "Tot dan kan de consument herroepen met een duidelijke mededeling, bijvoorbeeld per e-mail aan info@iqsoftcore.fi. De aanbieder betaalt de ontvangen betaling terug binnen 14 dagen na de mededeling, voor zover de wet terugbetaling eist.",
@@ -1063,7 +1076,8 @@ const TERMS_PAGE = {
           "Wagenpark-, onderhouds- en gebruikersgegevens die de klant in de dienst opslaat, zijn van de klant.",
           "De aanbieder verkoopt deze gegevens niet. Ze worden gebruikt om de dienst te leveren, te factureren, de dienst te beveiligen en wettelijke plichten na te komen.",
           "De klant kan een export van de gegevens vragen via info@iqsoftcore.fi. De gegevens worden in een gangbaar machineleesbaar formaat geleverd zodra het verzoek is afgehandeld.",
-          "Na opzegging kan de klant op hetzelfde adres om verwijdering vragen. De aanbieder verwijdert of anonimiseert de gegevens zodra het verzoek is afgehandeld, tenzij de wet of de boekhouding langere bewaring eist. Factuurgegevens worden bewaard zolang de boekhouding dat eist. Gegevens worden niet verwijderd als ze nodig zijn voor een openstaande factuur of een wettelijke vordering."
+          "De gegevens van een zakelijke klant worden 90 dagen na opzegging bewaard. In die tijd kan de zakelijke klant de gegevens exporteren, ook door export te vragen aan info@iqsoftcore.fi. Na 90 dagen worden de gegevens automatisch verwijderd. Daarna worden alleen de factuurgegevens bewaard die de boekhoudwet vereist.",
+          "De gegevens van een consument worden zo behandeld dat dwingende consumentenbescherming en gegevensbescherming worden nageleefd. Een consument kan export of verwijdering van zijn gegevens vragen aan info@iqsoftcore.fi."
         ]
       ],
       [
@@ -1122,7 +1136,7 @@ const TERMS_PAGE = {
     "metaDescription": "Conditions d’iqFleetSync et conditions générales des services IQSoftCore. Projet.",
     "title": "Conditions d’utilisation",
     "draft": "Projet. Ceci est un projet en langage clair des conditions générales des services IQSoftCore et des conditions d’iqFleetSync. Ce n’est pas un conseil juridique. Le prestataire doit relire le texte avant publication.",
-    "updated": "Projet mis à jour le 2026-09-30.",
+    "updated": "Projet mis à jour le 2026-10-01.",
     "translationNote": "Le texte finlandais est la version officielle. Cette traduction est une aide et n’a pas été revue séparément comme texte juridique.",
     "scope": "Ce sont les conditions générales des services IQSoftCore. Elles s’appliquent aux consommateurs et aux clients professionnels. Si un produit a ses propres conditions, elles s’ajoutent. Un prix n’est facturé que s’il est publié ou convenu à part.",
     "privacyLink": "Confidentialité",
@@ -1166,9 +1180,9 @@ const TERMS_PAGE = {
       [
         "5. Paiement",
         [
-          "L’usage payant est facturé chaque mois. Le paiement se fait via Stripe par carte, par prélèvement SEPA (SEPA Direct Debit) ou par facture (virement bancaire).",
-          "Une facture est due 14 jours après sa date. En cas de retard, le prestataire peut demander des intérêts selon la loi finlandaise sur les intérêts et des frais de recouvrement raisonnables.",
-          "Si une facture n’est pas payée après un rappel envoyé une fois l’échéance passée, le compte peut passer en lecture seule.",
+          "L’usage payant est facturé chaque mois. Le paiement se fait par Stripe, par carte, par PayPal, par prélèvement SEPA (SEPA Direct Debit) ou par facture (virement bancaire).",
+          "Une facture est due 14 jours après sa date. Si le paiement d’un client professionnel est en retard, le prestataire peut facturer des intérêts de retard selon la loi finlandaise sur les intérêts (korkolaki) et des frais de recouvrement raisonnables.",
+          "Si la facture d’un client professionnel est impayée 7 jours après l’échéance, le compte passe en lecture seule. Les données enregistrées peuvent être consultées, de nouvelles données ne peuvent pas être enregistrées. Le mode lecture seule prend fin automatiquement lorsque le paiement est fait.",
           "L’échéance et la clause de retard ci-dessus concernent un client professionnel. Un consommateur paie au moment de l’achat le prix que le service affiche. L’échéance et la clause de retard du client professionnel ne sont pas appliquées à un consommateur d’une manière qui affaiblirait des droits impératifs."
         ]
       ],
@@ -1188,27 +1202,28 @@ const TERMS_PAGE = {
           "Le prix est progressif. Les 15 premières unités sont à 1,50 €, les unités 16–50 à 1,30 €, les unités 51–100 à 1,10 €, et les unités au-delà de 100 à 0,90 € chacune.",
           "Une remorque est une demi-unité dans le palier où elle tombe. Elle coûte la moitié du prix d’un véhicule de ce palier : 0,75 €, 0,65 €, 0,55 € ou 0,45 €. Un équipement, par exemple un tiltrotateur, un brise-roche ou une balayeuse, coûte 0,00 € et ne compte pas comme unité. Le nombre d’utilisateurs est illimité et les utilisateurs ne sont pas facturés.",
           "Le prix du mois repose sur le nombre d’unités le plus élevé de ce mois calendaire. Si du matériel est ajouté en cours de mois, le mois est facturé au nombre le plus élevé.",
-          "Si l’essai se termine sans paiement, ou si une facture échue n’est pas payée après un rappel, le compte passe en lecture seule.",
-          "En lecture seule, les données enregistrées peuvent être consultées. De nouveaux signalements et des modifications ne peuvent pas être enregistrés avant le paiement. Les données sont conservées."
+          "Si l’essai se termine sans paiement, le compte passe en lecture seule. Si la facture d’un client professionnel est impayée 7 jours après l’échéance, le compte reste en lecture seule jusqu’au paiement de la facture.",
+          "En lecture seule, les données enregistrées peuvent être consultées. Les nouveaux signalements et les modifications ne peuvent pas être enregistrés. Le mode lecture seule prend fin automatiquement lorsque le paiement est fait."
         ]
       ],
       [
         "7. Résiliation et responsabilité (clients professionnels seulement)",
         [
           "Ce point ne concerne que les clients professionnels. Il ne s’applique pas à un consommateur et ne limite pas ses droits impératifs.",
-          "Le client peut résilier l’usage payant dans le service ou par e-mail à info@iqsoftcore.fi. La résiliation prend effet à la fin de la période de facturation déjà commencée. Un mois déjà facturé n’est pas remboursé, sauf si une loi impérative l’exige.",
-          "Arrêter l’essai ne coûte rien. Après la résiliation, le compte est en lecture seule jusqu’à la suppression des données sur demande ou la fin de la durée de conservation.",
+          "[[prominent]]iqFleetSync est seulement un outil de tenue de dossiers, de rappels et de rapports. Le client est seul responsable de l’aptitude à la circulation des véhicules et des engins, de la qualité de l’entretien, des contrôles, des obligations légales et de la décision d’utiliser un véhicule. IqSoftCore n’est pas responsable des dommages, accidents ou pannes des véhicules ou des engins. Cela vaut aussi lorsqu’un rappel a été manqué, qu’une donnée a été saisie de façon incorrecte, ou qu’un conducteur a utilisé un véhicule qui n’était pas apte à circuler. Cette clause n’affecte pas les droits du consommateur.",
+          "Le client professionnel résilie lui-même le service payant dans l’application, à Tilaus ja laskutus → Irtisano palvelu (Abonnement et facturation → Résilier le service), ou par e-mail à info@iqsoftcore.fi. La résiliation prend effet à la fin de la période de facturation déjà commencée. Un mois déjà facturé n’est pas remboursé, sauf si une loi impérative l’exige.",
+          "Arrêter l’essai ne coûte rien. Lorsque la résiliation a pris effet, les données du client professionnel sont conservées 90 jours pour qu’il puisse les consulter et les exporter. Ensuite, les données sont supprimées automatiquement. Seules restent les données de facturation que la loi comptable exige.",
           "Le prestataire peut mettre fin à l’usage du client si le client enfreint gravement ces conditions et ne corrige pas la situation après un avis écrit. Si tout le service est arrêté, cela est annoncé à l’avance lorsque c’est possible.",
           "Dans la mesure où la loi finlandaise impérative le permet, le prestataire n’est pas responsable des dommages indirects, du manque à gagner ni des données perdues.",
           "La responsabilité pour un dommage direct est limitée aux sommes que le client a payées pour ce service pendant les 12 mois précédant le dommage. Si aucune somme n’a été payée, ce plafond est de 0 €.",
-          "La limite ne s’applique pas à un dommage causé intentionnellement ou par négligence grave, ni à une responsabilité que la loi interdit de limiter. Le service est un outil d’enregistrement. Il ne remplace pas le contrôle ou l’entretien d’une machine ou d’un véhicule, ni la décision de savoir si le parc peut être utilisé en sécurité."
+          "La limite ne s’applique pas à un dommage causé intentionnellement ou par négligence grave, ni à une responsabilité que la loi interdit de limiter."
         ]
       ],
       [
         "8. Consommateurs",
         [
           "La protection impérative du consommateur en Finlande et dans l’UE s’applique au consommateur. Une clause contraire cède.",
-          "Le plafond de responsabilité du point 7 et la règle selon laquelle une période déjà facturée n’est pas remboursée ne limitent pas les droits du consommateur.",
+          "Le plafond de responsabilité du point 7, la règle selon laquelle une période déjà facturée n’est pas remboursée, et la clause selon laquelle iqFleetSync est seulement un outil de tenue de dossiers, de rappels et de rapports, ne limitent pas les droits du consommateur.",
           "En vente à distance, le consommateur a un délai de rétractation de 14 jours pour un service numérique ou un contenu numérique. Le délai court à compter du jour du contrat.",
           "Le droit de rétractation prend fin si, pendant ce délai, le consommateur demande expressément que la livraison ou l’exécution commence et reconnaît en même temps qu’il perd ce droit dès que la fourniture du contenu numérique a commencé ou dès que le service numérique a été entièrement exécuté.",
           "Jusque-là, le consommateur peut se rétracter par un avis clair, par exemple un e-mail à info@iqsoftcore.fi. Le prestataire rembourse le paiement reçu dans les 14 jours suivant l’avis, dans la mesure où la loi exige un remboursement.",
@@ -1222,7 +1237,8 @@ const TERMS_PAGE = {
           "Les données de parc, d’entretien et d’utilisateurs que le client enregistre dans le service appartiennent au client.",
           "Le prestataire ne vend pas ces données. Elles servent à fournir le service, à facturer, à sécuriser le service et à remplir les obligations prévues par la loi.",
           "Le client peut demander l’export de ses données à info@iqsoftcore.fi. Les données sont fournies dans un format courant lisible par machine une fois la demande traitée.",
-          "Après la résiliation, le client peut demander la suppression à la même adresse. Le prestataire supprime ou anonymise les données une fois la demande traitée, sauf si la loi ou la comptabilité impose une conservation plus longue. Les données de facturation sont conservées le temps exigé par la comptabilité. Les données ne sont pas supprimées si elles sont nécessaires à une facture ouverte ou à une réclamation prévue par la loi."
+          "Les données d’un client professionnel sont conservées 90 jours après la résiliation. Pendant ce délai, le client professionnel peut exporter les données, y compris en demandant un export à info@iqsoftcore.fi. Après 90 jours, les données sont supprimées automatiquement. Ensuite, seules les données de facturation exigées par la loi comptable sont conservées.",
+          "Les données d’un consommateur sont traitées de façon à respecter la protection impérative du consommateur et la protection des données. Un consommateur peut demander l’export ou la suppression de ses données à info@iqsoftcore.fi."
         ]
       ],
       [
@@ -1281,7 +1297,7 @@ const TERMS_PAGE = {
     "metaDescription": "Condiciones de iqFleetSync y condiciones generales de los servicios de IQSoftCore. Borrador.",
     "title": "Condiciones de uso",
     "draft": "Borrador. Este es un borrador en lenguaje claro de las condiciones generales de los servicios de IQSoftCore y de las condiciones de iqFleetSync. No es asesoramiento jurídico. El proveedor debe revisar el texto antes de publicarlo.",
-    "updated": "Borrador actualizado el 2026-09-30.",
+    "updated": "Borrador actualizado el 2026-10-01.",
     "translationNote": "El texto en finés es la versión oficial. Esta traducción es una ayuda y no se ha revisado por separado como texto jurídico.",
     "scope": "Estas son las condiciones generales de los servicios de IQSoftCore. Se aplican a consumidores y a clientes de empresa. Si un producto tiene condiciones propias, se añaden. Solo se cobra un precio si está publicado o se ha acordado aparte.",
     "privacyLink": "Privacidad",
@@ -1325,9 +1341,9 @@ const TERMS_PAGE = {
       [
         "5. Pago",
         [
-          "El uso de pago se factura cada mes. El pago se hace a través de Stripe con tarjeta, con adeudo directo SEPA (SEPA Direct Debit) o con factura (transferencia bancaria).",
-          "Una factura vence a los 14 días de su fecha. Si el pago se retrasa, el proveedor puede cobrar intereses según la ley finlandesa de intereses y unos gastos de cobro razonables.",
-          "Si una factura no se paga después de un aviso enviado una vez vencida, la cuenta puede pasar a solo lectura.",
+          "El uso de pago se factura cada mes. El pago se hace por Stripe con tarjeta, con PayPal, con adeudo SEPA (SEPA Direct Debit) o con factura (transferencia bancaria).",
+          "Una factura vence 14 días después de su fecha. Si el pago de un cliente de empresa se retrasa, el proveedor puede cobrar intereses de demora según la ley finlandesa de intereses (korkolaki) y costes razonables de cobro.",
+          "Si la factura de un cliente de empresa sigue impagada 7 días después del vencimiento, la cuenta pasa a modo de solo lectura. Los datos guardados se pueden ver, y no se pueden guardar datos nuevos. El modo de solo lectura termina automáticamente cuando se hace el pago.",
           "El vencimiento y la cláusula de retraso de arriba se aplican a un cliente de empresa. Un consumidor paga en el momento de la compra el precio que muestra el servicio. El vencimiento y la cláusula de retraso del cliente de empresa no se aplican a un consumidor de un modo que debilite derechos imperativos."
         ]
       ],
@@ -1347,27 +1363,28 @@ const TERMS_PAGE = {
           "El precio es gradual. Las primeras 15 unidades son 1,50 €, las unidades 16–50 son 1,30 €, las unidades 51–100 son 1,10 € y las unidades por encima de 100 son 0,90 € cada una.",
           "Un remolque es media unidad en el tramo en el que cae. Cuesta la mitad del precio del vehículo de ese tramo: 0,75 €, 0,65 €, 0,55 € o 0,45 €. Un implemento, por ejemplo un tiltrotator, un martillo hidráulico o una barredora, cuesta 0,00 € y no cuenta como unidad. Los usuarios son ilimitados y no se cobran.",
           "El precio del mes usa la cantidad más alta de unidades de ese mes natural. Si se añade equipo durante el mes, el mes se factura por la cantidad máxima.",
-          "Si la prueba termina y no hay pago, o si una factura vencida no se paga después de un aviso, la cuenta pasa a solo lectura.",
-          "En solo lectura se pueden ver los datos guardados. No se pueden guardar nuevos avisos ni cambios hasta que se pague. Los datos se conservan."
+          "Si la prueba termina y no hay pago, la cuenta pasa a solo lectura. Si la factura de un cliente de empresa sigue impagada 7 días después del vencimiento, la cuenta permanece en solo lectura hasta que la factura se pague.",
+          "En modo de solo lectura se pueden ver los datos guardados. No se pueden guardar avisos ni cambios nuevos. El modo de solo lectura termina automáticamente cuando se hace el pago."
         ]
       ],
       [
         "7. Cancelación y responsabilidad (solo clientes de empresa)",
         [
           "Este punto se aplica solo a clientes de empresa. No se aplica a un consumidor y no limita sus derechos imperativos.",
-          "El cliente puede cancelar el uso de pago en el servicio o por correo a info@iqsoftcore.fi. La cancelación surte efecto al final del periodo de facturación ya empezado. Un mes ya facturado no se devuelve, salvo que una ley imperativa lo exija.",
-          "Parar la prueba no cuesta nada. Después de la cancelación la cuenta queda en solo lectura hasta que los datos se supriman a petición o acabe el plazo de conservación.",
+          "[[prominent]]iqFleetSync es solo una herramienta de registro, recordatorios e informes. El cliente es el único responsable de la aptitud para circular de los vehículos y las máquinas, de la calidad del mantenimiento, de las inspecciones, de las obligaciones legales y de la decisión de usar un vehículo. IqSoftCore no responde de los daños, accidentes o averías de vehículos o máquinas. Esto incluye el caso en que se haya pasado un recordatorio, se hayan anotado mal los datos o un conductor haya usado un vehículo que no era apto para circular. Esta cláusula no afecta a los derechos del consumidor.",
+          "El cliente de empresa cancela él mismo el servicio de pago en la aplicación, en Tilaus ja laskutus → Irtisano palvelu (Suscripción y facturación → Cancelar el servicio), o por correo a info@iqsoftcore.fi. La cancelación surte efecto al final del período de facturación ya iniciado. Un mes ya facturado no se reembolsa, salvo que una ley imperativa lo exija.",
+          "Detener la prueba no cuesta nada. Cuando la cancelación ha surtido efecto, los datos del cliente de empresa se conservan 90 días para que el cliente pueda verlos y exportarlos. Después los datos se borran automáticamente. Solo quedan los datos de facturación que exige la ley contable.",
           "El proveedor puede terminar el uso del cliente si este incumple de forma esencial estas condiciones y no lo corrige tras un aviso escrito. Si se cierra todo el servicio, se avisa antes cuando es posible.",
           "En la medida en que lo permita la ley finlandesa imperativa, el proveedor no responde de daños indirectos, de lucro cesante ni de datos perdidos.",
           "La responsabilidad por un daño directo se limita a las cantidades que el cliente haya pagado por ese servicio en los 12 meses anteriores al daño. Si no se ha pagado nada, el tope es 0 €.",
-          "El límite no se aplica a un daño causado con dolo o negligencia grave, ni a una responsabilidad que la ley no permita limitar. El servicio es una herramienta para anotar. No sustituye la inspección o el mantenimiento de una máquina o un vehículo, ni la decisión de si la flota se puede usar con seguridad."
+          "El límite no se aplica a un daño causado con dolo o negligencia grave, ni a una responsabilidad que la ley no permita limitar."
         ]
       ],
       [
         "8. Consumidores",
         [
           "Al consumidor se le aplica la protección imperativa del consumidor de Finlandia y de la UE. Una cláusula contraria cede.",
-          "El límite de responsabilidad del punto 7 y la regla de que un periodo ya facturado no se devuelve no limitan los derechos del consumidor.",
+          "El tope de responsabilidad del apartado 7, la regla de que un período ya facturado no se reembolsa, y la cláusula de que iqFleetSync es solo una herramienta de registro, recordatorios e informes, no limitan los derechos del consumidor.",
           "En la venta a distancia, el consumidor tiene 14 días de derecho de desistimiento para un servicio digital o un contenido digital. El plazo se cuenta desde el día del contrato.",
           "El derecho de desistimiento termina si, durante ese plazo, el consumidor pide expresamente que empiece la entrega o la prestación y reconoce al mismo tiempo que pierde el derecho cuando ha empezado el suministro del contenido digital o cuando el servicio digital se ha ejecutado por completo.",
           "Hasta entonces, el consumidor puede desistir con un aviso claro, por ejemplo un correo a info@iqsoftcore.fi. El proveedor devuelve el pago recibido en un plazo de 14 días desde el aviso, en la medida en que la ley exija la devolución.",
@@ -1381,7 +1398,8 @@ const TERMS_PAGE = {
           "Los datos de flota, mantenimiento y usuarios que el cliente guarda en el servicio son del cliente.",
           "El proveedor no vende esos datos. Se usan para prestar el servicio, facturar, proteger el servicio y cumplir deberes exigidos por la ley.",
           "El cliente puede pedir una exportación de sus datos a info@iqsoftcore.fi. Los datos se entregan en un formato habitual legible por máquina cuando la solicitud se ha tratado.",
-          "Tras la cancelación, el cliente puede pedir la supresión a la misma dirección. El proveedor suprime o anonimiza los datos cuando la solicitud se ha tratado, salvo que la ley o la contabilidad exijan conservarlos más tiempo. Los datos de facturación se conservan el tiempo que exija la contabilidad. No se suprimen si hacen falta para una factura abierta o una reclamación legal."
+          "Los datos de un cliente de empresa se conservan 90 días después de la cancelación. Durante ese tiempo el cliente de empresa puede exportar los datos, también pidiendo la exportación a info@iqsoftcore.fi. A los 90 días los datos se borran automáticamente. Después solo se conservan los datos de facturación que exige la ley contable.",
+          "Los datos de un consumidor se tratan de modo que se respeten la protección imperativa del consumidor y la protección de datos. Un consumidor puede pedir la exportación o la supresión de sus datos en info@iqsoftcore.fi."
         ]
       ],
       [
@@ -1440,7 +1458,7 @@ const TERMS_PAGE = {
     "metaDescription": "Termos do iqFleetSync e termos gerais dos serviços da IQSoftCore. Rascunho.",
     "title": "Termos de uso",
     "draft": "Rascunho. Este é um rascunho em linguagem simples dos termos gerais dos serviços da IQSoftCore e dos termos do iqFleetSync. Não é aconselhamento jurídico. O fornecedor deve rever o texto antes de o publicar.",
-    "updated": "Rascunho atualizado em 2026-09-30.",
+    "updated": "Rascunho atualizado em 2026-10-01.",
     "translationNote": "O texto em finlandês é a versão oficial. Esta tradução serve de ajuda e não foi revista à parte como texto jurídico.",
     "scope": "Estes são os termos gerais dos serviços da IQSoftCore. Aplicam-se a consumidores e a clientes empresariais. Se um produto tiver termos próprios, estes somam-se. Só se cobra um preço se estiver publicado ou tiver sido acordado à parte.",
     "privacyLink": "Privacidade",
@@ -1484,9 +1502,9 @@ const TERMS_PAGE = {
       [
         "5. Pagamento",
         [
-          "O uso pago é faturado todos os meses. O pagamento é feito pela Stripe com cartão, com débito direto SEPA (SEPA Direct Debit) ou com fatura (transferência bancária).",
-          "Uma fatura vence 14 dias após a data. Se o pagamento atrasar, o fornecedor pode cobrar juros segundo a lei finlandesa dos juros e custos razoáveis de cobrança.",
-          "Se uma fatura não for paga depois de um aviso enviado após o vencimento, a conta pode passar a só leitura.",
+          "O uso pago é faturado todos os meses. O pagamento é feito pelo Stripe com cartão, com PayPal, com débito direto SEPA (SEPA Direct Debit) ou com fatura (transferência bancária).",
+          "Uma fatura vence 14 dias após a data da fatura. Se o pagamento de um cliente empresarial se atrasar, o fornecedor pode cobrar juros de mora segundo a lei finlandesa dos juros (korkolaki) e custos razoáveis de cobrança.",
+          "Se a fatura de um cliente empresarial estiver por pagar 7 dias após o vencimento, a conta passa a só leitura. Os dados guardados podem ser vistos, e não é possível guardar dados novos. O modo só leitura termina automaticamente quando o pagamento é feito.",
           "O vencimento e a cláusula de atraso acima aplicam-se a um cliente empresarial. Um consumidor paga no momento da compra o preço que o serviço mostra. O vencimento e a cláusula de atraso do cliente empresarial não se aplicam a um consumidor de modo a enfraquecer direitos imperativos."
         ]
       ],
@@ -1506,27 +1524,28 @@ const TERMS_PAGE = {
           "O preço é progressivo. As primeiras 15 unidades são 1,50 €, as unidades 16–50 são 1,30 €, as unidades 51–100 são 1,10 € e as unidades acima de 100 são 0,90 € cada.",
           "Um reboque é meia unidade na faixa em que cai. Custa metade do preço do veículo dessa faixa: 0,75 €, 0,65 €, 0,55 € ou 0,45 €. Um equipamento, por exemplo um tiltrotator, um martelo hidráulico ou uma vassoura, custa 0,00 € e não conta como unidade. Os utilizadores são ilimitados e não são cobrados.",
           "O preço do mês usa a maior quantidade de unidades desse mês. Se for acrescentado equipamento durante o mês, o mês é faturado pela quantidade máxima.",
-          "Se o teste terminar sem pagamento, ou se uma fatura vencida não for paga depois de um aviso, a conta fica só de leitura.",
-          "Em só leitura os dados guardados podem ser vistos. Novos registos e alterações não podem ser guardados até haver pagamento. Os dados são conservados."
+          "Se o período de teste terminar sem pagamento, a conta fica só de leitura. Se a fatura de um cliente empresarial estiver por pagar 7 dias após o vencimento, a conta permanece só de leitura até a fatura ser paga.",
+          "Em só leitura, os dados guardados podem ser vistos. Novos registos e alterações não podem ser guardados. O modo só leitura termina automaticamente quando o pagamento é feito."
         ]
       ],
       [
         "7. Cancelamento e responsabilidade (só clientes empresariais)",
         [
           "Este ponto aplica-se só a clientes empresariais. Não se aplica a um consumidor e não limita os seus direitos imperativos.",
-          "O cliente pode cancelar o uso pago no serviço ou por e-mail para info@iqsoftcore.fi. O cancelamento produz efeitos no fim do período de faturação já iniciado. Um mês já faturado não é reembolsado, salvo se uma lei imperativa o exigir.",
-          "Parar o teste não custa nada. Depois do cancelamento a conta fica só de leitura até os dados serem eliminados a pedido ou acabar o prazo de conservação.",
+          "[[prominent]]O iqFleetSync é apenas uma ferramenta de registo, lembretes e relatórios. O cliente é o único responsável pela aptidão para circular dos veículos e das máquinas, pela qualidade da manutenção, pelas inspeções, pelas obrigações legais e pela decisão de usar um veículo. A IqSoftCore não responde por danos, acidentes ou avarias de veículos ou máquinas. Isto inclui o caso em que um lembrete foi esquecido, os dados foram introduzidos de forma incorreta ou um motorista usou um veículo que não estava apto a circular. Esta cláusula não afeta os direitos do consumidor.",
+          "O cliente empresarial cancela ele próprio o serviço pago na aplicação, em Tilaus ja laskutus → Irtisano palvelu (Subscrição e faturação → Cancelar o serviço), ou por e-mail para info@iqsoftcore.fi. O cancelamento produz efeitos no fim do período de faturação já iniciado. Um mês já faturado não é reembolsado, salvo se uma lei imperativa o exigir.",
+          "Parar o período de teste não custa nada. Quando o cancelamento produz efeitos, os dados do cliente empresarial ficam guardados 90 dias para o cliente os ver e exportar. Depois disso os dados são apagados automaticamente. Ficam apenas os dados de faturação que a lei contabilística exige.",
           "O fornecedor pode terminar o uso do cliente se este violar de forma essencial estes termos e não corrigir a situação depois de um aviso escrito. Se todo o serviço for encerrado, isso é avisado antes, quando for possível.",
           "Na medida em que a lei finlandesa imperativa o permita, o fornecedor não responde por danos indiretos, lucros cessantes nem dados perdidos.",
           "A responsabilidade por dano direto limita-se aos valores que o cliente pagou por esse serviço nos 12 meses anteriores ao dano. Se nada tiver sido pago, o limite é 0 €.",
-          "O limite não se aplica a dano causado com dolo ou negligência grave, nem a uma responsabilidade que a lei não permita limitar. O serviço é uma ferramenta de registo. Não substitui a inspeção ou a manutenção de uma máquina ou de um veículo, nem a decisão de a frota poder ser usada em segurança."
+          "O limite não se aplica a dano causado com dolo ou negligência grave, nem a uma responsabilidade que a lei não permita limitar."
         ]
       ],
       [
         "8. Consumidores",
         [
           "Ao consumidor aplica-se a proteção imperativa do consumidor da Finlândia e da UE. Uma cláusula contrária cede.",
-          "O limite de responsabilidade do ponto 7 e a regra de que um período já faturado não é reembolsado não limitam os direitos do consumidor.",
+          "O limite de responsabilidade do ponto 7, a regra de que um período já faturado não é reembolsado, e a cláusula de que o iqFleetSync é apenas uma ferramenta de registo, lembretes e relatórios, não limitam os direitos do consumidor.",
           "Na venda à distância, o consumidor tem 14 dias de direito de arrependimento para um serviço digital ou conteúdo digital. O prazo conta-se a partir do dia do contrato.",
           "O direito de arrependimento termina se, durante esse prazo, o consumidor pedir expressamente que a entrega ou a execução comece e reconhecer ao mesmo tempo que perde o direito quando o fornecimento do conteúdo digital começou ou quando o serviço digital foi integralmente executado.",
           "Até lá, o consumidor pode arrepender-se com um aviso claro, por exemplo um e-mail para info@iqsoftcore.fi. O fornecedor devolve o pagamento recebido no prazo de 14 dias após o aviso, na medida em que a lei exija a devolução.",
@@ -1540,7 +1559,8 @@ const TERMS_PAGE = {
           "Os dados de frota, manutenção e utilizadores que o cliente guarda no serviço pertencem ao cliente.",
           "O fornecedor não vende esses dados. São usados para prestar o serviço, faturar, proteger o serviço e cumprir deveres exigidos por lei.",
           "O cliente pode pedir a exportação dos seus dados para info@iqsoftcore.fi. Os dados são entregues num formato corrente legível por máquina quando o pedido for tratado.",
-          "Depois do cancelamento, o cliente pode pedir a eliminação para o mesmo endereço. O fornecedor elimina ou anonimiza os dados quando o pedido for tratado, salvo se a lei ou a contabilidade exigirem uma conservação mais longa. Os dados de faturação ficam pelo tempo que a contabilidade exigir. Os dados não são eliminados se forem necessários para uma fatura em aberto ou para uma reclamação legal."
+          "Os dados de um cliente empresarial são guardados 90 dias após o cancelamento. Nesse período o cliente empresarial pode exportar os dados, inclusive pedindo a exportação para info@iqsoftcore.fi. Após 90 dias os dados são apagados automaticamente. Depois disso ficam apenas os dados de faturação que a lei contabilística exige.",
+          "Os dados de um consumidor são tratados de modo a cumprir a proteção imperativa do consumidor e a proteção de dados. Um consumidor pode pedir a exportação ou a eliminação dos seus dados para info@iqsoftcore.fi."
         ]
       ],
       [
@@ -1599,7 +1619,7 @@ const TERMS_PAGE = {
     "metaDescription": "Condizioni di iqFleetSync e condizioni generali dei servizi IQSoftCore. Bozza.",
     "title": "Condizioni d’uso",
     "draft": "Bozza. Questa è una bozza in linguaggio chiaro delle condizioni generali dei servizi IQSoftCore e delle condizioni di iqFleetSync. Non è una consulenza legale. Il fornitore deve rivedere il testo prima della pubblicazione.",
-    "updated": "Bozza aggiornata il 2026-09-30.",
+    "updated": "Bozza aggiornata il 2026-10-01.",
     "translationNote": "Il testo finlandese è la versione ufficiale. Questa traduzione è un aiuto e non è stata rivista separatamente come testo giuridico.",
     "scope": "Queste sono le condizioni generali dei servizi IQSoftCore. Si applicano ai consumatori e ai clienti imprese. Se un prodotto ha condizioni proprie, si aggiungono. Un prezzo si addebita solo se è pubblicato o concordato a parte.",
     "privacyLink": "Privacy",
@@ -1643,9 +1663,9 @@ const TERMS_PAGE = {
       [
         "5. Pagamento",
         [
-          "L’uso a pagamento si fattura ogni mese. Il pagamento avviene tramite Stripe con carta, con addebito diretto SEPA (SEPA Direct Debit) o con fattura (bonifico bancario).",
-          "Una fattura scade 14 giorni dopo la data. In caso di ritardo il fornitore può chiedere interessi secondo la legge finlandese sugli interessi e spese ragionevoli di recupero.",
-          "Se una fattura non è pagata dopo un sollecito inviato a scadenza passata, l’account può passare in sola lettura.",
+          "L’uso a pagamento è fatturato ogni mese. Il pagamento avviene tramite Stripe con carta, con PayPal, con addebito SEPA (SEPA Direct Debit) o con fattura (bonifico bancario).",
+          "Una fattura scade 14 giorni dopo la data della fattura. Se il pagamento di un cliente impresa è in ritardo, il fornitore può addebitare interessi di mora secondo la legge finlandese sugli interessi (korkolaki) e costi ragionevoli di recupero.",
+          "Se la fattura di un cliente impresa è impagata 7 giorni dopo la scadenza, l’account passa in sola lettura. I dati salvati si possono vedere e non si possono salvare dati nuovi. La sola lettura termina automaticamente quando il pagamento è stato fatto.",
           "La scadenza e la clausola di ritardo sopra si applicano a un cliente impresa. Un consumatore paga al momento dell’acquisto il prezzo che il servizio mostra. La scadenza e la clausola di ritardo del cliente impresa non si applicano a un consumatore in modo da indebolire diritti imperativi."
         ]
       ],
@@ -1665,27 +1685,28 @@ const TERMS_PAGE = {
           "Il prezzo è progressivo. Le prime 15 unità sono 1,50 €, le unità 16–50 sono 1,30 €, le unità 51–100 sono 1,10 € e le unità oltre 100 sono 0,90 € ciascuna.",
           "Un rimorchio è mezza unità nello scaglione in cui cade. Costa la metà del prezzo del veicolo di quello scaglione: 0,75 €, 0,65 €, 0,55 € o 0,45 €. Un’attrezzatura, per esempio un tiltrotator, un martello idraulico o una spazzatrice, costa 0,00 € e non conta come unità. Gli utenti sono illimitati e non si addebitano.",
           "Il prezzo del mese usa il numero più alto di unità di quel mese di calendario. Se si aggiunge attrezzatura durante il mese, il mese si fattura sul numero massimo.",
-          "Se la prova finisce senza pagamento, o se una fattura scaduta non è pagata dopo un sollecito, l’account diventa di sola lettura.",
-          "In sola lettura i dati salvati si possono vedere. Nuove segnalazioni e modifiche non si possono salvare finché non c’è il pagamento. I dati restano conservati."
+          "Se la prova termina senza pagamento, l’account passa in sola lettura. Se la fattura di un cliente impresa è impagata 7 giorni dopo la scadenza, l’account resta in sola lettura fino al pagamento della fattura.",
+          "In sola lettura i dati salvati si possono vedere. Nuove segnalazioni e modifiche non si possono salvare. La sola lettura termina automaticamente quando il pagamento è stato fatto."
         ]
       ],
       [
         "7. Recesso e responsabilità (solo clienti imprese)",
         [
           "Questo punto si applica solo ai clienti imprese. Non si applica a un consumatore e non limita i suoi diritti imperativi.",
-          "Il cliente può disdire l’uso a pagamento nel servizio o per e-mail a info@iqsoftcore.fi. La disdetta ha effetto alla fine del periodo di fatturazione già iniziato. Un mese già fatturato non è rimborsato, salvo che una legge imperativa lo esiga.",
-          "Interrompere la prova non costa nulla. Dopo la disdetta l’account è in sola lettura finché i dati non sono cancellati su richiesta o finisce il periodo di conservazione.",
+          "[[prominent]]iqFleetSync è solo uno strumento di registrazione, promemoria e report. Il cliente è l’unico responsabile dell’idoneità alla circolazione di veicoli e macchine, della qualità della manutenzione, dei controlli, degli obblighi di legge e della decisione di usare un veicolo. IqSoftCore non risponde di danni, incidenti o guasti di veicoli o macchine. Questo vale anche se un promemoria è stato mancato, un dato è stato inserito in modo errato o un conducente ha usato un veicolo non idoneo alla circolazione. Questa clausola non incide sui diritti del consumatore.",
+          "Il cliente impresa disdice da sé il servizio a pagamento nell’app, in Tilaus ja laskutus → Irtisano palvelu (Abbonamento e fatturazione → Disdici il servizio), oppure per e-mail a info@iqsoftcore.fi. La disdetta ha effetto alla fine del periodo di fatturazione già iniziato. Un mese già fatturato non è rimborsato, salvo che una legge inderogabile lo richieda.",
+          "Interrompere la prova non costa nulla. Quando la disdetta ha effetto, i dati del cliente impresa restano per 90 giorni così che il cliente possa vederli ed esportarli. Poi i dati vengono cancellati automaticamente. Restano solo i dati di fatturazione che la legge contabile richiede.",
           "Il fornitore può chiudere l’uso del cliente se questi viola in modo essenziale queste condizioni e non corregge la situazione dopo un avviso scritto. Se l’intero servizio è chiuso, lo si comunica in anticipo quando è possibile.",
           "Nella misura in cui lo consente la legge finlandese imperativa, il fornitore non risponde di danni indiretti, di mancato guadagno né di dati persi.",
           "La responsabilità per un danno diretto è limitata alle somme che il cliente ha pagato per quel servizio nei 12 mesi precedenti il danno. Se non è stato pagato nulla, il tetto è 0 €.",
-          "Il limite non si applica a un danno causato con dolo o colpa grave, né a una responsabilità che la legge non consente di limitare. Il servizio è uno strumento di registrazione. Non sostituisce il controllo o la manutenzione di una macchina o di un veicolo, né la decisione se la flotta si può usare in sicurezza."
+          "Il limite non si applica a un danno causato con dolo o colpa grave, né a una responsabilità che la legge non consente di limitare."
         ]
       ],
       [
         "8. Consumatori",
         [
           "Al consumatore si applica la tutela imperativa del consumatore finlandese e dell’UE. Una clausola contraria cede.",
-          "Il tetto di responsabilità del punto 7 e la regola per cui un periodo già fatturato non è rimborsato non limitano i diritti del consumatore.",
+          "Il tetto di responsabilità del punto 7, la regola per cui un periodo già fatturato non è rimborsato, e la clausola per cui iqFleetSync è solo uno strumento di registrazione, promemoria e report, non limitano i diritti del consumatore.",
           "Nella vendita a distanza il consumatore ha 14 giorni di diritto di recesso per un servizio digitale o un contenuto digitale. Il termine decorre dal giorno del contratto.",
           "Il diritto di recesso termina se, durante quel termine, il consumatore chiede espressamente che la consegna o l’esecuzione inizi e riconosce allo stesso tempo di perdere il diritto quando la fornitura del contenuto digitale è iniziata o quando il servizio digitale è stato interamente eseguito.",
           "Fino ad allora il consumatore può recedere con una comunicazione chiara, per esempio un’e-mail a info@iqsoftcore.fi. Il fornitore rimborsa il pagamento ricevuto entro 14 giorni dalla comunicazione, nella misura in cui la legge esige il rimborso.",
@@ -1699,7 +1720,8 @@ const TERMS_PAGE = {
           "I dati di flotta, manutenzione e utenti che il cliente salva nel servizio appartengono al cliente.",
           "Il fornitore non vende questi dati. Servono a erogare il servizio, a fatturare, a proteggere il servizio e a rispettare doveri previsti dalla legge.",
           "Il cliente può chiedere l’esportazione dei propri dati a info@iqsoftcore.fi. I dati sono consegnati in un formato comune leggibile da una macchina quando la richiesta è stata trattata.",
-          "Dopo la disdetta il cliente può chiedere la cancellazione allo stesso indirizzo. Il fornitore cancella o anonimizza i dati quando la richiesta è stata trattata, salvo che la legge o la contabilità impongano una conservazione più lunga. I dati di fatturazione restano per il tempo richiesto dalla contabilità. I dati non si cancellano se servono per una fattura aperta o per una pretesa di legge."
+          "I dati di un cliente impresa sono conservati per 90 giorni dopo la disdetta. In quel periodo il cliente impresa può esportare i dati, anche chiedendo l’esportazione a info@iqsoftcore.fi. Dopo 90 giorni i dati vengono cancellati automaticamente. Poi restano solo i dati di fatturazione che la legge contabile richiede.",
+          "I dati di un consumatore sono trattati nel rispetto della tutela inderogabile del consumatore e della protezione dei dati. Un consumatore può chiedere l’esportazione o la cancellazione dei propri dati a info@iqsoftcore.fi."
         ]
       ],
       [
@@ -1758,7 +1780,7 @@ const TERMS_PAGE = {
     "metaDescription": "Warunki iqFleetSync i ogólne warunki usług IQSoftCore. Projekt.",
     "title": "Warunki korzystania",
     "draft": "Projekt. To jest projekt prostym językiem ogólnych warunków usług IQSoftCore i warunków iqFleetSync. To nie jest porada prawna. Usługodawca musi sprawdzić tekst przed publikacją.",
-    "updated": "Projekt zaktualizowany 2026-09-30.",
+    "updated": "Projekt zaktualizowany 2026-10-01.",
     "translationNote": "Tekst fiński jest wersją oficjalną. To tłumaczenie jest pomocą i nie zostało osobno sprawdzone jako tekst prawny.",
     "scope": "To są ogólne warunki usług IQSoftCore. Dotyczą konsumentów i klientów firmowych. Jeśli produkt ma własne warunki, obowiązują one dodatkowo. Cenę pobiera się tylko wtedy, gdy jest opublikowana albo osobno uzgodniona.",
     "privacyLink": "Prywatność",
@@ -1802,9 +1824,9 @@ const TERMS_PAGE = {
       [
         "5. Płatność",
         [
-          "Użycie płatne jest rozliczane co miesiąc. Płatność odbywa się przez Stripe kartą, poleceniem zapłaty SEPA (SEPA Direct Debit) albo fakturą (przelew bankowy).",
-          "Faktura jest płatna w ciągu 14 dni od daty. Przy opóźnieniu usługodawca może naliczyć odsetki według fińskiej ustawy o odsetkach i rozsądne koszty windykacji.",
-          "Jeśli faktura nie zostanie zapłacona po przypomnieniu wysłanym po terminie, konto można przełączyć w tryb tylko do odczytu.",
+          "Płatne korzystanie jest rozliczane co miesiąc. Płatność odbywa się przez Stripe kartą, przez PayPal, przez polecenie zapłaty SEPA (SEPA Direct Debit) albo fakturą (przelew bankowy).",
+          "Faktura jest płatna 14 dni od daty faktury. Jeśli płatność klienta firmowego się spóźnia, usługodawca może naliczyć odsetki za opóźnienie według fińskiej ustawy o odsetkach (korkolaki) oraz rozsądne koszty windykacji.",
+          "Jeśli faktura klienta firmowego jest niezapłacona 7 dni po terminie, konto przechodzi w tryb tylko do odczytu. Zapisane dane można przeglądać, nowych danych nie można zapisać. Tryb tylko do odczytu kończy się automatycznie po dokonaniu płatności.",
           "Termin płatności i postanowienie o opóźnieniu powyżej dotyczą klienta firmowego. Konsument płaci przy zakupie cenę, którą pokazuje usługa. Terminu i postanowienia o opóźnieniu klienta firmowego nie stosuje się wobec konsumenta w sposób, który osłabiałby bezwzględnie obowiązujące prawa."
         ]
       ],
@@ -1824,27 +1846,28 @@ const TERMS_PAGE = {
           "Cena jest stopniowana. Pierwsze 15 jednostek kosztuje 1,50 €, jednostki 16–50 kosztują 1,30 €, jednostki 51–100 kosztują 1,10 €, a jednostki powyżej 100 kosztują 0,90 € każda.",
           "Przyczepa to pół jednostki w progu, do którego trafia. Kosztuje połowę ceny pojazdu z tego progu: 0,75 €, 0,65 €, 0,55 € albo 0,45 €. Osprzęt, na przykład tiltrotator, młot hydrauliczny albo zamiatarka, kosztuje 0,00 € i nie liczy się jako jednostka. Użytkowników może być dowolnie wielu i nie są osobno rozliczani.",
           "Cena miesiąca wynika z największej liczby jednostek w tym miesiącu kalendarzowym. Jeśli sprzęt zostanie dodany w trakcie miesiąca, miesiąc jest liczony według liczby szczytowej.",
-          "Jeśli okres próbny kończy się bez płatności albo zaległa faktura nie zostanie zapłacona po przypomnieniu, konto przechodzi w tryb tylko do odczytu.",
-          "W tym trybie zapisane dane można przeglądać. Nowych zgłoszeń i zmian nie można zapisać, dopóki nie ma płatności. Dane są zachowywane."
+          "Jeśli okres próbny kończy się bez płatności, konto jest tylko do odczytu. Jeśli faktura klienta firmowego jest niezapłacona 7 dni po terminie, konto pozostaje tylko do odczytu, aż faktura zostanie zapłacona.",
+          "W trybie tylko do odczytu zapisane dane można przeglądać. Nowych zgłoszeń i zmian nie można zapisać. Tryb tylko do odczytu kończy się automatycznie po dokonaniu płatności."
         ]
       ],
       [
         "7. Wypowiedzenie i odpowiedzialność (tylko klienci firmowi)",
         [
           "Ten punkt dotyczy tylko klientów firmowych. Nie dotyczy konsumenta i nie ogranicza jego bezwzględnie obowiązujących praw.",
-          "Klient może wypowiedzieć płatne użycie w usłudze albo e-mailem na info@iqsoftcore.fi. Wypowiedzenie działa z końcem już rozpoczętego okresu rozliczeniowego. Już rozliczonego miesiąca nie zwraca się, chyba że wymaga tego bezwzględnie obowiązujące prawo.",
-          "Przerwanie okresu próbnego nic nie kosztuje. Po wypowiedzeniu konto jest tylko do odczytu, aż dane zostaną usunięte na prośbę albo skończy się czas przechowywania.",
+          "[[prominent]]iqFleetSync jest wyłącznie narzędziem do ewidencji, przypomnień i raportowania. Klient ponosi wyłączną odpowiedzialność za dopuszczenie pojazdów i maszyn do ruchu, za jakość utrzymania, za przeglądy, za obowiązki prawne i za decyzję o użyciu pojazdu. IqSoftCore nie odpowiada za szkody, wypadki ani awarie pojazdów lub maszyn. Dotyczy to także sytuacji, w której pominięto przypomnienie, dane wpisano błędnie albo kierowca użył pojazdu niezdolnego do ruchu. To postanowienie nie wpływa na prawa konsumenta.",
+          "Klient firmowy sam wypowiada płatną usługę w aplikacji w miejscu Tilaus ja laskutus → Irtisano palvelu (Subskrypcja i rozliczenia → Wypowiedz usługę) albo e-mailem na info@iqsoftcore.fi. Wypowiedzenie działa z końcem już rozpoczętego okresu rozliczeniowego. Miesiąc już zafakturowany nie podlega zwrotowi, chyba że bezwzględnie obowiązujące prawo wymaga zwrotu.",
+          "Przerwanie okresu próbnego nic nie kosztuje. Gdy wypowiedzenie zaczyna działać, dane klienta firmowego są przechowywane przez 90 dni, aby klient mógł je przeglądać i wyeksportować. Potem dane są usuwane automatycznie. Zostają tylko dane fakturowe, których wymaga prawo o rachunkowości.",
           "Usługodawca może zakończyć użycie przez klienta, jeśli klient istotnie narusza te warunki i nie naprawi tego po pisemnym upomnieniu. Jeśli cała usługa jest zamykana, informuje się o tym wcześniej, gdy to możliwe.",
           "W zakresie, w jakim pozwala na to bezwzględnie obowiązujące prawo fińskie, usługodawca nie odpowiada za szkody pośrednie, utracony zysk ani utracone dane.",
           "Odpowiedzialność za szkodę bezpośrednią jest ograniczona do opłat, które klient zapłacił za tę usługę w ciągu 12 miesięcy przed szkodą. Jeśli opłat nie było, limit wynosi 0 €.",
-          "Ograniczenie nie dotyczy szkody wyrządzonej umyślnie albo przez rażące niedbalstwo ani odpowiedzialności, której prawo nie pozwala ograniczyć. Usługa jest narzędziem do zapisu. Nie zastępuje kontroli ani serwisu maszyny lub pojazdu ani decyzji, czy flota jest bezpieczna w użyciu."
+          "Ograniczenie nie dotyczy szkody wyrządzonej umyślnie albo przez rażące niedbalstwo ani odpowiedzialności, której prawo nie pozwala ograniczyć."
         ]
       ],
       [
         "8. Konsumenci",
         [
           "Do konsumenta stosuje się bezwzględnie obowiązującą ochronę konsumenta Finlandii i UE. Sprzeczne postanowienie ustępuje.",
-          "Limit odpowiedzialności z punktu 7 i zasada, że już rozliczonego okresu się nie zwraca, nie ograniczają praw konsumenta.",
+          "Limit odpowiedzialności z punktu 7, zasada, że już rozliczony okres nie podlega zwrotowi, oraz postanowienie, że iqFleetSync jest wyłącznie narzędziem do ewidencji, przypomnień i raportowania, nie ograniczają praw konsumenta.",
           "Przy sprzedaży na odległość konsument ma 14 dni na odstąpienie od umowy o usługę cyfrową lub treść cyfrową. Termin liczy się od dnia umowy.",
           "Prawo odstąpienia wygasa, jeśli w tym terminie konsument wyraźnie żąda, aby dostawa albo wykonanie się rozpoczęło, i jednocześnie potwierdza, że traci to prawo, gdy dostawa treści cyfrowej się rozpoczęła albo gdy usługa cyfrowa została w całości wykonana.",
           "Do tego czasu konsument może odstąpić jasnym zawiadomieniem, na przykład e-mailem na info@iqsoftcore.fi. Usługodawca zwraca otrzymaną płatność w ciągu 14 dni od zawiadomienia w zakresie, w jakim ustawa wymaga zwrotu.",
@@ -1858,7 +1881,8 @@ const TERMS_PAGE = {
           "Dane floty, serwisu i użytkowników, które klient zapisuje w usłudze, należą do klienta.",
           "Usługodawca nie sprzedaje tych danych. Służą do świadczenia usługi, rozliczeń, bezpieczeństwa usługi i obowiązków wymaganych przez prawo.",
           "Klient może poprosić o eksport swoich danych na adres info@iqsoftcore.fi. Dane są przekazywane w zwykłym formacie czytelnym maszynowo po obsłużeniu prośby.",
-          "Po wypowiedzeniu klient może poprosić o usunięcie na ten sam adres. Usługodawca usuwa albo anonimizuje dane po obsłużeniu prośby, chyba że prawo albo księgowość wymagają dłuższego przechowywania. Dane rozliczeniowe są przechowywane przez czas wymagany przez księgowość. Danych nie usuwa się, jeśli są potrzebne do otwartej faktury albo roszczenia wynikającego z prawa."
+          "Dane klienta firmowego są przechowywane przez 90 dni po wypowiedzeniu. W tym czasie klient firmowy może wyeksportować dane, także prosząc o eksport na info@iqsoftcore.fi. Po 90 dniach dane są usuwane automatycznie. Potem zostają tylko dane fakturowe, których wymaga prawo o rachunkowości.",
+          "Dane konsumenta są przetwarzane tak, aby przestrzegać bezwzględnej ochrony konsumenta i ochrony danych. Konsument może poprosić o eksport albo usunięcie swoich danych na info@iqsoftcore.fi."
         ]
       ],
       [
@@ -1917,7 +1941,7 @@ const TERMS_PAGE = {
     "metaDescription": "Podmínky iqFleetSync a obecné podmínky služeb IQSoftCore. Návrh.",
     "title": "Podmínky použití",
     "draft": "Návrh. Toto je návrh srozumitelným jazykem obecných podmínek služeb IQSoftCore a podmínek iqFleetSync. Není to právní porada. Poskytovatel musí text zkontrolovat před zveřejněním.",
-    "updated": "Návrh aktualizován 2026-09-30.",
+    "updated": "Návrh aktualizován 2026-10-01.",
     "translationNote": "Finský text je oficiální verze. Tento překlad je pomůcka a nebyl samostatně posouzen jako právní text.",
     "scope": "Toto jsou obecné podmínky služeb IQSoftCore. Platí pro spotřebitele i firemní zákazníky. Pokud má produkt vlastní podmínky, platí navíc. Cena se účtuje jen tehdy, když je zveřejněná nebo zvlášť dohodnutá.",
     "privacyLink": "Ochrana soukromí",
@@ -1961,9 +1985,9 @@ const TERMS_PAGE = {
       [
         "5. Platba",
         [
-          "Placené užívání se fakturuje každý měsíc. Platba probíhá přes Stripe kartou, inkasem SEPA (SEPA Direct Debit) nebo fakturou (bankovní převod).",
-          "Faktura je splatná 14 dní od data. Při prodlení může poskytovatel účtovat úrok podle finského zákona o úrocích a přiměřené náklady vymáhání.",
-          "Pokud faktura není zaplacena po upomínce odeslané po splatnosti, účet lze přepnout do režimu jen pro čtení.",
+          "Placené užívání se fakturuje každý měsíc. Platba probíhá přes Stripe kartou, přes PayPal, inkasem SEPA (SEPA Direct Debit) nebo fakturou (bankovní převod).",
+          "Faktura je splatná 14 dní od data. Při prodlení firemního zákazníka může poskytovatel účtovat úrok podle finského zákona o úrocích (korkolaki) a přiměřené náklady vymáhání.",
+          "Pokud je faktura firemního zákazníka nezaplacená 7 dní po splatnosti, účet přejde do režimu jen pro čtení. Uložené údaje lze prohlížet, nové údaje nelze uložit. Režim jen pro čtení skončí automaticky, jakmile je platba provedena.",
           "Splatnost a ujednání o prodlení výše platí pro firemního zákazníka. Spotřebitel platí při nákupu cenu, kterou služba ukáže. Splatnost a ujednání o prodlení firemního zákazníka se vůči spotřebiteli nepoužijí tak, aby oslabily kogentní práva."
         ]
       ],
@@ -1983,27 +2007,28 @@ const TERMS_PAGE = {
           "Cena je odstupňovaná. Prvních 15 jednotek je za 1,50 €, jednotky 16–50 za 1,30 €, jednotky 51–100 za 1,10 € a jednotky nad 100 za 0,90 € každá.",
           "Přívěs je půl jednotky v pásmu, do kterého spadá. Stojí polovinu ceny vozidla toho pásma: 0,75 €, 0,65 €, 0,55 € nebo 0,45 €. Nástavba, například tiltrotátor, hydraulické kladivo nebo zametač, stojí 0,00 € a nepočítá se jako jednotka. Uživatelů může být neomezeně a neúčtují se.",
           "Měsíční cena vychází z nejvyššího počtu jednotek v daném kalendářním měsíci. Když se během měsíce přidá technika, měsíc se účtuje podle nejvyššího počtu.",
-          "Když zkušební doba skončí bez platby, nebo když splatná faktura není zaplacena po upomínce, účet je jen pro čtení.",
-          "V tomto režimu lze uložené údaje prohlížet. Nová hlášení a změny nelze uložit, dokud není zaplaceno. Údaje se uchovávají."
+          "Když zkušební doba skončí bez platby, účet je jen pro čtení. Pokud je faktura firemního zákazníka nezaplacená 7 dní po splatnosti, účet zůstane jen pro čtení, dokud není faktura zaplacena.",
+          "V režimu jen pro čtení lze uložené údaje prohlížet. Nová hlášení a změny nelze uložit. Režim jen pro čtení skončí automaticky, jakmile je platba provedena."
         ]
       ],
       [
         "7. Zrušení a odpovědnost (jen firemní zákazníci)",
         [
           "Tento bod platí jen pro firemní zákazníky. Neplatí pro spotřebitele a neomezuje jeho kogentní práva.",
-          "Zákazník může zrušit placené užívání ve službě nebo e-mailem na info@iqsoftcore.fi. Zrušení platí od konce už započatého fakturačního období. Už vyfakturovaný měsíc se nevrací, pokud to nevynucuje kogentní zákon.",
-          "Ukončení zkušební doby nic nestojí. Po zrušení je účet jen pro čtení, dokud nejsou údaje na žádost smazány nebo neskončí doba uchování.",
+          "[[prominent]]iqFleetSync je jen nástroj pro evidenci, připomínky a výkazy. Zákazník sám odpovídá za způsobilost vozidel a strojů k provozu, za kvalitu údržby, za kontroly, za zákonné povinnosti a za rozhodnutí vozidlo použít. IqSoftCore neodpovídá za škody, nehody ani poruchy vozidel nebo strojů. To platí i tehdy, když byla připomínka přehlédnuta, údaj byl zapsán chybně nebo řidič použil vozidlo nezpůsobilé k provozu. Toto ujednání se nedotýká práv spotřebitele.",
+          "Firemní zákazník zruší placenou službu sám v aplikaci v části Tilaus ja laskutus → Irtisano palvelu (Předplatné a fakturace → Zrušit službu), nebo e-mailem na info@iqsoftcore.fi. Zrušení platí od konce už započatého fakturačního období. Už vyfakturovaný měsíc se nevrací, pokud to nevynucuje kogentní zákon.",
+          "Ukončení zkušební doby nic nestojí. Jakmile zrušení nabude účinnosti, údaje firemního zákazníka se uchovávají 90 dní, aby je zákazník mohl prohlížet a exportovat. Potom se údaje smažou automaticky. Zůstanou jen fakturační údaje, které vyžaduje účetní zákon.",
           "Poskytovatel může ukončit užívání zákazníkem, pokud zákazník tyto podmínky podstatně poruší a nenapraví to po písemné výzvě. Pokud se celá služba ukončuje, oznámí se to předem, když je to možné.",
           "V rozsahu, v jakém to dovoluje finské kogentní právo, poskytovatel neodpovídá za nepřímou škodu, ušlý zisk ani ztracené údaje.",
           "Odpovědnost za přímou škodu je omezena na poplatky, které zákazník za tuto službu zaplatil v 12 měsících před škodou. Pokud žádné poplatky nebyly, strop je 0 €.",
-          "Omezení se netýká škody způsobené úmyslně nebo hrubou nedbalostí ani odpovědnosti, kterou zákon nedovoluje omezit. Služba je nástroj pro zápis. Nenahrazuje kontrolu ani údržbu stroje nebo vozidla ani rozhodnutí, zda je vozový park bezpečné používat."
+          "Omezení se netýká škody způsobené úmyslně nebo hrubou nedbalostí ani odpovědnosti, kterou zákon nedovoluje omezit."
         ]
       ],
       [
         "8. Spotřebitelé",
         [
           "Na spotřebitele se vztahuje kogentní ochrana spotřebitele Finska a EU. Odporující ujednání ustoupí.",
-          "Strop odpovědnosti v bodě 7 a pravidlo, že už vyfakturované období se nevrací, neomezují práva spotřebitele.",
+          "Strop odpovědnosti v bodě 7, pravidlo, že už vyfakturované období se nevrací, a ujednání, že iqFleetSync je jen nástroj pro evidenci, připomínky a výkazy, neomezují práva spotřebitele.",
           "Při prodeji na dálku má spotřebitel 14 dní na odstoupení od smlouvy o digitální službě nebo digitálním obsahu. Lhůta běží ode dne smlouvy.",
           "Právo odstoupit končí, pokud spotřebitel v této lhůtě výslovně požádá, aby dodání nebo plnění začalo, a zároveň potvrdí, že o právo přijde, jakmile dodání digitálního obsahu začalo nebo jakmile byla digitální služba zcela provedena.",
           "Do té doby může spotřebitel odstoupit jasným oznámením, například e-mailem na info@iqsoftcore.fi. Poskytovatel vrátí přijatou platbu do 14 dnů od oznámení v rozsahu, v jakém zákon vracení vyžaduje.",
@@ -2017,7 +2042,8 @@ const TERMS_PAGE = {
           "Údaje o vozovém parku, údržbě a uživatelích, které zákazník ve službě uloží, patří zákazníkovi.",
           "Poskytovatel tyto údaje neprodává. Používají se k poskytování služby, k fakturaci, k zabezpečení služby a ke splnění povinností podle zákona.",
           "Zákazník může požádat o export svých údajů na info@iqsoftcore.fi. Údaje se předají v běžném strojově čitelném formátu, jakmile je žádost vyřízena.",
-          "Po zrušení může zákazník na stejnou adresu požádat o výmaz. Poskytovatel údaje smaže nebo anonymizuje, jakmile je žádost vyřízena, pokud zákon nebo účetnictví nevyžadují delší uchování. Fakturační údaje se uchovávají po dobu, kterou vyžaduje účetnictví. Údaje se nemažou, pokud jsou potřeba k otevřené faktuře nebo k zákonnému nároku."
+          "Údaje firemního zákazníka se uchovávají 90 dní po zrušení. V té době může firemní zákazník údaje exportovat, také žádostí o export na info@iqsoftcore.fi. Po 90 dnech se údaje smažou automaticky. Potom se uchovávají jen fakturační údaje, které vyžaduje účetní zákon.",
+          "Údaje spotřebitele se zpracovávají tak, aby byla dodržena kogentní ochrana spotřebitele a ochrana údajů. Spotřebitel může požádat o export nebo výmaz svých údajů na info@iqsoftcore.fi."
         ]
       ],
       [
@@ -2076,7 +2102,7 @@ const TERMS_PAGE = {
     "metaDescription": "iqFleetSyncの利用規約とIQSoftCoreのサービスの一般条件。草案。",
     "title": "利用規約",
     "draft": "草案です。これは IQSoftCore のサービスの一般条件と iqFleetSync の条件を平易な言葉で書いた草案であり、法的助言ではありません。公開前に提供者が本文を確認する必要があります。",
-    "updated": "草案の更新日 2026-09-30。",
+    "updated": "草案の更新日 2026-10-01。",
     "translationNote": "フィンランド語の本文が正式版です。この訳は理解のためのもので、法律文書として別に審査されたものではありません。",
     "scope": "これは IQSoftCore のサービスの一般条件です。消費者と事業者顧客の両方に適用されます。製品に独自の条件がある場合は、それも併せて適用されます。価格は、公表されているか別途合意された場合にだけ請求します。",
     "privacyLink": "プライバシー",
@@ -2120,9 +2146,9 @@ const TERMS_PAGE = {
       [
         "5. 支払い",
         [
-          "有料利用は毎月請求します。支払いは Stripe で、カード、SEPA Direct Debit、または請求書（銀行振込）です。",
-          "請求書は、請求日の14日後が期限です。支払いが遅れると、提供者はフィンランドの利息法に基づく遅延利息と合理的な回収費用を請求できます。",
-          "期限後の督促のあとでも支払われない場合、アカウントを閲覧専用にできます。",
+          "有料利用は毎月請求します。支払いは Stripe で、カード、PayPal、SEPA Direct Debit、または請求書（銀行振込）です。",
+          "請求書は、請求日の14日後が期限です。事業者顧客の支払いが遅れると、提供者はフィンランドの利息法（korkolaki）に基づく遅延利息と合理的な回収費用を請求できます。",
+          "事業者顧客の請求書が支払期限の7日後も未払いのとき、アカウントは閲覧専用になります。保存済みのデータは見られますが、新しいデータは保存できません。閲覧専用は、支払いが完了すると自動的に解除されます。",
           "上の支払期限と遅延の定めは事業者顧客に適用されます。消費者は、購入時にサービスが表示する価格を支払います。事業者顧客の支払期限と遅延の定めは、強行的な消費者の権利を弱める形では消費者に適用しません。"
         ]
       ],
@@ -2142,27 +2168,28 @@ const TERMS_PAGE = {
           "料金は累進です。最初の15単位は 1.50 €、16–50 は 1.30 €、51–100 は 1.10 €、100を超える単位はそれぞれ 0.90 € です。",
           "トレーラーは入った段階の0.5単位です。その段階の車両価格の半分、つまり 0.75 €、0.65 €、0.55 €、0.45 € のいずれかです。アタッチメント（チルトローテーター、油圧ブレーカー、スイーパーなど）は 0.00 € で、単位に数えません。ユーザー数に制限はなく、ユーザーごとの料金はありません。",
           "月額は、その暦月の最大単位数で計算します。月の途中で機材を増やすと、その月は最大数で請求します。",
-          "試用が終わり支払いがない場合、または期限を過ぎた請求が督促後も支払われない場合、アカウントは閲覧専用になります。",
-          "閲覧専用では保存済みのデータを見られます。支払いが済むまで、新しい報告や変更は保存できません。データは保持します。"
+          "試用が終わり支払いがない場合、アカウントは閲覧専用になります。事業者顧客の請求書が支払期限の7日後も未払いのとき、請求が支払われるまでアカウントは閲覧専用のままです。",
+          "閲覧専用では保存済みのデータを見られます。新しい報告や変更は保存できません。閲覧専用は、支払いが完了すると自動的に解除されます。"
         ]
       ],
       [
         "7. 解約と責任（事業者顧客のみ）",
         [
           "この項は事業者顧客にだけ適用されます。消費者には適用されず、消費者の強行的な権利を制限しません。",
-          "顧客は、サービス内または info@iqsoftcore.fi へのメールで有料利用を解約できます。解約は、すでに始まった請求期間の終わりに効力を生じます。すでに請求した月は、強行法規が求める場合を除き返金しません。",
-          "試用の中止に料金はかかりません。解約後、データの削除依頼が処理されるか保存期間が終わるまで、アカウントは閲覧専用です。",
+          "[[prominent]]iqFleetSync は、記録、リマインダー、報告のための道具にすぎません。車両と作業機械の走行安全性、整備の質、点検、法令上の義務、および車両を使用する判断は、顧客が単独で責任を負います。IqSoftCore は、車両または作業機械の損害、事故、故障について責任を負いません。リマインダーを見逃した場合、データを誤って入力した場合、または運転者が走行に適さない車両を使用した場合も含まれます。この条項は消費者の権利に影響しません。",
+          "事業者顧客は、アプリの Tilaus ja laskutus → Irtisano palvelu（契約と請求 → サービスを解約）から自分で有料サービスを解約するか、info@iqsoftcore.fi にメールします。解約は、すでに始まった請求期間の終わりに効力を生じます。すでに請求した月は、強行法規が求める場合を除き返金しません。",
+          "試用の中止に料金はかかりません。解約の効力が生じたあと、事業者顧客のデータは90日間保持され、顧客は閲覧と書き出しができます。その後、データは自動的に削除されます。残るのは、会計法が求める請求データだけです。",
           "顧客がこの規約に重大に違反し、書面の通知後も是正しない場合、提供者は利用を終了できます。サービス全体を終了する場合は、可能なときは事前に知らせます。",
           "フィンランドの強行法規が許す範囲で、提供者は間接損害、得られなかった利益、失われたデータについて責任を負いません。",
           "直接損害の責任は、損害の前12か月に顧客がそのサービスに支払った料金を上限とします。支払いがなければ上限は 0 € です。",
-          "この制限は、故意または重大な過失による損害、および法律上制限できない責任には適用しません。サービスは記録の道具です。機械や車両の点検・整備、または安全に使えるかどうかの判断に代わるものではありません。"
+          "この制限は、故意または重大な過失による損害、および法律上制限できない責任には適用しません。"
         ]
       ],
       [
         "8. 消費者",
         [
           "消費者には、フィンランドとEUの強行的な消費者保護が適用されます。これに反する条項は後退します。",
-          "第7項の責任の上限と、すでに請求した期間は返金しないというルールは、消費者の権利を制限しません。",
+          "第7項の責任の上限、すでに請求した期間を返金しない規則、および iqFleetSync が記録、リマインダー、報告のための道具にすぎないという条項は、消費者の権利を制限しません。",
           "通信販売では、消費者はデジタルサービスまたはデジタルコンテンツについて、契約日から14日間の撤回権を持ちます。",
           "撤回権は、撤回期間中に消費者が提供または履行の開始を明示的に求め、かつ、デジタルコンテンツの提供が始まったとき、またはデジタルサービスが完全に履行されたときに権利を失うことを認めた場合に終わります。",
           "それまでは、消費者は明確な通知、たとえば info@iqsoftcore.fi へのメールで撤回できます。提供者は、法律が返金を求める範囲で、通知から14日以内に受領した代金を返します。",
@@ -2176,7 +2203,8 @@ const TERMS_PAGE = {
           "顧客がサービスに保存した車両、整備、ユーザーのデータは顧客のものです。",
           "提供者はこのデータを販売しません。サービスの提供、請求、安全、法律上の義務のために使います。",
           "顧客は info@iqsoftcore.fi にデータの書き出しを依頼できます。依頼を処理したあと、一般的な機械可読形式で渡します。",
-          "解約後、同じ宛先に削除を依頼できます。法律または会計がより長い保存を求める場合を除き、依頼の処理後に削除または匿名化します。請求データは会計が求める期間保存します。未払い請求や法律上の請求の処理に必要なデータは削除しません。"
+          "事業者顧客のデータは、解約後90日間保持されます。この間、事業者顧客はデータを書き出せます。info@iqsoftcore.fi に書き出しを依頼することもできます。90日後、データは自動的に削除されます。その後残るのは、会計法が求める請求データだけです。",
+          "消費者のデータは、強行的な消費者保護とデータ保護に従って取り扱います。消費者は info@iqsoftcore.fi に、データの書き出しまたは削除を依頼できます。"
         ]
       ],
       [
@@ -2235,7 +2263,7 @@ const TERMS_PAGE = {
     "metaDescription": "iqFleetSync 이용약관과 IQSoftCore 서비스의 일반 약관. 초안.",
     "title": "이용약관",
     "draft": "초안입니다. 이것은 IQSoftCore 서비스의 일반 약관과 iqFleetSync 약관을 쉬운 말로 쓴 초안이며 법률 자문이 아닙니다. 공개 전에 제공자가 본문을 확인해야 합니다.",
-    "updated": "초안 업데이트 2026-09-30.",
+    "updated": "초안 업데이트 2026-10-01.",
     "translationNote": "핀란드어 본문이 공식 버전입니다. 이 번역은 이해를 돕기 위한 것이며 법률 문서로 따로 검토되지 않았습니다.",
     "scope": "이것은 IQSoftCore 서비스의 일반 약관입니다. 소비자와 사업자 고객 모두에게 적용됩니다. 제품에 자체 약관이 있으면 함께 적용됩니다. 가격은 공개되었거나 따로 합의된 경우에만 청구합니다.",
     "privacyLink": "개인정보",
@@ -2279,9 +2307,9 @@ const TERMS_PAGE = {
       [
         "5. 결제",
         [
-          "유료 사용은 매달 청구합니다. 결제는 Stripe로 카드, SEPA Direct Debit 또는 청구서(계좌이체)로 합니다.",
-          "청구서는 청구일로부터 14일 뒤에 만기가 됩니다. 결제가 늦으면 제공자는 핀란드 이자법에 따른 지연 이자와 합리적인 추심 비용을 청구할 수 있습니다.",
-          "만기 후 보낸 독촉 뒤에도 내지 않으면 계정을 읽기 전용으로 바꿀 수 있습니다.",
+          "유료 사용은 매달 청구합니다. 결제는 Stripe로 카드, PayPal, SEPA Direct Debit 또는 청구서(계좌이체)로 합니다.",
+          "청구서는 청구일로부터 14일 뒤에 만기가 됩니다. 사업자 고객의 결제가 늦으면 제공자는 핀란드 이자법(korkolaki)에 따른 지연 이자와 합리적인 추심 비용을 청구할 수 있습니다.",
+          "사업자 고객의 청구서가 지급 기한 7일 뒤에도 미납이면 계정은 읽기 전용이 됩니다. 저장된 데이터는 볼 수 있고, 새 데이터는 저장할 수 없습니다. 읽기 전용은 결제가 되면 자동으로 해제됩니다.",
           "위의 지급 기한과 연체 조항은 사업자 고객에게 적용됩니다. 소비자는 구매 시 서비스가 보여주는 가격을 냅니다. 사업자 고객의 지급 기한과 연체 조항은 강행적인 소비자 권리를 약화하는 방식으로 소비자에게 적용하지 않습니다."
         ]
       ],
@@ -2301,27 +2329,28 @@ const TERMS_PAGE = {
           "요금은 누진입니다. 처음 15단위는 1.50 €, 16–50은 1.30 €, 51–100은 1.10 €, 100을 넘는 단위는 각각 0.90 €입니다.",
           "트레일러는 해당 구간의 0.5단위입니다. 그 구간 차량 가격의 절반, 즉 0.75 €, 0.65 €, 0.55 €, 0.45 € 중 하나입니다. 어태치먼트(틸트로테이터, 유압 브레이커, 스위퍼 등)는 0.00 €이며 단위에 넣지 않습니다. 사용자 수는 제한이 없고 사용자별 요금은 없습니다.",
           "월 요금은 그 달의 최대 단위 수를 기준으로 합니다. 달 중에 장비를 늘리면 그 달은 최대 수로 청구합니다.",
-          "체험이 끝나고 결제가 없거나, 만기가 지난 청구가 독촉 뒤에도 결제되지 않으면 계정은 읽기 전용이 됩니다.",
-          "읽기 전용에서는 저장된 데이터를 볼 수 있습니다. 결제 전에는 새 보고와 변경을 저장할 수 없습니다. 데이터는 유지합니다."
+          "체험이 끝나고 결제가 없으면 계정은 읽기 전용이 됩니다. 사업자 고객의 청구서가 지급 기한 7일 뒤에도 미납이면 청구서가 결제될 때까지 계정은 읽기 전용으로 남습니다.",
+          "읽기 전용에서는 저장된 데이터를 볼 수 있습니다. 새 보고와 변경은 저장할 수 없습니다. 읽기 전용은 결제가 되면 자동으로 해제됩니다."
         ]
       ],
       [
         "7. 해지와 책임(사업자 고객만)",
         [
           "이 항은 사업자 고객에게만 적용됩니다. 소비자에게는 적용되지 않으며 소비자의 강행적인 권리를 제한하지 않습니다.",
-          "고객은 서비스 안에서 또는 info@iqsoftcore.fi 이메일로 유료 사용을 해지할 수 있습니다. 해지는 이미 시작된 청구 기간이 끝날 때 효력이 있습니다. 이미 청구한 달은 강행법이 요구하지 않는 한 환불하지 않습니다.",
-          "체험 중단에는 요금이 없습니다. 해지 후 데이터 삭제 요청이 처리되거나 보관 기간이 끝날 때까지 계정은 읽기 전용입니다.",
+          "[[prominent]]iqFleetSync는 기록, 알림, 보고를 위한 도구일 뿐입니다. 차량과 작업기계의 운행 적합성, 정비 품질, 검사, 법적 의무, 차량 사용에 대한 결정은 고객이 단독으로 책임집니다. IqSoftCore는 차량이나 작업기계의 손해, 사고, 고장에 책임지지 않습니다. 알림을 놓친 경우, 데이터를 잘못 입력한 경우, 운전자가 운행에 적합하지 않은 차량을 사용한 경우도 포함됩니다. 이 조항은 소비자의 권리에 영향을 주지 않습니다.",
+          "사업자 고객은 앱의 Tilaus ja laskutus → Irtisano palvelu(구독 및 청구 → 서비스 해지)에서 직접 유료 서비스를 해지하거나 info@iqsoftcore.fi로 이메일을 보냅니다. 해지는 이미 시작된 청구 기간이 끝날 때 효력이 있습니다. 이미 청구한 달은 강행법이 요구하지 않는 한 환불하지 않습니다.",
+          "체험 중단에는 요금이 없습니다. 해지가 효력을 내면 사업자 고객의 데이터는 90일 동안 보관되어 고객이 보고 내보낼 수 있습니다. 그 뒤 데이터는 자동으로 삭제됩니다. 남는 것은 회계법이 요구하는 청구 데이터뿐입니다.",
           "고객이 이 약관을 중대하게 위반하고 서면 통지 뒤에도 바로잡지 않으면 제공자는 사용을 끝낼 수 있습니다. 서비스 전체를 종료하면 가능할 때 미리 알립니다.",
           "핀란드 강행법이 허용하는 범위에서 제공자는 간접 손해, 얻지 못한 이익, 잃어버린 데이터에 책임지지 않습니다.",
           "직접 손해에 대한 책임은 손해 전 12개월 동안 고객이 그 서비스에 낸 요금을 한도로 합니다. 낸 요금이 없으면 한도는 0 €입니다.",
-          "이 제한은 고의 또는 중대한 과실로 생긴 손해와, 법률상 제한할 수 없는 책임에는 적용하지 않습니다. 서비스는 기록 도구입니다. 기계나 차량의 검사·정비, 또는 안전하게 쓸 수 있는지에 대한 판단을 대신하지 않습니다."
+          "이 제한은 고의 또는 중대한 과실로 생긴 손해와, 법률상 제한할 수 없는 책임에는 적용하지 않습니다."
         ]
       ],
       [
         "8. 소비자",
         [
           "소비자에게는 핀란드와 EU의 강행적인 소비자 보호가 적용됩니다. 이에 어긋나는 조항은 뒤로 물러납니다.",
-          "제7항의 책임 한도와, 이미 청구한 기간은 환불하지 않는다는 규칙은 소비자의 권리를 제한하지 않습니다.",
+          "제7항의 책임 한도, 이미 청구한 기간을 환불하지 않는 규칙, 그리고 iqFleetSync가 기록, 알림, 보고를 위한 도구일 뿐이라는 조항은 소비자의 권리를 제한하지 않습니다.",
           "원격 판매에서 소비자는 디지털 서비스 또는 디지털 콘텐츠에 대해 계약일부터 14일의 청약 철회권을 가집니다.",
           "철회권은, 철회 기간 동안 소비자가 제공 또는 이행의 시작을 명시적으로 요청하고, 디지털 콘텐츠의 공급이 시작되거나 디지털 서비스가 전부 이행되면 그 권리를 잃는다는 점을 함께 인정한 때에 끝납니다.",
           "그때까지 소비자는 info@iqsoftcore.fi 로 보내는 이메일처럼 분명한 통지로 철회할 수 있습니다. 제공자는 법이 환불을 요구하는 범위에서 통지 후 14일 안에 받은 대금을 돌려줍니다.",
@@ -2335,7 +2364,8 @@ const TERMS_PAGE = {
           "고객이 서비스에 저장한 차량, 정비, 사용자 데이터는 고객의 것입니다.",
           "제공자는 이 데이터를 팔지 않습니다. 서비스 제공, 청구, 보안, 법률상 의무를 위해 사용합니다.",
           "고객은 info@iqsoftcore.fi로 데이터 내보내기를 요청할 수 있습니다. 요청을 처리한 뒤 일반적인 기계 판독 형식으로 전달합니다.",
-          "해지 후 같은 주소로 삭제를 요청할 수 있습니다. 법률이나 회계가 더 긴 보관을 요구하지 않으면, 요청 처리 후 삭제하거나 익명화합니다. 청구 데이터는 회계가 요구하는 기간 동안 보관합니다. 미결제 청구 또는 법률상 청구를 처리하는 데 필요한 데이터는 삭제하지 않습니다."
+          "사업자 고객의 데이터는 해지 후 90일 동안 보관됩니다. 이 동안 사업자 고객은 데이터를 내보낼 수 있으며, info@iqsoftcore.fi로 내보내기를 요청할 수도 있습니다. 90일이 지나면 데이터는 자동으로 삭제됩니다. 그 뒤 남는 것은 회계법이 요구하는 청구 데이터뿐입니다.",
+          "소비자의 데이터는 강행적인 소비자 보호와 데이터 보호를 지키며 처리합니다. 소비자는 info@iqsoftcore.fi로 데이터 내보내기 또는 삭제를 요청할 수 있습니다."
         ]
       ],
       [
@@ -2394,7 +2424,7 @@ const TERMS_PAGE = {
     "metaDescription": "iqFleetSync 使用条款以及 IQSoftCore 服务的一般条款。草案。",
     "title": "使用条款",
     "draft": "草案。这是用平白语言写的 IQSoftCore 服务一般条款和 iqFleetSync 条款的草案，不是法律意见。提供者必须在发布前审阅本文。",
-    "updated": "草案更新日期 2026-09-30。",
+    "updated": "草案更新日期 2026-10-01。",
     "translationNote": "芬兰语文本是正式版本。本译文便于阅读，并未另行作为法律文本审查。",
     "scope": "这是 IQSoftCore 服务的一般条款。适用于消费者和企业客户。如果某项产品另有条款，则一并适用。只有价格已经公布或另行约定时才收费。",
     "privacyLink": "隐私",
@@ -2438,9 +2468,9 @@ const TERMS_PAGE = {
       [
         "5. 付款",
         [
-          "付费使用按月结算。付款通过 Stripe，方式为银行卡、SEPA Direct Debit 或发票（银行转账）。",
-          "账单在账单日期后 14 天到期。逾期时，提供者可以按芬兰利息法收取逾期利息和合理的催收费用。",
-          "如果账单在到期后发出的提醒之后仍未支付，账户可以转为只读。",
+          "付费使用按月结算。付款通过 Stripe，方式为银行卡、PayPal、SEPA Direct Debit 或发票（银行转账）。",
+          "账单在账单日期后 14 天到期。企业客户逾期时，提供者可以按芬兰利息法（korkolaki）收取逾期利息和合理的催收费用。",
+          "如果企业客户的账单在到期日后 7 天仍未支付，账户进入只读。已保存的数据可以查看，不能保存新数据。付款完成后，只读自动解除。",
           "上文的付款期限和逾期条款适用于企业客户。消费者在购买时支付服务显示的价格。企业客户的付款期限和逾期条款不得以削弱强制性消费者权利的方式适用于消费者。"
         ]
       ],
@@ -2460,27 +2490,28 @@ const TERMS_PAGE = {
           "价格是累进的。前 15 个单位为 1.50 €，第 16–50 个为 1.30 €，第 51–100 个为 1.10 €，超过 100 的每个单位为 0.90 €。",
           "挂车按其落入的档计为半个单位，按该档车辆价格的一半收费：0.75 €、0.65 €、0.55 € 或 0.45 €。属具（例如倾斜旋转器、液压破碎锤或清扫器）为 0.00 €，不计入单位。用户数量不限，也不另收费。",
           "月费按该自然月的最高单位数计算。如果月中增加设备，该月按最高数量计费。",
-          "如果试用结束且没有付款，或者逾期账单在提醒后仍未支付，账户变为只读。",
-          "只读状态下仍可查看已保存的数据。在付款之前不能保存新的填报和修改。数据予以保留。"
+          "如果试用结束且没有付款，账户变为只读。如果企业客户的账单在到期日后 7 天仍未支付，账户保持只读，直到账单付清。",
+          "只读状态下可以查看已保存的数据。不能保存新的填报和修改。付款完成后，只读自动解除。"
         ]
       ],
       [
         "7. 解除与责任（仅企业客户）",
         [
           "本条只适用于企业客户。不适用于消费者，也不限制消费者的强制性权利。",
-          "客户可以在服务中，或发邮件到 info@iqsoftcore.fi 取消付费使用。取消在已经开始的计费周期结束时生效。已经计费的月份不予退还，除非强制性法律要求退还。",
-          "停止试用不产生费用。取消后，在按请求删除数据或保存期限结束之前，账户为只读。",
+          "[[prominent]]iqFleetSync 只是记录、提醒和报告工具。车辆和工程机械的适行性、维护质量、检验、法定义务，以及是否使用车辆的决定，均由客户单独负责。IqSoftCore 不对车辆或工程机械的损坏、事故或故障负责。提醒被错过、数据填写错误，或驾驶员使用了不适行的车辆，也属于这种情况。本条款不影响消费者权利。",
+          "企业客户在应用中自行取消付费服务，路径为 Tilaus ja laskutus → Irtisano palvelu（订阅与账单 → 解除服务），或发邮件到 info@iqsoftcore.fi。取消在已经开始的计费周期结束时生效。已经计费的月份不予退还，除非强制性法律要求退还。",
+          "停止试用不产生费用。取消生效后，企业客户的数据保留 90 天，以便客户查看和导出。之后数据自动删除。只保留会计法要求的账单数据。",
           "如果客户严重违反本条款，并且在书面通知后仍不改正，提供者可以终止该客户的使用。如果整个服务停止，会在可能时事先说明。",
           "在芬兰强制性法律允许的范围内，提供者不对间接损失、未获得的利润或丢失的数据负责。",
           "对直接损失的责任，以客户在损失发生前 12 个月内为该服务支付的费用为上限。如果没有支付过费用，该上限为 0 €。",
-          "该限制不适用于故意或重大过失造成的损失，也不适用于法律不允许限制的责任。本服务是记录工具。它不代替对机器或车辆的检验、维护，也不代替关于设备能否安全使用的决定。"
+          "该限制不适用于故意或重大过失造成的损失，也不适用于法律不允许限制的责任。"
         ]
       ],
       [
         "8. 消费者",
         [
           "芬兰和欧盟的强制性消费者保护适用于消费者。与之冲突的条款让位。",
-          "第7条的责任上限，以及已结算期间不予退款的规则，不限制消费者的权利。",
+          "第7条的责任上限、已计费期间不予退还的规则，以及 iqFleetSync 只是记录、提醒和报告工具这一条款，不限制消费者权利。",
           "远程销售中，消费者对数字服务或数字内容享有自合同订立之日起14日的撤回权。",
           "如果消费者在撤回期内明确要求开始交付或履行，并同时确认在数字内容开始提供时或数字服务已全部履行时丧失该权利，则撤回权终止。",
           "在此之前，消费者可以用明确通知撤回，例如发邮件至 info@iqsoftcore.fi。提供者在收到通知后14日内，在法律要求退款的范围内退还已收款项。",
@@ -2494,7 +2525,8 @@ const TERMS_PAGE = {
           "客户保存在服务中的车队、维护和用户数据属于客户。",
           "提供者不出卖这些数据。数据用于提供服务、计费、保障服务安全，以及履行法律要求的义务。",
           "客户可以发邮件到 info@iqsoftcore.fi 要求导出数据。请求处理完成后，以常见的机器可读格式提供。",
-          "取消后，客户可以向同一地址要求删除。除非法律或会计要求保留更久，提供者在处理请求后删除或匿名化数据。账单数据按会计要求的期限保留。如果数据是处理未结账单或法定请求所需要的，则不删除。"
+          "企业客户的数据在取消后保留 90 天。在此期间，企业客户可以导出数据，也可以发邮件到 info@iqsoftcore.fi 要求导出。90 天后数据自动删除。之后只保留会计法要求的账单数据。",
+          "消费者的数据按照强制性消费者保护和数据保护规则处理。消费者可以发邮件到 info@iqsoftcore.fi 要求导出或删除自己的数据。"
         ]
       ],
       [
@@ -2550,7 +2582,6 @@ const TERMS_PAGE = {
   }
 };
 
-
 function escapeTermsHtml(value) {
   return String(value)
     .replace(/&/g, "&amp;")
@@ -2581,7 +2612,12 @@ function renderTermsPage(lang) {
   const sections = page.sections
     .map(([heading, paragraphs]) => {
       const bodyHtml = paragraphs
-        .map((paragraph) => `<p>${renderTermsParagraph(paragraph, page)}</p>`)
+        .map((paragraph) => {
+          const prominent = String(paragraph).startsWith("[[prominent]]");
+          const text = prominent ? String(paragraph).slice("[[prominent]]".length) : paragraph;
+          const cls = prominent ? ` class="terms-prominent"` : "";
+          return `<p${cls}>${renderTermsParagraph(text, page)}</p>`;
+        })
         .join("");
       return `<section class="policy-section"><h2>${escapeTermsHtml(heading)}</h2>${bodyHtml}</section>`;
     })
