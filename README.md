@@ -17,7 +17,7 @@ Yksinkertaiset yrityskotisivut IQSoftCorelle. Yritys tekee ohjelmistoja, sovellu
 
 Sivuston iqFleetSync-tekstit päivitettiin vastaamaan palvelua osoitteessa fleetsync.iqsoftcore.fi.
 
-- Kirjautuminen ilman salasanaa samassa välilehdessä: sähköpostin 6-numeroinen koodi, kutsulinkki tai passkey. Jaetulla ajoneuvopuhelimella nimi ja valinnainen 4–6 numeron PIN (30 minuuttia).
+- Kirjautuminen ilman salasanaa samassa välilehdessä: sähköpostin 6-numeroinen koodi, kutsulinkki tai passkey. Jaetulla ajoneuvopuhelimella nimi ja valinnainen 4 numeron PIN (30 minuuttia). Ylläpitäjä voi luoda PIN-koodin ja nähdä sen myöhemmin Henkilöt-sivulla, jos se unohtuu. Kuljettaja voi vaihtaa omansa kuljettajasivulla.
 - QR-tarra (r.iqsoftcore.fi) tunnistaa yksikön eikä kirjaa sisään. Arkistoidun yksikön tarra näyttää tekstin Yksikkö poistettu.
 - Puhelinnumero on vain valinnainen yhteystieto.
 - Kuljettajan sivu, henkilöt, kalusto (tuonti ja vienti, arkistointi), määräajat, työmääräykset, korjaamon määräaikainen linkki, kustannusoikeus, vikojen tilat, sähköposti- ja sovellusilmoitukset, audit-loki, tietojen vienti ja anonymisointi, asetukset ja ohjekeskus.

@@ -40,7 +40,7 @@ const PRIVACY_POLICIES = {
           bullets: [
             "nimi ja sähköposti",
             "valinnainen puhelinnumero vain yhteystietona; sitä ei käytetä kirjautumiseen",
-            "kirjautuminen sähköpostikoodilla, kutsulinkillä, passkeyllä tai jaetun puhelimen nimellä ja valinnaisella PIN-koodilla",
+            "kirjautuminen sähköpostikoodilla, kutsulinkillä, passkeyllä tai jaetun puhelimen nimellä ja valinnaisella 4 numeron PIN-koodilla",
             "asiakkaan tallentamat kalusto-, ilmoitus- ja huoltotiedot, jos niissä on henkilötietoja",
             "ilmoitukset sähköpostilla, sovelluksessa tai selaimen ilmoituksena, jos käyttäjä sallii sen",
           ],
@@ -96,7 +96,7 @@ const PRIVACY_POLICIES = {
           bullets: [
             "name and email",
             "an optional phone number used only as a contact field; it is not used to sign in",
-            "sign-in by email code, invite link, passkey, or a name and optional PIN on a shared phone",
+            "sign-in by email code, invite link, passkey, or a name and optional 4-digit PIN on a shared phone",
             "fleet, report, and maintenance data the customer stores, where it contains personal data",
             "notifications by email, in the app, or as a browser notification if the user allows it",
           ],
@@ -152,7 +152,7 @@ const PRIVACY_POLICIES = {
           bullets: [
             "namn och e-post",
             "ett valfritt telefonnummer bara som kontaktfält; det används inte för inloggning",
-            "inloggning med e-postkod, inbjudningslänk, passkey eller namn och valfri PIN på en delad telefon",
+            "inloggning med e-postkod, inbjudningslänk, passkey eller namn och valfri PIN på 4 siffror på en delad telefon",
             "flott-, rapport- och underhållsuppgifter som kunden sparar, om de innehåller personuppgifter",
             "aviseringar via e-post, i appen eller som webbläsaravisering om användaren tillåter det",
           ],
@@ -208,7 +208,7 @@ const PRIVACY_POLICIES = {
           bullets: [
             "navn og e-post",
             "et valgfritt telefonnummer bare som kontaktfelt; det brukes ikke til innlogging",
-            "innlogging med e-postkode, invitasjonslenke, passkey eller navn og valgfri PIN på en delt telefon",
+            "innlogging med e-postkode, invitasjonslenke, passkey eller navn og valgfri PIN på 4 sifre på en delt telefon",
             "flåte-, rapport- og vedlikeholdsdata kunden lagrer, hvis de inneholder personopplysninger",
             "varsler på e-post, i appen eller som nettleservarsel hvis brukeren tillater det",
           ],
@@ -264,7 +264,7 @@ const PRIVACY_POLICIES = {
           bullets: [
             "navn og e-mail",
             "et valgfrit telefonnummer kun som kontaktfelt; det bruges ikke til login",
-            "login med e-mailkode, invitationslink, passkey eller navn og valgfri PIN på en delt telefon",
+            "login med e-mailkode, invitationslink, passkey eller navn og valgfri PIN på 4 cifre på en delt telefon",
             "flåde-, rapport- og vedligeholdelsesdata som kunden gemmer, hvis de indeholder personoplysninger",
             "beskeder via e-mail, i appen eller som browserbesked, hvis brugeren tillader det",
           ],
@@ -320,7 +320,7 @@ const PRIVACY_POLICIES = {
           bullets: [
             "Name und E-Mail",
             "eine optionale Telefonnummer nur als Kontaktfeld; sie wird nicht zur Anmeldung verwendet",
-            "Anmeldung mit E-Mail-Code, Einladungslink, Passkey oder Name und optionaler PIN an einem gemeinsamen Telefon",
+            "Anmeldung mit E-Mail-Code, Einladungslink, Passkey oder Name und optionaler vierstelliger PIN an einem gemeinsamen Telefon",
             "Fuhrpark-, Meldungs- und Wartungsdaten, die der Kunde speichert, soweit sie personenbezogene Daten enthalten",
             "Benachrichtigungen per E-Mail, in der App oder als Browser-Hinweis, wenn der Nutzer das erlaubt",
           ],
@@ -376,7 +376,7 @@ const PRIVACY_POLICIES = {
           bullets: [
             "nombre y correo",
             "un número de teléfono opcional usado solo como contacto; no se usa para entrar",
-            "acceso con código de correo, enlace de invitación, passkey, o nombre y PIN opcional en un teléfono compartido",
+            "acceso con código de correo, enlace de invitación, passkey, o nombre y PIN opcional de 4 dígitos en un teléfono compartido",
             "datos de flota, avisos y mantenimiento que guarda el cliente, si contienen datos personales",
             "avisos por correo, dentro de la aplicación o del navegador si el usuario lo permite",
           ],
@@ -432,7 +432,7 @@ const PRIVACY_POLICIES = {
           bullets: [
             "nome ed e-mail",
             "un numero di telefono facoltativo usato solo come contatto; non si usa per accedere",
-            "accesso con codice e-mail, link di invito, passkey, oppure nome e PIN facoltativo su un telefono condiviso",
+            "accesso con codice e-mail, link di invito, passkey, oppure nome e PIN facoltativo di 4 cifre su un telefono condiviso",
             "dati di flotta, segnalazioni e manutenzione salvati dal cliente, se contengono dati personali",
             "notifiche per e-mail, nell’app o dal browser se l’utente lo consente",
           ],
@@ -488,7 +488,7 @@ const PRIVACY_POLICIES = {
           bullets: [
             "氏名とメール",
             "連絡先としてだけの任意の電話番号。ログインには使いません",
-            "メールコード、招待リンク、パスキー、または共用電話の氏名と任意のPINでのログイン",
+            "メールコード、招待リンク、パスキー、または共用電話の氏名と任意の4桁のPINでのログイン",
             "顧客が保存する車両、報告、整備のデータ（個人データを含む場合）",
             "ユーザーが許可した場合の、メール、アプリ内、またはブラウザの通知",
           ],
@@ -544,7 +544,7 @@ const PRIVACY_POLICIES = {
           bullets: [
             "이름과 이메일",
             "연락처로만 쓰는 선택 전화번호. 로그인에는 쓰지 않습니다",
-            "이메일 코드, 초대 링크, 패스키, 또는 공용 전화의 이름과 선택 PIN으로 로그인",
+            "이메일 코드, 초대 링크, 패스키, 또는 공용 전화의 이름과 선택 4자리 PIN으로 로그인",
             "고객이 저장하는 차량, 보고, 정비 데이터(개인정보가 포함된 경우)",
             "사용자가 허용하면 이메일, 앱 안 또는 브라우저 알림",
           ],
@@ -600,7 +600,7 @@ const PRIVACY_POLICIES = {
           bullets: [
             "nom et e-mail",
             "un numéro de téléphone facultatif utilisé seulement comme contact ; il ne sert pas à se connecter",
-            "connexion par code e-mail, lien d’invitation, passkey, ou nom et PIN facultatif sur un téléphone partagé",
+            "connexion par code e-mail, lien d’invitation, passkey, ou nom et PIN facultatif à 4 chiffres sur un téléphone partagé",
             "données de parc, de signalement et d’entretien enregistrées par le client, si elles contiennent des données personnelles",
             "notifications par e-mail, dans l’application ou par le navigateur si l’utilisateur l’autorise",
           ],
@@ -656,7 +656,7 @@ const PRIVACY_POLICIES = {
           bullets: [
             "nome e e-mail",
             "um número de telefone opcional usado apenas como contacto; não é usado para entrar",
-            "acesso com código de e-mail, link de convite, passkey, ou nome e PIN opcional num telefone partilhado",
+            "acesso com código de e-mail, link de convite, passkey, ou nome e PIN opcional de 4 dígitos num telefone partilhado",
             "dados de frota, avisos e manutenção que o cliente guarda, se contiverem dados pessoais",
             "avisos por e-mail, na aplicação ou no navegador, se o utilizador permitir",
           ],
@@ -712,7 +712,7 @@ const PRIVACY_POLICIES = {
           bullets: [
             "naam en e-mail",
             "een optioneel telefoonnummer alleen als contactveld; het wordt niet gebruikt om in te loggen",
-            "inloggen met e-mailcode, uitnodigingslink, passkey of naam en optionele pincode op een gedeelde telefoon",
+            "inloggen met e-mailcode, uitnodigingslink, passkey of naam en optionele pincode van 4 cijfers op een gedeelde telefoon",
             "wagenpark-, meldings- en onderhoudsgegevens die de klant opslaat, als daarin persoonsgegevens staan",
             "meldingen per e-mail, in de app of als browsermelding als de gebruiker dat toestaat",
           ],
@@ -768,7 +768,7 @@ const PRIVACY_POLICIES = {
           bullets: [
             "imię i e-mail",
             "opcjonalny numer telefonu używany tylko jako kontakt; nie służy do logowania",
-            "logowanie kodem e-mail, linkiem zaproszenia, passkey albo imieniem i opcjonalnym PIN-em na wspólnym telefonie",
+            "logowanie kodem e-mail, linkiem zaproszenia, passkey albo imieniem i opcjonalnym 4-cyfrowym PIN-em na wspólnym telefonie",
             "dane floty, zgłoszeń i utrzymania zapisane przez klienta, jeśli zawierają dane osobowe",
             "powiadomienia e-mailem, w aplikacji albo w przeglądarce, jeśli użytkownik na to pozwoli",
           ],
@@ -824,7 +824,7 @@ const PRIVACY_POLICIES = {
           bullets: [
             "jméno a e-mail",
             "volitelné telefonní číslo jen jako kontakt; k přihlášení se nepoužívá",
-            "přihlášení e-mailovým kódem, odkazem na pozvánku, passkey nebo jménem a volitelným PIN na sdíleném telefonu",
+            "přihlášení e-mailovým kódem, odkazem na pozvánku, passkey nebo jménem a volitelným čtyřmístným PIN na sdíleném telefonu",
             "údaje o flotile, hlášeních a údržbě, které zákazník uloží, pokud obsahují osobní údaje",
             "oznámení e-mailem, v aplikaci nebo v prohlížeči, pokud to uživatel povolí",
           ],
@@ -880,7 +880,7 @@ const PRIVACY_POLICIES = {
           bullets: [
             "姓名和电子邮件",
             "仅作为联系方式的可选电话号码；不用于登录",
-            "通过电子邮件验证码、邀请链接、通行密钥，或共用电话上的姓名和可选 PIN 登录",
+            "通过电子邮件验证码、邀请链接、通行密钥，或共用电话上的姓名和可选的 4 位 PIN 登录",
             "客户保存的车队、报告和维护数据（如果其中含有个人信息）",
             "在用户允许时，通过电子邮件、应用内或浏览器发送通知",
           ],

@@ -17,7 +17,7 @@ const FLEETSYNC_PAGE = {
       "Sähköpostiin tuleva 6-numeroinen koodi kirjoitetaan samaan välilehteen.",
       "Ylläpitäjän kutsulinkki.",
       "Sormenjälki tai kasvojentunnistus (passkey).",
-      "Jaettu ajoneuvopuhelin: valitse nimesi ja halutessasi 4–6 numeron PIN. Istunto kestää 30 minuuttia. Ylläpitäjä voi luoda PIN-koodin Henkilöt-sivulla. Kuljettaja voi vaihtaa sen omakseen kuljettajasivulla.",
+      "Jaettu ajoneuvopuhelin: valitse nimesi ja halutessasi 4 numeron PIN. Istunto kestää 30 minuuttia. Ylläpitäjä voi luoda henkilölle PIN-koodin ja nähdä sen myöhemmin Henkilöt-sivulla, jos se unohtuu. Kuljettaja voi vaihtaa oman PIN-koodinsa kuljettajasivulla.",
       "Puhelinnumero on vain valinnainen yhteystieto.",
     ],
     driverHeading: "Kuljettaja",
@@ -58,7 +58,7 @@ const FLEETSYNC_PAGE = {
       },
       {
         q: "Miten palveluun kirjaudutaan?",
-        a: "Ilman salasanaa, samassa välilehdessä: 6-numeroinen sähköpostikoodi, ylläpitäjän kutsulinkki tai sormenjälki tai kasvojentunnistus (passkey). Jaetulla ajoneuvopuhelimella valitaan nimi ja halutessa 4–6 numeron PIN. Se istunto kestää 30 minuuttia. Puhelinnumero on vain valinnainen yhteystieto.",
+        a: "Ilman salasanaa, samassa välilehdessä: 6-numeroinen sähköpostikoodi, ylläpitäjän kutsulinkki tai sormenjälki tai kasvojentunnistus (passkey). Jaetulla ajoneuvopuhelimella valitaan nimi ja halutessa 4 numeron PIN. Se istunto kestää 30 minuuttia. Ylläpitäjä voi luoda henkilölle PIN-koodin ja nähdä sen myöhemmin Henkilöt-sivulla, jos se unohtuu. Kuljettaja voi vaihtaa oman PIN-koodinsa kuljettajasivulla. Puhelinnumero on vain valinnainen yhteystieto.",
       },
       {
         q: "Mitä kuljettaja näkee?",
@@ -83,7 +83,7 @@ const FLEETSYNC_PAGE = {
       "A 6-digit code arrives by email and is typed in that same tab.",
       "An invite link from the admin.",
       "Fingerprint or face (passkey).",
-      "Shared vehicle phone: pick your name and an optional 4–6 digit PIN. The session lasts 30 minutes. An admin can generate a PIN on the People page. The driver can change it to their own on the driver page.",
+      "Shared vehicle phone: pick your name and an optional 4-digit PIN. The session lasts 30 minutes. An admin can create a PIN for a person and see it later on the People page if it is forgotten. The driver can change their own PIN on the driver page.",
       "A phone number is only an optional contact field.",
     ],
     driverHeading: "Driver",
@@ -124,7 +124,7 @@ const FLEETSYNC_PAGE = {
       },
       {
         q: "How do people sign in?",
-        a: "Without a password, in the same tab: a 6-digit email code, an invite link from the admin, or fingerprint or face (passkey). On a shared vehicle phone, pick your name and an optional 4–6 digit PIN. That session lasts 30 minutes. A phone number is only an optional contact field.",
+        a: "Without a password, in the same tab: a 6-digit email code, an invite link from the admin, or fingerprint or face (passkey). On a shared vehicle phone, pick your name and an optional 4-digit PIN. That session lasts 30 minutes. An admin can create a PIN for a person and see it later on the People page if it is forgotten. The driver can change their own PIN on the driver page. A phone number is only an optional contact field.",
       },
       {
         q: "What does the driver see?",
@@ -149,7 +149,7 @@ const FLEETSYNC_PAGE = {
       "En 6-siffrig kod kommer med e-post och skrivs in i samma flik.",
       "En inbjudningslänk från administratören.",
       "Fingeravtryck eller ansikte (passkey).",
-      "Delad fordonstelefon: välj ditt namn och en valfri PIN på 4–6 siffror. Sessionen varar 30 minuter. En administratör kan skapa en PIN på sidan Personer. Föraren kan byta den till sin egen på förarsidan.",
+      "Delad fordonstelefon: välj ditt namn och en valfri PIN på 4 siffror. Sessionen varar 30 minuter. En administratör kan skapa en PIN för en person och se den senare på sidan Personer om den glöms bort. Föraren kan byta sin egen PIN på förarsidan.",
       "Ett telefonnummer är bara ett valfritt kontaktfält.",
     ],
     driverHeading: "Förare",
@@ -190,7 +190,7 @@ const FLEETSYNC_PAGE = {
       },
       {
         q: "Hur loggar man in?",
-        a: "Utan lösenord, i samma flik: en 6-siffrig e-postkod, en inbjudningslänk från administratören eller fingeravtryck eller ansikte (passkey). På en delad fordonstelefon väljer man sitt namn och en valfri PIN på 4–6 siffror. Den sessionen varar 30 minuter. Ett telefonnummer är bara ett valfritt kontaktfält.",
+        a: "Utan lösenord, i samma flik: en 6-siffrig e-postkod, en inbjudningslänk från administratören eller fingeravtryck eller ansikte (passkey). På en delad fordonstelefon väljer man sitt namn och en valfri PIN på 4 siffror. Den sessionen varar 30 minuter. En administratör kan skapa en PIN för en person och se den senare på sidan Personer om den glöms bort. Föraren kan byta sin egen PIN på förarsidan. Ett telefonnummer är bara ett valfritt kontaktfält.",
       },
       {
         q: "Vad ser föraren?",
@@ -215,7 +215,7 @@ const FLEETSYNC_PAGE = {
       "En 6-sifret kode kommer på e-post og skrives inn i samme fane.",
       "En invitasjonslenke fra administratoren.",
       "Fingeravtrykk eller ansikt (passkey).",
-      "Delt kjøretøytelefon: velg navnet ditt og en valgfri PIN på 4–6 sifre. Økten varer i 30 minutter. En administrator kan lage en PIN på siden Personer. Sjåføren kan bytte den til sin egen på sjåførsiden.",
+      "Delt kjøretøytelefon: velg navnet ditt og en valgfri PIN på 4 sifre. Økten varer i 30 minutter. En administrator kan lage en PIN for en person og se den senere på siden Personer hvis den glemmes. Sjåføren kan bytte sin egen PIN på sjåførsiden.",
       "Et telefonnummer er bare et valgfritt kontaktfelt.",
     ],
     driverHeading: "Sjåfør",
@@ -256,7 +256,7 @@ const FLEETSYNC_PAGE = {
       },
       {
         q: "Hvordan logger man inn?",
-        a: "Uten passord, i samme fane: en 6-sifret e-postkode, en invitasjonslenke fra administratoren, eller fingeravtrykk eller ansikt (passkey). På en delt kjøretøytelefon velger man navnet sitt og en valgfri PIN på 4–6 sifre. Den økten varer i 30 minutter. Et telefonnummer er bare et valgfritt kontaktfelt.",
+        a: "Uten passord, i samme fane: en 6-sifret e-postkode, en invitasjonslenke fra administratoren, eller fingeravtrykk eller ansikt (passkey). På en delt kjøretøytelefon velger man navnet sitt og en valgfri PIN på 4 sifre. Den økten varer i 30 minutter. En administrator kan lage en PIN for en person og se den senere på siden Personer hvis den glemmes. Sjåføren kan bytte sin egen PIN på sjåførsiden. Et telefonnummer er bare et valgfritt kontaktfelt.",
       },
       {
         q: "Hva ser sjåføren?",
@@ -281,7 +281,7 @@ const FLEETSYNC_PAGE = {
       "En 6-cifret kode kommer på e-mail og skrives ind i samme fane.",
       "Et invitationslink fra administratoren.",
       "Fingeraftryk eller ansigt (passkey).",
-      "Delt køretøjstelefon: vælg dit navn og en valgfri PIN på 4–6 cifre. Sessionen varer 30 minutter. En administrator kan oprette en PIN på siden Personer. Chaufføren kan skifte den til sin egen på chaufførsiden.",
+      "Delt køretøjstelefon: vælg dit navn og en valgfri PIN på 4 cifre. Sessionen varer 30 minutter. En administrator kan oprette en PIN til en person og se den senere på siden Personer, hvis den glemmes. Chaufføren kan skifte sin egen PIN på chaufførsiden.",
       "Et telefonnummer er kun et valgfrit kontaktfelt.",
     ],
     driverHeading: "Chauffør",
@@ -322,7 +322,7 @@ const FLEETSYNC_PAGE = {
       },
       {
         q: "Hvordan logger man ind?",
-        a: "Uden adgangskode, i samme fane: en 6-cifret e-mailkode, et invitationslink fra administratoren eller fingeraftryk eller ansigt (passkey). På en delt køretøjstelefon vælger man sit navn og en valgfri PIN på 4–6 cifre. Den session varer 30 minutter. Et telefonnummer er kun et valgfrit kontaktfelt.",
+        a: "Uden adgangskode, i samme fane: en 6-cifret e-mailkode, et invitationslink fra administratoren eller fingeraftryk eller ansigt (passkey). På en delt køretøjstelefon vælger man sit navn og en valgfri PIN på 4 cifre. Den session varer 30 minutter. En administrator kan oprette en PIN til en person og se den senere på siden Personer, hvis den glemmes. Chaufføren kan skifte sin egen PIN på chaufførsiden. Et telefonnummer er kun et valgfrit kontaktfelt.",
       },
       {
         q: "Hvad ser chaufføren?",
@@ -347,7 +347,7 @@ const FLEETSYNC_PAGE = {
       "Ein 6-stelliger Code kommt per E-Mail und wird im selben Tab eingegeben.",
       "Ein Einladungslink von der Administration.",
       "Fingerabdruck oder Gesicht (Passkey).",
-      "Gemeinsames Fahrzeugtelefon: Namen wählen und optional eine PIN mit 4–6 Ziffern. Die Sitzung dauert 30 Minuten. Eine Administration kann auf der Seite Personen eine PIN erzeugen. Die Fahrerin oder der Fahrer kann sie auf der Fahrerseite in eine eigene ändern.",
+      "Gemeinsames Fahrzeugtelefon: Namen wählen und optional eine PIN mit 4 Ziffern. Die Sitzung dauert 30 Minuten. Eine Administration kann für eine Person eine PIN anlegen und sie später auf der Seite Personen sehen, falls sie vergessen wird. Die Fahrerin oder der Fahrer kann die eigene PIN auf der Fahrerseite ändern.",
       "Eine Telefonnummer ist nur ein optionales Kontaktfeld.",
     ],
     driverHeading: "Fahrer",
@@ -388,7 +388,7 @@ const FLEETSYNC_PAGE = {
       },
       {
         q: "Wie meldet man sich an?",
-        a: "Ohne Passwort, im selben Tab: ein 6-stelliger E-Mail-Code, ein Einladungslink der Administration oder Fingerabdruck oder Gesicht (Passkey). Am gemeinsamen Fahrzeugtelefon wählt man den Namen und optional eine PIN mit 4–6 Ziffern. Diese Sitzung dauert 30 Minuten. Eine Telefonnummer ist nur ein optionales Kontaktfeld.",
+        a: "Ohne Passwort, im selben Tab: ein 6-stelliger E-Mail-Code, ein Einladungslink der Administration oder Fingerabdruck oder Gesicht (Passkey). Am gemeinsamen Fahrzeugtelefon wählt man den Namen und optional eine PIN mit 4 Ziffern. Diese Sitzung dauert 30 Minuten. Eine Administration kann für eine Person eine PIN anlegen und sie später auf der Seite Personen sehen, falls sie vergessen wird. Die Fahrerin oder der Fahrer kann die eigene PIN auf der Fahrerseite ändern. Eine Telefonnummer ist nur ein optionales Kontaktfeld.",
       },
       {
         q: "Was sieht die Fahrerin oder der Fahrer?",
@@ -413,7 +413,7 @@ const FLEETSYNC_PAGE = {
       "Een code van 6 cijfers komt per e-mail en wordt in hetzelfde tabblad ingetypt.",
       "Een uitnodigingslink van de beheerder.",
       "Vingerafdruk of gezicht (passkey).",
-      "Gedeelde voertuigtelefoon: kies je naam en een optionele pincode van 4–6 cijfers. De sessie duurt 30 minuten. Een beheerder kan op de pagina Personen een pincode maken. De bestuurder kan die op de bestuurderspagina in een eigen code wijzigen.",
+      "Gedeelde voertuigtelefoon: kies je naam en een optionele pincode van 4 cijfers. De sessie duurt 30 minuten. Een beheerder kan voor een persoon een pincode maken en die later op de pagina Personen zien als die vergeten is. De bestuurder kan de eigen pincode op de bestuurderspagina wijzigen.",
       "Een telefoonnummer is alleen een optioneel contactveld.",
     ],
     driverHeading: "Bestuurder",
@@ -454,7 +454,7 @@ const FLEETSYNC_PAGE = {
       },
       {
         q: "Hoe log je in?",
-        a: "Zonder wachtwoord, in hetzelfde tabblad: een e-mailcode van 6 cijfers, een uitnodigingslink van de beheerder, of vingerafdruk of gezicht (passkey). Op een gedeelde voertuigtelefoon kies je je naam en een optionele pincode van 4–6 cijfers. Die sessie duurt 30 minuten. Een telefoonnummer is alleen een optioneel contactveld.",
+        a: "Zonder wachtwoord, in hetzelfde tabblad: een e-mailcode van 6 cijfers, een uitnodigingslink van de beheerder, of vingerafdruk of gezicht (passkey). Op een gedeelde voertuigtelefoon kies je je naam en een optionele pincode van 4 cijfers. Die sessie duurt 30 minuten. Een beheerder kan voor een persoon een pincode maken en die later op de pagina Personen zien als die vergeten is. De bestuurder kan de eigen pincode op de bestuurderspagina wijzigen. Een telefoonnummer is alleen een optioneel contactveld.",
       },
       {
         q: "Wat ziet de bestuurder?",
@@ -479,7 +479,7 @@ const FLEETSYNC_PAGE = {
       "Un code à 6 chiffres arrive par e-mail et se saisit dans ce même onglet.",
       "Un lien d’invitation de l’administrateur.",
       "Empreinte ou visage (passkey).",
-      "Téléphone partagé du véhicule : choisir son nom et un code PIN facultatif de 4 à 6 chiffres. La session dure 30 minutes. Un administrateur peut créer un PIN sur la page Personnes. Le conducteur peut le remplacer par le sien sur la page conducteur.",
+      "Téléphone partagé du véhicule : choisir son nom et un code PIN facultatif de 4 chiffres. La session dure 30 minutes. Un administrateur peut créer un PIN pour une personne et le revoir plus tard sur la page Personnes s’il est oublié. Le conducteur peut changer son propre PIN sur la page conducteur.",
       "Un numéro de téléphone n’est qu’un champ de contact facultatif.",
     ],
     driverHeading: "Conducteur",
@@ -520,7 +520,7 @@ const FLEETSYNC_PAGE = {
       },
       {
         q: "Comment se connecte-t-on ?",
-        a: "Sans mot de passe, dans le même onglet : un code e-mail à 6 chiffres, un lien d’invitation de l’administrateur, ou empreinte ou visage (passkey). Sur un téléphone partagé, on choisit son nom et un PIN facultatif de 4 à 6 chiffres. Cette session dure 30 minutes. Un numéro de téléphone n’est qu’un champ de contact facultatif.",
+        a: "Sans mot de passe, dans le même onglet : un code e-mail à 6 chiffres, un lien d’invitation de l’administrateur, ou empreinte ou visage (passkey). Sur un téléphone partagé, on choisit son nom et un PIN facultatif de 4 chiffres. Cette session dure 30 minutes. Un administrateur peut créer un PIN pour une personne et le revoir plus tard sur la page Personnes s’il est oublié. Le conducteur peut changer son propre PIN sur la page conducteur. Un numéro de téléphone n’est qu’un champ de contact facultatif.",
       },
       {
         q: "Que voit le conducteur ?",
@@ -545,7 +545,7 @@ const FLEETSYNC_PAGE = {
       "Un código de 6 dígitos llega por correo y se escribe en esa misma pestaña.",
       "Un enlace de invitación del administrador.",
       "Huella o cara (passkey).",
-      "Teléfono compartido del vehículo: elige tu nombre y un PIN opcional de 4–6 dígitos. La sesión dura 30 minutos. Un administrador puede crear un PIN en la página Personas. El conductor puede cambiarlo por el suyo en la página del conductor.",
+      "Teléfono compartido del vehículo: elige tu nombre y un PIN opcional de 4 dígitos. La sesión dura 30 minutos. Un administrador puede crear un PIN para una persona y verlo más tarde en la página Personas si se olvida. El conductor puede cambiar su propio PIN en la página del conductor.",
       "Un número de teléfono es solo un dato de contacto opcional.",
     ],
     driverHeading: "Conductor",
@@ -586,7 +586,7 @@ const FLEETSYNC_PAGE = {
       },
       {
         q: "¿Cómo se entra?",
-        a: "Sin contraseña, en la misma pestaña: un código de 6 dígitos por correo, un enlace de invitación del administrador, o huella o cara (passkey). En un teléfono compartido se elige el nombre y un PIN opcional de 4–6 dígitos. Esa sesión dura 30 minutos. Un número de teléfono es solo un dato de contacto opcional.",
+        a: "Sin contraseña, en la misma pestaña: un código de 6 dígitos por correo, un enlace de invitación del administrador, o huella o cara (passkey). En un teléfono compartido se elige el nombre y un PIN opcional de 4 dígitos. Esa sesión dura 30 minutos. Un administrador puede crear un PIN para una persona y verlo más tarde en la página Personas si se olvida. El conductor puede cambiar su propio PIN en la página del conductor. Un número de teléfono es solo un dato de contacto opcional.",
       },
       {
         q: "¿Qué ve el conductor?",
@@ -611,7 +611,7 @@ const FLEETSYNC_PAGE = {
       "Um código de 6 dígitos chega por e-mail e é escrito nesse mesmo separador.",
       "Um link de convite do administrador.",
       "Impressão digital ou rosto (passkey).",
-      "Telefone partilhado do veículo: escolha o seu nome e um PIN opcional de 4–6 dígitos. A sessão dura 30 minutos. Um administrador pode criar um PIN na página Pessoas. O motorista pode trocá-lo pelo seu na página do motorista.",
+      "Telefone partilhado do veículo: escolha o seu nome e um PIN opcional de 4 dígitos. A sessão dura 30 minutos. Um administrador pode criar um PIN para uma pessoa e vê-lo mais tarde na página Pessoas, se for esquecido. O motorista pode mudar o seu próprio PIN na página do motorista.",
       "Um número de telefone é apenas um contacto opcional.",
     ],
     driverHeading: "Motorista",
@@ -652,7 +652,7 @@ const FLEETSYNC_PAGE = {
       },
       {
         q: "Como se entra?",
-        a: "Sem palavra-passe, no mesmo separador: um código de 6 dígitos por e-mail, um link de convite do administrador, ou impressão digital ou rosto (passkey). Num telefone partilhado escolhe-se o nome e um PIN opcional de 4–6 dígitos. Essa sessão dura 30 minutos. Um número de telefone é apenas um contacto opcional.",
+        a: "Sem palavra-passe, no mesmo separador: um código de 6 dígitos por e-mail, um link de convite do administrador, ou impressão digital ou rosto (passkey). Num telefone partilhado escolhe-se o nome e um PIN opcional de 4 dígitos. Essa sessão dura 30 minutos. Um administrador pode criar um PIN para uma pessoa e vê-lo mais tarde na página Pessoas, se for esquecido. O motorista pode mudar o seu próprio PIN na página do motorista. Um número de telefone é apenas um contacto opcional.",
       },
       {
         q: "O que vê o motorista?",
@@ -677,7 +677,7 @@ const FLEETSYNC_PAGE = {
       "Un codice di 6 cifre arriva per e-mail e si digita in quella stessa scheda.",
       "Un link di invito dall’amministratore.",
       "Impronta o volto (passkey).",
-      "Telefono condiviso del veicolo: scegli il tuo nome e un PIN facoltativo di 4–6 cifre. La sessione dura 30 minuti. Un amministratore può creare un PIN nella pagina Persone. Il conducente può cambiarlo con il proprio nella pagina conducente.",
+      "Telefono condiviso del veicolo: scegli il tuo nome e un PIN facoltativo di 4 cifre. La sessione dura 30 minuti. Un amministratore può creare un PIN per una persona e rivederlo più tardi nella pagina Persone se viene dimenticato. Il conducente può cambiare il proprio PIN nella pagina conducente.",
       "Un numero di telefono è solo un contatto facoltativo.",
     ],
     driverHeading: "Conducente",
@@ -718,7 +718,7 @@ const FLEETSYNC_PAGE = {
       },
       {
         q: "Come si accede?",
-        a: "Senza password, nella stessa scheda: un codice e-mail di 6 cifre, un link di invito dell’amministratore, oppure impronta o volto (passkey). Sul telefono condiviso si sceglie il nome e un PIN facoltativo di 4–6 cifre. Quella sessione dura 30 minuti. Un numero di telefono è solo un contatto facoltativo.",
+        a: "Senza password, nella stessa scheda: un codice e-mail di 6 cifre, un link di invito dell’amministratore, oppure impronta o volto (passkey). Sul telefono condiviso si sceglie il nome e un PIN facoltativo di 4 cifre. Quella sessione dura 30 minuti. Un amministratore può creare un PIN per una persona e rivederlo più tardi nella pagina Persone se viene dimenticato. Il conducente può cambiare il proprio PIN nella pagina conducente. Un numero di telefono è solo un contatto facoltativo.",
       },
       {
         q: "Cosa vede il conducente?",
@@ -743,7 +743,7 @@ const FLEETSYNC_PAGE = {
       "6-cyfrowy kod przychodzi e-mailem i wpisuje się go w tej samej karcie.",
       "Link zaproszenia od administratora.",
       "Odcisk palca lub twarz (passkey).",
-      "Wspólny telefon pojazdu: wybierz swoje imię i opcjonalny PIN z 4–6 cyfr. Sesja trwa 30 minut. Administrator może utworzyć PIN na stronie Osoby. Kierowca może zmienić go na własny na stronie kierowcy.",
+      "Wspólny telefon pojazdu: wybierz swoje imię i opcjonalny PIN z 4 cyfr. Sesja trwa 30 minut. Administrator może utworzyć PIN dla osoby i zobaczyć go później na stronie Osoby, jeśli zostanie zapomniany. Kierowca może zmienić własny PIN na stronie kierowcy.",
       "Numer telefonu to tylko opcjonalne pole kontaktowe.",
     ],
     driverHeading: "Kierowca",
@@ -784,7 +784,7 @@ const FLEETSYNC_PAGE = {
       },
       {
         q: "Jak się logować?",
-        a: "Bez hasła, w tej samej karcie: 6-cyfrowy kod e-mail, link zaproszenia od administratora albo odcisk palca lub twarz (passkey). Na wspólnym telefonie pojazdu wybiera się imię i opcjonalny PIN z 4–6 cyfr. Ta sesja trwa 30 minut. Numer telefonu to tylko opcjonalne pole kontaktowe.",
+        a: "Bez hasła, w tej samej karcie: 6-cyfrowy kod e-mail, link zaproszenia od administratora albo odcisk palca lub twarz (passkey). Na wspólnym telefonie pojazdu wybiera się imię i opcjonalny PIN z 4 cyfr. Ta sesja trwa 30 minut. Administrator może utworzyć PIN dla osoby i zobaczyć go później na stronie Osoby, jeśli zostanie zapomniany. Kierowca może zmienić własny PIN na stronie kierowcy. Numer telefonu to tylko opcjonalne pole kontaktowe.",
       },
       {
         q: "Co widzi kierowca?",
@@ -809,7 +809,7 @@ const FLEETSYNC_PAGE = {
       "Šestimístný kód přijde e-mailem a zadá se ve stejné kartě.",
       "Odkaz na pozvánku od správce.",
       "Otisk prstu nebo obličej (passkey).",
-      "Sdílený telefon vozidla: vyberte své jméno a volitelný PIN o 4–6 číslicích. Relace trvá 30 minut. Správce může PIN vytvořit na stránce Osoby. Řidič si ho může na stránce řidiče změnit na vlastní.",
+      "Sdílený telefon vozidla: vyberte své jméno a volitelný PIN o 4 číslicích. Relace trvá 30 minut. Správce může osobě vytvořit PIN a později ho vidět na stránce Osoby, když se zapomene. Řidič si může na stránce řidiče změnit vlastní PIN.",
       "Telefonní číslo je jen volitelný kontakt.",
     ],
     driverHeading: "Řidič",
@@ -850,7 +850,7 @@ const FLEETSYNC_PAGE = {
       },
       {
         q: "Jak se přihlásit?",
-        a: "Bez hesla, ve stejné kartě: šestimístný e-mailový kód, odkaz na pozvánku od správce, nebo otisk prstu či obličej (passkey). Na sdíleném telefonu vozidla se vybere jméno a volitelný PIN o 4–6 číslicích. Tato relace trvá 30 minut. Telefonní číslo je jen volitelný kontakt.",
+        a: "Bez hesla, ve stejné kartě: šestimístný e-mailový kód, odkaz na pozvánku od správce, nebo otisk prstu či obličej (passkey). Na sdíleném telefonu vozidla se vybere jméno a volitelný PIN o 4 číslicích. Tato relace trvá 30 minut. Správce může osobě vytvořit PIN a později ho vidět na stránce Osoby, když se zapomene. Řidič si může na stránce řidiče změnit vlastní PIN. Telefonní číslo je jen volitelný kontakt.",
       },
       {
         q: "Co vidí řidič?",
@@ -875,7 +875,7 @@ const FLEETSYNC_PAGE = {
       "メールに届く6桁のコードを、その同じタブに入力します。",
       "管理者からの招待リンク。",
       "指紋または顔（パスキー）。",
-      "共用の車両電話：自分の名前を選び、必要なら4〜6桁のPINを入れます。セッションは30分です。管理者は「担当者」の画面でPINを作れます。運転者は運転者ページで自分のPINに変えられます。",
+      "共用の車両電話：自分の名前を選び、必要なら4桁のPINを入れます。セッションは30分です。管理者は「担当者」の画面でその人のPINを作り、忘れたときに後から見られます。運転者は運転者ページで自分のPINを変えられます。",
       "電話番号は、任意の連絡先項目だけです。",
     ],
     driverHeading: "運転者",
@@ -916,7 +916,7 @@ const FLEETSYNC_PAGE = {
       },
       {
         q: "どうやってログインしますか？",
-        a: "パスワードなしで、同じタブです。メールの6桁コード、管理者の招待リンク、または指紋か顔（パスキー）です。共用の車両電話では名前を選び、必要なら4〜6桁のPINを入れます。そのセッションは30分です。電話番号は任意の連絡先項目だけです。",
+        a: "パスワードなしで、同じタブです。メールの6桁コード、管理者の招待リンク、または指紋か顔（パスキー）です。共用の車両電話では名前を選び、必要なら4桁のPINを入れます。そのセッションは30分です。管理者は「担当者」の画面でその人のPINを作り、忘れたときに後から見られます。運転者は運転者ページで自分のPINを変えられます。電話番号は任意の連絡先項目だけです。",
       },
       {
         q: "運転者には何が見えますか？",
@@ -941,7 +941,7 @@ const FLEETSYNC_PAGE = {
       "이메일로 온 6자리 코드를 그 탭에 입력합니다.",
       "관리자의 초대 링크.",
       "지문 또는 얼굴(패스키).",
-      "공용 차량 전화: 이름을 고르고, 원하면 4–6자리 PIN을 넣습니다. 세션은 30분입니다. 관리자는 사람 화면에서 PIN을 만들 수 있습니다. 운전자는 운전자 화면에서 자기 PIN으로 바꿀 수 있습니다.",
+      "공용 차량 전화: 이름을 고르고, 원하면 4자리 PIN을 넣습니다. 세션은 30분입니다. 관리자는 사람 화면에서 그 사람의 PIN을 만들고, 잊어버린 경우 나중에 볼 수 있습니다. 운전자는 운전자 화면에서 자기 PIN을 바꿀 수 있습니다.",
       "전화번호는 선택 연락처 항목일 뿐입니다.",
     ],
     driverHeading: "운전자",
@@ -982,7 +982,7 @@ const FLEETSYNC_PAGE = {
       },
       {
         q: "어떻게 로그인하나요?",
-        a: "비밀번호 없이, 같은 탭에서입니다. 이메일 6자리 코드, 관리자의 초대 링크, 또는 지문이나 얼굴(패스키)입니다. 공용 차량 전화에서는 이름을 고르고, 원하면 4–6자리 PIN을 넣습니다. 그 세션은 30분입니다. 전화번호는 선택 연락처 항목일 뿐입니다.",
+        a: "비밀번호 없이, 같은 탭에서입니다. 이메일 6자리 코드, 관리자의 초대 링크, 또는 지문이나 얼굴(패스키)입니다. 공용 차량 전화에서는 이름을 고르고, 원하면 4자리 PIN을 넣습니다. 그 세션은 30분입니다. 관리자는 사람 화면에서 그 사람의 PIN을 만들고, 잊어버린 경우 나중에 볼 수 있습니다. 운전자는 운전자 화면에서 자기 PIN을 바꿀 수 있습니다. 전화번호는 선택 연락처 항목일 뿐입니다.",
       },
       {
         q: "운전자에게는 무엇이 보이나요?",
@@ -1007,7 +1007,7 @@ const FLEETSYNC_PAGE = {
       "6 位数字通过电子邮件发来，并在同一个标签页里输入。",
       "管理员发出的邀请链接。",
       "指纹或人脸（通行密钥）。",
-      "共用的车辆电话：选择自己的姓名，也可以填写 4–6 位 PIN。会话为 30 分钟。管理员可以在“人员”页生成 PIN。驾驶员可以在驾驶员页把它改成自己的。",
+      "共用的车辆电话：选择自己的姓名，也可以填写 4 位 PIN。会话为 30 分钟。管理员可以在“人员”页为某人创建 PIN，并在忘记时稍后查看。驾驶员可以在驾驶员页改成自己的 PIN。",
       "电话号码只是可选的联系方式。",
     ],
     driverHeading: "驾驶员",
@@ -1048,7 +1048,7 @@ const FLEETSYNC_PAGE = {
       },
       {
         q: "怎样登录？",
-        a: "没有密码，并且留在同一个标签页：电子邮件里的 6 位数字、管理员的邀请链接，或指纹或人脸（通行密钥）。在共用的车辆电话上，选择姓名，也可以填写 4–6 位 PIN。该会话为 30 分钟。电话号码只是可选的联系方式。",
+        a: "没有密码，并且留在同一个标签页：电子邮件里的 6 位数字、管理员的邀请链接，或指纹或人脸（通行密钥）。在共用的车辆电话上，选择姓名，也可以填写 4 位 PIN。该会话为 30 分钟。管理员可以在“人员”页为某人创建 PIN，并在忘记时稍后查看。驾驶员可以在驾驶员页改成自己的 PIN。电话号码只是可选的联系方式。",
       },
       {
         q: "驾驶员能看到什么？",
