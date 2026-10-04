@@ -47,6 +47,9 @@ const PRICING_PAGE = {
     users: "Käyttäjiä voi olla rajattomasti. Käyttäjämäärästä ei veloiteta.",
     peak: "Lasku perustuu kalenterikuukauden suurimpaan yksikkömäärään.",
     trial: "30 päivän ilmainen kokeilu. Maksukorttia ei tarvita. Laskuri näyttää hinnan kokeilun jälkeen.",
+    archived: "Arkistoitua yksikköä ei laskuteta. Sen historia ja laskut säilyvät. Älä laske arkistoituja yksiköitä laskuriin.",
+    invoice: "Maksu on kuukausilasku tilisiirtona.",
+    readOnly: "Jos kokeilu päättyy eikä maksua ole tehty, tai jos lasku on maksamatta 7 päivää eräpäivän jälkeen, tili on vain luku -tilassa. Palvelun voi irtisanoa milloin tahansa.",
     cta: "Kokeile ilmaiseksi 30 päivää",
     terms: "Käyttöehdot",
     calcTitle: "Kuukausihinnan laskuri",
@@ -113,6 +116,9 @@ const PRICING_PAGE = {
     users: "Users are unlimited. There is no charge per user.",
     peak: "The bill uses the highest unit count in that calendar month.",
     trial: "30-day free trial. No card needed. The calculator shows the price after the trial.",
+    archived: "An archived unit is not billed. Its history and invoices stay. Do not count archived units in the calculator.",
+    invoice: "The charge is a monthly invoice paid by bank transfer.",
+    readOnly: "If the trial ends with no payment, or if an invoice is unpaid 7 days after the due date, the account is read-only. You can cancel at any time.",
     cta: "Try free for 30 days",
     terms: "Terms of use",
     calcTitle: "Monthly price calculator",
@@ -174,6 +180,9 @@ const PRICING_PAGE = {
     users: "Antalet användare är obegränsat. Det finns ingen avgift per användare.",
     peak: "Fakturan utgår från det högsta enhetsantalet under kalendermånaden.",
     trial: "30 dagars gratis provperiod. Inget kort behövs. Räknaren visar priset efter provperioden.",
+    archived: "En arkiverad enhet faktureras inte. Dess historik och fakturor behålls. Räkna inte med arkiverade enheter i räknaren.",
+    invoice: "Avgiften är en månadsfaktura som betalas med banköverföring.",
+    readOnly: "Om provperioden tar slut utan betalning, eller om en faktura är obetald 7 dagar efter förfallodagen, är kontot skrivskyddat. Tjänsten kan sägas upp när som helst.",
     cta: "Prova gratis i 30 dagar",
     terms: "Användarvillkor",
     calcTitle: "Räknare för månadspris",
@@ -232,6 +241,9 @@ const PRICING_PAGE = {
     users: "Antall brukere er ubegrenset. Det er ingen pris per bruker.",
     peak: "Fakturaen bruker det høyeste enhetsantallet i kalendermåneden.",
     trial: "30 dagers gratis prøveperiode. Ingen kort nødvendig. Kalkulatoren viser prisen etter prøveperioden.",
+    archived: "En arkivert enhet faktureres ikke. Historikk og fakturaer beholdes. Ikke ta med arkiverte enheter i kalkulatoren.",
+    invoice: "Betalingen er en månedsfaktura som betales med bankoverføring.",
+    readOnly: "Hvis prøven slutter uten betaling, eller hvis en faktura er ubetalt 7 dager etter forfall, er kontoen skrivebeskyttet. Tjenesten kan sies opp når som helst.",
     cta: "Prøv gratis i 30 dager",
     terms: "Vilkår",
     calcTitle: "Kalkulator for månedspris",
@@ -290,6 +302,9 @@ const PRICING_PAGE = {
     users: "Antallet af brugere er ubegrænset. Der er ingen pris pr. bruger.",
     peak: "Regningen bruger det højeste enhedstal i kalendermåneden.",
     trial: "30 dages gratis prøve. Intet kort nødvendigt. Beregneren viser prisen efter prøven.",
+    archived: "En arkiveret enhed faktureres ikke. Historik og fakturaer beholdes. Tæl ikke arkiverede enheder med i beregneren.",
+    invoice: "Betalingen er en månedsfaktura, der betales med bankoverførsel.",
+    readOnly: "Hvis prøven slutter uden betaling, eller hvis en faktura er ubetalt 7 dage efter forfald, er kontoen skrivebeskyttet. Tjenesten kan opsiges når som helst.",
     cta: "Prøv gratis i 30 dage",
     terms: "Vilkår",
     calcTitle: "Beregner til månedspris",
@@ -348,6 +363,9 @@ const PRICING_PAGE = {
     users: "Die Zahl der Nutzer ist unbegrenzt. Es gibt keinen Preis je Nutzer.",
     peak: "Die Rechnung verwendet die höchste Einheitenanzahl im Kalendermonat.",
     trial: "30 Tage kostenlos testen. Keine Karte nötig. Der Rechner zeigt den Preis nach der Testphase.",
+    archived: "Eine archivierte Einheit wird nicht berechnet. Historie und Rechnungen bleiben. Archivierte Einheiten nicht in den Rechner eintragen.",
+    invoice: "Die Zahlung ist eine Monatsrechnung per Banküberweisung.",
+    readOnly: "Endet die Testphase ohne Zahlung, oder ist eine Rechnung 7 Tage nach dem Fälligkeitsdatum unbezahlt, ist das Konto nur lesbar. Der Dienst kann jederzeit gekündigt werden.",
     cta: "30 Tage kostenlos testen",
     terms: "Nutzungsbedingungen",
     calcTitle: "Rechner für den Monatspreis",
@@ -406,6 +424,9 @@ const PRICING_PAGE = {
     users: "Het aantal gebruikers is onbeperkt. Er is geen prijs per gebruiker.",
     peak: "De rekening gebruikt het hoogste aantal eenheden in die kalendermaand.",
     trial: "30 dagen gratis proberen. Geen kaart nodig. De rekenhulp toont de prijs na de proefperiode.",
+    archived: "Een gearchiveerde eenheid wordt niet gefactureerd. Geschiedenis en facturen blijven bewaard. Tel gearchiveerde eenheden niet mee in de rekenhulp.",
+    invoice: "De betaling is een maandfactuur via bankoverschrijving.",
+    readOnly: "Eindigt de proef zonder betaling, of is een factuur 7 dagen na de vervaldatum onbetaald, dan is het account alleen-lezen. De dienst kan op elk moment worden opgezegd.",
     cta: "30 dagen gratis proberen",
     terms: "Gebruiksvoorwaarden",
     calcTitle: "Rekenhulp voor de maandprijs",
@@ -464,6 +485,9 @@ const PRICING_PAGE = {
     users: "Le nombre d’utilisateurs est illimité. Il n’y a pas de prix par utilisateur.",
     peak: "La facture utilise le nombre d’unités le plus élevé du mois civil.",
     trial: "Essai gratuit de 30 jours. Aucune carte demandée. Le calculateur montre le prix après l’essai.",
+    archived: "Une unité archivée n’est pas facturée. L’historique et les factures sont conservés. Ne comptez pas les unités archivées dans le calculateur.",
+    invoice: "Le paiement est une facture mensuelle par virement bancaire.",
+    readOnly: "Si l’essai se termine sans paiement, ou si une facture est impayée 7 jours après l’échéance, le compte passe en lecture seule. Le service peut être résilié à tout moment.",
     cta: "Essayer gratuitement 30 jours",
     terms: "Conditions d’utilisation",
     calcTitle: "Calculateur de prix mensuel",
@@ -522,6 +546,9 @@ const PRICING_PAGE = {
     users: "Los usuarios son ilimitados. No hay un precio por usuario.",
     peak: "La factura usa el mayor número de unidades de ese mes natural.",
     trial: "Prueba gratis de 30 días. No hace falta tarjeta. La calculadora muestra el precio después de la prueba.",
+    archived: "Una unidad archivada no se factura. El historial y las facturas se conservan. No cuente las unidades archivadas en la calculadora.",
+    invoice: "El pago es una factura mensual por transferencia bancaria.",
+    readOnly: "Si la prueba termina sin pago, o si una factura sigue impagada 7 días después del vencimiento, la cuenta queda en solo lectura. El servicio se puede cancelar en cualquier momento.",
     cta: "Probar gratis 30 días",
     terms: "Condiciones de uso",
     calcTitle: "Calculadora del precio mensual",
@@ -580,6 +607,9 @@ const PRICING_PAGE = {
     users: "Os usuários são ilimitados. Não há preço por usuário.",
     peak: "A cobrança usa a maior quantidade de unidades daquele mês.",
     trial: "Teste grátis de 30 dias. Não é preciso cartão. A calculadora mostra o preço depois do teste.",
+    archived: "Uma unidade arquivada não é faturada. O histórico e as faturas ficam guardados. Não conte unidades arquivadas na calculadora.",
+    invoice: "O pagamento é uma fatura mensal por transferência bancária.",
+    readOnly: "Se o teste terminar sem pagamento, ou se uma fatura continuar por pagar 7 dias após o vencimento, a conta fica só de leitura. O serviço pode ser cancelado a qualquer momento.",
     cta: "Testar grátis por 30 dias",
     terms: "Termos de uso",
     calcTitle: "Calculadora do preço mensal",
@@ -638,6 +668,9 @@ const PRICING_PAGE = {
     users: "Gli utenti sono illimitati. Non c’è un prezzo per utente.",
     peak: "La fattura usa il numero di unità più alto di quel mese di calendario.",
     trial: "Prova gratuita di 30 giorni. Nessuna carta richiesta. Il calcolatore mostra il prezzo dopo la prova.",
+    archived: "Un’unità archiviata non viene fatturata. Storico e fatture restano. Non contare le unità archiviate nel calcolatore.",
+    invoice: "Il pagamento è una fattura mensile con bonifico bancario.",
+    readOnly: "Se la prova finisce senza pagamento, o se una fattura resta non pagata 7 giorni dopo la scadenza, l’account è in sola lettura. Il servizio si può disdire in qualsiasi momento.",
     cta: "Prova gratis per 30 giorni",
     terms: "Condizioni d’uso",
     calcTitle: "Calcolatore del prezzo mensile",
@@ -696,6 +729,9 @@ const PRICING_PAGE = {
     users: "Liczba użytkowników jest nieograniczona. Nie ma opłaty za użytkownika.",
     peak: "Rachunek używa największej liczby jednostek w danym miesiącu kalendarzowym.",
     trial: "30 dni bezpłatnie. Karta nie jest potrzebna. Kalkulator pokazuje cenę po okresie próbnym.",
+    archived: "Zarchiwizowana jednostka nie jest rozliczana. Historia i faktury zostają. Nie wliczaj zarchiwizowanych jednostek do kalkulatora.",
+    invoice: "Płatność to faktura miesięczna płacona przelewem bankowym.",
+    readOnly: "Jeśli okres próbny kończy się bez płatności albo faktura jest niezapłacona 7 dni po terminie, konto jest tylko do odczytu. Usługę można wypowiedzieć w dowolnej chwili.",
     cta: "Wypróbuj bezpłatnie przez 30 dni",
     terms: "Regulamin",
     calcTitle: "Kalkulator ceny miesięcznej",
@@ -754,6 +790,9 @@ const PRICING_PAGE = {
     users: "Počet uživatelů není omezen. Za uživatele se nic neúčtuje.",
     peak: "Faktura používá nejvyšší počet jednotek v daném kalendářním měsíci.",
     trial: "30 dní zdarma. Karta není potřeba. Kalkulačka ukazuje cenu po zkušební době.",
+    archived: "Archivovaná jednotka se neúčtuje. Historie a faktury zůstanou. Archivované jednotky do kalkulačky nezadávejte.",
+    invoice: "Platba je měsíční faktura placená bankovním převodem.",
+    readOnly: "Když zkušební doba skončí bez platby, nebo je faktura nezaplacená 7 dní po splatnosti, účet je jen ke čtení. Službu lze kdykoli zrušit.",
     cta: "Vyzkoušet zdarma na 30 dní",
     terms: "Podmínky použití",
     calcTitle: "Kalkulačka měsíční ceny",
@@ -812,6 +851,9 @@ const PRICING_PAGE = {
     users: "ユーザー数は無制限です。ユーザーごとの料金はありません。",
     peak: "請求は、その暦月の最大単位数に基づきます。",
     trial: "30日間の無料試用。カードは不要です。計算機は試用後の料金を表示します。",
+    archived: "アーカイブした単位は請求しません。履歴と請求書は残ります。計算機にはアーカイブした単位を入れないでください。",
+    invoice: "支払いは、銀行振込の月次請求書です。",
+    readOnly: "試用が終わって支払いがない場合、または請求書の期限から7日過ぎても未払いの場合、アカウントは閲覧のみになります。いつでも解約できます。",
     cta: "30日間無料で試す",
     terms: "利用規約",
     calcTitle: "月額の計算機",
@@ -870,6 +912,9 @@ const PRICING_PAGE = {
     users: "사용자 수는 제한이 없습니다. 사용자별 요금은 없습니다.",
     peak: "청구는 해당 달의 최대 단위 수를 기준으로 합니다.",
     trial: "30일 무료 체험. 카드는 필요 없습니다. 계산기는 체험 이후 요금을 보여 줍니다.",
+    archived: "보관 처리한 단위는 청구하지 않습니다. 이력과 청구서는 남습니다. 계산기에는 보관 처리한 단위를 넣지 마세요.",
+    invoice: "결제는 계좌이체로 내는 월 청구서입니다.",
+    readOnly: "체험이 끝나고 결제가 없거나, 청구서 만기 후 7일이 지나도 미납이면 계정은 읽기 전용입니다. 언제든 해지할 수 있습니다.",
     cta: "30일 무료로 사용해 보기",
     terms: "이용약관",
     calcTitle: "월 요금 계산기",
@@ -928,6 +973,9 @@ const PRICING_PAGE = {
     users: "用户数量不限。不按用户收费。",
     peak: "账单按该自然月的最高单位数计算。",
     trial: "30 天免费试用。不需要银行卡。计算器显示试用结束后的价格。",
+    archived: "已归档的单位不计费。历史和发票会保留。请不要把已归档的单位填进计算器。",
+    invoice: "付款是以银行转账支付的月度发票。",
+    readOnly: "如果试用结束而没有付款，或者发票在到期日后 7 天仍未支付，账户变为只读。可以随时取消。",
     cta: "免费试用 30 天",
     terms: "使用条款",
     calcTitle: "月费计算器",
@@ -1088,7 +1136,10 @@ function renderPricingPage(lang) {
       <li>${escapePriceHtml(page.mounted)}</li>
       <li>${escapePriceHtml(page.users)}</li>
       <li>${escapePriceHtml(page.peak)}</li>
+      <li>${escapePriceHtml(page.archived)}</li>
+      <li>${escapePriceHtml(page.invoice)}</li>
       <li>${escapePriceHtml(page.trial)}</li>
+      <li>${escapePriceHtml(page.readOnly)}</li>
     </ul>
     <h2>${escapePriceHtml(page.billingTitle)}</h2>
     <p class="billing-note">${escapePriceHtml(page.billingNote)} <a href="kayttoehdot.html">${escapePriceHtml(page.billingLink)}</a></p>
@@ -1123,7 +1174,7 @@ function renderPricingPage(lang) {
         </div>
       </div>
       <div id="calc-result" aria-live="polite"></div>
-      <p class="calc-note">${escapePriceHtml(page.vatNote)} ${escapePriceHtml(page.mounted)} ${escapePriceHtml(page.peak)}</p>
+      <p class="calc-note">${escapePriceHtml(page.vatNote)} ${escapePriceHtml(page.mounted)} ${escapePriceHtml(page.peak)} ${escapePriceHtml(page.archived)}</p>
     </div>
     <h2>${escapePriceHtml(page.examplesTitle)}</h2>
     <p class="vat-note">${escapePriceHtml(page.vatNote)}</p>

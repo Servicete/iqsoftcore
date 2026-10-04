@@ -677,6 +677,12 @@ a:hover {
   letter-spacing: -0.02em;
 }
 
+.product-page h3 {
+  margin: 1.15rem 0 0.35rem;
+  font-size: 1.05rem;
+  letter-spacing: -0.01em;
+}
+
 .product-page p,
 .product-page li,
 .pricing-page p,
