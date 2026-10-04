@@ -8,7 +8,7 @@ const PRIVACY_POLICIES = {
       metaTitle: "IQSoftCore – Tietosuojakäytäntö",
       metaDescription: "IQSoftCoren yritystason tietosuojakäytäntö ja sovelluskohtaiset lausekkeet.",
       title: "Tietosuojakäytäntö",
-      updated: "Viimeksi päivitetty: 2026-08-05",
+      updated: "Viimeksi päivitetty: 2026-10-04",
       sections: [
         {
           heading: "1. Yleistä",
@@ -27,7 +27,25 @@ const PRIVACY_POLICIES = {
         {
           heading: "3. Sovellukset",
           paragraphs: [
-            "Useimmat IQSoftCore-sovellukset on suunniteltu siten, että data säilyy käyttäjän omalla laitteella. Sovelluskohtaiset yksityiskohdat löytyvät kunkin sovelluksen omasta tietosuojalausekkeesta.",
+            "Tuntilappu ja osa muista sovelluksista on suunniteltu niin, että data säilyy käyttäjän omalla laitteella. iqFleetSync on verkkopalvelu, ja sen tiedot kuvataan alla. Sovelluskohtaiset lausekkeet löytyvät myös alempaa.",
+          ],
+        },
+        {
+          id: "iqfleetsync",
+          heading: "iqFleetSync",
+          paragraphs: [
+            "iqFleetSync on verkkopalvelu osoitteessa fleetsync.iqsoftcore.fi. Asiakasyrityksen kalusto- ja käyttäjätiedot tallennetaan palveluun.",
+            "Kun IqSoftCore käsittelee näitä tietoja asiakkaan lukuun, IqSoftCore on käsittelijä ja asiakas on rekisterinpitäjä. IqSoftCore on rekisterinpitäjä omien tili- ja laskutustietojensa osalta.",
+          ],
+          bullets: [
+            "nimi ja sähköposti",
+            "valinnainen puhelinnumero vain yhteystietona; sitä ei käytetä kirjautumiseen",
+            "kirjautuminen sähköpostikoodilla, kutsulinkillä, passkeyllä tai jaetun puhelimen nimellä ja valinnaisella 4 numeron PIN-koodilla",
+            "asiakkaan tallentamat kalusto-, ilmoitus- ja huoltotiedot, jos niissä on henkilötietoja",
+            "ilmoitukset sähköpostilla, sovelluksessa tai selaimen ilmoituksena, jos käyttäjä sallii sen",
+          ],
+          after: [
+            "Asiakas voi viedä tiedot ja anonymisoida henkilötiedot palvelussa. Pyynnön voi lähettää myös osoitteeseen info@iqsoftcore.fi. Tietoja ei myydä.",
           ],
         },
         {
@@ -46,7 +64,7 @@ const PRIVACY_POLICIES = {
       metaTitle: "IQSoftCore – Privacy Policy",
       metaDescription: "IQSoftCore company privacy policy and app-specific statements.",
       title: "Privacy Policy",
-      updated: "Last updated: 2026-08-05",
+      updated: "Last updated: 2026-10-04",
       sections: [
         {
           heading: "1. General",
@@ -65,7 +83,25 @@ const PRIVACY_POLICIES = {
         {
           heading: "3. Applications",
           paragraphs: [
-            "Most IQSoftCore apps are designed so that data stays on the user’s own device. App-specific details are available in each app’s own privacy policy.",
+            "Tuntilappu and some other apps are designed so that data stays on the user’s own device. iqFleetSync is a web service, and its data is described below. App-specific statements are also listed further down.",
+          ],
+        },
+        {
+          id: "iqfleetsync",
+          heading: "iqFleetSync",
+          paragraphs: [
+            "iqFleetSync is a web service at fleetsync.iqsoftcore.fi. The customer company’s fleet and user data is stored in the service.",
+            "When IqSoftCore processes that data for the customer, IqSoftCore is the processor and the customer is the controller. IqSoftCore is the controller of its own account and billing data.",
+          ],
+          bullets: [
+            "name and email",
+            "an optional phone number used only as a contact field; it is not used to sign in",
+            "sign-in by email code, invite link, passkey, or a name and optional 4-digit PIN on a shared phone",
+            "fleet, report, and maintenance data the customer stores, where it contains personal data",
+            "notifications by email, in the app, or as a browser notification if the user allows it",
+          ],
+          after: [
+            "The customer can export data and anonymise personal data in the service. A request can also be sent to info@iqsoftcore.fi. The data is not sold.",
           ],
         },
         {
@@ -84,7 +120,7 @@ const PRIVACY_POLICIES = {
       metaTitle: "IQSoftCore – Integritetspolicy",
       metaDescription: "IQSoftCores företagsnivå-integritetspolicy och app-specifika villkor.",
       title: "Integritetspolicy",
-      updated: "Senast uppdaterad: 2026-08-05",
+      updated: "Senast uppdaterad: 2026-10-04",
       sections: [
         {
           heading: "1. Allmänt",
@@ -103,7 +139,25 @@ const PRIVACY_POLICIES = {
         {
           heading: "3. Appar",
           paragraphs: [
-            "De flesta IQSoftCore-appar är utformade så att data stannar på användarens egen enhet. App-specifika detaljer finns i respektive apps integritetspolicy.",
+            "Tuntilappu och en del andra appar är utformade så att data stannar på användarens egen enhet. iqFleetSync är en webbtjänst, och dess uppgifter beskrivs nedan. App-specifika texter finns också längre ner.",
+          ],
+        },
+        {
+          id: "iqfleetsync",
+          heading: "iqFleetSync",
+          paragraphs: [
+            "iqFleetSync är en webbtjänst på fleetsync.iqsoftcore.fi. Kundföretagets flott- och användaruppgifter sparas i tjänsten.",
+            "När IqSoftCore behandlar dessa uppgifter för kunden är IqSoftCore personuppgiftsbiträde och kunden personuppgiftsansvarig. IqSoftCore är ansvarig för sina egna konto- och fakturauppgifter.",
+          ],
+          bullets: [
+            "namn och e-post",
+            "ett valfritt telefonnummer bara som kontaktfält; det används inte för inloggning",
+            "inloggning med e-postkod, inbjudningslänk, passkey eller namn och valfri PIN på 4 siffror på en delad telefon",
+            "flott-, rapport- och underhållsuppgifter som kunden sparar, om de innehåller personuppgifter",
+            "aviseringar via e-post, i appen eller som webbläsaravisering om användaren tillåter det",
+          ],
+          after: [
+            "Kunden kan exportera uppgifter och anonymisera personuppgifter i tjänsten. En begäran kan också skickas till info@iqsoftcore.fi. Uppgifterna säljs inte.",
           ],
         },
         {
@@ -122,7 +176,7 @@ const PRIVACY_POLICIES = {
       metaTitle: "IQSoftCore – Personvernerklæring",
       metaDescription: "IQSoftCores personvernerklæring på bedriftsnivå og app-spesifikke erklæringer.",
       title: "Personvernerklæring",
-      updated: "Sist oppdatert: 2026-08-05",
+      updated: "Sist oppdatert: 2026-10-04",
       sections: [
         {
           heading: "1. Generelt",
@@ -141,7 +195,25 @@ const PRIVACY_POLICIES = {
         {
           heading: "3. Apper",
           paragraphs: [
-            "De fleste IQSoftCore-apper er laget slik at data blir på brukerens egen enhet. App-spesifikke detaljer finnes i hver apps egen personvernerklæring.",
+            "Tuntilappu og noen andre apper er laget slik at data blir på brukerens egen enhet. iqFleetSync er en nettjeneste, og opplysningene om den står nedenfor. App-spesifikke tekster finnes også lenger ned.",
+          ],
+        },
+        {
+          id: "iqfleetsync",
+          heading: "iqFleetSync",
+          paragraphs: [
+            "iqFleetSync er en nettjeneste på fleetsync.iqsoftcore.fi. Kundebedriftens flåte- og brukeropplysninger lagres i tjenesten.",
+            "Når IqSoftCore behandler disse opplysningene for kunden, er IqSoftCore databehandler og kunden behandlingsansvarlig. IqSoftCore er behandlingsansvarlig for egne konto- og fakturaopplysninger.",
+          ],
+          bullets: [
+            "navn og e-post",
+            "et valgfritt telefonnummer bare som kontaktfelt; det brukes ikke til innlogging",
+            "innlogging med e-postkode, invitasjonslenke, passkey eller navn og valgfri PIN på 4 sifre på en delt telefon",
+            "flåte-, rapport- og vedlikeholdsdata kunden lagrer, hvis de inneholder personopplysninger",
+            "varsler på e-post, i appen eller som nettleservarsel hvis brukeren tillater det",
+          ],
+          after: [
+            "Kunden kan eksportere data og anonymisere personopplysninger i tjenesten. En forespørsel kan også sendes til info@iqsoftcore.fi. Opplysningene selges ikke.",
           ],
         },
         {
@@ -160,7 +232,7 @@ const PRIVACY_POLICIES = {
       metaTitle: "IQSoftCore – Privatlivspolitik",
       metaDescription: "IQSoftCores privatlivspolitik på virksomhedsniveau og app-specifikke erklæringer.",
       title: "Privatlivspolitik",
-      updated: "Senest opdateret: 2026-08-05",
+      updated: "Senest opdateret: 2026-10-04",
       sections: [
         {
           heading: "1. Generelt",
@@ -179,7 +251,25 @@ const PRIVACY_POLICIES = {
         {
           heading: "3. Apps",
           paragraphs: [
-            "De fleste IQSoftCore-apps er designet, så data forbliver på brugerens egen enhed. App-specifikke detaljer findes i hver apps egen privatlivspolitik.",
+            "Tuntilappu og nogle andre apps er designet, så data forbliver på brugerens egen enhed. iqFleetSync er en webtjeneste, og dens oplysninger beskrives nedenfor. App-specifikke tekster findes også længere nede.",
+          ],
+        },
+        {
+          id: "iqfleetsync",
+          heading: "iqFleetSync",
+          paragraphs: [
+            "iqFleetSync er en webtjeneste på fleetsync.iqsoftcore.fi. Kundens flåde- og brugeroplysninger gemmes i tjenesten.",
+            "Når IqSoftCore behandler disse oplysninger for kunden, er IqSoftCore databehandler, og kunden er dataansvarlig. IqSoftCore er dataansvarlig for egne konto- og fakturaoplysninger.",
+          ],
+          bullets: [
+            "navn og e-mail",
+            "et valgfrit telefonnummer kun som kontaktfelt; det bruges ikke til login",
+            "login med e-mailkode, invitationslink, passkey eller navn og valgfri PIN på 4 cifre på en delt telefon",
+            "flåde-, rapport- og vedligeholdelsesdata som kunden gemmer, hvis de indeholder personoplysninger",
+            "beskeder via e-mail, i appen eller som browserbesked, hvis brugeren tillader det",
+          ],
+          after: [
+            "Kunden kan eksportere data og anonymisere personoplysninger i tjenesten. En anmodning kan også sendes til info@iqsoftcore.fi. Oplysningerne sælges ikke.",
           ],
         },
         {
@@ -198,7 +288,7 @@ const PRIVACY_POLICIES = {
       metaTitle: "IQSoftCore – Datenschutzerklärung",
       metaDescription: "Unternehmensbezogene Datenschutzerklärung von IQSoftCore und app-spezifische Hinweise.",
       title: "Datenschutzerklärung",
-      updated: "Zuletzt aktualisiert: 2026-08-05",
+      updated: "Zuletzt aktualisiert: 2026-10-04",
       sections: [
         {
           heading: "1. Allgemeines",
@@ -217,7 +307,25 @@ const PRIVACY_POLICIES = {
         {
           heading: "3. Apps",
           paragraphs: [
-            "Die meisten IQSoftCore-Apps sind so gestaltet, dass Daten auf dem Gerät des Nutzers bleiben. App-spezifische Details finden Sie in der jeweiligen Datenschutzerklärung der App.",
+            "Tuntilappu und einige andere Apps sind so gestaltet, dass Daten auf dem Gerät des Nutzers bleiben. iqFleetSync ist ein Webdienst, und seine Daten werden unten beschrieben. App-spezifische Texte stehen auch weiter unten.",
+          ],
+        },
+        {
+          id: "iqfleetsync",
+          heading: "iqFleetSync",
+          paragraphs: [
+            "iqFleetSync ist ein Webdienst unter fleetsync.iqsoftcore.fi. Fuhrpark- und Benutzerdaten des Kundenunternehmens werden im Dienst gespeichert.",
+            "Wenn IqSoftCore diese Daten für den Kunden verarbeitet, ist IqSoftCore Auftragsverarbeiter und der Kunde Verantwortlicher. IqSoftCore ist Verantwortlicher der eigenen Konto- und Rechnungsdaten.",
+          ],
+          bullets: [
+            "Name und E-Mail",
+            "eine optionale Telefonnummer nur als Kontaktfeld; sie wird nicht zur Anmeldung verwendet",
+            "Anmeldung mit E-Mail-Code, Einladungslink, Passkey oder Name und optionaler vierstelliger PIN an einem gemeinsamen Telefon",
+            "Fuhrpark-, Meldungs- und Wartungsdaten, die der Kunde speichert, soweit sie personenbezogene Daten enthalten",
+            "Benachrichtigungen per E-Mail, in der App oder als Browser-Hinweis, wenn der Nutzer das erlaubt",
+          ],
+          after: [
+            "Der Kunde kann Daten exportieren und personenbezogene Daten im Dienst anonymisieren. Eine Anfrage kann auch an info@iqsoftcore.fi gesendet werden. Die Daten werden nicht verkauft.",
           ],
         },
         {
@@ -236,7 +344,7 @@ const PRIVACY_POLICIES = {
       metaTitle: "IQSoftCore – Política de privacidad",
       metaDescription: "Política de privacidad corporativa de IQSoftCore y declaraciones por aplicación.",
       title: "Política de privacidad",
-      updated: "Última actualización: 2026-08-05",
+      updated: "Última actualización: 2026-10-04",
       sections: [
         {
           heading: "1. General",
@@ -255,7 +363,25 @@ const PRIVACY_POLICIES = {
         {
           heading: "3. Aplicaciones",
           paragraphs: [
-            "La mayoría de las apps de IQSoftCore están diseñadas para que los datos permanezcan en el dispositivo del usuario. Los detalles específicos están en la política de cada app.",
+            "Tuntilappu y algunas otras apps están diseñadas para que los datos permanezcan en el dispositivo del usuario. iqFleetSync es un servicio web, y sus datos se describen abajo. Los textos de cada app están también más abajo.",
+          ],
+        },
+        {
+          id: "iqfleetsync",
+          heading: "iqFleetSync",
+          paragraphs: [
+            "iqFleetSync es un servicio web en fleetsync.iqsoftcore.fi. Los datos de flota y de usuarios de la empresa cliente se guardan en el servicio.",
+            "Cuando IqSoftCore trata esos datos por cuenta del cliente, IqSoftCore es el encargado y el cliente es el responsable. IqSoftCore es responsable de sus propios datos de cuenta y de facturación.",
+          ],
+          bullets: [
+            "nombre y correo",
+            "un número de teléfono opcional usado solo como contacto; no se usa para entrar",
+            "acceso con código de correo, enlace de invitación, passkey, o nombre y PIN opcional de 4 dígitos en un teléfono compartido",
+            "datos de flota, avisos y mantenimiento que guarda el cliente, si contienen datos personales",
+            "avisos por correo, dentro de la aplicación o del navegador si el usuario lo permite",
+          ],
+          after: [
+            "El cliente puede exportar los datos y anonimizar los datos personales en el servicio. La solicitud también se puede enviar a info@iqsoftcore.fi. Los datos no se venden.",
           ],
         },
         {
@@ -274,7 +400,7 @@ const PRIVACY_POLICIES = {
       metaTitle: "IQSoftCore – Informativa sulla privacy",
       metaDescription: "Informativa privacy aziendale di IQSoftCore e dichiarazioni per applicazione.",
       title: "Informativa sulla privacy",
-      updated: "Ultimo aggiornamento: 2026-08-05",
+      updated: "Ultimo aggiornamento: 2026-10-04",
       sections: [
         {
           heading: "1. Generale",
@@ -293,7 +419,25 @@ const PRIVACY_POLICIES = {
         {
           heading: "3. Applicazioni",
           paragraphs: [
-            "La maggior parte delle app IQSoftCore è progettata affinché i dati restino sul dispositivo dell’utente. I dettagli specifici sono nell’informativa di ciascuna app.",
+            "Tuntilappu e alcune altre app sono progettate affinché i dati restino sul dispositivo dell’utente. iqFleetSync è un servizio web e i suoi dati sono descritti sotto. I testi di ogni app sono anche più in basso.",
+          ],
+        },
+        {
+          id: "iqfleetsync",
+          heading: "iqFleetSync",
+          paragraphs: [
+            "iqFleetSync è un servizio web su fleetsync.iqsoftcore.fi. I dati di flotta e degli utenti dell’azienda cliente sono salvati nel servizio.",
+            "Quando IqSoftCore tratta questi dati per conto del cliente, IqSoftCore è il responsabile del trattamento per conto terzi e il cliente è il titolare. IqSoftCore è titolare dei propri dati di account e di fatturazione.",
+          ],
+          bullets: [
+            "nome ed e-mail",
+            "un numero di telefono facoltativo usato solo come contatto; non si usa per accedere",
+            "accesso con codice e-mail, link di invito, passkey, oppure nome e PIN facoltativo di 4 cifre su un telefono condiviso",
+            "dati di flotta, segnalazioni e manutenzione salvati dal cliente, se contengono dati personali",
+            "notifiche per e-mail, nell’app o dal browser se l’utente lo consente",
+          ],
+          after: [
+            "Il cliente può esportare i dati e anonimizzare i dati personali nel servizio. La richiesta si può inviare anche a info@iqsoftcore.fi. I dati non sono venduti.",
           ],
         },
         {
@@ -312,7 +456,7 @@ const PRIVACY_POLICIES = {
       metaTitle: "IQSoftCore – プライバシーポリシー",
       metaDescription: "IQSoftCoreの企業向けプライバシーポリシーとアプリ別方針。",
       title: "プライバシーポリシー",
-      updated: "最終更新日: 2026-08-05",
+      updated: "最終更新日: 2026-10-04",
       sections: [
         {
           heading: "1. 概要",
@@ -331,7 +475,25 @@ const PRIVACY_POLICIES = {
         {
           heading: "3. アプリケーション",
           paragraphs: [
-            "IQSoftCoreの多くのアプリは、データがユーザー自身の端末に残るよう設計されています。詳細は各アプリのプライバシーポリシーをご覧ください。",
+            "Tuntilappu と一部のアプリは、データがユーザー自身の端末に残るよう設計されています。iqFleetSync はウェブサービスで、そのデータは下に記載します。アプリごとの文言も下にあります。",
+          ],
+        },
+        {
+          id: "iqfleetsync",
+          heading: "iqFleetSync",
+          paragraphs: [
+            "iqFleetSync は fleetsync.iqsoftcore.fi のウェブサービスです。顧客企業の車両データとユーザーデータはサービスに保存されます。",
+            "IqSoftCore がこれらのデータを顧客のために扱うとき、IqSoftCore は処理者、顧客は管理者です。IqSoftCore は自社のアカウントと請求データの管理者です。",
+          ],
+          bullets: [
+            "氏名とメール",
+            "連絡先としてだけの任意の電話番号。ログインには使いません",
+            "メールコード、招待リンク、パスキー、または共用電話の氏名と任意の4桁のPINでのログイン",
+            "顧客が保存する車両、報告、整備のデータ（個人データを含む場合）",
+            "ユーザーが許可した場合の、メール、アプリ内、またはブラウザの通知",
+          ],
+          after: [
+            "顧客はサービス内でデータを書き出し、個人データを匿名化できます。依頼は info@iqsoftcore.fi にも送れます。データは販売しません。",
           ],
         },
         {
@@ -350,7 +512,7 @@ const PRIVACY_POLICIES = {
       metaTitle: "IQSoftCore – 개인정보 처리방침",
       metaDescription: "IQSoftCore 기업 수준 개인정보 처리방침 및 앱별 방침.",
       title: "개인정보 처리방침",
-      updated: "최종 업데이트: 2026-08-05",
+      updated: "최종 업데이트: 2026-10-04",
       sections: [
         {
           heading: "1. 일반",
@@ -369,7 +531,25 @@ const PRIVACY_POLICIES = {
         {
           heading: "3. 애플리케이션",
           paragraphs: [
-            "대부분의 IQSoftCore 앱은 데이터가 사용자 기기에 남도록 설계되어 있습니다. 앱별 세부 내용은 각 앱의 개인정보 처리방침을 확인하세요.",
+            "Tuntilappu와 일부 앱은 데이터가 사용자 기기에 남도록 설계되어 있습니다. iqFleetSync는 웹 서비스이며, 그 데이터는 아래에 설명합니다. 앱별 문구도 아래에 있습니다.",
+          ],
+        },
+        {
+          id: "iqfleetsync",
+          heading: "iqFleetSync",
+          paragraphs: [
+            "iqFleetSync는 fleetsync.iqsoftcore.fi 의 웹 서비스입니다. 고객 회사의 차량 데이터와 사용자 데이터는 서비스에 저장됩니다.",
+            "IqSoftCore가 이 데이터를 고객을 위해 처리할 때 IqSoftCore는 수탁자이고 고객은 관리자입니다. IqSoftCore는 자신의 계정과 청구 데이터의 관리자입니다.",
+          ],
+          bullets: [
+            "이름과 이메일",
+            "연락처로만 쓰는 선택 전화번호. 로그인에는 쓰지 않습니다",
+            "이메일 코드, 초대 링크, 패스키, 또는 공용 전화의 이름과 선택 4자리 PIN으로 로그인",
+            "고객이 저장하는 차량, 보고, 정비 데이터(개인정보가 포함된 경우)",
+            "사용자가 허용하면 이메일, 앱 안 또는 브라우저 알림",
+          ],
+          after: [
+            "고객은 서비스에서 데이터를 내보내고 개인정보를 익명화할 수 있습니다. 요청은 info@iqsoftcore.fi 로도 보낼 수 있습니다. 데이터는 판매하지 않습니다.",
           ],
         },
         {
@@ -388,7 +568,7 @@ const PRIVACY_POLICIES = {
       metaTitle: "IQSoftCore – Politique de confidentialité",
       metaDescription: "Politique de confidentialité d’IQSoftCore et déclarations par application.",
       title: "Politique de confidentialité",
-      updated: "Dernière mise à jour : 2026-08-05",
+      updated: "Dernière mise à jour : 2026-10-04",
       sections: [
         {
           heading: "1. Généralités",
@@ -407,7 +587,25 @@ const PRIVACY_POLICIES = {
         {
           heading: "3. Applications",
           paragraphs: [
-            "La plupart des applications IQSoftCore sont conçues pour que les données restent sur l’appareil de l’utilisateur. Les détails figurent dans la politique de chaque application.",
+            "Tuntilappu et certaines autres applications sont conçues pour que les données restent sur l’appareil de l’utilisateur. iqFleetSync est un service web, et ses données sont décrites ci-dessous. Les textes propres à chaque application figurent aussi plus bas.",
+          ],
+        },
+        {
+          id: "iqfleetsync",
+          heading: "iqFleetSync",
+          paragraphs: [
+            "iqFleetSync est un service web à l’adresse fleetsync.iqsoftcore.fi. Les données de parc et d’utilisateurs de l’entreprise cliente sont enregistrées dans le service.",
+            "Lorsque IqSoftCore traite ces données pour le client, IqSoftCore est sous-traitant et le client est responsable du traitement. IqSoftCore est responsable de ses propres données de compte et de facturation.",
+          ],
+          bullets: [
+            "nom et e-mail",
+            "un numéro de téléphone facultatif utilisé seulement comme contact ; il ne sert pas à se connecter",
+            "connexion par code e-mail, lien d’invitation, passkey, ou nom et PIN facultatif à 4 chiffres sur un téléphone partagé",
+            "données de parc, de signalement et d’entretien enregistrées par le client, si elles contiennent des données personnelles",
+            "notifications par e-mail, dans l’application ou par le navigateur si l’utilisateur l’autorise",
+          ],
+          after: [
+            "Le client peut exporter les données et anonymiser les données personnelles dans le service. Une demande peut aussi être envoyée à info@iqsoftcore.fi. Les données ne sont pas vendues.",
           ],
         },
         {
@@ -426,7 +624,7 @@ const PRIVACY_POLICIES = {
       metaTitle: "IQSoftCore – Política de Privacidade",
       metaDescription: "Política de privacidade da IQSoftCore e declarações por aplicativo.",
       title: "Política de Privacidade",
-      updated: "Última atualização: 2026-08-05",
+      updated: "Última atualização: 2026-10-04",
       sections: [
         {
           heading: "1. Geral",
@@ -445,7 +643,25 @@ const PRIVACY_POLICIES = {
         {
           heading: "3. Aplicativos",
           paragraphs: [
-            "A maioria dos apps da IQSoftCore é projetada para que os dados permaneçam no dispositivo do usuário. Os detalhes estão na política de cada app.",
+            "O Tuntilappu e alguns outros apps são projetados para que os dados permaneçam no dispositivo do usuário. O iqFleetSync é um serviço web, e os dados dele são descritos abaixo. Os textos de cada app também estão mais abaixo.",
+          ],
+        },
+        {
+          id: "iqfleetsync",
+          heading: "iqFleetSync",
+          paragraphs: [
+            "O iqFleetSync é um serviço web em fleetsync.iqsoftcore.fi. Os dados de frota e de utilizadores da empresa cliente são guardados no serviço.",
+            "Quando a IqSoftCore trata esses dados por conta do cliente, a IqSoftCore é a subcontratante e o cliente é o responsável. A IqSoftCore é responsável pelos seus próprios dados de conta e de faturação.",
+          ],
+          bullets: [
+            "nome e e-mail",
+            "um número de telefone opcional usado apenas como contacto; não é usado para entrar",
+            "acesso com código de e-mail, link de convite, passkey, ou nome e PIN opcional de 4 dígitos num telefone partilhado",
+            "dados de frota, avisos e manutenção que o cliente guarda, se contiverem dados pessoais",
+            "avisos por e-mail, na aplicação ou no navegador, se o utilizador permitir",
+          ],
+          after: [
+            "O cliente pode exportar os dados e anonimizar dados pessoais no serviço. O pedido também pode ser enviado para info@iqsoftcore.fi. Os dados não são vendidos.",
           ],
         },
         {
@@ -464,7 +680,7 @@ const PRIVACY_POLICIES = {
       metaTitle: "IQSoftCore – Privacybeleid",
       metaDescription: "Bedrijfsprivacybeleid van IQSoftCore en app-specifieke verklaringen.",
       title: "Privacybeleid",
-      updated: "Laatst bijgewerkt: 2026-08-05",
+      updated: "Laatst bijgewerkt: 2026-10-04",
       sections: [
         {
           heading: "1. Algemeen",
@@ -483,7 +699,25 @@ const PRIVACY_POLICIES = {
         {
           heading: "3. Apps",
           paragraphs: [
-            "De meeste IQSoftCore-apps zijn zo ontworpen dat data op het apparaat van de gebruiker blijft. App-specifieke details staan in het privacybeleid van elke app.",
+            "Tuntilappu en sommige andere apps zijn zo ontworpen dat data op het apparaat van de gebruiker blijft. iqFleetSync is een webdienst, en de gegevens daarvan staan hieronder. App-specifieke teksten staan ook verderop.",
+          ],
+        },
+        {
+          id: "iqfleetsync",
+          heading: "iqFleetSync",
+          paragraphs: [
+            "iqFleetSync is een webdienst op fleetsync.iqsoftcore.fi. Wagenpark- en gebruikersgegevens van het klantbedrijf worden in de dienst opgeslagen.",
+            "Wanneer IqSoftCore deze gegevens voor de klant verwerkt, is IqSoftCore verwerker en de klant verwerkingsverantwoordelijke. IqSoftCore is verwerkingsverantwoordelijke voor de eigen account- en factuurgegevens.",
+          ],
+          bullets: [
+            "naam en e-mail",
+            "een optioneel telefoonnummer alleen als contactveld; het wordt niet gebruikt om in te loggen",
+            "inloggen met e-mailcode, uitnodigingslink, passkey of naam en optionele pincode van 4 cijfers op een gedeelde telefoon",
+            "wagenpark-, meldings- en onderhoudsgegevens die de klant opslaat, als daarin persoonsgegevens staan",
+            "meldingen per e-mail, in de app of als browsermelding als de gebruiker dat toestaat",
+          ],
+          after: [
+            "De klant kan gegevens exporteren en persoonsgegevens in de dienst anonimiseren. Een verzoek kan ook naar info@iqsoftcore.fi worden gestuurd. De gegevens worden niet verkocht.",
           ],
         },
         {
@@ -502,7 +736,7 @@ const PRIVACY_POLICIES = {
       metaTitle: "IQSoftCore – Polityka prywatności",
       metaDescription: "Firmowa polityka prywatności IQSoftCore oraz oświadczenia dla aplikacji.",
       title: "Polityka prywatności",
-      updated: "Ostatnia aktualizacja: 2026-08-05",
+      updated: "Ostatnia aktualizacja: 2026-10-04",
       sections: [
         {
           heading: "1. Informacje ogólne",
@@ -521,7 +755,25 @@ const PRIVACY_POLICIES = {
         {
           heading: "3. Aplikacje",
           paragraphs: [
-            "Większość aplikacji IQSoftCore jest zaprojektowana tak, aby dane pozostawały na urządzeniu użytkownika. Szczegóły znajdują się w polityce każdej aplikacji.",
+            "Tuntilappu i część innych aplikacji jest zaprojektowana tak, aby dane pozostawały na urządzeniu użytkownika. iqFleetSync jest usługą internetową, a jej dane opisano poniżej. Teksty poszczególnych aplikacji są też niżej.",
+          ],
+        },
+        {
+          id: "iqfleetsync",
+          heading: "iqFleetSync",
+          paragraphs: [
+            "iqFleetSync jest usługą internetową pod adresem fleetsync.iqsoftcore.fi. Dane floty i użytkowników firmy klienta są zapisywane w usłudze.",
+            "Gdy IqSoftCore przetwarza te dane na rzecz klienta, IqSoftCore jest podmiotem przetwarzającym, a klient administratorem. IqSoftCore jest administratorem własnych danych konta i rozliczeń.",
+          ],
+          bullets: [
+            "imię i e-mail",
+            "opcjonalny numer telefonu używany tylko jako kontakt; nie służy do logowania",
+            "logowanie kodem e-mail, linkiem zaproszenia, passkey albo imieniem i opcjonalnym 4-cyfrowym PIN-em na wspólnym telefonie",
+            "dane floty, zgłoszeń i utrzymania zapisane przez klienta, jeśli zawierają dane osobowe",
+            "powiadomienia e-mailem, w aplikacji albo w przeglądarce, jeśli użytkownik na to pozwoli",
+          ],
+          after: [
+            "Klient może wyeksportować dane i zanonimizować dane osobowe w usłudze. Wniosek można też wysłać na info@iqsoftcore.fi. Danych się nie sprzedaje.",
           ],
         },
         {
@@ -540,7 +792,7 @@ const PRIVACY_POLICIES = {
       metaTitle: "IQSoftCore – Zásady ochrany osobních údajů",
       metaDescription: "Firemní zásady ochrany osobních údajů IQSoftCore a prohlášení pro aplikace.",
       title: "Zásady ochrany osobních údajů",
-      updated: "Naposledy aktualizováno: 2026-08-05",
+      updated: "Naposledy aktualizováno: 2026-10-04",
       sections: [
         {
           heading: "1. Obecné",
@@ -559,7 +811,25 @@ const PRIVACY_POLICIES = {
         {
           heading: "3. Aplikace",
           paragraphs: [
-            "Většina aplikací IQSoftCore je navržena tak, aby data zůstala na zařízení uživatele. Podrobnosti jsou v zásadách jednotlivých aplikací.",
+            "Tuntilappu a některé další aplikace jsou navrženy tak, aby data zůstala na zařízení uživatele. iqFleetSync je webová služba a její údaje jsou popsány níže. Texty jednotlivých aplikací jsou také níže.",
+          ],
+        },
+        {
+          id: "iqfleetsync",
+          heading: "iqFleetSync",
+          paragraphs: [
+            "iqFleetSync je webová služba na adrese fleetsync.iqsoftcore.fi. Údaje o flotile a uživatelích zákaznické firmy se ukládají ve službě.",
+            "Když IqSoftCore zpracovává tyto údaje pro zákazníka, je IqSoftCore zpracovatelem a zákazník správcem. IqSoftCore je správcem vlastních údajů o účtu a fakturaci.",
+          ],
+          bullets: [
+            "jméno a e-mail",
+            "volitelné telefonní číslo jen jako kontakt; k přihlášení se nepoužívá",
+            "přihlášení e-mailovým kódem, odkazem na pozvánku, passkey nebo jménem a volitelným čtyřmístným PIN na sdíleném telefonu",
+            "údaje o flotile, hlášeních a údržbě, které zákazník uloží, pokud obsahují osobní údaje",
+            "oznámení e-mailem, v aplikaci nebo v prohlížeči, pokud to uživatel povolí",
+          ],
+          after: [
+            "Zákazník může údaje exportovat a osobní údaje ve službě anonymizovat. Žádost lze poslat také na info@iqsoftcore.fi. Údaje se neprodávají.",
           ],
         },
         {
@@ -578,7 +848,7 @@ const PRIVACY_POLICIES = {
       metaTitle: "IQSoftCore – 隐私政策",
       metaDescription: "IQSoftCore 公司级隐私政策及应用专属声明。",
       title: "隐私政策",
-      updated: "最近更新：2026-08-05",
+      updated: "最近更新：2026-10-04",
       sections: [
         {
           heading: "1. 概述",
@@ -597,7 +867,25 @@ const PRIVACY_POLICIES = {
         {
           heading: "3. 应用程序",
           paragraphs: [
-            "大多数 IQSoftCore 应用的设计使数据保留在用户自己的设备上。具体细节见各应用的隐私政策。",
+            "Tuntilappu 和部分其他应用的设计使数据保留在用户自己的设备上。iqFleetSync 是网络服务，其数据在下面说明。各应用的文字也列在后面。",
+          ],
+        },
+        {
+          id: "iqfleetsync",
+          heading: "iqFleetSync",
+          paragraphs: [
+            "iqFleetSync 是位于 fleetsync.iqsoftcore.fi 的网络服务。客户公司的车队数据和用户数据保存在服务中。",
+            "当 IqSoftCore 为客户处理这些数据时，IqSoftCore 是处理者，客户是控制者。IqSoftCore 是其自身账户和账单数据的控制者。",
+          ],
+          bullets: [
+            "姓名和电子邮件",
+            "仅作为联系方式的可选电话号码；不用于登录",
+            "通过电子邮件验证码、邀请链接、通行密钥，或共用电话上的姓名和可选的 4 位 PIN 登录",
+            "客户保存的车队、报告和维护数据（如果其中含有个人信息）",
+            "在用户允许时，通过电子邮件、应用内或浏览器发送通知",
+          ],
+          after: [
+            "客户可以在服务中导出数据并匿名化个人信息。请求也可以发送到 info@iqsoftcore.fi。数据不会出售。",
           ],
         },
         {
@@ -637,7 +925,8 @@ function fillAppPlaceholders(text, appName) {
 function renderPolicySections(sections, appName) {
   return sections
     .map((section) => {
-      let html = `<section class="policy-section"><h2>${escapeHtml(fillAppPlaceholders(section.heading, appName))}</h2>`;
+      const idAttr = section.id ? ` id="${escapeHtml(section.id)}"` : "";
+      let html = `<section class="policy-section"${idAttr}><h2>${escapeHtml(fillAppPlaceholders(section.heading, appName))}</h2>`;
       (section.paragraphs || []).forEach((p) => {
         html += `<p>${escapeHtml(fillAppPlaceholders(p, appName))}</p>`;
       });
