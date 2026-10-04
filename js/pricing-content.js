@@ -1075,7 +1075,7 @@ function renderPriceQuote(lang, page, quote) {
 
   const total = `${formatPriceAmount(quote.totalCents, lang)}${page.perMonth}`;
   lines.push(
-    `<li class="calc-total calc-pair"><span>${escapePriceHtml(page.totalWord)}</span><span>${escapePriceHtml(total)}</span></li>`
+    `<li class="calc-total calc-pair"><span>${escapePriceHtml(page.totalWord)}</span><span class="calc-total-amount">${escapePriceHtml(total)}</span></li>`
   );
 
   return `<ul class="calc-lines">${lines.join("")}</ul>`;
@@ -1174,7 +1174,8 @@ function renderPricingPage(lang) {
         </div>
       </div>
       <div id="calc-result" aria-live="polite"></div>
-      <p class="calc-note">${escapePriceHtml(page.vatNote)} ${escapePriceHtml(page.mounted)} ${escapePriceHtml(page.peak)} ${escapePriceHtml(page.archived)}</p>
+      <p class="calc-total-vat">${escapePriceHtml(page.vatNote)}</p>
+      <p class="calc-note">${escapePriceHtml(page.mounted)} ${escapePriceHtml(page.peak)} ${escapePriceHtml(page.archived)}</p>
     </div>
     <h2>${escapePriceHtml(page.examplesTitle)}</h2>
     <p class="vat-note">${escapePriceHtml(page.vatNote)}</p>
