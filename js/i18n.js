@@ -663,10 +663,6 @@ function applyTranslations(lang) {
     renderFleetSyncPage(lang);
   }
 
-  if (typeof renderFleetPrivacy === "function") {
-    renderFleetPrivacy(lang);
-  }
-
   if (typeof renderRallyNotePage === "function") {
     renderRallyNotePage(lang);
   }

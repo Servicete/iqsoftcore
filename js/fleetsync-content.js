@@ -1094,7 +1094,7 @@ function renderFleetSyncPage(lang) {
     <p class="policy-nav">
       <a class="btn btn-ghost" href="hinnasto.html">${escapeFleetHtml(page.pricing)}</a>
       <a class="btn btn-ghost" href="kayttoehdot.html">${escapeFleetHtml(page.terms)}</a>
-      <a class="btn btn-ghost" href="privacy-iqfleetsync.html">${escapeFleetHtml(page.privacy)}</a>
+      <a class="btn btn-ghost" href="privacy.html#iqfleetsync">${escapeFleetHtml(page.privacy)}</a>
       <a class="btn btn-ghost" href="apps.html">${escapeFleetHtml(page.backApps)}</a>
       <a class="btn btn-ghost" href="index.html">${escapeFleetHtml(page.home)}</a>
     </p>`;

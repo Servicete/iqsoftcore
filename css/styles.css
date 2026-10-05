@@ -459,6 +459,18 @@ a:hover {
   color: var(--ink);
 }
 
+#iqfleetsync {
+  scroll-margin-top: 5.5rem;
+}
+
+.policy-section h3 {
+  margin: 1.35rem 0 0.45rem;
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+  letter-spacing: -0.02em;
+  color: var(--ink);
+}
+
 .policy-section p {
   margin: 0 0 0.85rem;
 }

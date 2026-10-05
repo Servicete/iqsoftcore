@@ -1,5 +1,5 @@
 /**
- * iqFleetSync privacy notice (GDPR).
+ * iqFleetSync privacy notice (GDPR), rendered inside privacy.html#iqfleetsync.
  * Plain language. Claims stay within what the service actually does.
  */
 const FLEETSYNC_PRIVACY = {
@@ -995,39 +995,3 @@ addFleetPrivacy("zh", {
   ]},
 ]);
 
-function escapeFleetPrivacy(value) {
-  return String(value)
-    .replace(/&/g, "&amp;")
-    .replace(/</g, "&lt;")
-    .replace(/>/g, "&gt;")
-    .replace(/"/g, "&quot;");
-}
-
-function renderFleetPrivacy(lang) {
-  const root = document.getElementById("fleet-privacy-root");
-  if (!root) return;
-  const page = FLEETSYNC_PRIVACY[lang] || FLEETSYNC_PRIVACY.en;
-  const titleEl = document.querySelector("title");
-  if (titleEl) titleEl.textContent = page.metaTitle;
-  const metaDesc = document.querySelector('meta[name="description"]');
-  if (metaDesc) metaDesc.setAttribute("content", page.metaDescription);
-
-  let html = `<h1>${escapeFleetPrivacy(page.title)}</h1>`;
-  html += `<p class="policy-updated">${escapeFleetPrivacy(page.updated)}</p>`;
-  page.sections.forEach((section) => {
-    html += `<section class="policy-section"><h2>${escapeFleetPrivacy(section.heading)}</h2>`;
-    (section.paragraphs || []).forEach((paragraph) => {
-      html += `<p>${escapeFleetPrivacy(paragraph)}</p>`;
-    });
-    if (section.bullets && section.bullets.length) {
-      html += `<ul>${section.bullets.map((item) => `<li>${escapeFleetPrivacy(item)}</li>`).join("")}</ul>`;
-    }
-    html += `</section>`;
-  });
-  html += `<p class="policy-nav">
-    <a class="btn btn-ghost" href="iqfleetsync.html">${escapeFleetPrivacy(page.backFleet)}</a>
-    <a class="btn btn-ghost" href="privacy.html">${escapeFleetPrivacy(page.backCompany)}</a>
-    <a class="btn btn-ghost" href="index.html">${escapeFleetPrivacy(page.backHome)}</a>
-  </p>`;
-  root.innerHTML = html;
-}
