@@ -930,14 +930,19 @@ function renderPolicySections(sections, appName) {
       (section.paragraphs || []).forEach((p) => {
         html += `<p>${escapeHtml(fillAppPlaceholders(p, appName))}</p>`;
       });
-      if (section.bullets && section.bullets.length) {
+      if (section.id !== "iqfleetsync" && section.bullets && section.bullets.length) {
         html += `<ul>${section.bullets
           .map((item) => `<li>${escapeHtml(fillAppPlaceholders(item, appName))}</li>`)
           .join("")}</ul>`;
       }
-      (section.after || []).forEach((p) => {
-        html += `<p>${escapeHtml(fillAppPlaceholders(p, appName))}</p>`;
-      });
+      if (section.id !== "iqfleetsync") {
+        (section.after || []).forEach((p) => {
+          html += `<p>${escapeHtml(fillAppPlaceholders(p, appName))}</p>`;
+        });
+      }
+      if (section.id === "iqfleetsync") {
+        html += `<p><a href="privacy-iqfleetsync.html">iqFleetSync</a></p>`;
+      }
       html += "</section>";
       return html;
     })
@@ -980,9 +985,13 @@ function renderPrivacyPolicy(lang) {
     html += `<section class="policy-section policy-apps">`;
     html += `<h2>${escapeHtml(policy.appsHeading)}</h2>`;
     if (policy.appsIntro) html += `<p>${escapeHtml(policy.appsIntro)}</p>`;
-    if (policy.apps && policy.apps.length) {
+    const apps = (policy.apps || []).slice();
+    if (policyId === "company" && !apps.some((app) => app.href === "privacy-iqfleetsync.html")) {
+      apps.unshift({ href: "privacy-iqfleetsync.html", name: "iqFleetSync" });
+    }
+    if (apps.length) {
       html += `<ul class="policy-app-list">`;
-      policy.apps.forEach((app) => {
+      apps.forEach((app) => {
         const name = resolveAppDisplayName(app, lang);
         html += `<li><a href="${escapeHtml(app.href)}">${escapeHtml(name)}</a>`;
         if (app.blurb) html += ` — ${escapeHtml(app.blurb)}`;

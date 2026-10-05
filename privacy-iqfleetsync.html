@@ -3,8 +3,11 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Käyttöehdot | IQSoftCore</title>
-    <meta name="description" content="iqFleetSync-palvelun käyttöehdot. Luonnos." />
+    <title>iqFleetSync – Tietosuojaseloste | IQSoftCore</title>
+    <meta
+      name="description"
+      content="iqFleetSyncin tietosuojaseloste. Rekisterinpitäjä, käsittelijä, tiedot ja oikeudet."
+    />
     <link rel="icon" href="assets/logo.svg" type="image/svg+xml" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -28,7 +31,7 @@
           <a href="index.html#contact" data-i18n="navContact">Yhteystiedot</a>
           <a href="privacy.html" data-i18n="navPrivacy">Tietosuoja</a>
           <a href="privacy-iqfleetsync.html" data-i18n="navFleetPrivacy">iqFleetSync-tietosuoja</a>
-          <a href="kayttoehdot.html" aria-current="page" data-i18n="navTerms">Käyttöehdot</a>
+          <a href="kayttoehdot.html" data-i18n="navTerms">Käyttöehdot</a>
           <label class="visually-hidden" for="lang-select" data-i18n="langLabel">Kieli</label>
           <select id="lang-select" class="lang-select" aria-label="Language">
             <option value="fi">Suomi</option>
@@ -52,9 +55,9 @@
       </div>
     </header>
 
-    <main class="terms-page privacy-page">
+    <main class="privacy-page">
       <div class="section-inner">
-        <div id="terms-root"></div>
+        <article id="fleet-privacy-root"></article>
       </div>
     </main>
 
@@ -68,13 +71,14 @@
           <a href="apps.html" data-i18n="navApps">Sovellukset</a>
           <a href="hinnasto.html" data-i18n="navPricing">Hinnasto</a>
           <a href="privacy.html" data-i18n="navPrivacy">Tietosuoja</a>
+          <a href="privacy-iqfleetsync.html" data-i18n="navFleetPrivacy">iqFleetSync-tietosuoja</a>
           <a href="kayttoehdot.html" data-i18n="navTerms">Käyttöehdot</a>
           <a href="mailto:info@iqsoftcore.fi">info@iqsoftcore.fi</a>
         </div>
       </div>
     </footer>
 
-    <script src="js/terms-content.js"></script>
+    <script src="js/privacy-iqfleetsync.js"></script>
     <script src="js/i18n.js"></script>
     <script>
       document.getElementById("year").textContent = new Date().getFullYear();

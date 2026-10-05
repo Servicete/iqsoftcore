@@ -7,6 +7,7 @@ const translations = {
     navContact: "Yhteystiedot",
     navApps: "Sovellukset",
     navPrivacy: "Tietosuoja",
+    navFleetPrivacy: "iqFleetSync-tietosuoja",
     navPricing: "Hinnasto",
     navTerms: "Käyttöehdot",
     backApps: "Kaikki sovellukset",
@@ -45,6 +46,7 @@ const translations = {
     navContact: "Contact",
     navApps: "Apps",
     navPrivacy: "Privacy",
+    navFleetPrivacy: "iqFleetSync privacy",
     navPricing: "Pricing",
     navTerms: "Terms",
     backApps: "All apps",
@@ -83,6 +85,7 @@ const translations = {
     navContact: "Kontakt",
     navApps: "Appar",
     navPrivacy: "Integritet",
+    navFleetPrivacy: "iqFleetSync-integritet",
     navPricing: "Priser",
     navTerms: "Villkor",
     backApps: "Alla appar",
@@ -121,6 +124,7 @@ const translations = {
     navContact: "Kontakt",
     navApps: "Apper",
     navPrivacy: "Personvern",
+    navFleetPrivacy: "iqFleetSync-personvern",
     navPricing: "Priser",
     navTerms: "Vilkår",
     backApps: "Alle apper",
@@ -159,6 +163,7 @@ const translations = {
     navContact: "Kontakt",
     navApps: "Apps",
     navPrivacy: "Privatliv",
+    navFleetPrivacy: "iqFleetSync-privatliv",
     navPricing: "Priser",
     navTerms: "Vilkår",
     backApps: "Alle apps",
@@ -197,6 +202,7 @@ const translations = {
     navContact: "Kontakt",
     navApps: "Apps",
     navPrivacy: "Datenschutz",
+    navFleetPrivacy: "iqFleetSync-Datenschutz",
     navPricing: "Preise",
     navTerms: "Nutzungsbedingungen",
     backApps: "Alle Apps",
@@ -235,6 +241,7 @@ const translations = {
     navContact: "Contacto",
     navApps: "Aplicaciones",
     navPrivacy: "Privacidad",
+    navFleetPrivacy: "Privacidad de iqFleetSync",
     navPricing: "Precios",
     navTerms: "Condiciones",
     backApps: "Todas las aplicaciones",
@@ -273,6 +280,7 @@ const translations = {
     navContact: "Contatti",
     navApps: "App",
     navPrivacy: "Privacy",
+    navFleetPrivacy: "Privacy di iqFleetSync",
     navPricing: "Prezzi",
     navTerms: "Termini",
     backApps: "Tutte le app",
@@ -311,6 +319,7 @@ const translations = {
     navContact: "お問い合わせ",
     navApps: "アプリ",
     navPrivacy: "プライバシー",
+    navFleetPrivacy: "iqFleetSyncのプライバシー",
     navPricing: "料金",
     navTerms: "利用規約",
     backApps: "すべてのアプリ",
@@ -349,6 +358,7 @@ const translations = {
     navContact: "연락처",
     navApps: "앱",
     navPrivacy: "개인정보",
+    navFleetPrivacy: "iqFleetSync 개인정보",
     navPricing: "요금",
     navTerms: "이용약관",
     backApps: "모든 앱",
@@ -386,6 +396,7 @@ const translations = {
     navContact: "Contact",
     navApps: "Applications",
     navPrivacy: "Confidentialité",
+    navFleetPrivacy: "Confidentialité d’iqFleetSync",
     navPricing: "Tarifs",
     navTerms: "Conditions",
     backApps: "Toutes les applications",
@@ -420,6 +431,7 @@ const translations = {
     navContact: "Contato",
     navApps: "Aplicativos",
     navPrivacy: "Privacidade",
+    navFleetPrivacy: "Privacidade do iqFleetSync",
     navPricing: "Preços",
     navTerms: "Termos",
     backApps: "Todos os aplicativos",
@@ -454,6 +466,7 @@ const translations = {
     navContact: "Contact",
     navApps: "Apps",
     navPrivacy: "Privacy",
+    navFleetPrivacy: "iqFleetSync-privacy",
     navPricing: "Prijzen",
     navTerms: "Voorwaarden",
     backApps: "Alle apps",
@@ -488,6 +501,7 @@ const translations = {
     navContact: "Kontakt",
     navApps: "Aplikacje",
     navPrivacy: "Prywatność",
+    navFleetPrivacy: "Prywatność iqFleetSync",
     navPricing: "Cennik",
     navTerms: "Regulamin",
     backApps: "Wszystkie aplikacje",
@@ -522,6 +536,7 @@ const translations = {
     navContact: "Kontakt",
     navApps: "Aplikace",
     navPrivacy: "Soukromí",
+    navFleetPrivacy: "Soukromí iqFleetSync",
     navPricing: "Ceník",
     navTerms: "Podmínky",
     backApps: "Všechny aplikace",
@@ -556,6 +571,7 @@ const translations = {
     navContact: "联系方式",
     navApps: "应用",
     navPrivacy: "隐私",
+    navFleetPrivacy: "iqFleetSync 隐私",
     navPricing: "价格",
     navTerms: "使用条款",
     backApps: "全部应用",
@@ -645,6 +661,10 @@ function applyTranslations(lang) {
 
   if (typeof renderFleetSyncPage === "function") {
     renderFleetSyncPage(lang);
+  }
+
+  if (typeof renderFleetPrivacy === "function") {
+    renderFleetPrivacy(lang);
   }
 
   if (typeof renderRallyNotePage === "function") {
