@@ -6,23 +6,22 @@ Yksinkertaiset yrityskotisivut IQSoftCorelle. Yritys tekee ohjelmistoja, sovellu
 
 - Etusivu: lyhyt yritysesittely ja yhteystiedot
 - Sovellukset: `apps.html` (Tuntilappu, iqFleetSync, iqRallyNote)
-- iqFleetSync: `iqfleetsync.html` (nykyiset ominaisuudet, kysymykset, linkki palveluun)
+- iqFleetSync: `iqfleetsync.html` (myyntisivu: yritys-, huolto- ja kuljettajanäkymä, laskuri, kokeilu)
 - Hinnasto: `hinnasto.html`
 - Käyttöehdot: `kayttoehdot.html` (luonnos)
 - Tietosuoja: yritystason käytäntö (`privacy.html`, iqFleetSync-osio `#iqfleetsync`) ja Tuntilapun oma sivu (`privacy-tuntilappu.html`)
 - Logo: SVG-merkki (IQC) ja wordmark
 - Kielet: fi, en, sv, no, da, de, nl, fr, es, pt, it, pl, cs, ja, ko, zh
 
-## iqFleetSync-kuvaus (2026-10-05)
+## iqFleetSync-sivu (2026-10-05)
 
-Sivu `iqfleetsync.html` kirjoitettiin uudelleen vastaamaan palvelua osoitteessa fleetsync.iqsoftcore.fi.
+`iqfleetsync.html` on myyntisivu, ei käyttöohje. Se kertoo kolmesta näkymästä: yritys (pääkäyttäjä), huolto ja kuljettaja. Jokaisessa kerrotaan, mitä siinä tehdään ja miten työ helpottuu. Kirjautumistapoja, PIN-koodeja ja näkyvyyssääntöjä ei kuvailla.
 
-- Selain kaikille rooleille: pääkäyttäjä, huolto ja kuljettaja. Mitään ei asenneta.
-- QR-tarra tunnistaa yksikön eikä kirjaa sisään. Skannaus lisää yksikön kuljettajan omiin. Tarrat voi tulostaa palvelusta.
-- Kutsu sähköpostilinkillä, sitten passkey. Varalla 6-numeroinen sähköpostikoodi. Jaetun puhelimen valinnainen 4 numeron PIN, jonka pääkäyttäjä näkee.
-- Hinta: perusmaksu 10 €/kk ja yksiköt 1–15 / 16–50 / 51–100 / yli 100 hinnoilla 1,50 / 1,30 / 1,10 / 0,90 €. Käyttäjiä rajattomasti. Alv 0 %, alv laskulle. 30 päivän kokeilu. Maksu kortilla Stripen kautta, lasku kuukausittain jälkikäteen.
-- Tiedot EU:ssa (Supabase EU-alue, Vercel). Tietosuojaseloste on yrityksen sivulla `privacy.html#iqfleetsync`.
-- Hinnaston laskuri ja sen korostettu yhteensä-rivi säilyivät. Laskuri erittelee yhä perävaunun puolikkaana yksikkönä ja laitteen nollahintaisena. Tätä erittelyä ei toisteta tuotesivulla.
+- Selain, ei asennusta. QR-tarrat ajoneuvoihin, perävaunuihin ja koneisiin.
+- Vikailmoitus puhelimesta, kilometrit ja tunnit, huoltohistoria, muistutukset ja työmääräykset.
+- Jokaisessa näkymässä on omat ohjeet. Käyttäjiä on rajattomasti. 30 päivän kokeilu ja yhteydenotto.
+- Kuukausihinnan laskuri ja korostettu yhteensä-rivi ovat sivulla ja hinnastossa. Laskuri erittelee yhä perävaunun puolikkaana yksikkönä ja laitteen nollahintaisena.
+- Tietosuoja on yrityksen sivulla `privacy.html#iqfleetsync`. iqFleetSync-sivun alatunniste linkittää siihen.
 
 ## Paikallinen esikatselu
 

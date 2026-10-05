@@ -1217,3 +1217,43 @@ function renderPricingPage(lang) {
   });
   update();
 }
+
+function mountFleetSyncCalculator(host, lang) {
+  if (!host || typeof quoteFleetSync !== "function" || typeof PRICING_PAGE === "undefined") return;
+  const page = PRICING_PAGE[lang] || PRICING_PAGE.en;
+  const field = (id, label, hint) => `<div class="field">
+      <label for="${id}">${escapePriceHtml(label)}</label>
+      <span class="field-hint" id="${id}-hint">${escapePriceHtml(hint)}</span>
+      <input id="${id}" type="number" inputmode="numeric" min="0" step="1" value="" aria-describedby="${id}-hint">
+    </div>`;
+
+  host.innerHTML = `<div class="calc-box">
+      <div class="calc-fields">
+        ${field("fleet-calc-vehicles", page.vehiclesLabel, page.vehiclesHint)}
+        ${field("fleet-calc-machines", page.machinesLabel, page.machinesHint)}
+        ${field("fleet-calc-trailers", page.trailersLabel, page.trailersHint)}
+        ${field("fleet-calc-attachments", page.attachmentsLabel, page.attachmentsHint)}
+      </div>
+      <div id="fleet-calc-result" aria-live="polite"></div>
+      <p class="calc-total-vat">${escapePriceHtml(page.vatNote)}</p>
+    </div>`;
+
+  const vehiclesInput = host.querySelector("#fleet-calc-vehicles");
+  const machinesInput = host.querySelector("#fleet-calc-machines");
+  const trailersInput = host.querySelector("#fleet-calc-trailers");
+  const attachmentsInput = host.querySelector("#fleet-calc-attachments");
+  const result = host.querySelector("#fleet-calc-result");
+  const update = () => {
+    const quote = quoteFleetSync(
+      vehiclesInput.value,
+      machinesInput.value,
+      trailersInput.value,
+      attachmentsInput.value
+    );
+    result.innerHTML = renderPriceQuote(lang, page, quote);
+  };
+  [vehiclesInput, machinesInput, trailersInput, attachmentsInput].forEach((input) => {
+    input.addEventListener("input", update);
+  });
+  update();
+}
