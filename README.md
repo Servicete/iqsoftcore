@@ -6,24 +6,22 @@ Yksinkertaiset yrityskotisivut IQSoftCorelle. Yritys tekee ohjelmistoja, sovellu
 
 - Etusivu: lyhyt yritysesittely ja yhteystiedot
 - Sovellukset: `apps.html` (Tuntilappu, iqFleetSync, iqRallyNote)
-- iqFleetSync: `iqfleetsync.html` (nykyiset ominaisuudet, kysymykset, linkki palveluun)
+- iqFleetSync: `iqfleetsync.html` (myyntisivu: yritys-, huolto- ja kuljettajanäkymä, laskuri, kokeilu)
 - Hinnasto: `hinnasto.html`
 - Käyttöehdot: `kayttoehdot.html` (luonnos)
-- Tietosuoja: yritystason käytäntö, iqFleetSync-osio ja Tuntilapun oma sivu (`privacy-tuntilappu.html`)
+- Tietosuoja: yritystason käytäntö (`privacy.html`, iqFleetSync-osio `#iqfleetsync`) ja Tuntilapun oma sivu (`privacy-tuntilappu.html`)
 - Logo: SVG-merkki (IQC) ja wordmark
 - Kielet: fi, en, sv, no, da, de, nl, fr, es, pt, it, pl, cs, ja, ko, zh
 
-## iqFleetSync-kuvaus (2026-10-04)
+## iqFleetSync-sivu (2026-10-05)
 
-Sivuston iqFleetSync-tekstit päivitettiin vastaamaan palvelua osoitteessa fleetsync.iqsoftcore.fi.
+`iqfleetsync.html` on myyntisivu, ei käyttöohje. Se kertoo kolmesta näkymästä: yritys (pääkäyttäjä), huolto ja kuljettaja. Jokaisessa kerrotaan, mitä siinä tehdään ja miten työ helpottuu. Kirjautumistapoja, PIN-koodeja ja näkyvyyssääntöjä ei kuvailla.
 
-- Kirjautuminen ilman salasanaa samassa välilehdessä: sähköpostin 6-numeroinen koodi, kutsulinkki tai passkey. Jaetulla ajoneuvopuhelimella nimi ja valinnainen 4 numeron PIN (30 minuuttia). Ylläpitäjä voi luoda PIN-koodin ja nähdä sen myöhemmin Henkilöt-sivulla, jos se unohtuu. Kuljettaja voi vaihtaa omansa kuljettajasivulla.
-- QR-tarra (r.iqsoftcore.fi) tunnistaa yksikön eikä kirjaa sisään. Arkistoidun yksikön tarra näyttää tekstin Yksikkö poistettu.
-- Puhelinnumero on vain valinnainen yhteystieto.
-- Kuljettajan sivu, henkilöt, kalusto (tuonti ja vienti, arkistointi), määräajat, työmääräykset, korjaamon määräaikainen linkki, kustannusoikeus, vikojen tilat, sähköposti- ja sovellusilmoitukset, audit-loki, tietojen vienti ja anonymisointi, asetukset ja ohjekeskus.
-- Hintaportaat pidettiin ennallaan: perusmaksu 10 €/kk; yksiköt 1–15 / 16–50 / 51–100 / yli 100 hinnoilla 1,50 / 1,30 / 1,10 / 0,90 €. Ajoneuvo ja työkone ovat yksi yksikkö, perävaunu puoli, laite 0 €. Arkistoitua yksikköä ei laskuteta. Hinnat alv 0 %.
-- Maksu kuvataan kuukausilaskuna tilisiirtona. Kortti-, PayPal- ja SEPA-lupausta ei ole, koska verkkomaksu kortilla ei ole käytössä.
-- Erillistä UKK-sivua ei ollut. Lyhyet kysymykset ovat iqFleetSync-sivulla.
+- Selain, ei asennusta. QR-tarrat ajoneuvoihin, perävaunuihin ja koneisiin.
+- Vikailmoitus puhelimesta, kilometrit ja tunnit, huoltohistoria, muistutukset ja työmääräykset.
+- Jokaisessa näkymässä on omat ohjeet. Käyttäjiä on rajattomasti. 30 päivän kokeilu ja yhteydenotto.
+- Kuukausihinnan laskuri ja korostettu yhteensä-rivi ovat sivulla ja hinnastossa. Laskuri erittelee yhä perävaunun puolikkaana yksikkönä ja laitteen nollahintaisena.
+- Tietosuoja on yrityksen sivulla `privacy.html#iqfleetsync`. iqFleetSync-sivun alatunniste linkittää siihen.
 
 ## Paikallinen esikatselu
 

@@ -10,7 +10,7 @@ const APPS_INDEX = {
     openPage: "Avaa sivu",
     products: [
       ["tuntilappu.html", "Tuntilappu", "Yksinkertainen ja ammattimainen työajanseuranta. Luo PDF-raportit hetkessä."],
-      ["iqfleetsync.html", "iqFleetSync", "Raskaan kaluston huollon verkkosovellus. Kuljettaja käyttää tavallista mobiilisivua ilman asennusta. QR-tarra tunnistaa yksikön, eikä se kirjaa sisään. Yrityksille. Rekisteröitymiseen tarvitaan Y-tunnus. 30 päivän ilmainen kokeilu."],
+      ["iqfleetsync.html", "iqFleetSync", "Yrityksen, huollon ja kuljettajien yhteinen paikka huoltoihin ja korjauksiin. Selaimessa, ei asennusta. 30 päivän kokeilu."],
       ["iqrallynote.html", "iqRallyNote", "Rallinuotteihin tarkoitettu tablettisovellus. Sisältö säilyy käyttäjän laitteella."],
     ],
   },
@@ -22,7 +22,7 @@ const APPS_INDEX = {
     openPage: "Open page",
     products: [
       ["tuntilappu.html", "Tuntilappu", "Simple and professional timesheet manager. Generate PDF reports in seconds."],
-      ["iqfleetsync.html", "iqFleetSync", "A web app for heavy-fleet maintenance. Drivers use a plain mobile page, with nothing to install. The QR sticker identifies the unit and does not log anyone in. For businesses. Signup requires a Finnish business ID (Y-tunnus). 30-day free trial."],
+      ["iqfleetsync.html", "iqFleetSync", "One place for the company, maintenance and drivers to keep services and repairs up to date. In the browser, nothing to install. 30-day trial."],
       ["iqrallynote.html", "iqRallyNote", "A tablet app for rally pace notes. Content stays on the user’s device."],
     ],
   },
@@ -34,7 +34,7 @@ const APPS_INDEX = {
     openPage: "Öppna sidan",
     products: [
       ["tuntilappu.html", "Tuntilappu", "Enkel och professionell tidrapportering. Skapa PDF-rapporter på några sekunder."],
-      ["iqfleetsync.html", "iqFleetSync", "Webbapp för underhåll av tung flotta. Föraren använder en vanlig mobilsida, utan installation. QR-dekalen identifierar enheten och loggar inte in någon. För företag. Registrering kräver ett finskt FO-nummer (Y-tunnus). 30 dagars gratis provperiod."],
+      ["iqfleetsync.html", "iqFleetSync", "En gemensam plats för företaget, underhållet och förarna. Service och reparationer hålls aktuella. I webbläsaren, inget att installera. 30 dagars prov."],
       ["iqrallynote.html", "iqRallyNote", "Surfplatteapp för rallyanteckningar. Innehållet stannar på användarens enhet."],
     ],
   },
@@ -46,7 +46,7 @@ const APPS_INDEX = {
     openPage: "Åpne siden",
     products: [
       ["tuntilappu.html", "Tuntilappu", "Enkel og profesjonell timeføring. Lag PDF-rapporter på sekunder."],
-      ["iqfleetsync.html", "iqFleetSync", "Nettapp for vedlikehold av tung flåte. Sjåføren bruker en vanlig side i mobilnettleseren, uten installasjon. QR-merket identifiserer enheten og logger ikke inn noen. For bedrifter. Registrering krever et finsk organisasjonsnummer (Y-tunnus). 30 dagers gratis prøve."],
+      ["iqfleetsync.html", "iqFleetSync", "Ett sted for bedriften, vedlikeholdet og sjåførene. Service og reparasjoner holdes oppdatert. I nettleseren, ingenting å installere. 30 dagers prøve."],
       ["iqrallynote.html", "iqRallyNote", "Nettbrettapp for rallynotater. Innholdet blir på brukerens enhet."],
     ],
   },
@@ -58,7 +58,7 @@ const APPS_INDEX = {
     openPage: "Åbn siden",
     products: [
       ["tuntilappu.html", "Tuntilappu", "Enkel og professionel timeregistrering. Lav PDF-rapporter på sekunder."],
-      ["iqfleetsync.html", "iqFleetSync", "Webapp til vedligehold af tung vognpark. Chaufføren bruger en almindelig mobilside uden installation. QR-mærket identificerer enheden og logger ikke nogen ind. Til virksomheder. Registrering kræver et finsk virksomhedsnummer (Y-tunnus). 30 dages gratis prøve."],
+      ["iqfleetsync.html", "iqFleetSync", "Ét sted for virksomheden, vedligeholdet og chaufførerne. Service og reparationer holdes ajour. I browseren, intet at installere. 30 dages prøve."],
       ["iqrallynote.html", "iqRallyNote", "Tabletapp til rallynoter. Indholdet bliver på brugerens enhed."],
     ],
   },
@@ -70,7 +70,7 @@ const APPS_INDEX = {
     openPage: "Seite öffnen",
     products: [
       ["tuntilappu.html", "Tuntilappu", "Einfache und professionelle Zeiterfassung. PDF-Berichte in Sekunden erstellen."],
-      ["iqfleetsync.html", "iqFleetSync", "Web-App für die Wartung schwerer Flotten. Die Fahrerin oder der Fahrer nutzt eine gewöhnliche Mobilseite, ohne Installation. Der QR-Aufkleber erkennt die Einheit und meldet niemanden an. Für Unternehmen. Die Registrierung erfordert eine finnische Geschäftskennnummer (Y-tunnus). 30 Tage kostenlos testen."],
+      ["iqfleetsync.html", "iqFleetSync", "Ein Ort für Unternehmen, Werkstatt und Fahrer. Wartung und Reparaturen bleiben aktuell. Im Browser, nichts zu installieren. 30 Tage testen."],
       ["iqrallynote.html", "iqRallyNote", "Tablet-App für Rallye-Aufschriebe. Der Inhalt bleibt auf dem Gerät des Nutzers."],
     ],
   },
@@ -82,7 +82,7 @@ const APPS_INDEX = {
     openPage: "Pagina openen",
     products: [
       ["tuntilappu.html", "Tuntilappu", "Eenvoudige en professionele urenregistratie. Maak PDF-rapporten in seconden."],
-      ["iqfleetsync.html", "iqFleetSync", "Webapp voor onderhoud van een zwaar wagenpark. De bestuurder gebruikt een gewone mobiele pagina, zonder installatie. De QR-sticker herkent de eenheid en logt niemand in. Voor bedrijven. Registratie vereist een Fins ondernemingsnummer (Y-tunnus). 30 dagen gratis proberen."],
+      ["iqfleetsync.html", "iqFleetSync", "Eén plek voor bedrijf, onderhoud en chauffeurs. Onderhoud en reparaties blijven bij. In de browser, niets te installeren. 30 dagen proberen."],
       ["iqrallynote.html", "iqRallyNote", "Tabletapp voor rallynotities. De inhoud blijft op het apparaat van de gebruiker."],
     ],
   },
@@ -94,7 +94,7 @@ const APPS_INDEX = {
     openPage: "Ouvrir la page",
     products: [
       ["tuntilappu.html", "Tuntilappu", "Suivi du temps simple et professionnel. Créez des rapports PDF en quelques secondes."],
-      ["iqfleetsync.html", "iqFleetSync", "Application web pour l’entretien d’un parc lourd. Le conducteur utilise une page mobile ordinaire, sans installation. L’autocollant QR identifie l’unité et ne connecte personne. Pour les entreprises. L’inscription exige un numéro d’entreprise finlandais (Y-tunnus). Essai gratuit de 30 jours."],
+      ["iqfleetsync.html", "iqFleetSync", "Un endroit commun pour l’entreprise, l’entretien et les conducteurs. Entretiens et réparations restent à jour. Dans le navigateur, rien à installer. Essai de 30 jours."],
       ["iqrallynote.html", "iqRallyNote", "Application tablette pour les notes de rallye. Le contenu reste sur l’appareil de l’utilisateur."],
     ],
   },
@@ -106,7 +106,7 @@ const APPS_INDEX = {
     openPage: "Abrir la página",
     products: [
       ["tuntilappu.html", "Tuntilappu", "Control de horas simple y profesional. Genera informes PDF en segundos."],
-      ["iqfleetsync.html", "iqFleetSync", "Aplicación web para el mantenimiento de flota pesada. El conductor usa una página móvil normal, sin instalación. La pegatina QR identifica la unidad y no inicia la sesión de nadie. Para empresas. El registro exige un número de empresa finlandés (Y-tunnus). Prueba gratis de 30 días."],
+      ["iqfleetsync.html", "iqFleetSync", "Un sitio común para la empresa, el mantenimiento y los conductores. Servicios y reparaciones al día. En el navegador, nada que instalar. Prueba de 30 días."],
       ["iqrallynote.html", "iqRallyNote", "Aplicación de tableta para notas de rally. El contenido permanece en el dispositivo del usuario."],
     ],
   },
@@ -118,7 +118,7 @@ const APPS_INDEX = {
     openPage: "Abrir a página",
     products: [
       ["tuntilappu.html", "Tuntilappu", "Controle de horas simples e profissional. Gere relatórios PDF em segundos."],
-      ["iqfleetsync.html", "iqFleetSync", "Aplicativo web para manutenção de frota pesada. O motorista usa uma página móvel normal, sem instalação. O adesivo QR identifica a unidade e não inicia a sessão de ninguém. Para empresas. O registo exige um número de empresa finlandês (Y-tunnus). Teste grátis de 30 dias."],
+      ["iqfleetsync.html", "iqFleetSync", "Um lugar comum para a empresa, a manutenção e os motoristas. Revisões e reparações em dia. No navegador, nada para instalar. Teste de 30 dias."],
       ["iqrallynote.html", "iqRallyNote", "Aplicativo de tablet para notas de rally. O conteúdo fica no dispositivo do usuário."],
     ],
   },
@@ -130,7 +130,7 @@ const APPS_INDEX = {
     openPage: "Apri la pagina",
     products: [
       ["tuntilappu.html", "Tuntilappu", "Gestione ore semplice e professionale. Genera report PDF in pochi secondi."],
-      ["iqfleetsync.html", "iqFleetSync", "Web app per la manutenzione di flotte pesanti. Il conducente usa una normale pagina mobile, senza installazione. L’adesivo QR identifica l’unità e non fa accedere nessuno. Per imprese. La registrazione richiede un codice impresa finlandese (Y-tunnus). Prova gratuita di 30 giorni."],
+      ["iqfleetsync.html", "iqFleetSync", "Un posto comune per azienda, officina e conducenti. Manutenzioni e riparazioni aggiornate. Nel browser, niente da installare. Prova di 30 giorni."],
       ["iqrallynote.html", "iqRallyNote", "App per tablet per le note di rally. Il contenuto resta sul dispositivo dell’utente."],
     ],
   },
@@ -142,7 +142,7 @@ const APPS_INDEX = {
     openPage: "Otwórz stronę",
     products: [
       ["tuntilappu.html", "Tuntilappu", "Prosta i profesjonalna ewidencja czasu pracy. Twórz raporty PDF w kilka sekund."],
-      ["iqfleetsync.html", "iqFleetSync", "Aplikacja webowa do utrzymania ciężkiej floty. Kierowca używa zwykłej strony mobilnej, bez instalacji. Naklejka QR identyfikuje jednostkę i nikogo nie loguje. Dla firm. Rejestracja wymaga fińskiego numeru firmy (Y-tunnus). 30 dni bezpłatnie."],
+      ["iqfleetsync.html", "iqFleetSync", "Wspólne miejsce dla firmy, serwisu i kierowców. Przeglądy i naprawy na bieżąco. W przeglądarce, nic do instalacji. 30 dni próbnie."],
       ["iqrallynote.html", "iqRallyNote", "Aplikacja na tablet do notatek rajdowych. Treść zostaje na urządzeniu użytkownika."],
     ],
   },
@@ -154,7 +154,7 @@ const APPS_INDEX = {
     openPage: "Otevřít stránku",
     products: [
       ["tuntilappu.html", "Tuntilappu", "Jednoduchá a profesionální evidence pracovní doby. Vytvořte PDF reporty během sekund."],
-      ["iqfleetsync.html", "iqFleetSync", "Webová aplikace pro údržbu těžké flotily. Řidič používá běžnou mobilní stránku, bez instalace. QR štítek identifikuje jednotku a nikoho nepřihlásí. Pro firmy. Registrace vyžaduje finské IČ (Y-tunnus). 30 dní zdarma."],
+      ["iqfleetsync.html", "iqFleetSync", "Společné místo pro firmu, údržbu a řidiče. Servisy a opravy zůstávají aktuální. V prohlížeči, nic k instalaci. 30 dní na zkoušku."],
       ["iqrallynote.html", "iqRallyNote", "Tabletová aplikace pro rallyové zápisy. Obsah zůstává v zařízení uživatele."],
     ],
   },
@@ -166,7 +166,7 @@ const APPS_INDEX = {
     openPage: "ページを開く",
     products: [
       ["tuntilappu.html", "Tuntilappu", "シンプルでプロフェッショナルな勤務時間管理。PDFレポートをすぐに作成。"],
-      ["iqfleetsync.html", "iqFleetSync", "重機・大型車両の整備向けウェブアプリ。運転者はインストールなしの普通のモバイルページを使います。QRシールはユニットを識別し、誰もログインさせません。事業者向け。登録にはフィンランドの事業者番号（Y-tunnus）が必要です。30日間の無料試用。"],
+      ["iqfleetsync.html", "iqFleetSync", "会社、整備、ドライバーの共通の場所。点検と修理を最新に。ブラウザで、インストール不要。30日間の試用。"],
       ["iqrallynote.html", "iqRallyNote", "ラリーのペースノート向けタブレットアプリ。内容は利用者の端末に残ります。"],
     ],
   },
@@ -178,7 +178,7 @@ const APPS_INDEX = {
     openPage: "페이지 열기",
     products: [
       ["tuntilappu.html", "Tuntilappu", "간단하고 전문적인 근무시간 관리. PDF 보고서를 순식간에 생성."],
-      ["iqfleetsync.html", "iqFleetSync", "대형 장비 정비용 웹 앱. 운전자는 설치 없이 일반 모바일 페이지를 사용합니다. QR 스티커는 장비를 식별하며 아무도 로그인시키지 않습니다. 사업자용. 등록에는 핀란드 사업자번호(Y-tunnus)가 필요합니다. 30일 무료 체험."],
+      ["iqfleetsync.html", "iqFleetSync", "회사, 정비, 운전자가 함께 쓰는 곳. 점검과 수리를 최신으로. 브라우저에서, 설치 없음. 30일 체험."],
       ["iqrallynote.html", "iqRallyNote", "랠리 페이스노트용 태블릿 앱. 내용은 사용자 기기에 남습니다."],
     ],
   },
@@ -190,7 +190,7 @@ const APPS_INDEX = {
     openPage: "打开页面",
     products: [
       ["tuntilappu.html", "Tuntilappu", "简单专业的工时管理。几秒生成 PDF 报告。"],
-      ["iqfleetsync.html", "iqFleetSync", "重型车队维护网页应用。驾驶员使用普通手机网页，无需安装。二维码贴用来识别设备，不会让任何人登录。面向企业。注册需要芬兰营业编号（Y-tunnus）。30 天免费试用。"],
+      ["iqfleetsync.html", "iqFleetSync", "公司、维修和驾驶员的共同之处。保养和修理保持最新。在浏览器里，无需安装。30 天试用。"],
       ["iqrallynote.html", "iqRallyNote", "用于拉力赛路书的平板应用。内容保留在用户的设备上。"],
     ],
   },

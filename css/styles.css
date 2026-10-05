@@ -459,6 +459,18 @@ a:hover {
   color: var(--ink);
 }
 
+#iqfleetsync {
+  scroll-margin-top: 5.5rem;
+}
+
+.policy-section h3 {
+  margin: 1.35rem 0 0.45rem;
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+  letter-spacing: -0.02em;
+  color: var(--ink);
+}
+
 .policy-section p {
   margin: 0 0 0.85rem;
 }
@@ -683,6 +695,18 @@ a:hover {
   letter-spacing: -0.01em;
 }
 
+.view-block {
+  margin: 0.4rem 0 1.4rem;
+  padding: 0.15rem 0 0.15rem 1rem;
+  border-left: 3px solid var(--teal);
+}
+
+.view-kicker {
+  margin: -0.35rem 0 0.45rem;
+  color: var(--teal);
+  font-weight: 700;
+}
+
 .product-page p,
 .product-page li,
 .pricing-page p,
@@ -854,9 +878,42 @@ a:hover {
 }
 
 .calc-lines .calc-total {
-  font-weight: 800;
+  margin-top: 0.9rem;
+  padding: 0.95rem 1rem;
+  border: 2px solid var(--teal);
+  border-radius: 14px;
+  background: rgba(11, 110, 106, 0.12);
   color: var(--ink);
-  font-size: 1.12rem;
+  font-size: 1.28rem;
+  font-weight: 800;
+  line-height: 1.25;
+}
+
+.calc-lines .calc-total.calc-pair span.calc-total-amount {
+  color: var(--teal);
+  font-size: clamp(1.5rem, 5.2vw, 1.9rem);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+.calc-box .calc-lines .calc-total {
+  margin-bottom: 0;
+  padding-bottom: 0.45rem;
+  border-bottom: none;
+  border-radius: 14px 14px 0 0;
+}
+
+.calc-box .calc-total-vat {
+  margin: 0;
+  padding: 0.15rem 1rem 0.95rem;
+  border: 2px solid var(--teal);
+  border-top: none;
+  border-radius: 0 0 14px 14px;
+  background: rgba(11, 110, 106, 0.12);
+  color: var(--ink);
+  font-size: 0.98rem;
+  font-weight: 700;
+  line-height: 1.45;
 }
 
 .calc-note {
