@@ -1,0 +1,8 @@
+{
+  "name": "iqsoftcore",
+  "private": true,
+  "description": "Static GitHub Pages site for IQSoftCore",
+  "scripts": {
+    "test": "node --test js/pricing-calc.test.js"
+  }
+}
