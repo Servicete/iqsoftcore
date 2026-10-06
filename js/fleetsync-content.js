@@ -992,7 +992,7 @@ function renderFleetSyncPage(lang) {
     ${view(page.shopTitle, page.shopKicker, page.shopLead, page.shop)}
     ${view(page.driverTitle, page.driverKicker, page.driverLead, page.driver)}
     <p>${escapeFleetHtml(page.instructions)}</p>
-    <p>${escapeFleetHtml(help.lead)} <a href="ohjekeskus.html">${escapeFleetHtml(help.label)}</a></p>
+    <p><a href="ohjekeskus.html">${escapeFleetHtml(help.lead)}</a></p>
     <h2>${escapeFleetHtml(page.priceHeading)}</h2>
     <p>${escapeFleetHtml(page.priceLead)}</p>
     <p>${escapeFleetHtml(page.trial)}</p>
