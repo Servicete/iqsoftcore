@@ -1032,49 +1032,14 @@ a:hover {
   margin: 0;
 }
 
-.help-poster,
-.help-embed,
 .help-player {
+  display: block;
   width: 100%;
   aspect-ratio: 16 / 9;
   margin-top: 0.35rem;
   border-radius: 12px;
-  background: #143d4a;
-}
-
-.help-poster {
-  display: grid;
-  place-items: center;
-  border: 1px dashed rgba(127, 212, 200, 0.7);
-  background:
-    linear-gradient(160deg, rgba(11, 110, 106, 0.94), rgba(20, 61, 74, 0.96));
-}
-
-.help-poster span {
-  color: var(--foam);
-  font-family: var(--font-display);
-  font-weight: 700;
-  letter-spacing: -0.02em;
-}
-
-.help-embed {
-  position: relative;
-  overflow: hidden;
-}
-
-.help-player {
-  display: block;
+  background: #0d2a33;
   object-fit: contain;
-  background: #0d2a33;
-}
-
-.help-embed iframe {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  border: 0;
-  background: #0d2a33;
 }
 
 @media (prefers-reduced-motion: reduce) {

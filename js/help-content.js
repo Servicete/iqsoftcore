@@ -1,115 +1,133 @@
 /**
  * iqFleetSync help center.
- * Short Finnish how-to clips. Leave `src` empty until a real file exists,
- * then set it to a local path such as "videos/qr-kirjautuminen.mp4"
- * or an https YouTube/Vimeo embed URL (youtube.com/embed/… or player.vimeo.com/video/…).
- * Do not put placeholder watch-page URLs here.
+ * Clips live in videos/iqfleetsync/ as mp4 plus a Finnish WebVTT file.
+ * See videos/README.md for the expected filenames.
  */
 const HELP_MEDIA = [
-  { id: "qr-login", src: "", file: "videos/qr-kirjautuminen.mp4" },
-  { id: "readings-vs-defect", src: "", file: "videos/lukemat-ja-vikailmoitus.mp4" },
-  { id: "reports-work-order", src: "", file: "videos/huollon-raportit.mp4" },
-  { id: "invites-roles", src: "", file: "videos/kutsut-ja-roolit.mp4" },
-  { id: "print-qr", src: "", file: "videos/qr-tarrojen-tulostus.mp4" },
+  {
+    id: "qr-login",
+    src: "videos/iqfleetsync/qr-kirjautuminen-kuljettaja.mp4",
+    captions: "videos/iqfleetsync/qr-kirjautuminen-kuljettaja.vtt",
+  },
+  {
+    id: "readings-vs-defect",
+    src: "videos/iqfleetsync/lukemat-vs-vikailmoitus.mp4",
+    captions: "videos/iqfleetsync/lukemat-vs-vikailmoitus.vtt",
+  },
+  {
+    id: "reports-work-order",
+    src: "videos/iqfleetsync/huolto-raportit.mp4",
+    captions: "videos/iqfleetsync/huolto-raportit.vtt",
+  },
+  {
+    id: "invites-roles",
+    src: "videos/iqfleetsync/paakayttaja-kutsut-roolit.mp4",
+    captions: "videos/iqfleetsync/paakayttaja-kutsut-roolit.vtt",
+  },
+  {
+    id: "print-qr",
+    src: "videos/iqfleetsync/qr-tarrat.mp4",
+    captions: "videos/iqfleetsync/qr-tarrat.vtt",
+  },
 ];
 
 const HELP_CENTER = {
   fi: {
     metaTitle: "Ohjekeskus | iqFleetSync",
-    metaDescription: "Lyhyet suomenkieliset ohjevideot iqFleetSynciin: QR-kirjautuminen, lukemat, vikailmoitus, huollon raportit, kutsut ja QR-tarrat.",
+    metaDescription: "Lyhyet suomenkieliset ohjevideot iqFleetSynciin: QR-kirjautuminen, lukemat ja vikailmoitus, huoltohenkilön raportit, kutsut ja roolit sekä QR-tarrat.",
     title: "Ohjekeskus",
     kicker: "iqFleetSync",
-    lead: "Lyhyet suomenkieliset ohjevideot iqFleetSynciin. Jokainen kortti on valmis videolle. Kun tiedosto on paikallaan, se näkyy tässä.",
-    pending: "Video tulossa",
+    lead: "Lyhyet suomenkieliset ohjevideot iqFleetSynciin. Tekstitys on suomeksi.",
+    unsupported: "Selaimesi ei toista videota.",
     back: "Takaisin iqFleetSynciin",
     apps: "Kaikki sovellukset",
     home: "Etusivu",
     topics: {
       "qr-login": {
         title: "QR-kirjautuminen kuljettajalle",
-        description: "Kuljettaja avaa oman näkymänsä skannaamalla yksikön QR-tarran puhelimen kameralla. Video näyttää, miten kirjautuminen käy tien päällä ilman erillistä asennusta.",
+        description: "Miten kuljettaja kirjautuu skannaamalla koneen QR-koodin. Uudella puhelimella sähköpostikoodi, sen jälkeen sormenjälki.",
       },
       "readings-vs-defect": {
-        title: "Lukemien kirjaus vs vikailmoitus",
-        description: "Kilometrit ja tunnit kirjataan omana merkintänään, vikailmoitus lähtee kuvan kanssa. Video erottaa nämä kaksi, jotta ilmoitus menee oikeaan paikkaan.",
+        title: "Lukemat vs. vikailmoitus",
+        description: "Kirjaa km/tunnit tai ilmoita vika. Service-hint-värit näyttävät tilanteen, ja ei-ajokunnossa oleva yksikkö vaatii kuvauksen.",
       },
       "reports-work-order": {
-        title: "Huollon raportit ja työmääräin",
-        description: "Huolto näkee vikailmoitukset, työmääräimen ja yksikön historian samassa listassa. Video käy läpi, miten raportti ja työmääräin kulkevat työn mukana.",
+        title: "Huoltohenkilön raportit",
+        description: "Raportit ja työmääräimet. Kustannuksia ei näytetä.",
       },
       "invites-roles": {
-        title: "Pääkäyttäjä: henkilöiden kutsut ja roolit",
-        description: "Pääkäyttäjä kutsuu henkilöt mukaan ja antaa heille roolin, jotta jokainen avaa oman näkymänsä. Video näyttää kutsun ja roolin valinnan.",
+        title: "Pääkäyttäjä: kutsut ja roolit",
+        description: "Roolit ovat pääkäyttäjä, huoltohenkilö ja kuljettaja. Kustannusoikeus on vain adminilla.",
       },
       "print-qr": {
         title: "QR-tarrojen tulostus",
-        description: "QR-tarrat kiinnitetään kuorma-autoihin, perävaunuihin ja koneisiin. Video näyttää, miten tarrat tulostetaan huollon näkymästä.",
+        description: "Tarrat yksiköille skannausta varten.",
       },
     },
   },
   en: {
     metaTitle: "Help center | iqFleetSync",
-    metaDescription: "Short Finnish how-to videos for iqFleetSync: QR sign-in, readings, defect reports, maintenance reports, invites, and QR stickers.",
+    metaDescription: "Short Finnish how-to videos for iqFleetSync: QR sign-in, readings and defect reports, workshop reports, invites and roles, and QR stickers.",
     title: "Help center",
     kicker: "iqFleetSync",
-    lead: "Short Finnish how-to videos for iqFleetSync. Each card is ready for a clip. When the file is in place, it plays here.",
-    pending: "Video coming soon",
+    lead: "Short Finnish how-to videos for iqFleetSync. Subtitles are in Finnish.",
+    unsupported: "Your browser cannot play this video.",
     back: "Back to iqFleetSync",
     apps: "All apps",
     home: "Home",
     topics: {
       "qr-login": {
         title: "QR sign-in for the driver",
-        description: "The driver opens their view by scanning the unit’s QR sticker with the phone camera. The video shows how sign-in works at the roadside, with nothing to install.",
+        description: "How the driver signs in by scanning the machine’s QR code. On a new phone, an email code comes first, then fingerprint.",
       },
       "readings-vs-defect": {
-        title: "Entering readings vs reporting a defect",
-        description: "Kilometres and hours are their own entry. A defect report goes out with a photo. The video separates the two so the note lands in the right place.",
+        title: "Readings vs defect report",
+        description: "Enter kilometres and hours, or report a defect. Service-hint colours show the situation, and a unit that is not roadworthy needs a description.",
       },
       "reports-work-order": {
-        title: "Maintenance reports and the work order",
-        description: "The workshop sees defect reports, the work order and the unit’s history in one list. The video walks through how the report and the work order travel with the job.",
+        title: "Workshop reports",
+        description: "Reports and work orders. Costs are not shown.",
       },
       "invites-roles": {
-        title: "Admin: inviting people and roles",
-        description: "The admin invites people and gives each a role, so everyone opens their own view. The video shows the invitation and the role choice.",
+        title: "Admin: invites and roles",
+        description: "The roles are admin, workshop and driver. Only the admin can see costs.",
       },
       "print-qr": {
         title: "Printing QR stickers",
-        description: "QR stickers go on trucks, trailers and machines. The video shows how to print them from the workshop view.",
+        description: "Stickers for the units, so they can be scanned.",
       },
     },
   },
   sv: {
     metaTitle: "Hjälpcenter | iqFleetSync",
-    metaDescription: "Korta finska instruktionsvideor för iqFleetSync: QR-inloggning, mätarställning, felanmälan, underhållsrapporter, inbjudningar och QR-dekaler.",
+    metaDescription: "Korta finska instruktionsvideor för iqFleetSync: QR-inloggning, mätarställning och felanmälan, verkstadens rapporter, inbjudningar och roller samt QR-dekaler.",
     title: "Hjälpcenter",
     kicker: "iqFleetSync",
-    lead: "Korta finska instruktionsvideor för iqFleetSync. Varje kort är redo för ett klipp. När filen finns på plats spelas den upp här.",
-    pending: "Video kommer",
+    lead: "Korta finska instruktionsvideor för iqFleetSync. Undertexterna är på finska.",
+    unsupported: "Din webbläsare kan inte spela videon.",
     back: "Tillbaka till iqFleetSync",
     apps: "Alla appar",
     home: "Startsida",
     topics: {
       "qr-login": {
         title: "QR-inloggning för föraren",
-        description: "Föraren öppnar sin vy genom att skanna enhetens QR-dekal med telefonens kamera. Videon visar hur inloggningen går till vid vägkanten, utan installation.",
+        description: "Hur föraren loggar in genom att skanna maskinens QR-kod. På en ny telefon kommer först en e-postkod, sedan fingeravtryck.",
       },
       "readings-vs-defect": {
         title: "Mätarställning jämfört med felanmälan",
-        description: "Kilometer och timmar skrivs in för sig. En felanmälan skickas med bild. Videon skiljer de två åt, så anteckningen hamnar rätt.",
+        description: "Skriv in kilometer och timmar, eller anmäl ett fel. Service-hint-färger visar läget, och en enhet som inte är körduglig kräver en beskrivning.",
       },
       "reports-work-order": {
-        title: "Underhållsrapporter och arbetsorder",
-        description: "Verkstaden ser felanmälningar, arbetsordern och enhetens historik i samma lista. Videon går igenom hur rapporten och arbetsordern följer med jobbet.",
+        title: "Verkstadens rapporter",
+        description: "Rapporter och arbetsorder. Kostnader visas inte.",
       },
       "invites-roles": {
         title: "Administratör: inbjudningar och roller",
-        description: "Administratören bjuder in personer och ger var och en en roll, så alla öppnar sin egen vy. Videon visar inbjudan och rollvalet.",
+        description: "Rollerna är administratör, verkstad och förare. Bara administratören har kostnadsrätt.",
       },
       "print-qr": {
         title: "Skriva ut QR-dekaler",
-        description: "QR-dekaler sätts på lastbilar, släp och maskiner. Videon visar hur de skrivs ut från verkstadens vy.",
+        description: "Dekaler för enheterna, så att de kan skannas.",
       },
     },
   },
@@ -123,23 +141,13 @@ function escapeHelpHtml(value) {
     .replace(/"/g, "&quot;");
 }
 
-function helpMediaHtml(item, topic, pendingLabel) {
-  const src = String(item.src || "").trim();
+function helpMediaHtml(item, topic, unsupportedLabel) {
   const title = escapeHelpHtml(topic.title);
-  const pending = escapeHelpHtml(pendingLabel);
-  const file = escapeHelpHtml(item.file || "");
-  const embed = /^https:\/\/(www\.)?(youtube\.com\/embed\/|youtube-nocookie\.com\/embed\/|player\.vimeo\.com\/video\/)/i.test(src);
-  const fileSrc = /^(videos\/|https:\/\/).+\.(mp4|webm)(\?.*)?$/i.test(src);
-
-  if (embed) {
-    return `<div class="help-embed"><iframe src="${escapeHelpHtml(src)}" title="${title}" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen></iframe></div>`;
-  }
-
-  if (fileSrc) {
-    return `<video class="help-player" controls playsinline preload="metadata" src="${escapeHelpHtml(src)}">${pending}</video>`;
-  }
-
-  return `<div class="help-poster" data-video-file="${file}"><span>${pending}</span></div>`;
+  return `<video class="help-player" controls playsinline preload="metadata" aria-label="${title}">
+      <source src="${escapeHelpHtml(item.src)}" type="video/mp4" />
+      <track kind="subtitles" src="${escapeHelpHtml(item.captions)}" srclang="fi" label="Suomi" default />
+      ${escapeHelpHtml(unsupportedLabel)}
+    </video>`;
 }
 
 function renderHelpCenter(lang) {
@@ -158,7 +166,7 @@ function renderHelpCenter(lang) {
     return `<article class="help-card" id="${escapeHelpHtml(item.id)}">
       <h2>${escapeHelpHtml(topic.title)}</h2>
       <p>${escapeHelpHtml(topic.description)}</p>
-      ${helpMediaHtml(item, topic, page.pending)}
+      ${helpMediaHtml(item, topic, page.unsupported)}
     </article>`;
   }).join("");
 
