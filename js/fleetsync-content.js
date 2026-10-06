@@ -885,6 +885,73 @@ const FLEETSYNC_PAGE = {
   },
 };
 
+const FLEETSYNC_HELP = {
+  fi: {
+    label: "Ohjekeskus",
+    lead: "Lyhyet ohjevideot ovat ohjekeskuksessa.",
+  },
+  en: {
+    label: "Help center",
+    lead: "Short how-to videos are in the help center.",
+  },
+  sv: {
+    label: "Hjälpcenter",
+    lead: "Korta instruktionsvideor finns i hjälpcentret.",
+  },
+  no: {
+    label: "Hjelpesenter",
+    lead: "Korte instruksjonsvideoer ligger i hjelpesenteret.",
+  },
+  da: {
+    label: "Hjælpecenter",
+    lead: "Korte vejledningsvideoer ligger i hjælpecentret.",
+  },
+  de: {
+    label: "Hilfe",
+    lead: "Kurze Anleitungsvideos stehen in der Hilfe.",
+  },
+  es: {
+    label: "Ayuda",
+    lead: "Los vídeos cortos de ayuda están en la ayuda.",
+  },
+  it: {
+    label: "Guida",
+    lead: "I video brevi sono nella guida.",
+  },
+  ja: {
+    label: "ヘルプ",
+    lead: "短い使い方動画はヘルプにあります。",
+  },
+  ko: {
+    label: "도움말",
+    lead: "짧은 안내 영상은 도움말에 있습니다.",
+  },
+  fr: {
+    label: "Aide",
+    lead: "De courtes vidéos d’aide sont dans l’aide.",
+  },
+  pt: {
+    label: "Ajuda",
+    lead: "Vídeos curtos de ajuda estão na ajuda.",
+  },
+  nl: {
+    label: "Help",
+    lead: "Korte instructievideo’s staan bij Help.",
+  },
+  pl: {
+    label: "Pomoc",
+    lead: "Krótkie filmy pomocy są w pomocy.",
+  },
+  cs: {
+    label: "Nápověda",
+    lead: "Krátká návodová videa jsou v nápovědě.",
+  },
+  zh: {
+    label: "帮助",
+    lead: "简短的使用视频在帮助里。",
+  },
+};
+
 function escapeFleetHtml(value) {
   return String(value)
     .replace(/&/g, "&amp;")
@@ -897,6 +964,7 @@ function renderFleetSyncPage(lang) {
   const root = document.getElementById("fleetsync-root");
   if (!root) return;
   const page = FLEETSYNC_PAGE[lang] || FLEETSYNC_PAGE.en;
+  const help = FLEETSYNC_HELP[lang] || FLEETSYNC_HELP.en;
 
   const titleEl = document.querySelector("title");
   if (titleEl) titleEl.textContent = page.metaTitle;
@@ -924,6 +992,7 @@ function renderFleetSyncPage(lang) {
     ${view(page.shopTitle, page.shopKicker, page.shopLead, page.shop)}
     ${view(page.driverTitle, page.driverKicker, page.driverLead, page.driver)}
     <p>${escapeFleetHtml(page.instructions)}</p>
+    <p>${escapeFleetHtml(help.lead)} <a href="ohjekeskus.html">${escapeFleetHtml(help.label)}</a></p>
     <h2>${escapeFleetHtml(page.priceHeading)}</h2>
     <p>${escapeFleetHtml(page.priceLead)}</p>
     <p>${escapeFleetHtml(page.trial)}</p>
@@ -937,6 +1006,7 @@ function renderFleetSyncPage(lang) {
     <h2>${escapeFleetHtml(page.faqHeading)}</h2>
     ${faq}
     <p class="policy-nav">
+      <a class="btn btn-ghost" href="ohjekeskus.html">${escapeFleetHtml(help.label)}</a>
       <a class="btn btn-ghost" href="hinnasto.html">${escapeFleetHtml(page.pricing)}</a>
       <a class="btn btn-ghost" href="kayttoehdot.html">${escapeFleetHtml(page.terms)}</a>
       <a class="btn btn-ghost" href="privacy.html#iqfleetsync">${escapeFleetHtml(page.privacy)}</a>
