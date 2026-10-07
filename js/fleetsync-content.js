@@ -914,6 +914,12 @@ function renderFleetSyncPage(lang) {
     .map((item) => `<h3>${escapeFleetHtml(item.q)}</h3><p>${escapeFleetHtml(item.a)}</p>`)
     .join("");
 
+  const savedCounts = {};
+  ["vehicles", "machines", "trailers", "attachments"].forEach((key) => {
+    const input = document.getElementById(`fleet-calc-${key}`);
+    if (input) savedCounts[key] = input.value;
+  });
+
   root.innerHTML = `<h1>iqFleetSync</h1>
     <p class="app-short">${escapeFleetHtml(page.kicker)}</p>
     <p>${escapeFleetHtml(page.lead)}</p>
@@ -945,6 +951,6 @@ function renderFleetSyncPage(lang) {
     </p>`;
 
   if (typeof mountFleetSyncCalculator === "function") {
-    mountFleetSyncCalculator(document.getElementById("fleet-calc"), lang);
+    mountFleetSyncCalculator(document.getElementById("fleet-calc"), lang, savedCounts);
   }
 }

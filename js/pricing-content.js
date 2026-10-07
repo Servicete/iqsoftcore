@@ -76,7 +76,7 @@ const PRICING_PAGE = {
     billingLink: "Käyttöehdot",
     example5: "5 ajoneuvoa",
     example20: "20 ajoneuvoa ja 5 perävaunua",
-    exampleMix: "10 ajoneuvoa, 8 työkoneetta, 5 perävaunua ja 4 laitetta",
+    exampleMix: "10 ajoneuvoa, 8 työkonetta, 5 perävaunua ja 4 laitetta",
     totalUnits: "Yksiköitä yhteensä",
     unitsSum: "Yksiköiden hinta",
     baseLine: "Perusmaksu",
@@ -1055,23 +1055,37 @@ function formatFormulaCount(count, lang) {
   }).format(count);
 }
 
-function renderPriceQuote(lang, page, quote) {
+const FLEET_CALC_FIELDS = [
+  { key: "vehicles", kind: "vehicle", labelKey: "vehiclesLabel", hintKey: "vehiclesHint" },
+  { key: "machines", kind: "machine", labelKey: "machinesLabel", hintKey: "machinesHint" },
+  { key: "trailers", kind: "trailer", labelKey: "trailersLabel", hintKey: "trailersHint" },
+  { key: "attachments", kind: "attachment", labelKey: "attachmentsLabel", hintKey: "attachmentsHint" },
+];
+
+function fleetLineFormula(line, lang, page, kind) {
+  let formula = `${formatFormulaCount(line.count, lang)} × ${formatPriceAmount(line.rateCents, lang)} = ${formatPriceAmount(line.amountCents, lang)}`;
+  if (kind === "attachment") formula += ` (${page.freeNote})`;
+  return formula;
+}
+
+function renderPriceQuote(lang, page, quote, options) {
+  const showBreakdown = !options || options.breakdown !== false;
   const lines = [
     `<li class="calc-pair"><span>${escapePriceHtml(page.baseLine)}</span><span>${escapePriceHtml(formatPriceAmount(quote.baseCents, lang))}</span></li>`,
   ];
 
-  ["vehicle", "machine", "trailer", "attachment"].forEach((kind) => {
-    const group = quote.lines.filter((line) => line.kind === kind);
-    if (!group.length) return;
-    const label = page[PRICE_LINE_LABELS[kind]];
-    group.forEach((line) => {
-      let formula = `${formatFormulaCount(line.count, lang)} × ${formatPriceAmount(line.rateCents, lang)} = ${formatPriceAmount(line.amountCents, lang)}`;
-      if (kind === "attachment") formula += ` (${page.freeNote})`;
-      lines.push(
-        `<li class="calc-formula"><span class="calc-kind">${escapePriceHtml(label)}:</span> ${escapePriceHtml(formula)}</li>`
-      );
+  if (showBreakdown) {
+    ["vehicle", "machine", "trailer", "attachment"].forEach((kind) => {
+      const group = quote.lines.filter((line) => line.kind === kind);
+      if (!group.length) return;
+      const label = page[PRICE_LINE_LABELS[kind]];
+      group.forEach((line) => {
+        lines.push(
+          `<li class="calc-formula"><span class="calc-kind">${escapePriceHtml(label)}:</span> ${escapePriceHtml(fleetLineFormula(line, lang, page, kind))}</li>`
+        );
+      });
     });
-  });
+  }
 
   const total = `${formatPriceAmount(quote.totalCents, lang)}${page.perMonth}`;
   lines.push(
@@ -1079,6 +1093,61 @@ function renderPriceQuote(lang, page, quote) {
   );
 
   return `<ul class="calc-lines">${lines.join("")}</ul>`;
+}
+
+function fleetCalcRowsMarkup(idPrefix, page) {
+  return FLEET_CALC_FIELDS.map((field) => {
+    const id = `${idPrefix}-${field.key}`;
+    return `<div class="field calc-row">
+      <div class="calc-row-copy">
+        <label for="${id}">${escapePriceHtml(page[field.labelKey])}</label>
+        <span class="field-hint" id="${id}-hint">${escapePriceHtml(page[field.hintKey])}</span>
+      </div>
+      <input id="${id}" type="number" inputmode="numeric" min="0" step="1" value="" aria-describedby="${id}-hint ${id}-formula">
+      <span class="calc-row-amount" id="${id}-amount"></span>
+      <p class="calc-row-formula" id="${id}-formula" hidden></p>
+    </div>`;
+  }).join("");
+}
+
+function bindFleetCalculator(root, lang, page, idPrefix, initial) {
+  const inputs = {};
+  FLEET_CALC_FIELDS.forEach((field) => {
+    inputs[field.key] = root.querySelector(`#${idPrefix}-${field.key}`);
+    if (initial && initial[field.key]) inputs[field.key].value = initial[field.key];
+  });
+  const result = root.querySelector(`#${idPrefix}-result`);
+
+  const update = () => {
+    const quote = quoteFleetSync(
+      inputs.vehicles.value,
+      inputs.machines.value,
+      inputs.trailers.value,
+      inputs.attachments.value
+    );
+    FLEET_CALC_FIELDS.forEach((field) => {
+      const group = quote.lines.filter((line) => line.kind === field.kind);
+      const amountCents = group.reduce((sum, line) => sum + line.amountCents, 0);
+      const amountEl = root.querySelector(`#${idPrefix}-${field.key}-amount`);
+      const formulaEl = root.querySelector(`#${idPrefix}-${field.key}-formula`);
+      amountEl.textContent = formatPriceAmount(amountCents, lang);
+      if (!group.length) {
+        formulaEl.textContent = "";
+        formulaEl.hidden = true;
+        return;
+      }
+      formulaEl.hidden = false;
+      formulaEl.textContent = group
+        .map((line) => fleetLineFormula(line, lang, page, field.kind))
+        .join("\n");
+    });
+    result.innerHTML = renderPriceQuote(lang, page, quote, { breakdown: false });
+  };
+
+  FLEET_CALC_FIELDS.forEach((field) => {
+    inputs[field.key].addEventListener("input", update);
+  });
+  update();
 }
 
 function renderPricingPage(lang) {
@@ -1150,28 +1219,9 @@ function renderPricingPage(lang) {
     <h2>${escapePriceHtml(page.calcTitle)}</h2>
     <p>${escapePriceHtml(page.calcIntro)}</p>
     <p>${escapePriceHtml(page.trailer)}</p>
-    <div class="calc-box">
+    <div class="calc-box" id="calc-box">
       <div class="calc-fields">
-        <div class="field">
-          <label for="calc-vehicles">${escapePriceHtml(page.vehiclesLabel)}</label>
-          <span class="field-hint" id="calc-vehicles-hint">${escapePriceHtml(page.vehiclesHint)}</span>
-          <input id="calc-vehicles" type="number" inputmode="numeric" min="0" step="1" value="" aria-describedby="calc-vehicles-hint">
-        </div>
-        <div class="field">
-          <label for="calc-machines">${escapePriceHtml(page.machinesLabel)}</label>
-          <span class="field-hint" id="calc-machines-hint">${escapePriceHtml(page.machinesHint)}</span>
-          <input id="calc-machines" type="number" inputmode="numeric" min="0" step="1" value="" aria-describedby="calc-machines-hint">
-        </div>
-        <div class="field">
-          <label for="calc-trailers">${escapePriceHtml(page.trailersLabel)}</label>
-          <span class="field-hint" id="calc-trailers-hint">${escapePriceHtml(page.trailersHint)}</span>
-          <input id="calc-trailers" type="number" inputmode="numeric" min="0" step="1" value="" aria-describedby="calc-trailers-hint">
-        </div>
-        <div class="field">
-          <label for="calc-attachments">${escapePriceHtml(page.attachmentsLabel)}</label>
-          <span class="field-hint" id="calc-attachments-hint">${escapePriceHtml(page.attachmentsHint)}</span>
-          <input id="calc-attachments" type="number" inputmode="numeric" min="0" step="1" value="" aria-describedby="calc-attachments-hint">
-        </div>
+        ${fleetCalcRowsMarkup("calc", page)}
       </div>
       <div id="calc-result" aria-live="polite"></div>
       <p class="calc-total-vat">${escapePriceHtml(page.vatNote)}</p>
@@ -1192,68 +1242,31 @@ function renderPricingPage(lang) {
     <p>${escapePriceHtml(page.otherIntro)}</p>
     <div class="other-products">${others}</div>`;
 
-  const vehiclesInput = document.getElementById("calc-vehicles");
-  const machinesInput = document.getElementById("calc-machines");
-  const trailersInput = document.getElementById("calc-trailers");
-  const attachmentsInput = document.getElementById("calc-attachments");
-  const result = document.getElementById("calc-result");
-  vehiclesInput.value = vehicleValue;
-  machinesInput.value = machineValue;
-  trailersInput.value = trailerValue;
-  attachmentsInput.value = attachmentValue;
-
-  const update = () => {
-    const quote = quoteFleetSync(
-      vehiclesInput.value,
-      machinesInput.value,
-      trailersInput.value,
-      attachmentsInput.value
-    );
-    result.innerHTML = renderPriceQuote(lang, page, quote);
-  };
-
-  [vehiclesInput, machinesInput, trailersInput, attachmentsInput].forEach((input) => {
-    input.addEventListener("input", update);
+  bindFleetCalculator(root, lang, page, "calc", {
+    vehicles: vehicleValue,
+    machines: machineValue,
+    trailers: trailerValue,
+    attachments: attachmentValue,
   });
-  update();
 }
 
-function mountFleetSyncCalculator(host, lang) {
+function mountFleetSyncCalculator(host, lang, initial) {
   if (!host || typeof quoteFleetSync !== "function" || typeof PRICING_PAGE === "undefined") return;
   const page = PRICING_PAGE[lang] || PRICING_PAGE.en;
-  const field = (id, label, hint) => `<div class="field">
-      <label for="${id}">${escapePriceHtml(label)}</label>
-      <span class="field-hint" id="${id}-hint">${escapePriceHtml(hint)}</span>
-      <input id="${id}" type="number" inputmode="numeric" min="0" step="1" value="" aria-describedby="${id}-hint">
-    </div>`;
+  const saved = initial || {};
+  FLEET_CALC_FIELDS.forEach((field) => {
+    if (saved[field.key]) return;
+    const existing = host.querySelector(`#fleet-calc-${field.key}`);
+    if (existing) saved[field.key] = existing.value;
+  });
 
   host.innerHTML = `<div class="calc-box">
       <div class="calc-fields">
-        ${field("fleet-calc-vehicles", page.vehiclesLabel, page.vehiclesHint)}
-        ${field("fleet-calc-machines", page.machinesLabel, page.machinesHint)}
-        ${field("fleet-calc-trailers", page.trailersLabel, page.trailersHint)}
-        ${field("fleet-calc-attachments", page.attachmentsLabel, page.attachmentsHint)}
+        ${fleetCalcRowsMarkup("fleet-calc", page)}
       </div>
       <div id="fleet-calc-result" aria-live="polite"></div>
       <p class="calc-total-vat">${escapePriceHtml(page.vatNote)}</p>
     </div>`;
 
-  const vehiclesInput = host.querySelector("#fleet-calc-vehicles");
-  const machinesInput = host.querySelector("#fleet-calc-machines");
-  const trailersInput = host.querySelector("#fleet-calc-trailers");
-  const attachmentsInput = host.querySelector("#fleet-calc-attachments");
-  const result = host.querySelector("#fleet-calc-result");
-  const update = () => {
-    const quote = quoteFleetSync(
-      vehiclesInput.value,
-      machinesInput.value,
-      trailersInput.value,
-      attachmentsInput.value
-    );
-    result.innerHTML = renderPriceQuote(lang, page, quote);
-  };
-  [vehiclesInput, machinesInput, trailersInput, attachmentsInput].forEach((input) => {
-    input.addEventListener("input", update);
-  });
-  update();
+  bindFleetCalculator(host, lang, page, "fleet-calc", saved);
 }
