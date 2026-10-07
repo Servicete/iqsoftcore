@@ -1,0 +1,25 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:07.000
+Kaksi nappia: lukemat tai vikailmoitus
+
+2
+00:00:07.000 --> 00:00:19.000
+Kirjaa km/tunnit = matkamittari tai käyttötunnit
+
+3
+00:00:19.000 --> 00:00:31.000
+Ilmoita vika/havainto = ongelma tai huomio huoltoon
+
+4
+00:00:31.000 --> 00:00:43.000
+Service-hint: keltainen = lähellä, punainen = myöhässä
+
+5
+00:00:43.000 --> 00:00:55.000
+Ei-ajokunnossa: kuvaa miksi kone ei ole ajokunnossa
+
+6
+00:00:55.000 --> 00:01:02.000
+Lähetä — huolto näkee ilmoituksen heti

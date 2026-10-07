@@ -662,6 +662,9 @@ a:hover {
 }
 
 .product-card .card-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
   margin-top: auto;
 }
 
@@ -1054,6 +1057,54 @@ a:hover {
     height: 280px;
     opacity: 0.7;
   }
+}
+
+.help-page .section-inner {
+  max-width: 48rem;
+}
+
+.help-kicker {
+  margin: 0 0 0.35rem;
+  color: var(--teal);
+  font-weight: 700;
+}
+
+.help-list {
+  display: grid;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.help-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+  padding: 1.25rem 1.3rem 1.35rem;
+  background: rgba(255, 255, 255, 0.68);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-soft);
+}
+
+.help-card h2 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  letter-spacing: -0.02em;
+}
+
+.help-card p {
+  margin: 0;
+}
+
+.help-player {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  margin-top: 0.35rem;
+  border-radius: 12px;
+  background: #0d2a33;
+  object-fit: contain;
 }
 
 @media (prefers-reduced-motion: reduce) {

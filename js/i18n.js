@@ -6,6 +6,7 @@ const translations = {
     navAbout: "Toiminta",
     navContact: "Yhteystiedot",
     navApps: "Sovellukset",
+    navHelp: "Ohjekeskus",
     navPrivacy: "Tietosuoja",
     navFleetPrivacy: "iqFleetSync-tietosuoja",
     navPricing: "Hinnasto",
@@ -45,6 +46,7 @@ const translations = {
     navAbout: "What we do",
     navContact: "Contact",
     navApps: "Apps",
+    navHelp: "Help center",
     navPrivacy: "Privacy",
     navFleetPrivacy: "iqFleetSync privacy",
     navPricing: "Pricing",
@@ -84,6 +86,7 @@ const translations = {
     navAbout: "Vad vi gör",
     navContact: "Kontakt",
     navApps: "Appar",
+    navHelp: "Hjälpcenter",
     navPrivacy: "Integritet",
     navFleetPrivacy: "iqFleetSync-integritet",
     navPricing: "Priser",
@@ -123,6 +126,7 @@ const translations = {
     navAbout: "Hva vi gjør",
     navContact: "Kontakt",
     navApps: "Apper",
+    navHelp: "Hjelpesenter",
     navPrivacy: "Personvern",
     navFleetPrivacy: "iqFleetSync-personvern",
     navPricing: "Priser",
@@ -162,6 +166,7 @@ const translations = {
     navAbout: "Hvad vi gør",
     navContact: "Kontakt",
     navApps: "Apps",
+    navHelp: "Hjælpecenter",
     navPrivacy: "Privatliv",
     navFleetPrivacy: "iqFleetSync-privatliv",
     navPricing: "Priser",
@@ -201,6 +206,7 @@ const translations = {
     navAbout: "Was wir tun",
     navContact: "Kontakt",
     navApps: "Apps",
+    navHelp: "Hilfe",
     navPrivacy: "Datenschutz",
     navFleetPrivacy: "iqFleetSync-Datenschutz",
     navPricing: "Preise",
@@ -240,6 +246,7 @@ const translations = {
     navAbout: "Qué hacemos",
     navContact: "Contacto",
     navApps: "Aplicaciones",
+    navHelp: "Ayuda",
     navPrivacy: "Privacidad",
     navFleetPrivacy: "Privacidad de iqFleetSync",
     navPricing: "Precios",
@@ -279,6 +286,7 @@ const translations = {
     navAbout: "Cosa facciamo",
     navContact: "Contatti",
     navApps: "App",
+    navHelp: "Guida",
     navPrivacy: "Privacy",
     navFleetPrivacy: "Privacy di iqFleetSync",
     navPricing: "Prezzi",
@@ -318,6 +326,7 @@ const translations = {
     navAbout: "事業内容",
     navContact: "お問い合わせ",
     navApps: "アプリ",
+    navHelp: "ヘルプ",
     navPrivacy: "プライバシー",
     navFleetPrivacy: "iqFleetSyncのプライバシー",
     navPricing: "料金",
@@ -357,6 +366,7 @@ const translations = {
     navAbout: "사업 소개",
     navContact: "연락처",
     navApps: "앱",
+    navHelp: "도움말",
     navPrivacy: "개인정보",
     navFleetPrivacy: "iqFleetSync 개인정보",
     navPricing: "요금",
@@ -395,6 +405,7 @@ const translations = {
     navAbout: "Notre activité",
     navContact: "Contact",
     navApps: "Applications",
+    navHelp: "Aide",
     navPrivacy: "Confidentialité",
     navFleetPrivacy: "Confidentialité d’iqFleetSync",
     navPricing: "Tarifs",
@@ -430,6 +441,7 @@ const translations = {
     navAbout: "O que fazemos",
     navContact: "Contato",
     navApps: "Aplicativos",
+    navHelp: "Ajuda",
     navPrivacy: "Privacidade",
     navFleetPrivacy: "Privacidade do iqFleetSync",
     navPricing: "Preços",
@@ -465,6 +477,7 @@ const translations = {
     navAbout: "Wat we doen",
     navContact: "Contact",
     navApps: "Apps",
+    navHelp: "Help",
     navPrivacy: "Privacy",
     navFleetPrivacy: "iqFleetSync-privacy",
     navPricing: "Prijzen",
@@ -500,6 +513,7 @@ const translations = {
     navAbout: "Czym się zajmujemy",
     navContact: "Kontakt",
     navApps: "Aplikacje",
+    navHelp: "Pomoc",
     navPrivacy: "Prywatność",
     navFleetPrivacy: "Prywatność iqFleetSync",
     navPricing: "Cennik",
@@ -535,6 +549,7 @@ const translations = {
     navAbout: "Co děláme",
     navContact: "Kontakt",
     navApps: "Aplikace",
+    navHelp: "Nápověda",
     navPrivacy: "Soukromí",
     navFleetPrivacy: "Soukromí iqFleetSync",
     navPricing: "Ceník",
@@ -570,6 +585,7 @@ const translations = {
     navAbout: "我们做什么",
     navContact: "联系方式",
     navApps: "应用",
+    navHelp: "帮助",
     navPrivacy: "隐私",
     navFleetPrivacy: "iqFleetSync 隐私",
     navPricing: "价格",
@@ -661,6 +677,10 @@ function applyTranslations(lang) {
 
   if (typeof renderFleetSyncPage === "function") {
     renderFleetSyncPage(lang);
+  }
+
+  if (typeof renderHelpCenter === "function") {
+    renderHelpCenter(lang);
   }
 
   if (typeof renderRallyNotePage === "function") {
