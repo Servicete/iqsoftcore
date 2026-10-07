@@ -53,11 +53,11 @@ const HELP_CENTER = {
       },
       "reports-work-order": {
         title: "Huoltohenkilön raportit",
-        description: "Raportit ja työmääräimet. Kustannuksia ei näytetä.",
+        description: "Vikailmoitusten käsittely, työmääräimet ja huollon kirjaus.",
       },
       "invites-roles": {
         title: "Pääkäyttäjä: kutsut ja roolit",
-        description: "Roolit ovat pääkäyttäjä, huoltohenkilö ja kuljettaja. Kustannusoikeus on vain adminilla.",
+        description: "Kutsu henkilöt ja valitse jokaiselle rooli: Pääkäyttäjä, Huoltohenkilö tai Kuljettaja.",
       },
       "print-qr": {
         title: "QR-tarrojen tulostus",
@@ -86,11 +86,11 @@ const HELP_CENTER = {
       },
       "reports-work-order": {
         title: "Workshop reports",
-        description: "Reports and work orders. Costs are not shown.",
+        description: "Handling defect reports, work orders and recording maintenance.",
       },
       "invites-roles": {
         title: "Admin: invites and roles",
-        description: "The roles are admin, workshop and driver. Only the admin can see costs.",
+        description: "Invite people and choose a role for each: Admin, Maintenance or Driver.",
       },
       "print-qr": {
         title: "Printing QR stickers",
@@ -119,11 +119,11 @@ const HELP_CENTER = {
       },
       "reports-work-order": {
         title: "Verkstadens rapporter",
-        description: "Rapporter och arbetsorder. Kostnader visas inte.",
+        description: "Hantering av felanmälningar, arbetsorder och registrering av underhåll.",
       },
       "invites-roles": {
         title: "Administratör: inbjudningar och roller",
-        description: "Rollerna är administratör, verkstad och förare. Bara administratören har kostnadsrätt.",
+        description: "Bjud in personer och välj en roll för var och en: Administratör, Underhållspersonal eller Förare.",
       },
       "print-qr": {
         title: "Skriva ut QR-dekaler",
