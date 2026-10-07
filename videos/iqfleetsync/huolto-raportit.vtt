@@ -1,21 +1,21 @@
 WEBVTT
 
-1
-00:00:00.000 --> 00:00:07.000
-Huoltohenkilön näkymä iqFleetSyncissä
+00:00:00.000 --> 00:00:12.000
+Huoltohenkilö avaa Raportit.
+Uusi lähetys ja vikailmoitus näkyvät tässä.
 
-2
-00:00:07.000 --> 00:00:19.000
-Avaa Raportit — näet yksiköiden huoltohistorian
+00:00:12.000 --> 00:00:24.000
+Avaa vika. Kuittaa vastaanotetuksi, kun se on uusi.
+Aloita työ, kun otat sen käsittelyyn.
 
-3
-00:00:19.000 --> 00:00:31.000
-Työmääräimet: avoimet ja valmistuneet työt
+00:00:24.000 --> 00:00:36.000
+Työmääräimet listaavat avoimet työt.
+Punainen Ei ajokunnossa näkyy, kun työhön liittyy avoin vika.
 
-4
-00:00:31.000 --> 00:00:45.000
-Kustannuksia ei näy huoltoroolilla — vain pääkäyttäjällä
+00:00:36.000 --> 00:00:48.000
+Koneen sivulla Huoltovälit näyttää seuraavan huollon.
+Sama tieto näkyy kuljettajalle värinä.
 
-5
-00:00:45.000 --> 00:00:53.000
-Päivitä työn tila valmiiksi, kun huolto on tehty
+00:00:48.000 --> 00:01:00.000
+Kirjaa tehty huolto koneen sivulla.
+Valitse toimenpide, päivä ja lukema, ja paina Kirjaa huolto.

@@ -1,25 +1,26 @@
 WEBVTT
 
-1
-00:00:00.000 --> 00:00:07.000
-Pääkäyttäjä hallitsee käyttäjiä ja rooleja
+00:00:00.000 --> 00:00:09.000
+Pääkäyttäjä avaa Henkilöt ja laitteet.
+Listassa ovat yrityksen ihmiset.
 
-2
-00:00:07.000 --> 00:00:18.000
-Avaa Käyttäjät → Kutsu henkilö
+00:00:09.000 --> 00:00:18.000
+Kutsu käyttäjä on sivun lomake.
+Sähköposti on pakollinen. Rooli valitaan listasta.
 
-3
-00:00:18.000 --> 00:00:32.000
-Roolit: Pääkäyttäjä · Huoltohenkilö · Kuljettaja
+00:00:18.000 --> 00:00:27.000
+Rooli Pääkäyttäjä.
 
-4
-00:00:32.000 --> 00:00:44.000
-Kustannukset näkyvät vain pääkäyttäjälle (admin)
+00:00:27.000 --> 00:00:36.000
+Rooli Huoltohenkilö.
 
-5
-00:00:44.000 --> 00:00:54.000
-Kutsuttu henkilö saa sähköpostin ja liittyy organisaatioon
+00:00:36.000 --> 00:00:45.000
+Rooli Kuljettaja.
 
-6
-00:00:54.000 --> 00:01:01.000
-Voit muuttaa roolia myöhemmin käyttäjälistasta
+00:00:45.000 --> 00:00:54.000
+Kutsu on lähetetty. Henkilö ei ole vielä jäsen.
+Hän avaa linkin sähköpostista.
+
+00:00:54.000 --> 00:01:03.000
+Kutsulinkin avaaminen hyväksyy kutsun.
+Henkilö pääsee oman roolinsa näkymään.

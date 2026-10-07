@@ -1,25 +1,18 @@
 WEBVTT
 
-1
-00:00:00.000 --> 00:00:06.000
-Kuljettajan kirjautuminen iqFleetSynciin QR-koodilla
+00:00:00.000 --> 00:00:14.000
+Kuljettaja osoittaa koneen QR-koodia.
+Puhelimen selain aukeaa tämän koneen sivulle.
 
-2
-00:00:06.000 --> 00:00:16.000
-Skannaa QR-koodi koneesta puhelimen kameralla
+00:00:14.000 --> 00:00:28.000
+Selain aukeaa QR-koodista.
+Sähköpostikoodi kysytään vain uudella puhelimella.
+Kirjoita sähköposti ja paina Kirjaudu sähköpostikoodilla.
 
-3
-00:00:16.000 --> 00:00:26.000
-Selain aukeaa — fleetsync.iqsoftcore.fi
+00:00:28.000 --> 00:00:42.000
+Seuraavilla kerroilla paina Kirjaudu sormenjäljellä.
+Puhelin kysyy sormenjäljen, ja koneen näkymä aukeaa.
 
-4
-00:00:26.000 --> 00:00:38.000
-Uusi puhelin: syötä sähköpostiin saatu kertakoodi
-
-5
-00:00:38.000 --> 00:00:50.000
-Seuraavilla kerroilla: sormenjälki tai Face ID riittää
-
-6
-00:00:50.000 --> 00:00:58.000
-Valmis — voit kirjata lukemia ja ilmoittaa vikoja
+00:00:42.000 --> 00:00:56.000
+Kirjautumisen jälkeen näkyy koneen näkymä.
+Siitä kirjataan lukemat tai ilmoitetaan vika.
