@@ -10,7 +10,7 @@ const TERMS_PAGE = {
     "metaDescription": "iqFleetSyncin käyttöehdot ja IQSoftCoren palveluiden yleiset ehdot. Luonnos.",
     "title": "Käyttöehdot",
     "draft": "Luonnos. Tämä on selkokielinen luonnos IQSoftCoren yleisiksi ehdoiksi ja iqFleetSyncin käyttöehdoiksi. Se ei ole oikeudellinen neuvo. Palveluntarjoajan on tarkistettava teksti ennen julkaisua.",
-    "updated": "Luonnos päivitetty 2026-10-04.",
+    "updated": "Luonnos päivitetty 2026-10-08.",
     "scope": "Nämä ovat IQSoftCoren palveluiden yleiset ehdot. Ne koskevat kuluttajia ja yritysasiakkaita. Jos tuotteella on omat ehdot, niitä käytetään näiden lisäksi. Hinta veloitetaan vain, jos se on julkaistu tai siitä on sovittu erikseen.",
     "privacyLink": "Tietosuoja",
     "pricing": "Hinnasto",
@@ -29,7 +29,7 @@ const TERMS_PAGE = {
       [
         "2. Keitä ehdot koskevat",
         [
-          "Kohdat 1–5 ja 9–16 koskevat kaikkia asiakkaita.",
+          "Kohdat 1–5 ja 9–17 koskevat kaikkia asiakkaita.",
           "Kohta 6 ja kohta 7 koskevat vain yritysasiakkaita ja iqFleetSynciä. Kohta 8 koskee vain kuluttajia.",
           "Jos pakottava kuluttajansuoja on kuluttajalle edullisempi, sitä noudatetaan. Ehto, joka rajoittaisi tällaista oikeutta, ei sido kuluttajaa."
         ]
@@ -162,6 +162,12 @@ const TERMS_PAGE = {
         [
           "toiminimi IqSoftCore, Y-tunnus 3658340-4, Siihtalantie 56, 62710 Kurejoki, Suomi. info@iqsoftcore.fi, +358 45 133 4009."
         ]
+      ],
+      [
+        "17. Tekijänoikeudet ja immateriaalioikeudet",
+        [
+          "Ohjelmistot, sisältö, ohjevideot ja logot ovat IqSoftCoren omaisuutta. Asiakas saa niihin käyttöoikeuden, ei omistusoikeutta. Asiakkaan omat tiedot pysyvät asiakkaan omaisuutena."
+        ]
       ]
     ]
   },
@@ -170,7 +176,7 @@ const TERMS_PAGE = {
     "metaDescription": "Terms for iqFleetSync and general terms for IQSoftCore services. Draft.",
     "title": "Terms of use",
     "draft": "Draft. This is a plain-language draft of the general terms for IQSoftCore services and the terms for iqFleetSync. It is not legal advice. The provider must review the text before it is published.",
-    "updated": "Draft updated 2026-10-04.",
+    "updated": "Draft updated 2026-10-08.",
     "translationNote": "The Finnish text is the official version. This translation is for convenience and has not been separately reviewed as a legal text.",
     "scope": "These are the general terms for IQSoftCore services. They apply to consumers and to business customers. If a product has its own terms, those apply as well. A price is charged only if it is published or agreed separately.",
     "privacyLink": "Privacy",
@@ -190,7 +196,7 @@ const TERMS_PAGE = {
       [
         "2. Who these terms cover",
         [
-          "Sections 1–5 and 9–16 apply to every customer.",
+          "Sections 1–5 and 9–17 apply to every customer.",
           "Sections 6 and 7 apply only to business customers and to iqFleetSync. Section 8 applies only to consumers.",
           "If mandatory consumer protection is more favourable to the consumer, it applies. A term that would limit such a right does not bind the consumer."
         ]
@@ -323,6 +329,12 @@ const TERMS_PAGE = {
         [
           "toiminimi IqSoftCore, Y-tunnus 3658340-4, Siihtalantie 56, 62710 Kurejoki, Finland. info@iqsoftcore.fi, +358 45 133 4009."
         ]
+      ],
+      [
+        "17. Copyright and intellectual property",
+        [
+          "The software, content, how-to videos, and logos are the property of IqSoftCore. The customer receives a right to use them, not ownership. The customer’s own data remains the customer’s property."
+        ]
       ]
     ]
   },
@@ -331,7 +343,7 @@ const TERMS_PAGE = {
     "metaDescription": "Villkor för iqFleetSync och allmänna villkor för IQSoftCores tjänster. Utkast.",
     "title": "Användarvillkor",
     "draft": "Utkast. Det här är ett utkast på klarspråk till allmänna villkor för IQSoftCores tjänster och villkoren för iqFleetSync. Det är inte juridisk rådgivning. Leverantören måste granska texten innan den publiceras.",
-    "updated": "Utkast uppdaterat 2026-10-04.",
+    "updated": "Utkast uppdaterat 2026-10-08.",
     "translationNote": "Den finska texten är den officiella versionen. Den här översättningen är till hjälp och har inte granskats separat som juridisk text.",
     "scope": "Det här är allmänna villkor för IQSoftCores tjänster. De gäller konsumenter och företagskunder. Om en produkt har egna villkor gäller de också. Pris tas bara ut om det är publicerat eller avtalat särskilt.",
     "privacyLink": "Integritet",
@@ -351,7 +363,7 @@ const TERMS_PAGE = {
       [
         "2. Vem villkoren gäller",
         [
-          "Punkterna 1–5 och 9–16 gäller alla kunder.",
+          "Punkterna 1–5 och 9–17 gäller alla kunder.",
           "Punkterna 6 och 7 gäller bara företagskunder och iqFleetSync. Punkt 8 gäller bara konsumenter.",
           "Om tvingande konsumentskydd är förmånligare för konsumenten gäller det. Ett villkor som skulle begränsa en sådan rätt binder inte konsumenten."
         ]
@@ -484,6 +496,12 @@ const TERMS_PAGE = {
         [
           "toiminimi IqSoftCore, Y-tunnus 3658340-4, Siihtalantie 56, 62710 Kurejoki, Finland. info@iqsoftcore.fi, +358 45 133 4009."
         ]
+      ],
+      [
+        "17. Upphovsrätt och immateriella rättigheter",
+        [
+          "Programvaran, innehållet, instruktionsvideorna och logotyperna tillhör IqSoftCore. Kunden får en nyttjanderätt, inte äganderätt. Kundens egna uppgifter förblir kundens egendom."
+        ]
       ]
     ]
   },
@@ -492,7 +510,7 @@ const TERMS_PAGE = {
     "metaDescription": "Bedingungen für iqFleetSync und allgemeine Bedingungen für Dienste von IQSoftCore. Entwurf.",
     "title": "Nutzungsbedingungen",
     "draft": "Entwurf. Das ist ein Entwurf in klarer Sprache für die allgemeinen Bedingungen der Dienste von IQSoftCore und die Bedingungen von iqFleetSync. Er ist keine Rechtsberatung. Der Anbieter muss den Text vor der Veröffentlichung prüfen.",
-    "updated": "Entwurf aktualisiert am 2026-10-04.",
+    "updated": "Entwurf aktualisiert am 2026-10-08.",
     "translationNote": "Der finnische Text ist die maßgebliche Fassung. Diese Übersetzung dient der Verständlichkeit und wurde nicht gesondert als Rechtstext geprüft.",
     "scope": "Das sind die allgemeinen Bedingungen für die Dienste von IQSoftCore. Sie gelten für Verbraucher und Geschäftskunden. Wenn ein Produkt eigene Bedingungen hat, gelten diese zusätzlich. Ein Preis wird nur berechnet, wenn er veröffentlicht oder gesondert vereinbart ist.",
     "privacyLink": "Datenschutz",
@@ -512,7 +530,7 @@ const TERMS_PAGE = {
       [
         "2. Für wen diese Bedingungen gelten",
         [
-          "Die Abschnitte 1–5 und 9–16 gelten für alle Kunden.",
+          "Die Abschnitte 1–5 und 9–17 gelten für alle Kunden.",
           "Die Abschnitte 6 und 7 gelten nur für Geschäftskunden und für iqFleetSync. Abschnitt 8 gilt nur für Verbraucher.",
           "Wenn zwingendes Verbraucherrecht für den Verbraucher günstiger ist, gilt es. Eine Klausel, die ein solches Recht beschränken würde, bindet den Verbraucher nicht."
         ]
@@ -645,6 +663,12 @@ const TERMS_PAGE = {
         [
           "toiminimi IqSoftCore, Y-tunnus 3658340-4, Siihtalantie 56, 62710 Kurejoki, Finnland. info@iqsoftcore.fi, +358 45 133 4009."
         ]
+      ],
+      [
+        "17. Urheberrecht und geistiges Eigentum",
+        [
+          "Software, Inhalte, Anleitungsvideos und Logos sind Eigentum von IqSoftCore. Der Kunde erhält ein Nutzungsrecht, kein Eigentum. Die eigenen Daten des Kunden bleiben Eigentum des Kunden."
+        ]
       ]
     ]
   },
@@ -653,7 +677,7 @@ const TERMS_PAGE = {
     "metaDescription": "Vilkår for iqFleetSync og generelle vilkår for tjenestene til IQSoftCore. Utkast.",
     "title": "Vilkår",
     "draft": "Utkast. Dette er et utkast på klart språk til generelle vilkår for tjenestene til IQSoftCore og vilkårene for iqFleetSync. Det er ikke juridisk rådgivning. Leverandøren må gå gjennom teksten før den publiseres.",
-    "updated": "Utkast oppdatert 2026-10-04.",
+    "updated": "Utkast oppdatert 2026-10-08.",
     "translationNote": "Den finske teksten er den offisielle versjonen. Denne oversettelsen er til hjelp og er ikke gjennomgått separat som juridisk tekst.",
     "scope": "Dette er generelle vilkår for tjenestene til IQSoftCore. De gjelder forbrukere og bedriftskunder. Hvis et produkt har egne vilkår, gjelder de i tillegg. Pris kreves bare hvis den er publisert eller avtalt særskilt.",
     "privacyLink": "Personvern",
@@ -673,7 +697,7 @@ const TERMS_PAGE = {
       [
         "2. Hvem vilkårene gjelder",
         [
-          "Punktene 1–5 og 9–16 gjelder alle kunder.",
+          "Punktene 1–5 og 9–17 gjelder alle kunder.",
           "Punktene 6 og 7 gjelder bare bedriftskunder og iqFleetSync. Punkt 8 gjelder bare forbrukere.",
           "Hvis ufravikelig forbrukervern er gunstigere for forbrukeren, gjelder det. Et vilkår som ville begrense en slik rett, binder ikke forbrukeren."
         ]
@@ -806,6 +830,12 @@ const TERMS_PAGE = {
         [
           "toiminimi IqSoftCore, Y-tunnus 3658340-4, Siihtalantie 56, 62710 Kurejoki, Finland. info@iqsoftcore.fi, +358 45 133 4009."
         ]
+      ],
+      [
+        "17. Opphavsrett og immaterielle rettigheter",
+        [
+          "Programvare, innhold, instruksjonsvideoer og logoer tilhører IqSoftCore. Kunden får en bruksrett, ikke eiendomsrett. Kundens egne opplysninger forblir kundens eiendom."
+        ]
       ]
     ]
   },
@@ -814,7 +844,7 @@ const TERMS_PAGE = {
     "metaDescription": "Vilkår for iqFleetSync og generelle vilkår for IQSoftCores tjenester. Udkast.",
     "title": "Vilkår",
     "draft": "Udkast. Dette er et udkast i klart sprog til generelle vilkår for IQSoftCores tjenester og vilkårene for iqFleetSync. Det er ikke juridisk rådgivning. Leverandøren skal gennemgå teksten før offentliggørelse.",
-    "updated": "Udkast opdateret 2026-10-04.",
+    "updated": "Udkast opdateret 2026-10-08.",
     "translationNote": "Den finske tekst er den officielle version. Denne oversættelse er en hjælp og er ikke gennemgået særskilt som juridisk tekst.",
     "scope": "Dette er generelle vilkår for IQSoftCores tjenester. De gælder forbrugere og erhvervskunder. Hvis et produkt har egne vilkår, gælder de også. Pris opkræves kun, hvis den er offentliggjort eller aftalt særskilt.",
     "privacyLink": "Privatliv",
@@ -834,7 +864,7 @@ const TERMS_PAGE = {
       [
         "2. Hvem vilkårene gælder",
         [
-          "Punkterne 1–5 og 9–16 gælder alle kunder.",
+          "Punkterne 1–5 og 9–17 gælder alle kunder.",
           "Punkterne 6 og 7 gælder kun erhvervskunder og iqFleetSync. Punkt 8 gælder kun forbrugere.",
           "Hvis ufravigelig forbrugerbeskyttelse er gunstigere for forbrugeren, gælder den. Et vilkår, der ville begrænse en sådan ret, binder ikke forbrugeren."
         ]
@@ -967,6 +997,12 @@ const TERMS_PAGE = {
         [
           "toiminimi IqSoftCore, Y-tunnus 3658340-4, Siihtalantie 56, 62710 Kurejoki, Finland. info@iqsoftcore.fi, +358 45 133 4009."
         ]
+      ],
+      [
+        "17. Ophavsret og immaterielle rettigheder",
+        [
+          "Software, indhold, instruktionsvideoer og logoer tilhører IqSoftCore. Kunden får en brugsret, ikke ejendomsret. Kundens egne oplysninger forbliver kundens ejendom."
+        ]
       ]
     ]
   },
@@ -975,7 +1011,7 @@ const TERMS_PAGE = {
     "metaDescription": "Voorwaarden voor iqFleetSync en algemene voorwaarden voor diensten van IQSoftCore. Concept.",
     "title": "Gebruiksvoorwaarden",
     "draft": "Concept. Dit is een concept in gewone taal van de algemene voorwaarden voor diensten van IQSoftCore en de voorwaarden voor iqFleetSync. Het is geen juridisch advies. De aanbieder moet de tekst controleren vóór publicatie.",
-    "updated": "Concept bijgewerkt op 2026-10-04.",
+    "updated": "Concept bijgewerkt op 2026-10-08.",
     "translationNote": "De Finse tekst is de officiële versie. Deze vertaling is een hulpmiddel en is niet apart beoordeeld als juridische tekst.",
     "scope": "Dit zijn de algemene voorwaarden voor diensten van IQSoftCore. Ze gelden voor consumenten en zakelijke klanten. Als een product eigen voorwaarden heeft, gelden die erbij. Een prijs wordt alleen gerekend als die is gepubliceerd of apart afgesproken.",
     "privacyLink": "Privacy",
@@ -995,7 +1031,7 @@ const TERMS_PAGE = {
       [
         "2. Voor wie deze voorwaarden gelden",
         [
-          "De punten 1–5 en 9–16 gelden voor elke klant.",
+          "De punten 1–5 en 9–17 gelden voor elke klant.",
           "De punten 6 en 7 gelden alleen voor zakelijke klanten en voor iqFleetSync. Punt 8 geldt alleen voor consumenten.",
           "Als dwingend consumentenrecht gunstiger is voor de consument, geldt dat. Een beding dat zo’n recht zou beperken, bindt de consument niet."
         ]
@@ -1128,6 +1164,12 @@ const TERMS_PAGE = {
         [
           "toiminimi IqSoftCore, Y-tunnus 3658340-4, Siihtalantie 56, 62710 Kurejoki, Finland. info@iqsoftcore.fi, +358 45 133 4009."
         ]
+      ],
+      [
+        "17. Auteursrecht en intellectuele eigendom",
+        [
+          "Software, inhoud, instructievideo’s en logo’s zijn eigendom van IqSoftCore. De klant krijgt een gebruiksrecht, geen eigendom. De eigen gegevens van de klant blijven eigendom van de klant."
+        ]
       ]
     ]
   },
@@ -1136,7 +1178,7 @@ const TERMS_PAGE = {
     "metaDescription": "Conditions d’iqFleetSync et conditions générales des services IQSoftCore. Projet.",
     "title": "Conditions d’utilisation",
     "draft": "Projet. Ceci est un projet en langage clair des conditions générales des services IQSoftCore et des conditions d’iqFleetSync. Ce n’est pas un conseil juridique. Le prestataire doit relire le texte avant publication.",
-    "updated": "Projet mis à jour le 2026-10-04.",
+    "updated": "Projet mis à jour le 2026-10-08.",
     "translationNote": "Le texte finlandais est la version officielle. Cette traduction est une aide et n’a pas été revue séparément comme texte juridique.",
     "scope": "Ce sont les conditions générales des services IQSoftCore. Elles s’appliquent aux consommateurs et aux clients professionnels. Si un produit a ses propres conditions, elles s’ajoutent. Un prix n’est facturé que s’il est publié ou convenu à part.",
     "privacyLink": "Confidentialité",
@@ -1156,7 +1198,7 @@ const TERMS_PAGE = {
       [
         "2. Qui est concerné",
         [
-          "Les points 1 à 5 et 9 à 16 s’appliquent à tous les clients.",
+          "Les points 1 à 5 et 9 à 17 s’appliquent à tous les clients.",
           "Les points 6 et 7 ne s’appliquent qu’aux clients professionnels et à iqFleetSync. Le point 8 ne s’applique qu’aux consommateurs.",
           "Si une protection impérative du consommateur lui est plus favorable, elle s’applique. Une clause qui limiterait un tel droit ne lie pas le consommateur."
         ]
@@ -1289,6 +1331,12 @@ const TERMS_PAGE = {
         [
           "toiminimi IqSoftCore, Y-tunnus 3658340-4, Siihtalantie 56, 62710 Kurejoki, Finlande. info@iqsoftcore.fi, +358 45 133 4009."
         ]
+      ],
+      [
+        "17. Droit d’auteur et propriété intellectuelle",
+        [
+          "Les logiciels, le contenu, les vidéos d’aide et les logos sont la propriété d’IqSoftCore. Le client reçoit un droit d’utilisation, pas un droit de propriété. Les données du client restent la propriété du client."
+        ]
       ]
     ]
   },
@@ -1297,7 +1345,7 @@ const TERMS_PAGE = {
     "metaDescription": "Condiciones de iqFleetSync y condiciones generales de los servicios de IQSoftCore. Borrador.",
     "title": "Condiciones de uso",
     "draft": "Borrador. Este es un borrador en lenguaje claro de las condiciones generales de los servicios de IQSoftCore y de las condiciones de iqFleetSync. No es asesoramiento jurídico. El proveedor debe revisar el texto antes de publicarlo.",
-    "updated": "Borrador actualizado el 2026-10-04.",
+    "updated": "Borrador actualizado el 2026-10-08.",
     "translationNote": "El texto en finés es la versión oficial. Esta traducción es una ayuda y no se ha revisado por separado como texto jurídico.",
     "scope": "Estas son las condiciones generales de los servicios de IQSoftCore. Se aplican a consumidores y a clientes de empresa. Si un producto tiene condiciones propias, se añaden. Solo se cobra un precio si está publicado o se ha acordado aparte.",
     "privacyLink": "Privacidad",
@@ -1317,7 +1365,7 @@ const TERMS_PAGE = {
       [
         "2. A quién se aplican",
         [
-          "Los puntos 1 a 5 y 9 a 16 se aplican a todos los clientes.",
+          "Los puntos 1 a 5 y 9 a 17 se aplican a todos los clientes.",
           "Los puntos 6 y 7 se aplican solo a clientes de empresa y a iqFleetSync. El punto 8 se aplica solo a consumidores.",
           "Si una protección imperativa del consumidor le es más favorable, se aplica. Una cláusula que limitara ese derecho no vincula al consumidor."
         ]
@@ -1450,6 +1498,12 @@ const TERMS_PAGE = {
         [
           "toiminimi IqSoftCore, Y-tunnus 3658340-4, Siihtalantie 56, 62710 Kurejoki, Finlandia. info@iqsoftcore.fi, +358 45 133 4009."
         ]
+      ],
+      [
+        "17. Derechos de autor y propiedad intelectual",
+        [
+          "El software, el contenido, los vídeos de ayuda y los logotipos son propiedad de IqSoftCore. El cliente recibe un derecho de uso, no la propiedad. Los datos propios del cliente siguen siendo propiedad del cliente."
+        ]
       ]
     ]
   },
@@ -1458,7 +1512,7 @@ const TERMS_PAGE = {
     "metaDescription": "Termos do iqFleetSync e termos gerais dos serviços da IQSoftCore. Rascunho.",
     "title": "Termos de uso",
     "draft": "Rascunho. Este é um rascunho em linguagem simples dos termos gerais dos serviços da IQSoftCore e dos termos do iqFleetSync. Não é aconselhamento jurídico. O fornecedor deve rever o texto antes de o publicar.",
-    "updated": "Rascunho atualizado em 2026-10-04.",
+    "updated": "Rascunho atualizado em 2026-10-08.",
     "translationNote": "O texto em finlandês é a versão oficial. Esta tradução serve de ajuda e não foi revista à parte como texto jurídico.",
     "scope": "Estes são os termos gerais dos serviços da IQSoftCore. Aplicam-se a consumidores e a clientes empresariais. Se um produto tiver termos próprios, estes somam-se. Só se cobra um preço se estiver publicado ou tiver sido acordado à parte.",
     "privacyLink": "Privacidade",
@@ -1478,7 +1532,7 @@ const TERMS_PAGE = {
       [
         "2. A quem se aplicam",
         [
-          "Os pontos 1 a 5 e 9 a 16 aplicam-se a todos os clientes.",
+          "Os pontos 1 a 5 e 9 a 17 aplicam-se a todos os clientes.",
           "Os pontos 6 e 7 aplicam-se só a clientes empresariais e ao iqFleetSync. O ponto 8 aplica-se só a consumidores.",
           "Se uma proteção imperativa do consumidor for mais favorável, aplica-se. Uma cláusula que limitasse esse direito não vincula o consumidor."
         ]
@@ -1611,6 +1665,12 @@ const TERMS_PAGE = {
         [
           "toiminimi IqSoftCore, Y-tunnus 3658340-4, Siihtalantie 56, 62710 Kurejoki, Finlândia. info@iqsoftcore.fi, +358 45 133 4009."
         ]
+      ],
+      [
+        "17. Direitos de autor e propriedade intelectual",
+        [
+          "O software, o conteúdo, os vídeos de ajuda e os logótipos são propriedade da IqSoftCore. O cliente recebe um direito de utilização, não a propriedade. Os dados próprios do cliente continuam a ser propriedade do cliente."
+        ]
       ]
     ]
   },
@@ -1619,7 +1679,7 @@ const TERMS_PAGE = {
     "metaDescription": "Condizioni di iqFleetSync e condizioni generali dei servizi IQSoftCore. Bozza.",
     "title": "Condizioni d’uso",
     "draft": "Bozza. Questa è una bozza in linguaggio chiaro delle condizioni generali dei servizi IQSoftCore e delle condizioni di iqFleetSync. Non è una consulenza legale. Il fornitore deve rivedere il testo prima della pubblicazione.",
-    "updated": "Bozza aggiornata il 2026-10-04.",
+    "updated": "Bozza aggiornata il 2026-10-08.",
     "translationNote": "Il testo finlandese è la versione ufficiale. Questa traduzione è un aiuto e non è stata rivista separatamente come testo giuridico.",
     "scope": "Queste sono le condizioni generali dei servizi IQSoftCore. Si applicano ai consumatori e ai clienti imprese. Se un prodotto ha condizioni proprie, si aggiungono. Un prezzo si addebita solo se è pubblicato o concordato a parte.",
     "privacyLink": "Privacy",
@@ -1639,7 +1699,7 @@ const TERMS_PAGE = {
       [
         "2. A chi si applicano",
         [
-          "I punti 1–5 e 9–16 si applicano a tutti i clienti.",
+          "I punti 1–5 e 9–17 si applicano a tutti i clienti.",
           "I punti 6 e 7 si applicano solo ai clienti imprese e a iqFleetSync. Il punto 8 si applica solo ai consumatori.",
           "Se una tutela imperativa del consumatore è più favorevole, si applica. Una clausola che limiterebbe un tale diritto non vincola il consumatore."
         ]
@@ -1772,6 +1832,12 @@ const TERMS_PAGE = {
         [
           "toiminimi IqSoftCore, Y-tunnus 3658340-4, Siihtalantie 56, 62710 Kurejoki, Finlandia. info@iqsoftcore.fi, +358 45 133 4009."
         ]
+      ],
+      [
+        "17. Diritto d’autore e proprietà intellettuale",
+        [
+          "Il software, i contenuti, i video guida e i loghi sono di proprietà di IqSoftCore. Il cliente riceve un diritto d’uso, non la proprietà. I dati propri del cliente restano di proprietà del cliente."
+        ]
       ]
     ]
   },
@@ -1780,7 +1846,7 @@ const TERMS_PAGE = {
     "metaDescription": "Warunki iqFleetSync i ogólne warunki usług IQSoftCore. Projekt.",
     "title": "Warunki korzystania",
     "draft": "Projekt. To jest projekt prostym językiem ogólnych warunków usług IQSoftCore i warunków iqFleetSync. To nie jest porada prawna. Usługodawca musi sprawdzić tekst przed publikacją.",
-    "updated": "Projekt zaktualizowany 2026-10-04.",
+    "updated": "Projekt zaktualizowany 2026-10-08.",
     "translationNote": "Tekst fiński jest wersją oficjalną. To tłumaczenie jest pomocą i nie zostało osobno sprawdzone jako tekst prawny.",
     "scope": "To są ogólne warunki usług IQSoftCore. Dotyczą konsumentów i klientów firmowych. Jeśli produkt ma własne warunki, obowiązują one dodatkowo. Cenę pobiera się tylko wtedy, gdy jest opublikowana albo osobno uzgodniona.",
     "privacyLink": "Prywatność",
@@ -1800,7 +1866,7 @@ const TERMS_PAGE = {
       [
         "2. Kogo dotyczą warunki",
         [
-          "Punkty 1–5 i 9–16 dotyczą wszystkich klientów.",
+          "Punkty 1–5 i 9–17 dotyczą wszystkich klientów.",
           "Punkty 6 i 7 dotyczą tylko klientów firmowych i iqFleetSync. Punkt 8 dotyczy tylko konsumentów.",
           "Jeśli bezwzględnie obowiązująca ochrona konsumenta jest dla niego korzystniejsza, obowiązuje ona. Postanowienie, które ograniczałoby takie prawo, nie wiąże konsumenta."
         ]
@@ -1933,6 +1999,12 @@ const TERMS_PAGE = {
         [
           "toiminimi IqSoftCore, Y-tunnus 3658340-4, Siihtalantie 56, 62710 Kurejoki, Finlandia. info@iqsoftcore.fi, +358 45 133 4009."
         ]
+      ],
+      [
+        "17. Prawa autorskie i własność intelektualna",
+        [
+          "Oprogramowanie, treści, filmy instruktażowe i logo są własnością IqSoftCore. Klient otrzymuje prawo do korzystania, a nie prawo własności. Własne dane klienta pozostają własnością klienta."
+        ]
       ]
     ]
   },
@@ -1941,7 +2013,7 @@ const TERMS_PAGE = {
     "metaDescription": "Podmínky iqFleetSync a obecné podmínky služeb IQSoftCore. Návrh.",
     "title": "Podmínky použití",
     "draft": "Návrh. Toto je návrh srozumitelným jazykem obecných podmínek služeb IQSoftCore a podmínek iqFleetSync. Není to právní porada. Poskytovatel musí text zkontrolovat před zveřejněním.",
-    "updated": "Návrh aktualizován 2026-10-04.",
+    "updated": "Návrh aktualizován 2026-10-08.",
     "translationNote": "Finský text je oficiální verze. Tento překlad je pomůcka a nebyl samostatně posouzen jako právní text.",
     "scope": "Toto jsou obecné podmínky služeb IQSoftCore. Platí pro spotřebitele i firemní zákazníky. Pokud má produkt vlastní podmínky, platí navíc. Cena se účtuje jen tehdy, když je zveřejněná nebo zvlášť dohodnutá.",
     "privacyLink": "Ochrana soukromí",
@@ -1961,7 +2033,7 @@ const TERMS_PAGE = {
       [
         "2. Koho se podmínky týkají",
         [
-          "Body 1–5 a 9–16 platí pro všechny zákazníky.",
+          "Body 1–5 a 9–17 platí pro všechny zákazníky.",
           "Body 6 a 7 platí jen pro firemní zákazníky a iqFleetSync. Bod 8 platí jen pro spotřebitele.",
           "Pokud je kogentní ochrana spotřebitele pro spotřebitele výhodnější, platí ona. Ujednání, které by takové právo omezilo, spotřebitele nezavazuje."
         ]
@@ -2094,6 +2166,12 @@ const TERMS_PAGE = {
         [
           "toiminimi IqSoftCore, Y-tunnus 3658340-4, Siihtalantie 56, 62710 Kurejoki, Finsko. info@iqsoftcore.fi, +358 45 133 4009."
         ]
+      ],
+      [
+        "17. Autorské právo a duševní vlastnictví",
+        [
+          "Software, obsah, instruktážní videa a loga jsou vlastnictvím IqSoftCore. Zákazník získává právo užívání, nikoli vlastnictví. Vlastní údaje zákazníka zůstávají vlastnictvím zákazníka."
+        ]
       ]
     ]
   },
@@ -2102,7 +2180,7 @@ const TERMS_PAGE = {
     "metaDescription": "iqFleetSyncの利用規約とIQSoftCoreのサービスの一般条件。草案。",
     "title": "利用規約",
     "draft": "草案です。これは IQSoftCore のサービスの一般条件と iqFleetSync の条件を平易な言葉で書いた草案であり、法的助言ではありません。公開前に提供者が本文を確認する必要があります。",
-    "updated": "草案の更新日 2026-10-04。",
+    "updated": "草案の更新日 2026-10-08。",
     "translationNote": "フィンランド語の本文が正式版です。この訳は理解のためのもので、法律文書として別に審査されたものではありません。",
     "scope": "これは IQSoftCore のサービスの一般条件です。消費者と事業者顧客の両方に適用されます。製品に独自の条件がある場合は、それも併せて適用されます。価格は、公表されているか別途合意された場合にだけ請求します。",
     "privacyLink": "プライバシー",
@@ -2122,7 +2200,7 @@ const TERMS_PAGE = {
       [
         "2. この条件の対象",
         [
-          "第1項から第5項および第9項から第16項は、すべての顧客に適用されます。",
+          "第1項から第5項および第9項から第17項は、すべての顧客に適用されます。",
           "第6項と第7項は、事業者顧客と iqFleetSync にだけ適用されます。第8項は消費者にだけ適用されます。",
           "強行的な消費者保護の方が消費者に有利な場合は、それが優先します。そのような権利を制限する条項は、消費者を拘束しません。"
         ]
@@ -2255,6 +2333,12 @@ const TERMS_PAGE = {
         [
           "toiminimi IqSoftCore、Y-tunnus 3658340-4、Siihtalantie 56, 62710 Kurejoki、フィンランド。info@iqsoftcore.fi、+358 45 133 4009。"
         ]
+      ],
+      [
+        "17. 著作権および知的財産",
+        [
+          "ソフトウェア、コンテンツ、操作説明動画およびロゴは IqSoftCore の財産です。顧客が得るのは利用権であり、所有権ではありません。顧客自身のデータは顧客の財産のままです。"
+        ]
       ]
     ]
   },
@@ -2263,7 +2347,7 @@ const TERMS_PAGE = {
     "metaDescription": "iqFleetSync 이용약관과 IQSoftCore 서비스의 일반 약관. 초안.",
     "title": "이용약관",
     "draft": "초안입니다. 이것은 IQSoftCore 서비스의 일반 약관과 iqFleetSync 약관을 쉬운 말로 쓴 초안이며 법률 자문이 아닙니다. 공개 전에 제공자가 본문을 확인해야 합니다.",
-    "updated": "초안 업데이트 2026-10-04.",
+    "updated": "초안 업데이트 2026-10-08.",
     "translationNote": "핀란드어 본문이 공식 버전입니다. 이 번역은 이해를 돕기 위한 것이며 법률 문서로 따로 검토되지 않았습니다.",
     "scope": "이것은 IQSoftCore 서비스의 일반 약관입니다. 소비자와 사업자 고객 모두에게 적용됩니다. 제품에 자체 약관이 있으면 함께 적용됩니다. 가격은 공개되었거나 따로 합의된 경우에만 청구합니다.",
     "privacyLink": "개인정보",
@@ -2283,7 +2367,7 @@ const TERMS_PAGE = {
       [
         "2. 약관의 적용 대상",
         [
-          "제1항부터 제5항과 제9항부터 제16항은 모든 고객에게 적용됩니다.",
+          "제1항부터 제5항과 제9항부터 제17항은 모든 고객에게 적용됩니다.",
           "제6항과 제7항은 사업자 고객과 iqFleetSync에만 적용됩니다. 제8항은 소비자에게만 적용됩니다.",
           "강행적인 소비자 보호가 소비자에게 더 유리하면 그것이 적용됩니다. 그러한 권리를 제한하는 조항은 소비자를 구속하지 않습니다."
         ]
@@ -2416,6 +2500,12 @@ const TERMS_PAGE = {
         [
           "toiminimi IqSoftCore, Y-tunnus 3658340-4, Siihtalantie 56, 62710 Kurejoki, 핀란드. info@iqsoftcore.fi, +358 45 133 4009."
         ]
+      ],
+      [
+        "17. 저작권 및 지식재산권",
+        [
+          "소프트웨어, 콘텐츠, 안내 영상 및 로고는 IqSoftCore의 재산입니다. 고객은 소유권이 아니라 사용권을 받습니다. 고객 자신의 데이터는 고객의 재산으로 남습니다."
+        ]
       ]
     ]
   },
@@ -2424,7 +2514,7 @@ const TERMS_PAGE = {
     "metaDescription": "iqFleetSync 使用条款以及 IQSoftCore 服务的一般条款。草案。",
     "title": "使用条款",
     "draft": "草案。这是用平白语言写的 IQSoftCore 服务一般条款和 iqFleetSync 条款的草案，不是法律意见。提供者必须在发布前审阅本文。",
-    "updated": "草案更新日期 2026-10-04。",
+    "updated": "草案更新日期 2026-10-08。",
     "translationNote": "芬兰语文本是正式版本。本译文便于阅读，并未另行作为法律文本审查。",
     "scope": "这是 IQSoftCore 服务的一般条款。适用于消费者和企业客户。如果某项产品另有条款，则一并适用。只有价格已经公布或另行约定时才收费。",
     "privacyLink": "隐私",
@@ -2444,7 +2534,7 @@ const TERMS_PAGE = {
       [
         "2. 条款适用于谁",
         [
-          "第1至5条以及第9至16条适用于所有客户。",
+          "第1至5条以及第9至17条适用于所有客户。",
           "第6条和第7条只适用于企业客户和 iqFleetSync。第8条只适用于消费者。",
           "如果强制性消费者保护对消费者更有利，则适用该保护。限制该权利的条款不约束消费者。"
         ]
@@ -2576,6 +2666,12 @@ const TERMS_PAGE = {
         "16. 联系方式",
         [
           "toiminimi IqSoftCore，Y-tunnus 3658340-4，Siihtalantie 56, 62710 Kurejoki，芬兰。info@iqsoftcore.fi，+358 45 133 4009。"
+        ]
+      ],
+      [
+        "17. 著作权与知识产权",
+        [
+          "软件、内容、说明视频和标志归 IqSoftCore 所有。客户获得的是使用权，而不是所有权。客户自己的数据仍归客户所有。"
         ]
       ]
     ]
