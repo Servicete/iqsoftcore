@@ -540,8 +540,8 @@ a:hover {
 .footer-inner {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.75rem 1.5rem;
-  align-items: center;
+  gap: 0.85rem 1.5rem;
+  align-items: flex-start;
   justify-content: space-between;
   color: var(--ink-soft);
   font-size: 0.92rem;
@@ -555,6 +555,12 @@ a:hover {
 
 .footer-meta p {
   margin: 0;
+}
+
+.footer-trademarks {
+  max-width: 40rem;
+  font-size: 0.84rem;
+  line-height: 1.45;
 }
 
 .footer-links {
@@ -1061,6 +1067,15 @@ ul.calc-lines {
     width: 280px;
     height: 280px;
     opacity: 0.7;
+  }
+
+  .footer-inner {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footer-trademarks {
+    max-width: none;
   }
 }
 
