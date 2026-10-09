@@ -1,16 +1,15 @@
 /**
- * Draft terms for IQSoftCore services and for iqFleetSync.
+ * Terms for IQSoftCore services and for iqFleetSync.
  * General terms apply to consumers and business customers.
  * iqFleetSync is a business service and requires a Finnish Y-tunnus.
- * Plain language, not legal advice. The Finnish text is the official version.
+ * Plain language. The Finnish text is the official version.
  */
 const TERMS_PAGE = {
   "fi": {
     "metaTitle": "Käyttöehdot | IQSoftCore",
-    "metaDescription": "iqFleetSyncin käyttöehdot ja IQSoftCoren palveluiden yleiset ehdot. Luonnos.",
+    "metaDescription": "iqFleetSyncin käyttöehdot ja IQSoftCoren palveluiden yleiset ehdot.",
     "title": "Käyttöehdot",
-    "draft": "Luonnos. Tämä on selkokielinen luonnos IQSoftCoren yleisiksi ehdoiksi ja iqFleetSyncin käyttöehdoiksi. Se ei ole oikeudellinen neuvo. Palveluntarjoajan on tarkistettava teksti ennen julkaisua.",
-    "updated": "Luonnos päivitetty 2026-10-09.",
+    "updated": "Voimassa alkaen 9.10.2026.",
     "scope": "Nämä ovat IQSoftCoren palveluiden yleiset ehdot. Ne koskevat kuluttajia ja yritysasiakkaita. Jos tuotteella on omat ehdot, niitä käytetään näiden lisäksi. Hinta veloitetaan vain, jos se on julkaistu tai siitä on sovittu erikseen.",
     "privacyLink": "Tietosuoja",
     "pricing": "Hinnasto",
@@ -174,10 +173,9 @@ const TERMS_PAGE = {
   },
   "en": {
     "metaTitle": "Terms of use | IQSoftCore",
-    "metaDescription": "Terms for iqFleetSync and general terms for IQSoftCore services. Draft.",
+    "metaDescription": "Terms for iqFleetSync and general terms for IQSoftCore services.",
     "title": "Terms of use",
-    "draft": "Draft. This is a plain-language draft of the general terms for IQSoftCore services and the terms for iqFleetSync. It is not legal advice. The provider must review the text before it is published.",
-    "updated": "Draft updated 2026-10-09.",
+    "updated": "In force from 9 October 2026.",
     "translationNote": "The Finnish text is the official version. This translation is for convenience and has not been separately reviewed as a legal text.",
     "scope": "These are the general terms for IQSoftCore services. They apply to consumers and to business customers. If a product has its own terms, those apply as well. A price is charged only if it is published or agreed separately.",
     "privacyLink": "Privacy",
@@ -342,10 +340,9 @@ const TERMS_PAGE = {
   },
   "sv": {
     "metaTitle": "Användarvillkor | IQSoftCore",
-    "metaDescription": "Villkor för iqFleetSync och allmänna villkor för IQSoftCores tjänster. Utkast.",
+    "metaDescription": "Villkor för iqFleetSync och allmänna villkor för IQSoftCores tjänster.",
     "title": "Användarvillkor",
-    "draft": "Utkast. Det här är ett utkast på klarspråk till allmänna villkor för IQSoftCores tjänster och villkoren för iqFleetSync. Det är inte juridisk rådgivning. Leverantören måste granska texten innan den publiceras.",
-    "updated": "Utkast uppdaterat 2026-10-09.",
+    "updated": "Gäller från den 9 oktober 2026.",
     "translationNote": "Den finska texten är den officiella versionen. Den här översättningen är till hjälp och har inte granskats separat som juridisk text.",
     "scope": "Det här är allmänna villkor för IQSoftCores tjänster. De gäller konsumenter och företagskunder. Om en produkt har egna villkor gäller de också. Pris tas bara ut om det är publicerat eller avtalat särskilt.",
     "privacyLink": "Integritet",
@@ -510,10 +507,9 @@ const TERMS_PAGE = {
   },
   "de": {
     "metaTitle": "Nutzungsbedingungen | IQSoftCore",
-    "metaDescription": "Bedingungen für iqFleetSync und allgemeine Bedingungen für Dienste von IQSoftCore. Entwurf.",
+    "metaDescription": "Bedingungen für iqFleetSync und allgemeine Bedingungen für Dienste von IQSoftCore.",
     "title": "Nutzungsbedingungen",
-    "draft": "Entwurf. Das ist ein Entwurf in klarer Sprache für die allgemeinen Bedingungen der Dienste von IQSoftCore und die Bedingungen von iqFleetSync. Er ist keine Rechtsberatung. Der Anbieter muss den Text vor der Veröffentlichung prüfen.",
-    "updated": "Entwurf aktualisiert am 2026-10-09.",
+    "updated": "Gültig ab dem 9. Oktober 2026.",
     "translationNote": "Der finnische Text ist die maßgebliche Fassung. Diese Übersetzung dient der Verständlichkeit und wurde nicht gesondert als Rechtstext geprüft.",
     "scope": "Das sind die allgemeinen Bedingungen für die Dienste von IQSoftCore. Sie gelten für Verbraucher und Geschäftskunden. Wenn ein Produkt eigene Bedingungen hat, gelten diese zusätzlich. Ein Preis wird nur berechnet, wenn er veröffentlicht oder gesondert vereinbart ist.",
     "privacyLink": "Datenschutz",
@@ -678,10 +674,9 @@ const TERMS_PAGE = {
   },
   "no": {
     "metaTitle": "Vilkår | IQSoftCore",
-    "metaDescription": "Vilkår for iqFleetSync og generelle vilkår for tjenestene til IQSoftCore. Utkast.",
+    "metaDescription": "Vilkår for iqFleetSync og generelle vilkår for tjenestene til IQSoftCore.",
     "title": "Vilkår",
-    "draft": "Utkast. Dette er et utkast på klart språk til generelle vilkår for tjenestene til IQSoftCore og vilkårene for iqFleetSync. Det er ikke juridisk rådgivning. Leverandøren må gå gjennom teksten før den publiseres.",
-    "updated": "Utkast oppdatert 2026-10-09.",
+    "updated": "Gjeldende fra 9. oktober 2026.",
     "translationNote": "Den finske teksten er den offisielle versjonen. Denne oversettelsen er til hjelp og er ikke gjennomgått separat som juridisk tekst.",
     "scope": "Dette er generelle vilkår for tjenestene til IQSoftCore. De gjelder forbrukere og bedriftskunder. Hvis et produkt har egne vilkår, gjelder de i tillegg. Pris kreves bare hvis den er publisert eller avtalt særskilt.",
     "privacyLink": "Personvern",
@@ -846,10 +841,9 @@ const TERMS_PAGE = {
   },
   "da": {
     "metaTitle": "Vilkår | IQSoftCore",
-    "metaDescription": "Vilkår for iqFleetSync og generelle vilkår for IQSoftCores tjenester. Udkast.",
+    "metaDescription": "Vilkår for iqFleetSync og generelle vilkår for IQSoftCores tjenester.",
     "title": "Vilkår",
-    "draft": "Udkast. Dette er et udkast i klart sprog til generelle vilkår for IQSoftCores tjenester og vilkårene for iqFleetSync. Det er ikke juridisk rådgivning. Leverandøren skal gennemgå teksten før offentliggørelse.",
-    "updated": "Udkast opdateret 2026-10-09.",
+    "updated": "Gældende fra 9. oktober 2026.",
     "translationNote": "Den finske tekst er den officielle version. Denne oversættelse er en hjælp og er ikke gennemgået særskilt som juridisk tekst.",
     "scope": "Dette er generelle vilkår for IQSoftCores tjenester. De gælder forbrugere og erhvervskunder. Hvis et produkt har egne vilkår, gælder de også. Pris opkræves kun, hvis den er offentliggjort eller aftalt særskilt.",
     "privacyLink": "Privatliv",
@@ -1014,10 +1008,9 @@ const TERMS_PAGE = {
   },
   "nl": {
     "metaTitle": "Gebruiksvoorwaarden | IQSoftCore",
-    "metaDescription": "Voorwaarden voor iqFleetSync en algemene voorwaarden voor diensten van IQSoftCore. Concept.",
+    "metaDescription": "Voorwaarden voor iqFleetSync en algemene voorwaarden voor diensten van IQSoftCore.",
     "title": "Gebruiksvoorwaarden",
-    "draft": "Concept. Dit is een concept in gewone taal van de algemene voorwaarden voor diensten van IQSoftCore en de voorwaarden voor iqFleetSync. Het is geen juridisch advies. De aanbieder moet de tekst controleren vóór publicatie.",
-    "updated": "Concept bijgewerkt op 2026-10-09.",
+    "updated": "Van kracht vanaf 9 oktober 2026.",
     "translationNote": "De Finse tekst is de officiële versie. Deze vertaling is een hulpmiddel en is niet apart beoordeeld als juridische tekst.",
     "scope": "Dit zijn de algemene voorwaarden voor diensten van IQSoftCore. Ze gelden voor consumenten en zakelijke klanten. Als een product eigen voorwaarden heeft, gelden die erbij. Een prijs wordt alleen gerekend als die is gepubliceerd of apart afgesproken.",
     "privacyLink": "Privacy",
@@ -1182,10 +1175,9 @@ const TERMS_PAGE = {
   },
   "fr": {
     "metaTitle": "Conditions d’utilisation | IQSoftCore",
-    "metaDescription": "Conditions d’iqFleetSync et conditions générales des services IQSoftCore. Projet.",
+    "metaDescription": "Conditions d’iqFleetSync et conditions générales des services IQSoftCore.",
     "title": "Conditions d’utilisation",
-    "draft": "Projet. Ceci est un projet en langage clair des conditions générales des services IQSoftCore et des conditions d’iqFleetSync. Ce n’est pas un conseil juridique. Le prestataire doit relire le texte avant publication.",
-    "updated": "Projet mis à jour le 2026-10-09.",
+    "updated": "En vigueur à compter du 9 octobre 2026.",
     "translationNote": "Le texte finlandais est la version officielle. Cette traduction est une aide et n’a pas été revue séparément comme texte juridique.",
     "scope": "Ce sont les conditions générales des services IQSoftCore. Elles s’appliquent aux consommateurs et aux clients professionnels. Si un produit a ses propres conditions, elles s’ajoutent. Un prix n’est facturé que s’il est publié ou convenu à part.",
     "privacyLink": "Confidentialité",
@@ -1350,10 +1342,9 @@ const TERMS_PAGE = {
   },
   "es": {
     "metaTitle": "Condiciones de uso | IQSoftCore",
-    "metaDescription": "Condiciones de iqFleetSync y condiciones generales de los servicios de IQSoftCore. Borrador.",
+    "metaDescription": "Condiciones de iqFleetSync y condiciones generales de los servicios de IQSoftCore.",
     "title": "Condiciones de uso",
-    "draft": "Borrador. Este es un borrador en lenguaje claro de las condiciones generales de los servicios de IQSoftCore y de las condiciones de iqFleetSync. No es asesoramiento jurídico. El proveedor debe revisar el texto antes de publicarlo.",
-    "updated": "Borrador actualizado el 2026-10-09.",
+    "updated": "En vigor desde el 9 de octubre de 2026.",
     "translationNote": "El texto en finés es la versión oficial. Esta traducción es una ayuda y no se ha revisado por separado como texto jurídico.",
     "scope": "Estas son las condiciones generales de los servicios de IQSoftCore. Se aplican a consumidores y a clientes de empresa. Si un producto tiene condiciones propias, se añaden. Solo se cobra un precio si está publicado o se ha acordado aparte.",
     "privacyLink": "Privacidad",
@@ -1518,10 +1509,9 @@ const TERMS_PAGE = {
   },
   "pt": {
     "metaTitle": "Termos de uso | IQSoftCore",
-    "metaDescription": "Termos do iqFleetSync e termos gerais dos serviços da IQSoftCore. Rascunho.",
+    "metaDescription": "Termos do iqFleetSync e termos gerais dos serviços da IQSoftCore.",
     "title": "Termos de uso",
-    "draft": "Rascunho. Este é um rascunho em linguagem simples dos termos gerais dos serviços da IQSoftCore e dos termos do iqFleetSync. Não é aconselhamento jurídico. O fornecedor deve rever o texto antes de o publicar.",
-    "updated": "Rascunho atualizado em 2026-10-09.",
+    "updated": "Em vigor a partir de 9 de outubro de 2026.",
     "translationNote": "O texto em finlandês é a versão oficial. Esta tradução serve de ajuda e não foi revista à parte como texto jurídico.",
     "scope": "Estes são os termos gerais dos serviços da IQSoftCore. Aplicam-se a consumidores e a clientes empresariais. Se um produto tiver termos próprios, estes somam-se. Só se cobra um preço se estiver publicado ou tiver sido acordado à parte.",
     "privacyLink": "Privacidade",
@@ -1686,10 +1676,9 @@ const TERMS_PAGE = {
   },
   "it": {
     "metaTitle": "Condizioni d’uso | IQSoftCore",
-    "metaDescription": "Condizioni di iqFleetSync e condizioni generali dei servizi IQSoftCore. Bozza.",
+    "metaDescription": "Condizioni di iqFleetSync e condizioni generali dei servizi IQSoftCore.",
     "title": "Condizioni d’uso",
-    "draft": "Bozza. Questa è una bozza in linguaggio chiaro delle condizioni generali dei servizi IQSoftCore e delle condizioni di iqFleetSync. Non è una consulenza legale. Il fornitore deve rivedere il testo prima della pubblicazione.",
-    "updated": "Bozza aggiornata il 2026-10-09.",
+    "updated": "In vigore dal 9 ottobre 2026.",
     "translationNote": "Il testo finlandese è la versione ufficiale. Questa traduzione è un aiuto e non è stata rivista separatamente come testo giuridico.",
     "scope": "Queste sono le condizioni generali dei servizi IQSoftCore. Si applicano ai consumatori e ai clienti imprese. Se un prodotto ha condizioni proprie, si aggiungono. Un prezzo si addebita solo se è pubblicato o concordato a parte.",
     "privacyLink": "Privacy",
@@ -1854,10 +1843,9 @@ const TERMS_PAGE = {
   },
   "pl": {
     "metaTitle": "Warunki korzystania | IQSoftCore",
-    "metaDescription": "Warunki iqFleetSync i ogólne warunki usług IQSoftCore. Projekt.",
+    "metaDescription": "Warunki iqFleetSync i ogólne warunki usług IQSoftCore.",
     "title": "Warunki korzystania",
-    "draft": "Projekt. To jest projekt prostym językiem ogólnych warunków usług IQSoftCore i warunków iqFleetSync. To nie jest porada prawna. Usługodawca musi sprawdzić tekst przed publikacją.",
-    "updated": "Projekt zaktualizowany 2026-10-09.",
+    "updated": "Obowiązuje od 9 października 2026.",
     "translationNote": "Tekst fiński jest wersją oficjalną. To tłumaczenie jest pomocą i nie zostało osobno sprawdzone jako tekst prawny.",
     "scope": "To są ogólne warunki usług IQSoftCore. Dotyczą konsumentów i klientów firmowych. Jeśli produkt ma własne warunki, obowiązują one dodatkowo. Cenę pobiera się tylko wtedy, gdy jest opublikowana albo osobno uzgodniona.",
     "privacyLink": "Prywatność",
@@ -2022,10 +2010,9 @@ const TERMS_PAGE = {
   },
   "cs": {
     "metaTitle": "Podmínky použití | IQSoftCore",
-    "metaDescription": "Podmínky iqFleetSync a obecné podmínky služeb IQSoftCore. Návrh.",
+    "metaDescription": "Podmínky iqFleetSync a obecné podmínky služeb IQSoftCore.",
     "title": "Podmínky použití",
-    "draft": "Návrh. Toto je návrh srozumitelným jazykem obecných podmínek služeb IQSoftCore a podmínek iqFleetSync. Není to právní porada. Poskytovatel musí text zkontrolovat před zveřejněním.",
-    "updated": "Návrh aktualizován 2026-10-09.",
+    "updated": "V platnosti od 9. 10. 2026.",
     "translationNote": "Finský text je oficiální verze. Tento překlad je pomůcka a nebyl samostatně posouzen jako právní text.",
     "scope": "Toto jsou obecné podmínky služeb IQSoftCore. Platí pro spotřebitele i firemní zákazníky. Pokud má produkt vlastní podmínky, platí navíc. Cena se účtuje jen tehdy, když je zveřejněná nebo zvlášť dohodnutá.",
     "privacyLink": "Ochrana soukromí",
@@ -2190,10 +2177,9 @@ const TERMS_PAGE = {
   },
   "ja": {
     "metaTitle": "利用規約 | IQSoftCore",
-    "metaDescription": "iqFleetSyncの利用規約とIQSoftCoreのサービスの一般条件。草案。",
+    "metaDescription": "iqFleetSyncの利用規約とIQSoftCoreのサービスの一般条件。",
     "title": "利用規約",
-    "draft": "草案です。これは IQSoftCore のサービスの一般条件と iqFleetSync の条件を平易な言葉で書いた草案であり、法的助言ではありません。公開前に提供者が本文を確認する必要があります。",
-    "updated": "草案の更新日 2026-10-09。",
+    "updated": "2026年10月9日から有効です。",
     "translationNote": "フィンランド語の本文が正式版です。この訳は理解のためのもので、法律文書として別に審査されたものではありません。",
     "scope": "これは IQSoftCore のサービスの一般条件です。消費者と事業者顧客の両方に適用されます。製品に独自の条件がある場合は、それも併せて適用されます。価格は、公表されているか別途合意された場合にだけ請求します。",
     "privacyLink": "プライバシー",
@@ -2358,10 +2344,9 @@ const TERMS_PAGE = {
   },
   "ko": {
     "metaTitle": "이용약관 | IQSoftCore",
-    "metaDescription": "iqFleetSync 이용약관과 IQSoftCore 서비스의 일반 약관. 초안.",
+    "metaDescription": "iqFleetSync 이용약관과 IQSoftCore 서비스의 일반 약관.",
     "title": "이용약관",
-    "draft": "초안입니다. 이것은 IQSoftCore 서비스의 일반 약관과 iqFleetSync 약관을 쉬운 말로 쓴 초안이며 법률 자문이 아닙니다. 공개 전에 제공자가 본문을 확인해야 합니다.",
-    "updated": "초안 업데이트 2026-10-09.",
+    "updated": "2026년 10월 9일부터 시행합니다.",
     "translationNote": "핀란드어 본문이 공식 버전입니다. 이 번역은 이해를 돕기 위한 것이며 법률 문서로 따로 검토되지 않았습니다.",
     "scope": "이것은 IQSoftCore 서비스의 일반 약관입니다. 소비자와 사업자 고객 모두에게 적용됩니다. 제품에 자체 약관이 있으면 함께 적용됩니다. 가격은 공개되었거나 따로 합의된 경우에만 청구합니다.",
     "privacyLink": "개인정보",
@@ -2526,10 +2511,9 @@ const TERMS_PAGE = {
   },
   "zh": {
     "metaTitle": "使用条款 | IQSoftCore",
-    "metaDescription": "iqFleetSync 使用条款以及 IQSoftCore 服务的一般条款。草案。",
+    "metaDescription": "iqFleetSync 使用条款以及 IQSoftCore 服务的一般条款。",
     "title": "使用条款",
-    "draft": "草案。这是用平白语言写的 IQSoftCore 服务一般条款和 iqFleetSync 条款的草案，不是法律意见。提供者必须在发布前审阅本文。",
-    "updated": "草案更新日期 2026-10-09。",
+    "updated": "自2026年10月9日起生效。",
     "translationNote": "芬兰语文本是正式版本。本译文便于阅读，并未另行作为法律文本审查。",
     "scope": "这是 IQSoftCore 服务的一般条款。适用于消费者和企业客户。如果某项产品另有条款，则一并适用。只有价格已经公布或另行约定时才收费。",
     "privacyLink": "隐私",
@@ -2740,7 +2724,6 @@ function renderTermsPage(lang) {
     : "";
 
   root.innerHTML = `<h1>${escapeTermsHtml(page.title)}</h1>
-    <p class="note">${escapeTermsHtml(page.draft)}</p>
     ${translation}
     <p class="policy-updated">${escapeTermsHtml(page.updated)}</p>
     <p>${escapeTermsHtml(page.scope)}</p>

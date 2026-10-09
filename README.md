@@ -8,7 +8,7 @@ Yksinkertaiset yrityskotisivut IQSoftCorelle. Yritys tekee ohjelmistoja, sovellu
 - Sovellukset: `apps.html` (Tuntilappu, iqFleetSync, iqRallyNote)
 - iqFleetSync: `iqfleetsync.html` (myyntisivu: yritys-, huolto- ja kuljettajanäkymä, laskuri, kokeilu)
 - Hinnasto: `hinnasto.html`
-- Käyttöehdot: `kayttoehdot.html` (luonnos)
+- Käyttöehdot: `kayttoehdot.html`
 - Tietosuoja: yritystason käytäntö (`privacy.html`, iqFleetSync-osio `#iqfleetsync`) ja Tuntilapun oma sivu (`privacy-tuntilappu.html`)
 - Logo: SVG-merkki (IQC) ja wordmark
 - Kielet: fi, en, sv, no, da, de, nl, fr, es, pt, it, pl, cs, ja, ko, zh
