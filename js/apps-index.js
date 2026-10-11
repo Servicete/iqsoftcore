@@ -238,7 +238,11 @@ function renderAppsPage(lang) {
       const helpLink = href === "iqfleetsync.html" && page.help
         ? `<a class="btn btn-ghost" href="ohjekeskus.html">${escapeAppsIndexHtml(page.help)}</a>`
         : "";
+      const icon = href === "iqfleetsync.html"
+        ? `<a class="product-icon-link" href="${safeHref}" tabindex="-1" aria-hidden="true"><img class="product-icon" src="assets/iqfleetsync-icon.svg" width="64" height="64" alt="" /></a>`
+        : "";
       return `<article class="product-card">
+        ${icon}
         <h2><a href="${safeHref}">${safeName}</a></h2>
         <p>${escapeAppsIndexHtml(blurb)}</p>
         <div class="card-actions"><a class="btn btn-ghost" href="${safeHref}">${escapeAppsIndexHtml(page.openPage)}</a>${helpLink}</div>
