@@ -27,7 +27,7 @@ const PRIVACY_POLICIES = {
         {
           heading: "3. Sovellukset",
           paragraphs: [
-            "Tuntilappu ja osa muista sovelluksista on suunniteltu niin, että data säilyy käyttäjän omalla laitteella. iqFleetSync on verkkopalvelu, ja sen tiedot kuvataan alla. Sovelluskohtaiset lausekkeet löytyvät myös alempaa.",
+            "iqWorkLog ja osa muista sovelluksista on suunniteltu niin, että data säilyy käyttäjän omalla laitteella. iqFleetSync on verkkopalvelu, ja sen tiedot kuvataan alla. Sovelluskohtaiset lausekkeet löytyvät myös alempaa.",
           ],
         },
         {
@@ -70,7 +70,7 @@ const PRIVACY_POLICIES = {
         {
           heading: "3. Applications",
           paragraphs: [
-            "Tuntilappu and some other apps are designed so that data stays on the user’s own device. iqFleetSync is a web service, and its data is described below. App-specific statements are also listed further down.",
+            "iqWorkLog and some other apps are designed so that data stays on the user’s own device. iqFleetSync is a web service, and its data is described below. App-specific statements are also listed further down.",
           ],
         },
         {
@@ -113,7 +113,7 @@ const PRIVACY_POLICIES = {
         {
           heading: "3. Appar",
           paragraphs: [
-            "Tuntilappu och en del andra appar är utformade så att data stannar på användarens egen enhet. iqFleetSync är en webbtjänst, och dess uppgifter beskrivs nedan. App-specifika texter finns också längre ner.",
+            "iqWorkLog och en del andra appar är utformade så att data stannar på användarens egen enhet. iqFleetSync är en webbtjänst, och dess uppgifter beskrivs nedan. App-specifika texter finns också längre ner.",
           ],
         },
         {
@@ -156,7 +156,7 @@ const PRIVACY_POLICIES = {
         {
           heading: "3. Apper",
           paragraphs: [
-            "Tuntilappu og noen andre apper er laget slik at data blir på brukerens egen enhet. iqFleetSync er en nettjeneste, og opplysningene om den står nedenfor. App-spesifikke tekster finnes også lenger ned.",
+            "iqWorkLog og noen andre apper er laget slik at data blir på brukerens egen enhet. iqFleetSync er en nettjeneste, og opplysningene om den står nedenfor. App-spesifikke tekster finnes også lenger ned.",
           ],
         },
         {
@@ -199,7 +199,7 @@ const PRIVACY_POLICIES = {
         {
           heading: "3. Apps",
           paragraphs: [
-            "Tuntilappu og nogle andre apps er designet, så data forbliver på brugerens egen enhed. iqFleetSync er en webtjeneste, og dens oplysninger beskrives nedenfor. App-specifikke tekster findes også længere nede.",
+            "iqWorkLog og nogle andre apps er designet, så data forbliver på brugerens egen enhed. iqFleetSync er en webtjeneste, og dens oplysninger beskrives nedenfor. App-specifikke tekster findes også længere nede.",
           ],
         },
         {
@@ -242,7 +242,7 @@ const PRIVACY_POLICIES = {
         {
           heading: "3. Apps",
           paragraphs: [
-            "Tuntilappu und einige andere Apps sind so gestaltet, dass Daten auf dem Gerät des Nutzers bleiben. iqFleetSync ist ein Webdienst, und seine Daten werden unten beschrieben. App-spezifische Texte stehen auch weiter unten.",
+            "iqWorkLog und einige andere Apps sind so gestaltet, dass Daten auf dem Gerät des Nutzers bleiben. iqFleetSync ist ein Webdienst, und seine Daten werden unten beschrieben. App-spezifische Texte stehen auch weiter unten.",
           ],
         },
         {
@@ -285,7 +285,7 @@ const PRIVACY_POLICIES = {
         {
           heading: "3. Aplicaciones",
           paragraphs: [
-            "Tuntilappu y algunas otras apps están diseñadas para que los datos permanezcan en el dispositivo del usuario. iqFleetSync es un servicio web, y sus datos se describen abajo. Los textos de cada app están también más abajo.",
+            "iqWorkLog y algunas otras apps están diseñadas para que los datos permanezcan en el dispositivo del usuario. iqFleetSync es un servicio web, y sus datos se describen abajo. Los textos de cada app están también más abajo.",
           ],
         },
         {
@@ -328,7 +328,7 @@ const PRIVACY_POLICIES = {
         {
           heading: "3. Applicazioni",
           paragraphs: [
-            "Tuntilappu e alcune altre app sono progettate affinché i dati restino sul dispositivo dell’utente. iqFleetSync è un servizio web e i suoi dati sono descritti sotto. I testi di ogni app sono anche più in basso.",
+            "iqWorkLog e alcune altre app sono progettate affinché i dati restino sul dispositivo dell’utente. iqFleetSync è un servizio web e i suoi dati sono descritti sotto. I testi di ogni app sono anche più in basso.",
           ],
         },
         {
@@ -371,7 +371,7 @@ const PRIVACY_POLICIES = {
         {
           heading: "3. アプリケーション",
           paragraphs: [
-            "Tuntilappu と一部のアプリは、データがユーザー自身の端末に残るよう設計されています。iqFleetSync はウェブサービスで、そのデータは下に記載します。アプリごとの文言も下にあります。",
+            "iqWorkLog と一部のアプリは、データがユーザー自身の端末に残るよう設計されています。iqFleetSync はウェブサービスで、そのデータは下に記載します。アプリごとの文言も下にあります。",
           ],
         },
         {
@@ -414,7 +414,7 @@ const PRIVACY_POLICIES = {
         {
           heading: "3. 애플리케이션",
           paragraphs: [
-            "Tuntilappu와 일부 앱은 데이터가 사용자 기기에 남도록 설계되어 있습니다. iqFleetSync는 웹 서비스이며, 그 데이터는 아래에 설명합니다. 앱별 문구도 아래에 있습니다.",
+            "iqWorkLog와 일부 앱은 데이터가 사용자 기기에 남도록 설계되어 있습니다. iqFleetSync는 웹 서비스이며, 그 데이터는 아래에 설명합니다. 앱별 문구도 아래에 있습니다.",
           ],
         },
         {
@@ -457,7 +457,7 @@ const PRIVACY_POLICIES = {
         {
           heading: "3. Applications",
           paragraphs: [
-            "Tuntilappu et certaines autres applications sont conçues pour que les données restent sur l’appareil de l’utilisateur. iqFleetSync est un service web, et ses données sont décrites ci-dessous. Les textes propres à chaque application figurent aussi plus bas.",
+            "iqWorkLog et certaines autres applications sont conçues pour que les données restent sur l’appareil de l’utilisateur. iqFleetSync est un service web, et ses données sont décrites ci-dessous. Les textes propres à chaque application figurent aussi plus bas.",
           ],
         },
         {
@@ -500,7 +500,7 @@ const PRIVACY_POLICIES = {
         {
           heading: "3. Aplicativos",
           paragraphs: [
-            "O Tuntilappu e alguns outros apps são projetados para que os dados permaneçam no dispositivo do usuário. O iqFleetSync é um serviço web, e os dados dele são descritos abaixo. Os textos de cada app também estão mais abaixo.",
+            "O iqWorkLog e alguns outros apps são projetados para que os dados permaneçam no dispositivo do usuário. O iqFleetSync é um serviço web, e os dados dele são descritos abaixo. Os textos de cada app também estão mais abaixo.",
           ],
         },
         {
@@ -543,7 +543,7 @@ const PRIVACY_POLICIES = {
         {
           heading: "3. Apps",
           paragraphs: [
-            "Tuntilappu en sommige andere apps zijn zo ontworpen dat data op het apparaat van de gebruiker blijft. iqFleetSync is een webdienst, en de gegevens daarvan staan hieronder. App-specifieke teksten staan ook verderop.",
+            "iqWorkLog en sommige andere apps zijn zo ontworpen dat data op het apparaat van de gebruiker blijft. iqFleetSync is een webdienst, en de gegevens daarvan staan hieronder. App-specifieke teksten staan ook verderop.",
           ],
         },
         {
@@ -586,7 +586,7 @@ const PRIVACY_POLICIES = {
         {
           heading: "3. Aplikacje",
           paragraphs: [
-            "Tuntilappu i część innych aplikacji jest zaprojektowana tak, aby dane pozostawały na urządzeniu użytkownika. iqFleetSync jest usługą internetową, a jej dane opisano poniżej. Teksty poszczególnych aplikacji są też niżej.",
+            "iqWorkLog i część innych aplikacji jest zaprojektowana tak, aby dane pozostawały na urządzeniu użytkownika. iqFleetSync jest usługą internetową, a jej dane opisano poniżej. Teksty poszczególnych aplikacji są też niżej.",
           ],
         },
         {
@@ -629,7 +629,7 @@ const PRIVACY_POLICIES = {
         {
           heading: "3. Aplikace",
           paragraphs: [
-            "Tuntilappu a některé další aplikace jsou navrženy tak, aby data zůstala na zařízení uživatele. iqFleetSync je webová služba a její údaje jsou popsány níže. Texty jednotlivých aplikací jsou také níže.",
+            "iqWorkLog a některé další aplikace jsou navrženy tak, aby data zůstala na zařízení uživatele. iqFleetSync je webová služba a její údaje jsou popsány níže. Texty jednotlivých aplikací jsou také níže.",
           ],
         },
         {
@@ -672,7 +672,7 @@ const PRIVACY_POLICIES = {
         {
           heading: "3. 应用程序",
           paragraphs: [
-            "Tuntilappu 和部分其他应用的设计使数据保留在用户自己的设备上。iqFleetSync 是网络服务，其数据在下面说明。各应用的文字也列在后面。",
+            "iqWorkLog 和部分其他应用的设计使数据保留在用户自己的设备上。iqFleetSync 是网络服务，其数据在下面说明。各应用的文字也列在后面。",
           ],
         },
         {
@@ -703,10 +703,8 @@ function escapeHtml(value) {
     .replace(/"/g, "&quot;");
 }
 
-function resolveAppDisplayName(app, lang) {
-  if (app.id === "tuntilappu" && typeof tuntilappuName === "function") {
-    return tuntilappuName(lang);
-  }
+function resolveAppDisplayName(app) {
+  if (app.id === "tuntilappu") return "iqWorkLog";
   return app.name || "";
 }
 
@@ -769,10 +767,7 @@ function renderPrivacyPolicy(lang) {
   const policy = bundle[lang] || bundle.en || bundle.fi;
   if (!policy) return;
 
-  const appName =
-    policyId === "tuntilappu" && typeof tuntilappuName === "function"
-      ? tuntilappuName(lang)
-      : "Tuntilappu";
+  const appName = policyId === "tuntilappu" ? "iqWorkLog" : "";
 
   const title = fillAppPlaceholders(policy.title, appName);
   const metaTitle = fillAppPlaceholders(policy.metaTitle, appName);
@@ -801,7 +796,7 @@ function renderPrivacyPolicy(lang) {
     if (apps.length) {
       html += `<ul class="policy-app-list">`;
       apps.forEach((app) => {
-        const name = resolveAppDisplayName(app, lang);
+        const name = resolveAppDisplayName(app);
         html += `<li><a href="${escapeHtml(app.href)}">${escapeHtml(name)}</a>`;
         if (app.blurb) html += ` — ${escapeHtml(app.blurb)}`;
         html += `</li>`;
