@@ -12,7 +12,7 @@ const APPS_INDEX = {
     products: [
       ["tuntilappu.html", "iqWorkLog", "Android-sovellus työajanseurantaan. 14 päivän ilmainen kokeilu, sen jälkeen kertamaksu. Yli 70 kieltä. Entinen Tuntilappu."],
       ["iqfleetsync.html", "iqFleetSync", "Yrityksen, huollon ja kuljettajien yhteinen paikka huoltoihin ja korjauksiin. Selaimessa, ei asennusta. 30 päivän kokeilu."],
-      ["iqrallynote.html", "iqRallyNote", "Rallinuotteihin tarkoitettu tablettisovellus. Sisältö säilyy käyttäjän laitteella."],
+      ["iqrallynote.html", "iqRallyNote", "Android-tablettisovellus rallinuottien muokkaukseen. Rekkaus puhesanelulla, oma symbolikirjasto, kilpailutila ja PDF-vienti. Sisältö säilyy käyttäjän laitteella."],
     ],
   },
   en: {
@@ -25,7 +25,7 @@ const APPS_INDEX = {
     products: [
       ["tuntilappu.html", "iqWorkLog", "Android timesheet app. A 14-day free trial, then a one-time purchase. 70+ languages. Formerly Tuntilappu."],
       ["iqfleetsync.html", "iqFleetSync", "One place for the company, maintenance and drivers to keep services and repairs up to date. In the browser, nothing to install. 30-day trial."],
-      ["iqrallynote.html", "iqRallyNote", "A tablet app for rally pace notes. Content stays on the user’s device."],
+      ["iqrallynote.html", "iqRallyNote", "An Android tablet app for editing rally pace notes. Recce by voice dictation, your own symbol library, competition mode, and PDF export. Content stays on the user’s device."],
     ],
   },
   sv: {
@@ -38,7 +38,7 @@ const APPS_INDEX = {
     products: [
       ["tuntilappu.html", "iqWorkLog", "Android-app för tidrapportering. 14 dagars gratis prov, sedan ett engångsköp. Över 70 språk. Tidigare Tuntilappu."],
       ["iqfleetsync.html", "iqFleetSync", "En gemensam plats för företaget, underhållet och förarna. Service och reparationer hålls aktuella. I webbläsaren, inget att installera. 30 dagars prov."],
-      ["iqrallynote.html", "iqRallyNote", "Surfplatteapp för rallyanteckningar. Innehållet stannar på användarens enhet."],
+      ["iqrallynote.html", "iqRallyNote", "Android-surfplatteapp för att redigera rallyanteckningar. Recce med röstdiktering, eget symbolbibliotek, tävlingsläge och PDF-export. Innehållet stannar på användarens enhet."],
     ],
   },
   no: {
@@ -51,7 +51,7 @@ const APPS_INDEX = {
     products: [
       ["tuntilappu.html", "iqWorkLog", "Android-app for timeføring. 14 dagers gratis prøve, deretter et engangskjøp. Over 70 språk. Tidligere Tuntilappu."],
       ["iqfleetsync.html", "iqFleetSync", "Ett sted for bedriften, vedlikeholdet og sjåførene. Service og reparasjoner holdes oppdatert. I nettleseren, ingenting å installere. 30 dagers prøve."],
-      ["iqrallynote.html", "iqRallyNote", "Nettbrettapp for rallynotater. Innholdet blir på brukerens enhet."],
+      ["iqrallynote.html", "iqRallyNote", "Android-nettbrettapp for å redigere rallynotater. Recce med talediktering, eget symbolbibliotek, konkurransemodus og PDF-eksport. Innholdet blir på brukerens enhet."],
     ],
   },
   da: {
@@ -64,7 +64,7 @@ const APPS_INDEX = {
     products: [
       ["tuntilappu.html", "iqWorkLog", "Android-app til timeregistrering. 14 dages gratis prøve, derefter et engangskøb. Over 70 sprog. Tidligere Tuntilappu."],
       ["iqfleetsync.html", "iqFleetSync", "Ét sted for virksomheden, vedligeholdet og chaufførerne. Service og reparationer holdes ajour. I browseren, intet at installere. 30 dages prøve."],
-      ["iqrallynote.html", "iqRallyNote", "Tabletapp til rallynoter. Indholdet bliver på brugerens enhed."],
+      ["iqrallynote.html", "iqRallyNote", "Android-tabletapp til redigering af rallynoter. Recce med stemmediktering, eget symbolbibliotek, konkurrencetilstand og PDF-eksport. Indholdet bliver på brugerens enhed."],
     ],
   },
   de: {
@@ -77,7 +77,7 @@ const APPS_INDEX = {
     products: [
       ["tuntilappu.html", "iqWorkLog", "Android-App zur Zeiterfassung. 14 Tage kostenlos testen, danach ein Einmalkauf. Über 70 Sprachen. Früher Tuntilappu."],
       ["iqfleetsync.html", "iqFleetSync", "Ein Ort für Unternehmen, Werkstatt und Fahrer. Wartung und Reparaturen bleiben aktuell. Im Browser, nichts zu installieren. 30 Tage testen."],
-      ["iqrallynote.html", "iqRallyNote", "Tablet-App für Rallye-Aufschriebe. Der Inhalt bleibt auf dem Gerät des Nutzers."],
+      ["iqrallynote.html", "iqRallyNote", "Android-Tablet-App zum Bearbeiten von Rallye-Aufschrieben. Recce per Sprachdiktat, eigene Symbolbibliothek, Wettbewerbsmodus und PDF-Export. Der Inhalt bleibt auf dem Gerät des Nutzers."],
     ],
   },
   nl: {
@@ -90,7 +90,7 @@ const APPS_INDEX = {
     products: [
       ["tuntilappu.html", "iqWorkLog", "Android-app voor urenregistratie. 14 dagen gratis proberen, daarna een eenmalige aankoop. Meer dan 70 talen. Voorheen Tuntilappu."],
       ["iqfleetsync.html", "iqFleetSync", "Eén plek voor bedrijf, onderhoud en chauffeurs. Onderhoud en reparaties blijven bij. In de browser, niets te installeren. 30 dagen proberen."],
-      ["iqrallynote.html", "iqRallyNote", "Tabletapp voor rallynotities. De inhoud blijft op het apparaat van de gebruiker."],
+      ["iqrallynote.html", "iqRallyNote", "Android-tabletapp voor het bewerken van rallynotities. Recce via spraakdictee, een eigen symbolenbibliotheek, wedstrijdmodus en PDF-export. De inhoud blijft op het apparaat van de gebruiker."],
     ],
   },
   fr: {
@@ -103,7 +103,7 @@ const APPS_INDEX = {
     products: [
       ["tuntilappu.html", "iqWorkLog", "Application Android de suivi du temps. Essai gratuit de 14 jours, puis achat unique. Plus de 70 langues. Anciennement Tuntilappu."],
       ["iqfleetsync.html", "iqFleetSync", "Un endroit commun pour l’entreprise, l’entretien et les conducteurs. Entretiens et réparations restent à jour. Dans le navigateur, rien à installer. Essai de 30 jours."],
-      ["iqrallynote.html", "iqRallyNote", "Application tablette pour les notes de rallye. Le contenu reste sur l’appareil de l’utilisateur."],
+      ["iqrallynote.html", "iqRallyNote", "Application Android pour tablette, pour éditer les notes de rallye. Recce par dictée vocale, bibliothèque de symboles, mode compétition et export PDF. Le contenu reste sur l’appareil de l’utilisateur."],
     ],
   },
   es: {
@@ -116,7 +116,7 @@ const APPS_INDEX = {
     products: [
       ["tuntilappu.html", "iqWorkLog", "App Android de control de horas. Prueba gratis de 14 días y después una compra única. Más de 70 idiomas. Antes Tuntilappu."],
       ["iqfleetsync.html", "iqFleetSync", "Un sitio común para la empresa, el mantenimiento y los conductores. Servicios y reparaciones al día. En el navegador, nada que instalar. Prueba de 30 días."],
-      ["iqrallynote.html", "iqRallyNote", "Aplicación de tableta para notas de rally. El contenido permanece en el dispositivo del usuario."],
+      ["iqrallynote.html", "iqRallyNote", "Aplicación Android para tableta, para editar las notas de rally. Recce por dictado de voz, biblioteca de símbolos propia, modo competición y exportación a PDF. El contenido permanece en el dispositivo del usuario."],
     ],
   },
   pt: {
@@ -129,7 +129,7 @@ const APPS_INDEX = {
     products: [
       ["tuntilappu.html", "iqWorkLog", "App Android de controle de horas. Teste grátis de 14 dias e depois uma compra única. Mais de 70 idiomas. Antigo Tuntilappu."],
       ["iqfleetsync.html", "iqFleetSync", "Um lugar comum para a empresa, a manutenção e os motoristas. Revisões e reparações em dia. No navegador, nada para instalar. Teste de 30 dias."],
-      ["iqrallynote.html", "iqRallyNote", "Aplicativo de tablet para notas de rally. O conteúdo fica no dispositivo do usuário."],
+      ["iqrallynote.html", "iqRallyNote", "Aplicativo Android para tablet, para editar notas de rally. Recce por ditado de voz, biblioteca de símbolos própria, modo competição e exportação em PDF. O conteúdo fica no dispositivo do usuário."],
     ],
   },
   it: {
@@ -142,7 +142,7 @@ const APPS_INDEX = {
     products: [
       ["tuntilappu.html", "iqWorkLog", "App Android per le ore di lavoro. Prova gratuita di 14 giorni, poi un acquisto una tantum. Oltre 70 lingue. Prima Tuntilappu."],
       ["iqfleetsync.html", "iqFleetSync", "Un posto comune per azienda, officina e conducenti. Manutenzioni e riparazioni aggiornate. Nel browser, niente da installare. Prova di 30 giorni."],
-      ["iqrallynote.html", "iqRallyNote", "App per tablet per le note di rally. Il contenuto resta sul dispositivo dell’utente."],
+      ["iqrallynote.html", "iqRallyNote", "App Android per tablet per modificare le note di rally. Ricognizione con dettatura vocale, libreria di simboli propria, modalità gara ed esportazione PDF. Il contenuto resta sul dispositivo dell’utente."],
     ],
   },
   pl: {
@@ -155,7 +155,7 @@ const APPS_INDEX = {
     products: [
       ["tuntilappu.html", "iqWorkLog", "Aplikacja Android do ewidencji czasu pracy. 14 dni bezpłatnie, potem jednorazowy zakup. Ponad 70 języków. Dawniej Tuntilappu."],
       ["iqfleetsync.html", "iqFleetSync", "Wspólne miejsce dla firmy, serwisu i kierowców. Przeglądy i naprawy na bieżąco. W przeglądarce, nic do instalacji. 30 dni próbnie."],
-      ["iqrallynote.html", "iqRallyNote", "Aplikacja na tablet do notatek rajdowych. Treść zostaje na urządzeniu użytkownika."],
+      ["iqrallynote.html", "iqRallyNote", "Aplikacja na tablet z Androidem do edycji notatek rajdowych. Recce dyktowaniem głosowym, własna biblioteka symboli, tryb zawodów i eksport PDF. Treść zostaje na urządzeniu użytkownika."],
     ],
   },
   cs: {
@@ -168,7 +168,7 @@ const APPS_INDEX = {
     products: [
       ["tuntilappu.html", "iqWorkLog", "Androidová aplikace pro evidenci pracovní doby. 14 dní zdarma, pak jednorázový nákup. Více než 70 jazyků. Dříve Tuntilappu."],
       ["iqfleetsync.html", "iqFleetSync", "Společné místo pro firmu, údržbu a řidiče. Servisy a opravy zůstávají aktuální. V prohlížeči, nic k instalaci. 30 dní na zkoušku."],
-      ["iqrallynote.html", "iqRallyNote", "Tabletová aplikace pro rallyové zápisy. Obsah zůstává v zařízení uživatele."],
+      ["iqrallynote.html", "iqRallyNote", "Tabletová aplikace pro Android k úpravě rallyových zápisů. Recce hlasovým diktátem, vlastní knihovna symbolů, závodní režim a export do PDF. Obsah zůstává v zařízení uživatele."],
     ],
   },
   ja: {
@@ -181,7 +181,7 @@ const APPS_INDEX = {
     products: [
       ["tuntilappu.html", "iqWorkLog", "Androidの勤務時間管理アプリ。14日間の無料試用のあと、買い切り。70以上の言語。旧Tuntilappu。"],
       ["iqfleetsync.html", "iqFleetSync", "会社、整備、ドライバーの共通の場所。点検と修理を最新に。ブラウザで、インストール不要。30日間の試用。"],
-      ["iqrallynote.html", "iqRallyNote", "ラリーのペースノート向けタブレットアプリ。内容は利用者の端末に残ります。"],
+      ["iqrallynote.html", "iqRallyNote", "ラリーのペースノートを編集するAndroidタブレットアプリ。音声入力によるレッキ、独自のシンボル、競技モード、PDF書き出し。内容は利用者の端末に残ります。"],
     ],
   },
   ko: {
@@ -194,7 +194,7 @@ const APPS_INDEX = {
     products: [
       ["tuntilappu.html", "iqWorkLog", "Android 근무시간 관리 앱. 14일 무료 체험 후 일회성 구매. 70개 이상의 언어. 이전 이름 Tuntilappu."],
       ["iqfleetsync.html", "iqFleetSync", "회사, 정비, 운전자가 함께 쓰는 곳. 점검과 수리를 최신으로. 브라우저에서, 설치 없음. 30일 체험."],
-      ["iqrallynote.html", "iqRallyNote", "랠리 페이스노트용 태블릿 앱. 내용은 사용자 기기에 남습니다."],
+      ["iqrallynote.html", "iqRallyNote", "랠리 페이스노트를 편집하는 Android 태블릿 앱. 음성 받아쓰기 렉키, 자체 기호, 경기 모드, PDF 내보내기. 내용은 사용자 기기에 남습니다."],
     ],
   },
   zh: {
@@ -207,7 +207,7 @@ const APPS_INDEX = {
     products: [
       ["tuntilappu.html", "iqWorkLog", "Android 工时管理应用。14 天免费试用，之后一次性购买。70 多种语言。原名 Tuntilappu。"],
       ["iqfleetsync.html", "iqFleetSync", "公司、维修和驾驶员的共同之处。保养和修理保持最新。在浏览器里，无需安装。30 天试用。"],
-      ["iqrallynote.html", "iqRallyNote", "用于拉力赛路书的平板应用。内容保留在用户的设备上。"],
+      ["iqrallynote.html", "iqRallyNote", "用于编辑拉力赛路书的 Android 平板应用。语音听写勘察、自有符号库、比赛模式和 PDF 导出。内容保留在用户的设备上。"],
     ],
   },
 };
@@ -234,6 +234,7 @@ function renderAppsPage(lang) {
   const productIcons = {
     "tuntilappu.html": "assets/iqworklog-icon.svg",
     "iqfleetsync.html": "assets/iqfleetsync-icon.svg",
+    "iqrallynote.html": "assets/iqrallynote-icon.svg",
   };
   const cards = page.products
     .map(([href, name, blurb]) => {
