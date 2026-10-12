@@ -9,7 +9,7 @@ Yksinkertaiset yrityskotisivut IQSoftCorelle. Yritys tekee ohjelmistoja, sovellu
 - iqFleetSync: `iqfleetsync.html` (myyntisivu: yritys-, huolto- ja kuljettajanäkymä, laskuri, kokeilu)
 - Hinnasto: `hinnasto.html`
 - Käyttöehdot: `kayttoehdot.html`
-- Tietosuoja: yritystason käytäntö (`privacy.html`, iqFleetSync-osio `#iqfleetsync`) ja Tuntilapun oma sivu (`privacy-tuntilappu.html`)
+- Tietosuoja: yritystason käytäntö (`privacy.html`, iqFleetSync-osio `#iqfleetsync`), Tuntilapun oma sivu (`privacy-tuntilappu.html`) ja iqRallyNoten oma sivu (`privacy-iqrallynote.html`)
 - Logo: SVG-merkki (IQC) ja wordmark
 - Kielet: fi, en, sv, no, da, de, nl, fr, es, pt, it, pl, cs, ja, ko, zh
 
@@ -40,6 +40,7 @@ npx --yes serve .
 ## Google Play
 
 Tuntilapun tietosuoja-URL: `privacy-tuntilappu.html` (julkaistuna domainillasi).
+iqRallyNoten tietosuoja-URL: `privacy-iqrallynote.html` (julkaistuna domainillasi).
 
 Lokalisoitujen nimien lähde: `js/tuntilappu-names.js`.  
 Sovelluskuvaukset: `js/apps-content.js`.

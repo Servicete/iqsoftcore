@@ -275,6 +275,25 @@ function escapeRallyHtml(value) {
     .replace(/"/g, "&quot;");
 }
 
+const RALLY_PRIVACY_LINK = {
+  fi: "Tietosuojaseloste",
+  en: "Privacy policy",
+  sv: "Integritetspolicy",
+  no: "Personvernerklæring",
+  da: "Privatlivspolitik",
+  de: "Datenschutzerklärung",
+  nl: "Privacybeleid",
+  fr: "Politique de confidentialité",
+  es: "Política de privacidad",
+  pt: "Política de privacidade",
+  it: "Informativa sulla privacy",
+  pl: "Polityka prywatności",
+  cs: "Zásady ochrany osobních údajů",
+  ja: "プライバシーポリシー",
+  ko: "개인정보 처리방침",
+  zh: "隐私政策",
+};
+
 const RALLY_OG_LOCALE = {
   fi: "fi_FI",
   en: "en_US",
@@ -310,6 +329,7 @@ function renderRallyNotePage(lang) {
   const root = document.getElementById("rally-root");
   if (!root) return;
   const page = RALLY_PAGE[lang] || RALLY_PAGE.en;
+  const privacyLabel = RALLY_PRIVACY_LINK[lang] || RALLY_PRIVACY_LINK.en;
 
   const titleEl = document.querySelector("title");
   if (titleEl) titleEl.textContent = page.metaTitle;
@@ -338,5 +358,5 @@ function renderRallyNotePage(lang) {
     <ul>${features}</ul>
     <p>${escapeRallyHtml(page.body)}</p>
     <p>${escapeRallyHtml(page.missing)} <a href="index.html#contact">${escapeRallyHtml(page.contact)}</a></p>
-    <p class="policy-nav"><a class="btn btn-ghost" href="apps.html">${escapeRallyHtml(page.backApps)}</a></p>`;
+    <p class="policy-nav"><a class="btn btn-ghost" href="privacy-iqrallynote.html">${escapeRallyHtml(privacyLabel)}</a> <a class="btn btn-ghost" href="apps.html">${escapeRallyHtml(page.backApps)}</a></p>`;
 }
