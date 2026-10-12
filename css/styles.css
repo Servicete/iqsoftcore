@@ -1174,6 +1174,69 @@ ul.calc-lines {
   object-fit: contain;
 }
 
+body.product-rally {
+  --rally: #e8590c;
+  --rally-deep: #c2410c;
+  background:
+    radial-gradient(1000px 560px at 88% -12%, rgba(232, 89, 12, 0.16), transparent 60%),
+    radial-gradient(820px 520px at -12% 24%, rgba(20, 61, 74, 0.1), transparent 55%),
+    linear-gradient(180deg, #f7fcfa 0%, var(--paper) 45%, #e8f3ef 100%);
+}
+
+body.product-rally .rally-hero {
+  margin: 0 0 1.35rem;
+}
+
+body.product-rally .rally-hero img {
+  width: 100%;
+  height: auto;
+  border-radius: calc(var(--radius) + 4px);
+  box-shadow: var(--shadow-soft);
+}
+
+body.product-rally .product-page a {
+  color: var(--rally-deep);
+}
+
+body.product-rally .product-page a:hover {
+  color: #9a3412;
+}
+
+body.product-rally .product-page a:focus-visible {
+  outline: 2px solid var(--rally);
+  outline-offset: 3px;
+}
+
+body.product-rally .product-page .btn-ghost {
+  color: var(--ink);
+}
+
+body.product-rally .product-page .btn-ghost:hover {
+  border-color: var(--rally);
+  color: var(--rally-deep);
+}
+
+body.product-rally .product-page .btn-primary {
+  background: var(--rally-deep);
+  color: #fff;
+}
+
+body.product-rally .product-page .btn-primary:hover {
+  background: #9a3412;
+  color: #fff;
+  box-shadow: 0 8px 22px rgba(232, 89, 12, 0.28);
+}
+
+body.product-rally .product-page ul {
+  margin-left: 0;
+  padding-left: 1.15rem;
+  border-left: 3px solid var(--rally);
+}
+
+body.product-rally .product-page li::marker {
+  color: var(--rally);
+}
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
