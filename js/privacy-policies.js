@@ -43,8 +43,8 @@ const PRIVACY_POLICIES = {
         },
       ],
       appsHeading: "Sovelluskohtaiset tietosuojalausekkeet",
-      appsIntro: "Alla olevat lausekkeet koskevat nimettyä sovellusta:",
-      apps: [{ id: "tuntilappu", href: "privacy-tuntilappu.html", blurb: "Paikallinen tuntikirjaus-sovellus (Google Play)." }],
+      appsIntro: "Yrityksen yleinen tietosuojakäytäntö on tällä sivulla. Kunkin sovelluksen tietosuoja on omassa kohdassaan:",
+      apps: [{ id: "tuntilappu", href: "privacy-tuntilappu.html", blurb: "Paikallinen tuntikirjaus-sovellus (Google Play)." }, { id: "iqfleetsync", href: "#iqfleetsync", name: "iqFleetSync", blurb: "Verkkopalvelu kaluston huoltoon. Seloste on tällä sivulla." }],
       backHome: "Takaisin etusivulle",
     },
     en: {
@@ -86,8 +86,8 @@ const PRIVACY_POLICIES = {
         },
       ],
       appsHeading: "App-specific privacy policies",
-      appsIntro: "The following policies apply to the named application:",
-      apps: [{ id: "tuntilappu", href: "privacy-tuntilappu.html", blurb: "Local time-tracking app (Google Play)." }],
+      appsIntro: "The company’s general privacy policy is on this page. Each app’s privacy policy is in its own section:",
+      apps: [{ id: "tuntilappu", href: "privacy-tuntilappu.html", blurb: "Local time-tracking app (Google Play)." }, { id: "iqfleetsync", href: "#iqfleetsync", name: "iqFleetSync", blurb: "Web service for fleet maintenance. The notice is on this page." }],
       backHome: "Back to home",
     },
     sv: {
@@ -129,8 +129,8 @@ const PRIVACY_POLICIES = {
         },
       ],
       appsHeading: "App-specifika integritetspolicys",
-      appsIntro: "Följande policys gäller den namngivna applikationen:",
-      apps: [{ id: "tuntilappu", href: "privacy-tuntilappu.html", blurb: "Lokal tidrapporteringsapp (Google Play)." }],
+      appsIntro: "Företagets allmänna integritetspolicy finns på den här sidan. Varje apps integritetspolicy har en egen del:",
+      apps: [{ id: "tuntilappu", href: "privacy-tuntilappu.html", blurb: "Lokal tidrapporteringsapp (Google Play)." }, { id: "iqfleetsync", href: "#iqfleetsync", name: "iqFleetSync", blurb: "Webbtjänst för fordonsunderhåll. Texten finns på den här sidan." }],
       backHome: "Tillbaka till startsidan",
     },
     no: {
@@ -172,8 +172,8 @@ const PRIVACY_POLICIES = {
         },
       ],
       appsHeading: "App-spesifikke personvernerklæringer",
-      appsIntro: "Følgende erklæringer gjelder den navngitte applikasjonen:",
-      apps: [{ id: "tuntilappu", href: "privacy-tuntilappu.html", blurb: "Lokal timeføringsapp (Google Play)." }],
+      appsIntro: "Bedriftens generelle personvernerklæring er på denne siden. Hver apps personvern har et eget avsnitt:",
+      apps: [{ id: "tuntilappu", href: "privacy-tuntilappu.html", blurb: "Lokal timeføringsapp (Google Play)." }, { id: "iqfleetsync", href: "#iqfleetsync", name: "iqFleetSync", blurb: "Nettjeneste for vedlikehold av kjøretøy. Erklæringen er på denne siden." }],
       backHome: "Tilbake til forsiden",
     },
     da: {
@@ -215,8 +215,8 @@ const PRIVACY_POLICIES = {
         },
       ],
       appsHeading: "App-specifikke privatlivspolitikker",
-      appsIntro: "Følgende politikker gælder den navngivne applikation:",
-      apps: [{ id: "tuntilappu", href: "privacy-tuntilappu.html", blurb: "Lokal timeregistreringsapp (Google Play)." }],
+      appsIntro: "Virksomhedens generelle privatlivspolitik er på denne side. Hver apps privatlivspolitik har sit eget afsnit:",
+      apps: [{ id: "tuntilappu", href: "privacy-tuntilappu.html", blurb: "Lokal timeregistreringsapp (Google Play)." }, { id: "iqfleetsync", href: "#iqfleetsync", name: "iqFleetSync", blurb: "Webtjeneste til vedligeholdelse af køretøjer. Teksten er på denne side." }],
       backHome: "Tilbage til forsiden",
     },
     de: {
@@ -258,8 +258,8 @@ const PRIVACY_POLICIES = {
         },
       ],
       appsHeading: "App-spezifische Datenschutzerklärungen",
-      appsIntro: "Die folgenden Erklärungen gelten für die genannte Anwendung:",
-      apps: [{ id: "tuntilappu", href: "privacy-tuntilappu.html", blurb: "Lokale Zeiterfassungs-App (Google Play)." }],
+      appsIntro: "Die allgemeine Datenschutzerklärung des Unternehmens steht auf dieser Seite. Die Datenschutzerklärung jeder App hat einen eigenen Abschnitt:",
+      apps: [{ id: "tuntilappu", href: "privacy-tuntilappu.html", blurb: "Lokale Zeiterfassungs-App (Google Play)." }, { id: "iqfleetsync", href: "#iqfleetsync", name: "iqFleetSync", blurb: "Webdienst für die Wartung von Fahrzeugen. Die Erklärung steht auf dieser Seite." }],
       backHome: "Zurück zur Startseite",
     },
     es: {
@@ -301,8 +301,8 @@ const PRIVACY_POLICIES = {
         },
       ],
       appsHeading: "Políticas de privacidad por aplicación",
-      appsIntro: "Las siguientes políticas se aplican a la aplicación indicada:",
-      apps: [{ id: "tuntilappu", href: "privacy-tuntilappu.html", blurb: "App local de registro de horas (Google Play)." }],
+      appsIntro: "La política de privacidad general de la empresa está en esta página. La política de cada aplicación tiene su propia sección:",
+      apps: [{ id: "tuntilappu", href: "privacy-tuntilappu.html", blurb: "App local de registro de horas (Google Play)." }, { id: "iqfleetsync", href: "#iqfleetsync", name: "iqFleetSync", blurb: "Servicio web para el mantenimiento de la flota. El aviso está en esta página." }],
       backHome: "Volver al inicio",
     },
     it: {
@@ -344,8 +344,8 @@ const PRIVACY_POLICIES = {
         },
       ],
       appsHeading: "Informative privacy per applicazione",
-      appsIntro: "Le seguenti informative riguardano l’applicazione indicata:",
-      apps: [{ id: "tuntilappu", href: "privacy-tuntilappu.html", blurb: "App locale di registrazione ore (Google Play)." }],
+      appsIntro: "L’informativa privacy generale dell’azienda è in questa pagina. L’informativa di ogni app ha una sezione propria:",
+      apps: [{ id: "tuntilappu", href: "privacy-tuntilappu.html", blurb: "App locale di registrazione ore (Google Play)." }, { id: "iqfleetsync", href: "#iqfleetsync", name: "iqFleetSync", blurb: "Servizio web per la manutenzione della flotta. L’informativa è in questa pagina." }],
       backHome: "Torna alla home",
     },
     ja: {
@@ -387,8 +387,8 @@ const PRIVACY_POLICIES = {
         },
       ],
       appsHeading: "アプリ別プライバシーポリシー",
-      appsIntro: "以下の方針は、記載のアプリケーションに適用されます:",
-      apps: [{ id: "tuntilappu", href: "privacy-tuntilappu.html", blurb: "端末内の勤怠記録アプリ（Google Play）。" }],
+      appsIntro: "会社の一般的なプライバシーポリシーはこのページにあります。各アプリのプライバシーポリシーはそれぞれの節にあります。",
+      apps: [{ id: "tuntilappu", href: "privacy-tuntilappu.html", blurb: "端末内の勤怠記録アプリ（Google Play）。" }, { id: "iqfleetsync", href: "#iqfleetsync", name: "iqFleetSync", blurb: "車両整備のためのウェブサービス。通知はこのページにあります。" }],
       backHome: "ホームに戻る",
     },
     ko: {
@@ -430,8 +430,8 @@ const PRIVACY_POLICIES = {
         },
       ],
       appsHeading: "앱별 개인정보 처리방침",
-      appsIntro: "다음 방침은 명시된 애플리케이션에 적용됩니다:",
-      apps: [{ id: "tuntilappu", href: "privacy-tuntilappu.html", blurb: "로컬 근무시간 기록 앱(Google Play)." }],
+      appsIntro: "회사의 일반 개인정보 처리방침은 이 페이지에 있습니다. 각 앱의 개인정보 처리방침은 해당 절에 있습니다.",
+      apps: [{ id: "tuntilappu", href: "privacy-tuntilappu.html", blurb: "로컬 근무시간 기록 앱(Google Play)." }, { id: "iqfleetsync", href: "#iqfleetsync", name: "iqFleetSync", blurb: "차량 정비를 위한 웹 서비스. 안내는 이 페이지에 있습니다." }],
       backHome: "홈으로 돌아가기",
     },
     fr: {
@@ -473,8 +473,8 @@ const PRIVACY_POLICIES = {
         },
       ],
       appsHeading: "Politiques de confidentialité par application",
-      appsIntro: "Les politiques suivantes concernent l’application indiquée :",
-      apps: [{ id: "tuntilappu", href: "privacy-tuntilappu.html", blurb: "Application locale de suivi du temps (Google Play)." }],
+      appsIntro: "La politique de confidentialité générale de l’entreprise est sur cette page. Celle de chaque application a sa propre section :",
+      apps: [{ id: "tuntilappu", href: "privacy-tuntilappu.html", blurb: "Application locale de suivi du temps (Google Play)." }, { id: "iqfleetsync", href: "#iqfleetsync", name: "iqFleetSync", blurb: "Service web pour l’entretien de la flotte. La notice est sur cette page." }],
       backHome: "Retour à l’accueil",
     },
     pt: {
@@ -516,8 +516,8 @@ const PRIVACY_POLICIES = {
         },
       ],
       appsHeading: "Políticas de privacidade por aplicativo",
-      appsIntro: "As políticas a seguir se aplicam ao aplicativo indicado:",
-      apps: [{ id: "tuntilappu", href: "privacy-tuntilappu.html", blurb: "App local de registro de horas (Google Play)." }],
+      appsIntro: "A política de privacidade geral da empresa está nesta página. A política de cada aplicativo tem a sua seção:",
+      apps: [{ id: "tuntilappu", href: "privacy-tuntilappu.html", blurb: "App local de registro de horas (Google Play)." }, { id: "iqfleetsync", href: "#iqfleetsync", name: "iqFleetSync", blurb: "Serviço web para a manutenção da frota. O aviso está nesta página." }],
       backHome: "Voltar ao início",
     },
     nl: {
@@ -559,8 +559,8 @@ const PRIVACY_POLICIES = {
         },
       ],
       appsHeading: "App-specifieke privacyverklaringen",
-      appsIntro: "De volgende verklaringen gelden voor de genoemde applicatie:",
-      apps: [{ id: "tuntilappu", href: "privacy-tuntilappu.html", blurb: "Lokale urenregistratie-app (Google Play)." }],
+      appsIntro: "Het algemene privacybeleid van het bedrijf staat op deze pagina. Het privacybeleid van elke app heeft een eigen onderdeel:",
+      apps: [{ id: "tuntilappu", href: "privacy-tuntilappu.html", blurb: "Lokale urenregistratie-app (Google Play)." }, { id: "iqfleetsync", href: "#iqfleetsync", name: "iqFleetSync", blurb: "Webdienst voor onderhoud van het wagenpark. De verklaring staat op deze pagina." }],
       backHome: "Terug naar home",
     },
     pl: {
@@ -602,8 +602,8 @@ const PRIVACY_POLICIES = {
         },
       ],
       appsHeading: "Polityki prywatności aplikacji",
-      appsIntro: "Poniższe polityki dotyczą wskazanej aplikacji:",
-      apps: [{ id: "tuntilappu", href: "privacy-tuntilappu.html", blurb: "Lokalna aplikacja ewidencji czasu pracy (Google Play)." }],
+      appsIntro: "Ogólna polityka prywatności firmy jest na tej stronie. Polityka każdej aplikacji ma własną sekcję:",
+      apps: [{ id: "tuntilappu", href: "privacy-tuntilappu.html", blurb: "Lokalna aplikacja ewidencji czasu pracy (Google Play)." }, { id: "iqfleetsync", href: "#iqfleetsync", name: "iqFleetSync", blurb: "Usługa internetowa do serwisu floty. Informacja jest na tej stronie." }],
       backHome: "Powrót do strony głównej",
     },
     cs: {
@@ -645,8 +645,8 @@ const PRIVACY_POLICIES = {
         },
       ],
       appsHeading: "Zásady pro jednotlivé aplikace",
-      appsIntro: "Následující zásady platí pro uvedenou aplikaci:",
-      apps: [{ id: "tuntilappu", href: "privacy-tuntilappu.html", blurb: "Lokální aplikace evidence pracovní doby (Google Play)." }],
+      appsIntro: "Obecné zásady ochrany soukromí společnosti jsou na této stránce. Zásady každé aplikace mají vlastní oddíl:",
+      apps: [{ id: "tuntilappu", href: "privacy-tuntilappu.html", blurb: "Lokální aplikace evidence pracovní doby (Google Play)." }, { id: "iqfleetsync", href: "#iqfleetsync", name: "iqFleetSync", blurb: "Webová služba pro údržbu vozového parku. Prohlášení je na této stránce." }],
       backHome: "Zpět na úvod",
     },
     zh: {
@@ -688,8 +688,8 @@ const PRIVACY_POLICIES = {
         },
       ],
       appsHeading: "应用专属隐私政策",
-      appsIntro: "以下政策适用于所列应用程序：",
-      apps: [{ id: "tuntilappu", href: "privacy-tuntilappu.html", blurb: "本地工时记录应用（Google Play）。" }],
+      appsIntro: "公司的一般隐私政策在本页。每个应用的隐私政策在各自的部分：",
+      apps: [{ id: "tuntilappu", href: "privacy-tuntilappu.html", blurb: "本地工时记录应用（Google Play）。" }, { id: "iqfleetsync", href: "#iqfleetsync", name: "iqFleetSync", blurb: "用于车队保养的网络服务。说明在本页。" }],
       backHome: "返回首页",
     },
   },
@@ -756,6 +756,23 @@ function renderPolicySections(sections, appName, lang) {
     .join("");
 }
 
+function renderAppPolicyHub(policy) {
+  const apps = policy.apps || [];
+  if (!policy.appsHeading || !apps.length) return "";
+  let html = `<section class="policy-section policy-apps policy-hub" id="app-policies">`;
+  html += `<h2>${escapeHtml(policy.appsHeading)}</h2>`;
+  if (policy.appsIntro) html += `<p>${escapeHtml(policy.appsIntro)}</p>`;
+  html += `<ul class="policy-app-list">`;
+  apps.forEach((app) => {
+    const name = resolveAppDisplayName(app);
+    html += `<li><a href="${escapeHtml(app.href)}">${escapeHtml(name)}</a>`;
+    if (app.blurb) html += ` — ${escapeHtml(app.blurb)}`;
+    html += `</li>`;
+  });
+  html += `</ul></section>`;
+  return html;
+}
+
 function renderPrivacyPolicy(lang) {
   const root = document.getElementById("policy-root");
   if (!root || typeof PRIVACY_POLICIES === "undefined") return;
@@ -781,29 +798,20 @@ function renderPrivacyPolicy(lang) {
     metaDesc.setAttribute("content", metaDescription);
   }
 
+  const sections = policy.sections || [];
+  const general = [];
+  const fleet = [];
+  sections.forEach((section) => {
+    if (policyId === "company" && section.id === "iqfleetsync") fleet.push(section);
+    else general.push(section);
+  });
+
   let html = `<h1>${escapeHtml(title)}</h1>`;
   html += `<p class="policy-updated">${escapeHtml(policy.updated)}</p>`;
-  html += renderPolicySections(policy.sections || [], appName, lang);
-
-  if (policy.appsHeading) {
-    html += `<section class="policy-section policy-apps">`;
-    html += `<h2>${escapeHtml(policy.appsHeading)}</h2>`;
-    if (policy.appsIntro) html += `<p>${escapeHtml(policy.appsIntro)}</p>`;
-    const apps = (policy.apps || []).slice();
-    if (policyId === "company" && !apps.some((app) => app.href === "#iqfleetsync")) {
-      apps.unshift({ href: "#iqfleetsync", name: "iqFleetSync" });
-    }
-    if (apps.length) {
-      html += `<ul class="policy-app-list">`;
-      apps.forEach((app) => {
-        const name = resolveAppDisplayName(app);
-        html += `<li><a href="${escapeHtml(app.href)}">${escapeHtml(name)}</a>`;
-        if (app.blurb) html += ` — ${escapeHtml(app.blurb)}`;
-        html += `</li>`;
-      });
-      html += `</ul>`;
-    }
-    html += `</section>`;
+  html += renderPolicySections(general, appName, lang);
+  if (policyId === "company") {
+    html += renderAppPolicyHub(policy);
+    html += renderPolicySections(fleet, appName, lang);
   }
 
   html += `<p class="policy-nav">`;
