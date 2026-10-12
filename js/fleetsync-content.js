@@ -960,6 +960,37 @@ function escapeFleetHtml(value) {
     .replace(/"/g, "&quot;");
 }
 
+const FLEET_OG_LOCALE = {
+  fi: "fi_FI",
+  en: "en_US",
+  sv: "sv_SE",
+  no: "nb_NO",
+  da: "da_DK",
+  de: "de_DE",
+  nl: "nl_NL",
+  fr: "fr_FR",
+  es: "es_ES",
+  pt: "pt_BR",
+  it: "it_IT",
+  pl: "pl_PL",
+  cs: "cs_CZ",
+  ja: "ja_JP",
+  ko: "ko_KR",
+  zh: "zh_CN",
+};
+
+function syncFleetSocial(lang, title, description) {
+  const set = (selector, value) => {
+    const el = document.querySelector(selector);
+    if (el && value) el.setAttribute("content", value);
+  };
+  set('meta[property="og:title"]', title);
+  set('meta[property="og:description"]', description);
+  set('meta[name="twitter:title"]', title);
+  set('meta[name="twitter:description"]', description);
+  set('meta[property="og:locale"]', FLEET_OG_LOCALE[lang] || "en_US");
+}
+
 function renderFleetSyncPage(lang) {
   const root = document.getElementById("fleetsync-root");
   if (!root) return;
@@ -970,6 +1001,7 @@ function renderFleetSyncPage(lang) {
   if (titleEl) titleEl.textContent = page.metaTitle;
   const metaDesc = document.querySelector('meta[name="description"]');
   if (metaDesc) metaDesc.setAttribute("content", page.metaDescription);
+  syncFleetSocial(lang, page.metaTitle, page.metaDescription);
 
   const list = (items) => `<ul>${items.map((item) => `<li>${escapeFleetHtml(item)}</li>`).join("")}</ul>`;
   const view = (title, kicker, lead, items) => `<section class="view-block">
@@ -988,8 +1020,13 @@ function renderFleetSyncPage(lang) {
     if (input) savedCounts[key] = input.value;
   });
 
-  root.innerHTML = `<h1>iqFleetSync</h1>
-    <p class="app-short">${escapeFleetHtml(page.kicker)}</p>
+  root.innerHTML = `<div class="product-heading">
+      <img class="product-icon" src="assets/iqfleetsync-icon.svg" width="72" height="72" alt="" />
+      <div>
+        <h1>iqFleetSync</h1>
+        <p class="app-short">${escapeFleetHtml(page.kicker)}</p>
+      </div>
+    </div>
     <p>${escapeFleetHtml(page.lead)}</p>
     <p>${escapeFleetHtml(page.browser)}</p>
     <p>${escapeFleetHtml(page.qr)}</p>

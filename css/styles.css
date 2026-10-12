@@ -674,6 +674,52 @@ a:hover {
   margin-top: auto;
 }
 
+.product-icon {
+  display: block;
+  width: 4.5rem;
+  height: 4.5rem;
+  flex: none;
+  object-fit: contain;
+}
+
+.product-card .product-icon {
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+.product-icon-link {
+  display: block;
+  width: fit-content;
+  line-height: 0;
+  border-radius: 0.85rem;
+}
+
+.product-icon-link:focus-visible {
+  outline: 2px solid var(--teal-bright);
+  outline-offset: 3px;
+}
+
+.product-heading {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+  margin: 0 0 1rem;
+}
+
+.product-heading > div {
+  min-width: 0;
+}
+
+.product-page .product-heading h1,
+.help-page .product-heading h1 {
+  margin: 0;
+}
+
+.product-heading .app-short,
+.product-heading .help-kicker {
+  margin: 0.15rem 0 0;
+}
+
 .store-title {
   margin: -0.35rem 0 1rem;
   color: var(--teal);
