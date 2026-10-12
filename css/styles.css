@@ -459,8 +459,7 @@ a:hover {
   color: var(--ink);
 }
 
-#iqfleetsync,
-#app-policies {
+#iqfleetsync {
   scroll-margin-top: 5.5rem;
 }
 

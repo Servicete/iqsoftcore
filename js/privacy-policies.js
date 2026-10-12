@@ -6,7 +6,7 @@ const PRIVACY_POLICIES = {
   company: {
     fi: {
       metaTitle: "IQSoftCore – Tietosuojakäytäntö",
-      metaDescription: "IQSoftCoren yritystason tietosuojakäytäntö ja sovelluskohtaiset lausekkeet.",
+      metaDescription: "IQSoftCoren yritystason tietosuojakäytäntö.",
       title: "Tietosuojakäytäntö",
       updated: "Viimeksi päivitetty: 2026-10-05",
       sections: [
@@ -27,7 +27,7 @@ const PRIVACY_POLICIES = {
         {
           heading: "3. Sovellukset",
           paragraphs: [
-            "iqWorkLog ja osa muista sovelluksista on suunniteltu niin, että data säilyy käyttäjän omalla laitteella. iqFleetSync on verkkopalvelu, ja sen tiedot kuvataan alla. Sovelluskohtaiset lausekkeet löytyvät myös alempaa.",
+            "iqWorkLog ja osa muista sovelluksista on suunniteltu niin, että data säilyy käyttäjän omalla laitteella. iqFleetSync on verkkopalvelu. Kunkin sovelluksen tietosuoja on kyseisen sovelluksen sivulla.",
           ],
         },
         {
@@ -42,14 +42,11 @@ const PRIVACY_POLICIES = {
           ],
         },
       ],
-      appsHeading: "Sovelluskohtaiset tietosuojalausekkeet",
-      appsIntro: "Yrityksen yleinen tietosuojakäytäntö on tällä sivulla. Kunkin sovelluksen tietosuoja on omassa kohdassaan:",
-      apps: [{ id: "tuntilappu", href: "privacy-tuntilappu.html", blurb: "Paikallinen tuntikirjaus-sovellus (Google Play)." }, { id: "iqfleetsync", href: "#iqfleetsync", name: "iqFleetSync", blurb: "Verkkopalvelu kaluston huoltoon. Seloste on tällä sivulla." }],
       backHome: "Takaisin etusivulle",
     },
     en: {
       metaTitle: "IQSoftCore – Privacy Policy",
-      metaDescription: "IQSoftCore company privacy policy and app-specific statements.",
+      metaDescription: "IQSoftCore company privacy policy.",
       title: "Privacy Policy",
       updated: "Last updated: 2026-10-05",
       sections: [
@@ -70,7 +67,7 @@ const PRIVACY_POLICIES = {
         {
           heading: "3. Applications",
           paragraphs: [
-            "iqWorkLog and some other apps are designed so that data stays on the user’s own device. iqFleetSync is a web service, and its data is described below. App-specific statements are also listed further down.",
+            "iqWorkLog and some other apps are designed so that data stays on the user’s own device. iqFleetSync is a web service. Each app’s privacy policy is on that app’s page.",
           ],
         },
         {
@@ -85,14 +82,11 @@ const PRIVACY_POLICIES = {
           ],
         },
       ],
-      appsHeading: "App-specific privacy policies",
-      appsIntro: "The company’s general privacy policy is on this page. Each app’s privacy policy is in its own section:",
-      apps: [{ id: "tuntilappu", href: "privacy-tuntilappu.html", blurb: "Local time-tracking app (Google Play)." }, { id: "iqfleetsync", href: "#iqfleetsync", name: "iqFleetSync", blurb: "Web service for fleet maintenance. The notice is on this page." }],
       backHome: "Back to home",
     },
     sv: {
       metaTitle: "IQSoftCore – Integritetspolicy",
-      metaDescription: "IQSoftCores företagsnivå-integritetspolicy och app-specifika villkor.",
+      metaDescription: "IQSoftCores företagsnivå-integritetspolicy.",
       title: "Integritetspolicy",
       updated: "Senast uppdaterad: 2026-10-05",
       sections: [
@@ -113,7 +107,7 @@ const PRIVACY_POLICIES = {
         {
           heading: "3. Appar",
           paragraphs: [
-            "iqWorkLog och en del andra appar är utformade så att data stannar på användarens egen enhet. iqFleetSync är en webbtjänst, och dess uppgifter beskrivs nedan. App-specifika texter finns också längre ner.",
+            "iqWorkLog och en del andra appar är utformade så att data stannar på användarens egen enhet. iqFleetSync är en webbtjänst. Varje apps integritetspolicy finns på appens egen sida.",
           ],
         },
         {
@@ -128,14 +122,11 @@ const PRIVACY_POLICIES = {
           ],
         },
       ],
-      appsHeading: "App-specifika integritetspolicys",
-      appsIntro: "Företagets allmänna integritetspolicy finns på den här sidan. Varje apps integritetspolicy har en egen del:",
-      apps: [{ id: "tuntilappu", href: "privacy-tuntilappu.html", blurb: "Lokal tidrapporteringsapp (Google Play)." }, { id: "iqfleetsync", href: "#iqfleetsync", name: "iqFleetSync", blurb: "Webbtjänst för fordonsunderhåll. Texten finns på den här sidan." }],
       backHome: "Tillbaka till startsidan",
     },
     no: {
       metaTitle: "IQSoftCore – Personvernerklæring",
-      metaDescription: "IQSoftCores personvernerklæring på bedriftsnivå og app-spesifikke erklæringer.",
+      metaDescription: "IQSoftCores personvernerklæring på bedriftsnivå.",
       title: "Personvernerklæring",
       updated: "Sist oppdatert: 2026-10-05",
       sections: [
@@ -156,7 +147,7 @@ const PRIVACY_POLICIES = {
         {
           heading: "3. Apper",
           paragraphs: [
-            "iqWorkLog og noen andre apper er laget slik at data blir på brukerens egen enhet. iqFleetSync er en nettjeneste, og opplysningene om den står nedenfor. App-spesifikke tekster finnes også lenger ned.",
+            "iqWorkLog og noen andre apper er laget slik at data blir på brukerens egen enhet. iqFleetSync er en nettjeneste. Hver apps personvern er på appens egen side.",
           ],
         },
         {
@@ -171,14 +162,11 @@ const PRIVACY_POLICIES = {
           ],
         },
       ],
-      appsHeading: "App-spesifikke personvernerklæringer",
-      appsIntro: "Bedriftens generelle personvernerklæring er på denne siden. Hver apps personvern har et eget avsnitt:",
-      apps: [{ id: "tuntilappu", href: "privacy-tuntilappu.html", blurb: "Lokal timeføringsapp (Google Play)." }, { id: "iqfleetsync", href: "#iqfleetsync", name: "iqFleetSync", blurb: "Nettjeneste for vedlikehold av kjøretøy. Erklæringen er på denne siden." }],
       backHome: "Tilbake til forsiden",
     },
     da: {
       metaTitle: "IQSoftCore – Privatlivspolitik",
-      metaDescription: "IQSoftCores privatlivspolitik på virksomhedsniveau og app-specifikke erklæringer.",
+      metaDescription: "IQSoftCores privatlivspolitik på virksomhedsniveau.",
       title: "Privatlivspolitik",
       updated: "Senest opdateret: 2026-10-05",
       sections: [
@@ -199,7 +187,7 @@ const PRIVACY_POLICIES = {
         {
           heading: "3. Apps",
           paragraphs: [
-            "iqWorkLog og nogle andre apps er designet, så data forbliver på brugerens egen enhed. iqFleetSync er en webtjeneste, og dens oplysninger beskrives nedenfor. App-specifikke tekster findes også længere nede.",
+            "iqWorkLog og nogle andre apps er designet, så data forbliver på brugerens egen enhed. iqFleetSync er en webtjeneste. Hver apps privatlivspolitik er på appens egen side.",
           ],
         },
         {
@@ -214,14 +202,11 @@ const PRIVACY_POLICIES = {
           ],
         },
       ],
-      appsHeading: "App-specifikke privatlivspolitikker",
-      appsIntro: "Virksomhedens generelle privatlivspolitik er på denne side. Hver apps privatlivspolitik har sit eget afsnit:",
-      apps: [{ id: "tuntilappu", href: "privacy-tuntilappu.html", blurb: "Lokal timeregistreringsapp (Google Play)." }, { id: "iqfleetsync", href: "#iqfleetsync", name: "iqFleetSync", blurb: "Webtjeneste til vedligeholdelse af køretøjer. Teksten er på denne side." }],
       backHome: "Tilbage til forsiden",
     },
     de: {
       metaTitle: "IQSoftCore – Datenschutzerklärung",
-      metaDescription: "Unternehmensbezogene Datenschutzerklärung von IQSoftCore und app-spezifische Hinweise.",
+      metaDescription: "Unternehmensbezogene Datenschutzerklärung von IQSoftCore.",
       title: "Datenschutzerklärung",
       updated: "Zuletzt aktualisiert: 2026-10-05",
       sections: [
@@ -242,7 +227,7 @@ const PRIVACY_POLICIES = {
         {
           heading: "3. Apps",
           paragraphs: [
-            "iqWorkLog und einige andere Apps sind so gestaltet, dass Daten auf dem Gerät des Nutzers bleiben. iqFleetSync ist ein Webdienst, und seine Daten werden unten beschrieben. App-spezifische Texte stehen auch weiter unten.",
+            "iqWorkLog und einige andere Apps sind so gestaltet, dass Daten auf dem Gerät des Nutzers bleiben. iqFleetSync ist ein Webdienst. Die Datenschutzerklärung jeder App steht auf der Seite der App.",
           ],
         },
         {
@@ -257,14 +242,11 @@ const PRIVACY_POLICIES = {
           ],
         },
       ],
-      appsHeading: "App-spezifische Datenschutzerklärungen",
-      appsIntro: "Die allgemeine Datenschutzerklärung des Unternehmens steht auf dieser Seite. Die Datenschutzerklärung jeder App hat einen eigenen Abschnitt:",
-      apps: [{ id: "tuntilappu", href: "privacy-tuntilappu.html", blurb: "Lokale Zeiterfassungs-App (Google Play)." }, { id: "iqfleetsync", href: "#iqfleetsync", name: "iqFleetSync", blurb: "Webdienst für die Wartung von Fahrzeugen. Die Erklärung steht auf dieser Seite." }],
       backHome: "Zurück zur Startseite",
     },
     es: {
       metaTitle: "IQSoftCore – Política de privacidad",
-      metaDescription: "Política de privacidad corporativa de IQSoftCore y declaraciones por aplicación.",
+      metaDescription: "Política de privacidad corporativa de IQSoftCore.",
       title: "Política de privacidad",
       updated: "Última actualización: 2026-10-05",
       sections: [
@@ -285,7 +267,7 @@ const PRIVACY_POLICIES = {
         {
           heading: "3. Aplicaciones",
           paragraphs: [
-            "iqWorkLog y algunas otras apps están diseñadas para que los datos permanezcan en el dispositivo del usuario. iqFleetSync es un servicio web, y sus datos se describen abajo. Los textos de cada app están también más abajo.",
+            "iqWorkLog y algunas otras apps están diseñadas para que los datos permanezcan en el dispositivo del usuario. iqFleetSync es un servicio web. La política de privacidad de cada app está en la página de esa app.",
           ],
         },
         {
@@ -300,14 +282,11 @@ const PRIVACY_POLICIES = {
           ],
         },
       ],
-      appsHeading: "Políticas de privacidad por aplicación",
-      appsIntro: "La política de privacidad general de la empresa está en esta página. La política de cada aplicación tiene su propia sección:",
-      apps: [{ id: "tuntilappu", href: "privacy-tuntilappu.html", blurb: "App local de registro de horas (Google Play)." }, { id: "iqfleetsync", href: "#iqfleetsync", name: "iqFleetSync", blurb: "Servicio web para el mantenimiento de la flota. El aviso está en esta página." }],
       backHome: "Volver al inicio",
     },
     it: {
       metaTitle: "IQSoftCore – Informativa sulla privacy",
-      metaDescription: "Informativa privacy aziendale di IQSoftCore e dichiarazioni per applicazione.",
+      metaDescription: "Informativa privacy aziendale di IQSoftCore.",
       title: "Informativa sulla privacy",
       updated: "Ultimo aggiornamento: 2026-10-05",
       sections: [
@@ -328,7 +307,7 @@ const PRIVACY_POLICIES = {
         {
           heading: "3. Applicazioni",
           paragraphs: [
-            "iqWorkLog e alcune altre app sono progettate affinché i dati restino sul dispositivo dell’utente. iqFleetSync è un servizio web e i suoi dati sono descritti sotto. I testi di ogni app sono anche più in basso.",
+            "iqWorkLog e alcune altre app sono progettate affinché i dati restino sul dispositivo dell’utente. iqFleetSync è un servizio web. L’informativa privacy di ogni app è nella pagina di quell’app.",
           ],
         },
         {
@@ -343,14 +322,11 @@ const PRIVACY_POLICIES = {
           ],
         },
       ],
-      appsHeading: "Informative privacy per applicazione",
-      appsIntro: "L’informativa privacy generale dell’azienda è in questa pagina. L’informativa di ogni app ha una sezione propria:",
-      apps: [{ id: "tuntilappu", href: "privacy-tuntilappu.html", blurb: "App locale di registrazione ore (Google Play)." }, { id: "iqfleetsync", href: "#iqfleetsync", name: "iqFleetSync", blurb: "Servizio web per la manutenzione della flotta. L’informativa è in questa pagina." }],
       backHome: "Torna alla home",
     },
     ja: {
       metaTitle: "IQSoftCore – プライバシーポリシー",
-      metaDescription: "IQSoftCoreの企業向けプライバシーポリシーとアプリ別方針。",
+      metaDescription: "IQSoftCoreの企業向けプライバシーポリシー。",
       title: "プライバシーポリシー",
       updated: "最終更新日: 2026-10-05",
       sections: [
@@ -371,7 +347,7 @@ const PRIVACY_POLICIES = {
         {
           heading: "3. アプリケーション",
           paragraphs: [
-            "iqWorkLog と一部のアプリは、データがユーザー自身の端末に残るよう設計されています。iqFleetSync はウェブサービスで、そのデータは下に記載します。アプリごとの文言も下にあります。",
+            "iqWorkLog と一部のアプリは、データがユーザー自身の端末に残るよう設計されています。iqFleetSync はウェブサービスです。各アプリのプライバシーポリシーは、そのアプリのページにあります。",
           ],
         },
         {
@@ -386,14 +362,11 @@ const PRIVACY_POLICIES = {
           ],
         },
       ],
-      appsHeading: "アプリ別プライバシーポリシー",
-      appsIntro: "会社の一般的なプライバシーポリシーはこのページにあります。各アプリのプライバシーポリシーはそれぞれの節にあります。",
-      apps: [{ id: "tuntilappu", href: "privacy-tuntilappu.html", blurb: "端末内の勤怠記録アプリ（Google Play）。" }, { id: "iqfleetsync", href: "#iqfleetsync", name: "iqFleetSync", blurb: "車両整備のためのウェブサービス。通知はこのページにあります。" }],
       backHome: "ホームに戻る",
     },
     ko: {
       metaTitle: "IQSoftCore – 개인정보 처리방침",
-      metaDescription: "IQSoftCore 기업 수준 개인정보 처리방침 및 앱별 방침.",
+      metaDescription: "IQSoftCore 기업 수준 개인정보 처리방침.",
       title: "개인정보 처리방침",
       updated: "최종 업데이트: 2026-10-05",
       sections: [
@@ -414,7 +387,7 @@ const PRIVACY_POLICIES = {
         {
           heading: "3. 애플리케이션",
           paragraphs: [
-            "iqWorkLog와 일부 앱은 데이터가 사용자 기기에 남도록 설계되어 있습니다. iqFleetSync는 웹 서비스이며, 그 데이터는 아래에 설명합니다. 앱별 문구도 아래에 있습니다.",
+            "iqWorkLog와 일부 앱은 데이터가 사용자 기기에 남도록 설계되어 있습니다. iqFleetSync는 웹 서비스입니다. 각 앱의 개인정보 처리방침은 해당 앱 페이지에 있습니다.",
           ],
         },
         {
@@ -429,14 +402,11 @@ const PRIVACY_POLICIES = {
           ],
         },
       ],
-      appsHeading: "앱별 개인정보 처리방침",
-      appsIntro: "회사의 일반 개인정보 처리방침은 이 페이지에 있습니다. 각 앱의 개인정보 처리방침은 해당 절에 있습니다.",
-      apps: [{ id: "tuntilappu", href: "privacy-tuntilappu.html", blurb: "로컬 근무시간 기록 앱(Google Play)." }, { id: "iqfleetsync", href: "#iqfleetsync", name: "iqFleetSync", blurb: "차량 정비를 위한 웹 서비스. 안내는 이 페이지에 있습니다." }],
       backHome: "홈으로 돌아가기",
     },
     fr: {
       metaTitle: "IQSoftCore – Politique de confidentialité",
-      metaDescription: "Politique de confidentialité d’IQSoftCore et déclarations par application.",
+      metaDescription: "Politique de confidentialité d’IQSoftCore.",
       title: "Politique de confidentialité",
       updated: "Dernière mise à jour : 2026-10-05",
       sections: [
@@ -457,7 +427,7 @@ const PRIVACY_POLICIES = {
         {
           heading: "3. Applications",
           paragraphs: [
-            "iqWorkLog et certaines autres applications sont conçues pour que les données restent sur l’appareil de l’utilisateur. iqFleetSync est un service web, et ses données sont décrites ci-dessous. Les textes propres à chaque application figurent aussi plus bas.",
+            "iqWorkLog et certaines autres applications sont conçues pour que les données restent sur l’appareil de l’utilisateur. iqFleetSync est un service web. La politique de confidentialité de chaque application est sur la page de cette application.",
           ],
         },
         {
@@ -472,14 +442,11 @@ const PRIVACY_POLICIES = {
           ],
         },
       ],
-      appsHeading: "Politiques de confidentialité par application",
-      appsIntro: "La politique de confidentialité générale de l’entreprise est sur cette page. Celle de chaque application a sa propre section :",
-      apps: [{ id: "tuntilappu", href: "privacy-tuntilappu.html", blurb: "Application locale de suivi du temps (Google Play)." }, { id: "iqfleetsync", href: "#iqfleetsync", name: "iqFleetSync", blurb: "Service web pour l’entretien de la flotte. La notice est sur cette page." }],
       backHome: "Retour à l’accueil",
     },
     pt: {
       metaTitle: "IQSoftCore – Política de Privacidade",
-      metaDescription: "Política de privacidade da IQSoftCore e declarações por aplicativo.",
+      metaDescription: "Política de privacidade da IQSoftCore.",
       title: "Política de Privacidade",
       updated: "Última atualização: 2026-10-05",
       sections: [
@@ -500,7 +467,7 @@ const PRIVACY_POLICIES = {
         {
           heading: "3. Aplicativos",
           paragraphs: [
-            "O iqWorkLog e alguns outros apps são projetados para que os dados permaneçam no dispositivo do usuário. O iqFleetSync é um serviço web, e os dados dele são descritos abaixo. Os textos de cada app também estão mais abaixo.",
+            "O iqWorkLog e alguns outros apps são projetados para que os dados permaneçam no dispositivo do usuário. O iqFleetSync é um serviço web. A política de privacidade de cada app está na página desse app.",
           ],
         },
         {
@@ -515,14 +482,11 @@ const PRIVACY_POLICIES = {
           ],
         },
       ],
-      appsHeading: "Políticas de privacidade por aplicativo",
-      appsIntro: "A política de privacidade geral da empresa está nesta página. A política de cada aplicativo tem a sua seção:",
-      apps: [{ id: "tuntilappu", href: "privacy-tuntilappu.html", blurb: "App local de registro de horas (Google Play)." }, { id: "iqfleetsync", href: "#iqfleetsync", name: "iqFleetSync", blurb: "Serviço web para a manutenção da frota. O aviso está nesta página." }],
       backHome: "Voltar ao início",
     },
     nl: {
       metaTitle: "IQSoftCore – Privacybeleid",
-      metaDescription: "Bedrijfsprivacybeleid van IQSoftCore en app-specifieke verklaringen.",
+      metaDescription: "Bedrijfsprivacybeleid van IQSoftCore.",
       title: "Privacybeleid",
       updated: "Laatst bijgewerkt: 2026-10-05",
       sections: [
@@ -543,7 +507,7 @@ const PRIVACY_POLICIES = {
         {
           heading: "3. Apps",
           paragraphs: [
-            "iqWorkLog en sommige andere apps zijn zo ontworpen dat data op het apparaat van de gebruiker blijft. iqFleetSync is een webdienst, en de gegevens daarvan staan hieronder. App-specifieke teksten staan ook verderop.",
+            "iqWorkLog en sommige andere apps zijn zo ontworpen dat data op het apparaat van de gebruiker blijft. iqFleetSync is een webdienst. Het privacybeleid van elke app staat op de pagina van die app.",
           ],
         },
         {
@@ -558,14 +522,11 @@ const PRIVACY_POLICIES = {
           ],
         },
       ],
-      appsHeading: "App-specifieke privacyverklaringen",
-      appsIntro: "Het algemene privacybeleid van het bedrijf staat op deze pagina. Het privacybeleid van elke app heeft een eigen onderdeel:",
-      apps: [{ id: "tuntilappu", href: "privacy-tuntilappu.html", blurb: "Lokale urenregistratie-app (Google Play)." }, { id: "iqfleetsync", href: "#iqfleetsync", name: "iqFleetSync", blurb: "Webdienst voor onderhoud van het wagenpark. De verklaring staat op deze pagina." }],
       backHome: "Terug naar home",
     },
     pl: {
       metaTitle: "IQSoftCore – Polityka prywatności",
-      metaDescription: "Firmowa polityka prywatności IQSoftCore oraz oświadczenia dla aplikacji.",
+      metaDescription: "Firmowa polityka prywatności IQSoftCore.",
       title: "Polityka prywatności",
       updated: "Ostatnia aktualizacja: 2026-10-05",
       sections: [
@@ -586,7 +547,7 @@ const PRIVACY_POLICIES = {
         {
           heading: "3. Aplikacje",
           paragraphs: [
-            "iqWorkLog i część innych aplikacji jest zaprojektowana tak, aby dane pozostawały na urządzeniu użytkownika. iqFleetSync jest usługą internetową, a jej dane opisano poniżej. Teksty poszczególnych aplikacji są też niżej.",
+            "iqWorkLog i część innych aplikacji jest zaprojektowana tak, aby dane pozostawały na urządzeniu użytkownika. iqFleetSync jest usługą internetową. Polityka prywatności każdej aplikacji jest na stronie tej aplikacji.",
           ],
         },
         {
@@ -601,14 +562,11 @@ const PRIVACY_POLICIES = {
           ],
         },
       ],
-      appsHeading: "Polityki prywatności aplikacji",
-      appsIntro: "Ogólna polityka prywatności firmy jest na tej stronie. Polityka każdej aplikacji ma własną sekcję:",
-      apps: [{ id: "tuntilappu", href: "privacy-tuntilappu.html", blurb: "Lokalna aplikacja ewidencji czasu pracy (Google Play)." }, { id: "iqfleetsync", href: "#iqfleetsync", name: "iqFleetSync", blurb: "Usługa internetowa do serwisu floty. Informacja jest na tej stronie." }],
       backHome: "Powrót do strony głównej",
     },
     cs: {
       metaTitle: "IQSoftCore – Zásady ochrany osobních údajů",
-      metaDescription: "Firemní zásady ochrany osobních údajů IQSoftCore a prohlášení pro aplikace.",
+      metaDescription: "Firemní zásady ochrany osobních údajů IQSoftCore.",
       title: "Zásady ochrany osobních údajů",
       updated: "Naposledy aktualizováno: 2026-10-05",
       sections: [
@@ -629,7 +587,7 @@ const PRIVACY_POLICIES = {
         {
           heading: "3. Aplikace",
           paragraphs: [
-            "iqWorkLog a některé další aplikace jsou navrženy tak, aby data zůstala na zařízení uživatele. iqFleetSync je webová služba a její údaje jsou popsány níže. Texty jednotlivých aplikací jsou také níže.",
+            "iqWorkLog a některé další aplikace jsou navrženy tak, aby data zůstala na zařízení uživatele. iqFleetSync je webová služba. Zásady každé aplikace jsou na stránce dané aplikace.",
           ],
         },
         {
@@ -644,14 +602,11 @@ const PRIVACY_POLICIES = {
           ],
         },
       ],
-      appsHeading: "Zásady pro jednotlivé aplikace",
-      appsIntro: "Obecné zásady ochrany soukromí společnosti jsou na této stránce. Zásady každé aplikace mají vlastní oddíl:",
-      apps: [{ id: "tuntilappu", href: "privacy-tuntilappu.html", blurb: "Lokální aplikace evidence pracovní doby (Google Play)." }, { id: "iqfleetsync", href: "#iqfleetsync", name: "iqFleetSync", blurb: "Webová služba pro údržbu vozového parku. Prohlášení je na této stránce." }],
       backHome: "Zpět na úvod",
     },
     zh: {
       metaTitle: "IQSoftCore – 隐私政策",
-      metaDescription: "IQSoftCore 公司级隐私政策及应用专属声明。",
+      metaDescription: "IQSoftCore 公司级隐私政策。",
       title: "隐私政策",
       updated: "最近更新：2026-10-05",
       sections: [
@@ -672,7 +627,7 @@ const PRIVACY_POLICIES = {
         {
           heading: "3. 应用程序",
           paragraphs: [
-            "iqWorkLog 和部分其他应用的设计使数据保留在用户自己的设备上。iqFleetSync 是网络服务，其数据在下面说明。各应用的文字也列在后面。",
+            "iqWorkLog 和部分其他应用的设计使数据保留在用户自己的设备上。iqFleetSync 是网络服务。每个应用的隐私政策在该应用的页面上。",
           ],
         },
         {
@@ -687,9 +642,6 @@ const PRIVACY_POLICIES = {
           ],
         },
       ],
-      appsHeading: "应用专属隐私政策",
-      appsIntro: "公司的一般隐私政策在本页。每个应用的隐私政策在各自的部分：",
-      apps: [{ id: "tuntilappu", href: "privacy-tuntilappu.html", blurb: "本地工时记录应用（Google Play）。" }, { id: "iqfleetsync", href: "#iqfleetsync", name: "iqFleetSync", blurb: "用于车队保养的网络服务。说明在本页。" }],
       backHome: "返回首页",
     },
   },
@@ -701,11 +653,6 @@ function escapeHtml(value) {
     .replace(/</g, "&lt;")
     .replace(/>/g, "&gt;")
     .replace(/"/g, "&quot;");
-}
-
-function resolveAppDisplayName(app) {
-  if (app.id === "tuntilappu") return "iqWorkLog";
-  return app.name || "";
 }
 
 function fillAppPlaceholders(text, appName) {
@@ -756,23 +703,6 @@ function renderPolicySections(sections, appName, lang) {
     .join("");
 }
 
-function renderAppPolicyHub(policy) {
-  const apps = policy.apps || [];
-  if (!policy.appsHeading || !apps.length) return "";
-  let html = `<section class="policy-section policy-apps policy-hub" id="app-policies">`;
-  html += `<h2>${escapeHtml(policy.appsHeading)}</h2>`;
-  if (policy.appsIntro) html += `<p>${escapeHtml(policy.appsIntro)}</p>`;
-  html += `<ul class="policy-app-list">`;
-  apps.forEach((app) => {
-    const name = resolveAppDisplayName(app);
-    html += `<li><a href="${escapeHtml(app.href)}">${escapeHtml(name)}</a>`;
-    if (app.blurb) html += ` — ${escapeHtml(app.blurb)}`;
-    html += `</li>`;
-  });
-  html += `</ul></section>`;
-  return html;
-}
-
 function renderPrivacyPolicy(lang) {
   const root = document.getElementById("policy-root");
   if (!root || typeof PRIVACY_POLICIES === "undefined") return;
@@ -798,21 +728,12 @@ function renderPrivacyPolicy(lang) {
     metaDesc.setAttribute("content", metaDescription);
   }
 
-  const sections = policy.sections || [];
-  const general = [];
-  const fleet = [];
-  sections.forEach((section) => {
-    if (policyId === "company" && section.id === "iqfleetsync") fleet.push(section);
-    else general.push(section);
-  });
+  const showFleetNotice = policyId === "company" && window.location.hash === "#iqfleetsync";
+  const sections = (policy.sections || []).filter((section) => showFleetNotice || section.id !== "iqfleetsync");
 
   let html = `<h1>${escapeHtml(title)}</h1>`;
   html += `<p class="policy-updated">${escapeHtml(policy.updated)}</p>`;
-  html += renderPolicySections(general, appName, lang);
-  if (policyId === "company") {
-    html += renderAppPolicyHub(policy);
-    html += renderPolicySections(fleet, appName, lang);
-  }
+  html += renderPolicySections(sections, appName, lang);
 
   html += `<p class="policy-nav">`;
   if (policy.backCompany) {

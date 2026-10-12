@@ -1045,6 +1045,7 @@ function renderFleetSyncPage(lang) {
       <a class="btn btn-primary" href="https://fleetsync.iqsoftcore.fi/rekisteroidy">${escapeFleetHtml(page.cta)}</a>
       <a class="btn btn-ghost" href="https://fleetsync.iqsoftcore.fi/login">${escapeFleetHtml(page.login)}</a>
       <a class="btn btn-ghost" href="index.html#contact">${escapeFleetHtml(page.contact)}</a>
+      <a class="btn btn-ghost" href="privacy.html#iqfleetsync">${escapeFleetHtml(page.privacy)}</a>
     </div>
     <h2>${escapeFleetHtml(page.faqHeading)}</h2>
     ${faq}
