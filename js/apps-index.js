@@ -4,208 +4,208 @@
 const APPS_INDEX = {
   fi: {
     metaTitle: "Sovellukset ja ohjelmistot | IQSoftCore",
-    metaDescription: "IQSoftCoren sovellukset: Tuntilappu, iqFleetSync ja iqRallyNote.",
+    metaDescription: "IQSoftCoren sovellukset: iqWorkLog, iqFleetSync ja iqRallyNote.",
     title: "Sovellukset ja ohjelmistot",
     intro: "Tässä ovat IQSoftCoren sovellukset ja ohjelmistot. Avaa nimi, niin näet kyseisen tuotteen sivun.",
     openPage: "Avaa sivu",
     help: "Ohjekeskus",
     products: [
-      ["tuntilappu.html", "Tuntilappu", "Yksinkertainen ja ammattimainen työajanseuranta. Luo PDF-raportit hetkessä."],
+      ["tuntilappu.html", "iqWorkLog", "Android-sovellus työajanseurantaan. 14 päivän ilmainen kokeilu, sen jälkeen kertamaksu. Yli 70 kieltä. Entinen Tuntilappu."],
       ["iqfleetsync.html", "iqFleetSync", "Yrityksen, huollon ja kuljettajien yhteinen paikka huoltoihin ja korjauksiin. Selaimessa, ei asennusta. 30 päivän kokeilu."],
       ["iqrallynote.html", "iqRallyNote", "Rallinuotteihin tarkoitettu tablettisovellus. Sisältö säilyy käyttäjän laitteella."],
     ],
   },
   en: {
     metaTitle: "Apps and software | IQSoftCore",
-    metaDescription: "IQSoftCore apps: Tuntilappu, iqFleetSync, and iqRallyNote.",
+    metaDescription: "IQSoftCore apps: iqWorkLog, iqFleetSync, and iqRallyNote.",
     title: "Apps and software",
     intro: "These are IQSoftCore’s applications and software. Open a name to see that product’s page.",
     openPage: "Open page",
     help: "Help center",
     products: [
-      ["tuntilappu.html", "Tuntilappu", "Simple and professional timesheet manager. Generate PDF reports in seconds."],
+      ["tuntilappu.html", "iqWorkLog", "Android timesheet app. A 14-day free trial, then a one-time purchase. 70+ languages. Formerly Tuntilappu."],
       ["iqfleetsync.html", "iqFleetSync", "One place for the company, maintenance and drivers to keep services and repairs up to date. In the browser, nothing to install. 30-day trial."],
       ["iqrallynote.html", "iqRallyNote", "A tablet app for rally pace notes. Content stays on the user’s device."],
     ],
   },
   sv: {
     metaTitle: "Appar och programvara | IQSoftCore",
-    metaDescription: "IQSoftCores appar: Tuntilappu, iqFleetSync och iqRallyNote.",
+    metaDescription: "IQSoftCores appar: iqWorkLog, iqFleetSync och iqRallyNote.",
     title: "Appar och programvara",
     intro: "Här är IQSoftCores appar och program. Öppna ett namn för att se produktens egen sida.",
     openPage: "Öppna sidan",
     help: "Hjälpcenter",
     products: [
-      ["tuntilappu.html", "Tuntilappu", "Enkel och professionell tidrapportering. Skapa PDF-rapporter på några sekunder."],
+      ["tuntilappu.html", "iqWorkLog", "Android-app för tidrapportering. 14 dagars gratis prov, sedan ett engångsköp. Över 70 språk. Tidigare Tuntilappu."],
       ["iqfleetsync.html", "iqFleetSync", "En gemensam plats för företaget, underhållet och förarna. Service och reparationer hålls aktuella. I webbläsaren, inget att installera. 30 dagars prov."],
       ["iqrallynote.html", "iqRallyNote", "Surfplatteapp för rallyanteckningar. Innehållet stannar på användarens enhet."],
     ],
   },
   no: {
     metaTitle: "Apper og programvare | IQSoftCore",
-    metaDescription: "IQSoftCores apper: Tuntilappu, iqFleetSync og iqRallyNote.",
+    metaDescription: "IQSoftCores apper: iqWorkLog, iqFleetSync og iqRallyNote.",
     title: "Apper og programvare",
     intro: "Her er IQSoftCores apper og programmer. Åpne et navn for å se produktets egen side.",
     openPage: "Åpne siden",
     help: "Hjelpesenter",
     products: [
-      ["tuntilappu.html", "Tuntilappu", "Enkel og profesjonell timeføring. Lag PDF-rapporter på sekunder."],
+      ["tuntilappu.html", "iqWorkLog", "Android-app for timeføring. 14 dagers gratis prøve, deretter et engangskjøp. Over 70 språk. Tidligere Tuntilappu."],
       ["iqfleetsync.html", "iqFleetSync", "Ett sted for bedriften, vedlikeholdet og sjåførene. Service og reparasjoner holdes oppdatert. I nettleseren, ingenting å installere. 30 dagers prøve."],
       ["iqrallynote.html", "iqRallyNote", "Nettbrettapp for rallynotater. Innholdet blir på brukerens enhet."],
     ],
   },
   da: {
     metaTitle: "Apps og software | IQSoftCore",
-    metaDescription: "IQSoftCores apps: Tuntilappu, iqFleetSync og iqRallyNote.",
+    metaDescription: "IQSoftCores apps: iqWorkLog, iqFleetSync og iqRallyNote.",
     title: "Apps og software",
     intro: "Her er IQSoftCores apps og programmer. Åbn et navn for at se produktets egen side.",
     openPage: "Åbn siden",
     help: "Hjælpecenter",
     products: [
-      ["tuntilappu.html", "Tuntilappu", "Enkel og professionel timeregistrering. Lav PDF-rapporter på sekunder."],
+      ["tuntilappu.html", "iqWorkLog", "Android-app til timeregistrering. 14 dages gratis prøve, derefter et engangskøb. Over 70 sprog. Tidligere Tuntilappu."],
       ["iqfleetsync.html", "iqFleetSync", "Ét sted for virksomheden, vedligeholdet og chaufførerne. Service og reparationer holdes ajour. I browseren, intet at installere. 30 dages prøve."],
       ["iqrallynote.html", "iqRallyNote", "Tabletapp til rallynoter. Indholdet bliver på brugerens enhed."],
     ],
   },
   de: {
     metaTitle: "Apps und Software | IQSoftCore",
-    metaDescription: "IQSoftCore-Apps: Tuntilappu, iqFleetSync und iqRallyNote.",
+    metaDescription: "IQSoftCore-Apps: iqWorkLog, iqFleetSync und iqRallyNote.",
     title: "Apps und Software",
     intro: "Das sind die Anwendungen und die Software von IQSoftCore. Öffnen Sie einen Namen, um die Seite des Produkts zu sehen.",
     openPage: "Seite öffnen",
     help: "Hilfe",
     products: [
-      ["tuntilappu.html", "Tuntilappu", "Einfache und professionelle Zeiterfassung. PDF-Berichte in Sekunden erstellen."],
+      ["tuntilappu.html", "iqWorkLog", "Android-App zur Zeiterfassung. 14 Tage kostenlos testen, danach ein Einmalkauf. Über 70 Sprachen. Früher Tuntilappu."],
       ["iqfleetsync.html", "iqFleetSync", "Ein Ort für Unternehmen, Werkstatt und Fahrer. Wartung und Reparaturen bleiben aktuell. Im Browser, nichts zu installieren. 30 Tage testen."],
       ["iqrallynote.html", "iqRallyNote", "Tablet-App für Rallye-Aufschriebe. Der Inhalt bleibt auf dem Gerät des Nutzers."],
     ],
   },
   nl: {
     metaTitle: "Apps en software | IQSoftCore",
-    metaDescription: "IQSoftCore-apps: Tuntilappu, iqFleetSync en iqRallyNote.",
+    metaDescription: "IQSoftCore-apps: iqWorkLog, iqFleetSync en iqRallyNote.",
     title: "Apps en software",
     intro: "Dit zijn de apps en de software van IQSoftCore. Open een naam om de pagina van dat product te zien.",
     openPage: "Pagina openen",
     help: "Help",
     products: [
-      ["tuntilappu.html", "Tuntilappu", "Eenvoudige en professionele urenregistratie. Maak PDF-rapporten in seconden."],
+      ["tuntilappu.html", "iqWorkLog", "Android-app voor urenregistratie. 14 dagen gratis proberen, daarna een eenmalige aankoop. Meer dan 70 talen. Voorheen Tuntilappu."],
       ["iqfleetsync.html", "iqFleetSync", "Eén plek voor bedrijf, onderhoud en chauffeurs. Onderhoud en reparaties blijven bij. In de browser, niets te installeren. 30 dagen proberen."],
       ["iqrallynote.html", "iqRallyNote", "Tabletapp voor rallynotities. De inhoud blijft op het apparaat van de gebruiker."],
     ],
   },
   fr: {
     metaTitle: "Applications et logiciels | IQSoftCore",
-    metaDescription: "Applications IQSoftCore : Tuntilappu, iqFleetSync et iqRallyNote.",
+    metaDescription: "Applications IQSoftCore : iqWorkLog, iqFleetSync et iqRallyNote.",
     title: "Applications et logiciels",
     intro: "Voici les applications et logiciels d’IQSoftCore. Ouvrez un nom pour voir la page du produit.",
     openPage: "Ouvrir la page",
     help: "Aide",
     products: [
-      ["tuntilappu.html", "Tuntilappu", "Suivi du temps simple et professionnel. Créez des rapports PDF en quelques secondes."],
+      ["tuntilappu.html", "iqWorkLog", "Application Android de suivi du temps. Essai gratuit de 14 jours, puis achat unique. Plus de 70 langues. Anciennement Tuntilappu."],
       ["iqfleetsync.html", "iqFleetSync", "Un endroit commun pour l’entreprise, l’entretien et les conducteurs. Entretiens et réparations restent à jour. Dans le navigateur, rien à installer. Essai de 30 jours."],
       ["iqrallynote.html", "iqRallyNote", "Application tablette pour les notes de rallye. Le contenu reste sur l’appareil de l’utilisateur."],
     ],
   },
   es: {
     metaTitle: "Aplicaciones y software | IQSoftCore",
-    metaDescription: "Aplicaciones de IQSoftCore: Tuntilappu, iqFleetSync e iqRallyNote.",
+    metaDescription: "Aplicaciones de IQSoftCore: iqWorkLog, iqFleetSync e iqRallyNote.",
     title: "Aplicaciones y software",
     intro: "Estas son las aplicaciones y el software de IQSoftCore. Abre un nombre para ver la página de ese producto.",
     openPage: "Abrir la página",
     help: "Ayuda",
     products: [
-      ["tuntilappu.html", "Tuntilappu", "Control de horas simple y profesional. Genera informes PDF en segundos."],
+      ["tuntilappu.html", "iqWorkLog", "App Android de control de horas. Prueba gratis de 14 días y después una compra única. Más de 70 idiomas. Antes Tuntilappu."],
       ["iqfleetsync.html", "iqFleetSync", "Un sitio común para la empresa, el mantenimiento y los conductores. Servicios y reparaciones al día. En el navegador, nada que instalar. Prueba de 30 días."],
       ["iqrallynote.html", "iqRallyNote", "Aplicación de tableta para notas de rally. El contenido permanece en el dispositivo del usuario."],
     ],
   },
   pt: {
     metaTitle: "Aplicativos e software | IQSoftCore",
-    metaDescription: "Aplicativos da IQSoftCore: Tuntilappu, iqFleetSync e iqRallyNote.",
+    metaDescription: "Aplicativos da IQSoftCore: iqWorkLog, iqFleetSync e iqRallyNote.",
     title: "Aplicativos e software",
     intro: "Estes são os aplicativos e o software da IQSoftCore. Abra um nome para ver a página daquele produto.",
     openPage: "Abrir a página",
     help: "Ajuda",
     products: [
-      ["tuntilappu.html", "Tuntilappu", "Controle de horas simples e profissional. Gere relatórios PDF em segundos."],
+      ["tuntilappu.html", "iqWorkLog", "App Android de controle de horas. Teste grátis de 14 dias e depois uma compra única. Mais de 70 idiomas. Antigo Tuntilappu."],
       ["iqfleetsync.html", "iqFleetSync", "Um lugar comum para a empresa, a manutenção e os motoristas. Revisões e reparações em dia. No navegador, nada para instalar. Teste de 30 dias."],
       ["iqrallynote.html", "iqRallyNote", "Aplicativo de tablet para notas de rally. O conteúdo fica no dispositivo do usuário."],
     ],
   },
   it: {
     metaTitle: "App e software | IQSoftCore",
-    metaDescription: "App IQSoftCore: Tuntilappu, iqFleetSync e iqRallyNote.",
+    metaDescription: "App IQSoftCore: iqWorkLog, iqFleetSync e iqRallyNote.",
     title: "App e software",
     intro: "Queste sono le app e il software di IQSoftCore. Apri un nome per vedere la pagina di quel prodotto.",
     openPage: "Apri la pagina",
     help: "Guida",
     products: [
-      ["tuntilappu.html", "Tuntilappu", "Gestione ore semplice e professionale. Genera report PDF in pochi secondi."],
+      ["tuntilappu.html", "iqWorkLog", "App Android per le ore di lavoro. Prova gratuita di 14 giorni, poi un acquisto una tantum. Oltre 70 lingue. Prima Tuntilappu."],
       ["iqfleetsync.html", "iqFleetSync", "Un posto comune per azienda, officina e conducenti. Manutenzioni e riparazioni aggiornate. Nel browser, niente da installare. Prova di 30 giorni."],
       ["iqrallynote.html", "iqRallyNote", "App per tablet per le note di rally. Il contenuto resta sul dispositivo dell’utente."],
     ],
   },
   pl: {
     metaTitle: "Aplikacje i oprogramowanie | IQSoftCore",
-    metaDescription: "Aplikacje IQSoftCore: Tuntilappu, iqFleetSync i iqRallyNote.",
+    metaDescription: "Aplikacje IQSoftCore: iqWorkLog, iqFleetSync i iqRallyNote.",
     title: "Aplikacje i oprogramowanie",
     intro: "To aplikacje i oprogramowanie IQSoftCore. Otwórz nazwę, aby zobaczyć stronę danego produktu.",
     openPage: "Otwórz stronę",
     help: "Pomoc",
     products: [
-      ["tuntilappu.html", "Tuntilappu", "Prosta i profesjonalna ewidencja czasu pracy. Twórz raporty PDF w kilka sekund."],
+      ["tuntilappu.html", "iqWorkLog", "Aplikacja Android do ewidencji czasu pracy. 14 dni bezpłatnie, potem jednorazowy zakup. Ponad 70 języków. Dawniej Tuntilappu."],
       ["iqfleetsync.html", "iqFleetSync", "Wspólne miejsce dla firmy, serwisu i kierowców. Przeglądy i naprawy na bieżąco. W przeglądarce, nic do instalacji. 30 dni próbnie."],
       ["iqrallynote.html", "iqRallyNote", "Aplikacja na tablet do notatek rajdowych. Treść zostaje na urządzeniu użytkownika."],
     ],
   },
   cs: {
     metaTitle: "Aplikace a software | IQSoftCore",
-    metaDescription: "Aplikace IQSoftCore: Tuntilappu, iqFleetSync a iqRallyNote.",
+    metaDescription: "Aplikace IQSoftCore: iqWorkLog, iqFleetSync a iqRallyNote.",
     title: "Aplikace a software",
     intro: "Toto jsou aplikace a software IQSoftCore. Otevřete název a zobrazí se stránka daného produktu.",
     openPage: "Otevřít stránku",
     help: "Nápověda",
     products: [
-      ["tuntilappu.html", "Tuntilappu", "Jednoduchá a profesionální evidence pracovní doby. Vytvořte PDF reporty během sekund."],
+      ["tuntilappu.html", "iqWorkLog", "Androidová aplikace pro evidenci pracovní doby. 14 dní zdarma, pak jednorázový nákup. Více než 70 jazyků. Dříve Tuntilappu."],
       ["iqfleetsync.html", "iqFleetSync", "Společné místo pro firmu, údržbu a řidiče. Servisy a opravy zůstávají aktuální. V prohlížeči, nic k instalaci. 30 dní na zkoušku."],
       ["iqrallynote.html", "iqRallyNote", "Tabletová aplikace pro rallyové zápisy. Obsah zůstává v zařízení uživatele."],
     ],
   },
   ja: {
     metaTitle: "アプリとソフトウェア | IQSoftCore",
-    metaDescription: "IQSoftCoreのアプリ：Tuntilappu、iqFleetSync、iqRallyNote。",
+    metaDescription: "IQSoftCoreのアプリ：iqWorkLog、iqFleetSync、iqRallyNote。",
     title: "アプリとソフトウェア",
     intro: "IQSoftCoreのアプリとソフトウェアです。名前を開くと、その製品のページが表示されます。",
     openPage: "ページを開く",
     help: "ヘルプ",
     products: [
-      ["tuntilappu.html", "Tuntilappu", "シンプルでプロフェッショナルな勤務時間管理。PDFレポートをすぐに作成。"],
+      ["tuntilappu.html", "iqWorkLog", "Androidの勤務時間管理アプリ。14日間の無料試用のあと、買い切り。70以上の言語。旧Tuntilappu。"],
       ["iqfleetsync.html", "iqFleetSync", "会社、整備、ドライバーの共通の場所。点検と修理を最新に。ブラウザで、インストール不要。30日間の試用。"],
       ["iqrallynote.html", "iqRallyNote", "ラリーのペースノート向けタブレットアプリ。内容は利用者の端末に残ります。"],
     ],
   },
   ko: {
     metaTitle: "앱 및 소프트웨어 | IQSoftCore",
-    metaDescription: "IQSoftCore 앱: Tuntilappu, iqFleetSync, iqRallyNote.",
+    metaDescription: "IQSoftCore 앱: iqWorkLog, iqFleetSync, iqRallyNote.",
     title: "앱 및 소프트웨어",
     intro: "IQSoftCore의 앱과 소프트웨어입니다. 이름을 열면 해당 제품 페이지가 나옵니다.",
     openPage: "페이지 열기",
     help: "도움말",
     products: [
-      ["tuntilappu.html", "Tuntilappu", "간단하고 전문적인 근무시간 관리. PDF 보고서를 순식간에 생성."],
+      ["tuntilappu.html", "iqWorkLog", "Android 근무시간 관리 앱. 14일 무료 체험 후 일회성 구매. 70개 이상의 언어. 이전 이름 Tuntilappu."],
       ["iqfleetsync.html", "iqFleetSync", "회사, 정비, 운전자가 함께 쓰는 곳. 점검과 수리를 최신으로. 브라우저에서, 설치 없음. 30일 체험."],
       ["iqrallynote.html", "iqRallyNote", "랠리 페이스노트용 태블릿 앱. 내용은 사용자 기기에 남습니다."],
     ],
   },
   zh: {
     metaTitle: "应用与软件 | IQSoftCore",
-    metaDescription: "IQSoftCore 的应用：Tuntilappu、iqFleetSync 和 iqRallyNote。",
+    metaDescription: "IQSoftCore 的应用：iqWorkLog、iqFleetSync 和 iqRallyNote。",
     title: "应用与软件",
     intro: "这些是 IQSoftCore 的应用和软件。打开名称即可查看该产品的页面。",
     openPage: "打开页面",
     help: "帮助",
     products: [
-      ["tuntilappu.html", "Tuntilappu", "简单专业的工时管理。几秒生成 PDF 报告。"],
+      ["tuntilappu.html", "iqWorkLog", "Android 工时管理应用。14 天免费试用，之后一次性购买。70 多种语言。原名 Tuntilappu。"],
       ["iqfleetsync.html", "iqFleetSync", "公司、维修和驾驶员的共同之处。保养和修理保持最新。在浏览器里，无需安装。30 天试用。"],
       ["iqrallynote.html", "iqRallyNote", "用于拉力赛路书的平板应用。内容保留在用户的设备上。"],
     ],
@@ -231,6 +231,10 @@ function renderAppsPage(lang) {
   const metaDesc = document.querySelector('meta[name="description"]');
   if (metaDesc && page.metaDescription) metaDesc.setAttribute("content", page.metaDescription);
 
+  const productIcons = {
+    "tuntilappu.html": "assets/iqworklog-icon.svg",
+    "iqfleetsync.html": "assets/iqfleetsync-icon.svg",
+  };
   const cards = page.products
     .map(([href, name, blurb]) => {
       const safeHref = escapeAppsIndexHtml(href);
@@ -238,8 +242,9 @@ function renderAppsPage(lang) {
       const helpLink = href === "iqfleetsync.html" && page.help
         ? `<a class="btn btn-ghost" href="ohjekeskus.html">${escapeAppsIndexHtml(page.help)}</a>`
         : "";
-      const icon = href === "iqfleetsync.html"
-        ? `<a class="product-icon-link" href="${safeHref}" tabindex="-1" aria-hidden="true"><img class="product-icon" src="assets/iqfleetsync-icon.svg" width="64" height="64" alt="" /></a>`
+      const iconSrc = productIcons[href];
+      const icon = iconSrc
+        ? `<a class="product-icon-link" href="${safeHref}" tabindex="-1" aria-hidden="true"><img class="product-icon" src="${iconSrc}" width="64" height="64" alt="" /></a>`
         : "";
       return `<article class="product-card">
         ${icon}
