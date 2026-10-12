@@ -43,7 +43,7 @@ const TERMS_PAGE = {
       [
         "4. Hinnat ja arvonlisävero",
         [
-          "Kuluttajalle näytettävä hinta sisältää arvonlisäveron. Jos Tuntilapulle tai iqRallyNotelle julkaistaan hinta, se näytetään arvonlisäverollisena.",
+          "Kuluttajalle näytettävä hinta sisältää arvonlisäveron. iqWorkLog (entinen Tuntilappu) on ilmainen lataus ja sisältää 14 päivän kokeilun. Sen jälkeen käyttö jatkuu kertaluonteisella sovelluksen sisäisellä ostolla Google Playssa. Maksun vastaanottaa sovelluskaupan maksupalvelu. Jos iqRallyNotelle julkaistaan hinta, se näytetään arvonlisäverollisena.",
           "iqFleetSyncin hinnat ovat yritysasiakkaille ja alv 0 %. Arvonlisävero lisätään laskulle voimassa olevan verokannan mukaan. Voimassa oleva [[pricing]] on osa näitä ehtoja.",
           "Yritysasiakkaalle toisessa EU-maassa, jolla on voimassa oleva arvonlisäverotunniste, laskussa käytetään käännettyä verovelvollisuutta, kun se soveltuu.",
           "Kun kuluttaja ostaa toisesta EU-maasta, arvonlisävero veloitetaan asiakkaan maan verokannan mukaan silloin, kun laki sitä edellyttää."
@@ -210,7 +210,7 @@ const TERMS_PAGE = {
       [
         "4. Prices and VAT",
         [
-          "A price shown to a consumer includes VAT. If a price is published for Tuntilappu or iqRallyNote, it is shown including VAT.",
+          "A price shown to a consumer includes VAT. iqWorkLog (formerly Tuntilappu) is a free download and includes a 14-day trial. After that, continued use is a one-time in-app purchase via Google Play. The app store's payment service receives the payment. If a price is published for iqRallyNote, it is shown including VAT.",
           "iqFleetSync prices are for business customers and are VAT 0%. Value added tax is added on the invoice at the rate in force. The current [[pricing]] page is part of these terms.",
           "For a business customer in another EU country with a valid VAT ID, the invoice uses reverse charge where it applies.",
           "When a consumer buys from another EU country, VAT is charged at the rate of the customer’s country where the law requires it."
@@ -377,7 +377,7 @@ const TERMS_PAGE = {
       [
         "4. Priser och moms",
         [
-          "Ett pris som visas för en konsument innehåller moms. Om ett pris publiceras för Tuntilappu eller iqRallyNote visas det inklusive moms.",
+          "Ett pris som visas för en konsument innehåller moms. iqWorkLog (tidigare Tuntilappu) är en gratis nedladdning och innehåller en provperiod på 14 dagar. Därefter fortsätter användningen som ett engångsköp i appen via Google Play. Appbutikens betaltjänst tar emot betalningen. Om ett pris publiceras för iqRallyNote visas det inklusive moms.",
           "Priserna för iqFleetSync gäller företagskunder och är moms 0 %. Mervärdesskatt läggs till på fakturan enligt den gällande skattesatsen. Den gällande sidan [[pricing]] är en del av villkoren.",
           "För en företagskund i ett annat EU-land med ett giltigt momsregistreringsnummer används omvänd skattskyldighet (reverse charge) på fakturan när det gäller.",
           "När en konsument köper från ett annat EU-land tas moms ut enligt kundens lands skattesats när lagen kräver det."
@@ -544,7 +544,7 @@ const TERMS_PAGE = {
       [
         "4. Preise und Umsatzsteuer",
         [
-          "Ein Preis, der einem Verbraucher angezeigt wird, enthält die Umsatzsteuer. Wenn für Tuntilappu oder iqRallyNote ein Preis veröffentlicht wird, wird er inklusive Umsatzsteuer angezeigt.",
+          "Ein Preis, der einem Verbraucher angezeigt wird, enthält die Umsatzsteuer. iqWorkLog (früher Tuntilappu) ist ein kostenloser Download und enthält eine 14-tägige Testphase. Danach ist die weitere Nutzung ein einmaliger In-App-Kauf über Google Play. Der Zahlungsdienst des App-Stores empfängt die Zahlung. Wenn für iqRallyNote ein Preis veröffentlicht wird, wird er inklusive Umsatzsteuer angezeigt.",
           "Die Preise von iqFleetSync gelten für Geschäftskunden und sind MwSt. 0 %. Die Umsatzsteuer wird auf der Rechnung nach dem geltenden Steuersatz hinzugerechnet. Die geltende Seite [[pricing]] ist Teil dieser Bedingungen.",
           "Für einen Geschäftskunden in einem anderen EU-Land mit gültiger USt-IdNr. wird auf der Rechnung das Reverse-Charge-Verfahren (reverse charge) angewendet, soweit es gilt.",
           "Wenn ein Verbraucher aus einem anderen EU-Land kauft, wird die Umsatzsteuer nach dem Satz des Landes des Kunden berechnet, soweit das Gesetz das verlangt."
@@ -711,7 +711,7 @@ const TERMS_PAGE = {
       [
         "4. Priser og mva.",
         [
-          "En pris som vises til en forbruker, inkluderer merverdiavgift. Hvis en pris publiseres for Tuntilappu eller iqRallyNote, vises den inkludert merverdiavgift.",
+          "En pris som vises til en forbruker, inkluderer merverdiavgift. iqWorkLog (tidligere Tuntilappu) er en gratis nedlasting og inkluderer en prøveperiode på 14 dager. Deretter fortsetter bruken som et engangskjøp i appen via Google Play. Appbutikkens betalingstjeneste mottar betalingen. Hvis en pris publiseres for iqRallyNote, vises den inkludert merverdiavgift.",
           "Prisene for iqFleetSync gjelder bedriftskunder og er mva. 0 %. Merverdiavgift legges til på fakturaen etter gjeldende sats. Den gjeldende siden [[pricing]] er en del av vilkårene.",
           "For en bedriftskunde i et annet EU-land med et gyldig MVA-nummer brukes omvendt avgiftsplikt (reverse charge) på fakturaen når det gjelder.",
           "Når en forbruker kjøper fra et annet EU-land, kreves merverdiavgift etter satsen i kundens land når loven krever det."
@@ -878,7 +878,7 @@ const TERMS_PAGE = {
       [
         "4. Priser og moms",
         [
-          "En pris, der vises til en forbruger, indeholder moms. Hvis en pris offentliggøres for Tuntilappu eller iqRallyNote, vises den med moms.",
+          "En pris, der vises til en forbruger, indeholder moms. iqWorkLog (tidligere Tuntilappu) er en gratis download og indeholder en prøveperiode på 14 dage. Derefter fortsætter brugen som et engangskøb i appen via Google Play. Appbutikkens betalingstjeneste modtager betalingen. Hvis en pris offentliggøres for iqRallyNote, vises den med moms.",
           "Priserne for iqFleetSync gælder erhvervskunder og er moms 0 %. Moms lægges til på fakturaen efter den gældende sats. Den gældende side [[pricing]] er en del af vilkårene.",
           "For en erhvervskunde i et andet EU-land med et gyldigt momsnummer bruges omvendt betalingspligt (reverse charge) på fakturaen, når det gælder.",
           "Når en forbruger køber fra et andet EU-land, opkræves moms efter satsen i kundens land, når loven kræver det."
@@ -1045,7 +1045,7 @@ const TERMS_PAGE = {
       [
         "4. Prijzen en btw",
         [
-          "Een prijs die aan een consument wordt getoond, is inclusief btw. Als een prijs voor Tuntilappu of iqRallyNote wordt gepubliceerd, wordt die inclusief btw getoond.",
+          "Een prijs die aan een consument wordt getoond, is inclusief btw. iqWorkLog (voorheen Tuntilappu) is een gratis download en bevat een proefperiode van 14 dagen. Daarna gaat het gebruik verder met een eenmalige aankoop in de app via Google Play. De betaaldienst van de appwinkel ontvangt de betaling. Als een prijs voor iqRallyNote wordt gepubliceerd, wordt die inclusief btw getoond.",
           "De prijzen van iqFleetSync gelden voor zakelijke klanten en zijn btw 0%. Btw wordt op de factuur bijgeteld volgens het geldende tarief. De geldende pagina [[pricing]] hoort bij deze voorwaarden.",
           "Voor een zakelijke klant in een ander EU-land met een geldig btw-nummer geldt op de factuur de verleggingsregeling (reverse charge) waar die van toepassing is.",
           "Als een consument uit een ander EU-land koopt, wordt btw gerekend volgens het tarief van het land van de klant wanneer de wet dat eist."
@@ -1212,7 +1212,7 @@ const TERMS_PAGE = {
       [
         "4. Prix et TVA",
         [
-          "Un prix affiché à un consommateur inclut la TVA. Si un prix est publié pour Tuntilappu ou iqRallyNote, il est affiché TTC.",
+          "Un prix affiché à un consommateur inclut la TVA. iqWorkLog (anciennement Tuntilappu) est un téléchargement gratuit et comprend un essai de 14 jours. Ensuite, la poursuite de l’utilisation est un achat unique intégré via Google Play. Le service de paiement de la boutique d’applications reçoit le paiement. Si un prix est publié pour iqRallyNote, il est affiché TTC.",
           "Les prix d’iqFleetSync concernent les clients professionnels et sont TVA 0 %. La taxe sur la valeur ajoutée est ajoutée sur la facture au taux en vigueur. La page [[pricing]] en vigueur fait partie de ces conditions.",
           "Pour un client professionnel dans un autre pays de l’UE disposant d’un numéro de TVA valide, la facture applique l’autoliquidation (reverse charge) lorsqu’elle s’applique.",
           "Lorsqu’un consommateur achète depuis un autre pays de l’UE, la TVA est facturée au taux du pays du client lorsque la loi l’exige."
@@ -1379,7 +1379,7 @@ const TERMS_PAGE = {
       [
         "4. Precios e IVA",
         [
-          "Un precio mostrado a un consumidor incluye el IVA. Si se publica un precio de Tuntilappu o iqRallyNote, se muestra con IVA incluido.",
+          "Un precio mostrado a un consumidor incluye el IVA. iqWorkLog (antes Tuntilappu) es una descarga gratuita e incluye una prueba de 14 días. Después, el uso continúa con una compra única dentro de la app a través de Google Play. El servicio de pago de la tienda de aplicaciones recibe el pago. Si se publica un precio de iqRallyNote, se muestra con IVA incluido.",
           "Los precios de iqFleetSync son para clientes de empresa y son IVA 0 %. El impuesto sobre el valor añadido se añade en la factura según el tipo vigente. La página vigente [[pricing]] forma parte de estas condiciones.",
           "Para un cliente de empresa en otro país de la UE con un NIF-IVA válido, la factura usa la inversión del sujeto pasivo (reverse charge) cuando corresponde.",
           "Cuando un consumidor compra desde otro país de la UE, el IVA se cobra según el tipo del país del cliente cuando la ley lo exige."
@@ -1546,7 +1546,7 @@ const TERMS_PAGE = {
       [
         "4. Preços e IVA",
         [
-          "Um preço mostrado a um consumidor inclui IVA. Se for publicado um preço do Tuntilappu ou do iqRallyNote, é mostrado com IVA incluído.",
+          "Um preço mostrado a um consumidor inclui IVA. O iqWorkLog (antigo Tuntilappu) é um download gratuito e inclui um teste de 14 dias. Depois, o uso continua com uma compra única no aplicativo via Google Play. O serviço de pagamento da loja de aplicativos recebe o pagamento. Se for publicado um preço do iqRallyNote, é mostrado com IVA incluído.",
           "Os preços do iqFleetSync são para clientes empresariais e são IVA 0%. O imposto sobre o valor acrescentado é acrescentado na fatura à taxa em vigor. A página vigente [[pricing]] faz parte destes termos.",
           "Para um cliente empresarial noutro país da UE com um NIF de IVA válido, a fatura usa a autoliquidação (reverse charge) quando se aplica.",
           "Quando um consumidor compra a partir de outro país da UE, o IVA é cobrado à taxa do país do cliente quando a lei o exige."
@@ -1713,7 +1713,7 @@ const TERMS_PAGE = {
       [
         "4. Prezzi e IVA",
         [
-          "Un prezzo mostrato a un consumatore include l’IVA. Se viene pubblicato un prezzo per Tuntilappu o iqRallyNote, è mostrato IVA inclusa.",
+          "Un prezzo mostrato a un consumatore include l’IVA. iqWorkLog (prima Tuntilappu) è un download gratuito e include una prova di 14 giorni. Poi l’uso continua con un acquisto una tantum nell’app tramite Google Play. Il servizio di pagamento dell’app store riceve il pagamento. Se viene pubblicato un prezzo per iqRallyNote, è mostrato IVA inclusa.",
           "I prezzi di iqFleetSync sono per clienti imprese e sono IVA 0%. L’imposta sul valore aggiunto si aggiunge in fattura all’aliquota in vigore. La pagina vigente [[pricing]] fa parte di queste condizioni.",
           "Per un cliente impresa in un altro paese UE con una partita IVA valida, la fattura usa l’inversione contabile (reverse charge) quando si applica.",
           "Quando un consumatore acquista da un altro paese UE, l’IVA è addebitata all’aliquota del paese del cliente quando la legge lo richiede."
@@ -1880,7 +1880,7 @@ const TERMS_PAGE = {
       [
         "4. Ceny i VAT",
         [
-          "Cena pokazana konsumentowi zawiera VAT. Jeśli zostanie opublikowana cena Tuntilappu albo iqRallyNote, jest pokazana z VAT.",
+          "Cena pokazana konsumentowi zawiera VAT. iqWorkLog (dawniej Tuntilappu) to bezpłatne pobranie i obejmuje 14-dniowy okres próbny. Potem dalsze korzystanie jest jednorazowym zakupem w aplikacji przez Google Play. Usługa płatności sklepu z aplikacjami odbiera płatność. Jeśli zostanie opublikowana cena iqRallyNote, jest pokazana z VAT.",
           "Ceny iqFleetSync są dla klientów firmowych i wynoszą VAT 0%. Podatek VAT dolicza się na fakturze według obowiązującej stawki. Obowiązująca strona [[pricing]] jest częścią tych warunków.",
           "Dla klienta firmowego w innym kraju UE z ważnym numerem VAT faktura stosuje odwrotne obciążenie (reverse charge), gdy ma ono zastosowanie.",
           "Gdy konsument kupuje z innego kraju UE, VAT nalicza się według stawki kraju klienta, jeśli wymaga tego ustawa."
@@ -2047,7 +2047,7 @@ const TERMS_PAGE = {
       [
         "4. Ceny a DPH",
         [
-          "Cena ukázaná spotřebiteli zahrnuje DPH. Pokud se zveřejní cena Tuntilappu nebo iqRallyNote, ukáže se včetně DPH.",
+          "Cena ukázaná spotřebiteli zahrnuje DPH. iqWorkLog (dříve Tuntilappu) je bezplatné stažení a zahrnuje 14denní zkušební období. Poté další používání pokračuje jednorázovým nákupem v aplikaci přes Google Play. Platbu přijímá platební služba obchodu s aplikacemi. Pokud se zveřejní cena iqRallyNote, ukáže se včetně DPH.",
           "Ceny iqFleetSync jsou pro firemní zákazníky a jsou DPH 0 %. Daň z přidané hodnoty se připočte na faktuře podle platné sazby. Platná stránka [[pricing]] je součástí těchto podmínek.",
           "Pro firemního zákazníka v jiné zemi EU s platným DIČ se na faktuře použije přenesení daňové povinnosti (reverse charge), pokud se uplatní.",
           "Když spotřebitel nakupuje z jiné země EU, DPH se účtuje podle sazby země zákazníka, pokud to zákon vyžaduje."
@@ -2214,7 +2214,7 @@ const TERMS_PAGE = {
       [
         "4. 価格と消費税",
         [
-          "消費者に示す価格には消費税が含まれます。Tuntilappu または iqRallyNote の価格を公表する場合は、税込で示します。",
+          "消費者に示す価格には消費税が含まれます。iqWorkLog（旧Tuntilappu）は無料でダウンロードでき、14日間の試用が含まれます。その後の継続利用は Google Play でのアプリ内の買い切りです。支払いはアプリストアの決済サービスが受け取ります。iqRallyNote の価格を公表する場合は、税込で示します。",
           "iqFleetSync の価格は事業者顧客向けで、消費税 0% です。消費税は、適用される税率で請求書に加算します。現行の [[pricing]] はこの条件の一部です。",
           "有効なVAT番号を持つ他のEU加盟国の事業者顧客には、該当する場合、請求書でリバースチャージ（reverse charge）を使います。",
           "他のEU加盟国の消費者が購入する場合、法律が求めるときは、顧客の国の税率で消費税を請求します。"
@@ -2381,7 +2381,7 @@ const TERMS_PAGE = {
       [
         "4. 가격과 부가세",
         [
-          "소비자에게 보이는 가격에는 부가가치세가 포함됩니다. Tuntilappu 또는 iqRallyNote의 가격이 공개되면 부가세 포함 가격으로 표시합니다.",
+          "소비자에게 보이는 가격에는 부가가치세가 포함됩니다. iqWorkLog(이전 이름 Tuntilappu)는 무료 다운로드이며 14일 체험이 포함됩니다. 그 후 계속 사용은 Google Play의 일회성 인앱 구매입니다. 결제는 앱 스토어의 결제 서비스가 받습니다. iqRallyNote의 가격이 공개되면 부가세 포함 가격으로 표시합니다.",
           "iqFleetSync 가격은 사업자 고객용이며 부가세 0%입니다. 부가가치세는 적용 세율에 따라 청구서에 더합니다. 현재 [[pricing]] 페이지는 이 약관의 일부입니다.",
           "유효한 VAT 번호가 있는 다른 EU 국가의 사업자 고객에게는, 해당하는 경우 청구서에 역과세(reverse charge)를 적용합니다.",
           "다른 EU 국가의 소비자가 구매하는 경우, 법이 요구하면 고객 국가의 세율로 부가가치세를 청구합니다."
@@ -2548,7 +2548,7 @@ const TERMS_PAGE = {
       [
         "4. 价格与增值税",
         [
-          "向消费者展示的价格含增值税。如果公布 Tuntilappu 或 iqRallyNote 的价格，则按含税价展示。",
+          "向消费者展示的价格含增值税。iqWorkLog（原名 Tuntilappu）可免费下载，并包含 14 天试用。试用结束后，继续使用需通过 Google Play 进行一次性应用内购买。应用商店的支付服务接收该付款。如果公布 iqRallyNote 的价格，则按含税价展示。",
           "iqFleetSync 的价格面向企业客户，为增值税 0%。增值税按适用税率加在账单上。现行 [[pricing]] 页是本条款的一部分。",
           "对持有有效增值税号、位于其他欧盟国家的企业客户，在适用时发票使用反向征税（reverse charge）。",
           "消费者从其他欧盟国家购买时，在法律要求的情况下按客户所在国的税率收取增值税。"

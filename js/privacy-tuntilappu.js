@@ -1,14 +1,14 @@
 PRIVACY_POLICIES.tuntilappu = {
   fi: {
     metaTitle: "{app} – Tietosuojakäytäntö | IQSoftCore",
-    metaDescription: "Tuntilappu-sovelluksen tietosuojakäytäntö. Data säilyy käyttäjän laitteella.",
+    metaDescription: "iqWorkLog-sovelluksen tietosuojakäytäntö. Data säilyy käyttäjän laitteella.",
     title: "Tietosuojakäytäntö – {app}",
     updated: "Viimeksi päivitetty: 2026-08-05",
     sections: [
       {
         heading: "1. Yleistä",
         paragraphs: [
-          "Tämä tietosuojakäytäntö kuvaa, miten Tuntilappu-sovellus käsittelee käyttäjätietoja. Rekisterinpitäjä on toiminimi IqSoftCore, Y-tunnus 3658340-4, Siihtalantie 56, 62710 Kurejoki, Suomi.",
+          "Tämä tietosuojakäytäntö kuvaa, miten iqWorkLog-sovellus (entinen Tuntilappu) käsittelee käyttäjätietoja. Rekisterinpitäjä on toiminimi IqSoftCore, Y-tunnus 3658340-4, Siihtalantie 56, 62710 Kurejoki, Suomi.",
           "Sovellus on suunniteltu siten, että se ei kerää, tallenna, jaa tai käsittele mitään henkilötietoja palvelimilla. Kaikki sovelluksen tuottama data säilytetään vain käyttäjän omalla laitteella. Sovellusta voi käyttää ilman rekisteröitymistä, kirjautumista tai käyttäjätiliä.",
         ],
       },
@@ -40,9 +40,9 @@ PRIVACY_POLICIES.tuntilappu = {
         ],
       },
       {
-        heading: "4. Maksut ja Google Play Billing",
+        heading: "4. Maksut",
         paragraphs: [
-          "Sovelluksen mahdolliset maksulliset ominaisuudet käsitellään Google Play Billing -järjestelmän kautta. Sovellus ei tallenna maksutietoja. Google Play käsittelee maksut turvallisesti omien ehtojensa mukaisesti.",
+          "Sovelluksen voi ladata ilmaiseksi. Siihen sisältyy 14 päivän kokeilu. Kokeilun jälkeen käyttö jatkuu kertaluonteisella sovelluksen sisäisellä ostolla Google Playssa. Maksun vastaanottaa sovelluskaupan maksupalvelu. Sovellus ei tallenna maksutietoja. Sovelluskaupan maksupalvelu käsittelee maksun turvallisesti omien ehtojensa mukaisesti.",
         ],
       },
       {
@@ -87,14 +87,14 @@ PRIVACY_POLICIES.tuntilappu = {
   },
   en: {
     metaTitle: "{app} – Privacy Policy | IQSoftCore",
-    metaDescription: "Privacy policy for the Tuntilappu app. Data stays on the user’s device.",
+    metaDescription: "Privacy policy for the iqWorkLog app. Data stays on the user’s device.",
     title: "Privacy Policy – {app}",
     updated: "Last updated: 2026-08-05",
     sections: [
       {
         heading: "1. General",
         paragraphs: [
-          "This privacy policy describes how the Tuntilappu application handles user data. The controller is toiminimi IqSoftCore, Y-tunnus 3658340-4, Siihtalantie 56, 62710 Kurejoki, Finland.",
+          "This privacy policy describes how the iqWorkLog application (formerly Tuntilappu) handles user data. The controller is toiminimi IqSoftCore, Y-tunnus 3658340-4, Siihtalantie 56, 62710 Kurejoki, Finland.",
           "The app is designed so that it does not collect, store, share, or process any personal data on servers. All data produced by the app is stored only on the user’s own device. The app can be used without registration, login, or a user account.",
         ],
       },
@@ -126,9 +126,9 @@ PRIVACY_POLICIES.tuntilappu = {
         ],
       },
       {
-        heading: "4. Payments and Google Play Billing",
+        heading: "4. Payments",
         paragraphs: [
-          "Any paid features of the app are handled through Google Play Billing. The app does not store payment details. Google Play processes payments securely under its own terms.",
+          "The app is a free download. It includes a 14-day trial. After the trial, continued use is a one-time in-app purchase via Google Play. The app store's payment service receives the payment. The app does not store payment details. The app store's payment service processes the payment securely under its own terms.",
         ],
       },
       {
@@ -173,14 +173,14 @@ PRIVACY_POLICIES.tuntilappu = {
   },
   sv: {
     metaTitle: "{app} – Integritetspolicy | IQSoftCore",
-    metaDescription: "Integritetspolicy för Tuntilappu. Data stannar på användarens enhet.",
+    metaDescription: "Integritetspolicy för iqWorkLog. Data stannar på användarens enhet.",
     title: "Integritetspolicy – {app}",
     updated: "Senast uppdaterad: 2026-08-05",
     sections: [
       {
         heading: "1. Allmänt",
         paragraphs: [
-          "Denna integritetspolicy beskriver hur Tuntilappu-appen behandlar användardata. Personuppgiftsansvarig är toiminimi IqSoftCore, Y-tunnus 3658340-4, Siihtalantie 56, 62710 Kurejoki, Finland.",
+          "Denna integritetspolicy beskriver hur iqWorkLog-appen (tidigare Tuntilappu) behandlar användardata. Personuppgiftsansvarig är toiminimi IqSoftCore, Y-tunnus 3658340-4, Siihtalantie 56, 62710 Kurejoki, Finland.",
           "Appen är utformad så att den inte samlar in, lagrar, delar eller behandlar personuppgifter på servrar. All data som appen skapar lagras endast på användarens egen enhet. Appen kan användas utan registrering, inloggning eller användarkonto.",
         ],
       },
@@ -212,9 +212,9 @@ PRIVACY_POLICIES.tuntilappu = {
         ],
       },
       {
-        heading: "4. Betalningar och Google Play Billing",
+        heading: "4. Betalningar",
         paragraphs: [
-          "Eventuella betalda funktioner hanteras via Google Play Billing. Appen lagrar inte betalningsuppgifter. Google Play behandlar betalningar säkert enligt sina egna villkor.",
+          "Appen kan laddas ner gratis. Den innehåller en provperiod på 14 dagar. Efter provperioden fortsätter användningen som ett engångsköp i appen via Google Play. Appbutikens betaltjänst tar emot betalningen. Appen lagrar inte betalningsuppgifter. Appbutikens betaltjänst behandlar betalningen säkert enligt sina egna villkor.",
         ],
       },
       {
@@ -259,14 +259,14 @@ PRIVACY_POLICIES.tuntilappu = {
   },
   no: {
     metaTitle: "{app} – Personvernerklæring | IQSoftCore",
-    metaDescription: "Personvernerklæring for Tuntilappu. Data blir på brukerens enhet.",
+    metaDescription: "Personvernerklæring for iqWorkLog. Data blir på brukerens enhet.",
     title: "Personvernerklæring – {app}",
     updated: "Sist oppdatert: 2026-08-05",
     sections: [
       {
         heading: "1. Generelt",
         paragraphs: [
-          "Denne personvernerklæringen beskriver hvordan Tuntilappu-appen behandler brukerdata. Behandlingsansvarlig er toiminimi IqSoftCore, Y-tunnus 3658340-4, Siihtalantie 56, 62710 Kurejoki, Finland.",
+          "Denne personvernerklæringen beskriver hvordan iqWorkLog-appen (tidligere Tuntilappu) behandler brukerdata. Behandlingsansvarlig er toiminimi IqSoftCore, Y-tunnus 3658340-4, Siihtalantie 56, 62710 Kurejoki, Finland.",
           "Appen er laget slik at den ikke samler inn, lagrer, deler eller behandler personopplysninger på servere. All data appen produserer lagres kun på brukerens egen enhet. Appen kan brukes uten registrering, innlogging eller brukerkonto.",
         ],
       },
@@ -298,9 +298,9 @@ PRIVACY_POLICIES.tuntilappu = {
         ],
       },
       {
-        heading: "4. Betalinger og Google Play Billing",
+        heading: "4. Betalinger",
         paragraphs: [
-          "Eventuelle betalte funksjoner håndteres via Google Play Billing. Appen lagrer ikke betalingsopplysninger. Google Play behandler betalinger sikkert i henhold til egne vilkår.",
+          "Appen kan lastes ned gratis. Den har en prøveperiode på 14 dager. Etter prøveperioden fortsetter bruken som et engangskjøp i appen via Google Play. Appbutikkens betalingstjeneste mottar betalingen. Appen lagrer ikke betalingsopplysninger. Appbutikkens betalingstjeneste behandler betalingen sikkert etter egne vilkår.",
         ],
       },
       {
@@ -345,14 +345,14 @@ PRIVACY_POLICIES.tuntilappu = {
   },
   da: {
     metaTitle: "{app} – Privatlivspolitik | IQSoftCore",
-    metaDescription: "Privatlivspolitik for Tuntilappu. Data forbliver på brugerens enhed.",
+    metaDescription: "Privatlivspolitik for iqWorkLog. Data forbliver på brugerens enhed.",
     title: "Privatlivspolitik – {app}",
     updated: "Senest opdateret: 2026-08-05",
     sections: [
       {
         heading: "1. Generelt",
         paragraphs: [
-          "Denne privatlivspolitik beskriver, hvordan Tuntilappu-appen behandler brugerdata. Dataansvarlig er toiminimi IqSoftCore, Y-tunnus 3658340-4, Siihtalantie 56, 62710 Kurejoki, Finland.",
+          "Denne privatlivspolitik beskriver, hvordan iqWorkLog-appen (tidligere Tuntilappu) behandler brugerdata. Dataansvarlig er toiminimi IqSoftCore, Y-tunnus 3658340-4, Siihtalantie 56, 62710 Kurejoki, Finland.",
           "Appen er designet, så den ikke indsamler, gemmer, deler eller behandler personoplysninger på servere. Al data, appen opretter, gemmes kun på brugerens egen enhed. Appen kan bruges uden registrering, login eller brugerkonto.",
         ],
       },
@@ -384,9 +384,9 @@ PRIVACY_POLICIES.tuntilappu = {
         ],
       },
       {
-        heading: "4. Betalinger og Google Play Billing",
+        heading: "4. Betalinger",
         paragraphs: [
-          "Eventuelle betalte funktioner håndteres via Google Play Billing. Appen gemmer ikke betalingsoplysninger. Google Play behandler betalinger sikkert efter egne vilkår.",
+          "Appen kan downloades gratis. Den indeholder en prøveperiode på 14 dage. Efter prøveperioden fortsætter brugen som et engangskøb i appen via Google Play. Appbutikkens betalingstjeneste modtager betalingen. Appen gemmer ikke betalingsoplysninger. Appbutikkens betalingstjeneste behandler betalingen sikkert efter egne vilkår.",
         ],
       },
       {
@@ -431,14 +431,14 @@ PRIVACY_POLICIES.tuntilappu = {
   },
   de: {
     metaTitle: "{app} – Datenschutzerklärung | IQSoftCore",
-    metaDescription: "Datenschutzerklärung für Tuntilappu. Daten bleiben auf dem Gerät des Nutzers.",
+    metaDescription: "Datenschutzerklärung für iqWorkLog. Daten bleiben auf dem Gerät des Nutzers.",
     title: "Datenschutzerklärung – {app}",
     updated: "Zuletzt aktualisiert: 2026-08-05",
     sections: [
       {
         heading: "1. Allgemeines",
         paragraphs: [
-          "Diese Datenschutzerklärung beschreibt, wie die App Tuntilappu Nutzerdaten verarbeitet. Verantwortlicher ist toiminimi IqSoftCore, Y-tunnus 3658340-4, Siihtalantie 56, 62710 Kurejoki, Finnland.",
+          "Diese Datenschutzerklärung beschreibt, wie die App iqWorkLog (früher Tuntilappu) Nutzerdaten verarbeitet. Verantwortlicher ist toiminimi IqSoftCore, Y-tunnus 3658340-4, Siihtalantie 56, 62710 Kurejoki, Finnland.",
           "Die App ist so gestaltet, dass sie keine personenbezogenen Daten auf Servern erhebt, speichert, teilt oder verarbeitet. Alle von der App erzeugten Daten werden nur auf dem eigenen Gerät des Nutzers gespeichert. Die App kann ohne Registrierung, Anmeldung oder Benutzerkonto genutzt werden.",
         ],
       },
@@ -470,9 +470,9 @@ PRIVACY_POLICIES.tuntilappu = {
         ],
       },
       {
-        heading: "4. Zahlungen und Google Play Billing",
+        heading: "4. Zahlungen",
         paragraphs: [
-          "Etwaige kostenpflichtige Funktionen werden über Google Play Billing abgewickelt. Die App speichert keine Zahlungsdaten. Google Play verarbeitet Zahlungen sicher gemäß eigenen Bedingungen.",
+          "Die App kann kostenlos heruntergeladen werden. Sie enthält eine 14-tägige Testphase. Danach wird die weitere Nutzung zu einem einmaligen In-App-Kauf über Google Play. Der Zahlungsdienst des App-Stores empfängt die Zahlung. Die App speichert keine Zahlungsdaten. Der Zahlungsdienst des App-Stores verarbeitet die Zahlung sicher gemäß den eigenen Bedingungen.",
         ],
       },
       {
@@ -517,14 +517,14 @@ PRIVACY_POLICIES.tuntilappu = {
   },
   es: {
     metaTitle: "{app} – Política de privacidad | IQSoftCore",
-    metaDescription: "Política de privacidad de Tuntilappu. Los datos permanecen en el dispositivo del usuario.",
+    metaDescription: "Política de privacidad de iqWorkLog. Los datos permanecen en el dispositivo del usuario.",
     title: "Política de privacidad – {app}",
     updated: "Última actualización: 2026-08-05",
     sections: [
       {
         heading: "1. General",
         paragraphs: [
-          "Esta política de privacidad describe cómo la aplicación Tuntilappu trata los datos de usuario. El responsable es toiminimi IqSoftCore, Y-tunnus 3658340-4, Siihtalantie 56, 62710 Kurejoki, Finlandia.",
+          "Esta política de privacidad describe cómo la aplicación iqWorkLog (antes Tuntilappu) trata los datos de usuario. El responsable es toiminimi IqSoftCore, Y-tunnus 3658340-4, Siihtalantie 56, 62710 Kurejoki, Finlandia.",
           "La app está diseñada para no recopilar, almacenar, compartir ni tratar datos personales en servidores. Todos los datos que genera la app se guardan solo en el dispositivo del usuario. Se puede usar sin registro, inicio de sesión ni cuenta de usuario.",
         ],
       },
@@ -556,9 +556,9 @@ PRIVACY_POLICIES.tuntilappu = {
         ],
       },
       {
-        heading: "4. Pagos y Google Play Billing",
+        heading: "4. Pagos",
         paragraphs: [
-          "Las posibles funciones de pago se gestionan mediante Google Play Billing. La app no almacena datos de pago. Google Play procesa los pagos de forma segura según sus propios términos.",
+          "La app se puede descargar gratis. Incluye una prueba de 14 días. Después de la prueba, el uso continúa con una compra única dentro de la app a través de Google Play. El servicio de pago de la tienda de aplicaciones recibe el pago. La app no almacena datos de pago. El servicio de pago de la tienda de aplicaciones procesa el pago de forma segura según sus propios términos.",
         ],
       },
       {
@@ -603,14 +603,14 @@ PRIVACY_POLICIES.tuntilappu = {
   },
   it: {
     metaTitle: "{app} – Informativa sulla privacy | IQSoftCore",
-    metaDescription: "Informativa privacy di Tuntilappu. I dati restano sul dispositivo dell’utente.",
+    metaDescription: "Informativa privacy di iqWorkLog. I dati restano sul dispositivo dell’utente.",
     title: "Informativa sulla privacy – {app}",
     updated: "Ultimo aggiornamento: 2026-08-05",
     sections: [
       {
         heading: "1. Generale",
         paragraphs: [
-          "La presente informativa descrive come l’app Tuntilappu tratta i dati utente. Il titolare del trattamento è toiminimi IqSoftCore, Y-tunnus 3658340-4, Siihtalantie 56, 62710 Kurejoki, Finlandia.",
+          "La presente informativa descrive come l’app iqWorkLog (prima Tuntilappu) tratta i dati utente. Il titolare del trattamento è toiminimi IqSoftCore, Y-tunnus 3658340-4, Siihtalantie 56, 62710 Kurejoki, Finlandia.",
           "L’app è progettata per non raccogliere, memorizzare, condividere o trattare dati personali su server. Tutti i dati prodotti dall’app sono conservati solo sul dispositivo dell’utente. L’app può essere usata senza registrazione, accesso o account utente.",
         ],
       },
@@ -642,9 +642,9 @@ PRIVACY_POLICIES.tuntilappu = {
         ],
       },
       {
-        heading: "4. Pagamenti e Google Play Billing",
+        heading: "4. Pagamenti",
         paragraphs: [
-          "Eventuali funzioni a pagamento sono gestite tramite Google Play Billing. L’app non memorizza dati di pagamento. Google Play elabora i pagamenti in modo sicuro secondo i propri termini.",
+          "L’app si può scaricare gratis. Include una prova di 14 giorni. Dopo la prova, l’uso continua con un acquisto una tantum nell’app tramite Google Play. Il servizio di pagamento dell’app store riceve il pagamento. L’app non memorizza dati di pagamento. Il servizio di pagamento dell’app store elabora il pagamento in modo sicuro secondo i propri termini.",
         ],
       },
       {
@@ -689,14 +689,14 @@ PRIVACY_POLICIES.tuntilappu = {
   },
   ja: {
     metaTitle: "{app} – プライバシーポリシー | IQSoftCore",
-    metaDescription: "Tuntilappuアプリのプライバシーポリシー。データはユーザーの端末に保存されます。",
+    metaDescription: "iqWorkLogアプリのプライバシーポリシー。データはユーザーの端末に保存されます。",
     title: "プライバシーポリシー – {app}",
     updated: "最終更新日: 2026-08-05",
     sections: [
       {
         heading: "1. 概要",
         paragraphs: [
-          "本プライバシーポリシーは、Tuntilappuアプリがユーザーデータをどのように取り扱うかを説明します。管理者はフィンランドの個人事業主 toiminimi IqSoftCore（Y-tunnus 3658340-4、Siihtalantie 56, 62710 Kurejoki）です。",
+          "本プライバシーポリシーは、iqWorkLogアプリ（旧Tuntilappu）がユーザーデータをどのように取り扱うかを説明します。管理者はフィンランドの個人事業主 toiminimi IqSoftCore（Y-tunnus 3658340-4、Siihtalantie 56, 62710 Kurejoki）です。",
           "本アプリは、サーバー上で個人データを収集・保存・共有・処理しないよう設計されています。アプリが生成するデータはすべてユーザー自身の端末にのみ保存されます。登録、ログイン、ユーザーアカウントなしで利用できます。",
         ],
       },
@@ -728,9 +728,9 @@ PRIVACY_POLICIES.tuntilappu = {
         ],
       },
       {
-        heading: "4. 課金と Google Play Billing",
+        heading: "4. お支払い",
         paragraphs: [
-          "有料機能がある場合は Google Play Billing を通じて処理されます。アプリは支払い情報を保存しません。Google Play は自社の条件に従い安全に支払いを処理します。",
+          "アプリは無料でダウンロードできます。14日間の試用が含まれます。試用の後、継続利用は Google Play でのアプリ内の買い切りです。支払いはアプリストアの決済サービスが受け取ります。アプリは支払い情報を保存しません。アプリストアの決済サービスは自らの条件に従い安全に支払いを処理します。",
         ],
       },
       {
@@ -775,14 +775,14 @@ PRIVACY_POLICIES.tuntilappu = {
   },
   ko: {
     metaTitle: "{app} – 개인정보 처리방침 | IQSoftCore",
-    metaDescription: "Tuntilappu 앱 개인정보 처리방침. 데이터는 사용자 기기에 저장됩니다.",
+    metaDescription: "iqWorkLog 앱 개인정보 처리방침. 데이터는 사용자 기기에 저장됩니다.",
     title: "개인정보 처리방침 – {app}",
     updated: "최종 업데이트: 2026-08-05",
     sections: [
       {
         heading: "1. 일반",
         paragraphs: [
-          "본 개인정보 처리방침은 Tuntilappu 앱이 사용자 데이터를 어떻게 처리하는지 설명합니다. 개인정보처리자는 핀란드의 개인사업자 toiminimi IqSoftCore(Y-tunnus 3658340-4, Siihtalantie 56, 62710 Kurejoki)입니다.",
+          "본 개인정보 처리방침은 iqWorkLog 앱(이전 이름 Tuntilappu)이 사용자 데이터를 어떻게 처리하는지 설명합니다. 개인정보처리자는 핀란드의 개인사업자 toiminimi IqSoftCore(Y-tunnus 3658340-4, Siihtalantie 56, 62710 Kurejoki)입니다.",
           "본 앱은 서버에서 개인정보를 수집·저장·공유·처리하지 않도록 설계되었습니다. 앱이 생성하는 모든 데이터는 사용자 기기에만 저장됩니다. 등록, 로그인, 사용자 계정 없이 사용할 수 있습니다.",
         ],
       },
@@ -814,9 +814,9 @@ PRIVACY_POLICIES.tuntilappu = {
         ],
       },
       {
-        heading: "4. 결제 및 Google Play Billing",
+        heading: "4. 결제",
         paragraphs: [
-          "유료 기능이 있는 경우 Google Play Billing을 통해 처리됩니다. 앱은 결제 정보를 저장하지 않습니다. Google Play는 자체 약관에 따라 안전하게 결제를 처리합니다.",
+          "앱은 무료로 다운로드할 수 있습니다. 14일 체험이 포함됩니다. 체험 후 계속 사용하려면 Google Play에서 일회성 인앱 구매를 합니다. 결제는 앱 스토어의 결제 서비스가 받습니다. 앱은 결제 정보를 저장하지 않습니다. 앱 스토어의 결제 서비스는 자체 약관에 따라 안전하게 결제를 처리합니다.",
         ],
       },
       {
@@ -868,7 +868,7 @@ PRIVACY_POLICIES.tuntilappu = {
       {
         heading: "1. Généralités",
         paragraphs: [
-          "Cette politique de confidentialité décrit la façon dont l’application {app} traite les données utilisateur. Le responsable du traitement est toiminimi IqSoftCore, Y-tunnus 3658340-4, Siihtalantie 56, 62710 Kurejoki, Finlande.",
+          "Cette politique de confidentialité décrit la façon dont l’application iqWorkLog (anciennement Tuntilappu) traite les données utilisateur. Le responsable du traitement est toiminimi IqSoftCore, Y-tunnus 3658340-4, Siihtalantie 56, 62710 Kurejoki, Finlande.",
           "L’application est conçue pour ne collecter, stocker, partager ni traiter aucune donnée personnelle sur des serveurs. Toutes les données produites par l’application sont conservées uniquement sur l’appareil de l’utilisateur. L’application peut être utilisée sans inscription, connexion ni compte utilisateur.",
         ],
       },
@@ -906,9 +906,9 @@ PRIVACY_POLICIES.tuntilappu = {
         ],
       },
       {
-        heading: "4. Paiements et Google Play Billing",
+        heading: "4. Paiements",
         paragraphs: [
-          "Les éventuelles fonctionnalités payantes sont gérées via Google Play Billing. L’application ne stocke pas les informations de paiement. Google Play traite les paiements de manière sécurisée selon ses propres conditions.",
+          "L’application peut être téléchargée gratuitement. Elle comprend un essai de 14 jours. Ensuite, la poursuite de l’utilisation est un achat unique intégré via Google Play. Le service de paiement de la boutique d’applications reçoit le paiement. L’application ne stocke pas les informations de paiement. Le service de paiement de la boutique d’applications traite le paiement de manière sécurisée selon ses propres conditions.",
         ],
       },
       {
@@ -960,7 +960,7 @@ PRIVACY_POLICIES.tuntilappu = {
       {
         heading: "1. Geral",
         paragraphs: [
-          "Esta política de privacidade descreve como o aplicativo {app} trata dados do usuário. O controlador é toiminimi IqSoftCore, Y-tunnus 3658340-4, Siihtalantie 56, 62710 Kurejoki, Finlândia.",
+          "Esta política de privacidade descreve como o aplicativo iqWorkLog (antigo Tuntilappu) trata dados do usuário. O controlador é toiminimi IqSoftCore, Y-tunnus 3658340-4, Siihtalantie 56, 62710 Kurejoki, Finlândia.",
           "O aplicativo foi projetado para não coletar, armazenar, compartilhar nem processar dados pessoais em servidores. Todos os dados produzidos pelo app são armazenados apenas no dispositivo do usuário. O app pode ser usado sem registro, login ou conta de usuário.",
         ],
       },
@@ -998,9 +998,9 @@ PRIVACY_POLICIES.tuntilappu = {
         ],
       },
       {
-        heading: "4. Pagamentos e Google Play Billing",
+        heading: "4. Pagamentos",
         paragraphs: [
-          "Possíveis recursos pagos são processados pelo Google Play Billing. O aplicativo não armazena dados de pagamento. O Google Play processa pagamentos com segurança segundo seus próprios termos.",
+          "O aplicativo pode ser baixado gratuitamente. Ele inclui um teste de 14 dias. Depois do teste, o uso continua com uma compra única no aplicativo via Google Play. O serviço de pagamento da loja de aplicativos recebe o pagamento. O aplicativo não armazena dados de pagamento. O serviço de pagamento da loja de aplicativos processa o pagamento com segurança segundo seus próprios termos.",
         ],
       },
       {
@@ -1052,7 +1052,7 @@ PRIVACY_POLICIES.tuntilappu = {
       {
         heading: "1. Algemeen",
         paragraphs: [
-          "Dit privacybeleid beschrijft hoe de app {app} gebruikersgegevens verwerkt. De verwerkingsverantwoordelijke is toiminimi IqSoftCore, Y-tunnus 3658340-4, Siihtalantie 56, 62710 Kurejoki, Finland.",
+          "Dit privacybeleid beschrijft hoe de app iqWorkLog (voorheen Tuntilappu) gebruikersgegevens verwerkt. De verwerkingsverantwoordelijke is toiminimi IqSoftCore, Y-tunnus 3658340-4, Siihtalantie 56, 62710 Kurejoki, Finland.",
           "De app is zo ontworpen dat zij geen persoonsgegevens op servers verzamelt, opslaat, deelt of verwerkt. Alle data die de app produceert, wordt alleen op het eigen apparaat van de gebruiker bewaard. De app kan zonder registratie, login of gebruikersaccount worden gebruikt.",
         ],
       },
@@ -1090,9 +1090,9 @@ PRIVACY_POLICIES.tuntilappu = {
         ],
       },
       {
-        heading: "4. Betalingen en Google Play Billing",
+        heading: "4. Betalingen",
         paragraphs: [
-          "Eventuele betaalde functies verlopen via Google Play Billing. De app slaat geen betaalgegevens op. Google Play verwerkt betalingen veilig volgens de eigen voorwaarden.",
+          "De app is gratis te downloaden. Er zit een proefperiode van 14 dagen bij. Daarna gaat het gebruik verder met een eenmalige aankoop in de app via Google Play. De betaaldienst van de appwinkel ontvangt de betaling. De app slaat geen betaalgegevens op. De betaaldienst van de appwinkel verwerkt de betaling veilig volgens de eigen voorwaarden.",
         ],
       },
       {
@@ -1144,7 +1144,7 @@ PRIVACY_POLICIES.tuntilappu = {
       {
         heading: "1. Informacje ogólne",
         paragraphs: [
-          "Niniejsza polityka prywatności opisuje, w jaki sposób aplikacja {app} przetwarza dane użytkownika. Administratorem jest toiminimi IqSoftCore, Y-tunnus 3658340-4, Siihtalantie 56, 62710 Kurejoki, Finlandia.",
+          "Niniejsza polityka prywatności opisuje, w jaki sposób aplikacja iqWorkLog (dawniej Tuntilappu) przetwarza dane użytkownika. Administratorem jest toiminimi IqSoftCore, Y-tunnus 3658340-4, Siihtalantie 56, 62710 Kurejoki, Finlandia.",
           "Aplikacja została zaprojektowana tak, aby nie zbierać, nie przechowywać, nie udostępniać ani nie przetwarzać danych osobowych na serwerach. Wszystkie dane wytwarzane przez aplikację są przechowywane wyłącznie na urządzeniu użytkownika. Aplikacji można używać bez rejestracji, logowania ani konta użytkownika.",
         ],
       },
@@ -1182,9 +1182,9 @@ PRIVACY_POLICIES.tuntilappu = {
         ],
       },
       {
-        heading: "4. Płatności i Google Play Billing",
+        heading: "4. Płatności",
         paragraphs: [
-          "Ewentualne funkcje płatne są obsługiwane przez Google Play Billing. Aplikacja nie przechowuje danych płatniczych. Google Play przetwarza płatności bezpiecznie zgodnie z własnymi warunkami.",
+          "Aplikację można pobrać bezpłatnie. Obejmuje 14-dniowy okres próbny. Potem dalsze korzystanie jest jednorazowym zakupem w aplikacji przez Google Play. Usługa płatności sklepu z aplikacjami odbiera płatność. Aplikacja nie przechowuje danych płatniczych. Usługa płatności sklepu z aplikacjami przetwarza płatność bezpiecznie zgodnie z własnymi warunkami.",
         ],
       },
       {
@@ -1236,7 +1236,7 @@ PRIVACY_POLICIES.tuntilappu = {
       {
         heading: "1. Obecné",
         paragraphs: [
-          "Tyto zásady popisují, jak aplikace {app} zpracovává uživatelská data. Správcem je toiminimi IqSoftCore, Y-tunnus 3658340-4, Siihtalantie 56, 62710 Kurejoki, Finsko.",
+          "Tyto zásady popisují, jak aplikace iqWorkLog (dříve Tuntilappu) zpracovává uživatelská data. Správcem je toiminimi IqSoftCore, Y-tunnus 3658340-4, Siihtalantie 56, 62710 Kurejoki, Finsko.",
           "Aplikace je navržena tak, aby neshromažďovala, neukládala, nesdílela ani nezpracovávala osobní údaje na serverech. Veškerá data vytvořená aplikací se ukládají pouze na zařízení uživatele. Aplikaci lze používat bez registrace, přihlášení nebo uživatelského účtu.",
         ],
       },
@@ -1274,9 +1274,9 @@ PRIVACY_POLICIES.tuntilappu = {
         ],
       },
       {
-        heading: "4. Platby a Google Play Billing",
+        heading: "4. Platby",
         paragraphs: [
-          "Případné placené funkce probíhají přes Google Play Billing. Aplikace neukládá platební údaje. Google Play zpracovává platby bezpečně podle vlastních podmínek.",
+          "Aplikaci lze stáhnout zdarma. Zahrnuje 14denní zkušební období. Poté další používání pokračuje jednorázovým nákupem v aplikaci přes Google Play. Platbu přijímá platební služba obchodu s aplikacemi. Aplikace neukládá platební údaje. Platební služba obchodu s aplikacemi zpracovává platbu bezpečně podle vlastních podmínek.",
         ],
       },
       {
@@ -1328,7 +1328,7 @@ PRIVACY_POLICIES.tuntilappu = {
       {
         heading: "1. 概述",
         paragraphs: [
-          "本隐私政策说明 {app} 应用如何处理用户数据。控制者为芬兰个体工商户 toiminimi IqSoftCore（Y-tunnus 3658340-4，Siihtalantie 56, 62710 Kurejoki）。",
+          "本隐私政策说明 iqWorkLog 应用（原名 Tuntilappu）如何处理用户数据。控制者为芬兰个体工商户 toiminimi IqSoftCore（Y-tunnus 3658340-4，Siihtalantie 56, 62710 Kurejoki）。",
           "本应用设计为不会在服务器上收集、存储、共享或处理任何个人数据。应用产生的所有数据仅保存在用户自己的设备上。无需注册、登录或用户账户即可使用。",
         ],
       },
@@ -1366,9 +1366,9 @@ PRIVACY_POLICIES.tuntilappu = {
         ],
       },
       {
-        heading: "4. 付款与 Google Play Billing",
+        heading: "4. 付款",
         paragraphs: [
-          "任何付费功能通过 Google Play Billing 处理。应用不存储支付信息。Google Play 根据其自身条款安全处理付款。",
+          "应用可免费下载，并包含 14 天试用。试用结束后，继续使用需通过 Google Play 进行一次性应用内购买。应用商店的支付服务接收该付款。应用不存储支付信息。应用商店的支付服务根据其自身条款安全处理付款。",
         ],
       },
       {

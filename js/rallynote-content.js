@@ -15,7 +15,7 @@ const RALLY_PAGE = {
     lead: "iqRallyNote on Android-tablettisovellus rallinuottien muokkaukseen.",
     featuresHeading: "Käyttö",
     features: [
-      "Rekkaus puhesanelulla.",
+      "Nuotitus puhesanelulla.",
       "Oma symbolikirjasto.",
       "Kilpailutila.",
       "PDF-vienti.",
@@ -175,7 +175,7 @@ const RALLY_PAGE = {
     lead: "iqRallyNote è un’app Android per tablet per modificare le note di rally (pace note).",
     featuresHeading: "A cosa serve",
     features: [
-      "Ricognizione con dettatura vocale.",
+      "Recce con dettatura vocale.",
       "Libreria di simboli propria.",
       "Modalità gara.",
       "Esportazione PDF.",
@@ -223,7 +223,7 @@ const RALLY_PAGE = {
     lead: "iqRallyNoteは、ラリーのペースノートを編集するAndroidタブレットアプリです。",
     featuresHeading: "できること",
     features: [
-      "音声入力によるレッキ。",
+      "音声入力による recce。",
       "独自のシンボルライブラリ。",
       "競技モード。",
       "PDF書き出し。",
@@ -239,7 +239,7 @@ const RALLY_PAGE = {
     lead: "iqRallyNote는 랠리 페이스노트를 편집하는 Android 태블릿 앱입니다.",
     featuresHeading: "하는 일",
     features: [
-      "음성 받아쓰기로 렉키.",
+      "음성 받아쓰기로 recce.",
       "자체 기호 라이브러리.",
       "경기 모드.",
       "PDF 내보내기.",
@@ -255,7 +255,7 @@ const RALLY_PAGE = {
     lead: "iqRallyNote 是用于编辑拉力赛路书的 Android 平板应用。",
     featuresHeading: "用途",
     features: [
-      "语音听写勘察。",
+      "语音听写 recce。",
       "自有符号库。",
       "比赛模式。",
       "导出 PDF。",
