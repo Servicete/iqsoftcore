@@ -333,7 +333,6 @@ function escapeAppsHtml(value) {
 }
 
 const WORKLOG_NAME = "iqWorkLog";
-const WORKLOG_PLAY_URL = "https://play.google.com/store/apps/details?id=fi.tuntilappu";
 const WORKLOG_OG_LOCALE = {
   fi: "fi_FI",
   en: "en_US",
@@ -372,7 +371,7 @@ function renderTuntilappuPage(lang) {
   const page = APPS_PAGE[lang] || APPS_PAGE.en || APPS_PAGE.fi;
   if (!page) return;
 
-  const ui = (typeof translations !== "undefined" && (translations[lang] || translations.en)) || {};
+  const ui = (typeof window.iqStringsFor === "function" && window.iqStringsFor(lang)) || ((typeof translations !== "undefined" && (translations[lang] || translations.fi)) || {});
   const appName = typeof tuntilappuName === "function" ? tuntilappuName(lang) : WORKLOG_NAME;
   const title = `${WORKLOG_NAME} | IQSoftCore`;
 
@@ -390,19 +389,16 @@ function renderTuntilappuPage(lang) {
         <p class="app-short">${escapeAppsHtml(page.short)}</p>
       </div>
     </div>`;
-  if (appName && appName !== WORKLOG_NAME && appName !== "Tuntilappu") {
-    const playLabel = ui.playNameLabel || "Google Play";
-    html += `<p class="store-title">${escapeAppsHtml(playLabel)}: ${escapeAppsHtml(appName)}</p>`;
-  }
+  html += `<p class="status-pill status-soon">${escapeAppsHtml(ui.statusSoon || "Tulossa")}</p>`;
   html += `<p>${escapeAppsHtml(page.long)}</p>`;
   html += `<h2>${escapeAppsHtml(page.featuresHeading)}</h2>`;
   html += `<ul>${page.features.map((item) => `<li>${escapeAppsHtml(item)}</li>`).join("")}</ul>`;
-  html += `<p>${escapeAppsHtml(page.closing)}</p>`;
+  html += `<p>${escapeAppsHtml(ui.worklogSoon || "iqWorkLog ei ole vielä julkinen. Tällä sivulla ei ole latauslinkkiä.")}</p>`;
   if (ui.noPublicPrice) {
     html += `<p>${escapeAppsHtml(ui.noPublicPrice)} <a href="index.html#contact">${escapeAppsHtml(ui.ctaContact || "")}</a></p>`;
   }
   html += `<div class="app-actions">`;
-  html += `<a class="btn btn-primary" href="${WORKLOG_PLAY_URL}">${escapeAppsHtml(page.playLabel)}</a>`;
+  html += `<a class="btn btn-primary" id="cta-contact-worklog" data-cta="contact" href="index.html#contact">${escapeAppsHtml(ui.ctaContact || "Ota yhteyttä")}</a>`;
   html += `<a class="btn btn-ghost" href="privacy-tuntilappu.html">${escapeAppsHtml(page.privacyLink)}</a>`;
   html += `</div>`;
   html += `<p class="policy-nav"><a class="btn btn-ghost" href="apps.html">${escapeAppsHtml(ui.backApps || page.backHome)}</a></p>`;

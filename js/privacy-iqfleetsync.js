@@ -7,7 +7,7 @@ const FLEETSYNC_PRIVACY = {
     metaTitle: "iqFleetSync – Tietosuojaseloste | IQSoftCore",
     metaDescription: "iqFleetSyncin tietosuojaseloste. Rekisterinpitäjä ja käsittelijä, tiedot, tarkoitukset, alihankkijat ja oikeudet.",
     title: "iqFleetSync – tietosuojaseloste",
-    updated: "Päivitetty 2026-10-05.",
+    updated: "Päivitetty 2026-10-14.",
     backFleet: "iqFleetSync",
     backCompany: "Yrityksen tietosuoja",
     backHome: "Etusivu",
@@ -30,7 +30,7 @@ const FLEETSYNC_PRIVACY = {
           "jaetun puhelimen PIN tiivisteenä tai salattuna",
           "yksiköiden tiedot, raportit, kuvat, vikailmoitukset ja lukemat",
           "audit-loki",
-          "laskutustiedot Stripen kautta; kortin numeroa käsittelee vain Stripe, eikä IqSoftCore tallenna sitä",
+          "laskutustiedot maksupalvelun kautta; kortin numeroa käsittelee vain maksupalvelu, eikä IqSoftCore tallenna sitä",
         ],
       },
       {
@@ -47,13 +47,13 @@ const FLEETSYNC_PRIVACY = {
       {
         heading: "4. Käsittelijät",
         paragraphs: [
-          "Palvelun tiedot sijaitsevat EU:ssa. Tietokanta ja kirjautuminen ovat Supabasen EU-alueella. Sovellus toimii Vercelissa.",
+          "Palvelun tiedot sijaitsevat EU:ssa. Tietokanta ja kirjautuminen ovat EU-alueella toimivalla tietokanta- ja tunnistautumispalvelulla. Verkkopalvelun ylläpidosta vastaa hosting-palvelu.",
         ],
         bullets: [
-          "Supabase: tietokanta ja kirjautuminen, EU-alue",
-          "Vercel: sovelluksen hosting",
-          "Brevo: sähköpostin lähetys",
-          "Stripe: maksut; korttitiedot vain Stripella",
+          "Tietokanta- ja tunnistautumispalvelu: tietokanta ja kirjautuminen, EU-alue",
+          "Ylläpitopalvelu: verkkopalvelun hosting",
+          "Sähköpostipalvelu: sähköpostin lähetys",
+          "Maksupalvelu: maksut; korttitiedot vain maksupalvelulla",
         ],
       },
       {
@@ -93,7 +93,7 @@ const FLEETSYNC_PRIVACY_EN = {
   metaTitle: "iqFleetSync – Privacy notice | IQSoftCore",
   metaDescription: "Privacy notice for iqFleetSync. Controller and processor, data, purposes, subprocessors and rights.",
   title: "iqFleetSync – privacy notice",
-  updated: "Updated 2026-10-05.",
+  updated: "Updated 2026-10-14.",
   backFleet: "iqFleetSync",
   backCompany: "Company privacy",
   backHome: "Home",
@@ -116,7 +116,7 @@ const FLEETSYNC_PRIVACY_EN = {
         "a shared-phone PIN as a hash or in encrypted form",
         "unit data, reports, photos, defect reports and readings",
         "the audit log",
-        "billing data through Stripe; the card number is handled by Stripe only, and IqSoftCore does not store it",
+        "billing data through a payment service; the card number is handled by the payment service only, and IqSoftCore does not store it",
       ],
     },
     {
@@ -133,13 +133,13 @@ const FLEETSYNC_PRIVACY_EN = {
     {
       heading: "4. Processors",
       paragraphs: [
-        "The service data is hosted in the European Union. The database and sign-in run in a Supabase EU region. The application is hosted on Vercel.",
+        "The service data is hosted in the European Union. The database and sign-in run on a database and authentication service in an EU region. The application is hosted by a hosting service.",
       ],
       bullets: [
-        "Supabase: database and sign-in, EU region",
-        "Vercel: application hosting",
-        "Brevo: email delivery",
-        "Stripe: payments; card data stays with Stripe",
+        "Database and authentication service: database and sign-in, EU region",
+        "Hosting service: application hosting",
+        "Email service: email delivery",
+        "Payment service: payments; card data stays with the payment service",
       ],
     },
     {
@@ -187,7 +187,7 @@ FLEETSYNC_PRIVACY.sv = fleetPrivacyFromEnglish("sv", {
   metaTitle: "iqFleetSync – Integritetsmeddelande | IQSoftCore",
   metaDescription: "Integritetsmeddelande för iqFleetSync. Ansvarig, biträde, uppgifter, ändamål, underbiträden och rättigheter.",
   title: "iqFleetSync – integritetsmeddelande",
-  updated: "Uppdaterad 2026-10-05.",
+  updated: "Uppdaterad 2026-10-14.",
   backCompany: "Företagets integritet",
   backHome: "Startsida",
 });
@@ -204,7 +204,7 @@ FLEETSYNC_PRIVACY.sv.sections = [
     "PIN för en delad telefon som hash eller krypterad",
     "enhetsuppgifter, rapporter, foton, felanmälningar och avläsningar",
     "auditlogg",
-    "faktureringsuppgifter via Stripe; kortnumret hanteras bara av Stripe, och IqSoftCore sparar det inte",
+    "faktureringsuppgifter via en betaltjänst; kortnumret hanteras bara av betaltjänsten, och IqSoftCore sparar det inte",
   ]},
   { heading: "3. Varför och på vilken grund", paragraphs: [
     "Kundföretagets konto och leveransen av tjänsten sköts enligt avtalet.",
@@ -215,12 +215,12 @@ FLEETSYNC_PRIVACY.sv.sections = [
     "Uppgifterna säljs inte.",
   ]},
   { heading: "4. Biträden", paragraphs: [
-    "Tjänstens data lagras i EU. Databas och inloggning körs i en Supabase-region i EU. Appen körs på Vercel.",
+    "Tjänstens data lagras i EU. Databas och inloggning körs hos en databas- och inloggningstjänst i en EU-region. Appen körs hos en hostingtjänst.",
   ], bullets: [
-    "Supabase: databas och inloggning, EU-region",
-    "Vercel: hosting av appen",
-    "Brevo: utskick av e-post",
-    "Stripe: betalningar; kortuppgifter bara hos Stripe",
+    "Databas- och inloggningstjänst: databas och inloggning, EU-region",
+    "Hostingtjänst: hosting av appen",
+    "E-posttjänst: utskick av e-post",
+    "Betaltjänst: betalningar; kortuppgifter bara hos betaltjänsten",
   ]},
   { heading: "5. Lagring", paragraphs: [
     "Uppgifter sparas medan prenumerationen är aktiv.",
@@ -258,7 +258,7 @@ addFleetPrivacy("no", {
   metaTitle: "iqFleetSync – Personvernerklæring | IQSoftCore",
   metaDescription: "Personvernerklæring for iqFleetSync. Ansvarlig, databehandler, opplysninger, formål, underleverandører og rettigheter.",
   title: "iqFleetSync – personvernerklæring",
-  updated: "Oppdatert 2026-10-05.",
+  updated: "Oppdatert 2026-10-14.",
   backCompany: "Virksomhetens personvern",
   backHome: "Hjem",
 }, [
@@ -274,7 +274,7 @@ addFleetPrivacy("no", {
     "PIN for en delt telefon som hash eller kryptert",
     "enhetsopplysninger, rapporter, bilder, feilmeldinger og avlesninger",
     "revisjonslogg",
-    "faktureringsopplysninger via Stripe; kortnummeret behandles bare av Stripe, og IqSoftCore lagrer det ikke",
+    "faktureringsopplysninger via en betalingstjeneste; kortnummeret behandles bare av betalingstjenesten, og IqSoftCore lagrer det ikke",
   ]},
   { heading: "3. Hvorfor og på hvilket grunnlag", paragraphs: [
     "Kundebedriftens konto og leveringen av tjenesten skjer etter avtalen.",
@@ -285,12 +285,12 @@ addFleetPrivacy("no", {
     "Opplysningene selges ikke.",
   ]},
   { heading: "4. Databehandlere", paragraphs: [
-    "Tjenestens data ligger i EU. Database og innlogging kjører i en Supabase-region i EU. Appen kjører på Vercel.",
+    "Tjenestens data ligger i EU. Database og innlogging kjører hos en database- og innloggingstjeneste i en EU-region. Appen kjører hos en hostingtjeneste.",
   ], bullets: [
-    "Supabase: database og innlogging, EU-region",
-    "Vercel: hosting av appen",
-    "Brevo: sending av e-post",
-    "Stripe: betalinger; kortopplysninger bare hos Stripe",
+    "Database- og innloggingstjeneste: database og innlogging, EU-region",
+    "Hostingtjeneste: hosting av appen",
+    "E-posttjeneste: sending av e-post",
+    "Betalingstjeneste: betalinger; kortopplysninger bare hos betalingstjenesten",
   ]},
   { heading: "5. Lagring", paragraphs: [
     "Opplysninger lagres mens abonnementet er aktivt.",
@@ -315,7 +315,7 @@ addFleetPrivacy("da", {
   metaTitle: "iqFleetSync – Privatlivserklæring | IQSoftCore",
   metaDescription: "Privatlivserklæring for iqFleetSync. Ansvarlig, databehandler, oplysninger, formål, underdatabehandlere og rettigheder.",
   title: "iqFleetSync – privatlivserklæring",
-  updated: "Opdateret 2026-10-05.",
+  updated: "Opdateret 2026-10-14.",
   backCompany: "Virksomhedens privatliv",
   backHome: "Forside",
 }, [
@@ -331,7 +331,7 @@ addFleetPrivacy("da", {
     "PIN til en delt telefon som hash eller krypteret",
     "enhedsoplysninger, rapporter, billeder, fejlmeldinger og aflæsninger",
     "revisionslog",
-    "faktureringsoplysninger via Stripe; kortnummeret behandles kun af Stripe, og IqSoftCore gemmer det ikke",
+    "faktureringsoplysninger via en betalingstjeneste; kortnummeret behandles kun af betalingstjenesten, og IqSoftCore gemmer det ikke",
   ]},
   { heading: "3. Hvorfor og på hvilket grundlag", paragraphs: [
     "Kundevirksomhedens konto og leveringen af tjenesten sker efter aftalen.",
@@ -342,12 +342,12 @@ addFleetPrivacy("da", {
     "Oplysningerne sælges ikke.",
   ]},
   { heading: "4. Databehandlere", paragraphs: [
-    "Tjenestens data ligger i EU. Database og login kører i en Supabase-region i EU. Appen kører på Vercel.",
+    "Tjenestens data ligger i EU. Database og login kører hos en database- og logintjeneste i en EU-region. Appen kører hos en hostingtjeneste.",
   ], bullets: [
-    "Supabase: database og login, EU-region",
-    "Vercel: hosting af appen",
-    "Brevo: afsendelse af e-mail",
-    "Stripe: betalinger; kortoplysninger kun hos Stripe",
+    "Database- og logintjeneste: database og login, EU-region",
+    "Hostingtjeneste: hosting af appen",
+    "E-mailtjeneste: afsendelse af e-mail",
+    "Betalingstjeneste: betalinger; kortoplysninger kun hos betalingstjenesten",
   ]},
   { heading: "5. Opbevaring", paragraphs: [
     "Oplysninger opbevares, mens abonnementet er aktivt.",
@@ -372,7 +372,7 @@ addFleetPrivacy("de", {
   metaTitle: "iqFleetSync – Datenschutzhinweis | IQSoftCore",
   metaDescription: "Datenschutzhinweis für iqFleetSync. Verantwortlicher, Auftragsverarbeiter, Daten, Zwecke, Unterauftragsverarbeiter und Rechte.",
   title: "iqFleetSync – Datenschutzhinweis",
-  updated: "Aktualisiert am 2026-10-05.",
+  updated: "Aktualisiert am 2026-10-14.",
   backCompany: "Datenschutz des Unternehmens",
   backHome: "Startseite",
 }, [
@@ -388,7 +388,7 @@ addFleetPrivacy("de", {
     "PIN eines gemeinsamen Telefons als Hash oder verschlüsselt",
     "Einheitendaten, Berichte, Fotos, Mängelmeldungen und Ablesungen",
     "Audit-Protokoll",
-    "Abrechnungsdaten über Stripe; die Kartennummer verarbeitet nur Stripe, IqSoftCore speichert sie nicht",
+    "Abrechnungsdaten über einen Zahlungsdienst; die Kartennummer verarbeitet nur der Zahlungsdienst, IqSoftCore speichert sie nicht",
   ]},
   { heading: "3. Warum und auf welcher Grundlage", paragraphs: [
     "Das Konto des Kundenunternehmens und die Bereitstellung des Dienstes erfolgen aufgrund des Vertrags.",
@@ -399,12 +399,12 @@ addFleetPrivacy("de", {
     "Personenbezogene Daten werden nicht verkauft.",
   ]},
   { heading: "4. Auftragsverarbeiter", paragraphs: [
-    "Die Daten des Dienstes liegen in der EU. Datenbank und Anmeldung laufen in einer Supabase-Region in der EU. Die Anwendung läuft auf Vercel.",
+    "Die Daten des Dienstes liegen in der EU. Datenbank und Anmeldung laufen bei einem Datenbank- und Anmeldedienst in einer EU-Region. Die Anwendung läuft bei einem Hosting-Dienst.",
   ], bullets: [
-    "Supabase: Datenbank und Anmeldung, EU-Region",
-    "Vercel: Hosting der Anwendung",
-    "Brevo: Versand von E-Mail",
-    "Stripe: Zahlungen; Kartendaten nur bei Stripe",
+    "Datenbank- und Anmeldedienst: Datenbank und Anmeldung, EU-Region",
+    "Hosting-Dienst: Hosting der Anwendung",
+    "E-Mail-Dienst: Versand von E-Mail",
+    "Zahlungsdienst: Zahlungen; Kartendaten nur beim Zahlungsdienst",
   ]},
   { heading: "5. Speicherdauer", paragraphs: [
     "Daten werden gespeichert, solange das Abonnement aktiv ist.",
@@ -429,7 +429,7 @@ addFleetPrivacy("nl", {
   metaTitle: "iqFleetSync – Privacyverklaring | IQSoftCore",
   metaDescription: "Privacyverklaring voor iqFleetSync. Verantwoordelijke, verwerker, gegevens, doelen, subverwerkers en rechten.",
   title: "iqFleetSync – privacyverklaring",
-  updated: "Bijgewerkt op 2026-10-05.",
+  updated: "Bijgewerkt op 2026-10-14.",
   backCompany: "Privacy van het bedrijf",
   backHome: "Home",
 }, [
@@ -445,7 +445,7 @@ addFleetPrivacy("nl", {
     "PIN van een gedeelde telefoon als hash of versleuteld",
     "eenheidsgegevens, rapporten, foto’s, gebrekmeldingen en standen",
     "auditlogboek",
-    "factuurgegevens via Stripe; het kaartnummer verwerkt alleen Stripe, IqSoftCore slaat het niet op",
+    "factuurgegevens via een betaaldienst; het kaartnummer verwerkt alleen de betaaldienst, IqSoftCore slaat het niet op",
   ]},
   { heading: "3. Waarom en op welke grond", paragraphs: [
     "Het account van het klantbedrijf en de levering van de dienst gebeuren op grond van de overeenkomst.",
@@ -456,12 +456,12 @@ addFleetPrivacy("nl", {
     "Persoonsgegevens worden niet verkocht.",
   ]},
   { heading: "4. Verwerkers", paragraphs: [
-    "De gegevens van de dienst staan in de EU. Database en aanmelden draaien in een Supabase-regio in de EU. De applicatie draait op Vercel.",
+    "De gegevens van de dienst staan in de EU. Database en aanmelden draaien bij een database- en aanmelddienst in een EU-regio. De applicatie draait bij een hostingsdienst.",
   ], bullets: [
-    "Supabase: database en aanmelden, EU-regio",
-    "Vercel: hosting van de applicatie",
-    "Brevo: verzending van e-mail",
-    "Stripe: betalingen; kaartgegevens alleen bij Stripe",
+    "Database- en aanmelddienst: database en aanmelden, EU-regio",
+    "Hostingsdienst: hosting van de applicatie",
+    "E-maildienst: verzending van e-mail",
+    "Betaaldienst: betalingen; kaartgegevens alleen bij de betaaldienst",
   ]},
   { heading: "5. Bewaartermijn", paragraphs: [
     "Gegevens worden bewaard zolang het abonnement actief is.",
@@ -486,7 +486,7 @@ addFleetPrivacy("fr", {
   metaTitle: "iqFleetSync – Notice de confidentialité | IQSoftCore",
   metaDescription: "Notice de confidentialité d’iqFleetSync. Responsable, sous-traitant, données, finalités, sous-traitants ultérieurs et droits.",
   title: "iqFleetSync – notice de confidentialité",
-  updated: "Mise à jour le 2026-10-05.",
+  updated: "Mise à jour le 2026-10-14.",
   backCompany: "Confidentialité de l’entreprise",
   backHome: "Accueil",
 }, [
@@ -502,7 +502,7 @@ addFleetPrivacy("fr", {
     "PIN d’un téléphone partagé sous forme de condensat ou chiffré",
     "données d’unité, rapports, photos, signalements de défaut et relevés",
     "journal d’audit",
-    "données de facturation via Stripe ; le numéro de carte est traité seulement par Stripe, IqSoftCore ne le conserve pas",
+    "données de facturation via un service de paiement ; le numéro de carte est traité seulement par le service de paiement, IqSoftCore ne le conserve pas",
   ]},
   { heading: "3. Pourquoi et sur quelle base", paragraphs: [
     "Le compte de l’entreprise cliente et la fourniture du service reposent sur le contrat.",
@@ -513,12 +513,12 @@ addFleetPrivacy("fr", {
     "Les données personnelles ne sont pas vendues.",
   ]},
   { heading: "4. Sous-traitants", paragraphs: [
-    "Les données du service sont hébergées dans l’Union européenne. La base et la connexion sont dans une région UE de Supabase. L’application est hébergée sur Vercel.",
+    "Les données du service sont hébergées dans l’Union européenne. La base et la connexion sont chez un service de base de données et d’authentification dans une région de l’UE. L’application est hébergée par un service d’hébergement.",
   ], bullets: [
-    "Supabase : base de données et connexion, région UE",
-    "Vercel : hébergement de l’application",
-    "Brevo : envoi des e-mails",
-    "Stripe : paiements ; données de carte seulement chez Stripe",
+    "Service de base de données et d’authentification : base de données et connexion, région UE",
+    "Service d’hébergement : hébergement de l’application",
+    "Service d’e-mail : envoi des e-mails",
+    "Service de paiement : paiements ; données de carte seulement chez le service de paiement",
   ]},
   { heading: "5. Conservation", paragraphs: [
     "Les données sont conservées tant que l’abonnement est actif.",
@@ -543,7 +543,7 @@ addFleetPrivacy("es", {
   metaTitle: "iqFleetSync – Aviso de privacidad | IQSoftCore",
   metaDescription: "Aviso de privacidad de iqFleetSync. Responsable, encargado, datos, fines, subencargados y derechos.",
   title: "iqFleetSync – aviso de privacidad",
-  updated: "Actualizado el 2026-10-05.",
+  updated: "Actualizado el 2026-10-14.",
   backCompany: "Privacidad de la empresa",
   backHome: "Inicio",
 }, [
@@ -559,7 +559,7 @@ addFleetPrivacy("es", {
     "PIN de un teléfono compartido como hash o cifrado",
     "datos de la unidad, informes, fotos, defectos y lecturas",
     "registro de auditoría",
-    "datos de facturación a través de Stripe; el número de tarjeta lo trata solo Stripe, e IqSoftCore no lo guarda",
+    "datos de facturación a través de un servicio de pago; el número de tarjeta lo trata solo el servicio de pago, e IqSoftCore no lo guarda",
   ]},
   { heading: "3. Para qué y con qué base", paragraphs: [
     "La cuenta de la empresa cliente y la prestación del servicio se hacen en virtud del contrato.",
@@ -570,12 +570,12 @@ addFleetPrivacy("es", {
     "Los datos personales no se venden.",
   ]},
   { heading: "4. Encargados", paragraphs: [
-    "Los datos del servicio se alojan en la Unión Europea. La base de datos y el acceso están en una región de la UE de Supabase. La aplicación se aloja en Vercel.",
+    "Los datos del servicio se alojan en la Unión Europea. La base de datos y el acceso están en un servicio de base de datos y autenticación en una región de la UE. La aplicación se aloja en un servicio de hosting.",
   ], bullets: [
-    "Supabase: base de datos y acceso, región de la UE",
-    "Vercel: alojamiento de la aplicación",
-    "Brevo: envío de correo",
-    "Stripe: pagos; los datos de la tarjeta solo en Stripe",
+    "Servicio de base de datos y autenticación: base de datos y acceso, región de la UE",
+    "Servicio de hosting: alojamiento de la aplicación",
+    "Servicio de correo: envío de correo",
+    "Servicio de pago: pagos; los datos de la tarjeta solo en el servicio de pago",
   ]},
   { heading: "5. Conservación", paragraphs: [
     "Los datos se conservan mientras la suscripción está activa.",
@@ -600,7 +600,7 @@ addFleetPrivacy("pt", {
   metaTitle: "iqFleetSync – Aviso de privacidade | IQSoftCore",
   metaDescription: "Aviso de privacidade do iqFleetSync. Responsável, subcontratante, dados, finalidades, subcontratantes e direitos.",
   title: "iqFleetSync – aviso de privacidade",
-  updated: "Atualizado em 2026-10-05.",
+  updated: "Atualizado em 2026-10-14.",
   backCompany: "Privacidade da empresa",
   backHome: "Início",
 }, [
@@ -616,7 +616,7 @@ addFleetPrivacy("pt", {
     "PIN de um telefone partilhado como hash ou cifrado",
     "dados da unidade, relatórios, fotografias, defeitos e leituras",
     "registo de auditoria",
-    "dados de faturação através da Stripe; o número do cartão é tratado só pela Stripe, e a IqSoftCore não o guarda",
+    "dados de faturação através de um serviço de pagamento; o número do cartão é tratado só pelo serviço de pagamento, e a IqSoftCore não o guarda",
   ]},
   { heading: "3. Para quê e com que base", paragraphs: [
     "A conta da empresa cliente e a prestação do serviço assentam no contrato.",
@@ -627,12 +627,12 @@ addFleetPrivacy("pt", {
     "Os dados pessoais não são vendidos.",
   ]},
   { heading: "4. Subcontratantes", paragraphs: [
-    "Os dados do serviço estão alojados na União Europeia. A base de dados e o acesso correm numa região da UE da Supabase. A aplicação está alojada na Vercel.",
+    "Os dados do serviço estão alojados na União Europeia. A base de dados e o acesso correm num serviço de base de dados e autenticação numa região da UE. A aplicação está alojada num serviço de alojamento.",
   ], bullets: [
-    "Supabase: base de dados e acesso, região da UE",
-    "Vercel: alojamento da aplicação",
-    "Brevo: envio de e-mail",
-    "Stripe: pagamentos; dados do cartão só na Stripe",
+    "Serviço de base de dados e autenticação: base de dados e acesso, região da UE",
+    "Serviço de alojamento: alojamento da aplicação",
+    "Serviço de e-mail: envio de e-mail",
+    "Serviço de pagamento: pagamentos; dados do cartão só no serviço de pagamento",
   ]},
   { heading: "5. Conservação", paragraphs: [
     "Os dados são conservados enquanto a subscrição está ativa.",
@@ -657,7 +657,7 @@ addFleetPrivacy("it", {
   metaTitle: "iqFleetSync – Informativa privacy | IQSoftCore",
   metaDescription: "Informativa privacy di iqFleetSync. Titolare, responsabile, dati, finalità, sub-responsabili e diritti.",
   title: "iqFleetSync – informativa privacy",
-  updated: "Aggiornata il 2026-10-05.",
+  updated: "Aggiornata il 2026-10-14.",
   backCompany: "Privacy dell’azienda",
   backHome: "Home",
 }, [
@@ -673,7 +673,7 @@ addFleetPrivacy("it", {
     "PIN di un telefono condiviso come hash o cifrato",
     "dati dell’unità, rapporti, foto, difetti e letture",
     "registro di audit",
-    "dati di fatturazione tramite Stripe; il numero della carta è trattato solo da Stripe e IqSoftCore non lo conserva",
+    "dati di fatturazione tramite un servizio di pagamento; il numero della carta è trattato solo dal servizio di pagamento e IqSoftCore non lo conserva",
   ]},
   { heading: "3. Perché e su quale base", paragraphs: [
     "L’account dell’azienda cliente e l’erogazione del servizio si fondano sul contratto.",
@@ -684,12 +684,12 @@ addFleetPrivacy("it", {
     "I dati personali non sono venduti.",
   ]},
   { heading: "4. Responsabili del trattamento", paragraphs: [
-    "I dati del servizio sono ospitati nell’Unione europea. Database e accesso sono in una regione UE di Supabase. L’applicazione è ospitata su Vercel.",
+    "I dati del servizio sono ospitati nell’Unione europea. Database e accesso sono presso un servizio di database e autenticazione in una regione UE. L’applicazione è ospitata da un servizio di hosting.",
   ], bullets: [
-    "Supabase: database e accesso, regione UE",
-    "Vercel: hosting dell’applicazione",
-    "Brevo: invio delle e-mail",
-    "Stripe: pagamenti; dati della carta solo presso Stripe",
+    "Servizio di database e autenticazione: database e accesso, regione UE",
+    "Servizio di hosting: hosting dell’applicazione",
+    "Servizio e-mail: invio delle e-mail",
+    "Servizio di pagamento: pagamenti; dati della carta solo presso il servizio di pagamento",
   ]},
   { heading: "5. Conservazione", paragraphs: [
     "I dati sono conservati finché l’abbonamento è attivo.",
@@ -714,7 +714,7 @@ addFleetPrivacy("pl", {
   metaTitle: "iqFleetSync – Informacja o prywatności | IQSoftCore",
   metaDescription: "Informacja o prywatności iqFleetSync. Administrator, podmiot przetwarzający, dane, cele, podmioty i prawa.",
   title: "iqFleetSync – informacja o prywatności",
-  updated: "Aktualizacja 2026-10-05.",
+  updated: "Aktualizacja 2026-10-14.",
   backCompany: "Prywatność firmy",
   backHome: "Strona główna",
 }, [
@@ -730,7 +730,7 @@ addFleetPrivacy("pl", {
     "PIN wspólnego telefonu jako skrót albo w postaci zaszyfrowanej",
     "dane jednostki, raporty, zdjęcia, usterki i odczyty",
     "dziennik audytu",
-    "dane rozliczeniowe przez Stripe; numer karty obsługuje tylko Stripe, a IqSoftCore go nie zapisuje",
+    "dane rozliczeniowe przez usługę płatności; numer karty obsługuje tylko usługa płatności, a IqSoftCore go nie zapisuje",
   ]},
   { heading: "3. Po co i na jakiej podstawie", paragraphs: [
     "Konto firmy klienta i świadczenie usługi odbywają się na podstawie umowy.",
@@ -741,12 +741,12 @@ addFleetPrivacy("pl", {
     "Danych osobowych nie sprzedajemy.",
   ]},
   { heading: "4. Podmioty przetwarzające", paragraphs: [
-    "Dane usługi są przechowywane w Unii Europejskiej. Baza i logowanie działają w regionie UE Supabase. Aplikacja jest hostowana na Vercel.",
+    "Dane usługi są przechowywane w Unii Europejskiej. Baza i logowanie działają u usługi bazy danych i logowania w regionie UE. Aplikacja jest hostowana u usługi hostingowej.",
   ], bullets: [
-    "Supabase: baza danych i logowanie, region UE",
-    "Vercel: hosting aplikacji",
-    "Brevo: wysyłka e-mail",
-    "Stripe: płatności; dane karty tylko u Stripe",
+    "Usługa bazy danych i logowania: baza danych i logowanie, region UE",
+    "Usługa hostingowa: hosting aplikacji",
+    "Usługa e-mail: wysyłka e-mail",
+    "Usługa płatności: płatności; dane karty tylko u usługi płatności",
   ]},
   { heading: "5. Przechowywanie", paragraphs: [
     "Dane są przechowywane, gdy subskrypcja jest aktywna.",
@@ -771,7 +771,7 @@ addFleetPrivacy("cs", {
   metaTitle: "iqFleetSync – Informace o ochraně soukromí | IQSoftCore",
   metaDescription: "Informace o ochraně soukromí iqFleetSync. Správce, zpracovatel, údaje, účely, další zpracovatelé a práva.",
   title: "iqFleetSync – informace o ochraně soukromí",
-  updated: "Aktualizováno 2026-10-05.",
+  updated: "Aktualizováno 2026-10-14.",
   backCompany: "Soukromí firmy",
   backHome: "Domů",
 }, [
@@ -787,7 +787,7 @@ addFleetPrivacy("cs", {
     "PIN sdíleného telefonu jako hash nebo šifrovaně",
     "údaje jednotky, hlášení, fotografie, závady a odečty",
     "auditní záznam",
-    "fakturační údaje přes Stripe; číslo karty zpracovává jen Stripe a IqSoftCore je neukládá",
+    "fakturační údaje přes platební službu; číslo karty zpracovává jen platební služba a IqSoftCore je neukládá",
   ]},
   { heading: "3. Proč a na jakém základě", paragraphs: [
     "Účet zákaznické firmy a poskytování služby probíhají na základě smlouvy.",
@@ -798,12 +798,12 @@ addFleetPrivacy("cs", {
     "Osobní údaje se neprodávají.",
   ]},
   { heading: "4. Zpracovatelé", paragraphs: [
-    "Data služby jsou uložena v Evropské unii. Databáze a přihlášení běží v regionu EU služby Supabase. Aplikace běží na Vercelu.",
+    "Data služby jsou uložena v Evropské unii. Databáze a přihlášení běží u služby databáze a přihlášení v regionu EU. Aplikace běží u hostingové služby.",
   ], bullets: [
-    "Supabase: databáze a přihlášení, region EU",
-    "Vercel: hosting aplikace",
-    "Brevo: odesílání e-mailu",
-    "Stripe: platby; údaje karty jen u Stripe",
+    "Služba databáze a přihlášení: databáze a přihlášení, region EU",
+    "Hostingová služba: hosting aplikace",
+    "E-mailová služba: odesílání e-mailu",
+    "Platební služba: platby; údaje karty jen u platební služby",
   ]},
   { heading: "5. Uchování", paragraphs: [
     "Údaje se uchovávají, dokud je předplatné aktivní.",
@@ -828,7 +828,7 @@ addFleetPrivacy("ja", {
   metaTitle: "iqFleetSync – プライバシー通知 | IQSoftCore",
   metaDescription: "iqFleetSyncのプライバシー通知。管理者、処理者、データ、目的、委託先、権利。",
   title: "iqFleetSync – プライバシー通知",
-  updated: "更新日 2026-10-05。",
+  updated: "更新日 2026-10-14。",
   backCompany: "会社のプライバシー",
   backHome: "ホーム",
 }, [
@@ -844,7 +844,7 @@ addFleetPrivacy("ja", {
     "共用電話のPIN（ハッシュまたは暗号化）",
     "ユニットのデータ、報告、写真、不具合、読み取り値",
     "監査ログ",
-    "Stripe経由の請求データ。カード番号はStripeだけが扱い、IqSoftCoreは保存しません",
+    "決済サービス経由の請求データ。カード番号は決済サービスだけが扱い、IqSoftCoreは保存しません",
   ]},
   { heading: "3. 目的と根拠", paragraphs: [
     "顧客企業のアカウントとサービスの提供は、契約に基づきます。",
@@ -855,12 +855,12 @@ addFleetPrivacy("ja", {
     "個人データは売りません。",
   ]},
   { heading: "4. 委託先", paragraphs: [
-    "サービスのデータはEU内にあります。データベースとログインはSupabaseのEUリージョンです。アプリはVercelで動きます。",
+    "サービスのデータはEU内にあります。データベースとログインはEUリージョンのデータベース・認証サービスです。アプリはホスティングサービスで動きます。",
   ], bullets: [
-    "Supabase：データベースとログイン、EUリージョン",
-    "Vercel：アプリのホスティング",
-    "Brevo：メール送信",
-    "Stripe：支払い。カード情報はStripeのみ",
+    "データベース・認証サービス：データベースとログイン、EUリージョン",
+    "ホスティングサービス：アプリのホスティング",
+    "メールサービス：メール送信",
+    "決済サービス：支払い。カード情報は決済サービスのみ",
   ]},
   { heading: "5. 保存", paragraphs: [
     "契約が有効な間、データを保存します。",
@@ -885,7 +885,7 @@ addFleetPrivacy("ko", {
   metaTitle: "iqFleetSync – 개인정보 안내 | IQSoftCore",
   metaDescription: "iqFleetSync 개인정보 안내. 관리자, 처리자, 데이터, 목적, 수탁자, 권리.",
   title: "iqFleetSync – 개인정보 안내",
-  updated: "업데이트 2026-10-05.",
+  updated: "업데이트 2026-10-14.",
   backCompany: "회사 개인정보",
   backHome: "홈",
 }, [
@@ -901,7 +901,7 @@ addFleetPrivacy("ko", {
     "공용 전화 PIN의 해시 또는 암호화된 값",
     "장비 데이터, 보고, 사진, 고장, 읽은 값",
     "감사 기록",
-    "Stripe를 통한 청구 데이터. 카드 번호는 Stripe만 다루며 IqSoftCore는 저장하지 않습니다",
+    "결제 서비스를 통한 청구 데이터. 카드 번호는 결제 서비스만 다루며 IqSoftCore는 저장하지 않습니다",
   ]},
   { heading: "3. 이유와 근거", paragraphs: [
     "고객 회사의 계정과 서비스 제공은 계약에 따릅니다.",
@@ -912,12 +912,12 @@ addFleetPrivacy("ko", {
     "개인정보는 팔지 않습니다.",
   ]},
   { heading: "4. 수탁자", paragraphs: [
-    "서비스 데이터는 EU에 있습니다. 데이터베이스와 로그인은 Supabase의 EU 리전입니다. 앱은 Vercel에서 돌아갑니다.",
+    "서비스 데이터는 EU에 있습니다. 데이터베이스와 로그인은 EU 리전의 데이터베이스·인증 서비스입니다. 앱은 호스팅 서비스에서 돌아갑니다.",
   ], bullets: [
-    "Supabase: 데이터베이스와 로그인, EU 리전",
-    "Vercel: 앱 호스팅",
-    "Brevo: 이메일 발송",
-    "Stripe: 결제. 카드 정보는 Stripe만",
+    "데이터베이스·인증 서비스: 데이터베이스와 로그인, EU 리전",
+    "호스팅 서비스: 앱 호스팅",
+    "이메일 서비스: 이메일 발송",
+    "결제 서비스: 결제. 카드 정보는 결제 서비스만",
   ]},
   { heading: "5. 보관", paragraphs: [
     "구독이 유지되는 동안 데이터를 보관합니다.",
@@ -942,7 +942,7 @@ addFleetPrivacy("zh", {
   metaTitle: "iqFleetSync – 隐私说明 | IQSoftCore",
   metaDescription: "iqFleetSync 隐私说明。控制者、处理者、数据、目的、次处理者和权利。",
   title: "iqFleetSync – 隐私说明",
-  updated: "更新于 2026-10-05。",
+  updated: "更新于 2026-10-14。",
   backCompany: "公司隐私",
   backHome: "首页",
 }, [
@@ -958,7 +958,7 @@ addFleetPrivacy("zh", {
     "共用电话 PIN 的哈希或加密形式",
     "设备数据、报告、照片、缺陷和读数",
     "审计日志",
-    "通过 Stripe 的账单数据；卡号只由 Stripe 处理，IqSoftCore 不保存",
+    "通过支付服务的账单数据；卡号只由支付服务处理，IqSoftCore 不保存",
   ]},
   { heading: "3. 目的和依据", paragraphs: [
     "客户公司的账户和服务的提供依据合同。",
@@ -969,12 +969,12 @@ addFleetPrivacy("zh", {
     "不出售个人数据。",
   ]},
   { heading: "4. 处理者", paragraphs: [
-    "服务数据存放在欧盟。数据库和登录位于 Supabase 的欧盟区域。应用托管在 Vercel。",
+    "服务数据存放在欧盟。数据库和登录位于欧盟区域的数据库与身份验证服务。应用由托管服务托管。",
   ], bullets: [
-    "Supabase：数据库和登录，欧盟区域",
-    "Vercel：应用托管",
-    "Brevo：发送电子邮件",
-    "Stripe：付款；卡数据只在 Stripe",
+    "数据库与身份验证服务：数据库和登录，欧盟区域",
+    "托管服务：应用托管",
+    "电子邮件服务：发送电子邮件",
+    "支付服务：付款；卡数据只在支付服务",
   ]},
   { heading: "5. 保存", paragraphs: [
     "订阅有效期间保存数据。",

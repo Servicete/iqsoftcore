@@ -4,14 +4,14 @@ Yksinkertaiset yrityskotisivut IQSoftCorelle. Yritys tekee ohjelmistoja, sovellu
 
 ## Sisältö
 
-- Etusivu: lyhyt yritysesittely ja yhteystiedot
-- Sovellukset: `apps.html` (Tuntilappu, iqFleetSync, iqRallyNote)
+- Etusivu: iqFleetSync™ ensin (kokeilu, kohderyhmät, hinta, UKK). iqRallyNote™ ja iqWorkLog omina kortteinaan. Muut palvelut lyhyesti.
+- Sovellukset: `apps.html` (iqFleetSync, iqRallyNote, iqWorkLog)
 - iqFleetSync: `iqfleetsync.html` (myyntisivu: yritys-, huolto- ja kuljettajanäkymä, laskuri, kokeilu)
 - Hinnasto: `hinnasto.html`
 - Käyttöehdot: `kayttoehdot.html`
 - Tietosuoja: yritystason käytäntö (`privacy.html`, iqFleetSync-osio `#iqfleetsync`), Tuntilapun oma sivu (`privacy-tuntilappu.html`) ja iqRallyNoten oma sivu (`privacy-iqrallynote.html`)
 - Logo: SVG-merkki (IQC) ja wordmark
-- Kielet: fi, en, sv, no, da, de, nl, fr, es, pt, it, pl, cs, ja, ko, zh
+- Kielet sivustolla: fi, sv, no, da, de, en, es, it, fr (samat kuin iqFleetSyncissä). Vanhemmat käännökset voivat olla tiedostoissa, mutta kielivalikko ei lupaa niitä.
 
 ## iqFleetSync-sivu (2026-10-05)
 

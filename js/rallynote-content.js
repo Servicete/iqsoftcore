@@ -330,6 +330,7 @@ function renderRallyNotePage(lang) {
   if (!root) return;
   const page = RALLY_PAGE[lang] || RALLY_PAGE.en;
   const privacyLabel = RALLY_PRIVACY_LINK[lang] || RALLY_PRIVACY_LINK.en;
+  const ui = (typeof window.iqStringsFor === "function" && window.iqStringsFor(lang)) || {};
 
   const titleEl = document.querySelector("title");
   if (titleEl) titleEl.textContent = page.metaTitle;
@@ -350,7 +351,8 @@ function renderRallyNotePage(lang) {
     <div class="product-heading">
       <img class="product-icon" src="assets/iqrallynote-icon.svg" width="72" height="72" alt="" />
       <div>
-        <h1>iqRallyNote</h1>
+        <h1>iqRallyNote™</h1>
+        <p class="status-pill status-soon">${escapeRallyHtml(ui.statusSoon || "Tulossa")}</p>
       </div>
     </div>
     <p class="app-short">${escapeRallyHtml(page.lead)}</p>

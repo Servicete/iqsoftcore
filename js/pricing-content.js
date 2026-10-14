@@ -1213,7 +1213,7 @@ function renderPricingPage(lang) {
     <h2>${escapePriceHtml(page.billingTitle)}</h2>
     <p class="billing-note">${escapePriceHtml(page.billingNote)} <a href="kayttoehdot.html">${escapePriceHtml(page.billingLink)}</a></p>
     <div class="app-actions">
-      <a class="btn btn-primary" href="https://fleetsync.iqsoftcore.fi/rekisteroidy">${escapePriceHtml(page.cta)}</a>
+      <a class="btn btn-primary" id="cta-trial-pricing" data-cta="trial" href="https://fleetsync.iqsoftcore.fi/rekisteroidy" rel="noopener noreferrer">${escapePriceHtml(page.cta)}</a>
       <a class="btn btn-ghost" href="kayttoehdot.html">${escapePriceHtml(page.terms)}</a>
     </div>
     <h2>${escapePriceHtml(page.calcTitle)}</h2>

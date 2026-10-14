@@ -617,7 +617,132 @@ const translations = {
   },
 };
 
-const SUPPORTED = Object.keys(translations);
+const SITE_LANGS = ["fi", "sv", "no", "da", "de", "en", "es", "it", "fr"];
+const SUPPORTED = SITE_LANGS;
+const OG_LOCALE = {
+  fi: "fi_FI",
+  sv: "sv_SE",
+  no: "nb_NO",
+  da: "da_DK",
+  de: "de_DE",
+  en: "en_US",
+  es: "es_ES",
+  it: "it_IT",
+  fr: "fr_FR",
+};
+
+const CHROME = {
+  fi: {
+    skipLink: "Siirry sisältöön",
+    navProducts: "Tuotteet",
+    navOpen: "Avaa valikko",
+    navClose: "Sulje valikko",
+    langScope: "Sivuston kielet ovat samat kuin iqFleetSyncissä: suomi, ruotsi, norja, tanska, saksa, englanti, espanja, italia ja ranska.",
+    statusLive: "Käytettävissä selaimessa",
+    statusSoon: "Tulossa",
+    worklogSoon: "iqWorkLog ei ole vielä julkinen. Tällä sivulla ei ole latauslinkkiä.",
+    readMore: "Lue lisää",
+  },
+  en: {
+    skipLink: "Skip to content",
+    navProducts: "Products",
+    navOpen: "Open menu",
+    navClose: "Close menu",
+    langScope: "The site languages are the same as in iqFleetSync: Finnish, Swedish, Norwegian, Danish, German, English, Spanish, Italian and French.",
+    statusLive: "Available in the browser",
+    statusSoon: "Coming",
+    worklogSoon: "iqWorkLog is not public yet. This page has no download link.",
+    readMore: "Read more",
+  },
+  sv: {
+    skipLink: "Hoppa till innehållet",
+    navProducts: "Produkter",
+    navOpen: "Öppna menyn",
+    navClose: "Stäng menyn",
+    langScope: "Webbplatsens språk är desamma som i iqFleetSync: finska, svenska, norska, danska, tyska, engelska, spanska, italienska och franska.",
+    statusLive: "Finns i webbläsaren",
+    statusSoon: "Kommer",
+    worklogSoon: "iqWorkLog är inte offentligt ännu. Den här sidan har ingen nedladdningslänk.",
+    readMore: "Läs mer",
+  },
+  no: {
+    skipLink: "Hopp til innhold",
+    navProducts: "Produkter",
+    navOpen: "Åpne menyen",
+    navClose: "Lukk menyen",
+    langScope: "Nettstedets språk er de samme som i iqFleetSync: finsk, svensk, norsk, dansk, tysk, engelsk, spansk, italiensk og fransk.",
+    statusLive: "Tilgjengelig i nettleseren",
+    statusSoon: "Kommer",
+    worklogSoon: "iqWorkLog er ikke offentlig ennå. Denne siden har ingen nedlastingslenke.",
+    readMore: "Les mer",
+  },
+  da: {
+    skipLink: "Spring til indhold",
+    navProducts: "Produkter",
+    navOpen: "Åbn menuen",
+    navClose: "Luk menuen",
+    langScope: "Webstedets sprog er de samme som i iqFleetSync: finsk, svensk, norsk, dansk, tysk, engelsk, spansk, italiensk og fransk.",
+    statusLive: "Tilgængelig i browseren",
+    statusSoon: "På vej",
+    worklogSoon: "iqWorkLog er ikke offentlig endnu. Denne side har intet downloadlink.",
+    readMore: "Læs mere",
+  },
+  de: {
+    skipLink: "Zum Inhalt",
+    navProducts: "Produkte",
+    navOpen: "Menü öffnen",
+    navClose: "Menü schließen",
+    langScope: "Die Sprachen der Website sind dieselben wie in iqFleetSync: Finnisch, Schwedisch, Norwegisch, Dänisch, Deutsch, Englisch, Spanisch, Italienisch und Französisch.",
+    statusLive: "Im Browser verfügbar",
+    statusSoon: "In Vorbereitung",
+    worklogSoon: "iqWorkLog ist noch nicht öffentlich. Auf dieser Seite gibt es keinen Download-Link.",
+    readMore: "Mehr lesen",
+  },
+  es: {
+    skipLink: "Saltar al contenido",
+    navProducts: "Productos",
+    navOpen: "Abrir menú",
+    navClose: "Cerrar menú",
+    langScope: "Los idiomas del sitio son los mismos que en iqFleetSync: finés, sueco, noruego, danés, alemán, inglés, español, italiano y francés.",
+    statusLive: "Disponible en el navegador",
+    statusSoon: "Próximamente",
+    worklogSoon: "iqWorkLog aún no es público. Esta página no tiene enlace de descarga.",
+    readMore: "Leer más",
+  },
+  it: {
+    skipLink: "Vai al contenuto",
+    navProducts: "Prodotti",
+    navOpen: "Apri menu",
+    navClose: "Chiudi menu",
+    langScope: "Le lingue del sito sono le stesse di iqFleetSync: finlandese, svedese, norvegese, danese, tedesco, inglese, spagnolo, italiano e francese.",
+    statusLive: "Disponibile nel browser",
+    statusSoon: "In arrivo",
+    worklogSoon: "iqWorkLog non è ancora pubblico. Questa pagina non ha un link di download.",
+    readMore: "Leggi di più",
+  },
+  fr: {
+    skipLink: "Aller au contenu",
+    navProducts: "Produits",
+    navOpen: "Ouvrir le menu",
+    navClose: "Fermer le menu",
+    langScope: "Les langues du site sont les mêmes que dans iqFleetSync : finnois, suédois, norvégien, danois, allemand, anglais, espagnol, italien et français.",
+    statusLive: "Disponible dans le navigateur",
+    statusSoon: "À venir",
+    worklogSoon: "iqWorkLog n’est pas encore public. Cette page n’a pas de lien de téléchargement.",
+    readMore: "Lire la suite",
+  },
+};
+
+function stringsFor(lang) {
+  const base = translations[lang] || translations.fi;
+  const chrome = CHROME[lang] || CHROME.fi;
+  const dict = typeof window !== "undefined" ? window.HOME_I18N : undefined;
+  const home =
+    document.body && document.body.dataset.page === "home" && dict
+      ? dict[lang] || dict.fi
+      : null;
+  return Object.assign({}, base, chrome, home || {});
+}
 
 function detectLang() {
   const params = new URLSearchParams(window.location.search);
@@ -632,7 +757,8 @@ function detectLang() {
 }
 
 function applyTranslations(lang) {
-  const t = translations[lang] || translations.fi;
+  if (!SUPPORTED.includes(lang)) lang = "fi";
+  const t = stringsFor(lang);
   document.documentElement.lang = lang;
 
   document.querySelectorAll("[data-i18n]").forEach((el) => {
@@ -655,7 +781,10 @@ function applyTranslations(lang) {
   if (metaDesc && t.metaDescription) metaDesc.setAttribute("content", t.metaDescription);
 
   const select = document.getElementById("lang-select");
-  if (select) select.value = lang;
+  if (select) {
+    select.value = lang;
+    if (t.langScope) select.title = t.langScope;
+  }
 
   localStorage.setItem("iqsoftcore-lang", lang);
 
@@ -694,6 +823,59 @@ function applyTranslations(lang) {
   if (typeof renderTermsPage === "function") {
     renderTermsPage(lang);
   }
+
+  if (document.body && document.body.dataset.page === "home") {
+    const setMeta = (selector, value) => {
+      const el = document.querySelector(selector);
+      if (el && value) el.setAttribute("content", value);
+    };
+    setMeta('meta[property="og:title"]', t.metaTitle);
+    setMeta('meta[property="og:description"]', t.metaDescription);
+    setMeta('meta[name="twitter:title"]', t.metaTitle);
+    setMeta('meta[name="twitter:description"]', t.metaDescription);
+    setMeta('meta[property="og:locale"]', OG_LOCALE[lang] || "fi_FI");
+  }
+
+  if (typeof window.refreshNav === "function") window.refreshNav();
+}
+
+function initNav() {
+  const header = document.querySelector(".site-header");
+  const toggle = document.querySelector(".nav-toggle");
+  const nav = document.getElementById("site-nav");
+  if (!header || !toggle || !nav) return;
+
+  const setOpen = (open) => {
+    header.classList.toggle("is-open", open);
+    toggle.setAttribute("aria-expanded", open ? "true" : "false");
+    const labels = stringsFor(document.documentElement.lang || "fi");
+    const label = open ? labels.navClose : labels.navOpen;
+    toggle.setAttribute("aria-label", label);
+    const text = toggle.querySelector(".nav-toggle-label");
+    if (text) text.textContent = label;
+  };
+
+  window.refreshNav = () => setOpen(header.classList.contains("is-open"));
+
+  toggle.addEventListener("click", () => {
+    const open = toggle.getAttribute("aria-expanded") !== "true";
+    setOpen(open);
+    if (open) {
+      const first = nav.querySelector("a, select, button");
+      if (first) first.focus();
+    }
+  });
+
+  nav.addEventListener("click", (event) => {
+    if (event.target.closest("a")) setOpen(false);
+  });
+
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape" && header.classList.contains("is-open")) {
+      setOpen(false);
+      toggle.focus();
+    }
+  });
 }
 
 const COPYRIGHT_START_YEAR = 2026;
@@ -711,6 +893,7 @@ function applyCopyrightYear() {
 }
 
 function initI18n() {
+  initNav();
   const lang = detectLang();
   applyCopyrightYear();
   applyTranslations(lang);
@@ -722,5 +905,7 @@ function initI18n() {
     });
   }
 }
+
+window.iqStringsFor = stringsFor;
 
 document.addEventListener("DOMContentLoaded", initI18n);

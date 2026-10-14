@@ -225,6 +225,7 @@ function renderAppsPage(lang) {
   if (!root || typeof APPS_INDEX === "undefined") return;
 
   const page = APPS_INDEX[lang] || APPS_INDEX.en || APPS_INDEX.fi;
+  const ui = (typeof window.iqStringsFor === "function" && window.iqStringsFor(lang)) || {};
   const titleEl = document.querySelector("title");
   if (titleEl && page.metaTitle) titleEl.textContent = page.metaTitle;
 
@@ -236,22 +237,36 @@ function renderAppsPage(lang) {
     "iqfleetsync.html": "assets/iqfleetsync-icon.svg",
     "iqrallynote.html": "assets/iqrallynote-icon.svg",
   };
-  const cards = page.products
+  const order = ["iqfleetsync.html", "iqrallynote.html", "tuntilappu.html"];
+  const products = order
+    .map((href) => page.products.find((item) => item[0] === href))
+    .filter(Boolean);
+  const cards = products
     .map(([href, name, blurb]) => {
       const safeHref = escapeAppsIndexHtml(href);
-      const safeName = escapeAppsIndexHtml(name);
+      const displayName = href === "iqfleetsync.html"
+        ? "iqFleetSync™"
+        : href === "iqrallynote.html"
+          ? "iqRallyNote™"
+          : name;
+      const safeName = escapeAppsIndexHtml(displayName);
       const helpLink = href === "iqfleetsync.html" && page.help
         ? `<a class="btn btn-ghost" href="ohjekeskus.html">${escapeAppsIndexHtml(page.help)}</a>`
         : "";
+      const status = href === "iqfleetsync.html"
+        ? `<p class="status-pill">${escapeAppsIndexHtml(ui.statusLive || "Käytettävissä selaimessa")}</p>`
+        : `<p class="status-pill status-soon">${escapeAppsIndexHtml(ui.statusSoon || "Tulossa")}</p>`;
       const iconSrc = productIcons[href];
       const icon = iconSrc
-        ? `<a class="product-icon-link" href="${safeHref}" tabindex="-1" aria-hidden="true"><img class="product-icon" src="${iconSrc}" width="64" height="64" alt="" /></a>`
+        ? `<a class="product-icon-link" href="${safeHref}"><img class="product-icon" src="${iconSrc}" width="64" height="64" alt="${safeName}" /></a>`
         : "";
-      return `<article class="product-card">
+      const more = ui.readMore || page.openPage;
+      return `<article class="product-card product-equal">
         ${icon}
         <h2><a href="${safeHref}">${safeName}</a></h2>
+        ${status}
         <p>${escapeAppsIndexHtml(blurb)}</p>
-        <div class="card-actions"><a class="btn btn-ghost" href="${safeHref}">${escapeAppsIndexHtml(page.openPage)}</a>${helpLink}</div>
+        <div class="card-actions"><a class="btn btn-ghost" data-cta="product-${href.replace(".html", "")}" href="${safeHref}">${escapeAppsIndexHtml(more)}</a>${helpLink}</div>
       </article>`;
     })
     .join("");
