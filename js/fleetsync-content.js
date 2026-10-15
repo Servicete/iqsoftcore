@@ -979,6 +979,45 @@ const FLEET_OG_LOCALE = {
   zh: "zh_CN",
 };
 
+const FLEETSYNC_PARTNER = {
+  fi: {
+    title: "Korjaamoille: kumppanimalli tulossa",
+    text: "Raskaan kaluston korjaamo voi jatkossa hallinnoida asiakkaidensa kaluston huolto- ja katsastustietoja ja tarjota iqFleetSync™-palvelua asiakkailleen omalla hinnallaan. Malli on vielä valmisteilla – kerro meille, millainen yhteistyö sopisi teille. Kumppanimalli tulossa – ota yhteyttä.",
+  },
+  en: {
+    title: "Workshops: partner model coming",
+    text: "A heavy-equipment workshop will be able to keep customers’ service and inspection data and offer iqFleetSync™ to its customers at its own price. The model is still being prepared – tell us what kind of cooperation would suit you. Partner model coming – get in touch.",
+  },
+  sv: {
+    title: "För verkstäder: partnermodell på väg",
+    text: "En verkstad för tung utrustning kan framöver hålla kundernas service- och besiktningsuppgifter och erbjuda iqFleetSync™ till sina kunder till eget pris. Modellen förbereds fortfarande – berätta vilken typ av samarbete som skulle passa er. Partnermodell på väg – kontakta oss.",
+  },
+  no: {
+    title: "For verksteder: partnermodell på vei",
+    text: "Et verksted for tungt utstyr kan senere holde kundenes service- og kontrolldata og tilby iqFleetSync™ til kundene sine til egen pris. Modellen er fortsatt under arbeid – si fra hva slags samarbeid som ville passe dere. Partnermodell på vei – ta kontakt.",
+  },
+  da: {
+    title: "Til værksteder: partnermodel på vej",
+    text: "Et værksted for tungt udstyr kan senere holde kundernes service- og syndata og tilbyde iqFleetSync™ til sine kunder til egen pris. Modellen er stadig under forberedelse – fortæl os, hvilket samarbejde der ville passe jer. Partnermodel på vej – kontakt os.",
+  },
+  de: {
+    title: "Für Werkstätten: Partnermodell in Vorbereitung",
+    text: "Eine Werkstatt für schweres Gerät kann künftig die Wartungs- und Untersuchungsdaten der Kundenflotte führen und iqFleetSync™ den Kunden zum eigenen Preis anbieten. Das Modell wird noch vorbereitet – sagen Sie uns, welche Zusammenarbeit zu Ihnen passt. Partnermodell in Vorbereitung – nehmen Sie Kontakt auf.",
+  },
+  es: {
+    title: "Para talleres: modelo de colaboración en camino",
+    text: "Un taller de maquinaria pesada podrá llevar los datos de mantenimiento e inspección de la flota de sus clientes y ofrecer iqFleetSync™ a sus clientes a su propio precio. El modelo aún se está preparando – cuéntanos qué colaboración os encajaría. Modelo de colaboración en camino – contáctanos.",
+  },
+  it: {
+    title: "Per le officine: modello partner in arrivo",
+    text: "Un’officina di mezzi pesanti potrà tenere i dati di manutenzione e revisione della flotta dei clienti e offrire iqFleetSync™ ai propri clienti al proprio prezzo. Il modello è ancora in preparazione – dicci che collaborazione vi andrebbe. Modello partner in arrivo – contattaci.",
+  },
+  fr: {
+    title: "Pour les ateliers : modèle partenaire à venir",
+    text: "Un atelier de matériel lourd pourra tenir les données d’entretien et de contrôle de la flotte de ses clients et proposer iqFleetSync™ à ses clients à son propre prix. Le modèle se prépare encore – dites-nous quelle coopération vous conviendrait. Modèle partenaire à venir – contactez-nous.",
+  },
+};
+
 function syncFleetSocial(lang, title, description) {
   const set = (selector, value) => {
     const el = document.querySelector(selector);
@@ -1023,7 +1062,7 @@ function renderFleetSyncPage(lang) {
   root.innerHTML = `<div class="product-heading">
       <img class="product-icon" src="assets/iqfleetsync-icon.svg" width="72" height="72" alt="" />
       <div>
-        <h1>iqFleetSync</h1>
+        <h1>iqFleetSync™</h1>
         <p class="app-short">${escapeFleetHtml(page.kicker)}</p>
       </div>
     </div>
@@ -1042,13 +1081,16 @@ function renderFleetSyncPage(lang) {
     <div id="fleet-calc"></div>
     <p>${escapeFleetHtml(page.audience)}</p>
     <div class="app-actions">
-      <a class="btn btn-primary" href="https://fleetsync.iqsoftcore.fi/rekisteroidy">${escapeFleetHtml(page.cta)}</a>
-      <a class="btn btn-ghost" href="https://fleetsync.iqsoftcore.fi/login">${escapeFleetHtml(page.login)}</a>
+      <a class="btn btn-primary" id="cta-trial-fleetsync" data-cta="trial" href="https://fleetsync.iqsoftcore.fi/rekisteroidy" rel="noopener noreferrer">${escapeFleetHtml(page.cta)}</a>
+      <a class="btn btn-ghost" id="cta-login-fleetsync" data-cta="login" href="https://fleetsync.iqsoftcore.fi/login" rel="noopener noreferrer">${escapeFleetHtml(page.login)}</a>
       <a class="btn btn-ghost" href="index.html#contact">${escapeFleetHtml(page.contact)}</a>
       <a class="btn btn-ghost" href="privacy.html#iqfleetsync">${escapeFleetHtml(page.privacy)}</a>
     </div>
     <h2>${escapeFleetHtml(page.faqHeading)}</h2>
     ${faq}
+    <h2>${escapeFleetHtml((FLEETSYNC_PARTNER[lang] || FLEETSYNC_PARTNER.fi).title)}</h2>
+    <p>${escapeFleetHtml((FLEETSYNC_PARTNER[lang] || FLEETSYNC_PARTNER.fi).text)}</p>
+    <p><a class="btn btn-ghost" id="cta-contact-fleetsync-workshop" data-cta="contact" href="index.html#contact">${escapeFleetHtml(page.contact)}</a></p>
     <p class="policy-nav">
       <a class="btn btn-ghost" href="ohjekeskus.html">${escapeFleetHtml(help.label)}</a>
       <a class="btn btn-ghost" href="hinnasto.html">${escapeFleetHtml(page.pricing)}</a>

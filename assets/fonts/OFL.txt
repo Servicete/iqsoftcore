@@ -1,0 +1,9 @@
+Manrope
+Copyright 2018 The Manrope Project Authors (https://github.com/sharanda/manrope)
+
+Syne
+Copyright 2017 The Syne Project Authors (https://github.com/bonjour-monde/syne)
+
+Both fonts are licensed under the SIL Open Font License, Version 1.1.
+The license is at https://openfontlicense.org/open-font-license-version-1-1/
+These files are the latin and latin-ext variable subsets used by the site.

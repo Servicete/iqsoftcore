@@ -42,7 +42,7 @@ PRIVACY_POLICIES.tuntilappu = {
       {
         heading: "4. Maksut",
         paragraphs: [
-          "Sovelluksen voi ladata ilmaiseksi. Siihen sisältyy 14 päivän kokeilu. Kokeilun jälkeen käyttö jatkuu kertaluonteisella sovelluksen sisäisellä ostolla Google Playssa. Maksun vastaanottaa sovelluskaupan maksupalvelu. Sovellus ei tallenna maksutietoja. Sovelluskaupan maksupalvelu käsittelee maksun turvallisesti omien ehtojensa mukaisesti.",
+          "Sovelluksen voi ladata ilmaiseksi. Siihen sisältyy 14 päivän kokeilu. Kokeilun jälkeen käyttö jatkuu kertaluonteisella sovelluksen sisäisellä ostolla sovelluskaupassa. Maksun vastaanottaa sovelluskaupan maksupalvelu. Sovellus ei tallenna maksutietoja. Sovelluskaupan maksupalvelu käsittelee maksun turvallisesti omien ehtojensa mukaisesti.",
         ],
       },
       {
@@ -128,7 +128,7 @@ PRIVACY_POLICIES.tuntilappu = {
       {
         heading: "4. Payments",
         paragraphs: [
-          "The app is a free download. It includes a 14-day trial. After the trial, continued use is a one-time in-app purchase via Google Play. The app store's payment service receives the payment. The app does not store payment details. The app store's payment service processes the payment securely under its own terms.",
+          "The app is a free download. It includes a 14-day trial. After the trial, continued use is a one-time in-app purchase via the app store. The app store's payment service receives the payment. The app does not store payment details. The app store's payment service processes the payment securely under its own terms.",
         ],
       },
       {
@@ -214,7 +214,7 @@ PRIVACY_POLICIES.tuntilappu = {
       {
         heading: "4. Betalningar",
         paragraphs: [
-          "Appen kan laddas ner gratis. Den innehåller en provperiod på 14 dagar. Efter provperioden fortsätter användningen som ett engångsköp i appen via Google Play. Appbutikens betaltjänst tar emot betalningen. Appen lagrar inte betalningsuppgifter. Appbutikens betaltjänst behandlar betalningen säkert enligt sina egna villkor.",
+          "Appen kan laddas ner gratis. Den innehåller en provperiod på 14 dagar. Efter provperioden fortsätter användningen som ett engångsköp i appen via appbutiken. Appbutikens betaltjänst tar emot betalningen. Appen lagrar inte betalningsuppgifter. Appbutikens betaltjänst behandlar betalningen säkert enligt sina egna villkor.",
         ],
       },
       {
@@ -300,7 +300,7 @@ PRIVACY_POLICIES.tuntilappu = {
       {
         heading: "4. Betalinger",
         paragraphs: [
-          "Appen kan lastes ned gratis. Den har en prøveperiode på 14 dager. Etter prøveperioden fortsetter bruken som et engangskjøp i appen via Google Play. Appbutikkens betalingstjeneste mottar betalingen. Appen lagrer ikke betalingsopplysninger. Appbutikkens betalingstjeneste behandler betalingen sikkert etter egne vilkår.",
+          "Appen kan lastes ned gratis. Den har en prøveperiode på 14 dager. Etter prøveperioden fortsetter bruken som et engangskjøp i appen via appbutikken. Appbutikkens betalingstjeneste mottar betalingen. Appen lagrer ikke betalingsopplysninger. Appbutikkens betalingstjeneste behandler betalingen sikkert etter egne vilkår.",
         ],
       },
       {
@@ -386,7 +386,7 @@ PRIVACY_POLICIES.tuntilappu = {
       {
         heading: "4. Betalinger",
         paragraphs: [
-          "Appen kan downloades gratis. Den indeholder en prøveperiode på 14 dage. Efter prøveperioden fortsætter brugen som et engangskøb i appen via Google Play. Appbutikkens betalingstjeneste modtager betalingen. Appen gemmer ikke betalingsoplysninger. Appbutikkens betalingstjeneste behandler betalingen sikkert efter egne vilkår.",
+          "Appen kan downloades gratis. Den indeholder en prøveperiode på 14 dage. Efter prøveperioden fortsætter brugen som et engangskøb i appen via appbutikken. Appbutikkens betalingstjeneste modtager betalingen. Appen gemmer ikke betalingsoplysninger. Appbutikkens betalingstjeneste behandler betalingen sikkert efter egne vilkår.",
         ],
       },
       {
@@ -472,7 +472,7 @@ PRIVACY_POLICIES.tuntilappu = {
       {
         heading: "4. Zahlungen",
         paragraphs: [
-          "Die App kann kostenlos heruntergeladen werden. Sie enthält eine 14-tägige Testphase. Danach wird die weitere Nutzung zu einem einmaligen In-App-Kauf über Google Play. Der Zahlungsdienst des App-Stores empfängt die Zahlung. Die App speichert keine Zahlungsdaten. Der Zahlungsdienst des App-Stores verarbeitet die Zahlung sicher gemäß den eigenen Bedingungen.",
+          "Die App kann kostenlos heruntergeladen werden. Sie enthält eine 14-tägige Testphase. Danach wird die weitere Nutzung zu einem einmaligen In-App-Kauf über den App-Store. Der Zahlungsdienst des App-Stores empfängt die Zahlung. Die App speichert keine Zahlungsdaten. Der Zahlungsdienst des App-Stores verarbeitet die Zahlung sicher gemäß den eigenen Bedingungen.",
         ],
       },
       {
@@ -558,7 +558,7 @@ PRIVACY_POLICIES.tuntilappu = {
       {
         heading: "4. Pagos",
         paragraphs: [
-          "La app se puede descargar gratis. Incluye una prueba de 14 días. Después de la prueba, el uso continúa con una compra única dentro de la app a través de Google Play. El servicio de pago de la tienda de aplicaciones recibe el pago. La app no almacena datos de pago. El servicio de pago de la tienda de aplicaciones procesa el pago de forma segura según sus propios términos.",
+          "La app se puede descargar gratis. Incluye una prueba de 14 días. Después de la prueba, el uso continúa con una compra única dentro de la app a través de la tienda de aplicaciones. El servicio de pago de la tienda de aplicaciones recibe el pago. La app no almacena datos de pago. El servicio de pago de la tienda de aplicaciones procesa el pago de forma segura según sus propios términos.",
         ],
       },
       {
@@ -644,7 +644,7 @@ PRIVACY_POLICIES.tuntilappu = {
       {
         heading: "4. Pagamenti",
         paragraphs: [
-          "L’app si può scaricare gratis. Include una prova di 14 giorni. Dopo la prova, l’uso continua con un acquisto una tantum nell’app tramite Google Play. Il servizio di pagamento dell’app store riceve il pagamento. L’app non memorizza dati di pagamento. Il servizio di pagamento dell’app store elabora il pagamento in modo sicuro secondo i propri termini.",
+          "L’app si può scaricare gratis. Include una prova di 14 giorni. Dopo la prova, l’uso continua con un acquisto una tantum nell’app tramite lo store di app. Il servizio di pagamento dell’app store riceve il pagamento. L’app non memorizza dati di pagamento. Il servizio di pagamento dell’app store elabora il pagamento in modo sicuro secondo i propri termini.",
         ],
       },
       {
@@ -730,7 +730,7 @@ PRIVACY_POLICIES.tuntilappu = {
       {
         heading: "4. お支払い",
         paragraphs: [
-          "アプリは無料でダウンロードできます。14日間の試用が含まれます。試用の後、継続利用は Google Play でのアプリ内の買い切りです。支払いはアプリストアの決済サービスが受け取ります。アプリは支払い情報を保存しません。アプリストアの決済サービスは自らの条件に従い安全に支払いを処理します。",
+          "アプリは無料でダウンロードできます。14日間の試用が含まれます。試用の後、継続利用は アプリストアでのアプリ内の買い切りです。支払いはアプリストアの決済サービスが受け取ります。アプリは支払い情報を保存しません。アプリストアの決済サービスは自らの条件に従い安全に支払いを処理します。",
         ],
       },
       {
@@ -816,7 +816,7 @@ PRIVACY_POLICIES.tuntilappu = {
       {
         heading: "4. 결제",
         paragraphs: [
-          "앱은 무료로 다운로드할 수 있습니다. 14일 체험이 포함됩니다. 체험 후 계속 사용하려면 Google Play에서 일회성 인앱 구매를 합니다. 결제는 앱 스토어의 결제 서비스가 받습니다. 앱은 결제 정보를 저장하지 않습니다. 앱 스토어의 결제 서비스는 자체 약관에 따라 안전하게 결제를 처리합니다.",
+          "앱은 무료로 다운로드할 수 있습니다. 14일 체험이 포함됩니다. 체험 후 계속 사용하려면 앱 스토어에서 일회성 인앱 구매를 합니다. 결제는 앱 스토어의 결제 서비스가 받습니다. 앱은 결제 정보를 저장하지 않습니다. 앱 스토어의 결제 서비스는 자체 약관에 따라 안전하게 결제를 처리합니다.",
         ],
       },
       {
@@ -908,7 +908,7 @@ PRIVACY_POLICIES.tuntilappu = {
       {
         heading: "4. Paiements",
         paragraphs: [
-          "L’application peut être téléchargée gratuitement. Elle comprend un essai de 14 jours. Ensuite, la poursuite de l’utilisation est un achat unique intégré via Google Play. Le service de paiement de la boutique d’applications reçoit le paiement. L’application ne stocke pas les informations de paiement. Le service de paiement de la boutique d’applications traite le paiement de manière sécurisée selon ses propres conditions.",
+          "L’application peut être téléchargée gratuitement. Elle comprend un essai de 14 jours. Ensuite, la poursuite de l’utilisation est un achat unique intégré via la boutique d’applications. Le service de paiement de la boutique d’applications reçoit le paiement. L’application ne stocke pas les informations de paiement. Le service de paiement de la boutique d’applications traite le paiement de manière sécurisée selon ses propres conditions.",
         ],
       },
       {
@@ -1000,7 +1000,7 @@ PRIVACY_POLICIES.tuntilappu = {
       {
         heading: "4. Pagamentos",
         paragraphs: [
-          "O aplicativo pode ser baixado gratuitamente. Ele inclui um teste de 14 dias. Depois do teste, o uso continua com uma compra única no aplicativo via Google Play. O serviço de pagamento da loja de aplicativos recebe o pagamento. O aplicativo não armazena dados de pagamento. O serviço de pagamento da loja de aplicativos processa o pagamento com segurança segundo seus próprios termos.",
+          "O aplicativo pode ser baixado gratuitamente. Ele inclui um teste de 14 dias. Depois do teste, o uso continua com uma compra única no aplicativo via a loja de aplicativos. O serviço de pagamento da loja de aplicativos recebe o pagamento. O aplicativo não armazena dados de pagamento. O serviço de pagamento da loja de aplicativos processa o pagamento com segurança segundo seus próprios termos.",
         ],
       },
       {
@@ -1092,7 +1092,7 @@ PRIVACY_POLICIES.tuntilappu = {
       {
         heading: "4. Betalingen",
         paragraphs: [
-          "De app is gratis te downloaden. Er zit een proefperiode van 14 dagen bij. Daarna gaat het gebruik verder met een eenmalige aankoop in de app via Google Play. De betaaldienst van de appwinkel ontvangt de betaling. De app slaat geen betaalgegevens op. De betaaldienst van de appwinkel verwerkt de betaling veilig volgens de eigen voorwaarden.",
+          "De app is gratis te downloaden. Er zit een proefperiode van 14 dagen bij. Daarna gaat het gebruik verder met een eenmalige aankoop in de app via de appwinkel. De betaaldienst van de appwinkel ontvangt de betaling. De app slaat geen betaalgegevens op. De betaaldienst van de appwinkel verwerkt de betaling veilig volgens de eigen voorwaarden.",
         ],
       },
       {
@@ -1184,7 +1184,7 @@ PRIVACY_POLICIES.tuntilappu = {
       {
         heading: "4. Płatności",
         paragraphs: [
-          "Aplikację można pobrać bezpłatnie. Obejmuje 14-dniowy okres próbny. Potem dalsze korzystanie jest jednorazowym zakupem w aplikacji przez Google Play. Usługa płatności sklepu z aplikacjami odbiera płatność. Aplikacja nie przechowuje danych płatniczych. Usługa płatności sklepu z aplikacjami przetwarza płatność bezpiecznie zgodnie z własnymi warunkami.",
+          "Aplikację można pobrać bezpłatnie. Obejmuje 14-dniowy okres próbny. Potem dalsze korzystanie jest jednorazowym zakupem w aplikacji przez sklep z aplikacjami. Usługa płatności sklepu z aplikacjami odbiera płatność. Aplikacja nie przechowuje danych płatniczych. Usługa płatności sklepu z aplikacjami przetwarza płatność bezpiecznie zgodnie z własnymi warunkami.",
         ],
       },
       {
@@ -1276,7 +1276,7 @@ PRIVACY_POLICIES.tuntilappu = {
       {
         heading: "4. Platby",
         paragraphs: [
-          "Aplikaci lze stáhnout zdarma. Zahrnuje 14denní zkušební období. Poté další používání pokračuje jednorázovým nákupem v aplikaci přes Google Play. Platbu přijímá platební služba obchodu s aplikacemi. Aplikace neukládá platební údaje. Platební služba obchodu s aplikacemi zpracovává platbu bezpečně podle vlastních podmínek.",
+          "Aplikaci lze stáhnout zdarma. Zahrnuje 14denní zkušební období. Poté další používání pokračuje jednorázovým nákupem v aplikaci přes obchod s aplikacemi. Platbu přijímá platební služba obchodu s aplikacemi. Aplikace neukládá platební údaje. Platební služba obchodu s aplikacemi zpracovává platbu bezpečně podle vlastních podmínek.",
         ],
       },
       {
@@ -1368,7 +1368,7 @@ PRIVACY_POLICIES.tuntilappu = {
       {
         heading: "4. 付款",
         paragraphs: [
-          "应用可免费下载，并包含 14 天试用。试用结束后，继续使用需通过 Google Play 进行一次性应用内购买。应用商店的支付服务接收该付款。应用不存储支付信息。应用商店的支付服务根据其自身条款安全处理付款。",
+          "应用可免费下载，并包含 14 天试用。试用结束后，继续使用需通过应用商店 进行一次性应用内购买。应用商店的支付服务接收该付款。应用不存储支付信息。应用商店的支付服务根据其自身条款安全处理付款。",
         ],
       },
       {
