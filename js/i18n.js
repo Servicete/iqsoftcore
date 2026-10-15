@@ -36,7 +36,7 @@ const translations = {
     labelLocation: "Osoite",
     locationValue: "Siihtalantie 56, 62710 Kurejoki, Suomi",
     footerRights: "Kaikki oikeudet pidätetään.",
-    footerTrademarks: "iqFleetSync™ ja iqRallyNote™ ovat IqSoftCoren tuotemerkkejä.",
+    footerTrademarks: "iqWorkLog™, iqFleetSync™ ja iqRallyNote™ ovat IqSoftCoren tavaramerkkejä.",
     footerIdentity: "toiminimi IqSoftCore · Y-tunnus 3658340-4 · Siihtalantie 56, 62710 Kurejoki, Suomi",
   },
   en: {
@@ -76,7 +76,7 @@ const translations = {
     labelLocation: "Address",
     locationValue: "Siihtalantie 56, 62710 Kurejoki, Finland",
     footerRights: "All rights reserved.",
-    footerTrademarks: "iqFleetSync™ and iqRallyNote™ are trademarks of IqSoftCore.",
+    footerTrademarks: "iqWorkLog™, iqFleetSync™ and iqRallyNote™ are trademarks of IqSoftCore.",
     footerIdentity: "toiminimi IqSoftCore · Y-tunnus 3658340-4 · Siihtalantie 56, 62710 Kurejoki, Finland",
   },
   sv: {
@@ -116,7 +116,7 @@ const translations = {
     labelLocation: "Adress",
     locationValue: "Siihtalantie 56, 62710 Kurejoki, Finland",
     footerRights: "Alla rättigheter förbehållna.",
-    footerTrademarks: "iqFleetSync™ och iqRallyNote™ är varumärken som tillhör IqSoftCore.",
+    footerTrademarks: "iqWorkLog™, iqFleetSync™ och iqRallyNote™ är varumärken som tillhör IqSoftCore.",
     footerIdentity: "toiminimi IqSoftCore · Y-tunnus 3658340-4 · Siihtalantie 56, 62710 Kurejoki, Finland",
   },
   no: {
@@ -156,7 +156,7 @@ const translations = {
     labelLocation: "Adresse",
     locationValue: "Siihtalantie 56, 62710 Kurejoki, Finland",
     footerRights: "Alle rettigheter forbeholdt.",
-    footerTrademarks: "iqFleetSync™ og iqRallyNote™ er varemerker som tilhører IqSoftCore.",
+    footerTrademarks: "iqWorkLog™, iqFleetSync™ og iqRallyNote™ er varemerker som tilhører IqSoftCore.",
     footerIdentity: "toiminimi IqSoftCore · Y-tunnus 3658340-4 · Siihtalantie 56, 62710 Kurejoki, Finland",
   },
   da: {
@@ -196,7 +196,7 @@ const translations = {
     labelLocation: "Adresse",
     locationValue: "Siihtalantie 56, 62710 Kurejoki, Finland",
     footerRights: "Alle rettigheder forbeholdes.",
-    footerTrademarks: "iqFleetSync™ og iqRallyNote™ er varemærker, der tilhører IqSoftCore.",
+    footerTrademarks: "iqWorkLog™, iqFleetSync™ og iqRallyNote™ er varemærker, der tilhører IqSoftCore.",
     footerIdentity: "toiminimi IqSoftCore · Y-tunnus 3658340-4 · Siihtalantie 56, 62710 Kurejoki, Finland",
   },
   de: {
@@ -236,7 +236,7 @@ const translations = {
     labelLocation: "Anschrift",
     locationValue: "Siihtalantie 56, 62710 Kurejoki, Finnland",
     footerRights: "Alle Rechte vorbehalten.",
-    footerTrademarks: "iqFleetSync™ und iqRallyNote™ sind Marken von IqSoftCore.",
+    footerTrademarks: "iqWorkLog™, iqFleetSync™ und iqRallyNote™ sind Marken von IqSoftCore.",
     footerIdentity: "toiminimi IqSoftCore · Y-tunnus 3658340-4 · Siihtalantie 56, 62710 Kurejoki, Finnland",
   },
   es: {
@@ -276,7 +276,7 @@ const translations = {
     labelLocation: "Dirección",
     locationValue: "Siihtalantie 56, 62710 Kurejoki, Finlandia",
     footerRights: "Todos los derechos reservados.",
-    footerTrademarks: "iqFleetSync™ e iqRallyNote™ son marcas de IqSoftCore.",
+    footerTrademarks: "iqWorkLog™, iqFleetSync™ e iqRallyNote™ son marcas de IqSoftCore.",
     footerIdentity: "toiminimi IqSoftCore · Y-tunnus 3658340-4 · Siihtalantie 56, 62710 Kurejoki, Finlandia",
   },
   it: {
@@ -316,7 +316,7 @@ const translations = {
     labelLocation: "Indirizzo",
     locationValue: "Siihtalantie 56, 62710 Kurejoki, Finlandia",
     footerRights: "Tutti i diritti riservati.",
-    footerTrademarks: "iqFleetSync™ e iqRallyNote™ sono marchi di IqSoftCore.",
+    footerTrademarks: "iqWorkLog™, iqFleetSync™ e iqRallyNote™ sono marchi di IqSoftCore.",
     footerIdentity: "toiminimi IqSoftCore · Y-tunnus 3658340-4 · Siihtalantie 56, 62710 Kurejoki, Finlandia",
   },
   ja: {
@@ -356,7 +356,7 @@ const translations = {
     labelLocation: "住所",
     locationValue: "Siihtalantie 56, 62710 Kurejoki, フィンランド",
     footerRights: "無断転載を禁じます。",
-    footerTrademarks: "iqFleetSync™およびiqRallyNote™は、IqSoftCoreの商標です。",
+    footerTrademarks: "iqWorkLog™、iqFleetSync™およびiqRallyNote™は、IqSoftCoreの商標です。",
     footerIdentity: "toiminimi IqSoftCore · Y-tunnus 3658340-4 · Siihtalantie 56, 62710 Kurejoki, フィンランド",
   },
   ko: {
@@ -396,7 +396,7 @@ const translations = {
     labelLocation: "주소",
     locationValue: "Siihtalantie 56, 62710 Kurejoki, 핀란드",
     footerRights: "모든 권리 보유.",
-    footerTrademarks: "iqFleetSync™와 iqRallyNote™는 IqSoftCore의 상표입니다.",
+    footerTrademarks: "iqWorkLog™, iqFleetSync™, iqRallyNote™는 IqSoftCore의 상표입니다.",
     footerIdentity: "toiminimi IqSoftCore · Y-tunnus 3658340-4 · Siihtalantie 56, 62710 Kurejoki, 핀란드",
   },
   fr: {
@@ -432,7 +432,7 @@ const translations = {
     labelLocation: "Adresse",
     locationValue: "Siihtalantie 56, 62710 Kurejoki, Finlande",
     footerRights: "Tous droits réservés.",
-    footerTrademarks: "iqFleetSync™ et iqRallyNote™ sont des marques d’IqSoftCore.",
+    footerTrademarks: "iqWorkLog™, iqFleetSync™ et iqRallyNote™ sont des marques d’IqSoftCore.",
     footerIdentity: "toiminimi IqSoftCore · Y-tunnus 3658340-4 · Siihtalantie 56, 62710 Kurejoki, Finlande",
   },
   pt: {
@@ -468,7 +468,7 @@ const translations = {
     labelLocation: "Endereço",
     locationValue: "Siihtalantie 56, 62710 Kurejoki, Finlândia",
     footerRights: "Todos os direitos reservados.",
-    footerTrademarks: "iqFleetSync™ e iqRallyNote™ são marcas da IqSoftCore.",
+    footerTrademarks: "iqWorkLog™, iqFleetSync™ e iqRallyNote™ são marcas da IqSoftCore.",
     footerIdentity: "toiminimi IqSoftCore · Y-tunnus 3658340-4 · Siihtalantie 56, 62710 Kurejoki, Finlândia",
   },
   nl: {
@@ -504,7 +504,7 @@ const translations = {
     labelLocation: "Adres",
     locationValue: "Siihtalantie 56, 62710 Kurejoki, Finland",
     footerRights: "Alle rechten voorbehouden.",
-    footerTrademarks: "iqFleetSync™ en iqRallyNote™ zijn handelsmerken van IqSoftCore.",
+    footerTrademarks: "iqWorkLog™, iqFleetSync™ en iqRallyNote™ zijn handelsmerken van IqSoftCore.",
     footerIdentity: "toiminimi IqSoftCore · Y-tunnus 3658340-4 · Siihtalantie 56, 62710 Kurejoki, Finland",
   },
   pl: {
@@ -540,7 +540,7 @@ const translations = {
     labelLocation: "Adres",
     locationValue: "Siihtalantie 56, 62710 Kurejoki, Finlandia",
     footerRights: "Wszelkie prawa zastrzeżone.",
-    footerTrademarks: "iqFleetSync™ i iqRallyNote™ są znakami towarowymi IqSoftCore.",
+    footerTrademarks: "iqWorkLog™, iqFleetSync™ i iqRallyNote™ są znakami towarowymi IqSoftCore.",
     footerIdentity: "toiminimi IqSoftCore · Y-tunnus 3658340-4 · Siihtalantie 56, 62710 Kurejoki, Finlandia",
   },
   cs: {
@@ -576,7 +576,7 @@ const translations = {
     labelLocation: "Adresa",
     locationValue: "Siihtalantie 56, 62710 Kurejoki, Finsko",
     footerRights: "Všechna práva vyhrazena.",
-    footerTrademarks: "iqFleetSync™ a iqRallyNote™ jsou ochranné známky společnosti IqSoftCore.",
+    footerTrademarks: "iqWorkLog™, iqFleetSync™ a iqRallyNote™ jsou ochranné známky společnosti IqSoftCore.",
     footerIdentity: "toiminimi IqSoftCore · Y-tunnus 3658340-4 · Siihtalantie 56, 62710 Kurejoki, Finsko",
   },
   zh: {
@@ -612,7 +612,7 @@ const translations = {
     labelLocation: "地址",
     locationValue: "Siihtalantie 56, 62710 Kurejoki, 芬兰",
     footerRights: "保留所有权利。",
-    footerTrademarks: "iqFleetSync™ 和 iqRallyNote™ 是 IqSoftCore 的商标。",
+    footerTrademarks: "iqWorkLog™、iqFleetSync™ 和 iqRallyNote™ 是 IqSoftCore 的商标。",
     footerIdentity: "toiminimi IqSoftCore · Y-tunnus 3658340-4 · Siihtalantie 56, 62710 Kurejoki, 芬兰",
   },
 };

@@ -386,7 +386,7 @@ function renderTuntilappuPage(lang) {
   let html = `<div class="product-heading">
       <img class="product-icon" src="assets/iqworklog-icon.svg" width="72" height="72" alt="" />
       <div>
-        <h1>${WORKLOG_NAME}</h1>
+        <h1>${WORKLOG_NAME}™</h1>
         <p class="app-short">${escapeAppsHtml(page.short)}</p>
       </div>
     </div>`;
