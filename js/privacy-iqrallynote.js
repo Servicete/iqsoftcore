@@ -1,138 +1,108 @@
 /**
- * iqRallyNote privacy notice.
- * Processing facts follow the in-app privacy text (privacy screen and the
- * Help privacy chapter, values and values-fi) as captured for the site.
- * Recipients are named only by category. The controller block is the
+ * iqRallyNote privacy notice (fi + en).
+ * Facts follow the app: on-device storage, no customer register, and
+ * recipients named only by category. The controller block is the
  * current company identity.
  */
 PRIVACY_POLICIES.iqrallynote = {
   fi: {
     metaTitle: "iqRallyNote – Tietosuojaseloste | IQSoftCore",
-    metaDescription: "iqRallyNote-sovelluksen tietosuojaseloste. Sisältö säilyy käyttäjän laitteella.",
+    metaDescription: "iqRallyNote-sovelluksen tietosuojaseloste. Sisältö säilyy käyttäjän tabletilla.",
     title: "Tietosuojaseloste – iqRallyNote",
-    updated: "Viimeksi päivitetty: 2026-10-12",
+    updated: "Viimeksi päivitetty: 2026-10-15",
     sections: [
       {
         heading: "1. Yleistä",
         paragraphs: [
           "Tämä tietosuojaseloste kuvaa, miten iqRallyNote-sovellus käsittelee käyttäjätietoja. Rekisterinpitäjä on toiminimi IqSoftCore, Y-tunnus 3658340-4, Siihtalantie 56, 62710 Kurejoki, Suomi. Yhteydenotot: info@iqsoftcore.fi.",
-          "Sovellus toimii pääosin ilman käyttäjätiliä. IQSoftCore ei kerää nuotteja, valokuvia, videoita eikä sijaintitietoja omille palvelimilleen. Sisältö säilyy käyttäjän laitteella, ellei käyttäjä itse jaa sitä.",
+          "Kaikki sovelluksen data säilyy käyttäjän tabletilla. IQSoftCorella ei ole palvelinta tälle sovellukselle. Sovellus ei lähetä nuotteja, valokuvia, videoita eikä sijaintitietoja IQSoftCorelle. Sovelluksessa ei ole analytiikkaa, kaatumisraportointia eikä mainoksia.",
         ],
       },
       {
-        heading: "2. Mitä IQSoftCore ei kerää",
-        paragraphs: ["IQSoftCore ei kerää seuraavia tietoja:"],
+        heading: "2. Ostot",
+        paragraphs: [
+          "Sovellus ei käsittele maksuja, lisenssejä eikä asiakasrekisteriä. Sovellus myydään kertaluonteisena ostoksena sovelluskaupan kautta. Oston käsittelee sovelluskauppa omien ehtojensa mukaan. IQSoftCore ei saa korttitietoja.",
+        ],
+      },
+      {
+        heading: "3. Laitteelle tallennettavat tiedot",
+        paragraphs: [
+          "Sovellus tallentaa datan paikallisesti tabletille. Laitteella ovat sovelluksen tietokanta, asetukset, symbolikirjasto, valokuvat ja videot sekä PDF-tiedostot kansiossa Documents/Nuotit.",
+          "Puheen litteraatti tallennetaan paikallisesti yhdessä nuotin GPS-alku- ja loppupisteen kanssa. Äänitiedostoja ei tallenneta.",
+        ],
+      },
+      {
+        heading: "4. Sijainti",
+        paragraphs: [
+          "Reaaliaikainen GPS-sijainti pidetään vain laitteen muistissa. Jokaisen nuotin alku- ja loppupiste tallennetaan paikallisesti. Sijaintiin käytetään laitteen alustan sijaintipalveluita.",
+          "Sovellus tukee ulkoista Bluetooth-GNSS-vastaanotinta.",
+        ],
+      },
+      {
+        heading: "5. Puhe",
+        paragraphs: [
+          "Reccessä, Tarkistusajossa ja taukotilassa käytetään laitteen puheentunnistuspalvelua suomen kielellä (fi-FI). Sovellus ei tallenna ääntä. Ääni voi siirtyä puheentunnistuspalvelun tarjoajalle, ja käsittely voi tapahtua EU/ETA-alueen ulkopuolella. Litteraatti tallennetaan paikallisesti nuotin GPS-alku- ja loppupisteen kanssa. IQSoftCore ei vastaanota puhetta eikä litteraattia.",
+        ],
+      },
+      {
+        heading: "6. Kartta",
+        paragraphs: [
+          "Karttatiiliä voivat toimittaa kansallinen karttapalvelu (oletus), avoin karttapalvelu ja valinnaiset kaupalliset karttapalvelut, jos käyttäjä on valinnut ne. Karttapalvelu saa IP-osoitteen ja tiilien koordinaatit. PDF-karttakuvaa varten karttapalvelulle lähetetään erikoiskokeen koordinaatit.",
+          "Kartan sijainti käyttää laitteen alustan sijaintipalveluita. IQSoftCore ei vastaanota sijaintia eikä karttapyyntöjä.",
+        ],
+      },
+      {
+        heading: "7. Tekstintunnistus",
+        paragraphs: [
+          "Tekstintunnistus (OCR) tehdään laitteella. Kuvia ei lähetetä palvelimelle.",
+        ],
+      },
+      {
+        heading: "8. Käyttöoikeudet",
+        paragraphs: ["Sovellus pyytää seuraavat käyttöoikeudet:"],
         bullets: [
-          "nuotit",
-          "erikoiskokeet",
-          "sijaintihistoria",
-          "GPS-jäljet",
-          "ääni- ja videotiedostot",
-          "valokuvat",
-          "ajodata",
-          "PDF-nuotit",
-          "analytiikka",
-          "mainokset",
-          "kolmannen osapuolen seuranta",
+          "Kamera: valokuvien ja videoiden ottamiseen tabletille. Tekstintunnistus lukee kuvan laitteella, eikä kuvaa lähetetä eteenpäin.",
+          "Mikrofoni: puheentunnistukseen Reccessä, Tarkistusajossa ja taukotilassa. Sovellus ei tallenna ääntä.",
+          "Sijainti: laitteen alustan sijaintipalveluihin, reaaliaikaiseen GPS-sijaintiin muistissa ja nuotin alku- sekä loppupisteen tallentamiseen laitteelle.",
+          "Internet: karttatiilien hakemiseen ja äänen välittämiseen puheentunnistuspalvelulle. PDF-karttakuvaa varten lähetetään erikoiskokeen koordinaatit.",
+          "Wi-Fi ja lähellä olevat laitteet: Wi-Fi-yhteyteen ja laitteen lähilaiteyhteyteen, kun karttatiiliä haetaan tai puheentunnistuspalvelua käytetään verkon kautta.",
+          "Bluetooth: ulkoiseen GNSS-vastaanottimeen.",
         ],
-        after: ["Sovellus ei lähetä käyttäjän sisältöä IQSoftCoren palvelimille."],
       },
       {
-        heading: "3. Asiakasrekisteri",
+        heading: "9. Varmuuskopiointi",
         paragraphs: [
-          "Jos ostat lisenssin, Pro- tai Kit-tuotteen tai muun maksullisen tuotteen, asiakasrekisteriin voidaan tallentaa:",
-        ],
-        bullets: [
-          "nimi",
-          "sähköpostiosoite",
-          "tuote",
-          "lisenssi- tai aktivointitiedot",
-          "ostoajankohta",
-          "tukipyynnöt",
-        ],
-        after: [
-          "Tietoja käytetään toimitukseen, päivityksiin, tukeen, lisenssien hallintaan ja väärinkäytön estämiseen. Tietoja ei myydä. Säilytämme niitä niin kauan kuin lisenssi, tuki tai kirjanpito sitä edellyttää, minkä jälkeen tiedot poistetaan tai anonymisoidaan.",
+          "Jos käyttäjä on ottanut laitteen oman pilvivarmuuskopioinnin käyttöön, sovelluksen tietokanta sisältyy siihen. Varmuuskopiointia hallitaan käyttäjän laitteen tilin asetuksissa. IQSoftCore ei hallitse tätä varmuuskopiointia.",
         ],
       },
       {
-        heading: "4. Laitteelle tallennettavat tiedot",
-        paragraphs: ["Sovellus tallentaa laitteelle käyttäjän sisältöä, kuten:"],
-        bullets: [
-          "erikoiskokeet",
-          "nuotit",
-          "symbolit",
-          "asetukset",
-          "avainsanalistat",
-          "segmentit",
-          "PDF-tiedostot",
-          "valinnaiset valokuvat ja videot",
-        ],
-        after: [
-          "Puhe muunnetaan tekstiksi; äänitiedostoja ei tallenneta. Voit poistaa tiedot poistamalla erikoiskokeen (EK), tyhjentämällä sovelluksen tiedot tai poistamalla sovelluksen. Documents/Nuotit-kansiossa olevat PDF-tiedostot on poistettava erikseen. Jos laitteen varmuuskopiointi on päällä, käyttöjärjestelmä voi kopioida sovelluksen tiedot laitteen varmuuskopioon. IQSoftCore ei hallitse tätä varmuuskopiointia.",
-        ],
-      },
-      {
-        heading: "5. Kartta",
+        heading: "10. Poistaminen",
         paragraphs: [
-          "Kartan näyttämiseen voidaan käyttää karttapalvelua. Karttapalvelu voi vastaanottaa IP-osoitteen karttatiiliä varten.",
+          "Erikoiskokeen poistaminen poistaa sen nuotit. Liitetyt valokuvat ja videot, symbolikuvat sekä viedyt PDF-tiedostot voivat jäädä laitteelle. Valokuvat, videot ja symbolikuvat poistuvat, kun sovelluksen tiedot tyhjennetään tai sovellus poistetaan. Viedyt PDF-tiedostot poistetaan poistamalla tiedostot kansiosta Documents/Nuotit.",
         ],
       },
       {
-        heading: "6. Puhe",
+        heading: "11. Siirto EU/ETA-alueen ulkopuolelle",
         paragraphs: [
-          "Recce voi käyttää laitteen puheentunnistusta. Ääni voi siirtyä puheentunnistuspalvelulle; sovellus saa vain tekstin. IQSoftCore ei vastaanota puhetta.",
+          "IQSoftCore ei siirrä sovelluksen tietoja, koska sillä ei ole palvelinta tälle sovellukselle. Puheentunnistuspalvelun tarjoaja voi käsitellä äänen EU/ETA-alueen ulkopuolella. Tällainen siirto perustuu vakiosopimuslausekkeisiin.",
+          "Karttapalvelu saa IP-osoitteen ja tiilien koordinaatit, ja PDF-karttakuvaa varten sille lähetetään erikoiskokeen koordinaatit. Jos karttapalvelu käsittelee näitä tietoja EU/ETA-alueen ulkopuolella, siirto perustuu vakiosopimuslausekkeisiin.",
+          "Laitteen oma pilvivarmuuskopiointi määräytyy käyttäjän laitteen tilin asetusten mukaan.",
         ],
       },
       {
-        heading: "7. Kamera",
+        heading: "12. Rekisteröidyn oikeudet",
         paragraphs: [
-          "Kameraa käytetään vain käyttäjän pyynnöstä (paperinuotit, OCR, paikan tallennus). Kuvia ei lähetetä automaattisesti IQSoftCorelle. Kameraa ei avata kilpailu- tai erikoiskokeen lukituksessa.",
+          "Sinulla on oikeus saada pääsy tietoihisi, oikaista niitä, poistaa niitä ja rajoittaa käsittelyä. Laitteella olevat tiedot poistaa käyttäjä itse kohdan 10 mukaisesti. Voit tehdä valituksen Tietosuojavaltuutetulle (tietosuoja.fi). Pyynnöt: info@iqsoftcore.fi.",
         ],
       },
       {
-        heading: "8. Bluetooth",
-        paragraphs: [
-          "Bluetoothia voidaan käyttää esimerkiksi ulkoiseen GNSS-vastaanottimeen. Käyttö on käyttäjän hallinnassa.",
-        ],
-      },
-      {
-        heading: "9. Maksut",
-        paragraphs: [
-          "Sovellus ei tällä hetkellä käsittele korttitietoja. Mahdolliset tulevat maksut hoidetaan verkkokaupan, maksupalveluntarjoajan tai sovelluskaupan kautta. IQSoftCore ei tallenna korttitietoja.",
-        ],
-      },
-      {
-        heading: "10. Lapset",
-        paragraphs: [
-          "Sovellus on tarkoitettu ralli- ja moottoriurheilukäyttöön. Emme tietoisesti kerää alaikäisten tietoja.",
-        ],
-      },
-      {
-        heading: "11. Rekisteröidyn oikeudet",
-        paragraphs: [
-          "Sinulla on oikeus saada pääsy tietoihisi, oikaista niitä, poistaa niitä ja rajoittaa käsittelyä. Voit tehdä valituksen Tietosuojavaltuutetulle (tietosuoja.fi). Pyynnöt: info@iqsoftcore.fi.",
-        ],
-      },
-      {
-        heading: "12. Säilytys ja poistaminen",
-        paragraphs: [
-          "Asiakasrekisterin tiedot säilytetään niin kauan kuin lisenssi, tuki tai kirjanpito sitä edellyttää, ja ne poistetaan tai anonymisoidaan sen jälkeen. Poistopyyntö sähköpostitse käsitellään kohtuullisessa ajassa. Laitteella olevat tiedot poistaa käyttäjä itse.",
-        ],
-      },
-      {
-        heading: "13. Siirto EU/ETA-alueen ulkopuolelle",
-        paragraphs: [
-          "IQSoftCorella ei ole pilvipalvelua tälle sovellukselle, joten se ei itse siirrä nuotteja EU/ETA-alueen ulkopuolelle. Karttapalvelu voi käsitellä IP-osoitteen ja puheentunnistuspalvelu äänen EU/ETA-alueen ulkopuolella. Tällainen siirto perustuu vakiosopimuslausekkeisiin.",
-        ],
-      },
-      {
-        heading: "14. Muutokset",
+        heading: "13. Muutokset",
         paragraphs: [
           "Muutokset julkaistaan sovelluksessa ja osoitteessa iqsoftcore.fi.",
         ],
       },
       {
-        heading: "15. Yhteystiedot",
+        heading: "14. Yhteystiedot",
         paragraphs: [
           "Rekisterinpitäjä: toiminimi IqSoftCore, Y-tunnus 3658340-4, Siihtalantie 56, 62710 Kurejoki, Suomi. Tietosuojapyynnöt: info@iqsoftcore.fi.",
         ],
@@ -143,131 +113,102 @@ PRIVACY_POLICIES.iqrallynote = {
   },
   en: {
     metaTitle: "iqRallyNote – Privacy policy | IQSoftCore",
-    metaDescription: "Privacy policy for the iqRallyNote app. Content stays on the user’s device.",
+    metaDescription: "Privacy policy for the iqRallyNote app. Content stays on the user’s tablet.",
     title: "Privacy policy – iqRallyNote",
-    updated: "Last updated: 2026-10-12",
+    updated: "Last updated: 2026-10-15",
     sections: [
       {
         heading: "1. General",
         paragraphs: [
           "This privacy policy describes how the iqRallyNote application handles user data. The controller is toiminimi IqSoftCore, business ID (Y-tunnus) 3658340-4, Siihtalantie 56, 62710 Kurejoki, Finland. Contact: info@iqsoftcore.fi.",
-          "The app works mostly without a user account. IQSoftCore does not collect notes, photos, videos, or location data onto its own servers. Content stays on the user’s device unless the user shares it.",
+          "All of the app’s data stays on the user’s tablet. IQSoftCore has no server for this app. The app does not send notes, photos, videos, or location data to IQSoftCore. The app has no analytics, no crash reporting, and no advertising.",
         ],
       },
       {
-        heading: "2. What IQSoftCore does not collect",
-        paragraphs: ["IQSoftCore does not collect the following:"],
+        heading: "2. Purchases",
+        paragraphs: [
+          "The app does not process payments, licences, or a customer register. The app is sold as a one-time purchase through an app store. The app store handles the purchase under its own terms. IQSoftCore receives no card data.",
+        ],
+      },
+      {
+        heading: "3. Data stored on the device",
+        paragraphs: [
+          "The app stores its data locally on the tablet: the app database, settings, the symbol library, photos and videos, and PDF files in the Documents/Nuotit folder.",
+          "A speech transcript is stored locally together with the note’s GPS start and end point. Audio files are not stored.",
+        ],
+      },
+      {
+        heading: "4. Location",
+        paragraphs: [
+          "Live GPS is kept only in memory. Each note’s start and end point is stored locally. Location uses the device platform’s location services.",
+          "The app supports an external Bluetooth GNSS receiver.",
+        ],
+      },
+      {
+        heading: "5. Speech",
+        paragraphs: [
+          "Recce, Tarkistusajo (stage review), and pause mode use the device’s speech recognition service for Finnish (fi-FI). The app never stores audio. Audio may be processed by the speech service provider, possibly outside the EU. The transcript is stored locally with the note’s GPS start and end point. IQSoftCore does not receive the speech or the transcript.",
+        ],
+      },
+      {
+        heading: "6. Maps",
+        paragraphs: [
+          "Map tiles may be supplied by a national map service (the default), an open map service, and optional commercial map services if the user has selected them. A map service receives an IP address and the tile coordinates. For a PDF map snapshot, the stage’s coordinates are sent to the map service.",
+          "The map uses the device platform’s location services. IQSoftCore does not receive location or map requests.",
+        ],
+      },
+      {
+        heading: "7. Text recognition",
+        paragraphs: [
+          "Text recognition (OCR) runs on the device. Images are not uploaded.",
+        ],
+      },
+      {
+        heading: "8. Permissions",
+        paragraphs: ["The app requests the following permissions:"],
         bullets: [
-          "notes",
-          "stages",
-          "location history",
-          "GPS tracks",
-          "audio and video",
-          "photos",
-          "driving data",
-          "PDF notes",
-          "analytics",
-          "advertising",
-          "third-party tracking",
+          "Camera: to take photos and videos on the tablet. Text recognition reads the image on the device, and the image is not uploaded.",
+          "Microphone: for speech recognition in Recce, Tarkistusajo (stage review), and pause mode. The app does not store audio.",
+          "Location: for the device platform’s location services, for live GPS held in memory, and for storing a note’s start and end point on the device.",
+          "Internet: to request map tiles and to send audio to the speech recognition service. For a PDF map snapshot, the stage’s coordinates are sent.",
+          "Wi-Fi and nearby devices: for a Wi-Fi connection and the device’s nearby-device interface when map tiles are requested or the speech recognition service is used over the network.",
+          "Bluetooth: for an external GNSS receiver.",
         ],
-        after: ["The app does not send user content to IQSoftCore servers."],
       },
       {
-        heading: "3. Customer register",
+        heading: "9. Backup",
         paragraphs: [
-          "If you purchase a license, a Pro or Kit product, or another paid product, the customer register may store:",
-        ],
-        bullets: [
-          "name",
-          "email address",
-          "product",
-          "license or activation details",
-          "purchase date",
-          "support requests",
-        ],
-        after: [
-          "The data is used for delivery, updates, support, license administration, and preventing abuse. The data is not sold. We keep it for as long as the license, support, or bookkeeping requires, and then delete or anonymize it.",
+          "If the user has enabled the device’s own cloud backup, the app database is included in it. Backup is governed by the user’s device account settings. IQSoftCore does not control that backup.",
         ],
       },
       {
-        heading: "4. Data stored on the device",
-        paragraphs: ["The app stores user content on the device, such as:"],
-        bullets: [
-          "stages",
-          "notes",
-          "symbols",
-          "settings",
-          "keyword lists",
-          "segments",
-          "PDF files",
-          "optional photos and videos",
-        ],
-        after: [
-          "Speech is converted to text; audio files are not stored. You can delete the data by deleting a stage (EK), clearing the app’s data, or uninstalling the app. PDF files in the Documents/Nuotit folder must be deleted separately. If device backup is on, the operating system may copy the app data into the device backup. IQSoftCore does not control that backup.",
-        ],
-      },
-      {
-        heading: "5. Maps",
+        heading: "10. Deletion",
         paragraphs: [
-          "A map service may be used to display the map. The map service may receive an IP address in order to deliver map tiles.",
+          "Deleting a stage removes its notes. Attached photos and videos, symbol images, and exported PDFs may remain on the device. Photos, videos, and symbol images are removed by clearing the app data or uninstalling the app. Exported PDFs are removed by deleting the files in the Documents/Nuotit folder.",
         ],
       },
       {
-        heading: "6. Speech",
+        heading: "11. Transfers outside the EU/EEA",
         paragraphs: [
-          "Recce may use the device’s speech recognition. Audio may be sent to the speech-recognition service; the app receives text only. IQSoftCore does not receive the speech.",
+          "IQSoftCore does not transfer the app’s data, because it has no server for this app. The speech service provider may process audio outside the EU/EEA. Such a transfer is based on standard contractual clauses.",
+          "A map service receives an IP address and tile coordinates, and for a PDF map snapshot it receives the stage’s coordinates. If a map service processes that data outside the EU/EEA, the transfer is based on standard contractual clauses.",
+          "The device’s own cloud backup is governed by the user’s device account settings.",
         ],
       },
       {
-        heading: "7. Camera",
+        heading: "12. Rights of the data subject",
         paragraphs: [
-          "The camera is used only at the user’s request (paper notes, OCR, save-place). Images are not sent automatically to IQSoftCore. The camera is not opened in competition or stage lock.",
+          "You have the right to access your data, to rectify it, to erase it, and to restrict processing. Data on the device is deleted by the user as described in section 10. You may lodge a complaint with the Finnish Data Protection Ombudsman (tietosuoja.fi). Requests: info@iqsoftcore.fi.",
         ],
       },
       {
-        heading: "8. Bluetooth",
-        paragraphs: [
-          "Bluetooth may be used, for example with an external GNSS receiver. Use is under the user’s control.",
-        ],
-      },
-      {
-        heading: "9. Payments",
-        paragraphs: [
-          "The app does not handle card details at present. Any future payments are handled through an online shop, a payment service provider, or an app store. IQSoftCore does not store card details.",
-        ],
-      },
-      {
-        heading: "10. Children",
-        paragraphs: [
-          "The app is intended for rally and motorsport use. We do not knowingly collect data from minors.",
-        ],
-      },
-      {
-        heading: "11. Rights of the data subject",
-        paragraphs: [
-          "You have the right to access your data, to rectify it, to erase it, and to restrict processing. You may lodge a complaint with the Finnish Data Protection Ombudsman (tietosuoja.fi). Requests: info@iqsoftcore.fi.",
-        ],
-      },
-      {
-        heading: "12. Retention and deletion",
-        paragraphs: [
-          "Customer-register data is kept for as long as the license, support, or bookkeeping requires, and is then deleted or anonymized. An erasure request sent by email is handled within a reasonable time. Data on the device is deleted by the user.",
-        ],
-      },
-      {
-        heading: "13. Transfers outside the EU/EEA",
-        paragraphs: [
-          "IQSoftCore has no cloud service for this app, so it does not itself transfer notes outside the EU/EEA. A map service may process an IP address, and a speech-recognition service may process audio, outside the EU/EEA. Such a transfer is based on standard contractual clauses.",
-        ],
-      },
-      {
-        heading: "14. Changes",
+        heading: "13. Changes",
         paragraphs: [
           "Changes are published in the app and at iqsoftcore.fi.",
         ],
       },
       {
-        heading: "15. Contact",
+        heading: "14. Contact",
         paragraphs: [
           "Controller: toiminimi IqSoftCore, business ID (Y-tunnus) 3658340-4, Siihtalantie 56, 62710 Kurejoki, Finland. Privacy requests: info@iqsoftcore.fi.",
         ],
