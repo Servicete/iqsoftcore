@@ -90,13 +90,11 @@
               <p class="hero-chips" data-i18n="heroAudience">Yrityksille. Rekisteröitymiseen tarvitaan suomalainen Y-tunnus. 30 päivää ilmaiseksi – ei korttitietoja.</p>
             </div>
             <div class="hero-media">
-              <!-- VIDEO PLACEHOLDER promo. Swap .video-placeholder for a local <video controls preload="metadata">. No autoplay. No external embed. -->
-              <figure class="video-slot" data-video-slot="promo" data-video-src="videos/iqfleetsync/promo.mp4">
-                <div class="video-placeholder">
-                  <span class="video-badge">VIDEO PLACEHOLDER</span>
-                  <p class="video-slot-title" data-i18n="videoPromoTitle">Päävideo: iqFleetSync™</p>
-                  <p class="video-slot-file"><code>videos/iqfleetsync/promo.mp4</code></p>
-                </div>
+              <figure class="video-slot promo-video" data-video-slot="promo">
+                <video id="promo-video" controls preload="none" playsinline poster="assets/video/iqfleetsync_mainos_fi_thumb.jpg" width="1920" height="1080" aria-labelledby="promo-video-caption">
+                  <source src="assets/video/iqfleetsync_mainos_fi.mp4" type="video/mp4" />
+                </video>
+                <figcaption id="promo-video-caption" data-i18n="videoPromoTitle">Päävideo: iqFleetSync™</figcaption>
               </figure>
             </div>
           </div>
@@ -321,7 +319,7 @@
       <section class="section" id="tuotteet" aria-labelledby="products-title">
         <div class="section-inner">
           <h2 id="products-title" data-i18n="productsTitle">Tuotteet</h2>
-          <p class="section-intro" data-i18n="productsLead">Kolme tuotetta, sama esittely. iqFleetSync™ on käytettävissä selaimessa. iqRallyNote™ ja iqWorkLog eivät ole vielä julkisia: ei latauslinkkiä eikä iqRallyNotelle julkaistua hintaa.</p>
+          <p class="section-intro" data-i18n="productsLead">Kolme tuotetta, sama esittely. iqFleetSync™ on käytettävissä selaimessa. iqRallyNote™ ja iqWorkLog™ eivät ole vielä julkisia: ei latauslinkkiä eikä iqRallyNotelle julkaistua hintaa.</p>
           <div class="product-stack">
             <section class="product-equal product-spotlight" id="tuote-fleetsync" aria-labelledby="fs-name">
               <img class="product-icon" src="assets/iqfleetsync-icon.svg" width="72" height="72" alt="iqFleetSync™" data-i18n-attr="alt:fsAlt" />
@@ -357,9 +355,9 @@
               </div>
             </section>
             <section class="product-equal product-spotlight" id="tuote-worklog" aria-labelledby="wl-name">
-              <img class="product-icon" src="assets/iqworklog-icon.svg" width="72" height="72" alt="iqWorkLog" data-i18n-attr="alt:wlAlt" />
+              <img class="product-icon" src="assets/iqworklog-icon.svg" width="72" height="72" alt="iqWorkLog™" data-i18n-attr="alt:wlAlt" />
               <div class="product-head">
-                <h3 id="wl-name" data-i18n="wlName">iqWorkLog</h3>
+                <h3 id="wl-name" data-i18n="wlName">iqWorkLog™</h3>
                 <p class="status-pill status-soon" data-i18n="statusSoon">Tulossa</p>
               </div>
               <p class="product-pitch" data-i18n="wlPitch">Android-sovellus työtuntien kirjaukseen ja raportteihin. Entinen Tuntilappu.</p>
@@ -418,7 +416,7 @@
       <div class="footer-inner">
         <div class="footer-meta">
           <p class="footer-copy">© <span id="year">2026</span> IqSoftCore. <span data-i18n="footerRights">Kaikki oikeudet pidätetään.</span></p>
-          <p class="footer-trademarks" data-i18n="footerTrademarks">iqFleetSync™ ja iqRallyNote™ ovat IqSoftCoren tuotemerkkejä.</p>
+          <p class="footer-trademarks" data-i18n="footerTrademarks">iqFleetSync™, iqRallyNote™ ja iqWorkLog™ ovat IqSoftCoren tuotemerkkejä.</p>
           <p class="footer-identity" data-i18n="footerIdentity">toiminimi IqSoftCore · Y-tunnus 3658340-4 · Siihtalantie 56, 62710 Kurejoki, Suomi</p>
         </div>
         <div class="footer-links">

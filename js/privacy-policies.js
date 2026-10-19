@@ -27,7 +27,7 @@ const PRIVACY_POLICIES = {
         {
           heading: "3. Sovellukset",
           paragraphs: [
-            "iqWorkLog ja osa muista sovelluksista on suunniteltu niin, että data säilyy käyttäjän omalla laitteella. iqFleetSync on verkkopalvelu. Kunkin sovelluksen tietosuoja on kyseisen sovelluksen sivulla.",
+            "iqWorkLog™ ja osa muista sovelluksista on suunniteltu niin, että data säilyy käyttäjän omalla laitteella. iqFleetSync on verkkopalvelu. Kunkin sovelluksen tietosuoja on kyseisen sovelluksen sivulla.",
           ],
         },
         {
@@ -67,7 +67,7 @@ const PRIVACY_POLICIES = {
         {
           heading: "3. Applications",
           paragraphs: [
-            "iqWorkLog and some other apps are designed so that data stays on the user’s own device. iqFleetSync is a web service. Each app’s privacy policy is on that app’s page.",
+            "iqWorkLog™ and some other apps are designed so that data stays on the user’s own device. iqFleetSync is a web service. Each app’s privacy policy is on that app’s page.",
           ],
         },
         {
@@ -107,7 +107,7 @@ const PRIVACY_POLICIES = {
         {
           heading: "3. Appar",
           paragraphs: [
-            "iqWorkLog och en del andra appar är utformade så att data stannar på användarens egen enhet. iqFleetSync är en webbtjänst. Varje apps integritetspolicy finns på appens egen sida.",
+            "iqWorkLog™ och en del andra appar är utformade så att data stannar på användarens egen enhet. iqFleetSync är en webbtjänst. Varje apps integritetspolicy finns på appens egen sida.",
           ],
         },
         {
@@ -147,7 +147,7 @@ const PRIVACY_POLICIES = {
         {
           heading: "3. Apper",
           paragraphs: [
-            "iqWorkLog og noen andre apper er laget slik at data blir på brukerens egen enhet. iqFleetSync er en nettjeneste. Hver apps personvern er på appens egen side.",
+            "iqWorkLog™ og noen andre apper er laget slik at data blir på brukerens egen enhet. iqFleetSync er en nettjeneste. Hver apps personvern er på appens egen side.",
           ],
         },
         {
@@ -187,7 +187,7 @@ const PRIVACY_POLICIES = {
         {
           heading: "3. Apps",
           paragraphs: [
-            "iqWorkLog og nogle andre apps er designet, så data forbliver på brugerens egen enhed. iqFleetSync er en webtjeneste. Hver apps privatlivspolitik er på appens egen side.",
+            "iqWorkLog™ og nogle andre apps er designet, så data forbliver på brugerens egen enhed. iqFleetSync er en webtjeneste. Hver apps privatlivspolitik er på appens egen side.",
           ],
         },
         {
@@ -227,7 +227,7 @@ const PRIVACY_POLICIES = {
         {
           heading: "3. Apps",
           paragraphs: [
-            "iqWorkLog und einige andere Apps sind so gestaltet, dass Daten auf dem Gerät des Nutzers bleiben. iqFleetSync ist ein Webdienst. Die Datenschutzerklärung jeder App steht auf der Seite der App.",
+            "iqWorkLog™ und einige andere Apps sind so gestaltet, dass Daten auf dem Gerät des Nutzers bleiben. iqFleetSync ist ein Webdienst. Die Datenschutzerklärung jeder App steht auf der Seite der App.",
           ],
         },
         {
@@ -267,7 +267,7 @@ const PRIVACY_POLICIES = {
         {
           heading: "3. Aplicaciones",
           paragraphs: [
-            "iqWorkLog y algunas otras apps están diseñadas para que los datos permanezcan en el dispositivo del usuario. iqFleetSync es un servicio web. La política de privacidad de cada app está en la página de esa app.",
+            "iqWorkLog™ y algunas otras apps están diseñadas para que los datos permanezcan en el dispositivo del usuario. iqFleetSync es un servicio web. La política de privacidad de cada app está en la página de esa app.",
           ],
         },
         {
@@ -307,7 +307,7 @@ const PRIVACY_POLICIES = {
         {
           heading: "3. Applicazioni",
           paragraphs: [
-            "iqWorkLog e alcune altre app sono progettate affinché i dati restino sul dispositivo dell’utente. iqFleetSync è un servizio web. L’informativa privacy di ogni app è nella pagina di quell’app.",
+            "iqWorkLog™ e alcune altre app sono progettate affinché i dati restino sul dispositivo dell’utente. iqFleetSync è un servizio web. L’informativa privacy di ogni app è nella pagina di quell’app.",
           ],
         },
         {
@@ -347,7 +347,7 @@ const PRIVACY_POLICIES = {
         {
           heading: "3. アプリケーション",
           paragraphs: [
-            "iqWorkLog と一部のアプリは、データがユーザー自身の端末に残るよう設計されています。iqFleetSync はウェブサービスです。各アプリのプライバシーポリシーは、そのアプリのページにあります。",
+            "iqWorkLog™ と一部のアプリは、データがユーザー自身の端末に残るよう設計されています。iqFleetSync はウェブサービスです。各アプリのプライバシーポリシーは、そのアプリのページにあります。",
           ],
         },
         {
@@ -387,7 +387,7 @@ const PRIVACY_POLICIES = {
         {
           heading: "3. 애플리케이션",
           paragraphs: [
-            "iqWorkLog와 일부 앱은 데이터가 사용자 기기에 남도록 설계되어 있습니다. iqFleetSync는 웹 서비스입니다. 각 앱의 개인정보 처리방침은 해당 앱 페이지에 있습니다.",
+            "iqWorkLog™와 일부 앱은 데이터가 사용자 기기에 남도록 설계되어 있습니다. iqFleetSync는 웹 서비스입니다. 각 앱의 개인정보 처리방침은 해당 앱 페이지에 있습니다.",
           ],
         },
         {
@@ -427,7 +427,7 @@ const PRIVACY_POLICIES = {
         {
           heading: "3. Applications",
           paragraphs: [
-            "iqWorkLog et certaines autres applications sont conçues pour que les données restent sur l’appareil de l’utilisateur. iqFleetSync est un service web. La politique de confidentialité de chaque application est sur la page de cette application.",
+            "iqWorkLog™ et certaines autres applications sont conçues pour que les données restent sur l’appareil de l’utilisateur. iqFleetSync est un service web. La politique de confidentialité de chaque application est sur la page de cette application.",
           ],
         },
         {
@@ -467,7 +467,7 @@ const PRIVACY_POLICIES = {
         {
           heading: "3. Aplicativos",
           paragraphs: [
-            "O iqWorkLog e alguns outros apps são projetados para que os dados permaneçam no dispositivo do usuário. O iqFleetSync é um serviço web. A política de privacidade de cada app está na página desse app.",
+            "O iqWorkLog™ e alguns outros apps são projetados para que os dados permaneçam no dispositivo do usuário. O iqFleetSync é um serviço web. A política de privacidade de cada app está na página desse app.",
           ],
         },
         {
@@ -507,7 +507,7 @@ const PRIVACY_POLICIES = {
         {
           heading: "3. Apps",
           paragraphs: [
-            "iqWorkLog en sommige andere apps zijn zo ontworpen dat data op het apparaat van de gebruiker blijft. iqFleetSync is een webdienst. Het privacybeleid van elke app staat op de pagina van die app.",
+            "iqWorkLog™ en sommige andere apps zijn zo ontworpen dat data op het apparaat van de gebruiker blijft. iqFleetSync is een webdienst. Het privacybeleid van elke app staat op de pagina van die app.",
           ],
         },
         {
@@ -547,7 +547,7 @@ const PRIVACY_POLICIES = {
         {
           heading: "3. Aplikacje",
           paragraphs: [
-            "iqWorkLog i część innych aplikacji jest zaprojektowana tak, aby dane pozostawały na urządzeniu użytkownika. iqFleetSync jest usługą internetową. Polityka prywatności każdej aplikacji jest na stronie tej aplikacji.",
+            "iqWorkLog™ i część innych aplikacji jest zaprojektowana tak, aby dane pozostawały na urządzeniu użytkownika. iqFleetSync jest usługą internetową. Polityka prywatności każdej aplikacji jest na stronie tej aplikacji.",
           ],
         },
         {
@@ -587,7 +587,7 @@ const PRIVACY_POLICIES = {
         {
           heading: "3. Aplikace",
           paragraphs: [
-            "iqWorkLog a některé další aplikace jsou navrženy tak, aby data zůstala na zařízení uživatele. iqFleetSync je webová služba. Zásady každé aplikace jsou na stránce dané aplikace.",
+            "iqWorkLog™ a některé další aplikace jsou navrženy tak, aby data zůstala na zařízení uživatele. iqFleetSync je webová služba. Zásady každé aplikace jsou na stránce dané aplikace.",
           ],
         },
         {
@@ -627,7 +627,7 @@ const PRIVACY_POLICIES = {
         {
           heading: "3. 应用程序",
           paragraphs: [
-            "iqWorkLog 和部分其他应用的设计使数据保留在用户自己的设备上。iqFleetSync 是网络服务。每个应用的隐私政策在该应用的页面上。",
+            "iqWorkLog™ 和部分其他应用的设计使数据保留在用户自己的设备上。iqFleetSync 是网络服务。每个应用的隐私政策在该应用的页面上。",
           ],
         },
         {
@@ -714,7 +714,7 @@ function renderPrivacyPolicy(lang) {
   const policy = bundle[lang] || bundle.en || bundle.fi;
   if (!policy) return;
 
-  const appName = policyId === "tuntilappu" ? "iqWorkLog" : "";
+  const appName = policyId === "tuntilappu" ? "iqWorkLog™" : "";
 
   const title = fillAppPlaceholders(policy.title, appName);
   const metaTitle = fillAppPlaceholders(policy.metaTitle, appName);

@@ -1,6 +1,6 @@
 /**
  * Pricing page. iqFleetSync prices are the ones supplied for this site.
- * iqWorkLog and iqRallyNote have no published price in the repo.
+ * iqWorkLog™ and iqRallyNote have no published price in the repo.
  */
 const PRICE_LOCALES = {
   fi: "fi-FI",
@@ -87,7 +87,7 @@ const PRICING_PAGE = {
     otherIntro: "Julkaistua hintaa ei ole. Kun kuluttajahinta julkaistaan, se näytetään arvonlisäverollisena.",
     contact: "Ota yhteyttä",
     others: [
-      ["tuntilappu.html", "iqWorkLog"],
+      ["tuntilappu.html", "iqWorkLog™"],
       ["iqrallynote.html", "iqRallyNote"],
     ],
   },
@@ -156,7 +156,7 @@ const PRICING_PAGE = {
     otherIntro: "There is no published price. A published consumer price is shown including VAT.",
     contact: "Get in touch",
     others: [
-      ["tuntilappu.html", "iqWorkLog"],
+      ["tuntilappu.html", "iqWorkLog™"],
       ["iqrallynote.html", "iqRallyNote"],
     ],
   },
@@ -219,7 +219,7 @@ const PRICING_PAGE = {
     otherTitle: "Övriga produkter",
     otherIntro: "Det finns inget publicerat pris. Ett publicerat konsumentpris visas inklusive moms.",
     contact: "Kontakta oss",
-    others: [["tuntilappu.html", "iqWorkLog"], ["iqrallynote.html", "iqRallyNote"]],
+    others: [["tuntilappu.html", "iqWorkLog™"], ["iqrallynote.html", "iqRallyNote"]],
   },
   no: {
     metaTitle: "Priser | IQSoftCore",
@@ -280,7 +280,7 @@ const PRICING_PAGE = {
     otherTitle: "Andre produkter",
     otherIntro: "Det er ingen offentlig pris. En publisert forbrukerpris vises inkludert merverdiavgift.",
     contact: "Ta kontakt",
-    others: [["tuntilappu.html", "iqWorkLog"], ["iqrallynote.html", "iqRallyNote"]],
+    others: [["tuntilappu.html", "iqWorkLog™"], ["iqrallynote.html", "iqRallyNote"]],
   },
   da: {
     metaTitle: "Priser | IQSoftCore",
@@ -341,7 +341,7 @@ const PRICING_PAGE = {
     otherTitle: "Andre produkter",
     otherIntro: "Der er ingen offentlig pris. En offentliggjort forbrugerpris vises med moms.",
     contact: "Kontakt os",
-    others: [["tuntilappu.html", "iqWorkLog"], ["iqrallynote.html", "iqRallyNote"]],
+    others: [["tuntilappu.html", "iqWorkLog™"], ["iqrallynote.html", "iqRallyNote"]],
   },
   de: {
     metaTitle: "Preise | IQSoftCore",
@@ -402,7 +402,7 @@ const PRICING_PAGE = {
     otherTitle: "Weitere Produkte",
     otherIntro: "Für diese Produkte ist kein Preis veröffentlicht. Ein veröffentlichter Verbraucherpreis wird inklusive Umsatzsteuer angezeigt.",
     contact: "Kontakt aufnehmen",
-    others: [["tuntilappu.html", "iqWorkLog"], ["iqrallynote.html", "iqRallyNote"]],
+    others: [["tuntilappu.html", "iqWorkLog™"], ["iqrallynote.html", "iqRallyNote"]],
   },
   nl: {
     metaTitle: "Prijzen | IQSoftCore",
@@ -463,7 +463,7 @@ const PRICING_PAGE = {
     otherTitle: "Andere producten",
     otherIntro: "Voor deze producten is geen prijs gepubliceerd. Een gepubliceerde consumentenprijs wordt inclusief btw getoond.",
     contact: "Neem contact op",
-    others: [["tuntilappu.html", "iqWorkLog"], ["iqrallynote.html", "iqRallyNote"]],
+    others: [["tuntilappu.html", "iqWorkLog™"], ["iqrallynote.html", "iqRallyNote"]],
   },
   fr: {
     metaTitle: "Tarifs | IQSoftCore",
@@ -524,7 +524,7 @@ const PRICING_PAGE = {
     otherTitle: "Autres produits",
     otherIntro: "Aucun prix n’est publié. Un prix consommateur publié est affiché TTC.",
     contact: "Nous contacter",
-    others: [["tuntilappu.html", "iqWorkLog"], ["iqrallynote.html", "iqRallyNote"]],
+    others: [["tuntilappu.html", "iqWorkLog™"], ["iqrallynote.html", "iqRallyNote"]],
   },
   es: {
     metaTitle: "Precios | IQSoftCore",
@@ -585,7 +585,7 @@ const PRICING_PAGE = {
     otherTitle: "Otros productos",
     otherIntro: "No hay un precio publicado. Un precio de consumidor publicado se muestra con IVA incluido.",
     contact: "Contactar",
-    others: [["tuntilappu.html", "iqWorkLog"], ["iqrallynote.html", "iqRallyNote"]],
+    others: [["tuntilappu.html", "iqWorkLog™"], ["iqrallynote.html", "iqRallyNote"]],
   },
   pt: {
     metaTitle: "Preços | IQSoftCore",
@@ -646,7 +646,7 @@ const PRICING_PAGE = {
     otherTitle: "Outros produtos",
     otherIntro: "Não há preço publicado. Um preço de consumidor publicado é mostrado com IVA incluído.",
     contact: "Fale conosco",
-    others: [["tuntilappu.html", "iqWorkLog"], ["iqrallynote.html", "iqRallyNote"]],
+    others: [["tuntilappu.html", "iqWorkLog™"], ["iqrallynote.html", "iqRallyNote"]],
   },
   it: {
     metaTitle: "Prezzi | IQSoftCore",
@@ -707,7 +707,7 @@ const PRICING_PAGE = {
     otherTitle: "Altri prodotti",
     otherIntro: "Non c’è un prezzo pubblicato. Un prezzo per consumatori pubblicato è mostrato IVA inclusa.",
     contact: "Contattaci",
-    others: [["tuntilappu.html", "iqWorkLog"], ["iqrallynote.html", "iqRallyNote"]],
+    others: [["tuntilappu.html", "iqWorkLog™"], ["iqrallynote.html", "iqRallyNote"]],
   },
   pl: {
     metaTitle: "Cennik | IQSoftCore",
@@ -768,7 +768,7 @@ const PRICING_PAGE = {
     otherTitle: "Inne produkty",
     otherIntro: "Nie ma opublikowanej ceny. Opublikowana cena dla konsumenta jest pokazywana z VAT.",
     contact: "Skontaktuj się",
-    others: [["tuntilappu.html", "iqWorkLog"], ["iqrallynote.html", "iqRallyNote"]],
+    others: [["tuntilappu.html", "iqWorkLog™"], ["iqrallynote.html", "iqRallyNote"]],
   },
   cs: {
     metaTitle: "Ceník | IQSoftCore",
@@ -829,7 +829,7 @@ const PRICING_PAGE = {
     otherTitle: "Ostatní produkty",
     otherIntro: "Zveřejněná cena není. Zveřejněná spotřebitelská cena se ukazuje včetně DPH.",
     contact: "Kontaktujte nás",
-    others: [["tuntilappu.html", "iqWorkLog"], ["iqrallynote.html", "iqRallyNote"]],
+    others: [["tuntilappu.html", "iqWorkLog™"], ["iqrallynote.html", "iqRallyNote"]],
   },
   ja: {
     metaTitle: "料金 | IQSoftCore",
@@ -890,7 +890,7 @@ const PRICING_PAGE = {
     otherTitle: "その他の製品",
     otherIntro: "公開された価格はありません。消費者向け価格を公表する場合は税込で表示します。",
     contact: "お問い合わせ",
-    others: [["tuntilappu.html", "iqWorkLog"], ["iqrallynote.html", "iqRallyNote"]],
+    others: [["tuntilappu.html", "iqWorkLog™"], ["iqrallynote.html", "iqRallyNote"]],
   },
   ko: {
     metaTitle: "요금 | IQSoftCore",
@@ -951,7 +951,7 @@ const PRICING_PAGE = {
     otherTitle: "다른 제품",
     otherIntro: "공개된 가격이 없습니다. 소비자 가격이 공개되면 부가세 포함 가격으로 표시합니다.",
     contact: "문의하기",
-    others: [["tuntilappu.html", "iqWorkLog"], ["iqrallynote.html", "iqRallyNote"]],
+    others: [["tuntilappu.html", "iqWorkLog™"], ["iqrallynote.html", "iqRallyNote"]],
   },
   zh: {
     metaTitle: "价格 | IQSoftCore",
@@ -1012,7 +1012,7 @@ const PRICING_PAGE = {
     otherTitle: "其他产品",
     otherIntro: "没有公布价格。公布消费者价格时，按含税价展示。",
     contact: "联系我们",
-    others: [["tuntilappu.html", "iqWorkLog"], ["iqrallynote.html", "iqRallyNote"]],
+    others: [["tuntilappu.html", "iqWorkLog™"], ["iqrallynote.html", "iqRallyNote"]],
   },
 };
 

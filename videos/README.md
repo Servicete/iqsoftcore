@@ -1,3 +1,7 @@
+# iqFleetSync-videot
+
+Etusivun päävideo on `assets/video/iqfleetsync_mainos_fi.mp4` ja juliste `assets/video/iqfleetsync_mainos_fi_thumb.jpg`. Tekstitys on poltettu kuvaan. Soitin ei käynnisty itsestään. Ohjevideopaikat etusivulla ovat yhä paikkamerkkejä.
+
 # iqFleetSync-ohjevideot
 
 Ohjekeskus (`ohjekeskus.html`) soittaa nämä tiedostot kansiosta `videos/iqfleetsync/`. Jokaisella klipillä on mp4 ja suomenkielinen WebVTT-tekstitys. Binäärit lisätään seuraavassa commitissa.

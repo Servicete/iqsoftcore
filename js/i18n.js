@@ -36,7 +36,7 @@ const translations = {
     labelLocation: "Osoite",
     locationValue: "Siihtalantie 56, 62710 Kurejoki, Suomi",
     footerRights: "Kaikki oikeudet pidätetään.",
-    footerTrademarks: "iqFleetSync™ ja iqRallyNote™ ovat IqSoftCoren tuotemerkkejä.",
+    footerTrademarks: "iqFleetSync™, iqRallyNote™ ja iqWorkLog™ ovat IqSoftCoren tuotemerkkejä.",
     footerIdentity: "toiminimi IqSoftCore · Y-tunnus 3658340-4 · Siihtalantie 56, 62710 Kurejoki, Suomi",
   },
   en: {
@@ -76,7 +76,7 @@ const translations = {
     labelLocation: "Address",
     locationValue: "Siihtalantie 56, 62710 Kurejoki, Finland",
     footerRights: "All rights reserved.",
-    footerTrademarks: "iqFleetSync™ and iqRallyNote™ are trademarks of IqSoftCore.",
+    footerTrademarks: "iqFleetSync™, iqRallyNote™ and iqWorkLog™ are trademarks of IqSoftCore.",
     footerIdentity: "toiminimi IqSoftCore · Y-tunnus 3658340-4 · Siihtalantie 56, 62710 Kurejoki, Finland",
   },
   sv: {
@@ -116,7 +116,7 @@ const translations = {
     labelLocation: "Adress",
     locationValue: "Siihtalantie 56, 62710 Kurejoki, Finland",
     footerRights: "Alla rättigheter förbehållna.",
-    footerTrademarks: "iqFleetSync™ och iqRallyNote™ är varumärken som tillhör IqSoftCore.",
+    footerTrademarks: "iqFleetSync™, iqRallyNote™ och iqWorkLog™ är varumärken som tillhör IqSoftCore.",
     footerIdentity: "toiminimi IqSoftCore · Y-tunnus 3658340-4 · Siihtalantie 56, 62710 Kurejoki, Finland",
   },
   no: {
@@ -156,7 +156,7 @@ const translations = {
     labelLocation: "Adresse",
     locationValue: "Siihtalantie 56, 62710 Kurejoki, Finland",
     footerRights: "Alle rettigheter forbeholdt.",
-    footerTrademarks: "iqFleetSync™ og iqRallyNote™ er varemerker som tilhører IqSoftCore.",
+    footerTrademarks: "iqFleetSync™, iqRallyNote™ og iqWorkLog™ er varemerker som tilhører IqSoftCore.",
     footerIdentity: "toiminimi IqSoftCore · Y-tunnus 3658340-4 · Siihtalantie 56, 62710 Kurejoki, Finland",
   },
   da: {
@@ -196,7 +196,7 @@ const translations = {
     labelLocation: "Adresse",
     locationValue: "Siihtalantie 56, 62710 Kurejoki, Finland",
     footerRights: "Alle rettigheder forbeholdes.",
-    footerTrademarks: "iqFleetSync™ og iqRallyNote™ er varemærker, der tilhører IqSoftCore.",
+    footerTrademarks: "iqFleetSync™, iqRallyNote™ og iqWorkLog™ er varemærker, der tilhører IqSoftCore.",
     footerIdentity: "toiminimi IqSoftCore · Y-tunnus 3658340-4 · Siihtalantie 56, 62710 Kurejoki, Finland",
   },
   de: {
@@ -236,7 +236,7 @@ const translations = {
     labelLocation: "Anschrift",
     locationValue: "Siihtalantie 56, 62710 Kurejoki, Finnland",
     footerRights: "Alle Rechte vorbehalten.",
-    footerTrademarks: "iqFleetSync™ und iqRallyNote™ sind Marken von IqSoftCore.",
+    footerTrademarks: "iqFleetSync™, iqRallyNote™ und iqWorkLog™ sind Marken von IqSoftCore.",
     footerIdentity: "toiminimi IqSoftCore · Y-tunnus 3658340-4 · Siihtalantie 56, 62710 Kurejoki, Finnland",
   },
   es: {
@@ -276,7 +276,7 @@ const translations = {
     labelLocation: "Dirección",
     locationValue: "Siihtalantie 56, 62710 Kurejoki, Finlandia",
     footerRights: "Todos los derechos reservados.",
-    footerTrademarks: "iqFleetSync™ e iqRallyNote™ son marcas de IqSoftCore.",
+    footerTrademarks: "iqFleetSync™, iqRallyNote™ e iqWorkLog™ son marcas de IqSoftCore.",
     footerIdentity: "toiminimi IqSoftCore · Y-tunnus 3658340-4 · Siihtalantie 56, 62710 Kurejoki, Finlandia",
   },
   it: {
@@ -316,7 +316,7 @@ const translations = {
     labelLocation: "Indirizzo",
     locationValue: "Siihtalantie 56, 62710 Kurejoki, Finlandia",
     footerRights: "Tutti i diritti riservati.",
-    footerTrademarks: "iqFleetSync™ e iqRallyNote™ sono marchi di IqSoftCore.",
+    footerTrademarks: "iqFleetSync™, iqRallyNote™ e iqWorkLog™ sono marchi di IqSoftCore.",
     footerIdentity: "toiminimi IqSoftCore · Y-tunnus 3658340-4 · Siihtalantie 56, 62710 Kurejoki, Finlandia",
   },
   ja: {
@@ -356,7 +356,7 @@ const translations = {
     labelLocation: "住所",
     locationValue: "Siihtalantie 56, 62710 Kurejoki, フィンランド",
     footerRights: "無断転載を禁じます。",
-    footerTrademarks: "iqFleetSync™およびiqRallyNote™は、IqSoftCoreの商標です。",
+    footerTrademarks: "iqFleetSync™、iqRallyNote™およびiqWorkLog™は、IqSoftCoreの商標です。",
     footerIdentity: "toiminimi IqSoftCore · Y-tunnus 3658340-4 · Siihtalantie 56, 62710 Kurejoki, フィンランド",
   },
   ko: {
@@ -396,7 +396,7 @@ const translations = {
     labelLocation: "주소",
     locationValue: "Siihtalantie 56, 62710 Kurejoki, 핀란드",
     footerRights: "모든 권리 보유.",
-    footerTrademarks: "iqFleetSync™와 iqRallyNote™는 IqSoftCore의 상표입니다.",
+    footerTrademarks: "iqFleetSync™, iqRallyNote™ 및 iqWorkLog™는 IqSoftCore의 상표입니다.",
     footerIdentity: "toiminimi IqSoftCore · Y-tunnus 3658340-4 · Siihtalantie 56, 62710 Kurejoki, 핀란드",
   },
   fr: {
@@ -432,7 +432,7 @@ const translations = {
     labelLocation: "Adresse",
     locationValue: "Siihtalantie 56, 62710 Kurejoki, Finlande",
     footerRights: "Tous droits réservés.",
-    footerTrademarks: "iqFleetSync™ et iqRallyNote™ sont des marques d’IqSoftCore.",
+    footerTrademarks: "iqFleetSync™, iqRallyNote™ et iqWorkLog™ sont des marques d’IqSoftCore.",
     footerIdentity: "toiminimi IqSoftCore · Y-tunnus 3658340-4 · Siihtalantie 56, 62710 Kurejoki, Finlande",
   },
   pt: {
@@ -468,7 +468,7 @@ const translations = {
     labelLocation: "Endereço",
     locationValue: "Siihtalantie 56, 62710 Kurejoki, Finlândia",
     footerRights: "Todos os direitos reservados.",
-    footerTrademarks: "iqFleetSync™ e iqRallyNote™ são marcas da IqSoftCore.",
+    footerTrademarks: "iqFleetSync™, iqRallyNote™ e iqWorkLog™ são marcas da IqSoftCore.",
     footerIdentity: "toiminimi IqSoftCore · Y-tunnus 3658340-4 · Siihtalantie 56, 62710 Kurejoki, Finlândia",
   },
   nl: {
@@ -504,7 +504,7 @@ const translations = {
     labelLocation: "Adres",
     locationValue: "Siihtalantie 56, 62710 Kurejoki, Finland",
     footerRights: "Alle rechten voorbehouden.",
-    footerTrademarks: "iqFleetSync™ en iqRallyNote™ zijn handelsmerken van IqSoftCore.",
+    footerTrademarks: "iqFleetSync™, iqRallyNote™ en iqWorkLog™ zijn handelsmerken van IqSoftCore.",
     footerIdentity: "toiminimi IqSoftCore · Y-tunnus 3658340-4 · Siihtalantie 56, 62710 Kurejoki, Finland",
   },
   pl: {
@@ -540,7 +540,7 @@ const translations = {
     labelLocation: "Adres",
     locationValue: "Siihtalantie 56, 62710 Kurejoki, Finlandia",
     footerRights: "Wszelkie prawa zastrzeżone.",
-    footerTrademarks: "iqFleetSync™ i iqRallyNote™ są znakami towarowymi IqSoftCore.",
+    footerTrademarks: "iqFleetSync™, iqRallyNote™ i iqWorkLog™ są znakami towarowymi IqSoftCore.",
     footerIdentity: "toiminimi IqSoftCore · Y-tunnus 3658340-4 · Siihtalantie 56, 62710 Kurejoki, Finlandia",
   },
   cs: {
@@ -576,7 +576,7 @@ const translations = {
     labelLocation: "Adresa",
     locationValue: "Siihtalantie 56, 62710 Kurejoki, Finsko",
     footerRights: "Všechna práva vyhrazena.",
-    footerTrademarks: "iqFleetSync™ a iqRallyNote™ jsou ochranné známky společnosti IqSoftCore.",
+    footerTrademarks: "iqFleetSync™, iqRallyNote™ a iqWorkLog™ jsou ochranné známky společnosti IqSoftCore.",
     footerIdentity: "toiminimi IqSoftCore · Y-tunnus 3658340-4 · Siihtalantie 56, 62710 Kurejoki, Finsko",
   },
   zh: {
@@ -612,7 +612,7 @@ const translations = {
     labelLocation: "地址",
     locationValue: "Siihtalantie 56, 62710 Kurejoki, 芬兰",
     footerRights: "保留所有权利。",
-    footerTrademarks: "iqFleetSync™ 和 iqRallyNote™ 是 IqSoftCore 的商标。",
+    footerTrademarks: "iqFleetSync™、iqRallyNote™ 和 iqWorkLog™ 是 IqSoftCore 的商标。",
     footerIdentity: "toiminimi IqSoftCore · Y-tunnus 3658340-4 · Siihtalantie 56, 62710 Kurejoki, 芬兰",
   },
 };
@@ -640,7 +640,7 @@ const CHROME = {
     langScope: "Sivuston kielet ovat samat kuin iqFleetSyncissä: suomi, ruotsi, norja, tanska, saksa, englanti, espanja, italia ja ranska.",
     statusLive: "Käytettävissä selaimessa",
     statusSoon: "Tulossa",
-    worklogSoon: "iqWorkLog ei ole vielä julkinen. Tällä sivulla ei ole latauslinkkiä.",
+    worklogSoon: "iqWorkLog™ ei ole vielä julkinen. Tällä sivulla ei ole latauslinkkiä.",
     readMore: "Lue lisää",
   },
   en: {
@@ -651,7 +651,7 @@ const CHROME = {
     langScope: "The site languages are the same as in iqFleetSync: Finnish, Swedish, Norwegian, Danish, German, English, Spanish, Italian and French.",
     statusLive: "Available in the browser",
     statusSoon: "Coming",
-    worklogSoon: "iqWorkLog is not public yet. This page has no download link.",
+    worklogSoon: "iqWorkLog™ is not public yet. This page has no download link.",
     readMore: "Read more",
   },
   sv: {
@@ -662,7 +662,7 @@ const CHROME = {
     langScope: "Webbplatsens språk är desamma som i iqFleetSync: finska, svenska, norska, danska, tyska, engelska, spanska, italienska och franska.",
     statusLive: "Finns i webbläsaren",
     statusSoon: "Kommer",
-    worklogSoon: "iqWorkLog är inte offentligt ännu. Den här sidan har ingen nedladdningslänk.",
+    worklogSoon: "iqWorkLog™ är inte offentligt ännu. Den här sidan har ingen nedladdningslänk.",
     readMore: "Läs mer",
   },
   no: {
@@ -673,7 +673,7 @@ const CHROME = {
     langScope: "Nettstedets språk er de samme som i iqFleetSync: finsk, svensk, norsk, dansk, tysk, engelsk, spansk, italiensk og fransk.",
     statusLive: "Tilgjengelig i nettleseren",
     statusSoon: "Kommer",
-    worklogSoon: "iqWorkLog er ikke offentlig ennå. Denne siden har ingen nedlastingslenke.",
+    worklogSoon: "iqWorkLog™ er ikke offentlig ennå. Denne siden har ingen nedlastingslenke.",
     readMore: "Les mer",
   },
   da: {
@@ -684,7 +684,7 @@ const CHROME = {
     langScope: "Webstedets sprog er de samme som i iqFleetSync: finsk, svensk, norsk, dansk, tysk, engelsk, spansk, italiensk og fransk.",
     statusLive: "Tilgængelig i browseren",
     statusSoon: "På vej",
-    worklogSoon: "iqWorkLog er ikke offentlig endnu. Denne side har intet downloadlink.",
+    worklogSoon: "iqWorkLog™ er ikke offentlig endnu. Denne side har intet downloadlink.",
     readMore: "Læs mere",
   },
   de: {
@@ -695,7 +695,7 @@ const CHROME = {
     langScope: "Die Sprachen der Website sind dieselben wie in iqFleetSync: Finnisch, Schwedisch, Norwegisch, Dänisch, Deutsch, Englisch, Spanisch, Italienisch und Französisch.",
     statusLive: "Im Browser verfügbar",
     statusSoon: "In Vorbereitung",
-    worklogSoon: "iqWorkLog ist noch nicht öffentlich. Auf dieser Seite gibt es keinen Download-Link.",
+    worklogSoon: "iqWorkLog™ ist noch nicht öffentlich. Auf dieser Seite gibt es keinen Download-Link.",
     readMore: "Mehr lesen",
   },
   es: {
@@ -706,7 +706,7 @@ const CHROME = {
     langScope: "Los idiomas del sitio son los mismos que en iqFleetSync: finés, sueco, noruego, danés, alemán, inglés, español, italiano y francés.",
     statusLive: "Disponible en el navegador",
     statusSoon: "Próximamente",
-    worklogSoon: "iqWorkLog aún no es público. Esta página no tiene enlace de descarga.",
+    worklogSoon: "iqWorkLog™ aún no es público. Esta página no tiene enlace de descarga.",
     readMore: "Leer más",
   },
   it: {
@@ -717,7 +717,7 @@ const CHROME = {
     langScope: "Le lingue del sito sono le stesse di iqFleetSync: finlandese, svedese, norvegese, danese, tedesco, inglese, spagnolo, italiano e francese.",
     statusLive: "Disponibile nel browser",
     statusSoon: "In arrivo",
-    worklogSoon: "iqWorkLog non è ancora pubblico. Questa pagina non ha un link di download.",
+    worklogSoon: "iqWorkLog™ non è ancora pubblico. Questa pagina non ha un link di download.",
     readMore: "Leggi di più",
   },
   fr: {
@@ -728,7 +728,7 @@ const CHROME = {
     langScope: "Les langues du site sont les mêmes que dans iqFleetSync : finnois, suédois, norvégien, danois, allemand, anglais, espagnol, italien et français.",
     statusLive: "Disponible dans le navigateur",
     statusSoon: "À venir",
-    worklogSoon: "iqWorkLog n’est pas encore public. Cette page n’a pas de lien de téléchargement.",
+    worklogSoon: "iqWorkLog™ n’est pas encore public. Cette page n’a pas de lien de téléchargement.",
     readMore: "Lire la suite",
   },
 };
