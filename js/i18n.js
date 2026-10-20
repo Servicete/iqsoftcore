@@ -36,7 +36,7 @@ const translations = {
     labelLocation: "Osoite",
     locationValue: "Siihtalantie 56, 62710 Kurejoki, Suomi",
     footerRights: "Kaikki oikeudet pidätetään.",
-    footerTrademarks: "iqFleetSync™, iqRallyNote™ ja iqWorkLog™ ovat IqSoftCoren tuotemerkkejä.",
+    footerTrademarks: "iqFleetSync™, iqRallyNote™ ja iqWorkLog™ ovat IqSoftCoren tavaramerkkejä.",
     footerIdentity: "toiminimi IqSoftCore · Y-tunnus 3658340-4 · Siihtalantie 56, 62710 Kurejoki, Suomi",
   },
   en: {

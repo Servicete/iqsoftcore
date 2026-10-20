@@ -25,7 +25,7 @@ Yksinkertaiset yrityskotisivut IQSoftCorelle. Yritys tekee ohjelmistoja, sovellu
 
 ## Tekijänoikeus
 
-Jokaisen sivun alatunnisteessa on merkintä © 2026 IqSoftCore ja lause ”Kaikki oikeudet pidätetään.” Vuodesta 2027 alkaen pieni skripti vaihtaa vuoden muotoon © 2026–kuluva vuosi. Jos JavaScript ei ole käytössä, näkyviin jää staattinen 2026. Samassa alatunnisteessa kerrotaan, että iqFleetSync™, iqRallyNote™ ja iqWorkLog™ ovat IqSoftCoren tuotemerkkejä. Tuotenimi kirjoitetaan samalla ™-merkillä myös muualla sivustolla.
+Jokaisen sivun alatunnisteessa on merkintä © 2026 IqSoftCore ja lause ”Kaikki oikeudet pidätetään.” Vuodesta 2027 alkaen pieni skripti vaihtaa vuoden muotoon © 2026–kuluva vuosi. Jos JavaScript ei ole käytössä, näkyviin jää staattinen 2026. Samassa alatunnisteessa kerrotaan, että iqFleetSync™, iqRallyNote™ ja iqWorkLog™ ovat IqSoftCoren tavaramerkkejä. Tuotenimi kirjoitetaan samalla ™-merkillä myös muualla sivustolla.
 
 Käyttöehtojen kohta 17 kertoo, että ohjelmistot, sisältö, ohjevideot ja logot ovat IqSoftCoren omaisuutta, asiakas saa käyttöoikeuden eikä omistusoikeutta, ja asiakkaan omat tiedot pysyvät asiakkaan omaisuutena. Suomenkielinen teksti on virallinen versio. Käännökset ovat `js/i18n.js`- ja `js/terms-content.js`-tiedostoissa.
 
