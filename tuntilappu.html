@@ -3,32 +3,39 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>iqWorkLog | IQSoftCore</title>
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'self'; object-src 'none'; frame-src 'none'; frame-ancestors 'none'; img-src 'self' data:; font-src 'self'; style-src 'self'; script-src 'self'; connect-src 'self'; media-src 'self'; form-action 'self'; upgrade-insecure-requests" />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
+    <title>iqWorkLog™ | IQSoftCore</title>
     <meta name="description" content="Android-sovellus työajanseurantaan. 14 päivän ilmainen kokeilu, sen jälkeen kertamaksu. Yli 70 kieltä. Entinen Tuntilappu." />
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="IQSoftCore" />
     <meta property="og:locale" content="fi_FI" />
-    <meta property="og:title" content="iqWorkLog | IQSoftCore" />
+    <meta property="og:title" content="iqWorkLog™ | IQSoftCore" />
     <meta property="og:description" content="Android-sovellus työajanseurantaan. 14 päivän ilmainen kokeilu, sen jälkeen kertamaksu. Yli 70 kieltä. Entinen Tuntilappu." />
     <meta property="og:url" content="https://iqsoftcore.fi/tuntilappu.html" />
     <meta property="og:image" content="https://iqsoftcore.fi/assets/iqworklog-og.png" />
     <meta property="og:image:type" content="image/png" />
     <meta property="og:image:width" content="1024" />
     <meta property="og:image:height" content="500" />
-    <meta property="og:image:alt" content="iqWorkLog" />
+    <meta property="og:image:alt" content="iqWorkLog™" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="iqWorkLog | IQSoftCore" />
+    <meta name="twitter:title" content="iqWorkLog™ | IQSoftCore" />
     <meta name="twitter:description" content="Android-sovellus työajanseurantaan. 14 päivän ilmainen kokeilu, sen jälkeen kertamaksu. Yli 70 kieltä. Entinen Tuntilappu." />
     <meta name="twitter:image" content="https://iqsoftcore.fi/assets/iqworklog-og.png" />
-    <meta name="twitter:image:alt" content="iqWorkLog" />
+    <meta name="twitter:image:alt" content="iqWorkLog™" />
+        <link rel="canonical" href="https://iqsoftcore.fi/tuntilappu.html" />
+    <link rel="alternate" hreflang="fi" href="https://iqsoftcore.fi/tuntilappu.html?lang=fi" />
+    <link rel="alternate" hreflang="sv" href="https://iqsoftcore.fi/tuntilappu.html?lang=sv" />
+    <link rel="alternate" hreflang="no" href="https://iqsoftcore.fi/tuntilappu.html?lang=no" />
+    <link rel="alternate" hreflang="da" href="https://iqsoftcore.fi/tuntilappu.html?lang=da" />
+    <link rel="alternate" hreflang="de" href="https://iqsoftcore.fi/tuntilappu.html?lang=de" />
+    <link rel="alternate" hreflang="en" href="https://iqsoftcore.fi/tuntilappu.html?lang=en" />
+    <link rel="alternate" hreflang="es" href="https://iqsoftcore.fi/tuntilappu.html?lang=es" />
+    <link rel="alternate" hreflang="it" href="https://iqsoftcore.fi/tuntilappu.html?lang=it" />
+    <link rel="alternate" hreflang="fr" href="https://iqsoftcore.fi/tuntilappu.html?lang=fr" />
+    <link rel="alternate" hreflang="x-default" href="https://iqsoftcore.fi/tuntilappu.html" />
     <link rel="icon" href="assets/logo.svg" type="image/svg+xml" />
     <link rel="apple-touch-icon" href="assets/iqworklog-icon-512.png" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700&family=Syne:wght@600;700;750&display=swap"
-      rel="stylesheet"
-    />
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
@@ -38,8 +45,12 @@
           <img src="assets/logo.svg" alt="" width="36" height="36" />
           <span class="brand-name">IQSoftCore</span>
         </a>
-        <nav class="nav" aria-label="Primary">
-          <a href="index.html#about" data-i18n="navAbout">Toiminta</a>
+                <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Avaa valikko">
+          <span class="nav-toggle-bars" aria-hidden="true"></span>
+          <span class="visually-hidden nav-toggle-label">Avaa valikko</span>
+        </button>
+        <nav id="site-nav" class="nav" aria-label="Primary">
+          <a href="index.html#tuotteet" data-i18n="navProducts">Tuotteet</a>
           <a href="apps.html" aria-current="page" data-i18n="navApps">Sovellukset</a>
           <a href="ohjekeskus.html" data-i18n="navHelp">Ohjekeskus</a>
           <a href="hinnasto.html" data-i18n="navPricing">Hinnasto</a>
@@ -49,21 +60,14 @@
           <label class="visually-hidden" for="lang-select" data-i18n="langLabel">Kieli</label>
           <select id="lang-select" class="lang-select" aria-label="Language">
             <option value="fi">Suomi</option>
-            <option value="en">English</option>
             <option value="sv">Svenska</option>
             <option value="no">Norsk</option>
             <option value="da">Dansk</option>
             <option value="de">Deutsch</option>
-            <option value="nl">Nederlands</option>
-            <option value="fr">Français</option>
+            <option value="en">English</option>
             <option value="es">Español</option>
-            <option value="pt">Português (BR)</option>
             <option value="it">Italiano</option>
-            <option value="pl">Polski</option>
-            <option value="cs">Čeština</option>
-            <option value="ja">日本語</option>
-            <option value="ko">한국어</option>
-            <option value="zh">中文</option>
+            <option value="fr">Français</option>
           </select>
         </nav>
       </div>
@@ -79,7 +83,7 @@
       <div class="footer-inner">
         <div class="footer-meta">
           <p class="footer-copy">© <span id="year">2026</span> IqSoftCore. <span data-i18n="footerRights">Kaikki oikeudet pidätetään.</span></p>
-          <p class="footer-trademarks" data-i18n="footerTrademarks">iqWorkLog™, iqFleetSync™ ja iqRallyNote™ ovat IqSoftCoren tavaramerkkejä.</p>
+          <p class="footer-trademarks" data-i18n="footerTrademarks">iqFleetSync™, iqRallyNote™ ja iqWorkLog™ ovat IqSoftCoren tavaramerkkejä.</p>
           <p class="footer-identity" data-i18n="footerIdentity">toiminimi IqSoftCore · Y-tunnus 3658340-4 · Siihtalantie 56, 62710 Kurejoki, Suomi</p>
         </div>
         <div class="footer-links">

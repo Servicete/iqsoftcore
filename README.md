@@ -4,14 +4,14 @@ Yksinkertaiset yrityskotisivut IQSoftCorelle. Yritys tekee ohjelmistoja, sovellu
 
 ## Sisältö
 
-- Etusivu: lyhyt yritysesittely ja yhteystiedot
-- Sovellukset: `apps.html` (Tuntilappu, iqFleetSync, iqRallyNote)
+- Etusivu: iqFleetSync™ ensin (kokeilu, kohderyhmät, hinta, UKK). iqRallyNote™ ja iqWorkLog™ omina kortteinaan. Muut palvelut lyhyesti.
+- Sovellukset: `apps.html` (iqFleetSync™, iqRallyNote™, iqWorkLog™)
 - iqFleetSync: `iqfleetsync.html` (myyntisivu: yritys-, huolto- ja kuljettajanäkymä, laskuri, kokeilu)
 - Hinnasto: `hinnasto.html`
 - Käyttöehdot: `kayttoehdot.html`
 - Tietosuoja: yritystason käytäntö (`privacy.html`, iqFleetSync-osio `#iqfleetsync`), Tuntilapun oma sivu (`privacy-tuntilappu.html`) ja iqRallyNoten oma sivu (`privacy-iqrallynote.html`)
 - Logo: SVG-merkki (IQC) ja wordmark
-- Kielet: fi, en, sv, no, da, de, nl, fr, es, pt, it, pl, cs, ja, ko, zh
+- Kielet sivustolla: fi, sv, no, da, de, en, es, it, fr (samat kuin iqFleetSyncissä). Vanhemmat käännökset voivat olla tiedostoissa, mutta kielivalikko ei lupaa niitä.
 
 ## iqFleetSync-sivu (2026-10-05)
 
@@ -25,7 +25,7 @@ Yksinkertaiset yrityskotisivut IQSoftCorelle. Yritys tekee ohjelmistoja, sovellu
 
 ## Tekijänoikeus
 
-Jokaisen sivun alatunnisteessa on merkintä © 2026 IqSoftCore ja lause ”Kaikki oikeudet pidätetään.” Vuodesta 2027 alkaen pieni skripti vaihtaa vuoden muotoon © 2026–kuluva vuosi. Jos JavaScript ei ole käytössä, näkyviin jää staattinen 2026. Samassa alatunnisteessa kerrotaan, että iqFleetSync™ ja iqRallyNote™ ovat IqSoftCoren tuotemerkkejä. ™-merkkiä ei toisteta sivun muussa tekstissä.
+Jokaisen sivun alatunnisteessa on merkintä © 2026 IqSoftCore ja lause ”Kaikki oikeudet pidätetään.” Vuodesta 2027 alkaen pieni skripti vaihtaa vuoden muotoon © 2026–kuluva vuosi. Jos JavaScript ei ole käytössä, näkyviin jää staattinen 2026. Samassa alatunnisteessa kerrotaan, että iqFleetSync™, iqRallyNote™ ja iqWorkLog™ ovat IqSoftCoren tavaramerkkejä. Tuotenimi kirjoitetaan samalla ™-merkillä myös muualla sivustolla.
 
 Käyttöehtojen kohta 17 kertoo, että ohjelmistot, sisältö, ohjevideot ja logot ovat IqSoftCoren omaisuutta, asiakas saa käyttöoikeuden eikä omistusoikeutta, ja asiakkaan omat tiedot pysyvät asiakkaan omaisuutena. Suomenkielinen teksti on virallinen versio. Käännökset ovat `js/i18n.js`- ja `js/terms-content.js`-tiedostoissa.
 
