@@ -981,40 +981,74 @@ const FLEET_OG_LOCALE = {
 
 const FLEETSYNC_PARTNER = {
   fi: {
-    title: "Korjaamoille: kumppanimalli tulossa",
-    text: "Raskaan kaluston korjaamo voi jatkossa hallinnoida asiakkaidensa kaluston huolto- ja katsastustietoja ja tarjota iqFleetSync™-palvelua asiakkailleen omalla hinnallaan. Malli on vielä valmisteilla – kerro meille, millainen yhteistyö sopisi teille. Kumppanimalli tulossa – ota yhteyttä.",
+    title: "Korjaamoille",
+    text: "Sama iqFleetSync™ käy kalustoyritykselle, korjaamolle tai molemmille. Yksikön voi jakaa kumppanikorjaamolle samalla QR-tarralla. Korjaamo voi pitää yksikön hallinnassaan asiakkaalle, joka ei vielä käytä palvelua.",
+    link: "Korjaamoille",
   },
   en: {
-    title: "Workshops: partner model coming",
-    text: "A heavy-equipment workshop will be able to keep customers’ service and inspection data and offer iqFleetSync™ to its customers at its own price. The model is still being prepared – tell us what kind of cooperation would suit you. Partner model coming – get in touch.",
+    title: "For workshops",
+    text: "The same iqFleetSync™ serves a fleet company, a workshop, or both. A unit can be shared with a partner workshop on the same QR sticker. A workshop can keep a unit for a customer that does not use the service yet.",
+    link: "For workshops",
   },
   sv: {
-    title: "För verkstäder: partnermodell på väg",
-    text: "En verkstad för tung utrustning kan framöver hålla kundernas service- och besiktningsuppgifter och erbjuda iqFleetSync™ till sina kunder till eget pris. Modellen förbereds fortfarande – berätta vilken typ av samarbete som skulle passa er. Partnermodell på väg – kontakta oss.",
+    title: "För verkstäder",
+    text: "Samma iqFleetSync™ gäller för ett åkeri, en verkstad eller båda. En enhet kan delas med en partnerverkstad med samma QR-dekal. Verkstaden kan hålla en enhet åt en kund som ännu inte använder tjänsten.",
+    link: "För verkstäder",
   },
   no: {
-    title: "For verksteder: partnermodell på vei",
-    text: "Et verksted for tungt utstyr kan senere holde kundenes service- og kontrolldata og tilby iqFleetSync™ til kundene sine til egen pris. Modellen er fortsatt under arbeid – si fra hva slags samarbeid som ville passe dere. Partnermodell på vei – ta kontakt.",
+    title: "For verksteder",
+    text: "Samme iqFleetSync™ gjelder for et transportfirma, et verksted eller begge. En enhet kan deles med et partnerverksted med samme QR-merke. Verkstedet kan holde en enhet for en kunde som ennå ikke bruker tjenesten.",
+    link: "For verksteder",
   },
   da: {
-    title: "Til værksteder: partnermodel på vej",
-    text: "Et værksted for tungt udstyr kan senere holde kundernes service- og syndata og tilbyde iqFleetSync™ til sine kunder til egen pris. Modellen er stadig under forberedelse – fortæl os, hvilket samarbejde der ville passe jer. Partnermodel på vej – kontakt os.",
+    title: "Til værksteder",
+    text: "Samme iqFleetSync™ gælder for et vognmandsfirma, et værksted eller begge. En enhed kan deles med et partnerværksted med det samme QR-mærke. Værkstedet kan holde en enhed for en kunde, der endnu ikke bruger tjenesten.",
+    link: "Til værksteder",
   },
   de: {
-    title: "Für Werkstätten: Partnermodell in Vorbereitung",
-    text: "Eine Werkstatt für schweres Gerät kann künftig die Wartungs- und Untersuchungsdaten der Kundenflotte führen und iqFleetSync™ den Kunden zum eigenen Preis anbieten. Das Modell wird noch vorbereitet – sagen Sie uns, welche Zusammenarbeit zu Ihnen passt. Partnermodell in Vorbereitung – nehmen Sie Kontakt auf.",
+    title: "Für Werkstätten",
+    text: "Derselbe iqFleetSync™ gilt für ein Fuhrunternehmen, eine Werkstatt oder beides. Eine Einheit kann mit einer Partnerwerkstatt über denselben QR-Aufkleber geteilt werden. Die Werkstatt kann eine Einheit für Kundschaft führen, die den Dienst noch nicht nutzt.",
+    link: "Für Werkstätten",
   },
   es: {
-    title: "Para talleres: modelo de colaboración en camino",
-    text: "Un taller de maquinaria pesada podrá llevar los datos de mantenimiento e inspección de la flota de sus clientes y ofrecer iqFleetSync™ a sus clientes a su propio precio. El modelo aún se está preparando – cuéntanos qué colaboración os encajaría. Modelo de colaboración en camino – contáctanos.",
+    title: "Para talleres",
+    text: "El mismo iqFleetSync™ sirve para una empresa de flota, un taller o ambos. Una unidad se puede compartir con un taller asociado con la misma etiqueta QR. El taller puede llevar una unidad para clientela que todavía no usa el servicio.",
+    link: "Para talleres",
   },
   it: {
-    title: "Per le officine: modello partner in arrivo",
-    text: "Un’officina di mezzi pesanti potrà tenere i dati di manutenzione e revisione della flotta dei clienti e offrire iqFleetSync™ ai propri clienti al proprio prezzo. Il modello è ancora in preparazione – dicci che collaborazione vi andrebbe. Modello partner in arrivo – contattaci.",
+    title: "Per le officine",
+    text: "Lo stesso iqFleetSync™ vale per un’azienda di flotta, un’officina o entrambe. Un’unità si può condividere con un’officina partner con la stessa etichetta QR. L’officina può tenere un’unità per clientela che non usa ancora il servizio.",
+    link: "Per le officine",
   },
   fr: {
-    title: "Pour les ateliers : modèle partenaire à venir",
-    text: "Un atelier de matériel lourd pourra tenir les données d’entretien et de contrôle de la flotte de ses clients et proposer iqFleetSync™ à ses clients à son propre prix. Le modèle se prépare encore – dites-nous quelle coopération vous conviendrait. Modèle partenaire à venir – contactez-nous.",
+    title: "Pour les ateliers",
+    text: "Le même iqFleetSync™ sert une entreprise de parc, un atelier ou les deux. Une unité peut être partagée avec un atelier partenaire avec la même étiquette QR. L’atelier peut garder une unité pour une clientèle qui n’utilise pas encore le service.",
+    link: "Pour les ateliers",
+  },
+  et: {
+    title: "Töökodadele",
+    text: "Sama iqFleetSync™ on autopargile, töökojale või mõlemale. Üksuse saab partneri töökojaga jagada sama QR-kleebisega. Töökoda võib üksust hoida kliendile, kes teenust veel ei kasuta.",
+    link: "Töökodadele",
+  },
+  lv: {
+    title: "Darbnīcām",
+    text: "Tas pats iqFleetSync™ der autoparkam, darbnīcai vai abiem. Vienību var koplietot ar partnera darbnīcu ar to pašu QR uzlīmi. Darbnīca var turēt vienību klientam, kurš pakalpojumu vēl nelieto.",
+    link: "Darbnīcām",
+  },
+  lt: {
+    title: "Dirbtuvėms",
+    text: "Tas pats iqFleetSync™ tinka autoparkui, dirbtuvėms arba abiem. Vienetą galima bendrinti su partnerio dirbtuvėmis ta pačia QR lipduku. Dirbtuvės gali laikyti vienetą klientui, kuris paslaugos dar nenaudoja.",
+    link: "Dirbtuvėms",
+  },
+  pl: {
+    title: "Dla warsztatów",
+    text: "Ten sam iqFleetSync™ służy firmie flotowej, warsztatowi albo obu. Jednostkę można udostępnić warsztatowi partnerskiemu tą samą naklejką QR. Warsztat może prowadzić jednostkę dla klienta, który nie korzysta jeszcze z usługi.",
+    link: "Dla warsztatów",
+  },
+  cs: {
+    title: "Pro dílny",
+    text: "Stejný iqFleetSync™ je pro flotilovou firmu, dílnu nebo obojí. Jednotku lze sdílet s partnerskou dílnou stejnou QR nálepkou. Dílna může vést jednotku pro zákazníka, který službu ještě nepoužívá.",
+    link: "Pro dílny",
   },
 };
 
@@ -1088,9 +1122,9 @@ function renderFleetSyncPage(lang) {
     </div>
     <h2>${escapeFleetHtml(page.faqHeading)}</h2>
     ${faq}
-    <h2>${escapeFleetHtml((FLEETSYNC_PARTNER[lang] || FLEETSYNC_PARTNER.fi).title)}</h2>
-    <p>${escapeFleetHtml((FLEETSYNC_PARTNER[lang] || FLEETSYNC_PARTNER.fi).text)}</p>
-    <p><a class="btn btn-ghost" id="cta-contact-fleetsync-workshop" data-cta="contact" href="index.html#contact">${escapeFleetHtml(page.contact)}</a></p>
+    <h2>${escapeFleetHtml((FLEETSYNC_PARTNER[lang] || FLEETSYNC_PARTNER.en).title)}</h2>
+    <p>${escapeFleetHtml((FLEETSYNC_PARTNER[lang] || FLEETSYNC_PARTNER.en).text)}</p>
+    <p><a class="btn btn-ghost" id="cta-workshop-fleetsync" href="korjaamoille.html">${escapeFleetHtml((FLEETSYNC_PARTNER[lang] || FLEETSYNC_PARTNER.en).link)}</a></p>
     <p class="policy-nav">
       <a class="btn btn-ghost" href="ohjekeskus.html">${escapeFleetHtml(help.label)}</a>
       <a class="btn btn-ghost" href="hinnasto.html">${escapeFleetHtml(page.pricing)}</a>

@@ -1176,11 +1176,17 @@ ul.calc-lines {
   box-shadow: var(--shadow-soft);
 }
 
-.help-card h2 {
+.help-card h2,
+.help-card h3 {
   margin: 0;
   font-family: var(--font-display);
   font-size: 1.25rem;
   letter-spacing: -0.02em;
+}
+
+.help-card .help-copy {
+  display: grid;
+  gap: 0.55rem;
 }
 
 .help-card p {
