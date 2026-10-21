@@ -40,7 +40,7 @@ const HELP_CENTER = {
     lead: "Lyhyet suomenkieliset ohjevideot iqFleetSynciin. Tekstitys on suomeksi.",
     unsupported: "Selaimesi ei toista videota.",
     back: "Takaisin iqFleetSynciin",
-    apps: "Kaikki sovellukset",
+    apps: "Tuotteet",
     home: "Etusivu",
     topics: {
       "qr-login": {
@@ -73,7 +73,7 @@ const HELP_CENTER = {
     lead: "Short Finnish how-to videos for iqFleetSync. Subtitles are in Finnish.",
     unsupported: "Your browser cannot play this video.",
     back: "Back to iqFleetSync",
-    apps: "All apps",
+    apps: "Products",
     home: "Home",
     topics: {
       "qr-login": {
@@ -106,7 +106,7 @@ const HELP_CENTER = {
     lead: "Korta finska instruktionsvideor för iqFleetSync. Undertexterna är på finska.",
     unsupported: "Din webbläsare kan inte spela videon.",
     back: "Tillbaka till iqFleetSync",
-    apps: "Alla appar",
+    apps: "Produkter",
     home: "Startsida",
     topics: {
       "qr-login": {
@@ -161,7 +161,7 @@ function syncHelpSocial(lang, title, description) {
 
 function helpMediaHtml(item, topic, unsupportedLabel) {
   const title = escapeHelpHtml(topic.title);
-  return `<video class="help-player" controls playsinline preload="metadata" poster="assets/iqfleetsync-icon-512.png" aria-label="${title}">
+  return `<video class="help-player" controls playsinline preload="metadata" poster="assets/iqfleetsync-icon-512.png" aria-label="${title}" title="${title}">
       <source src="${escapeHelpHtml(item.src)}" type="video/mp4" />
       <track kind="subtitles" src="${escapeHelpHtml(item.captions)}" srclang="fi" label="Suomi" default />
       ${escapeHelpHtml(unsupportedLabel)}
@@ -174,11 +174,15 @@ function renderHelpCenter(lang) {
 
   const resolvedLang = HELP_CENTER[lang] ? lang : "en";
   const page = HELP_CENTER[resolvedLang];
-  const titleEl = document.querySelector("title");
-  if (titleEl) titleEl.textContent = page.metaTitle;
-  const metaDesc = document.querySelector('meta[name="description"]');
-  if (metaDesc) metaDesc.setAttribute("content", page.metaDescription);
-  syncHelpSocial(resolvedLang, page.metaTitle, page.metaDescription);
+  const embedded = root.dataset.embedded === "true";
+  if (!embedded) {
+    const titleEl = document.querySelector("title");
+    if (titleEl) titleEl.textContent = page.metaTitle;
+    const metaDesc = document.querySelector('meta[name="description"]');
+    if (metaDesc) metaDesc.setAttribute("content", page.metaDescription);
+    syncHelpSocial(resolvedLang, page.metaTitle, page.metaDescription);
+  }
+  const heading = embedded ? "h2" : "h1";
 
   const cards = HELP_MEDIA.map((item) => {
     const topic = page.topics[item.id];
@@ -190,19 +194,20 @@ function renderHelpCenter(lang) {
     </article>`;
   }).join("");
 
+  const backHref = embedded ? "#esittely" : "iqfleetsync.html";
   root.innerHTML = `<div class="product-heading">
       <img class="product-icon" src="assets/iqfleetsync-icon.svg" width="72" height="72" alt="" />
       <div>
         <p class="help-kicker">${escapeHelpHtml(page.kicker)}</p>
-        <h1>${escapeHelpHtml(page.title)}</h1>
+        <${heading} id="help-title">${escapeHelpHtml(page.title)}</${heading}>
       </div>
     </div>
     <p>${escapeHelpHtml(page.lead)}</p>
     <div class="help-list">${cards}</div>
     ${typeof workshopGuidesHtml === "function" ? workshopGuidesHtml(lang) : ""}
     <p class="policy-nav">
-      <a class="btn btn-ghost" href="iqfleetsync.html">${escapeHelpHtml(page.back)}</a>
-      <a class="btn btn-ghost" href="apps.html">${escapeHelpHtml(page.apps)}</a>
+      <a class="btn btn-ghost" href="${backHref}">${escapeHelpHtml(page.back)}</a>
+      <a class="btn btn-ghost" href="tuotteet.html">${escapeHelpHtml(page.apps)}</a>
       <a class="btn btn-ghost" href="index.html">${escapeHelpHtml(page.home)}</a>
     </p>`;
 }

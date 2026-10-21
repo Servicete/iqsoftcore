@@ -3304,7 +3304,7 @@ function escapeTermsHtml(value) {
 function renderTermsParagraph(paragraph, page) {
   const tokens = {
     "[[privacy]]": `<a href="privacy.html">${escapeTermsHtml(page.privacyLink)}</a>`,
-    "[[pricing]]": `<a href="hinnasto.html">${escapeTermsHtml(page.pricing)}</a>`,
+    "[[pricing]]": `<a href="iqfleetsync.html#hinnasto">${escapeTermsHtml(page.pricing)}</a>`,
   };
   const parts = String(paragraph).split(/(\[\[privacy\]\]|\[\[pricing\]\])/);
   return parts.map((part) => (tokens[part] ? tokens[part] : escapeTermsHtml(part))).join("");
@@ -3344,7 +3344,7 @@ function renderTermsPage(lang) {
     <p>${escapeTermsHtml(page.scope)}</p>
     ${sections}
     <p class="policy-nav">
-      <a class="btn btn-ghost" href="hinnasto.html">${escapeTermsHtml(page.pricing)}</a>
+      <a class="btn btn-ghost" href="iqfleetsync.html#hinnasto">${escapeTermsHtml(page.pricing)}</a>
       <a class="btn btn-ghost" href="iqfleetsync.html">${escapeTermsHtml(page.product)}</a>
       <a class="btn btn-ghost" href="privacy.html">${escapeTermsHtml(page.privacyLink)}</a>
       <a class="btn btn-ghost" href="index.html">${escapeTermsHtml(page.home)}</a>

@@ -662,6 +662,10 @@ a:hover {
   max-width: 44rem;
 }
 
+.product-sales .section-inner {
+  max-width: var(--max);
+}
+
 .product-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
@@ -1390,6 +1394,33 @@ body.product-rally .product-page li::marker {
   max-width: 16ch;
 }
 
+.hero-company h1 {
+  max-width: 18ch;
+}
+
+.product-subnav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem 1.1rem;
+  margin: 0;
+  padding: 0.85rem 0 0.15rem;
+}
+
+.product-subnav a {
+  font-weight: 700;
+}
+
+.product-crumb {
+  margin: 0 0 0.85rem;
+  font-weight: 700;
+}
+
+section[id],
+.help-card[id],
+#workshop-guides {
+  scroll-margin-top: 5.5rem;
+}
+
 .hero-sub {
   margin: 0;
   max-width: 38rem;
@@ -1414,7 +1445,6 @@ body.product-rally .product-page li::marker {
 
 .card-grid,
 .steps,
-.video-grid,
 .product-grid-3 {
   display: grid;
   gap: 1rem;
@@ -1675,77 +1705,22 @@ body.product-rally .product-page li::marker {
   background: rgba(20, 61, 74, 0.08);
 }
 
-.video-grid {
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  margin-top: 1rem;
-}
-
 .video-slot {
   margin: 0;
   overflow: hidden;
-}
-
-.video-placeholder {
-  display: grid;
-  align-content: center;
-  gap: 0.4rem;
-  min-height: 11rem;
-  padding: 1rem 1.05rem;
-  background:
-    linear-gradient(160deg, rgba(127, 212, 200, 0.18), transparent 42%),
-    #143d4a;
-  color: #f4fbf9;
-}
-
-.hero-media .video-placeholder {
-  min-height: 16rem;
 }
 
 .promo-video {
   background: #143d4a;
 }
 
-.promo-video video {
+.promo-video video,
+.help-player {
   display: block;
   width: 100%;
   height: auto;
   aspect-ratio: 16 / 9;
   background: #143d4a;
-}
-
-.promo-video figcaption {
-  margin: 0;
-  padding: 0.55rem 0.9rem 0.75rem;
-  color: #f4fbf9;
-  font-size: 0.9rem;
-  font-weight: 700;
-}
-
-.video-badge {
-  display: inline-flex;
-  width: fit-content;
-  padding: 0.15rem 0.5rem;
-  border-radius: 999px;
-  background: #f4fbf9;
-  color: #143d4a;
-  font-size: 0.72rem;
-  font-weight: 800;
-  letter-spacing: 0.06em;
-}
-
-.video-slot-title,
-.video-slot-file {
-  margin: 0;
-  color: #f4fbf9;
-}
-
-.video-slot-file {
-  font-size: 0.82rem;
-  overflow-wrap: anywhere;
-}
-
-.video-slot-file code {
-  color: #d7f4ef;
 }
 
 .services-note {

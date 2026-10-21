@@ -359,6 +359,10 @@ function renderRallyNotePage(lang) {
     <h2>${escapeRallyHtml(page.featuresHeading)}</h2>
     <ul>${features}</ul>
     <p>${escapeRallyHtml(page.body)}</p>
+    <h2 id="hinnasto">${escapeRallyHtml(ui.navPricing || "Hinnasto")}</h2>
     <p>${escapeRallyHtml(page.missing)} <a href="index.html#contact">${escapeRallyHtml(page.contact)}</a></p>
-    <p class="policy-nav"><a class="btn btn-ghost" href="privacy-iqrallynote.html">${escapeRallyHtml(privacyLabel)}</a> <a class="btn btn-ghost" href="apps.html">${escapeRallyHtml(page.backApps)}</a></p>`;
+    <h2 id="ohjekeskus">${escapeRallyHtml(ui.navHelp || "Ohjekeskus")}</h2>
+    <p>${escapeRallyHtml(ui.helpSoon || "")}</p>
+    <p><a href="index.html#contact">${escapeRallyHtml(page.contact)}</a></p>
+    <p class="policy-nav"><a class="btn btn-ghost" href="privacy-iqrallynote.html">${escapeRallyHtml(privacyLabel)}</a> <a class="btn btn-ghost" href="tuotteet.html">${escapeRallyHtml(ui.navProducts || page.backApps)}</a></p>`;
 }

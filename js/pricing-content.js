@@ -1155,6 +1155,7 @@ function renderPricingPage(lang) {
   if (!root || typeof quoteFleetSync !== "function") return;
 
   const page = PRICING_PAGE[lang] || PRICING_PAGE.en;
+  const embedded = root.dataset.embedded === "true";
   const previousVehicles = document.getElementById("calc-vehicles");
   const previousMachines = document.getElementById("calc-machines");
   const previousTrailers = document.getElementById("calc-trailers");
@@ -1164,10 +1165,12 @@ function renderPricingPage(lang) {
   const trailerValue = previousTrailers ? previousTrailers.value : "";
   const attachmentValue = previousAttachments ? previousAttachments.value : "";
 
-  const titleEl = document.querySelector("title");
-  if (titleEl) titleEl.textContent = page.metaTitle;
-  const metaDesc = document.querySelector('meta[name="description"]');
-  if (metaDesc) metaDesc.setAttribute("content", page.metaDescription);
+  if (!embedded) {
+    const titleEl = document.querySelector("title");
+    if (titleEl) titleEl.textContent = page.metaTitle;
+    const metaDesc = document.querySelector('meta[name="description"]');
+    if (metaDesc) metaDesc.setAttribute("content", page.metaDescription);
+  }
 
   const tierRows = page.tiers
     .map(
@@ -1185,7 +1188,9 @@ function renderPricingPage(lang) {
     )
     .join("");
 
-  root.innerHTML = `<h1>${escapePriceHtml(page.title)}</h1>
+  const priceHeading = embedded ? "h2" : "h1";
+  const priceHeadingId = embedded ? ' id="price-list-title"' : "";
+  root.innerHTML = `<${priceHeading}${priceHeadingId}>${escapePriceHtml(page.title)}</${priceHeading}>
     <p>${escapePriceHtml(page.intro)}</p>
     <h2>${escapePriceHtml(page.fleetTitle)}</h2>
     <p class="price-aside"><strong>${escapePriceHtml(page.audience)}</strong></p>

@@ -395,13 +395,16 @@ function renderTuntilappuPage(lang) {
   html += `<ul>${page.features.map((item) => `<li>${escapeAppsHtml(item)}</li>`).join("")}</ul>`;
   html += `<p>${escapeAppsHtml(ui.worklogSoon || "iqWorkLog™ ei ole vielä julkinen. Tällä sivulla ei ole latauslinkkiä.")}</p>`;
   if (ui.noPublicPrice) {
+    html += `<h2 id="hinnasto">${escapeAppsHtml(ui.navPricing || "Hinnasto")}</h2>`;
     html += `<p>${escapeAppsHtml(ui.noPublicPrice)} <a href="index.html#contact">${escapeAppsHtml(ui.ctaContact || "")}</a></p>`;
   }
+  html += `<h2 id="ohjekeskus">${escapeAppsHtml(ui.navHelp || "Ohjekeskus")}</h2>`;
+  html += `<p>${escapeAppsHtml(ui.helpSoon || "")}</p>`;
   html += `<div class="app-actions">`;
   html += `<a class="btn btn-primary" id="cta-contact-worklog" data-cta="contact" href="index.html#contact">${escapeAppsHtml(ui.ctaContact || "Ota yhteyttä")}</a>`;
   html += `<a class="btn btn-ghost" href="privacy-tuntilappu.html">${escapeAppsHtml(page.privacyLink)}</a>`;
   html += `</div>`;
-  html += `<p class="policy-nav"><a class="btn btn-ghost" href="apps.html">${escapeAppsHtml(ui.backApps || page.backHome)}</a></p>`;
+  html += `<p class="policy-nav"><a class="btn btn-ghost" href="tuotteet.html">${escapeAppsHtml(ui.navProducts || ui.backApps || page.backHome)}</a></p>`;
 
   root.innerHTML = html;
 }
