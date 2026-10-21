@@ -778,10 +778,14 @@ const OG_LOCALE = {
 const CHROME = {
   fi: {
     skipLink: "Siirry sisältöön",
+    navHome: "Etusivu",
     navProducts: "Tuotteet",
+    subIntro: "Esittely",
+    partnerSoon: "Kumppanimalli tulossa – ota yhteyttä.",
+    helpSoon: "Ohjekeskus julkaistaan, kun tuote on saatavilla. Jos tarvitset lisätietoja, ota yhteyttä.",
     navOpen: "Avaa valikko",
     navClose: "Sulje valikko",
-    langScope: "Sivuston kielet ovat samat kuin iqFleetSyncissä: suomi, ruotsi, norja, tanska, saksa, englanti, espanja, italia, ranska, viro, latvia, liettua, puola ja tšekki.",
+    langScope: "Sivuston kielet: suomi, ruotsi, norja, tanska, saksa, englanti, espanja, italia, ranska, viro, latvia, liettua, puola ja tšekki.",
     statusLive: "Käytettävissä selaimessa",
     statusSoon: "Tulossa",
     worklogSoon: "iqWorkLog™ ei ole vielä julkinen. Tällä sivulla ei ole latauslinkkiä.",
@@ -789,10 +793,14 @@ const CHROME = {
   },
   en: {
     skipLink: "Skip to content",
+    navHome: "Home",
     navProducts: "Products",
+    subIntro: "Overview",
+    partnerSoon: "Partner model coming – get in touch.",
+    helpSoon: "The help center will be published when the product is available. Get in touch if you need more information.",
     navOpen: "Open menu",
     navClose: "Close menu",
-    langScope: "The site languages are the same as in iqFleetSync: Finnish, Swedish, Norwegian, Danish, German, English, Spanish, Italian, French, Estonian, Latvian, Lithuanian, Polish and Czech.",
+    langScope: "Site languages: Finnish, Swedish, Norwegian, Danish, German, English, Spanish, Italian, French, Estonian, Latvian, Lithuanian, Polish and Czech.",
     statusLive: "Available in the browser",
     statusSoon: "Coming",
     worklogSoon: "iqWorkLog™ is not public yet. This page has no download link.",
@@ -800,10 +808,14 @@ const CHROME = {
   },
   sv: {
     skipLink: "Hoppa till innehållet",
+    navHome: "Startsida",
     navProducts: "Produkter",
+    subIntro: "Presentation",
+    partnerSoon: "Partnermodellen kommer – kontakta oss.",
+    helpSoon: "Hjälpcentret publiceras när produkten finns. Kontakta oss om du behöver mer information.",
     navOpen: "Öppna menyn",
     navClose: "Stäng menyn",
-    langScope: "Webbplatsens språk är desamma som i iqFleetSync: finska, svenska, norska, danska, tyska, engelska, spanska, italienska, franska, estniska, lettiska, litauiska, polska och tjeckiska.",
+    langScope: "Webbplatsens språk: finska, svenska, norska, danska, tyska, engelska, spanska, italienska, franska, estniska, lettiska, litauiska, polska och tjeckiska.",
     statusLive: "Finns i webbläsaren",
     statusSoon: "Kommer",
     worklogSoon: "iqWorkLog™ är inte offentligt ännu. Den här sidan har ingen nedladdningslänk.",
@@ -811,10 +823,14 @@ const CHROME = {
   },
   no: {
     skipLink: "Hopp til innhold",
+    navHome: "Forside",
     navProducts: "Produkter",
+    subIntro: "Presentasjon",
+    partnerSoon: "Partnermodellen kommer – ta kontakt.",
+    helpSoon: "Hjelpesenteret publiseres når produktet er tilgjengelig. Ta kontakt hvis du trenger mer informasjon.",
     navOpen: "Åpne menyen",
     navClose: "Lukk menyen",
-    langScope: "Nettstedets språk er de samme som i iqFleetSync: finsk, svensk, norsk, dansk, tysk, engelsk, spansk, italiensk, fransk, estisk, latvisk, litauisk, polsk og tsjekkisk.",
+    langScope: "Nettstedets språk: finsk, svensk, norsk, dansk, tysk, engelsk, spansk, italiensk, fransk, estisk, latvisk, litauisk, polsk og tsjekkisk.",
     statusLive: "Tilgjengelig i nettleseren",
     statusSoon: "Kommer",
     worklogSoon: "iqWorkLog™ er ikke offentlig ennå. Denne siden har ingen nedlastingslenke.",
@@ -822,10 +838,14 @@ const CHROME = {
   },
   da: {
     skipLink: "Spring til indhold",
+    navHome: "Forside",
     navProducts: "Produkter",
+    subIntro: "Præsentation",
+    partnerSoon: "Partnermodellen kommer – kontakt os.",
+    helpSoon: "Hjælpecentret udgives, når produktet er tilgængeligt. Kontakt os, hvis du har brug for mere information.",
     navOpen: "Åbn menuen",
     navClose: "Luk menuen",
-    langScope: "Webstedets sprog er de samme som i iqFleetSync: finsk, svensk, norsk, dansk, tysk, engelsk, spansk, italiensk, fransk, estisk, lettisk, litauisk, polsk og tjekkisk.",
+    langScope: "Webstedets sprog: finsk, svensk, norsk, dansk, tysk, engelsk, spansk, italiensk, fransk, estisk, lettisk, litauisk, polsk og tjekkisk.",
     statusLive: "Tilgængelig i browseren",
     statusSoon: "På vej",
     worklogSoon: "iqWorkLog™ er ikke offentlig endnu. Denne side har intet downloadlink.",
@@ -833,10 +853,14 @@ const CHROME = {
   },
   de: {
     skipLink: "Zum Inhalt",
+    navHome: "Startseite",
     navProducts: "Produkte",
+    subIntro: "Überblick",
+    partnerSoon: "Partnermodell in Vorbereitung – nehmen Sie Kontakt auf.",
+    helpSoon: "Das Hilfezentrum wird veröffentlicht, wenn das Produkt verfügbar ist. Nehmen Sie Kontakt auf, wenn Sie mehr wissen möchten.",
     navOpen: "Menü öffnen",
     navClose: "Menü schließen",
-    langScope: "Die Sprachen der Website sind dieselben wie in iqFleetSync: Finnisch, Schwedisch, Norwegisch, Dänisch, Deutsch, Englisch, Spanisch, Italienisch, Französisch, Estnisch, Lettisch, Litauisch, Polnisch und Tschechisch.",
+    langScope: "Sprachen der Website: Finnisch, Schwedisch, Norwegisch, Dänisch, Deutsch, Englisch, Spanisch, Italienisch, Französisch, Estnisch, Lettisch, Litauisch, Polnisch und Tschechisch.",
     statusLive: "Im Browser verfügbar",
     statusSoon: "In Vorbereitung",
     worklogSoon: "iqWorkLog™ ist noch nicht öffentlich. Auf dieser Seite gibt es keinen Download-Link.",
@@ -844,10 +868,14 @@ const CHROME = {
   },
   es: {
     skipLink: "Saltar al contenido",
+    navHome: "Inicio",
     navProducts: "Productos",
+    subIntro: "Presentación",
+    partnerSoon: "El modelo de socios está en camino – contáctenos.",
+    helpSoon: "El centro de ayuda se publicará cuando el producto esté disponible. Contáctenos si necesita más información.",
     navOpen: "Abrir menú",
     navClose: "Cerrar menú",
-    langScope: "Los idiomas del sitio son los mismos que en iqFleetSync: finés, sueco, noruego, danés, alemán, inglés, español, italiano, francés, estonio, letón, lituano, polaco y checo.",
+    langScope: "Idiomas del sitio: finés, sueco, noruego, danés, alemán, inglés, español, italiano, francés, estonio, letón, lituano, polaco y checo.",
     statusLive: "Disponible en el navegador",
     statusSoon: "Próximamente",
     worklogSoon: "iqWorkLog™ aún no es público. Esta página no tiene enlace de descarga.",
@@ -855,10 +883,14 @@ const CHROME = {
   },
   it: {
     skipLink: "Vai al contenuto",
+    navHome: "Home",
     navProducts: "Prodotti",
+    subIntro: "Presentazione",
+    partnerSoon: "Il modello partner è in arrivo – contattateci.",
+    helpSoon: "Il centro assistenza sarà pubblicato quando il prodotto sarà disponibile. Contattateci se vi servono altre informazioni.",
     navOpen: "Apri menu",
     navClose: "Chiudi menu",
-    langScope: "Le lingue del sito sono le stesse di iqFleetSync: finlandese, svedese, norvegese, danese, tedesco, inglese, spagnolo, italiano, francese, estone, lettone, lituano, polacco e ceco.",
+    langScope: "Lingue del sito: finlandese, svedese, norvegese, danese, tedesco, inglese, spagnolo, italiano, francese, estone, lettone, lituano, polacco e ceco.",
     statusLive: "Disponibile nel browser",
     statusSoon: "In arrivo",
     worklogSoon: "iqWorkLog™ non è ancora pubblico. Questa pagina non ha un link di download.",
@@ -866,10 +898,14 @@ const CHROME = {
   },
   fr: {
     skipLink: "Aller au contenu",
+    navHome: "Accueil",
     navProducts: "Produits",
+    subIntro: "Présentation",
+    partnerSoon: "Le modèle partenaire arrive – contactez-nous.",
+    helpSoon: "Le centre d’aide sera publié lorsque le produit sera disponible. Contactez-nous si vous avez besoin de plus d’informations.",
     navOpen: "Ouvrir le menu",
     navClose: "Fermer le menu",
-    langScope: "Les langues du site sont les mêmes que dans iqFleetSync : finnois, suédois, norvégien, danois, allemand, anglais, espagnol, italien, français, estonien, letton, lituanien, polonais et tchèque.",
+    langScope: "Langues du site : finnois, suédois, norvégien, danois, allemand, anglais, espagnol, italien, français, estonien, letton, lituanien, polonais et tchèque.",
     statusLive: "Disponible dans le navigateur",
     statusSoon: "À venir",
     worklogSoon: "iqWorkLog™ n’est pas encore public. Cette page n’a pas de lien de téléchargement.",
@@ -877,10 +913,14 @@ const CHROME = {
   },
   et: {
     skipLink: "Liigu sisu juurde",
+    navHome: "Avaleht",
     navProducts: "Tooted",
+    subIntro: "Tutvustus",
+    partnerSoon: "Partnerimudel on tulekul – võtke ühendust.",
+    helpSoon: "Abikeskus avaldatakse, kui toode on saadaval. Võtke ühendust, kui vajate lisateavet.",
     navOpen: "Ava menüü",
     navClose: "Sulge menüü",
-    langScope: "Saidi keeled on samad mis iqFleetSyncis: soome, rootsi, norra, taani, saksa, inglise, hispaania, itaalia, prantsuse, eesti, läti, leedu, poola ja tšehhi.",
+    langScope: "Saidi keeled: soome, rootsi, norra, taani, saksa, inglise, hispaania, itaalia, prantsuse, eesti, läti, leedu, poola ja tšehhi.",
     statusLive: "Saadaval brauseris",
     statusSoon: "Tulekul",
     worklogSoon: "iqWorkLog™ ei ole veel avalik. Sellel lehel ei ole allalaadimislinki.",
@@ -888,10 +928,14 @@ const CHROME = {
   },
   lv: {
     skipLink: "Uz saturu",
+    navHome: "Sākums",
     navProducts: "Produkti",
+    subIntro: "Ievads",
+    partnerSoon: "Partneru modelis drīzumā – sazinieties.",
+    helpSoon: "Palīdzības centrs tiks publicēts, kad produkts būs pieejams. Sazinieties, ja vajag vairāk informācijas.",
     navOpen: "Atvērt izvēlni",
     navClose: "Aizvērt izvēlni",
-    langScope: "Vietnes valodas ir tās pašas kā iqFleetSync: somu, zviedru, norvēģu, dāņu, vācu, angļu, spāņu, itāļu, franču, igauņu, latviešu, lietuviešu, poļu un čehu.",
+    langScope: "Vietnes valodas: somu, zviedru, norvēģu, dāņu, vācu, angļu, spāņu, itāļu, franču, igauņu, latviešu, lietuviešu, poļu un čehu.",
     statusLive: "Pieejams pārlūkā",
     statusSoon: "Drīzumā",
     worklogSoon: "iqWorkLog™ vēl nav publisks. Šai lapai nav lejupielādes saites.",
@@ -899,10 +943,14 @@ const CHROME = {
   },
   lt: {
     skipLink: "Į turinį",
+    navHome: "Pradžia",
     navProducts: "Produktai",
+    subIntro: "Apžvalga",
+    partnerSoon: "Partnerių modelis netrukus – susisiekite.",
+    helpSoon: "Pagalbos centras bus paskelbtas, kai produktas bus prieinamas. Susisiekite, jei reikia daugiau informacijos.",
     navOpen: "Atidaryti meniu",
     navClose: "Uždaryti meniu",
-    langScope: "Svetainės kalbos tos pačios kaip iqFleetSync: suomių, švedų, norvegų, danų, vokiečių, anglų, ispanų, italų, prancūzų, estų, latvių, lietuvių, lenkų ir čekų.",
+    langScope: "Svetainės kalbos: suomių, švedų, norvegų, danų, vokiečių, anglų, ispanų, italų, prancūzų, estų, latvių, lietuvių, lenkų ir čekų.",
     statusLive: "Pasiekiama naršyklėje",
     statusSoon: "Netrukus",
     worklogSoon: "iqWorkLog™ dar neviešas. Šiame puslapyje nėra atsisiuntimo nuorodos.",
@@ -910,10 +958,14 @@ const CHROME = {
   },
   pl: {
     skipLink: "Przejdź do treści",
+    navHome: "Strona główna",
     navProducts: "Produkty",
+    subIntro: "Prezentacja",
+    partnerSoon: "Model partnerski wkrótce – skontaktuj się.",
+    helpSoon: "Centrum pomocy zostanie opublikowane, gdy produkt będzie dostępny. Skontaktuj się, jeśli potrzebujesz więcej informacji.",
     navOpen: "Otwórz menu",
     navClose: "Zamknij menu",
-    langScope: "Języki strony są takie same jak w iqFleetSync: fiński, szwedzki, norweski, duński, niemiecki, angielski, hiszpański, włoski, francuski, estoński, łotewski, litewski, polski i czeski.",
+    langScope: "Języki strony: fiński, szwedzki, norweski, duński, niemiecki, angielski, hiszpański, włoski, francuski, estoński, łotewski, litewski, polski i czeski.",
     statusLive: "Dostępne w przeglądarce",
     statusSoon: "Wkrótce",
     worklogSoon: "iqWorkLog™ nie jest jeszcze publiczny. Ta strona nie ma linku do pobrania.",
@@ -921,10 +973,14 @@ const CHROME = {
   },
   cs: {
     skipLink: "Přeskočit na obsah",
+    navHome: "Domů",
     navProducts: "Produkty",
+    subIntro: "Představení",
+    partnerSoon: "Partnerský model se připravuje – ozvěte se.",
+    helpSoon: "Centrum nápovědy zveřejníme, až bude produkt k dispozici. Ozvěte se, pokud potřebujete víc informací.",
     navOpen: "Otevřít nabídku",
     navClose: "Zavřít nabídku",
-    langScope: "Jazyky webu jsou stejné jako v iqFleetSync: finština, švédština, norština, dánština, němčina, angličtina, španělština, italština, francouzština, estonština, lotyština, litevština, polština a čeština.",
+    langScope: "Jazyky webu: finština, švédština, norština, dánština, němčina, angličtina, španělština, italština, francouzština, estonština, lotyština, litevština, polština a čeština.",
     statusLive: "Dostupné v prohlížeči",
     statusSoon: "Připravujeme",
     worklogSoon: "iqWorkLog™ ještě není veřejný. Tato stránka nemá odkaz ke stažení.",
@@ -935,12 +991,28 @@ const CHROME = {
 function stringsFor(lang) {
   const base = translations[lang] || translations.fi;
   const chrome = CHROME[lang] || CHROME.fi;
-  const dict = typeof window !== "undefined" ? window.HOME_I18N : undefined;
-  const home =
-    document.body && document.body.dataset.page === "home" && dict
-      ? dict[lang] || dict.fi
-      : null;
-  return Object.assign({}, base, chrome, home || {});
+  const page = document.body && document.body.dataset.page;
+  const salesAll = typeof window !== "undefined" ? window.FLEET_SALES_I18N : undefined;
+  const sales = salesAll ? salesAll[lang] || salesAll.fi : null;
+  const homeAll = typeof window !== "undefined" ? window.HOME_I18N : undefined;
+  const home = homeAll ? homeAll[lang] || homeAll.fi : null;
+  const cardKeys = [
+    "fsAlt", "fsName", "fsPitch", "fsB1", "fsB2", "fsB3",
+    "rnAlt", "rnName", "rnPitch", "rnB1", "rnB2", "rnB3",
+    "wlAlt", "wlName", "wlPitch", "wlB1", "wlB2", "wlB3",
+  ];
+  let extra = {};
+  if (page === "fleetsync" && sales) extra = sales;
+  if (page === "home") {
+    const cards = {};
+    if (sales) {
+      cardKeys.forEach((key) => {
+        if (sales[key] != null) cards[key] = sales[key];
+      });
+    }
+    extra = Object.assign({}, cards, home || {});
+  }
+  return Object.assign({}, base, chrome, extra);
 }
 
 function detectLang() {
@@ -1027,7 +1099,7 @@ function applyTranslations(lang) {
     renderWorkshopPage(lang);
   }
 
-  if (document.body && document.body.dataset.page === "home") {
+  if (document.body && (document.body.dataset.page === "home" || document.body.dataset.page === "fleetsync")) {
     const setMeta = (selector, value) => {
       const el = document.querySelector(selector);
       if (el && value) el.setAttribute("content", value);

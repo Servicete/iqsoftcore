@@ -1069,12 +1069,17 @@ function renderFleetSyncPage(lang) {
   if (!root) return;
   const page = FLEETSYNC_PAGE[lang] || FLEETSYNC_PAGE.en;
   const help = FLEETSYNC_HELP[lang] || FLEETSYNC_HELP.en;
+  const hasHero = !!document.getElementById("hero-title");
+  const embeddedPricing = !!document.getElementById("pricing-root");
+  const ui = (typeof window.iqStringsFor === "function" && window.iqStringsFor(lang)) || {};
 
-  const titleEl = document.querySelector("title");
-  if (titleEl) titleEl.textContent = page.metaTitle;
-  const metaDesc = document.querySelector('meta[name="description"]');
-  if (metaDesc) metaDesc.setAttribute("content", page.metaDescription);
-  syncFleetSocial(lang, page.metaTitle, page.metaDescription);
+  if (!hasHero) {
+    const titleEl = document.querySelector("title");
+    if (titleEl) titleEl.textContent = page.metaTitle;
+    const metaDesc = document.querySelector('meta[name="description"]');
+    if (metaDesc) metaDesc.setAttribute("content", page.metaDescription);
+    syncFleetSocial(lang, page.metaTitle, page.metaDescription);
+  }
 
   const list = (items) => `<ul>${items.map((item) => `<li>${escapeFleetHtml(item)}</li>`).join("")}</ul>`;
   const view = (title, kicker, lead, items) => `<section class="view-block">
@@ -1093,10 +1098,21 @@ function renderFleetSyncPage(lang) {
     if (input) savedCounts[key] = input.value;
   });
 
+  const heading = hasHero ? "h2" : "h1";
+  const helpHref = embeddedPricing ? "#ohjekeskus" : "ohjekeskus.html";
+  const priceHref = embeddedPricing ? "#hinnasto" : "hinnasto.html";
+  const productsHref = "tuotteet.html";
+  const productsLabel = ui.navProducts || page.backApps;
+  const priceBlock = embeddedPricing
+    ? ""
+    : `<h2>${escapeFleetHtml(page.priceHeading)}</h2>
+    <p>${escapeFleetHtml(page.priceLead)}</p>
+    <div id="fleet-calc"></div>`;
+
   root.innerHTML = `<div class="product-heading">
       <img class="product-icon" src="assets/iqfleetsync-icon.svg" width="72" height="72" alt="" />
       <div>
-        <h1>iqFleetSync™</h1>
+        <${heading}>iqFleetSync™</${heading}>
         <p class="app-short">${escapeFleetHtml(page.kicker)}</p>
       </div>
     </div>
@@ -1108,11 +1124,9 @@ function renderFleetSyncPage(lang) {
     ${view(page.shopTitle, page.shopKicker, page.shopLead, page.shop)}
     ${view(page.driverTitle, page.driverKicker, page.driverLead, page.driver)}
     <p>${escapeFleetHtml(page.instructions)}</p>
-    <p><a href="ohjekeskus.html">${escapeFleetHtml(help.lead)}</a></p>
-    <h2>${escapeFleetHtml(page.priceHeading)}</h2>
-    <p>${escapeFleetHtml(page.priceLead)}</p>
+    <p><a href="${helpHref}">${escapeFleetHtml(help.lead)}</a></p>
+    ${priceBlock}
     <p>${escapeFleetHtml(page.trial)}</p>
-    <div id="fleet-calc"></div>
     <p>${escapeFleetHtml(page.audience)}</p>
     <div class="app-actions">
       <a class="btn btn-primary" id="cta-trial-fleetsync" data-cta="trial" href="https://fleetsync.iqsoftcore.fi/rekisteroidy" rel="noopener noreferrer">${escapeFleetHtml(page.cta)}</a>
@@ -1126,15 +1140,15 @@ function renderFleetSyncPage(lang) {
     <p>${escapeFleetHtml((FLEETSYNC_PARTNER[lang] || FLEETSYNC_PARTNER.en).text)}</p>
     <p><a class="btn btn-ghost" id="cta-workshop-fleetsync" href="korjaamoille.html">${escapeFleetHtml((FLEETSYNC_PARTNER[lang] || FLEETSYNC_PARTNER.en).link)}</a></p>
     <p class="policy-nav">
-      <a class="btn btn-ghost" href="ohjekeskus.html">${escapeFleetHtml(help.label)}</a>
-      <a class="btn btn-ghost" href="hinnasto.html">${escapeFleetHtml(page.pricing)}</a>
+      <a class="btn btn-ghost" href="${helpHref}">${escapeFleetHtml(help.label)}</a>
+      <a class="btn btn-ghost" href="${priceHref}">${escapeFleetHtml(page.pricing)}</a>
       <a class="btn btn-ghost" href="kayttoehdot.html">${escapeFleetHtml(page.terms)}</a>
       <a class="btn btn-ghost" href="privacy.html#iqfleetsync">${escapeFleetHtml(page.privacy)}</a>
-      <a class="btn btn-ghost" href="apps.html">${escapeFleetHtml(page.backApps)}</a>
+      <a class="btn btn-ghost" href="${productsHref}">${escapeFleetHtml(productsLabel)}</a>
       <a class="btn btn-ghost" href="index.html">${escapeFleetHtml(page.home)}</a>
     </p>`;
 
-  if (typeof mountFleetSyncCalculator === "function") {
+  if (!embeddedPricing && typeof mountFleetSyncCalculator === "function") {
     mountFleetSyncCalculator(document.getElementById("fleet-calc"), lang, savedCounts);
   }
 }

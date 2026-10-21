@@ -4,14 +4,15 @@ Yksinkertaiset yrityskotisivut IQSoftCorelle. Yritys tekee ohjelmistoja, sovellu
 
 ## Sisältö
 
-- Etusivu: iqFleetSync™ ensin (kokeilu, kohderyhmät, hinta, UKK). iqRallyNote™ ja iqWorkLog™ omina kortteinaan. Muut palvelut lyhyesti.
-- Sovellukset: `apps.html` (iqFleetSync™, iqRallyNote™, iqWorkLog™)
-- iqFleetSync: `iqfleetsync.html` (myyntisivu: yritys-, huolto- ja kuljettajanäkymä, laskuri, kokeilu)
-- Hinnasto: `hinnasto.html`
+- Etusivu: IqSoftCore yleisesti. Tuotekortit samalla viivalla (`iqFleetSync™` ensin). iqRallyNote™ ja iqWorkLog™ merkitty tulossa.
+- Tuotteet: `tuotteet.html`. Vanha `apps.html` ohjaa tänne.
+- iqFleetSync: `iqfleetsync.html` (esittely, paikallinen päävideo ilman automaattista käynnistystä, hinnasto, ohjekeskus). Korjaamoille-sivu ja kumppaniohjelma linkitetään tältä sivulta, eivät päävalikosta. Kumppanihintoja ei näytetä yleisen hinnaston vieressä.
+- iqRallyNote: `iqrallynote.html`. iqWorkLog: `tuntilappu.html`. Molemmat tulossa. Hinnasto ja ohjekeskus ovat tuotteen sivulla. Ohjevideo näytetään vain, kun tiedosto on olemassa.
+- Vanhat osoitteet: `hinnasto.html` ohjaa `iqfleetsync.html#hinnasto`, `ohjekeskus.html` ohjaa `iqfleetsync.html#ohjekeskus`.
 - Käyttöehdot: `kayttoehdot.html`
 - Tietosuoja: yritystason käytäntö (`privacy.html`, iqFleetSync-osio `#iqfleetsync`), Tuntilapun oma sivu (`privacy-tuntilappu.html`) ja iqRallyNoten oma sivu (`privacy-iqrallynote.html`)
 - Logo: SVG-merkki (IQC) ja wordmark
-- Kielet sivustolla: fi, sv, no, da, de, en, es, it, fr (samat kuin iqFleetSyncissä). Vanhemmat käännökset voivat olla tiedostoissa, mutta kielivalikko ei lupaa niitä.
+- Kielet sivustolla: fi, sv, no, da, de, en, es, it, fr, et, lv, lt, pl ja cs. Ohjevideoita ei näytetä paikkamerkeillä, eikä videon päällä ole otsikkopalkkia.
 
 ## iqFleetSync-sivu (2026-10-05)
 

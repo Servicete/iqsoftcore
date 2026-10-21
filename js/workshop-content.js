@@ -822,7 +822,8 @@ function renderWorkshopPage(lang) {
 
   const links = page.links;
   const scan = (typeof WORKSHOP_SCAN !== "undefined" && (WORKSHOP_SCAN[lang] || WORKSHOP_SCAN.en)) || { title: "", text: [] };
-  root.innerHTML = `<div class="product-heading">
+  root.innerHTML = `<p class="product-crumb"><a href="iqfleetsync.html">iqFleetSync™</a></p>
+    <div class="product-heading">
       <img class="product-icon" src="assets/iqfleetsync-icon.svg" width="72" height="72" alt="" />
       <div>
         <p class="help-kicker">iqFleetSync™</p>
@@ -850,9 +851,9 @@ function renderWorkshopPage(lang) {
       <a class="btn btn-ghost" href="index.html#contact">${escapeWorkshopHtml(links.contact)}</a>
     </div>
     <p class="policy-nav">
-      <a class="btn btn-ghost" href="ohjekeskus.html#workshop-guides">${escapeWorkshopHtml(links.help)}</a>
+      <a class="btn btn-ghost" href="iqfleetsync.html#workshop-guides">${escapeWorkshopHtml(links.help)}</a>
       <a class="btn btn-ghost" href="kayttoehdot.html">${escapeWorkshopHtml(links.terms)}</a>
-      <a class="btn btn-ghost" href="hinnasto.html">${escapeWorkshopHtml(links.pricing)}</a>
+      <a class="btn btn-ghost" href="iqfleetsync.html#hinnasto">${escapeWorkshopHtml(links.pricing)}</a>
       <a class="btn btn-ghost" href="index.html">${escapeWorkshopHtml(links.home)}</a>
     </p>`;
 }

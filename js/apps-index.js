@@ -3,10 +3,10 @@
  */
 const APPS_INDEX = {
   fi: {
-    metaTitle: "Sovellukset ja ohjelmistot | IQSoftCore",
-    metaDescription: "IQSoftCoren sovellukset: iqWorkLog™, iqFleetSync ja iqRallyNote.",
-    title: "Sovellukset ja ohjelmistot",
-    intro: "Tässä ovat IQSoftCoren sovellukset ja ohjelmistot. Avaa nimi, niin näet kyseisen tuotteen sivun.",
+    metaTitle: "Tuotteet | IQSoftCore",
+    metaDescription: "IqSoftCoren tuotteet: iqFleetSync™, iqRallyNote™ ja iqWorkLog™. iqRallyNote™ ja iqWorkLog™ ovat tulossa.",
+    title: "Tuotteet",
+    intro: "IqSoftCoren tuotteet. iqFleetSync™ on käytettävissä selaimessa. iqRallyNote™ ja iqWorkLog™ ovat tulossa. Avaa nimi, niin näet tuotteen sivun.",
     openPage: "Avaa sivu",
     help: "Ohjekeskus",
     products: [
@@ -16,10 +16,10 @@ const APPS_INDEX = {
     ],
   },
   en: {
-    metaTitle: "Apps and software | IQSoftCore",
-    metaDescription: "IQSoftCore apps: iqWorkLog™, iqFleetSync, and iqRallyNote.",
-    title: "Apps and software",
-    intro: "These are IQSoftCore’s applications and software. Open a name to see that product’s page.",
+    metaTitle: "Products | IQSoftCore",
+    metaDescription: "IqSoftCore products: iqFleetSync™, iqRallyNote™ and iqWorkLog™. iqRallyNote™ and iqWorkLog™ are coming.",
+    title: "Products",
+    intro: "IqSoftCore’s products. iqFleetSync™ is available in the browser. iqRallyNote™ and iqWorkLog™ are coming. Open a name to see that product’s page.",
     openPage: "Open page",
     help: "Help center",
     products: [
@@ -29,10 +29,10 @@ const APPS_INDEX = {
     ],
   },
   sv: {
-    metaTitle: "Appar och programvara | IQSoftCore",
-    metaDescription: "IQSoftCores appar: iqWorkLog™, iqFleetSync och iqRallyNote.",
-    title: "Appar och programvara",
-    intro: "Här är IQSoftCores appar och program. Öppna ett namn för att se produktens egen sida.",
+    metaTitle: "Produkter | IQSoftCore",
+    metaDescription: "IqSoftCores produkter: iqFleetSync™, iqRallyNote™ och iqWorkLog™. iqRallyNote™ och iqWorkLog™ kommer.",
+    title: "Produkter",
+    intro: "IqSoftCores produkter. iqFleetSync™ finns i webbläsaren. iqRallyNote™ och iqWorkLog™ kommer. Öppna ett namn för att se produktens sida.",
     openPage: "Öppna sidan",
     help: "Hjälpcenter",
     products: [
@@ -42,10 +42,10 @@ const APPS_INDEX = {
     ],
   },
   no: {
-    metaTitle: "Apper og programvare | IQSoftCore",
-    metaDescription: "IQSoftCores apper: iqWorkLog™, iqFleetSync og iqRallyNote.",
-    title: "Apper og programvare",
-    intro: "Her er IQSoftCores apper og programmer. Åpne et navn for å se produktets egen side.",
+    metaTitle: "Produkter | IQSoftCore",
+    metaDescription: "IqSoftCores produkter: iqFleetSync™, iqRallyNote™ og iqWorkLog™. iqRallyNote™ og iqWorkLog™ kommer.",
+    title: "Produkter",
+    intro: "IqSoftCores produkter. iqFleetSync™ finnes i nettleseren. iqRallyNote™ og iqWorkLog™ kommer. Åpne et navn for å se produktets side.",
     openPage: "Åpne siden",
     help: "Hjelpesenter",
     products: [
@@ -55,10 +55,10 @@ const APPS_INDEX = {
     ],
   },
   da: {
-    metaTitle: "Apps og software | IQSoftCore",
-    metaDescription: "IQSoftCores apps: iqWorkLog™, iqFleetSync og iqRallyNote.",
-    title: "Apps og software",
-    intro: "Her er IQSoftCores apps og programmer. Åbn et navn for at se produktets egen side.",
+    metaTitle: "Produkter | IQSoftCore",
+    metaDescription: "IqSoftCores produkter: iqFleetSync™, iqRallyNote™ og iqWorkLog™. iqRallyNote™ og iqWorkLog™ er på vej.",
+    title: "Produkter",
+    intro: "IqSoftCores produkter. iqFleetSync™ findes i browseren. iqRallyNote™ og iqWorkLog™ er på vej. Åbn et navn for at se produktets side.",
     openPage: "Åbn siden",
     help: "Hjælpecenter",
     products: [
@@ -68,10 +68,10 @@ const APPS_INDEX = {
     ],
   },
   de: {
-    metaTitle: "Apps und Software | IQSoftCore",
-    metaDescription: "IQSoftCore-Apps: iqWorkLog™, iqFleetSync und iqRallyNote.",
-    title: "Apps und Software",
-    intro: "Das sind die Anwendungen und die Software von IQSoftCore. Öffnen Sie einen Namen, um die Seite des Produkts zu sehen.",
+    metaTitle: "Produkte | IQSoftCore",
+    metaDescription: "Produkte von IqSoftCore: iqFleetSync™, iqRallyNote™ und iqWorkLog™. iqRallyNote™ und iqWorkLog™ sind in Vorbereitung.",
+    title: "Produkte",
+    intro: "Die Produkte von IqSoftCore. iqFleetSync™ ist im Browser verfügbar. iqRallyNote™ und iqWorkLog™ sind in Vorbereitung. Öffnen Sie einen Namen, um die Seite des Produkts zu sehen.",
     openPage: "Seite öffnen",
     help: "Hilfe",
     products: [
@@ -94,10 +94,10 @@ const APPS_INDEX = {
     ],
   },
   fr: {
-    metaTitle: "Applications et logiciels | IQSoftCore",
-    metaDescription: "Applications IQSoftCore : iqWorkLog™, iqFleetSync et iqRallyNote.",
-    title: "Applications et logiciels",
-    intro: "Voici les applications et logiciels d’IQSoftCore. Ouvrez un nom pour voir la page du produit.",
+    metaTitle: "Produits | IQSoftCore",
+    metaDescription: "Produits IqSoftCore : iqFleetSync™, iqRallyNote™ et iqWorkLog™. iqRallyNote™ et iqWorkLog™ sont à venir.",
+    title: "Produits",
+    intro: "Les produits d’IqSoftCore. iqFleetSync™ est disponible dans le navigateur. iqRallyNote™ et iqWorkLog™ sont à venir. Ouvrez un nom pour voir la page du produit.",
     openPage: "Ouvrir la page",
     help: "Aide",
     products: [
@@ -107,10 +107,10 @@ const APPS_INDEX = {
     ],
   },
   es: {
-    metaTitle: "Aplicaciones y software | IQSoftCore",
-    metaDescription: "Aplicaciones de IQSoftCore: iqWorkLog™, iqFleetSync e iqRallyNote.",
-    title: "Aplicaciones y software",
-    intro: "Estas son las aplicaciones y el software de IQSoftCore. Abre un nombre para ver la página de ese producto.",
+    metaTitle: "Productos | IQSoftCore",
+    metaDescription: "Productos de IqSoftCore: iqFleetSync™, iqRallyNote™ e iqWorkLog™. iqRallyNote™ e iqWorkLog™ están en camino.",
+    title: "Productos",
+    intro: "Los productos de IqSoftCore. iqFleetSync™ está disponible en el navegador. iqRallyNote™ e iqWorkLog™ están en camino. Abre un nombre para ver la página de ese producto.",
     openPage: "Abrir la página",
     help: "Ayuda",
     products: [
@@ -133,10 +133,10 @@ const APPS_INDEX = {
     ],
   },
   it: {
-    metaTitle: "App e software | IQSoftCore",
-    metaDescription: "App IQSoftCore: iqWorkLog™, iqFleetSync e iqRallyNote.",
-    title: "App e software",
-    intro: "Queste sono le app e il software di IQSoftCore. Apri un nome per vedere la pagina di quel prodotto.",
+    metaTitle: "Prodotti | IQSoftCore",
+    metaDescription: "Prodotti di IqSoftCore: iqFleetSync™, iqRallyNote™ e iqWorkLog™. iqRallyNote™ e iqWorkLog™ sono in arrivo.",
+    title: "Prodotti",
+    intro: "I prodotti di IqSoftCore. iqFleetSync™ è disponibile nel browser. iqRallyNote™ e iqWorkLog™ sono in arrivo. Apri un nome per vedere la pagina di quel prodotto.",
     openPage: "Apri la pagina",
     help: "Guida",
     products: [
@@ -146,10 +146,10 @@ const APPS_INDEX = {
     ],
   },
   pl: {
-    metaTitle: "Aplikacje i oprogramowanie | IQSoftCore",
-    metaDescription: "Aplikacje IQSoftCore: iqWorkLog™, iqFleetSync i iqRallyNote.",
-    title: "Aplikacje i oprogramowanie",
-    intro: "To aplikacje i oprogramowanie IQSoftCore. Otwórz nazwę, aby zobaczyć stronę danego produktu.",
+    metaTitle: "Produkty | IQSoftCore",
+    metaDescription: "Produkty IqSoftCore: iqFleetSync™, iqRallyNote™ i iqWorkLog™. iqRallyNote™ i iqWorkLog™ są wkrótce.",
+    title: "Produkty",
+    intro: "Produkty IqSoftCore. iqFleetSync™ jest dostępny w przeglądarce. iqRallyNote™ i iqWorkLog™ są wkrótce. Otwórz nazwę, aby zobaczyć stronę produktu.",
     openPage: "Otwórz stronę",
     help: "Pomoc",
     products: [
@@ -159,16 +159,55 @@ const APPS_INDEX = {
     ],
   },
   cs: {
-    metaTitle: "Aplikace a software | IQSoftCore",
-    metaDescription: "Aplikace IQSoftCore: iqWorkLog™, iqFleetSync a iqRallyNote.",
-    title: "Aplikace a software",
-    intro: "Toto jsou aplikace a software IQSoftCore. Otevřete název a zobrazí se stránka daného produktu.",
+    metaTitle: "Produkty | IQSoftCore",
+    metaDescription: "Produkty IqSoftCore: iqFleetSync™, iqRallyNote™ a iqWorkLog™. iqRallyNote™ a iqWorkLog™ připravujeme.",
+    title: "Produkty",
+    intro: "Produkty IqSoftCore. iqFleetSync™ je dostupný v prohlížeči. iqRallyNote™ a iqWorkLog™ připravujeme. Otevřete název a zobrazí se stránka produktu.",
     openPage: "Otevřít stránku",
     help: "Nápověda",
     products: [
       ["tuntilappu.html", "iqWorkLog™", "Androidová aplikace pro evidenci pracovní doby. 14 dní zdarma, pak jednorázový nákup. Více než 70 jazyků. Dříve Tuntilappu."],
       ["iqfleetsync.html", "iqFleetSync", "Společné místo pro firmu, údržbu a řidiče. Servisy a opravy zůstávají aktuální. V prohlížeči, nic k instalaci. 30 dní na zkoušku."],
       ["iqrallynote.html", "iqRallyNote", "Tabletová aplikace pro Android k úpravě rallyových zápisů. Recce hlasovým diktátem, vlastní knihovna symbolů, závodní režim a export do PDF. Obsah zůstává v zařízení uživatele."],
+    ],
+  },
+  et: {
+    metaTitle: "Tooted | IQSoftCore",
+    metaDescription: "IqSoftCore tooted: iqFleetSync™, iqRallyNote™ ja iqWorkLog™. iqRallyNote™ ja iqWorkLog™ on tulekul.",
+    title: "Tooted",
+    intro: "IqSoftCore tooted. iqFleetSync™ on brauseris olemas. iqRallyNote™ ja iqWorkLog™ on tulekul. Ava nimi, et näha toote lehte.",
+    openPage: "Ava leht",
+    help: "Abikeskus",
+    products: [
+      ["tuntilappu.html", "iqWorkLog™", "Androidi rakendus töötundide kirjapanekuks. 14 päeva tasuta proovida, seejärel ühekordne ost. Üle 70 keele. Endine Tuntilappu."],
+      ["iqfleetsync.html", "iqFleetSync™", "Ettevõtte, hoolduse ja juhtide ühine koht. Hooldus ja remont püsivad ajakohasena. Brauseris, midagi ei paigaldata. 30 päeva proovida."],
+      ["iqrallynote.html", "iqRallyNote™", "Androidi tahvlirakendus rallimärkmete muutmiseks. Luure hääldikteerimisega, oma sümbolite kogu, võistlusrežiim ja PDF-eksport. Sisu jääb kasutaja seadmesse."],
+    ],
+  },
+  lv: {
+    metaTitle: "Produkti | IQSoftCore",
+    metaDescription: "IqSoftCore produkti: iqFleetSync™, iqRallyNote™ un iqWorkLog™. iqRallyNote™ un iqWorkLog™ drīzumā.",
+    title: "Produkti",
+    intro: "IqSoftCore produkti. iqFleetSync™ ir pieejams pārlūkā. iqRallyNote™ un iqWorkLog™ drīzumā. Atveriet nosaukumu, lai redzētu produkta lapu.",
+    openPage: "Atvērt lapu",
+    help: "Palīdzība",
+    products: [
+      ["tuntilappu.html", "iqWorkLog™", "Android lietotne darba stundu uzskaitei. 14 dienu bezmaksas izmēģinājums, pēc tam vienreizējs pirkums. Vairāk nekā 70 valodas. Agrāk Tuntilappu."],
+      ["iqfleetsync.html", "iqFleetSync™", "Kopīga vieta uzņēmumam, apkopei un vadītājiem. Apkope un remonts paliek aktuāli. Pārlūkā, nekas nav jāinstalē. 30 dienu izmēģinājums."],
+      ["iqrallynote.html", "iqRallyNote™", "Android planšetes lietotne rallija piezīmju rediģēšanai. Iepazīšana ar balss diktēšanu, savs simbolu krājums, sacensību režīms un PDF eksports. Saturs paliek lietotāja ierīcē."],
+    ],
+  },
+  lt: {
+    metaTitle: "Produktai | IQSoftCore",
+    metaDescription: "IqSoftCore produktai: iqFleetSync™, iqRallyNote™ ir iqWorkLog™. iqRallyNote™ ir iqWorkLog™ netrukus.",
+    title: "Produktai",
+    intro: "IqSoftCore produktai. iqFleetSync™ pasiekiamas naršyklėje. iqRallyNote™ ir iqWorkLog™ netrukus. Atidarykite pavadinimą ir pamatysite produkto puslapį.",
+    openPage: "Atidaryti puslapį",
+    help: "Pagalba",
+    products: [
+      ["tuntilappu.html", "iqWorkLog™", "Android programa darbo valandų apskaitai. 14 dienų nemokamas bandymas, paskui vienkartinis pirkimas. Daugiau kaip 70 kalbų. Anksčiau Tuntilappu."],
+      ["iqfleetsync.html", "iqFleetSync™", "Bendra vieta įmonei, priežiūrai ir vairuotojams. Priežiūra ir remontas lieka atnaujinti. Naršyklėje, nieko diegti nereikia. 30 dienų bandymas."],
+      ["iqrallynote.html", "iqRallyNote™", "Android planšetės programa ralio užrašams. Žvalgyba balsu, sava simbolių biblioteka, varžybų režimas ir PDF eksportas. Turinys lieka naudotojo įrenginyje."],
     ],
   },
   ja: {
@@ -250,9 +289,6 @@ function renderAppsPage(lang) {
           ? "iqRallyNote™"
           : name;
       const safeName = escapeAppsIndexHtml(displayName);
-      const helpLink = href === "iqfleetsync.html" && page.help
-        ? `<a class="btn btn-ghost" href="ohjekeskus.html">${escapeAppsIndexHtml(page.help)}</a>`
-        : "";
       const status = href === "iqfleetsync.html"
         ? `<p class="status-pill">${escapeAppsIndexHtml(ui.statusLive || "Käytettävissä selaimessa")}</p>`
         : `<p class="status-pill status-soon">${escapeAppsIndexHtml(ui.statusSoon || "Tulossa")}</p>`;
@@ -266,7 +302,7 @@ function renderAppsPage(lang) {
         <h2><a href="${safeHref}">${safeName}</a></h2>
         ${status}
         <p>${escapeAppsIndexHtml(blurb)}</p>
-        <div class="card-actions"><a class="btn btn-ghost" data-cta="product-${href.replace(".html", "")}" href="${safeHref}">${escapeAppsIndexHtml(more)}</a>${helpLink}</div>
+        <div class="card-actions"><a class="btn btn-ghost" data-cta="product-${href.replace(".html", "")}" href="${safeHref}">${escapeAppsIndexHtml(more)}</a></div>
       </article>`;
     })
     .join("");

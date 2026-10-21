@@ -5,9 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'self'; object-src 'none'; frame-src 'none'; frame-ancestors 'none'; img-src 'self' data:; font-src 'self'; style-src 'self'; script-src 'self'; connect-src 'self'; media-src 'self'; form-action 'self'; upgrade-insecure-requests" />
     <meta name="referrer" content="strict-origin-when-cross-origin" />
-    <title>iqFleetSync™ – kaluston huolto- ja vikailmoitussovellus | IqSoftCore</title>
-    <meta name="description" content="Vikailmoitukset QR-koodilla ja kuvalla, huolto-ohjelmat ja katsastusmuistutukset ajoneuvoille, perävaunuille ja työkoneille. Toimii selaimessa ilman asennusta. Kokeile 30 päivää ilmaiseksi, ei korttitietoja." />
-    <meta name="keywords" content="kaluston huolto, huolto-ohjelma, vikailmoitus, katsastusmuistutus, työkoneiden huolto, kuljetusyrityksen huolto, raskaan kaluston huolto" />
+    <title>IqSoftCore – käytännöllisiä sovelluksia työn helpottamiseen</title>
+    <meta name="description" content="IqSoftCore on pieni suomalainen ohjelmistoyritys. Teemme käytännöllisiä sovelluksia, jotka yksinkertaistavat työtä, esimerkiksi raskaan kaluston huoltoon, rallinuotteihin ja työtuntien kirjaukseen." />
     <link rel="canonical" href="https://iqsoftcore.fi/" />
     <link rel="alternate" hreflang="fi" href="https://iqsoftcore.fi/?lang=fi" />
     <link rel="alternate" hreflang="sv" href="https://iqsoftcore.fi/?lang=sv" />
@@ -27,17 +26,17 @@
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="IqSoftCore" />
     <meta property="og:locale" content="fi_FI" />
-    <meta property="og:title" content="iqFleetSync™ – kaluston huolto- ja vikailmoitussovellus | IqSoftCore" />
-    <meta property="og:description" content="Vikailmoitukset QR-koodilla ja kuvalla, huolto-ohjelmat ja katsastusmuistutukset ajoneuvoille, perävaunuille ja työkoneille. Toimii selaimessa ilman asennusta. Kokeile 30 päivää ilmaiseksi, ei korttitietoja." />
+    <meta property="og:title" content="IqSoftCore – käytännöllisiä sovelluksia työn helpottamiseen" />
+    <meta property="og:description" content="IqSoftCore on pieni suomalainen ohjelmistoyritys. Teemme käytännöllisiä sovelluksia, jotka yksinkertaistavat työtä, esimerkiksi raskaan kaluston huoltoon, rallinuotteihin ja työtuntien kirjaukseen." />
     <meta property="og:url" content="https://iqsoftcore.fi/" />
-    <meta property="og:image" content="https://iqsoftcore.fi/assets/iqfleetsync-og.png" />
-    <meta property="og:image:alt" content="iqFleetSync™" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="iqFleetSync™ – kaluston huolto- ja vikailmoitussovellus | IqSoftCore" />
-    <meta name="twitter:description" content="Vikailmoitukset QR-koodilla ja kuvalla, huolto-ohjelmat ja katsastusmuistutukset ajoneuvoille, perävaunuille ja työkoneille. Toimii selaimessa ilman asennusta. Kokeile 30 päivää ilmaiseksi, ei korttitietoja." />
-    <meta name="twitter:image" content="https://iqsoftcore.fi/assets/iqfleetsync-og.png" />
+    <meta property="og:image" content="https://iqsoftcore.fi/assets/logo.svg" />
+    <meta property="og:image:alt" content="IqSoftCore" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="IqSoftCore – käytännöllisiä sovelluksia työn helpottamiseen" />
+    <meta name="twitter:description" content="IqSoftCore on pieni suomalainen ohjelmistoyritys. Teemme käytännöllisiä sovelluksia, jotka yksinkertaistavat työtä, esimerkiksi raskaan kaluston huoltoon, rallinuotteihin ja työtuntien kirjaukseen." />
     <link rel="icon" href="assets/logo.svg" type="image/svg+xml" />
     <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/legacy-redirects.js"></script>
   </head>
   <body data-page="home">
     <a class="skip-link" href="#main" data-i18n="skipLink">Siirry sisältöön</a>
@@ -52,10 +51,8 @@
           <span class="visually-hidden nav-toggle-label">Avaa valikko</span>
         </button>
         <nav id="site-nav" class="nav" aria-label="Primary">
-          <a href="#tuotteet" data-i18n="navProducts">Tuotteet</a>
-          <a href="hinnasto.html" data-i18n="navPricing">Hinnasto</a>
-          <a href="ohjekeskus.html" data-i18n="navHelp">Ohjekeskus</a>
-          <a href="korjaamoille.html" data-i18n="navWorkshops">Korjaamoille</a>
+          <a href="index.html" aria-current="page" data-i18n="navHome">Etusivu</a>
+          <a href="tuotteet.html" data-i18n="navProducts">Tuotteet</a>
           <a href="#contact" data-i18n="navContact">Yhteystiedot</a>
           <a href="privacy.html" data-i18n="navPrivacy">Tietosuoja</a>
           <a href="kayttoehdot.html" data-i18n="navTerms">Käyttöehdot</a>
@@ -79,319 +76,91 @@
         </nav>
       </div>
     </header>
-    <p id="lang-scope" class="visually-hidden" data-i18n="langScope">Sivuston kielet ovat samat kuin iqFleetSyncissä: suomi, ruotsi, norja, tanska, saksa, englanti, espanja, italia ja ranska.</p>
+    <p id="lang-scope" class="visually-hidden" data-i18n="langScope">Sivuston kielet: suomi, ruotsi, norja, tanska, saksa, englanti, espanja, italia, ranska, viro, latvia, liettua, puola ja tšekki.</p>
 
     <main id="main">
-      <section class="hero" aria-labelledby="hero-title">
+      <section class="hero hero-company" id="esittely" aria-labelledby="hero-title">
         <div class="hero-inner">
-          <div class="hero-grid">
-            <div class="hero-copy">
-              <p class="eyebrow">
-                <img src="assets/iqfleetsync-icon.svg" alt="" width="28" height="28" />
-                <span data-i18n="heroKicker">iqFleetSync™</span>
-              </p>
-              <h1 id="hero-title" data-i18n="heroTitle">Kaluston huolto ja viat yhdessä paikassa</h1>
-              <p class="hero-sub" data-i18n="heroSub">Selaimessa puhelimella, tabletilla ja tietokoneella – ilman asennusta.</p>
-              <div class="hero-actions">
-                <a class="btn btn-primary" id="cta-trial-hero" data-cta="trial" href="https://fleetsync.iqsoftcore.fi/rekisteroidy" rel="noopener noreferrer" data-i18n="ctaTrial">Kokeile 30 päivää ilmaiseksi – ei korttia</a>
-                <a class="btn btn-ghost" id="cta-pricing-hero" data-cta="pricing" href="hinnasto.html" data-i18n="ctaPricing">Katso hinnat</a>
-              </div>
-              <p class="hero-lead" data-i18n="heroLead">iqFleetSync™ on selaimessa toimiva huolto- ja vikailmoituspalvelu raskaalle kalustolle. Kuljettaja skannaa QR-tarran ja ilmoittaa vian kuvan kanssa – huolto saa tiedon heti puhelimeensa.</p>
-              <p class="hero-chips" data-i18n="heroChips">Ajoneuvot · perävaunut · työkoneet · lisälaitteet · 3–300 yksikköä · toimii selaimessa</p>
-              <p class="hero-chips" data-i18n="heroAudience">Yrityksille. Rekisteröitymiseen tarvitaan suomalainen Y-tunnus. 30 päivää ilmaiseksi – ei korttitietoja.</p>
-            </div>
-            <div class="hero-media">
-              <figure class="video-slot promo-video" data-video-slot="promo">
-                <video id="promo-video" controls preload="none" playsinline poster="assets/video/iqfleetsync_mainos_fi_thumb.jpg" width="1920" height="1080" aria-labelledby="promo-video-caption">
-                  <source src="assets/video/iqfleetsync_mainos_fi.mp4" type="video/mp4" />
-                </video>
-                <figcaption id="promo-video-caption" data-i18n="videoPromoTitle">Päävideo: iqFleetSync™</figcaption>
-              </figure>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="section" id="miten" aria-labelledby="how-title">
-        <div class="section-inner">
-          <h2 id="how-title" data-i18n="howTitle">Miten iqFleetSync™ toimii?</h2>
-          <ol class="steps">
-            <li class="step">
-              <h3 data-i18n="how1Title">1. Skannaa</h3>
-              <p data-i18n="how1Text">Jokaisessa autossa, vaunussa, koneessa ja lisälaitteessa on oma QR-tarra.</p>
-            </li>
-            <li class="step">
-              <h3 data-i18n="how2Title">2. Ilmoita</h3>
-              <p data-i18n="how2Text">Kuljettaja kirjoittaa lyhyen kuvauksen ja ottaa kuvan. Ensimmäisen kirjautumisen jälkeen sisään pääsee sormenjäljellä.</p>
-            </li>
-            <li class="step">
-              <h3 data-i18n="how3Title">3. Korjaa</h3>
-              <p data-i18n="how3Text">Huolto saa push-ilmoituksen, kuittaa sen ja ottaa työn itselleen.</p>
-            </li>
-            <li class="step">
-              <h3 data-i18n="how4Title">4. Valmis</h3>
-              <p data-i18n="how4Text">Kun työ on tehty, mekaanikko merkitsee yksikön ajokuntoiseksi.</p>
-            </li>
-          </ol>
-          <h3 data-i18n="videoHelpTitle">Lyhyet ohjevideot</h3>
-          <p class="section-intro" data-i18n="videoHelpLead">Paikat lyhyille ohjevideoille. Tiedosto vaihdetaan myöhemmin paikalliseen videoon. Videot eivät käynnisty itsestään, eikä ulkoista soitinta ole upotettu.</p>
-          <div class="video-grid">
-            <figure class="video-slot" data-video-slot="qr-login" data-video-src="videos/iqfleetsync/qr-kirjautuminen-kuljettaja.mp4">
-              <div class="video-placeholder">
-                <span class="video-badge">VIDEO PLACEHOLDER</span>
-                <p class="video-slot-title" data-i18n="vid1Title">Kuljettaja: QR ja kirjautuminen</p>
-                <p class="video-slot-file"><code>videos/iqfleetsync/qr-kirjautuminen-kuljettaja.mp4</code></p>
-              </div>
-            </figure>
-            <figure class="video-slot" data-video-slot="readings" data-video-src="videos/iqfleetsync/lukemat-vs-vikailmoitus.mp4">
-              <div class="video-placeholder">
-                <span class="video-badge">VIDEO PLACEHOLDER</span>
-                <p class="video-slot-title" data-i18n="vid2Title">Lukemat ja vikailmoitus</p>
-                <p class="video-slot-file"><code>videos/iqfleetsync/lukemat-vs-vikailmoitus.mp4</code></p>
-              </div>
-            </figure>
-            <figure class="video-slot" data-video-slot="maintenance" data-video-src="videos/iqfleetsync/huolto-raportit.mp4">
-              <div class="video-placeholder">
-                <span class="video-badge">VIDEO PLACEHOLDER</span>
-                <p class="video-slot-title" data-i18n="vid3Title">Huolto ja raportit</p>
-                <p class="video-slot-file"><code>videos/iqfleetsync/huolto-raportit.mp4</code></p>
-              </div>
-            </figure>
-            <figure class="video-slot" data-video-slot="admin" data-video-src="videos/iqfleetsync/paakayttaja-kutsut-roolit.mp4">
-              <div class="video-placeholder">
-                <span class="video-badge">VIDEO PLACEHOLDER</span>
-                <p class="video-slot-title" data-i18n="vid4Title">Pääkäyttäjä: kutsut ja roolit</p>
-                <p class="video-slot-file"><code>videos/iqfleetsync/paakayttaja-kutsut-roolit.mp4</code></p>
-              </div>
-            </figure>
-            <figure class="video-slot" data-video-slot="stickers" data-video-src="videos/iqfleetsync/qr-tarrat.mp4">
-              <div class="video-placeholder">
-                <span class="video-badge">VIDEO PLACEHOLDER</span>
-                <p class="video-slot-title" data-i18n="vid5Title">QR-tarrat</p>
-                <p class="video-slot-file"><code>videos/iqfleetsync/qr-tarrat.mp4</code></p>
-              </div>
-            </figure>
-          </div>
-        </div>
-      </section>
-
-      <section class="section" id="kenelle" aria-labelledby="who-title">
-        <div class="section-inner">
-          <h2 id="who-title" data-i18n="whoTitle">Kenelle?</h2>
-          <div class="card-grid">
-            <article class="audience-card">
-              <h3 data-i18n="who1Title">Kuljetusyritykset, joilla on oma huolto</h3>
-              <p data-i18n="who1Text">Viat suoraan kuljettajalta hallille, kuvan ja yksikön tietojen kanssa. Katsastukset ja huollot muistutetaan ajoissa. Perävaunuilla oma QR-tarra ja oma historia.</p>
-            </article>
-            <article class="audience-card">
-              <h3 data-i18n="who2Title">Maanrakennusyritykset, joilla on oma huolto</h3>
-              <p data-i18n="who2Text">Vikailmoitus suoraan työmaalta. Huoltomies näkee vian ja kuvan ennen lähtöä. Kauhat, vasarat ja muut lisälaitteet liitetään koneisiin – maksutta.</p>
-            </article>
-            <article class="audience-card">
-              <h3 data-i18n="who3Title">Raskaan kaluston korjaamot</h3>
-              <p data-i18n="who3Text">Pidä asiakkaidesi kaluston huolto- ja katsastustiedot hallinnassa ja tarjoa iqFleetSync™ omana palvelunasi.</p>
-              <p class="audience-note" data-i18n="who3Note">Kumppanimalli tulossa – ota yhteyttä.</p>
-              <p class="card-actions"><a class="btn btn-ghost" id="cta-workshop-home" href="korjaamoille.html" data-i18n="ctaWorkshops">Korjaamoille</a></p>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section class="section" id="roolit" aria-labelledby="roles-title">
-        <div class="section-inner">
-          <h2 id="roles-title" data-i18n="rolesTitle">Jokaiselle oma rooli</h2>
-          <div class="role-grid">
-            <article class="role-card">
-              <h3 data-i18n="role1Title">Kuljettaja</h3>
-              <p data-i18n="role1Text">Skannaa, kirjoita, kuvaa, lähetä. Vika on ilmoitettu oikealle yksikölle.</p>
-            </article>
-            <article class="role-card">
-              <h3 data-i18n="role2Title">Mekaanikko</h3>
-              <p data-i18n="role2Text">Ilmoitukset tulevat puhelimeen kuvan ja yksikön tietojen kanssa. Kuittaa, ota työ ja merkitse valmiiksi.</p>
-            </article>
-            <article class="role-card">
-              <h3 data-i18n="role3Title">Ylläpitäjä</h3>
-              <p data-i18n="role3Text">Hallitse kalustoa, käyttäjiä, huolto-ohjelmia ja määräaikoja sekä seuraa kustannuksia yksiköittäin.</p>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section class="section" id="ominaisuudet" aria-labelledby="features-title">
-        <div class="section-inner">
-          <h2 id="features-title" data-i18n="featuresTitle">Ominaisuudet</h2>
-          <ul class="feature-list">
-            <li data-i18n="feat1">Toimii selaimessa – puhelimella, tabletilla ja tietokoneella, ei asennusta eikä sovelluskauppaa.</li>
-            <li data-i18n="feat2">QR-tarra jokaiseen yksikköön: ajoneuvot, perävaunut, työkoneet ja niihin liitetyt lisälaitteet.</li>
-            <li data-i18n="feat3">Vikailmoitus kuvalla oikealle yksikölle, suoraan huollolle.</li>
-            <li data-i18n="feat4">Sormenjälkikirjautuminen ensimmäisen kirjautumisen jälkeen.</li>
-            <li data-i18n="feat5">Push-ilmoitukset huollolle: kuittaus, työn ottaminen ja valmiiksi merkintä.</li>
-            <li data-i18n="feat6">Huolto-ohjelmat: suunnitellut huollot yksiköittäin.</li>
-            <li data-i18n="feat7">Määräpäivämuistutukset: katsastukset ja muut määräajat sähköpostiin.</li>
-            <li data-i18n="feat8">Kustannusseuranta yksikkökohtaisesti, vain ylläpitäjälle.</li>
-            <li data-i18n="feat9">9 kieltä: suomi, ruotsi, norja, tanska, saksa, englanti, espanja, italia ja ranska. Koko porukka voi käyttää palvelua omalla kielellään.</li>
-            <li data-i18n="feat10">Tuki: Ohjekeskus ja ylläpitäjän PDF-opas kaikilla 14 kielellä.</li>
-            <li data-i18n="feat11">Kumppanikorjaamo: jaa yksikkö samalla QR-tarralla, osoita työmääräys ja pidä asiakkaan yksikkö korjaamon hallinnassa, kunnes asiakas ottaa palvelun käyttöön.</li>
-          </ul>
-        </div>
-      </section>
-
-      <section class="section" id="hinnat" aria-labelledby="price-title">
-        <div class="section-inner">
-          <h2 id="price-title" data-i18n="priceTitle">Maksat kalustosta – et käyttäjistä</h2>
-          <div class="price-teaser">
-            <p class="price-figure" data-i18n="priceLead">Perusmaksu 10 €/kk + alkaen 0,90 €/yksikkö/kk, alv 0 %</p>
-            <p data-i18n="priceDetail">Perävaunu on puolikas yksikkö siinä portaassa, johon se osuu. Lisälaitteet, kuten kauhanpyörittäjä, hydraulivasara ja harjalaite, ovat 0,00 € eivätkä lukeudu yksiköiksi. Käyttäjiä on rajattomasti. Tarkka porras lasketaan hinnastossa.</p>
-            <p data-i18n="priceExample">Havainnollistava esimerkki, ei asiakastapaus: 3 työkonetta, 2 perävaunua ja 4 lisälaitetta = 16,00 €/kk (alv 0 %) + arvonlisävero.</p>
-            <p data-i18n="priceTrial">30 päivän ilmainen kokeilu – ei korttitietoja. Irtisanottavissa milloin tahansa.</p>
+          <div class="hero-copy">
+            <p class="eyebrow">
+              <img src="assets/logo.svg" alt="" width="28" height="28" />
+              <span data-i18n="heroKicker">IqSoftCore</span>
+            </p>
+            <h1 id="hero-title" data-i18n="heroTitle">Käytännöllisiä sovelluksia, jotka yksinkertaistavat työtä.</h1>
+            <p class="hero-lead" data-i18n="heroLead">IqSoftCore on pieni suomalainen ohjelmistoyritys. Rakennamme sovelluksia, jotka tekevät arjen työstä selkeämpää.</p>
+            <p class="hero-chips" data-i18n="heroExamples">Esimerkkejä: raskaan kaluston huolto, rallinuotit ja työtuntien kirjaus.</p>
             <div class="hero-actions">
-              <a class="btn btn-primary" id="cta-trial-price" data-cta="trial" href="https://fleetsync.iqsoftcore.fi/rekisteroidy" rel="noopener noreferrer" data-i18n="ctaTrial">Kokeile 30 päivää ilmaiseksi – ei korttia</a>
-              <a class="btn btn-ghost" id="cta-pricing-price" data-cta="pricing" href="hinnasto.html" data-i18n="ctaPricing">Katso hinnat</a>
+              <a class="btn btn-primary" href="#tuotteet" data-i18n="navProducts">Tuotteet</a>
+              <a class="btn btn-ghost" href="#contact" data-i18n="ctaContact">Ota yhteyttä</a>
             </div>
           </div>
         </div>
       </section>
 
-      <section class="section" id="luottamus" aria-labelledby="trust-title">
+      <section class="section" id="toiminta" aria-labelledby="about-title">
         <div class="section-inner">
-          <div class="trust-band">
-            <h2 id="trust-title" data-i18n="trustTitle">Tiedot turvassa EU:ssa</h2>
-            <p data-i18n="trustText">Data säilytetään EU:ssa, Irlannissa. iqFleetSync™ on suomalaisen IqSoftCoren kehittämä.</p>
-          </div>
-        </div>
-      </section>
-
-      <section class="section" id="ukk" aria-labelledby="faq-title">
-        <div class="section-inner">
-          <h2 id="faq-title" data-i18n="faqTitle">Usein kysyttyä</h2>
-          <div class="faq-list">
-            <details class="faq-item">
-              <summary data-i18n="faq1q">Pitääkö kuljettajille maksaa lisenssejä?</summary>
-              <p data-i18n="faq1a">Ei. Käyttäjiä on rajattomasti, ja hinta määräytyy yksiköiden mukaan.</p>
-            </details>
-            <details class="faq-item">
-              <summary data-i18n="faq2q">Miten perävaunut ja lisälaitteet lasketaan?</summary>
-              <p data-i18n="faq2a">Ajoneuvot ja työkoneet täyttävät hintaportaat ensin, sen jälkeen perävaunut. Perävaunu on puolikas yksikkö siinä portaassa, johon se osuu: se maksaa puolet portaan ajoneuvohinnasta ja vie portaan laskennasta 0,5 paikkaa. Lisälaitteet, kuten kauhanpyörittäjä, hydraulivasara ja harjalaite, ovat 0,00 € eivätkä lukeudu yksiköiksi.</p>
-            </details>
-            <details class="faq-item">
-              <summary data-i18n="faq3q">Pitääkö palvelu ladata sovelluskaupasta?</summary>
-              <p data-i18n="faq3a">Ei. iqFleetSync™ on selainpohjainen verkkopalvelu, joka toimii puhelimella, tabletilla ja tietokoneella ilman asennusta.</p>
-            </details>
-            <details class="faq-item">
-              <summary data-i18n="faq4q">Millä kielillä palvelu toimii?</summary>
-              <p data-i18n="faq4a">Palvelu, Help Center, ylläpitäjän PDF-opas ja sähköpostimuistutukset ovat saatavilla yhdeksällä kielellä: suomi, ruotsi, norja, tanska, saksa, englanti, espanja, italia ja ranska.</p>
-            </details>
-            <details class="faq-item">
-              <summary data-i18n="faq5q">Missä tiedot säilytetään?</summary>
-              <p data-i18n="faq5a">EU:ssa, Irlannissa.</p>
-            </details>
-            <details class="faq-item">
-              <summary data-i18n="faq6q">Miten laskutus toimii?</summary>
-              <p data-i18n="faq6a">Korttimaksu Stripen kautta, kuukausittain jälkikäteen. Laskutus perustuu kalenterikuukauden suurimpaan yksikkömäärään. Hinnat ovat alv 0 %, ja arvonlisävero lisätään voimassa olevan verokannan mukaan.</p>
-            </details>
-            <details class="faq-item">
-              <summary data-i18n="faq7q">Mitä tapahtuu, jos poistan yksikön käytöstä?</summary>
-              <p data-i18n="faq7a">Arkistoituja yksiköitä ei laskuteta. Niiden historia ja laskut säilyvät.</p>
-            </details>
-            <details class="faq-item">
-              <summary data-i18n="faq8q">Tarvitaanko kokeiluun korttitiedot?</summary>
-              <p data-i18n="faq8a">Ei. 30 päivän kokeilu on ilmainen eikä vaadi korttitietoja.</p>
-            </details>
-            <details class="faq-item">
-              <summary data-i18n="faq9q">Mitä tapahtuu, jos en jatka kokeilun jälkeen?</summary>
-              <p data-i18n="faq9a">Jos kokeilu päättyy ilman maksua tai lasku on maksamatta 7 päivää eräpäivän jälkeen, tili muuttuu vain luku -tilaan.</p>
-            </details>
-            <details class="faq-item">
-              <summary data-i18n="faq10q">Voinko irtisanoa palvelun?</summary>
-              <p data-i18n="faq10a">Kyllä, milloin tahansa.</p>
-              <p><a href="kayttoehdot.html" data-i18n="faqTerms">Käyttöehdot</a></p>
-            </details>
-            <details class="faq-item">
-              <summary data-i18n="faq11q">Miten pääsen alkuun?</summary>
-              <p data-i18n="faq11a">Aloita 30 päivän ilmainen kokeilu selaimessa – mitään ei tarvitse asentaa. Lisää yksiköt, kiinnitä QR-tarrat ja kutsu käyttäjät. Apuna ovat Help Center ja ylläpitäjän PDF-opas.</p>
-            </details>
-            <details class="faq-item">
-              <summary data-i18n="faq12q">Olen korjaamo – voinko tarjota palvelua asiakkailleni?</summary>
-              <p data-i18n="faq12a">Kyllä. Sama iqFleetSync™ käy kalustoyritykselle, korjaamolle tai molemmille. Yksikön voi jakaa kumppanikorjaamolle samalla QR-tarralla.</p>
-              <p><a href="korjaamoille.html" data-i18n="ctaWorkshops">Korjaamoille</a></p>
-            </details>
-          </div>
-        </div>
-      </section>
-
-      <section class="section" aria-labelledby="final-title">
-        <div class="section-inner">
-          <div class="final-cta">
-            <h2 id="final-title" data-i18n="finalTitle">Kokeile iqFleetSync™-sovellusta 30 päivää ilmaiseksi</h2>
-            <p data-i18n="finalLead">Ei korttitietoja, irtisanottavissa milloin tahansa. Aloita muutamalla yksiköllä ja laajenna, kun toimintatapa on selvä.</p>
-            <a class="btn btn-primary" id="cta-trial-final" data-cta="trial" href="https://fleetsync.iqsoftcore.fi/rekisteroidy" rel="noopener noreferrer" data-i18n="ctaTrial">Kokeile 30 päivää ilmaiseksi – ei korttia</a>
-          </div>
+          <h2 id="about-title" data-i18n="aboutTitle">Mitä teemme</h2>
+          <p data-i18n="aboutP1">Keskitymme selkeään tarkoitukseen ja ratkaisuihin, jotka voi ottaa käyttöön ilman raskasta järjestelmäprojektia. Tuotteet ovat samalla viivalla: iqFleetSync™ kaluston huoltoon, iqRallyNote™ rallinuotteihin ja iqWorkLog™ työtuntien kirjaukseen.</p>
+          <p data-i18n="aboutP2">Teemme myös muuta ohjelmistoa ja elektroniikkasuunnittelua yrityksille.</p>
         </div>
       </section>
 
       <section class="section" id="tuotteet" aria-labelledby="products-title">
         <div class="section-inner">
           <h2 id="products-title" data-i18n="productsTitle">Tuotteet</h2>
-          <p class="section-intro" data-i18n="productsLead">Kolme tuotetta, sama esittely. iqFleetSync™ on käytettävissä selaimessa. iqRallyNote™ ja iqWorkLog™ eivät ole vielä julkisia: ei latauslinkkiä eikä iqRallyNotelle julkaistua hintaa.</p>
-          <div class="product-stack">
-            <section class="product-equal product-spotlight" id="tuote-fleetsync" aria-labelledby="fs-name">
+          <p class="section-intro" data-i18n="productsLead">Kolme tuotetta, sama esittely. iqFleetSync™ on käytettävissä selaimessa. iqRallyNote™ ja iqWorkLog™ ovat tulossa.</p>
+          <div class="product-grid product-grid-3">
+            <article class="product-card product-equal" id="tuote-fleetsync">
               <img class="product-icon" src="assets/iqfleetsync-icon.svg" width="72" height="72" alt="iqFleetSync™" data-i18n-attr="alt:fsAlt" />
-              <div class="product-head">
-                <h3 id="fs-name" data-i18n="fsName">iqFleetSync™</h3>
-                <p class="status-pill" data-i18n="statusLive">Käytettävissä selaimessa</p>
-              </div>
-              <p class="product-pitch" data-i18n="fsPitch">Selaimessa toimiva huolto- ja vikailmoituspalvelu raskaalle kalustolle.</p>
+              <h3 data-i18n="fsName">iqFleetSync™</h3>
+              <p class="status-pill" data-i18n="statusLive">Käytettävissä selaimessa</p>
+              <p data-i18n="fsPitch">Selaimessa toimiva huolto- ja vikailmoituspalvelu raskaalle kalustolle.</p>
               <ul>
                 <li data-i18n="fsB1">Vikailmoitus kuvan kanssa suoraan huollolle.</li>
                 <li data-i18n="fsB2">Huollot, katsastukset ja määräpäivät muistutetaan sähköpostilla.</li>
                 <li data-i18n="fsB3">Rajattomasti käyttäjiä – hinta seuraa kalustoa, ei henkilöstöä.</li>
               </ul>
               <div class="card-actions">
-                <a class="btn btn-primary" id="cta-trial-card-fleetsync" data-cta="trial" href="https://fleetsync.iqsoftcore.fi/rekisteroidy" rel="noopener noreferrer" data-i18n="ctaTrial">Kokeile 30 päivää ilmaiseksi – ei korttia</a>
-                <a class="btn btn-ghost" id="cta-more-fleetsync" data-cta="product-fleetsync" href="iqfleetsync.html" data-i18n="readMore">Lue lisää</a>
+                <a class="btn btn-ghost" href="iqfleetsync.html" data-i18n="readMore">Lue lisää</a>
               </div>
-            </section>
-            <section class="product-equal product-spotlight" id="tuote-rallynote" aria-labelledby="rn-name">
+            </article>
+            <article class="product-card product-equal" id="tuote-rallynote">
               <img class="product-icon" src="assets/iqrallynote-icon.svg" width="72" height="72" alt="iqRallyNote™" data-i18n-attr="alt:rnAlt" />
-              <div class="product-head">
-                <h3 id="rn-name" data-i18n="rnName">iqRallyNote™</h3>
-                <p class="status-pill status-soon" data-i18n="statusSoon">Tulossa</p>
-              </div>
-              <p class="product-pitch" data-i18n="rnPitch">Android-tablettisovellus rallinuottien tekoon ja muokkaukseen. Nuottikieli on suomi.</p>
+              <h3 data-i18n="rnName">iqRallyNote™</h3>
+              <p class="status-pill status-soon" data-i18n="statusSoon">Tulossa</p>
+              <p data-i18n="rnPitch">Android-tablettisovellus rallinuottien tekoon ja muokkaukseen. Nuottikieli on suomi.</p>
               <ul>
                 <li data-i18n="rnB1">Tiedustelu puhesanellulla nuottiriveiksi.</li>
                 <li data-i18n="rnB2">Paikannus GPS:llä ja trippimittarilla.</li>
                 <li data-i18n="rnB3">PDF-nuotit, värilliset turvamerkinnät ja oma symbolikirjasto.</li>
               </ul>
               <div class="card-actions">
-                <a class="btn btn-ghost" id="cta-more-rallynote" data-cta="product-rallynote" href="iqrallynote.html" data-i18n="readMore">Lue lisää</a>
+                <a class="btn btn-ghost" href="iqrallynote.html" data-i18n="readMore">Lue lisää</a>
               </div>
-            </section>
-            <section class="product-equal product-spotlight" id="tuote-worklog" aria-labelledby="wl-name">
+            </article>
+            <article class="product-card product-equal" id="tuote-worklog">
               <img class="product-icon" src="assets/iqworklog-icon.svg" width="72" height="72" alt="iqWorkLog™" data-i18n-attr="alt:wlAlt" />
-              <div class="product-head">
-                <h3 id="wl-name" data-i18n="wlName">iqWorkLog™</h3>
-                <p class="status-pill status-soon" data-i18n="statusSoon">Tulossa</p>
-              </div>
-              <p class="product-pitch" data-i18n="wlPitch">Android-sovellus työtuntien kirjaukseen ja raportteihin. Entinen Tuntilappu.</p>
+              <h3 data-i18n="wlName">iqWorkLog™</h3>
+              <p class="status-pill status-soon" data-i18n="statusSoon">Tulossa</p>
+              <p data-i18n="wlPitch">Android-sovellus työtuntien kirjaukseen ja raportteihin. Entinen Tuntilappu.</p>
               <ul>
                 <li data-i18n="wlB1">Päivän tunnit ja muistiinpanot nopeasti.</li>
                 <li data-i18n="wlB2">PDF- ja CSV-raportit.</li>
                 <li data-i18n="wlB3">Tiedot vain omalla laitteella, ilman kirjautumista.</li>
               </ul>
               <div class="card-actions">
-                <a class="btn btn-ghost" id="cta-more-worklog" data-cta="product-worklog" href="tuntilappu.html" data-i18n="readMore">Lue lisää</a>
+                <a class="btn btn-ghost" href="tuntilappu.html" data-i18n="readMore">Lue lisää</a>
               </div>
-            </section>
+            </article>
           </div>
         </div>
       </section>
 
       <section class="section" id="palvelut" aria-labelledby="services-title">
         <div class="section-inner">
-          <h2 id="services-title" data-i18n="servicesTitle">Muut palvelut</h2>
-          <p class="services-note" data-i18n="servicesText">IqSoftCore tekee myös ohjelmistoja ja elektroniikkasuunnittelua yrityksille. Kerro tarpeesta, niin palaamme asiaan.</p>
-          <p><a class="btn btn-ghost" id="cta-contact-services" data-cta="contact" href="#contact" data-i18n="ctaContact">Ota yhteyttä</a></p>
+          <h2 id="services-title" data-i18n="servicesTitle">Muu työ</h2>
+          <p class="services-note" data-i18n="servicesText">Jos tarvitset jotain muuta, kerro lyhyesti. Palaamme asiaan.</p>
+          <p><a class="btn btn-ghost" href="#contact" data-i18n="ctaContact">Ota yhteyttä</a></p>
         </div>
       </section>
 
@@ -433,10 +202,8 @@
           <p class="footer-identity" data-i18n="footerIdentity">toiminimi IqSoftCore · Y-tunnus 3658340-4 · Siihtalantie 56, 62710 Kurejoki, Suomi</p>
         </div>
         <div class="footer-links">
-          <a href="apps.html" data-i18n="navApps">Sovellukset</a>
-          <a href="ohjekeskus.html" data-i18n="navHelp">Ohjekeskus</a>
-          <a href="korjaamoille.html" data-i18n="navWorkshops">Korjaamoille</a>
-          <a href="hinnasto.html" data-i18n="navPricing">Hinnasto</a>
+          <a href="index.html" data-i18n="navHome">Etusivu</a>
+          <a href="tuotteet.html" data-i18n="navProducts">Tuotteet</a>
           <a href="privacy.html" data-i18n="navPrivacy">Tietosuoja</a>
           <a href="kayttoehdot.html" data-i18n="navTerms">Käyttöehdot</a>
           <a href="mailto:info@iqsoftcore.fi">info@iqsoftcore.fi</a>
@@ -445,6 +212,7 @@
     </footer>
 
     <script src="js/home-content.js"></script>
+    <script src="js/company-home.js"></script>
     <script src="js/i18n.js"></script>
   </body>
 </html>

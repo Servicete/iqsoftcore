@@ -1,10 +1,10 @@
 # iqFleetSync-videot
 
-Etusivun päävideo on `assets/video/iqfleetsync_mainos_fi.mp4` ja juliste `assets/video/iqfleetsync_mainos_fi_thumb.jpg`. Tekstitys on poltettu kuvaan. Soitin ei käynnisty itsestään. Ohjevideopaikat etusivulla ovat yhä paikkamerkkejä.
+iqFleetSync-sivun esittelyvideo on `assets/video/iqfleetsync_mainos_fi.mp4` ja juliste `assets/video/iqfleetsync_mainos_fi_thumb.jpg`. Tekstitys on poltettu kuvaan. Soitin ei käynnisty itsestään, eikä videon alla ole otsikkopalkkia. Saavutettava nimi on videon `aria-label`- ja `title`-attribuuteissa.
 
 # iqFleetSync-ohjevideot
 
-Ohjekeskus (`ohjekeskus.html`) soittaa nämä tiedostot kansiosta `videos/iqfleetsync/`. Jokaisella klipillä on mp4 ja suomenkielinen WebVTT-tekstitys. Binäärit lisätään seuraavassa commitissa.
+Ohjekeskus on iqFleetSync-sivun osio `#ohjekeskus`. Se soittaa nämä tiedostot kansiosta `videos/iqfleetsync/`, kun tiedosto on olemassa. Paikkamerkkejä ei näytetä. Jokaisella klipillä on mp4 ja suomenkielinen WebVTT-tekstitys. Videot eivät käynnisty itsestään.
 
 - `videos/iqfleetsync/qr-kirjautuminen-kuljettaja.mp4`
 - `videos/iqfleetsync/qr-kirjautuminen-kuljettaja.vtt`
@@ -17,4 +17,4 @@ Ohjekeskus (`ohjekeskus.html`) soittaa nämä tiedostot kansiosta `videos/iqflee
 - `videos/iqfleetsync/qr-tarrat.mp4`
 - `videos/iqfleetsync/qr-tarrat.vtt`
 
-Tekstitysraita on `<track kind="subtitles" srclang="fi">`.
+Tekstitysraita on `<track kind="subtitles" srclang="fi">`. Vanha osoite `ohjekeskus.html` ohjaa tähän osioon.
