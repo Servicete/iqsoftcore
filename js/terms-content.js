@@ -9,7 +9,7 @@ const TERMS_PAGE = {
     "metaTitle": "Käyttöehdot | IQSoftCore",
     "metaDescription": "iqFleetSyncin käyttöehdot ja IQSoftCoren palveluiden yleiset ehdot.",
     "title": "Käyttöehdot",
-    "updated": "Voimassa alkaen 9.10.2026.",
+    "updated": "Voimassa alkaen 20.10.2026.",
     "scope": "Nämä ovat IQSoftCoren palveluiden yleiset ehdot. Ne koskevat kuluttajia ja yritysasiakkaita. Jos tuotteella on omat ehdot, niitä käytetään näiden lisäksi. Hinta veloitetaan vain, jos se on julkaistu tai siitä on sovittu erikseen.",
     "privacyLink": "Tietosuoja",
     "pricing": "Hinnasto",
@@ -76,7 +76,13 @@ const TERMS_PAGE = {
           "Yksiköt on luokiteltava oikein. Laite on koneeseen kiinnitettävä lisälaite ilman omaa moottoria, esimerkiksi kauha, aura tai nosturi. Itsenäisesti toimiva kone, kuten murskain, lisätään työkoneena. Väärin luokitellut yksiköt voidaan laskuttaa takautuvasti oikean luokan mukaan.",
           "Kuukauden hinta lasketaan sen kalenterikuukauden suurimman yksikkömäärän mukaan. Jos kalustoa lisätään kesken kuukauden, kuukausi laskutetaan huippumäärän mukaan. Arkistoitua yksikköä ei laskuteta.",
           "Jos kokeilu päättyy eikä maksua ole tehty, tili siirtyy vain luku -tilaan. Jos yritysasiakkaan lasku on maksamatta 7 päivää eräpäivän jälkeen, tili siirtyy vain luku -tilaan, kunnes lasku on maksettu.",
-          "Vain luku -tilassa tallennettuja tietoja voi tarkastella. Uusia ilmoituksia ja muutoksia ei voi tallentaa. Vain luku -tila päättyy automaattisesti, kun maksu on tehty."
+          "Vain luku -tilassa tallennettuja tietoja voi tarkastella. Uusia ilmoituksia ja muutoksia ei voi tallentaa. Vain luku -tila päättyy automaattisesti, kun maksu on tehty.",
+          "iqFleetSync on yksi palvelu. Organisaation tyyppi on kalusto, korjaamo tai molemmat. Tyyppi valitsee oletusvalikon. Sama sovellus ja sama QR-tarra käyvät jokaiselle tyypille.",
+          "Kalustoyritys voi jakaa yksiköitä kumppanikorjaamolle. Jako voi koskea kaikkia yksiköitä tai valittuja yksiköitä. Omistaja valitsee sallitut näkymät. Luotettu korjaamo skannaa tarran ja avaa yksikön suoraan. Kirjautunut käyttäjä voi lukea tarran myös sovelluksen painikkeella Skannaa QR. Jos kirjautumisella on pääsy, yksikkö avautuu suoraan. Jos pääsyä ei ole, avautuu vierasnäkymä, jossa on Pyydä pääsyä. Korjaamo, jota ei ole vielä luotettu, voi pyytää pääsyä tällä tavoin tai skannaamalla tarran omassa tilissään. Omistajan ylläpitäjä hyväksyy tai hylkää pyynnön. Omistaja voi antaa myös kertapääsyn, esimerkiksi 24 tunniksi tai yhdeksi työmääräykseksi, ja vierasnäkymän ilman tunnusta. Omistaja voi perua jaon milloin tahansa. Peruutuksen jälkeen korjaamo ei enää näe jaettuja yksiköitä, mutta sen omat historiarivit säilyvät.",
+          "Työmääräyksen voi osoittaa yhdelle kumppanikorjaamolle. Vain se korjaamo näkee työn. Korjaamo voi avata työmääräyksen ja kuitata sen valmiiksi. Kuittaus sulkee siihen liittyvät viat ja lisää yhden rivin omistajan historiaan. Tunteja ei kopioida omistajalle. Sisäinen muistiinpano jää korjaamolle, eikä omistaja näe sitä.",
+          "Korjaamo voi hallita yksiköitä asiakkaalle, joka ei vielä käytä iqFleetSynciä. Tällainen yksikkö on korjaamon hallitsema. Korjaamolla on kevyt asiakasrekisteri: asiakkaan nimi, Y-tunnus jos se on, yhteyshenkilö, sähköposti ja puhelin. Korjaamo voi tulostaa näille yksiköille QR-tarrat ja asettaa niille katsastusmuistutuksia. Vian voi ilmoittaa tarrasta ilman tunnusta.",
+          "Kun asiakas ottaa iqFleetSyncin käyttöön, korjaamo lähettää siirtokutsun asiakkaan sähköpostiin. Asiakas hyväksyy siirron. Yksiköt, niiden historia ja tarrat siirtyvät asiakkaalle. Jos asiakkaalla on jo sama rekisterinumero tai valmistenumero, yksiköt yhdistetään, jotta samaa yksikköä ei synny kahta. Siirron jälkeen korjaamo jää luotetuksi kumppaniksi. Sisäiset muistiinpanot jäävät korjaamolle.",
+          "Korjaamon kumppaniohjelma on korjaamoiden kumppanuusohjelma. Sen perusmaksu on 14,90 € kuukaudessa, alv 0 %. Rajaton määrä jaettuja asiakasyksiköitä sisältyy perusmaksuun. Jaetuista asiakasyksiköistä ei laskuteta korjaamoa. Korjaamon hallitsemat yksiköt laskutetaan 35 % alennuksella tämän kohdan normaalista yksikköhinnasta. Perävaunu on puoli yksikköä, ja koneeseen kiinnitetty laite sisältyy hintaan samoin kuin yleisessä hinnastossa. Kun yksikkö on siirtynyt asiakkaalle, asiakas maksaa normaalin hinnaston mukaisen hinnan ja tämän yksikön veloitus päättyy korjaamolta, jotta samaa yksikköä ei laskuteta kahteen kertaan. Korjaamo voi sisällyttää palvelun omaan huoltosopimukseensa asiakkaan kanssa. Korjaamon oma kalusto laskutetaan tämän kohdan yleisen hinnaston mukaan, erillään Korjaamon kumppaniohjelmasta. Arvonlisävero lisätään laskulle voimassa olevan verokannan mukaan. Näitä kumppaniohjelman hintoja ei näytetä yleisessä hinnastossa."
         ]
       ],
       [
@@ -175,7 +181,7 @@ const TERMS_PAGE = {
     "metaTitle": "Terms of use | IQSoftCore",
     "metaDescription": "Terms for iqFleetSync and general terms for IQSoftCore services.",
     "title": "Terms of use",
-    "updated": "In force from 9 October 2026.",
+    "updated": "In force from 20 October 2026.",
     "translationNote": "The Finnish text is the official version. This translation is for convenience and has not been separately reviewed as a legal text.",
     "scope": "These are the general terms for IQSoftCore services. They apply to consumers and to business customers. If a product has its own terms, those apply as well. A price is charged only if it is published or agreed separately.",
     "privacyLink": "Privacy",
@@ -243,7 +249,13 @@ const TERMS_PAGE = {
           "Units must be classified correctly. An attachment is an implement fixed to a machine and without its own engine, for example a bucket, a plough, or a crane. A machine that operates on its own, such as a rock crusher, is added as a work machine. Units classified incorrectly may be billed retroactively according to the correct class.",
           "The monthly price uses the highest unit count in that calendar month. If equipment is added during the month, the month is billed at the peak count. An archived unit is not billed.",
           "If the trial ends and no payment has been made, the account becomes read-only. If a business customer’s invoice is unpaid 7 days after the due date, the account stays read-only until the invoice is paid.",
-          "In read-only mode the saved data can still be viewed. New reports and changes cannot be saved. Read-only mode ends automatically when the payment is made."
+          "In read-only mode the saved data can still be viewed. New reports and changes cannot be saved. Read-only mode ends automatically when the payment is made.",
+          "iqFleetSync is one service. The organisation type is a fleet, a workshop, or both. The type chooses the default menu. The same application and the same QR sticker work for every type.",
+          "A fleet company can share units with a partner workshop. The share can cover all units or selected units. The owner chooses the views that are allowed. A trusted workshop scans the sticker and opens the unit directly. A signed-in user can also read the sticker with the Scan QR button in the application. If that login has access, the unit opens directly. If it does not, the guest view opens, and it has Request access. A workshop that is not yet trusted can request access this way, or by scanning the sticker in its own account. The owner’s administrator approves or rejects the request. The owner can also grant one-time access, for example for 24 hours or for one work order, and a guest view without an account. The owner can revoke the share at any time. After revocation the workshop no longer sees the shared units, but its own history rows remain.",
+          "A work order can be assigned to one partner workshop. Only that workshop sees the job. The workshop can open the work order and mark it complete. Completion closes the related defects and adds one row to the owner’s history. Hours are not copied to the owner. An internal note stays with the workshop, and the owner does not see it.",
+          "A workshop can manage units for a customer that does not use iqFleetSync yet. Such a unit is workshop-managed. The workshop has a lightweight customer register: the customer’s name, a Y-tunnus if there is one, a contact person, email and phone. The workshop can print QR stickers for these units and set inspection reminders on them. A defect can be reported from the sticker without an account.",
+          "When the customer adopts iqFleetSync, the workshop sends a transfer invite to the customer’s email. The customer accepts the transfer. The units, their history and the stickers move to the customer. If the customer already has the same registration number or serial number, the units are merged so that the same unit is not created twice. After the transfer the workshop remains a trusted partner. Internal notes stay with the workshop.",
+          "Korjaamon kumppaniohjelma is the partnership programme for workshops. Its base fee is 14.90 € per month, VAT 0 %. An unlimited number of shared customer units is included in the base fee. Shared customer units are not billed to the workshop. Workshop-managed units are billed at 35 % off the normal unit price in this section. A trailer is half a unit, and equipment attached to a machine is included in the price in the same way as on the general price list. When a unit has transferred to the customer, the customer pays the price on the normal price list and the charge for this unit ends at the workshop, so that the same unit is not billed twice. The workshop may include the service in its own maintenance contract with the customer. The workshop’s own fleet is billed on the general price list in this section, separately from Korjaamon kumppaniohjelma. Value added tax is added to the invoice at the rate in force. These partnership prices are not shown on the general price list."
         ]
       ],
       [
@@ -342,7 +354,7 @@ const TERMS_PAGE = {
     "metaTitle": "Användarvillkor | IQSoftCore",
     "metaDescription": "Villkor för iqFleetSync och allmänna villkor för IQSoftCores tjänster.",
     "title": "Användarvillkor",
-    "updated": "Gäller från den 9 oktober 2026.",
+    "updated": "Gäller från den 20 oktober 2026.",
     "translationNote": "Den finska texten är den officiella versionen. Den här översättningen är till hjälp och har inte granskats separat som juridisk text.",
     "scope": "Det här är allmänna villkor för IQSoftCores tjänster. De gäller konsumenter och företagskunder. Om en produkt har egna villkor gäller de också. Pris tas bara ut om det är publicerat eller avtalat särskilt.",
     "privacyLink": "Integritet",
@@ -410,7 +422,13 @@ const TERMS_PAGE = {
           "Enheter ska klassas rätt. Ett redskap är ett tillbehör som fästs på en maskin och som inte har egen motor, till exempel en skopa, en plog eller en kran. En maskin som arbetar själv, till exempel en stenkross, läggs till som arbetsmaskin. Felklassade enheter kan faktureras i efterhand enligt rätt klass.",
           "Månadspriset utgår från det högsta enhetsantalet under kalendermånaden. Om utrustning läggs till under månaden faktureras månaden efter toppantalet. En arkiverad enhet faktureras inte.",
           "Om provperioden tar slut och ingen betalning har gjorts blir kontot skrivskyddat. Om en företagskunds faktura är obetald 7 dagar efter förfallodagen är kontot skrivskyddat tills fakturan är betald.",
-          "I skrivskyddat läge kan sparade uppgifter läsas. Nya anmälningar och ändringar kan inte sparas. Det skrivskyddade läget upphör automatiskt när betalningen är gjord."
+          "I skrivskyddat läge kan sparade uppgifter läsas. Nya anmälningar och ändringar kan inte sparas. Det skrivskyddade läget upphör automatiskt när betalningen är gjord.",
+          "iqFleetSync är en tjänst. Organisationstypen är maskinpark, verkstad eller båda. Typen väljer standardmenyn. Samma applikation och samma QR-dekal gäller för varje typ.",
+          "Ett maskinföretag kan dela enheter med en partnerverkstad. Delningen kan gälla alla enheter eller valda enheter. Ägaren väljer vilka vyer som är tillåtna. En betrodd verkstad skannar dekalen och öppnar enheten direkt. En inloggad användare kan också läsa dekalen med knappen Skanna QR i appen. Om den inloggningen har åtkomst öppnas enheten direkt. Om åtkomst saknas öppnas gästvyn, och där finns Be om åtkomst. En verkstad som ännu inte är betrodd kan begära åtkomst på det sättet eller genom att skanna dekalen i sitt eget konto. Ägarens administratör godkänner eller avslår begäran. Ägaren kan också ge engångsåtkomst, till exempel i 24 timmar eller för en arbetsorder, och en gästvy utan konto. Ägaren kan återkalla delningen när som helst. Efter återkallelsen ser verkstaden inte längre de delade enheterna, men dess egna historikrader finns kvar.",
+          "En arbetsorder kan tilldelas en partnerverkstad. Bara den verkstaden ser arbetet. Verkstaden kan öppna arbetsordern och kvittera den som klar. Kvitteringen stänger de kopplade felen och lägger till en rad i ägarens historik. Timmar kopieras inte till ägaren. En intern anteckning stannar hos verkstaden, och ägaren ser den inte.",
+          "En verkstad kan hålla enheter åt en kund som ännu inte använder iqFleetSync. En sådan enhet är verkstadshanterad. Verkstaden har ett lätt kundregister: kundens namn, Y-tunnus om det finns, kontaktperson, e-post och telefon. Verkstaden kan skriva ut QR-dekaler för dessa enheter och sätta besiktningspåminnelser på dem. Ett fel kan anmälas från dekalen utan konto.",
+          "När kunden tar iqFleetSync i bruk skickar verkstaden en överföringsinbjudan till kundens e-post. Kunden godkänner överföringen. Enheterna, deras historik och dekalerna flyttas till kunden. Om kunden redan har samma registreringsnummer eller tillverkningsnummer slås enheterna ihop, så att samma enhet inte skapas två gånger. Efter överföringen förblir verkstaden en betrodd partner. Interna anteckningar stannar hos verkstaden.",
+          "Korjaamon kumppaniohjelma är partnerprogrammet för verkstäder. Dess grundavgift är 14,90 € per månad, moms 0 %. Ett obegränsat antal delade kundenheter ingår i grundavgiften. Delade kundenheter faktureras inte verkstaden. Verkstadshanterade enheter faktureras med 35 % rabatt på det normala enhetspriset i denna punkt. Ett släp är en halv enhet, och utrustning som sitter på en maskin ingår i priset på samma sätt som i den allmänna prislistan. När en enhet har flyttats till kunden betalar kunden priset enligt den normala prislistan och debiteringen för den enheten upphör hos verkstaden, så att samma enhet inte faktureras två gånger. Verkstaden kan ta in tjänsten i sitt eget serviceavtal med kunden. Verkstadens egen maskinpark faktureras enligt den allmänna prislistan i denna punkt, skilt från Korjaamon kumppaniohjelma. Mervärdesskatt läggs till på fakturan enligt gällande skattesats. Dessa partnerpriser visas inte i den allmänna prislistan."
         ]
       ],
       [
@@ -509,7 +527,7 @@ const TERMS_PAGE = {
     "metaTitle": "Nutzungsbedingungen | IQSoftCore",
     "metaDescription": "Bedingungen für iqFleetSync und allgemeine Bedingungen für Dienste von IQSoftCore.",
     "title": "Nutzungsbedingungen",
-    "updated": "Gültig ab dem 9. Oktober 2026.",
+    "updated": "Gültig ab dem 20. Oktober 2026.",
     "translationNote": "Der finnische Text ist die maßgebliche Fassung. Diese Übersetzung dient der Verständlichkeit und wurde nicht gesondert als Rechtstext geprüft.",
     "scope": "Das sind die allgemeinen Bedingungen für die Dienste von IQSoftCore. Sie gelten für Verbraucher und Geschäftskunden. Wenn ein Produkt eigene Bedingungen hat, gelten diese zusätzlich. Ein Preis wird nur berechnet, wenn er veröffentlicht oder gesondert vereinbart ist.",
     "privacyLink": "Datenschutz",
@@ -577,7 +595,13 @@ const TERMS_PAGE = {
           "Einheiten sind richtig einzuordnen. Ein Anbaugerät ist ein Zusatzgerät, das an eine Maschine angebaut wird und keinen eigenen Motor hat, zum Beispiel eine Schaufel, ein Pflug oder ein Kran. Eine selbstständig arbeitende Maschine, zum Beispiel ein Steinbrecher, wird als Arbeitsmaschine erfasst. Falsch eingeordnete Einheiten können rückwirkend nach der richtigen Klasse berechnet werden.",
           "Der Monatspreis richtet sich nach der höchsten Einheitenzahl in diesem Kalendermonat. Kommt während des Monats Gerät hinzu, wird der Monat nach der Höchstzahl berechnet. Eine archivierte Einheit wird nicht berechnet.",
           "Endet die Testphase ohne Zahlung, wird das Konto nur noch lesbar. Ist die Rechnung eines Geschäftskunden 7 Tage nach der Fälligkeit unbezahlt, bleibt das Konto nur lesbar, bis die Rechnung bezahlt ist.",
-          "Im Nur-Lesen-Modus können gespeicherte Daten angesehen werden. Neue Meldungen und Änderungen können nicht gespeichert werden. Der Nur-Lesen-Modus endet automatisch, wenn die Zahlung erfolgt ist."
+          "Im Nur-Lesen-Modus können gespeicherte Daten angesehen werden. Neue Meldungen und Änderungen können nicht gespeichert werden. Der Nur-Lesen-Modus endet automatisch, wenn die Zahlung erfolgt ist.",
+          "iqFleetSync ist ein Dienst. Der Organisationstyp ist Fuhrpark, Werkstatt oder beides. Der Typ wählt das Standardmenü. Dieselbe Anwendung und derselbe QR-Aufkleber gelten für jeden Typ.",
+          "Ein Fuhrparkunternehmen kann Einheiten mit einer Partnerwerkstatt teilen. Die Freigabe kann alle Einheiten oder ausgewählte Einheiten betreffen. Die Eigentümerseite wählt die erlaubten Ansichten. Eine vertrauenswürdige Werkstatt scannt den Aufkleber und öffnet die Einheit direkt. Eine angemeldete Person kann den Aufkleber auch mit der Schaltfläche QR scannen in der Anwendung lesen. Wenn diese Anmeldung Zugang hat, öffnet sich die Einheit direkt. Wenn kein Zugang besteht, öffnet sich die Gastansicht, und dort ist Zugang anfragen. Eine Werkstatt, die noch nicht vertrauenswürdig ist, kann auf diesem Weg Zugang anfragen oder den Aufkleber im eigenen Konto scannen. Die Administration der Eigentümerseite genehmigt oder lehnt die Anfrage ab. Die Eigentümerseite kann auch einen einmaligen Zugang geben, zum Beispiel für 24 Stunden oder für einen Arbeitsauftrag, und eine Gastansicht ohne Konto. Die Eigentümerseite kann die Freigabe jederzeit widerrufen. Danach sieht die Werkstatt die geteilten Einheiten nicht mehr, ihre eigenen Historieneinträge bleiben aber.",
+          "Ein Arbeitsauftrag kann einer Partnerwerkstatt zugewiesen werden. Nur diese Werkstatt sieht die Arbeit. Die Werkstatt kann den Arbeitsauftrag öffnen und als erledigt abschließen. Der Abschluss schließt die zugehörigen Mängel und fügt eine Zeile in die Historie der Eigentümerseite ein. Stunden werden nicht an die Eigentümerseite kopiert. Eine interne Notiz bleibt bei der Werkstatt, und die Eigentümerseite sieht sie nicht.",
+          "Eine Werkstatt kann Einheiten für Kundschaft führen, die iqFleetSync noch nicht nutzt. Eine solche Einheit ist werkstattgeführt. Die Werkstatt hat ein schlankes Kundenregister: Name der Kundschaft, Y-tunnus falls vorhanden, Kontaktperson, E-Mail und Telefon. Die Werkstatt kann für diese Einheiten QR-Aufkleber drucken und Prüfungsfristen setzen. Einen Mangel kann man vom Aufkleber ohne Konto melden.",
+          "Wenn die Kundschaft iqFleetSync übernimmt, sendet die Werkstatt eine Übertragungseinladung an die E-Mail der Kundschaft. Die Kundschaft nimmt die Übertragung an. Die Einheiten, ihre Historie und die Aufkleber gehen an die Kundschaft. Wenn bei der Kundschaft schon dasselbe Kennzeichen oder dieselbe Seriennummer besteht, werden die Einheiten zusammengeführt, damit dieselbe Einheit nicht zweimal entsteht. Nach der Übertragung bleibt die Werkstatt ein vertrauenswürdiger Partner. Interne Notizen bleiben bei der Werkstatt.",
+          "Korjaamon kumppaniohjelma ist das Partnerprogramm für Werkstätten. Die Grundgebühr beträgt 14,90 € im Monat, MwSt. 0 %. Eine unbegrenzte Zahl geteilter Kundeneinheiten ist in der Grundgebühr enthalten. Geteilte Kundeneinheiten werden der Werkstatt nicht berechnet. Werkstattgeführte Einheiten werden mit 35 % Nachlass auf den normalen Einheitspreis dieses Abschnitts berechnet. Ein Anhänger ist eine halbe Einheit, und ein an einer Maschine angebautes Gerät ist im Preis enthalten, so wie in der allgemeinen Preisliste. Wenn eine Einheit an die Kundschaft übertragen wurde, zahlt die Kundschaft den Preis der normalen Preisliste, und die Berechnung dieser Einheit endet bei der Werkstatt, damit dieselbe Einheit nicht zweimal berechnet wird. Die Werkstatt kann den Dienst in den eigenen Wartungsvertrag mit der Kundschaft aufnehmen. Der eigene Fuhrpark der Werkstatt wird nach der allgemeinen Preisliste dieses Abschnitts berechnet, getrennt von Korjaamon kumppaniohjelma. Die Umsatzsteuer wird der Rechnung nach dem geltenden Satz hinzugefügt. Diese Partnerpreise stehen nicht in der allgemeinen Preisliste."
         ]
       ],
       [
@@ -676,7 +700,7 @@ const TERMS_PAGE = {
     "metaTitle": "Vilkår | IQSoftCore",
     "metaDescription": "Vilkår for iqFleetSync og generelle vilkår for tjenestene til IQSoftCore.",
     "title": "Vilkår",
-    "updated": "Gjeldende fra 9. oktober 2026.",
+    "updated": "Gjeldende fra 20. oktober 2026.",
     "translationNote": "Den finske teksten er den offisielle versjonen. Denne oversettelsen er til hjelp og er ikke gjennomgått separat som juridisk tekst.",
     "scope": "Dette er generelle vilkår for tjenestene til IQSoftCore. De gjelder forbrukere og bedriftskunder. Hvis et produkt har egne vilkår, gjelder de i tillegg. Pris kreves bare hvis den er publisert eller avtalt særskilt.",
     "privacyLink": "Personvern",
@@ -744,7 +768,13 @@ const TERMS_PAGE = {
           "Enheter skal klassifiseres riktig. Utstyr er et redskap som festes på en maskin og som ikke har egen motor, for eksempel en skuffe, en plog eller en kran. En maskin som arbeider selv, for eksempel en steinknuser, legges inn som arbeidsmaskin. Feilklassifiserte enheter kan faktureres i ettertid etter riktig klasse.",
           "Månedsprisen bruker det høyeste enhetsantallet i den kalendermåneden. Hvis utstyr legges til i løpet av måneden, faktureres måneden etter toppantallet. En arkivert enhet faktureres ikke.",
           "Hvis prøveperioden tar slutt og det ikke er betalt, blir kontoen skrivebeskyttet. Hvis en bedriftskundes faktura er ubetalt 7 dager etter forfallsdagen, er kontoen skrivebeskyttet til fakturaen er betalt.",
-          "I skrivebeskyttet modus kan lagrede opplysninger leses. Nye meldinger og endringer kan ikke lagres. Skrivebeskyttet modus opphører automatisk når betalingen er gjort."
+          "I skrivebeskyttet modus kan lagrede opplysninger leses. Nye meldinger og endringer kan ikke lagres. Skrivebeskyttet modus opphører automatisk når betalingen er gjort.",
+          "iqFleetSync er én tjeneste. Organisasjonstypen er maskinpark, verksted eller begge. Typen velger standardmenyen. Samme applikasjon og samme QR-merke gjelder for hver type.",
+          "Et maskinfirma kan dele enheter med et partnerverksted. Delingen kan gjelde alle enheter eller valgte enheter. Eieren velger tillatte visninger. Et betrodd verksted skanner merket og åpner enheten direkte. En innlogget bruker kan også lese merket med knappen Skann QR i appen. Hvis den innloggingen har tilgang, åpnes enheten direkte. Hvis tilgang mangler, åpnes gjestvisningen, og der er Be om tilgang. Et verksted som ennå ikke er betrodd, kan be om tilgang på denne måten eller ved å skanne merket i egen konto. Eierens administrator godkjenner eller avslår forespørselen. Eieren kan også gi engangstilgang, for eksempel i 24 timer eller for én arbeidsordre, og en gjestvisning uten konto. Eieren kan trekke tilbake delingen når som helst. Etter tilbaketrekkingen ser verkstedet ikke lenger de delte enhetene, men egne historierader blir værende.",
+          "En arbeidsordre kan tildeles ett partnerverksted. Bare det verkstedet ser arbeidet. Verkstedet kan åpne arbeidsordren og kvittere den som ferdig. Kvitteringen lukker de tilknyttede feilene og legger til én rad i eierens historikk. Timer kopieres ikke til eieren. Et internt notat blir hos verkstedet, og eieren ser det ikke.",
+          "Et verksted kan holde enheter for en kunde som ennå ikke bruker iqFleetSync. En slik enhet er verkstedstyrt. Verkstedet har et lett kunderegister: kundens navn, Y-tunnus hvis det finnes, kontaktperson, e-post og telefon. Verkstedet kan skrive ut QR-merker for disse enhetene og sette kontrollpåminnelser på dem. En feil kan meldes fra merket uten konto.",
+          "Når kunden tar iqFleetSync i bruk, sender verkstedet en overføringsinvitasjon til kundens e-post. Kunden godtar overføringen. Enhetene, historikken og merkene flyttes til kunden. Hvis kunden allerede har samme registreringsnummer eller serienummer, slås enhetene sammen, slik at samme enhet ikke opprettes to ganger. Etter overføringen forblir verkstedet en betrodd partner. Interne notater blir hos verkstedet.",
+          "Korjaamon kumppaniohjelma er partnerprogrammet for verksteder. Grunnavgiften er 14,90 € per måned, mva 0 %. Et ubegrenset antall delte kundenheter inngår i grunnavgiften. Delte kundenheter faktureres ikke verkstedet. Verkstedstyrte enheter faktureres med 35 % rabatt på den normale enhetsprisen i dette punktet. En tilhenger er en halv enhet, og utstyr festet på en maskin inngår i prisen på samme måte som i den alminnelige prislisten. Når en enhet er overført til kunden, betaler kunden prisen etter den normale prislisten, og belastningen for denne enheten opphører hos verkstedet, slik at samme enhet ikke faktureres to ganger. Verkstedet kan ta tjenesten inn i sin egen serviceavtale med kunden. Verkstedets egen maskinpark faktureres etter den alminnelige prislisten i dette punktet, atskilt fra Korjaamon kumppaniohjelma. Merverdiavgift legges til fakturaen etter gjeldende sats. Disse partnerprisene vises ikke i den alminnelige prislisten."
         ]
       ],
       [
@@ -843,7 +873,7 @@ const TERMS_PAGE = {
     "metaTitle": "Vilkår | IQSoftCore",
     "metaDescription": "Vilkår for iqFleetSync og generelle vilkår for IQSoftCores tjenester.",
     "title": "Vilkår",
-    "updated": "Gældende fra 9. oktober 2026.",
+    "updated": "Gældende fra 20. oktober 2026.",
     "translationNote": "Den finske tekst er den officielle version. Denne oversættelse er en hjælp og er ikke gennemgået særskilt som juridisk tekst.",
     "scope": "Dette er generelle vilkår for IQSoftCores tjenester. De gælder forbrugere og erhvervskunder. Hvis et produkt har egne vilkår, gælder de også. Pris opkræves kun, hvis den er offentliggjort eller aftalt særskilt.",
     "privacyLink": "Privatliv",
@@ -911,7 +941,13 @@ const TERMS_PAGE = {
           "Enheder skal klassificeres rigtigt. Udstyr er et redskab, der monteres på en maskine, og som ikke har egen motor, for eksempel en skovl, en plov eller en kran. En maskine, der arbejder selv, for eksempel en stenknuser, tilføjes som arbejdsmaskine. Forkert klassificerede enheder kan faktureres bagud efter den rigtige klasse.",
           "Månedsprisen bruger det højeste antal enheder i den kalendermåned. Hvis udstyr tilføjes i løbet af måneden, faktureres måneden efter toppen. En arkiveret enhed faktureres ikke.",
           "Hvis prøveperioden slutter, og der ikke er betalt, bliver kontoen skrivebeskyttet. Hvis en erhvervskundes faktura er ubetalt 7 dage efter forfaldsdagen, er kontoen skrivebeskyttet, indtil fakturaen er betalt.",
-          "I skrivebeskyttet tilstand kan gemte oplysninger læses. Nye indberetninger og ændringer kan ikke gemmes. Den skrivebeskyttede tilstand ophører automatisk, når betalingen er sket."
+          "I skrivebeskyttet tilstand kan gemte oplysninger læses. Nye indberetninger og ændringer kan ikke gemmes. Den skrivebeskyttede tilstand ophører automatisk, når betalingen er sket.",
+          "iqFleetSync er én tjeneste. Organisationstypen er maskinpark, værksted eller begge. Typen vælger standardmenuen. Samme applikation og samme QR-mærke gælder for hver type.",
+          "Et maskinfirma kan dele enheder med et partnerværksted. Delingen kan gælde alle enheder eller valgte enheder. Ejeren vælger de tilladte visninger. Et betroet værksted scanner mærket og åbner enheden direkte. En logget bruger kan også læse mærket med knappen Scan QR i appen. Hvis det login har adgang, åbnes enheden direkte. Hvis adgang mangler, åbnes gæstevisningen, og der er Bed om adgang. Et værksted, der endnu ikke er betroet, kan bede om adgang på denne måde eller ved at scanne mærket i sin egen konto. Ejerens administrator godkender eller afviser anmodningen. Ejeren kan også give engangsadgang, for eksempel i 24 timer eller til én arbejdsordre, og en gæstevisning uden konto. Ejeren kan tilbagekalde delingen når som helst. Efter tilbagekaldelsen ser værkstedet ikke længere de delte enheder, men dets egne historikrækker bliver.",
+          "En arbejdsordre kan tildeles ét partnerværksted. Kun det værksted ser arbejdet. Værkstedet kan åbne arbejdsordren og kvittere den som færdig. Kvitteringen lukker de tilknyttede fejl og tilføjer én række i ejerens historik. Timer kopieres ikke til ejeren. En intern note bliver hos værkstedet, og ejeren ser den ikke.",
+          "Et værksted kan holde enheder for en kunde, der endnu ikke bruger iqFleetSync. En sådan enhed er værkstedsstyret. Værkstedet har et let kunderegister: kundens navn, finsk virksomhedsnummer (Y-tunnus) hvis det findes, kontaktperson, e-mail og telefon. Værkstedet kan udskrive QR-mærker til disse enheder og sætte synspåmindelser på dem. En fejl kan meldes fra mærket uden konto.",
+          "Når kunden tager iqFleetSync i brug, sender værkstedet en overførselsinvitation til kundens e-mail. Kunden godkender overførslen. Enhederne, deres historik og mærkerne flyttes til kunden. Hvis kunden allerede har samme registreringsnummer eller serienummer, lægges enhederne sammen, så den samme enhed ikke oprettes to gange. Efter overførslen forbliver værkstedet en betroet partner. Interne noter bliver hos værkstedet.",
+          "Korjaamon kumppaniohjelma er partnerprogrammet for værksteder. Grundgebyret er 14,90 € om måneden, moms 0 %. Et ubegrænset antal delte kundenheder indgår i grundgebyret. Delte kundenheder faktureres ikke værkstedet. Værkstedsstyrede enheder faktureres med 35 % rabat på den normale enhedspris i dette punkt. En trailer er en halv enhed, og udstyr monteret på en maskine indgår i prisen på samme måde som i den almindelige prisliste. Når en enhed er overført til kunden, betaler kunden prisen efter den normale prisliste, og opkrævningen for denne enhed ophører hos værkstedet, så den samme enhed ikke faktureres to gange. Værkstedet kan tage tjenesten med i sin egen serviceaftale med kunden. Værkstedets egen maskinpark faktureres efter den almindelige prisliste i dette punkt, adskilt fra Korjaamon kumppaniohjelma. Moms lægges på fakturaen efter den gældende sats. Disse partnerpriser vises ikke i den almindelige prisliste."
         ]
       ],
       [
@@ -1010,7 +1046,7 @@ const TERMS_PAGE = {
     "metaTitle": "Gebruiksvoorwaarden | IQSoftCore",
     "metaDescription": "Voorwaarden voor iqFleetSync en algemene voorwaarden voor diensten van IQSoftCore.",
     "title": "Gebruiksvoorwaarden",
-    "updated": "Van kracht vanaf 9 oktober 2026.",
+    "updated": "Van kracht vanaf 20 oktober 2026.",
     "translationNote": "De Finse tekst is de officiële versie. Deze vertaling is een hulpmiddel en is niet apart beoordeeld als juridische tekst.",
     "scope": "Dit zijn de algemene voorwaarden voor diensten van IQSoftCore. Ze gelden voor consumenten en zakelijke klanten. Als een product eigen voorwaarden heeft, gelden die erbij. Een prijs wordt alleen gerekend als die is gepubliceerd of apart afgesproken.",
     "privacyLink": "Privacy",
@@ -1078,7 +1114,13 @@ const TERMS_PAGE = {
           "Eenheden moeten juist worden ingedeeld. Een uitrustingsstuk is een hulpstuk dat aan een machine wordt bevestigd en geen eigen motor heeft, bijvoorbeeld een bak, een ploeg of een kraan. Een machine die zelfstandig werkt, bijvoorbeeld een steenbreker, wordt als werkmachine toegevoegd. Verkeerd ingedeelde eenheden kunnen met terugwerkende kracht volgens de juiste klasse worden gefactureerd.",
           "De maandprijs gebruikt het hoogste aantal eenheden in die kalendermaand. Wordt er tijdens de maand materieel toegevoegd, dan wordt de maand tegen het hoogste aantal gerekend. Een gearchiveerde eenheid wordt niet gefactureerd.",
           "Eindigt de proefperiode zonder betaling, dan wordt het account alleen-lezen. Als de factuur van een zakelijke klant 7 dagen na de vervaldatum onbetaald is, blijft het account alleen-lezen tot de factuur is betaald.",
-          "In de alleen-lezenstand kunnen opgeslagen gegevens worden bekeken. Nieuwe meldingen en wijzigingen kunnen niet worden opgeslagen. De alleen-lezenstand eindigt automatisch wanneer de betaling is gedaan."
+          "In de alleen-lezenstand kunnen opgeslagen gegevens worden bekeken. Nieuwe meldingen en wijzigingen kunnen niet worden opgeslagen. De alleen-lezenstand eindigt automatisch wanneer de betaling is gedaan.",
+          "iqFleetSync is één dienst. Het organisatietype is machinepark, werkplaats of beide. Het type kiest het standaardmenu. Dezelfde applicatie en dezelfde QR-sticker gelden voor elk type.",
+          "Een machineparkbedrijf kan eenheden delen met een partnerwerkplaats. De deling kan alle eenheden of gekozen eenheden betreffen. De eigenaar kiest de toegestane weergaven. Een vertrouwde werkplaats scant de sticker en opent de eenheid direct. Een ingelogde gebruiker kan de sticker ook lezen met de knop QR scannen in de applicatie. Als die login toegang heeft, opent de eenheid direct. Als toegang ontbreekt, opent de gastweergave, en daar staat Toegang vragen. Een werkplaats die nog niet vertrouwd is, kan op deze manier toegang vragen of de sticker in het eigen account scannen. De beheerder van de eigenaar keurt het verzoek goed of af. De eigenaar kan ook eenmalige toegang geven, bijvoorbeeld voor 24 uur of voor één werkorder, en een gastweergave zonder account. De eigenaar kan de deling op elk moment intrekken. Daarna ziet de werkplaats de gedeelde eenheden niet meer, maar de eigen historieregels blijven.",
+          "Een werkorder kan aan één partnerwerkplaats worden toegewezen. Alleen die werkplaats ziet het werk. De werkplaats kan de werkorder openen en als gereed aftekenen. Het aftekenen sluit de bijbehorende gebreken en voegt één regel toe aan de historie van de eigenaar. Uren worden niet naar de eigenaar gekopieerd. Een interne notitie blijft bij de werkplaats, en de eigenaar ziet die niet.",
+          "Een werkplaats kan eenheden beheren voor een klant die iqFleetSync nog niet gebruikt. Zo’n eenheid is werkplaatsbeheerd. De werkplaats heeft een licht klantenregister: naam van de klant, Y-tunnus als die er is, contactpersoon, e-mail en telefoon. De werkplaats kan voor deze eenheden QR-stickers afdrukken en keuringsherinneringen instellen. Een gebrek kan vanaf de sticker zonder account worden gemeld.",
+          "Wanneer de klant iqFleetSync in gebruik neemt, stuurt de werkplaats een overdrachtsuitnodiging naar het e-mailadres van de klant. De klant aanvaardt de overdracht. De eenheden, hun historie en de stickers gaan naar de klant. Als de klant al hetzelfde kenteken of serienummer heeft, worden de eenheden samengevoegd, zodat dezelfde eenheid niet twee keer ontstaat. Na de overdracht blijft de werkplaats een vertrouwde partner. Interne notities blijven bij de werkplaats.",
+          "Korjaamon kumppaniohjelma is het partnerprogramma voor werkplaatsen. De basisvergoeding is 14,90 € per maand, btw 0 %. Een onbeperkt aantal gedeelde klanteenheden zit in de basisvergoeding. Gedeelde klanteenheden worden niet aan de werkplaats gefactureerd. Werkplaatsbeheerde eenheden worden gefactureerd met 35 % korting op de normale eenheidsprijs in dit artikel. Een aanhanger is een halve eenheid, en apparatuur die op een machine is gemonteerd, zit in de prijs op dezelfde manier als in de algemene prijslijst. Wanneer een eenheid naar de klant is overgedragen, betaalt de klant de prijs van de normale prijslijst en stopt de berekening van deze eenheid bij de werkplaats, zodat dezelfde eenheid niet twee keer wordt gefactureerd. De werkplaats mag de dienst opnemen in het eigen onderhoudscontract met de klant. Het eigen machinepark van de werkplaats wordt gefactureerd volgens de algemene prijslijst in dit artikel, los van Korjaamon kumppaniohjelma. Btw wordt op de factuur gezet volgens het geldende tarief. Deze partnerprijzen staan niet op de algemene prijslijst."
         ]
       ],
       [
@@ -1177,7 +1219,7 @@ const TERMS_PAGE = {
     "metaTitle": "Conditions d’utilisation | IQSoftCore",
     "metaDescription": "Conditions d’iqFleetSync et conditions générales des services IQSoftCore.",
     "title": "Conditions d’utilisation",
-    "updated": "En vigueur à compter du 9 octobre 2026.",
+    "updated": "En vigueur à compter du 20 octobre 2026.",
     "translationNote": "Le texte finlandais est la version officielle. Cette traduction est une aide et n’a pas été revue séparément comme texte juridique.",
     "scope": "Ce sont les conditions générales des services IQSoftCore. Elles s’appliquent aux consommateurs et aux clients professionnels. Si un produit a ses propres conditions, elles s’ajoutent. Un prix n’est facturé que s’il est publié ou convenu à part.",
     "privacyLink": "Confidentialité",
@@ -1245,7 +1287,13 @@ const TERMS_PAGE = {
           "Les unités doivent être classées correctement. Un équipement est un accessoire fixé à un engin et sans moteur propre, par exemple un godet, une charrue ou une grue. Une machine qui fonctionne seule, par exemple un concasseur, est ajoutée comme engin. Les unités mal classées peuvent être facturées rétroactivement selon la classe correcte.",
           "Le prix du mois repose sur le nombre d’unités le plus élevé de ce mois calendaire. Si du matériel est ajouté en cours de mois, le mois est facturé au nombre le plus élevé. Une unité archivée n’est pas facturée.",
           "Si l’essai se termine sans paiement, le compte passe en lecture seule. Si la facture d’un client professionnel est impayée 7 jours après l’échéance, le compte reste en lecture seule jusqu’au paiement de la facture.",
-          "En lecture seule, les données enregistrées peuvent être consultées. Les nouveaux signalements et les modifications ne peuvent pas être enregistrés. Le mode lecture seule prend fin automatiquement lorsque le paiement est fait."
+          "En lecture seule, les données enregistrées peuvent être consultées. Les nouveaux signalements et les modifications ne peuvent pas être enregistrés. Le mode lecture seule prend fin automatiquement lorsque le paiement est fait.",
+          "iqFleetSync est un seul service. Le type d’organisation est un parc, un atelier, ou les deux. Le type choisit le menu par défaut. La même application et la même étiquette QR valent pour chaque type.",
+          "Une entreprise de parc peut partager des unités avec un atelier partenaire. Le partage peut porter sur toutes les unités ou sur des unités choisies. Le propriétaire choisit les vues autorisées. Un atelier de confiance scanne l’étiquette et ouvre l’unité directement. Une personne connectée peut aussi lire l’étiquette avec le bouton Scanner le QR dans l’application. Si cette session a l’accès, l’unité s’ouvre directement. Sinon, la vue invité s’ouvre, et elle propose Demander l’accès. Un atelier qui n’est pas encore de confiance peut demander l’accès ainsi, ou en scannant l’étiquette dans son propre compte. L’administrateur du propriétaire accepte ou refuse la demande. Le propriétaire peut aussi donner un accès unique, par exemple pour 24 heures ou pour un ordre de travail, et une vue invité sans compte. Le propriétaire peut retirer le partage à tout moment. Ensuite, l’atelier ne voit plus les unités partagées, mais ses propres lignes d’historique restent.",
+          "Un ordre de travail peut être assigné à un seul atelier partenaire. Seul cet atelier voit le travail. L’atelier peut ouvrir l’ordre de travail et le marquer terminé. La clôture ferme les défauts liés et ajoute une ligne à l’historique du propriétaire. Les heures ne sont pas copiées chez le propriétaire. Une note interne reste à l’atelier, et le propriétaire ne la voit pas.",
+          "Un atelier peut tenir des unités pour une clientèle qui n’utilise pas encore iqFleetSync. Une telle unité est gérée par l’atelier. L’atelier a un registre client léger : nom de la clientèle, Y-tunnus s’il existe, personne de contact, e-mail et téléphone. L’atelier peut imprimer des étiquettes QR pour ces unités et y poser des rappels de contrôle. Un défaut peut être signalé depuis l’étiquette sans compte.",
+          "Quand la clientèle adopte iqFleetSync, l’atelier envoie une invitation de transfert à l’e-mail de la clientèle. La clientèle accepte le transfert. Les unités, leur historique et les étiquettes passent à la clientèle. Si la clientèle a déjà le même numéro d’immatriculation ou le même numéro de série, les unités sont fusionnées, afin que la même unité ne soit pas créée deux fois. Après le transfert, l’atelier reste un partenaire de confiance. Les notes internes restent à l’atelier.",
+          "Korjaamon kumppaniohjelma est le programme de partenariat des ateliers. Son forfait de base est de 14,90 € par mois, TVA 0 %. Un nombre illimité d’unités client partagées est compris dans le forfait de base. Les unités client partagées ne sont pas facturées à l’atelier. Les unités gérées par l’atelier sont facturées avec 35 % de réduction sur le prix unitaire normal de cet article. Une remorque est une demi-unité, et un équipement fixé à un engin est compris dans le prix comme dans la liste de prix générale. Quand une unité a été transférée à la clientèle, la clientèle paie le prix de la liste normale et la facturation de cette unité cesse chez l’atelier, afin que la même unité ne soit pas facturée deux fois. L’atelier peut inclure le service dans son propre contrat d’entretien avec la clientèle. Le parc propre de l’atelier est facturé selon la liste de prix générale de cet article, à part de Korjaamon kumppaniohjelma. La taxe sur la valeur ajoutée est ajoutée à la facture au taux en vigueur. Ces prix de partenariat ne figurent pas sur la liste de prix générale."
         ]
       ],
       [
@@ -1344,7 +1392,7 @@ const TERMS_PAGE = {
     "metaTitle": "Condiciones de uso | IQSoftCore",
     "metaDescription": "Condiciones de iqFleetSync y condiciones generales de los servicios de IQSoftCore.",
     "title": "Condiciones de uso",
-    "updated": "En vigor desde el 9 de octubre de 2026.",
+    "updated": "En vigor desde el 20 de octubre de 2026.",
     "translationNote": "El texto en finés es la versión oficial. Esta traducción es una ayuda y no se ha revisado por separado como texto jurídico.",
     "scope": "Estas son las condiciones generales de los servicios de IQSoftCore. Se aplican a consumidores y a clientes de empresa. Si un producto tiene condiciones propias, se añaden. Solo se cobra un precio si está publicado o se ha acordado aparte.",
     "privacyLink": "Privacidad",
@@ -1412,7 +1460,13 @@ const TERMS_PAGE = {
           "Las unidades deben clasificarse correctamente. Un implemento es un accesorio que se acopla a una máquina y no tiene motor propio, por ejemplo un cazo, un arado o una grúa. Una máquina que funciona por sí sola, por ejemplo una machacadora, se añade como máquina de trabajo. Las unidades mal clasificadas pueden facturarse con efecto retroactivo según la clase correcta.",
           "El precio del mes usa la cantidad más alta de unidades de ese mes natural. Si se añade equipo durante el mes, el mes se factura por la cantidad máxima. Una unidad archivada no se factura.",
           "Si la prueba termina y no hay pago, la cuenta pasa a solo lectura. Si la factura de un cliente de empresa sigue impagada 7 días después del vencimiento, la cuenta permanece en solo lectura hasta que la factura se pague.",
-          "En modo de solo lectura se pueden ver los datos guardados. No se pueden guardar avisos ni cambios nuevos. El modo de solo lectura termina automáticamente cuando se hace el pago."
+          "En modo de solo lectura se pueden ver los datos guardados. No se pueden guardar avisos ni cambios nuevos. El modo de solo lectura termina automáticamente cuando se hace el pago.",
+          "iqFleetSync es un solo servicio. El tipo de organización es flota, taller o ambos. El tipo elige el menú predeterminado. La misma aplicación y la misma etiqueta QR valen para cada tipo.",
+          "Una empresa de flota puede compartir unidades con un taller asociado. El uso compartido puede cubrir todas las unidades o unidades elegidas. El propietario elige las vistas permitidas. Un taller de confianza escanea la etiqueta y abre la unidad directamente. Una persona con sesión iniciada también puede leer la etiqueta con el botón Escanear QR de la aplicación. Si ese acceso existe, la unidad se abre directamente. Si no hay acceso, se abre la vista de invitación, y ahí está Pedir acceso. Un taller que aún no es de confianza puede pedir acceso así, o escaneando la etiqueta en su propia cuenta. El administrador del propietario aprueba o rechaza la solicitud. El propietario también puede dar un acceso de una vez, por ejemplo durante 24 horas o para una orden de trabajo, y una vista de invitación sin cuenta. El propietario puede retirar el uso compartido en cualquier momento. Después, el taller ya no ve las unidades compartidas, pero sus propias filas de historial permanecen.",
+          "Una orden de trabajo se puede asignar a un solo taller asociado. Solo ese taller ve el trabajo. El taller puede abrir la orden de trabajo y marcarla como terminada. El cierre cierra los defectos relacionados y añade una fila al historial del propietario. Las horas no se copian al propietario. Una nota interna se queda en el taller, y el propietario no la ve.",
+          "Un taller puede llevar unidades para clientela que todavía no usa iqFleetSync. Esa unidad está gestionada por el taller. El taller tiene un registro de clientes ligero: nombre de la clientela, Y-tunnus si lo hay, persona de contacto, correo y teléfono. El taller puede imprimir etiquetas QR para estas unidades y ponerles recordatorios de inspección. Un defecto se puede avisar desde la etiqueta sin cuenta.",
+          "Cuando la clientela adopta iqFleetSync, el taller envía una invitación de traslado al correo de la clientela. La clientela acepta el traslado. Las unidades, su historial y las etiquetas pasan a la clientela. Si la clientela ya tiene la misma matrícula o el mismo número de serie, las unidades se unen, para que la misma unidad no se cree dos veces. Después del traslado, el taller sigue siendo un socio de confianza. Las notas internas se quedan en el taller.",
+          "Korjaamon kumppaniohjelma es el programa de colaboración de los talleres. Su cuota base es de 14,90 € al mes, IVA 0 %. Un número ilimitado de unidades de clientela compartidas está incluido en la cuota base. Las unidades de clientela compartidas no se facturan al taller. Las unidades gestionadas por el taller se facturan con un 35 % de descuento sobre el precio normal de unidad de este apartado. Un remolque es media unidad, y un equipo fijado a una máquina está incluido en el precio igual que en la lista de precios general. Cuando una unidad ha pasado a la clientela, la clientela paga el precio de la lista normal y el cargo de esta unidad termina en el taller, para que la misma unidad no se facture dos veces. El taller puede incluir el servicio en su propio contrato de mantenimiento con la clientela. La flota propia del taller se factura según la lista de precios general de este apartado, aparte de Korjaamon kumppaniohjelma. El impuesto sobre el valor añadido se añade a la factura según el tipo vigente. Estos precios del programa no se muestran en la lista de precios general."
         ]
       ],
       [
@@ -1511,7 +1565,7 @@ const TERMS_PAGE = {
     "metaTitle": "Termos de uso | IQSoftCore",
     "metaDescription": "Termos do iqFleetSync e termos gerais dos serviços da IQSoftCore.",
     "title": "Termos de uso",
-    "updated": "Em vigor a partir de 9 de outubro de 2026.",
+    "updated": "Em vigor a partir de 20 de outubro de 2026.",
     "translationNote": "O texto em finlandês é a versão oficial. Esta tradução serve de ajuda e não foi revista à parte como texto jurídico.",
     "scope": "Estes são os termos gerais dos serviços da IQSoftCore. Aplicam-se a consumidores e a clientes empresariais. Se um produto tiver termos próprios, estes somam-se. Só se cobra um preço se estiver publicado ou tiver sido acordado à parte.",
     "privacyLink": "Privacidade",
@@ -1579,7 +1633,13 @@ const TERMS_PAGE = {
           "As unidades devem ser classificadas corretamente. Um equipamento é um acessório fixado a uma máquina, sem motor próprio, por exemplo um balde, um arado ou uma grua. Uma máquina que funciona sozinha, por exemplo um britador, é adicionada como máquina de trabalho. As unidades mal classificadas podem ser faturadas retroativamente segundo a classe correta.",
           "O preço do mês usa a maior quantidade de unidades desse mês. Se for acrescentado equipamento durante o mês, o mês é faturado pela quantidade máxima. Uma unidade arquivada não é faturada.",
           "Se o período de teste terminar sem pagamento, a conta fica só de leitura. Se a fatura de um cliente empresarial estiver por pagar 7 dias após o vencimento, a conta permanece só de leitura até a fatura ser paga.",
-          "Em só leitura, os dados guardados podem ser vistos. Novos registos e alterações não podem ser guardados. O modo só leitura termina automaticamente quando o pagamento é feito."
+          "Em só leitura, os dados guardados podem ser vistos. Novos registos e alterações não podem ser guardados. O modo só leitura termina automaticamente quando o pagamento é feito.",
+          "iqFleetSync é um só serviço. O tipo de organização é frota, oficina ou ambos. O tipo escolhe o menu predefinido. A mesma aplicação e o mesmo autocolante QR servem para cada tipo.",
+          "Uma empresa de frota pode partilhar unidades com uma oficina parceira. A partilha pode abranger todas as unidades ou unidades escolhidas. O proprietário escolhe as vistas permitidas. Uma oficina de confiança lê o autocolante e abre a unidade diretamente. Uma pessoa com sessão iniciada também pode ler o autocolante com o botão Ler QR na aplicação. Se esse acesso existir, a unidade abre-se diretamente. Se não houver acesso, abre-se a vista de convidado, e aí está Pedir acesso. Uma oficina que ainda não é de confiança pode pedir acesso assim, ou lendo o autocolante na própria conta. O administrador do proprietário aprova ou recusa o pedido. O proprietário também pode dar um acesso único, por exemplo durante 24 horas ou para uma ordem de trabalho, e uma vista de convidado sem conta. O proprietário pode retirar a partilha em qualquer momento. Depois, a oficina deixa de ver as unidades partilhadas, mas as suas próprias linhas de histórico ficam.",
+          "Uma ordem de trabalho pode ser atribuída a uma só oficina parceira. Só essa oficina vê o trabalho. A oficina pode abrir a ordem de trabalho e marcá-la como concluída. A conclusão fecha os defeitos ligados e acrescenta uma linha ao histórico do proprietário. As horas não são copiadas para o proprietário. Uma nota interna fica na oficina, e o proprietário não a vê.",
+          "Uma oficina pode gerir unidades para clientela que ainda não usa o iqFleetSync. Essa unidade é gerida pela oficina. A oficina tem um registo de clientes leve: nome da clientela, Y-tunnus se existir, pessoa de contacto, e-mail e telefone. A oficina pode imprimir autocolantes QR para estas unidades e definir lembretes de inspeção. Um defeito pode ser comunicado a partir do autocolante sem conta.",
+          "Quando a clientela adota o iqFleetSync, a oficina envia um convite de transferência para o e-mail da clientela. A clientela aceita a transferência. As unidades, o seu histórico e os autocolantes passam para a clientela. Se a clientela já tiver a mesma matrícula ou o mesmo número de série, as unidades são fundidas, para que a mesma unidade não seja criada duas vezes. Depois da transferência, a oficina continua a ser uma parceira de confiança. As notas internas ficam na oficina.",
+          "Korjaamon kumppaniohjelma é o programa de parceria das oficinas. A taxa base é de 14,90 € por mês, IVA 0 %. Um número ilimitado de unidades de clientela partilhadas está incluído na taxa base. As unidades de clientela partilhadas não são faturadas à oficina. As unidades geridas pela oficina são faturadas com 35 % de desconto sobre o preço normal da unidade neste ponto. Um reboque é meia unidade, e um equipamento fixado a uma máquina está incluído no preço tal como na lista de preços geral. Quando uma unidade foi transferida para a clientela, a clientela paga o preço da lista normal e a cobrança desta unidade termina na oficina, para que a mesma unidade não seja faturada duas vezes. A oficina pode incluir o serviço no próprio contrato de manutenção com a clientela. A frota própria da oficina é faturada segundo a lista de preços geral deste ponto, à parte de Korjaamon kumppaniohjelma. O imposto sobre o valor acrescentado é acrescentado à fatura à taxa em vigor. Estes preços do programa não aparecem na lista de preços geral."
         ]
       ],
       [
@@ -1678,7 +1738,7 @@ const TERMS_PAGE = {
     "metaTitle": "Condizioni d’uso | IQSoftCore",
     "metaDescription": "Condizioni di iqFleetSync e condizioni generali dei servizi IQSoftCore.",
     "title": "Condizioni d’uso",
-    "updated": "In vigore dal 9 ottobre 2026.",
+    "updated": "In vigore dal 20 ottobre 2026.",
     "translationNote": "Il testo finlandese è la versione ufficiale. Questa traduzione è un aiuto e non è stata rivista separatamente come testo giuridico.",
     "scope": "Queste sono le condizioni generali dei servizi IQSoftCore. Si applicano ai consumatori e ai clienti imprese. Se un prodotto ha condizioni proprie, si aggiungono. Un prezzo si addebita solo se è pubblicato o concordato a parte.",
     "privacyLink": "Privacy",
@@ -1746,7 +1806,13 @@ const TERMS_PAGE = {
           "Le unità vanno classificate correttamente. Un’attrezzatura è un accessorio fissato a una macchina e privo di motore proprio, per esempio una benna, un aratro o una gru. Una macchina che funziona da sola, per esempio un frantumatore, si aggiunge come macchina operatrice. Le unità classificate in modo errato possono essere fatturate retroattivamente secondo la classe corretta.",
           "Il prezzo del mese usa il numero più alto di unità di quel mese di calendario. Se si aggiunge attrezzatura durante il mese, il mese si fattura sul numero massimo. Un’unità archiviata non viene fatturata.",
           "Se la prova termina senza pagamento, l’account passa in sola lettura. Se la fattura di un cliente impresa è impagata 7 giorni dopo la scadenza, l’account resta in sola lettura fino al pagamento della fattura.",
-          "In sola lettura i dati salvati si possono vedere. Nuove segnalazioni e modifiche non si possono salvare. La sola lettura termina automaticamente quando il pagamento è stato fatto."
+          "In sola lettura i dati salvati si possono vedere. Nuove segnalazioni e modifiche non si possono salvare. La sola lettura termina automaticamente quando il pagamento è stato fatto.",
+          "iqFleetSync è un solo servizio. Il tipo di organizzazione è parco, officina o entrambi. Il tipo sceglie il menu predefinito. La stessa applicazione e la stessa etichetta QR valgono per ogni tipo.",
+          "Un’impresa di parco può condividere unità con un’officina partner. La condivisione può riguardare tutte le unità o unità scelte. Il proprietario sceglie le viste consentite. Un’officina di fiducia scansiona l’etichetta e apre l’unità direttamente. Una persona già entrata può leggere l’etichetta anche con il pulsante Scansiona QR nell’applicazione. Se quell’accesso c’è, l’unità si apre direttamente. Se l’accesso non c’è, si apre la vista ospite, e lì c’è Chiedi accesso. Un’officina non ancora di fiducia può chiedere l’accesso così, o scansionando l’etichetta nel proprio account. L’amministratore del proprietario approva o rifiuta la richiesta. Il proprietario può anche dare un accesso una tantum, per esempio per 24 ore o per un ordine di lavoro, e una vista ospite senza account. Il proprietario può revocare la condivisione in qualsiasi momento. Dopo, l’officina non vede più le unità condivise, ma le proprie righe di storico restano.",
+          "Un ordine di lavoro può essere assegnato a una sola officina partner. Solo quell’officina vede il lavoro. L’officina può aprire l’ordine di lavoro e segnarlo completato. La chiusura chiude i difetti collegati e aggiunge una riga allo storico del proprietario. Le ore non vengono copiate al proprietario. Una nota interna resta all’officina, e il proprietario non la vede.",
+          "Un’officina può gestire unità per clientela che non usa ancora iqFleetSync. Tale unità è gestita dall’officina. L’officina ha un registro clienti leggero: nome della clientela, Y-tunnus se c’è, persona di contatto, e-mail e telefono. L’officina può stampare etichette QR per queste unità e impostare promemoria di revisione. Un difetto si può segnalare dall’etichetta senza account.",
+          "Quando la clientela adotta iqFleetSync, l’officina invia un invito di trasferimento all’e-mail della clientela. La clientela accetta il trasferimento. Le unità, il loro storico e le etichette passano alla clientela. Se la clientela ha già la stessa targa o lo stesso numero di serie, le unità vengono unite, così la stessa unità non nasce due volte. Dopo il trasferimento l’officina resta un partner di fiducia. Le note interne restano all’officina.",
+          "Korjaamon kumppaniohjelma è il programma di partnership delle officine. La quota base è di 14,90 € al mese, IVA 0 %. Un numero illimitato di unità cliente condivise è compreso nella quota base. Le unità cliente condivise non sono addebitate all’officina. Le unità gestite dall’officina sono addebitate con uno sconto del 35 % sul prezzo unitario normale di questo punto. Un rimorchio è mezza unità, e un’attrezzatura fissata a una macchina è compresa nel prezzo come nel listino generale. Quando un’unità è stata trasferita alla clientela, la clientela paga il prezzo del listino normale e l’addebito di questa unità termina presso l’officina, così la stessa unità non è addebitata due volte. L’officina può includere il servizio nel proprio contratto di manutenzione con la clientela. Il parco proprio dell’officina è addebitato secondo il listino generale di questo punto, a parte da Korjaamon kumppaniohjelma. L’imposta sul valore aggiunto è aggiunta alla fattura con l’aliquota in vigore. Questi prezzi del programma non compaiono nel listino generale."
         ]
       ],
       [
@@ -1845,7 +1911,7 @@ const TERMS_PAGE = {
     "metaTitle": "Warunki korzystania | IQSoftCore",
     "metaDescription": "Warunki iqFleetSync i ogólne warunki usług IQSoftCore.",
     "title": "Warunki korzystania",
-    "updated": "Obowiązuje od 9 października 2026.",
+    "updated": "Obowiązuje od 20 października 2026.",
     "translationNote": "Tekst fiński jest wersją oficjalną. To tłumaczenie jest pomocą i nie zostało osobno sprawdzone jako tekst prawny.",
     "scope": "To są ogólne warunki usług IQSoftCore. Dotyczą konsumentów i klientów firmowych. Jeśli produkt ma własne warunki, obowiązują one dodatkowo. Cenę pobiera się tylko wtedy, gdy jest opublikowana albo osobno uzgodniona.",
     "privacyLink": "Prywatność",
@@ -1913,7 +1979,13 @@ const TERMS_PAGE = {
           "Jednostki należy klasyfikować prawidłowo. Osprzęt to dodatkowe narzędzie mocowane do maszyny, bez własnego silnika, na przykład łyżka, pług albo żuraw. Maszyna pracująca samodzielnie, na przykład kruszarka, jest dodawana jako maszyna robocza. Źle sklasyfikowane jednostki można zafakturować wstecz według właściwej klasy.",
           "Cena miesiąca wynika z największej liczby jednostek w tym miesiącu kalendarzowym. Jeśli sprzęt zostanie dodany w trakcie miesiąca, miesiąc jest liczony według liczby szczytowej. Zarchiwizowana jednostka nie jest rozliczana.",
           "Jeśli okres próbny kończy się bez płatności, konto jest tylko do odczytu. Jeśli faktura klienta firmowego jest niezapłacona 7 dni po terminie, konto pozostaje tylko do odczytu, aż faktura zostanie zapłacona.",
-          "W trybie tylko do odczytu zapisane dane można przeglądać. Nowych zgłoszeń i zmian nie można zapisać. Tryb tylko do odczytu kończy się automatycznie po dokonaniu płatności."
+          "W trybie tylko do odczytu zapisane dane można przeglądać. Nowych zgłoszeń i zmian nie można zapisać. Tryb tylko do odczytu kończy się automatycznie po dokonaniu płatności.",
+          "iqFleetSync to jedna usługa. Typ organizacji to flota, warsztat albo oba. Typ wybiera menu domyślne. Ta sama aplikacja i ta sama naklejka QR służą każdemu typowi.",
+          "Firma flotowa może udostępniać jednostki warsztatowi partnerskiemu. Udostępnienie może obejmować wszystkie jednostki albo wybrane. Właściciel wybiera dozwolone widoki. Zaufany warsztat skanuje naklejkę i otwiera jednostkę od razu. Zalogowana osoba może też odczytać naklejkę przyciskiem Skanuj QR w aplikacji. Jeśli to logowanie ma dostęp, jednostka otwiera się od razu. Jeśli dostępu nie ma, otwiera się widok gościa, a w nim jest Poproś o dostęp. Warsztat, który nie jest jeszcze zaufany, może poprosić o dostęp w ten sposób albo skanując naklejkę na własnym koncie. Administrator właściciela zatwierdza albo odrzuca prośbę. Właściciel może też dać dostęp jednorazowy, na przykład na 24 godziny albo na jedno zlecenie, oraz widok gościa bez konta. Właściciel może cofnąć udostępnienie w dowolnej chwili. Potem warsztat nie widzi już udostępnionych jednostek, ale jego własne wiersze historii zostają.",
+          "Zlecenie można przypisać jednemu warsztatowi partnerskiemu. Tylko ten warsztat widzi pracę. Warsztat może otworzyć zlecenie i oznaczyć je jako gotowe. Zamknięcie zamyka powiązane usterki i dodaje jeden wiersz do historii właściciela. Godziny nie są kopiowane do właściciela. Notatka wewnętrzna zostaje w warsztacie i właściciel jej nie widzi.",
+          "Warsztat może prowadzić jednostki dla klienta, który jeszcze nie używa iqFleetSync. Taka jednostka jest prowadzona przez warsztat. Warsztat ma lekki rejestr klientów: nazwa klienta, Y-tunnus jeśli jest, osoba kontaktowa, e-mail i telefon. Warsztat może drukować naklejki QR dla tych jednostek i ustawiać przypomnienia o przeglądach. Usterkę można zgłosić z naklejki bez konta.",
+          "Gdy klient zaczyna używać iqFleetSync, warsztat wysyła zaproszenie do przeniesienia na e-mail klienta. Klient przyjmuje przeniesienie. Jednostki, ich historia i naklejki przechodzą do klienta. Jeśli klient ma już ten sam numer rejestracyjny albo numer seryjny, jednostki są łączone, żeby ta sama jednostka nie powstała dwa razy. Po przeniesieniu warsztat zostaje zaufanym partnerem. Notatki wewnętrzne zostają w warsztacie.",
+          "Korjaamon kumppaniohjelma to program partnerski warsztatów. Opłata podstawowa wynosi 14,90 € miesięcznie, VAT 0 %. Nieograniczona liczba udostępnionych jednostek klientów jest w opłacie podstawowej. Udostępnione jednostki klientów nie są fakturowane warsztatowi. Jednostki prowadzone przez warsztat są fakturowane z rabatem 35 % od normalnej ceny jednostki z tego punktu. Przyczepa to pół jednostki, a osprzęt zamocowany do maszyny jest w cenie tak samo jak w ogólnym cenniku. Gdy jednostka przeszła do klienta, klient płaci cenę z normalnego cennika, a naliczenie tej jednostki u warsztatu się kończy, żeby ta sama jednostka nie była fakturowana dwa razy. Warsztat może włączyć usługę do własnej umowy serwisowej z klientem. Własna flota warsztatu jest fakturowana według ogólnego cennika z tego punktu, osobno od Korjaamon kumppaniohjelma. Podatek VAT jest doliczany do faktury według obowiązującej stawki. Tych cen programu nie ma w ogólnym cenniku."
         ]
       ],
       [
@@ -2012,7 +2084,7 @@ const TERMS_PAGE = {
     "metaTitle": "Podmínky použití | IQSoftCore",
     "metaDescription": "Podmínky iqFleetSync a obecné podmínky služeb IQSoftCore.",
     "title": "Podmínky použití",
-    "updated": "V platnosti od 9. 10. 2026.",
+    "updated": "V platnosti od 20. 10. 2026.",
     "translationNote": "Finský text je oficiální verze. Tento překlad je pomůcka a nebyl samostatně posouzen jako právní text.",
     "scope": "Toto jsou obecné podmínky služeb IQSoftCore. Platí pro spotřebitele i firemní zákazníky. Pokud má produkt vlastní podmínky, platí navíc. Cena se účtuje jen tehdy, když je zveřejněná nebo zvlášť dohodnutá.",
     "privacyLink": "Ochrana soukromí",
@@ -2080,7 +2152,13 @@ const TERMS_PAGE = {
           "Jednotky je třeba klasifikovat správně. Nástavba je přídavné zařízení upevněné ke stroji a bez vlastního motoru, například lopata, pluh nebo jeřáb. Samostatně pracující stroj, například drtič kamene, se přidává jako pracovní stroj. Špatně klasifikované jednotky lze vyúčtovat zpětně podle správné třídy.",
           "Měsíční cena vychází z nejvyššího počtu jednotek v daném kalendářním měsíci. Když se během měsíce přidá technika, měsíc se účtuje podle nejvyššího počtu. Archivovaná jednotka se neúčtuje.",
           "Když zkušební doba skončí bez platby, účet je jen pro čtení. Pokud je faktura firemního zákazníka nezaplacená 7 dní po splatnosti, účet zůstane jen pro čtení, dokud není faktura zaplacena.",
-          "V režimu jen pro čtení lze uložené údaje prohlížet. Nová hlášení a změny nelze uložit. Režim jen pro čtení skončí automaticky, jakmile je platba provedena."
+          "V režimu jen pro čtení lze uložené údaje prohlížet. Nová hlášení a změny nelze uložit. Režim jen pro čtení skončí automaticky, jakmile je platba provedena.",
+          "iqFleetSync je jedna služba. Typ organizace je vozový park, dílna, nebo obojí. Typ volí výchozí nabídku. Stejná aplikace a stejná QR nálepka platí pro každý typ.",
+          "Firma s vozovým parkem může sdílet jednotky s partnerskou dílnou. Sdílení může zahrnovat všechny jednotky nebo vybrané. Vlastník volí povolené pohledy. Důvěryhodná dílna naskenuje nálepku a otevře jednotku přímo. Přihlášená osoba může nálepku přečíst také tlačítkem Skenovat QR v aplikaci. Pokud toto přihlášení přístup má, jednotka se otevře přímo. Pokud přístup není, otevře se pohled hosta a v něm je Požádat o přístup. Dílna, která ještě není důvěryhodná, může o přístup požádat takto, nebo naskenováním nálepky na vlastním účtu. Správce vlastníka žádost schválí nebo odmítne. Vlastník může dát i jednorázový přístup, například na 24 hodin nebo na jednu zakázku, a pohled hosta bez účtu. Vlastník může sdílení kdykoli odvolat. Potom dílna sdílené jednotky už nevidí, ale její vlastní řádky historie zůstanou.",
+          "Zakázku lze přiřadit jedné partnerské dílně. Jen ta dílna práci vidí. Dílna může zakázku otevřít a označit ji jako hotovou. Uzavření zavře související závady a přidá jeden řádek do historie vlastníka. Hodiny se vlastníkovi nekopírují. Interní poznámka zůstane v dílně a vlastník ji nevidí.",
+          "Dílna může vést jednotky pro zákazníka, který iqFleetSync ještě nepoužívá. Taková jednotka je vedená dílnou. Dílna má lehký registr zákazníků: jméno zákazníka, Y-tunnus pokud je, kontaktní osoba, e-mail a telefon. Dílna může pro tyto jednotky tisknout QR nálepky a nastavit připomínky prohlídek. Závadu lze nahlásit z nálepky bez účtu.",
+          "Když zákazník začne iqFleetSync používat, dílna pošle pozvánku k převodu na e-mail zákazníka. Zákazník převod přijme. Jednotky, jejich historie a nálepky přejdou na zákazníka. Pokud zákazník už má stejnou registrační značku nebo výrobní číslo, jednotky se sloučí, aby stejná jednotka nevznikla dvakrát. Po převodu dílna zůstane důvěryhodným partnerem. Interní poznámky zůstanou v dílně.",
+          "Korjaamon kumppaniohjelma je partnerský program dílen. Základní poplatek je 14,90 € měsíčně, DPH 0 %. Neomezený počet sdílených zákaznických jednotek je v základním poplatku. Sdílené zákaznické jednotky se dílně nefakturují. Jednotky vedené dílnou se fakturují se slevou 35 % z běžné ceny jednotky v tomto bodě. Přívěs je půl jednotky a zařízení upevněné na stroji je v ceně stejně jako v obecném ceníku. Když jednotka přešla na zákazníka, zákazník platí cenu z běžného ceníku a účtování této jednotky u dílny končí, aby se stejná jednotka nefakturovala dvakrát. Dílna může službu zahrnout do vlastní smlouvy o údržbě se zákazníkem. Vlastní vozový park dílny se fakturuje podle obecného ceníku v tomto bodě, odděleně od Korjaamon kumppaniohjelma. Daň z přidané hodnoty se k faktuře přičte podle platné sazby. Tyto ceny programu se v obecném ceníku neukazují."
         ]
       ],
       [
@@ -2179,7 +2257,7 @@ const TERMS_PAGE = {
     "metaTitle": "利用規約 | IQSoftCore",
     "metaDescription": "iqFleetSyncの利用規約とIQSoftCoreのサービスの一般条件。",
     "title": "利用規約",
-    "updated": "2026年10月9日から有効です。",
+    "updated": "2026年10月20日から有効です。",
     "translationNote": "フィンランド語の本文が正式版です。この訳は理解のためのもので、法律文書として別に審査されたものではありません。",
     "scope": "これは IQSoftCore のサービスの一般条件です。消費者と事業者顧客の両方に適用されます。製品に独自の条件がある場合は、それも併せて適用されます。価格は、公表されているか別途合意された場合にだけ請求します。",
     "privacyLink": "プライバシー",
@@ -2247,7 +2325,13 @@ const TERMS_PAGE = {
           "単位は正しく分類しなければなりません。アタッチメントは、自前のエンジンを持たず機械に取り付ける追加装置です。例はバケット、プラウ、クレーンです。単独で動く機械（たとえば破砕機）は、作業機械として追加します。誤って分類された単位は、正しい区分に従って遡って請求できます。",
           "月額は、その暦月の最大単位数で計算します。月の途中で機材を増やすと、その月は最大数で請求します。 アーカイブした単位は請求しません。",
           "試用が終わり支払いがない場合、アカウントは閲覧専用になります。事業者顧客の請求書が支払期限の7日後も未払いのとき、請求が支払われるまでアカウントは閲覧専用のままです。",
-          "閲覧専用では保存済みのデータを見られます。新しい報告や変更は保存できません。閲覧専用は、支払いが完了すると自動的に解除されます。"
+          "閲覧専用では保存済みのデータを見られます。新しい報告や変更は保存できません。閲覧専用は、支払いが完了すると自動的に解除されます。",
+          "iqFleetSyncは一つのサービスです。組織の種類は車両、整備工場、またはその両方です。種類は初期メニューを選びます。同じアプリと同じQRシールがどの種類にも使えます。",
+          "車両を持つ会社は、提携整備工場とユニットを共有できます。共有はすべてのユニットでも、選んだユニットでもできます。所有者は許可する画面を選びます。信頼された整備工場はシールを読み、ユニットを直接開きます。ログイン済みの利用者は、アプリの「QRをスキャン」でもシールを読めます。そのログインにアクセスがあれば、ユニットは直接開きます。アクセスがなければゲスト画面が開き、そこには「アクセスを申請」があります。まだ信頼されていない整備工場は、この方法で、または自分のアカウントでシールをスキャンして、アクセスを申請できます。所有者の管理者が申請を承認または却下します。所有者は、24時間や一つの作業指示など、一度きりのアクセスと、アカウントなしのゲスト画面も渡せます。所有者は共有をいつでも取り消せます。取り消し後、整備工場は共有ユニットを見られなくなりますが、自らの履歴行は残ります。",
+          "作業指示は一つの提携整備工場に割り当てられます。その整備工場だけが作業を見ます。整備工場は作業指示を開き、完了にできます。完了は関連する不具合を閉じ、所有者の履歴に一行を追加します。時間は所有者にコピーされません。内部メモは整備工場に残り、所有者は見ません。",
+          "整備工場は、まだiqFleetSyncを使っていない顧客のユニットを管理できます。そのようなユニットは整備工場が管理します。整備工場には軽い顧客台帳があります。顧客名、あればY-tunnus、担当者、メール、電話です。整備工場はこれらのユニットにQRシールを印刷し、車検の通知を設定できます。不具合はアカウントなしでシールから報告できます。",
+          "顧客がiqFleetSyncを使い始めると、整備工場は顧客のメールに移管の招待を送ります。顧客が移管を承認します。ユニット、その履歴、シールは顧客に移ります。顧客に同じ登録番号または製造番号がすでにある場合、同じユニットが二つできないよう結合します。移管後も整備工場は信頼された提携先のままです。内部メモは整備工場に残ります。",
+          "Korjaamon kumppaniohjelmaは整備工場向けの提携プログラムです。基本料金は月14.90 €、消費税0 %です。共有された顧客ユニットは基本料金に無制限で含まれます。共有された顧客ユニットは整備工場に請求されません。整備工場が管理するユニットは、この条の通常のユニット価格から35 %引きで請求されます。トレーラーは半ユニットで、機械に取り付けた装置は一般価格表と同じく価格に含まれます。ユニットが顧客に移ったあと、顧客は通常の価格表の価格を支払い、このユニットの請求は整備工場で終わります。同じユニットを二重に請求しないためです。整備工場は、顧客との自社の保守契約にこのサービスを含められます。整備工場自身の車両は、Korjaamon kumppaniohjelmaとは別に、この条の一般価格表で請求されます。付加価値税は適用税率で請求書に加算されます。この提携プログラムの価格は一般価格表には表示されません。"
         ]
       ],
       [
@@ -2346,7 +2430,7 @@ const TERMS_PAGE = {
     "metaTitle": "이용약관 | IQSoftCore",
     "metaDescription": "iqFleetSync 이용약관과 IQSoftCore 서비스의 일반 약관.",
     "title": "이용약관",
-    "updated": "2026년 10월 9일부터 시행합니다.",
+    "updated": "2026년 10월 20일부터 시행합니다.",
     "translationNote": "핀란드어 본문이 공식 버전입니다. 이 번역은 이해를 돕기 위한 것이며 법률 문서로 따로 검토되지 않았습니다.",
     "scope": "이것은 IQSoftCore 서비스의 일반 약관입니다. 소비자와 사업자 고객 모두에게 적용됩니다. 제품에 자체 약관이 있으면 함께 적용됩니다. 가격은 공개되었거나 따로 합의된 경우에만 청구합니다.",
     "privacyLink": "개인정보",
@@ -2414,7 +2498,13 @@ const TERMS_PAGE = {
           "단위는 올바르게 분류해야 합니다. 어태치먼트는 자체 엔진 없이 기계에 장착하는 추가 장치입니다. 버킷, 쟁기, 크레인이 그 예입니다. 스스로 작동하는 기계, 예를 들어 암석 파쇄기는 작업기계로 추가합니다. 잘못 분류된 단위는 올바른 구분에 따라 소급하여 청구할 수 있습니다.",
           "월 요금은 그 달의 최대 단위 수를 기준으로 합니다. 달 중에 장비를 늘리면 그 달은 최대 수로 청구합니다. 보관 처리한 단위는 청구하지 않습니다.",
           "체험이 끝나고 결제가 없으면 계정은 읽기 전용이 됩니다. 사업자 고객의 청구서가 지급 기한 7일 뒤에도 미납이면 청구서가 결제될 때까지 계정은 읽기 전용으로 남습니다.",
-          "읽기 전용에서는 저장된 데이터를 볼 수 있습니다. 새 보고와 변경은 저장할 수 없습니다. 읽기 전용은 결제가 되면 자동으로 해제됩니다."
+          "읽기 전용에서는 저장된 데이터를 볼 수 있습니다. 새 보고와 변경은 저장할 수 없습니다. 읽기 전용은 결제가 되면 자동으로 해제됩니다.",
+          "iqFleetSync는 하나의 서비스입니다. 조직 유형은 차량, 정비소, 또는 둘 다입니다. 유형이 기본 메뉴를 고릅니다. 같은 앱과 같은 QR 스티커가 모든 유형에 쓰입니다.",
+          "차량 회사는 파트너 정비소와 단위를 공유할 수 있습니다. 공유는 모든 단위이거나 고른 단위일 수 있습니다. 소유자가 허용할 화면을 고릅니다. 신뢰된 정비소는 스티커를 읽고 단위를 바로 엽니다. 로그인한 사용자는 앱의 QR 스캔 버튼으로도 스티커를 읽을 수 있습니다. 그 로그인에 접근이 있으면 단위가 바로 열립니다. 접근이 없으면 손님 화면이 열리고, 거기에 접근 요청이 있습니다. 아직 신뢰되지 않은 정비소는 이 방법으로, 또는 자기 계정에서 스티커를 스캔해 접근을 요청할 수 있습니다. 소유자의 관리자가 요청을 승인하거나 거절합니다. 소유자는 24시간 또는 작업 지시 하나 같은 한시 접근과, 계정 없는 손님 화면도 줄 수 있습니다. 소유자는 공유를 언제든 취소할 수 있습니다. 취소 후 정비소는 공유 단위를 더 이상 보지 못하지만, 자신의 이력 행은 남습니다.",
+          "작업 지시는 파트너 정비소 하나에 지정할 수 있습니다. 그 정비소만 작업을 봅니다. 정비소는 작업 지시를 열고 완료로 표시할 수 있습니다. 완료는 연결된 고장을 닫고 소유자 이력에 한 줄을 더합니다. 시간은 소유자에게 복사되지 않습니다. 내부 메모는 정비소에 남고 소유자는 보지 못합니다.",
+          "정비소는 아직 iqFleetSync를 쓰지 않는 고객의 단위를 관리할 수 있습니다. 그런 단위는 정비소가 관리합니다. 정비소에는 가벼운 고객 대장이 있습니다. 고객 이름, Y-tunnus가 있으면 그 번호, 담당자, 이메일, 전화입니다. 정비소는 이 단위에 QR 스티커를 인쇄하고 검사 알림을 둘 수 있습니다. 고장은 계정 없이 스티커에서 신고할 수 있습니다.",
+          "고객이 iqFleetSync를 쓰기 시작하면 정비소는 고객 이메일로 이전 초대를 보냅니다. 고객이 이전을 수락합니다. 단위, 이력, 스티커가 고객에게 넘어갑니다. 고객에게 같은 등록번호나 제조번호가 이미 있으면 같은 단위가 둘이 되지 않도록 합칩니다. 이전 후에도 정비소는 신뢰된 파트너로 남습니다. 내부 메모는 정비소에 남습니다.",
+          "Korjaamon kumppaniohjelma는 정비소 파트너 프로그램입니다. 기본 요금은 월 14.90 €, 부가세 0 %입니다. 공유된 고객 단위는 기본 요금에 무제한으로 포함됩니다. 공유된 고객 단위는 정비소에 청구되지 않습니다. 정비소가 관리하는 단위는 이 조의 일반 단위 가격에서 35 % 할인되어 청구됩니다. 트레일러는 반 단위이고, 기계에 붙은 장치는 일반 가격표와 같이 가격에 포함됩니다. 단위가 고객에게 넘어가면 고객이 일반 가격표의 가격을 내고, 이 단위의 청구는 정비소에서 끝납니다. 같은 단위를 두 번 청구하지 않기 위해서입니다. 정비소는 고객과의 자체 정비 계약에 서비스를 넣을 수 있습니다. 정비소 자신의 차량은 Korjaamon kumppaniohjelma와 따로, 이 조의 일반 가격표로 청구됩니다. 부가가치세는 적용 세율로 청구서에 더합니다. 이 프로그램 가격은 일반 가격표에 표시되지 않습니다."
         ]
       ],
       [
@@ -2513,7 +2603,7 @@ const TERMS_PAGE = {
     "metaTitle": "使用条款 | IQSoftCore",
     "metaDescription": "iqFleetSync 使用条款以及 IQSoftCore 服务的一般条款。",
     "title": "使用条款",
-    "updated": "自2026年10月9日起生效。",
+    "updated": "自2026年10月20日起生效。",
     "translationNote": "芬兰语文本是正式版本。本译文便于阅读，并未另行作为法律文本审查。",
     "scope": "这是 IQSoftCore 服务的一般条款。适用于消费者和企业客户。如果某项产品另有条款，则一并适用。只有价格已经公布或另行约定时才收费。",
     "privacyLink": "隐私",
@@ -2581,7 +2671,13 @@ const TERMS_PAGE = {
           "单位必须正确分类。属具是安装在机械上、自身没有发动机的附加装置，例如铲斗、犁或起重机。可独立运转的机械，例如破碎机，须作为工程机械添加。分类错误的单位可按正确类别追溯计费。",
           "月费按该自然月的最高单位数计算。如果月中增加设备，该月按最高数量计费。 已归档的单位不计费。",
           "如果试用结束且没有付款，账户变为只读。如果企业客户的账单在到期日后 7 天仍未支付，账户保持只读，直到账单付清。",
-          "只读状态下可以查看已保存的数据。不能保存新的填报和修改。付款完成后，只读自动解除。"
+          "只读状态下可以查看已保存的数据。不能保存新的填报和修改。付款完成后，只读自动解除。",
+          "iqFleetSync是一项服务。组织类型为车队、维修厂或两者。类型决定默认菜单。同一应用和同一张QR贴标适用于每种类型。",
+          "车队企业可以把设备单元分享给合作维修厂。分享可以是全部单元或选定单元。所有方选择允许的视图。受信任的维修厂扫描贴标后直接打开单元。已登录的用户也可以用应用里的“扫描 QR”读取贴标。如果该登录已有权限，单元直接打开。如果没有权限，则打开访客视图，其中有“申请访问”。尚未受信任的维修厂可以这样申请访问，或在自己的账户中扫描贴标。所有方的管理员批准或拒绝申请。所有方也可以给予一次性访问，例如24小时或一个工单，以及无账户的访客视图。所有方可以随时撤销分享。撤销后，维修厂不再看到分享的单元，但它自己的历史记录仍保留。",
+          "工单可以指派给一家合作维修厂。只有该维修厂看到这项工作。维修厂可以打开工单并标记完成。完成会关闭相关故障，并在所有方的历史中增加一行。工时不复制给所有方。内部备注留在维修厂，所有方看不到。",
+          "维修厂可以为尚未使用iqFleetSync的客户管理单元。这样的单元由维修厂管理。维修厂有一份简要客户登记：客户名称、如有则填写Y-tunnus、联系人、电子邮件和电话。维修厂可以为这些单元打印QR贴标并设置检验提醒。故障可以从贴标上报，无需账户。",
+          "客户开始使用iqFleetSync时，维修厂向客户电子邮件发送转移邀请。客户接受转移。单元、其历史和贴标转给客户。如果客户已有相同登记号或出厂编号，单元会合并，以免同一单元出现两次。转移后维修厂仍是受信任的合作方。内部备注留在维修厂。",
+          "Korjaamon kumppaniohjelma是维修厂合作计划。基础费为每月14.90 €，增值税0 %。不限数量的已分享客户单元包含在基础费中。已分享的客户单元不向维修厂计费。维修厂管理的单元按本条正常单元价格的35 %折扣计费。挂车为半个单元，安装在机器上的装置与总价目表一样包含在价格中。单元转移给客户后，客户按正常价目表付款，该单元在维修厂的计费结束，以免同一单元被计费两次。维修厂可以把服务写入与客户自己的维护合同。维修厂自有车队按本条总价目表计费，与Korjaamon kumppaniohjelma分开。增值税按现行税率加到账单上。这些合作计划价格不显示在总价目表中。"
         ]
       ],
       [
@@ -2672,6 +2768,525 @@ const TERMS_PAGE = {
         "17. 著作权与知识产权",
         [
           "软件、内容、说明视频和标志归 IqSoftCore 所有。客户获得的是使用权，而不是所有权。客户自己的数据仍归客户所有。"
+        ]
+      ]
+    ]
+  },
+  "et": {
+    "metaTitle": "Kasutustingimused | IQSoftCore",
+    "metaDescription": "iqFleetSynci kasutustingimused ja IQSoftCore’i teenuste üldtingimused.",
+    "title": "Kasutustingimused",
+    "updated": "Kehtib alates 20.10.2026.",
+    "translationNote": "Ametlik tekst on soome keeles. See tõlge on abiks ega ole eraldi õigusliku tekstina üle vaadatud.",
+    "scope": "Need on IQSoftCore’i teenuste üldtingimused. Need kehtivad tarbijatele ja äriklientidele. Kui tootel on oma tingimused, kehtivad need lisaks. Hinda küsitakse ainult siis, kui see on avaldatud või eraldi kokku lepitud.",
+    "privacyLink": "Andmekaitse",
+    "pricing": "Hinnakiri",
+    "product": "iqFleetSync",
+    "home": "Avaleht",
+    "sections": [
+      [
+        "1. Parties and the provider",
+        [
+          "The provider is the Finnish sole trader toiminimi IqSoftCore, Finland.",
+          "Business ID (Y-tunnus): 3658340-4",
+          "Address: Siihtalantie 56, 62710 Kurejoki, Finland.",
+          "A customer may be a private consumer or a business customer. A consumer is a natural person who makes the contract mainly outside their trade. A business customer is a company or other organisation. Contact: info@iqsoftcore.fi and +358 45 133 4009."
+        ]
+      ],
+      [
+        "2. Who these terms cover",
+        [
+          "Sections 1–5 and 9–17 apply to every customer.",
+          "Sections 6 and 7 apply only to business customers and to iqFleetSync. Section 8 applies only to consumers.",
+          "If mandatory consumer protection is more favourable to the consumer, it applies. A term that would limit such a right does not bind the consumer."
+        ]
+      ],
+      [
+        "3. Services",
+        [
+          "IQSoftCore builds software and applications and does electronics design. A private consumer can buy applications and other products.",
+          "iqFleetSync is a business service only. A consumer cannot open an iqFleetSync account."
+        ]
+      ],
+      [
+        "4. Prices and VAT",
+        [
+          "A price shown to a consumer includes VAT. iqWorkLog™ (formerly Tuntilappu) is a free download and includes a 14-day trial. After that, continued use is a one-time in-app purchase via Google Play. The app store's payment service receives the payment. If a price is published for iqRallyNote, it is shown including VAT.",
+          "iqFleetSync prices are for business customers and are VAT 0%. Value added tax is added on the invoice at the rate in force. The current [[pricing]] page is part of these terms.",
+          "For a business customer in another EU country with a valid VAT ID, the invoice uses reverse charge where it applies.",
+          "When a consumer buys from another EU country, VAT is charged at the rate of the customer’s country where the law requires it."
+        ]
+      ],
+      [
+        "5. Payment",
+        [
+          "Paid use is paid by card through Stripe. The invoice is monthly, in arrears.",
+          "An invoice is due 14 days after the invoice date. If a business customer’s payment is late, the provider may charge late-payment interest under the Finnish Interest Act (korkolaki) and reasonable collection costs.",
+          "If a business customer’s invoice is unpaid 7 days after the due date, the account goes to read-only mode. Saved data can be viewed, and new data cannot be saved. Read-only mode ends automatically when the payment is made.",
+          "The due date and the late-payment term above apply to a business customer. A consumer pays, at the time of purchase, the price the service shows. The business due date and late-payment term are not applied to a consumer in a way that would weaken mandatory consumer rights."
+        ]
+      ],
+      [
+        "6. iqFleetSync (business customers only)",
+        [
+          "Opening an iqFleetSync account requires a Finnish business ID (Y-tunnus).",
+          "iqFleetSync is a web service for fleet maintenance at fleetsync.iqsoftcore.fi. Each customer company’s data is kept separate from other customers.",
+          "iqFleetSync runs in the browser on a phone or a computer. Drivers, maintenance and admins do not install an app. A QR sticker identifies the unit and does not log anyone in. Stickers can be printed from the service. Scanning with the phone camera opens the unit and adds it to the driver’s own units. The admin sees who used a unit and when.",
+          "An admin invites a person with an email link. Sign-in is then fingerprint or face (passkey). A 6-digit email code is the fallback. A shared vehicle phone can have an optional 4-digit PIN, which the admin can view. A phone number is only an optional contact field. An admin sees costs, billing, people and the audit log. Maintenance handles units, QR stickers, reports, defects and work orders, but not costs, billing or people. A driver sees only assigned units and units added by scanning, files defect reports and km or hour readings, and sees only the progress of their own defects. Costs and prices are hidden from the driver. Reports can include trailer sub-reports and photos. A defect can be marked not roadworthy. Maintenance acknowledges it, marks it in progress and marks it fixed, and the driver is notified in the app. The service has work orders, maintenance history, cost lines for the admin, service plans and deadlines by kilometres, hours or date, and reminders by email or in the app. A unit can be archived and a person can be edited or removed, and the history is kept.",
+          "The customer names an administrator who opens the account and manages users. The administrator decides who gets access and what rights they have.",
+          "The customer is responsible for what their users do in the service. A personal email code, invite link, and passkey are personal and must not be shared. The PIN on a shared phone belongs to that person. The customer is responsible for having the right to store the data they enter.",
+          "A new customer can try iqFleetSync free for 30 days.",
+          "The trial can be stopped at any time before it ends. That does not create a charge. During the trial the service is used under these terms.",
+          "These prices are for business customers and are VAT 0%. Value added tax is added on the invoice at the rate in force.",
+          "The base fee is 10.00 € per month per customer company. A vehicle, for example a truck, is one full unit. A work machine, for example an excavator or a wheel loader, is also one full unit. Vehicles and work machines fill the price tiers together. Vehicles are counted first, then work machines.",
+          "The price is graduated. The first 15 units are 1.50 €, units 16–50 are 1.30 €, units 51–100 are 1.10 €, and units above 100 are 0.90 € each.",
+          "A trailer is half a unit in the tier it falls into. It costs half the vehicle price of that tier: 0.75 €, 0.65 €, 0.55 €, or 0.45 €. An attachment, such as a tiltrotator, a hydraulic breaker, or a sweeper, costs 0.00 € and is not counted as a unit. Users are unlimited and are not charged.",
+          "Units must be classified correctly. An attachment is an implement fixed to a machine and without its own engine, for example a bucket, a plough, or a crane. A machine that operates on its own, such as a rock crusher, is added as a work machine. Units classified incorrectly may be billed retroactively according to the correct class.",
+          "The monthly price uses the highest unit count in that calendar month. If equipment is added during the month, the month is billed at the peak count. An archived unit is not billed.",
+          "If the trial ends and no payment has been made, the account becomes read-only. If a business customer’s invoice is unpaid 7 days after the due date, the account stays read-only until the invoice is paid.",
+          "In read-only mode the saved data can still be viewed. New reports and changes cannot be saved. Read-only mode ends automatically when the payment is made.",
+          "iqFleetSync on üks teenus. Organisatsiooni tüüp on masinapark, töökoda või mõlemad. Tüüp valib vaikemenüü. Sama rakendus ja sama QR-kleebis sobivad igale tüübile.",
+          "Masinapargi ettevõte saab üksusi partneri töökojaga jagada. Jagamine võib hõlmata kõiki üksusi või valitud üksusi. Omanik valib lubatud vaated. Usaldusväärne töökoda skannib kleebise ja avab üksuse otse. Sisse logitud kasutaja saab kleebist lugeda ka rakenduse nupuga Skanni QR. Kui sellel sisselogimisel on ligipääs, avaneb üksus otse. Kui ligipääsu ei ole, avaneb külalisvaade, kus on Küsi ligipääsu. Töökoda, mida veel ei usaldata, saab ligipääsu küsida sel viisil või kleebist oma kontol skannides. Omaniku haldur kinnitab või lükkab taotluse tagasi. Omanik võib anda ka ühekordse ligipääsu, näiteks 24 tunniks või üheks töökäsuks, ja külalisvaate ilma kontota. Omanik võib jagamise igal ajal tühistada. Pärast tühistamist ei näe töökoda enam jagatud üksusi, kuid tema enda ajalooread jäävad alles.",
+          "Töökäsu saab suunata ühele partneri töökojale. Ainult see töökoda näeb tööd. Töökoda saab töökäsu avada ja valmis märkida. Valmis märkimine sulgeb seotud rikked ja lisab ühe rea omaniku ajalukku. Tunde omanikule ei kopeerita. Sisemine märkus jääb töökojale ja omanik seda ei näe.",
+          "Töökoda saab hallata üksusi kliendile, kes iqFleetSynci veel ei kasuta. Selline üksus on töökoja hallatav. Töökojal on kerge kliendiregister: kliendi nimi, Soome Y-tunnus kui see on, kontaktisik, e-post ja telefon. Töökoda saab nendele üksustele trükkida QR-kleebised ja seada neile ülevaatuse meeldetuletused. Rikket saab kleebiselt teatada ilma kontota.",
+          "Kui klient võtab iqFleetSynci kasutusele, saadab töökoda üleviimise kutse kliendi e-postile. Klient kinnitab üleviimise. Üksused, nende ajalugu ja kleebised lähevad kliendile. Kui kliendil on juba sama registreerimisnumber või valmistenumbrid, ühendatakse üksused, et sama üksust ei tekiks kaks. Pärast üleviimist jääb töökoda usaldusväärseks partneriks. Sisemised märkused jäävad töökojale.",
+          "Korjaamon kumppaniohjelma on töökodade partnerprogramm. Selle põhitasu on 14,90 € kuus, käibemaks 0 %. Piiramatu arv jagatud kliendiüksusi sisaldub põhitasus. Jagatud kliendiüksuste eest töökojale arvet ei esitata. Töökoja hallatavad üksused arveldatakse 35 % soodustusega selle punkti tavapärasest üksuse hinnast. Haagis on pool üksust ja masina külge kinnitatud seade sisaldub hinnas samamoodi nagu üldises hinnakirjas. Kui üksus on kliendile üle läinud, maksab klient tavalise hinnakirja hinna ja selle üksuse arveldus töökojal lõpeb, et sama üksust ei arveldataks kaks korda. Töökoda võib teenuse lisada oma hoolduslepingusse kliendiga. Töökoja enda masinapark arveldatakse selle punkti üldise hinnakirja järgi, Korjaamon kumppaniohjelmast eraldi. Käibemaks lisatakse arvele kehtiva määra järgi. Neid partnerprogrammi hindu üldises hinnakirjas ei näidata."
+        ]
+      ],
+      [
+        "7. Cancellation and liability (business customers only)",
+        [
+          "This section applies only to business customers. It does not apply to a consumer, and it does not limit the consumer’s mandatory rights.",
+          "[[prominent]]iqFleetSync is only a record-keeping, reminder and reporting tool. The customer is solely responsible for the roadworthiness of vehicles and machines, for the quality of maintenance, for inspections, for legal obligations, and for decisions about using a vehicle. IqSoftCore is not liable for damage, accidents, or breakdowns of vehicles or machines. This includes a case where a reminder was missed, data was entered incorrectly, or a driver used a vehicle that was not roadworthy. This clause does not affect consumer rights.",
+          "The business customer cancels the paid service themselves in the app at Tilaus ja laskutus → Irtisano palvelu (Subscription and billing → Cancel the service), or by email to info@iqsoftcore.fi. Cancellation takes effect at the end of the billing period that has already started. A month that has already been billed is not refunded, unless mandatory law requires a refund.",
+          "Stopping the trial does not cost anything. Once cancellation has taken effect, the business customer’s data is kept for 90 days so the customer can view and export it. After that the data is deleted automatically. Only the invoicing data that bookkeeping law requires is kept.",
+          "The provider may end the customer’s use if the customer materially breaches these terms and does not fix it after a written notice. If the whole service is discontinued, that is announced in advance when possible.",
+          "To the extent Finnish mandatory law allows it, the provider is not liable for indirect damage, lost profit, or lost data.",
+          "Liability for direct damage is limited to the fees the customer has paid for that service during the 12 months before the damage. If no fees have been paid, that cap is 0 €.",
+          "The limit does not apply to damage caused intentionally or by gross negligence, or to any other liability that cannot be limited by law."
+        ]
+      ],
+      [
+        "8. Consumers",
+        [
+          "Mandatory Finnish and EU consumer protection applies to a consumer. A conflicting term gives way.",
+          "The liability cap in section 7, the rule that a period already billed is not refunded, and the clause that iqFleetSync is only a record-keeping, reminder and reporting tool do not limit consumer rights.",
+          "In a distance sale, the consumer has a 14-day right of withdrawal for a digital service or digital content. The time runs from the day the contract is made.",
+          "The right of withdrawal ends if, during the withdrawal period, the consumer expressly asks for delivery or performance to start and at the same time acknowledges that they lose the right once supply of the digital content has begun or once the digital service has been fully performed.",
+          "Until then, the consumer can withdraw with a clear notice, for example by email to info@iqsoftcore.fi. The provider refunds the payment received within 14 days of the notice, to the extent the law requires a refund.",
+          "The consumer can bring a dispute to the Finnish Consumer Disputes Board, Kuluttajariitalautakunta (www.kuluttajariita.fi). The EU online dispute resolution platform closed on 20 July 2025 under Regulation (EU) 2024/3228, so there is no link to it. A list of dispute resolution bodies is at https://consumer-redress.ec.europa.eu/dispute-resolution-bodies.",
+          "A consumer who lives in another EU country does not lose the mandatory protection of their home country."
+        ]
+      ],
+      [
+        "9. Customer data",
+        [
+          "Fleet, maintenance, and user data that the customer stores in the service belongs to the customer.",
+          "The provider does not sell this data. It is used to provide the service, to bill, to keep the service secure, and to meet duties required by law.",
+          "The customer can ask for an export of their data by emailing info@iqsoftcore.fi. The data is delivered in a common machine-readable format once the request has been handled.",
+          "A business customer’s data is kept for 90 days after cancellation. During that time the business customer can export the data, including by asking for an export at info@iqsoftcore.fi. After 90 days the data is deleted automatically. After that, only the invoicing data that bookkeeping law requires is kept.",
+          "A consumer’s data is handled so that mandatory consumer protection and data protection are followed. A consumer can ask for an export or deletion of their data at info@iqsoftcore.fi."
+        ]
+      ],
+      [
+        "10. Privacy",
+        [
+          "Processing of personal data is described on the [[privacy]] page.",
+          "When the provider processes personal data for the customer, the provider is the processor and the customer is the controller, unless the roles are agreed otherwise. The provider is the controller of its own account and billing data. Data that may be processed includes a user’s name and email, an optional phone number used only as a contact field, a login code sent by email, a passkey identifier, and data the customer stores if it contains personal data. The phone number is not used to sign in."
+        ]
+      ],
+      [
+        "11. Availability and maintenance",
+        [
+          "The service is kept available with reasonable effort. Uninterrupted use is not promised.",
+          "Maintenance, an update, a fault, or the network may cause a break. A planned longer break is announced in advance in the service or by email when that is possible. The service is provided as it is."
+        ]
+      ],
+      [
+        "12. Acceptable use",
+        [
+          "An IQSoftCore service may be used only for a lawful purpose.",
+          "The service may be used to record fleet maintenance data and to manage that data.",
+          "The service may not be used unlawfully, to spread malware, to disrupt the service, to access another customer’s data, or to bypass access rights. The provider may limit use if these terms are seriously breached."
+        ]
+      ],
+      [
+        "13. Changes to the terms and prices",
+        [
+          "The provider may change these terms and the prices. A change is announced in the service or by email at least 30 days before it takes effect.",
+          "If the customer does not accept a change, they can stop use before the change takes effect. If a business customer continues to use the service after the change, they accept the updated terms. A consumer’s silence or continued use does not remove a mandatory consumer right. A price change does not affect a period that has already been billed."
+        ]
+      ],
+      [
+        "14. Force majeure",
+        [
+          "The provider is not liable for a delay or interruption caused by force majeure. That includes, for example, war, a strike, a power or network outage, an order by an authority, or another obstacle that cannot reasonably be avoided.",
+          "The obstacle and its end are announced when that is possible."
+        ]
+      ],
+      [
+        "15. Governing law",
+        [
+          "Finnish law applies to these terms. The parties try to settle a disagreement together first.",
+          "A business customer’s dispute is heard by the district court of the provider’s domicile in Finland, unless mandatory law places it elsewhere. How a consumer dispute is handled is set out in section 8."
+        ]
+      ],
+      [
+        "16. Contact",
+        [
+          "toiminimi IqSoftCore, Y-tunnus 3658340-4, Siihtalantie 56, 62710 Kurejoki, Finland. info@iqsoftcore.fi, +358 45 133 4009."
+        ]
+      ],
+      [
+        "17. Copyright and intellectual property",
+        [
+          "The software, content, how-to videos, and logos are the property of IqSoftCore. The customer receives a right to use them, not ownership. The customer’s own data remains the customer’s property."
+        ]
+      ]
+    ]
+  },
+  "lv": {
+    "metaTitle": "Lietošanas noteikumi | IQSoftCore",
+    "metaDescription": "iqFleetSync lietošanas noteikumi un IQSoftCore pakalpojumu vispārīgie noteikumi.",
+    "title": "Lietošanas noteikumi",
+    "updated": "Spēkā no 2026. gada 20. oktobra.",
+    "translationNote": "Oficiālais teksts ir somu valodā. Šis tulkojums ir ērtībai un nav atsevišķi pārskatīts kā juridisks teksts.",
+    "scope": "Šie ir IQSoftCore pakalpojumu vispārīgie noteikumi. Tie attiecas uz patērētājiem un uzņēmumu klientiem. Ja produktam ir savi noteikumi, tie ir spēkā papildus. Cenu iekasē tikai tad, ja tā ir publicēta vai atsevišķi norunāta.",
+    "privacyLink": "Privātums",
+    "pricing": "Cenrādis",
+    "product": "iqFleetSync",
+    "home": "Sākums",
+    "sections": [
+      [
+        "1. Parties and the provider",
+        [
+          "The provider is the Finnish sole trader toiminimi IqSoftCore, Finland.",
+          "Business ID (Y-tunnus): 3658340-4",
+          "Address: Siihtalantie 56, 62710 Kurejoki, Finland.",
+          "A customer may be a private consumer or a business customer. A consumer is a natural person who makes the contract mainly outside their trade. A business customer is a company or other organisation. Contact: info@iqsoftcore.fi and +358 45 133 4009."
+        ]
+      ],
+      [
+        "2. Who these terms cover",
+        [
+          "Sections 1–5 and 9–17 apply to every customer.",
+          "Sections 6 and 7 apply only to business customers and to iqFleetSync. Section 8 applies only to consumers.",
+          "If mandatory consumer protection is more favourable to the consumer, it applies. A term that would limit such a right does not bind the consumer."
+        ]
+      ],
+      [
+        "3. Services",
+        [
+          "IQSoftCore builds software and applications and does electronics design. A private consumer can buy applications and other products.",
+          "iqFleetSync is a business service only. A consumer cannot open an iqFleetSync account."
+        ]
+      ],
+      [
+        "4. Prices and VAT",
+        [
+          "A price shown to a consumer includes VAT. iqWorkLog™ (formerly Tuntilappu) is a free download and includes a 14-day trial. After that, continued use is a one-time in-app purchase via Google Play. The app store's payment service receives the payment. If a price is published for iqRallyNote, it is shown including VAT.",
+          "iqFleetSync prices are for business customers and are VAT 0%. Value added tax is added on the invoice at the rate in force. The current [[pricing]] page is part of these terms.",
+          "For a business customer in another EU country with a valid VAT ID, the invoice uses reverse charge where it applies.",
+          "When a consumer buys from another EU country, VAT is charged at the rate of the customer’s country where the law requires it."
+        ]
+      ],
+      [
+        "5. Payment",
+        [
+          "Paid use is paid by card through Stripe. The invoice is monthly, in arrears.",
+          "An invoice is due 14 days after the invoice date. If a business customer’s payment is late, the provider may charge late-payment interest under the Finnish Interest Act (korkolaki) and reasonable collection costs.",
+          "If a business customer’s invoice is unpaid 7 days after the due date, the account goes to read-only mode. Saved data can be viewed, and new data cannot be saved. Read-only mode ends automatically when the payment is made.",
+          "The due date and the late-payment term above apply to a business customer. A consumer pays, at the time of purchase, the price the service shows. The business due date and late-payment term are not applied to a consumer in a way that would weaken mandatory consumer rights."
+        ]
+      ],
+      [
+        "6. iqFleetSync (business customers only)",
+        [
+          "Opening an iqFleetSync account requires a Finnish business ID (Y-tunnus).",
+          "iqFleetSync is a web service for fleet maintenance at fleetsync.iqsoftcore.fi. Each customer company’s data is kept separate from other customers.",
+          "iqFleetSync runs in the browser on a phone or a computer. Drivers, maintenance and admins do not install an app. A QR sticker identifies the unit and does not log anyone in. Stickers can be printed from the service. Scanning with the phone camera opens the unit and adds it to the driver’s own units. The admin sees who used a unit and when.",
+          "An admin invites a person with an email link. Sign-in is then fingerprint or face (passkey). A 6-digit email code is the fallback. A shared vehicle phone can have an optional 4-digit PIN, which the admin can view. A phone number is only an optional contact field. An admin sees costs, billing, people and the audit log. Maintenance handles units, QR stickers, reports, defects and work orders, but not costs, billing or people. A driver sees only assigned units and units added by scanning, files defect reports and km or hour readings, and sees only the progress of their own defects. Costs and prices are hidden from the driver. Reports can include trailer sub-reports and photos. A defect can be marked not roadworthy. Maintenance acknowledges it, marks it in progress and marks it fixed, and the driver is notified in the app. The service has work orders, maintenance history, cost lines for the admin, service plans and deadlines by kilometres, hours or date, and reminders by email or in the app. A unit can be archived and a person can be edited or removed, and the history is kept.",
+          "The customer names an administrator who opens the account and manages users. The administrator decides who gets access and what rights they have.",
+          "The customer is responsible for what their users do in the service. A personal email code, invite link, and passkey are personal and must not be shared. The PIN on a shared phone belongs to that person. The customer is responsible for having the right to store the data they enter.",
+          "A new customer can try iqFleetSync free for 30 days.",
+          "The trial can be stopped at any time before it ends. That does not create a charge. During the trial the service is used under these terms.",
+          "These prices are for business customers and are VAT 0%. Value added tax is added on the invoice at the rate in force.",
+          "The base fee is 10.00 € per month per customer company. A vehicle, for example a truck, is one full unit. A work machine, for example an excavator or a wheel loader, is also one full unit. Vehicles and work machines fill the price tiers together. Vehicles are counted first, then work machines.",
+          "The price is graduated. The first 15 units are 1.50 €, units 16–50 are 1.30 €, units 51–100 are 1.10 €, and units above 100 are 0.90 € each.",
+          "A trailer is half a unit in the tier it falls into. It costs half the vehicle price of that tier: 0.75 €, 0.65 €, 0.55 €, or 0.45 €. An attachment, such as a tiltrotator, a hydraulic breaker, or a sweeper, costs 0.00 € and is not counted as a unit. Users are unlimited and are not charged.",
+          "Units must be classified correctly. An attachment is an implement fixed to a machine and without its own engine, for example a bucket, a plough, or a crane. A machine that operates on its own, such as a rock crusher, is added as a work machine. Units classified incorrectly may be billed retroactively according to the correct class.",
+          "The monthly price uses the highest unit count in that calendar month. If equipment is added during the month, the month is billed at the peak count. An archived unit is not billed.",
+          "If the trial ends and no payment has been made, the account becomes read-only. If a business customer’s invoice is unpaid 7 days after the due date, the account stays read-only until the invoice is paid.",
+          "In read-only mode the saved data can still be viewed. New reports and changes cannot be saved. Read-only mode ends automatically when the payment is made.",
+          "iqFleetSync ir viens pakalpojums. Organizācijas tips ir autoparks, darbnīca vai abi. Tips izvēlas noklusējuma izvēlni. Tā pati lietotne un tā pati QR uzlīme der katram tipam.",
+          "Autoparka uzņēmums var dalīties ar vienībām ar partnera darbnīcu. Dalīšanās var attiekties uz visām vienībām vai izvēlētām vienībām. Īpašnieks izvēlas atļautos skatus. Uzticama darbnīca noskenē uzlīmi un atver vienību uzreiz. Pieteicies lietotājs var uzlīmi nolasīt arī ar pogu Skenēt QR lietotnē. Ja šai pieteikšanai ir piekļuve, vienība atveras uzreiz. Ja piekļuves nav, atveras viesa skats, un tur ir Pieprasīt piekļuvi. Darbnīca, kas vēl nav uzticama, var pieprasīt piekļuvi šādi vai skenējot uzlīmi savā kontā. Īpašnieka administrators apstiprina vai noraida pieprasījumu. Īpašnieks var dot arī vienreizēju piekļuvi, piemēram, uz 24 stundām vai vienam darba uzdevumam, un viesa skatu bez konta. Īpašnieks var atsaukt dalīšanos jebkurā laikā. Pēc atsaukšanas darbnīca vairs neredz kopīgotās vienības, bet darbnīcas pašas vēstures rindas paliek.",
+          "Darba uzdevumu var piešķirt vienai partnera darbnīcai. Tikai šī darbnīca redz darbu. Darbnīca var atvērt darba uzdevumu un atzīmēt to kā pabeigtu. Pabeigšana aizver saistītos defektus un pievieno vienu rindu īpašnieka vēsturē. Stundas īpašniekam netiek kopētas. Iekšēja piezīme paliek darbnīcā, un īpašnieks to neredz.",
+          "Darbnīca var vest vienības klientam, kas vēl nelieto iqFleetSync. Tāda vienība ir darbnīcas pārvaldīta. Darbnīcai ir viegls klientu reģistrs: klienta nosaukums, Y-tunnus, ja tas ir, kontaktpersona, e-pasts un tālrunis. Darbnīca var šīm vienībām izdrukāt QR uzlīmes un iestatīt apskašu atgādinājumus. Defektu var paziņot no uzlīmes bez konta.",
+          "Kad klients sāk lietot iqFleetSync, darbnīca nosūta pārcelšanas ielūgumu uz klienta e-pastu. Klients pieņem pārcelšanu. Vienības, to vēsture un uzlīmes pāriet klientam. Ja klientam jau ir tas pats reģistrācijas numurs vai sērijas numurs, vienības apvieno, lai tā pati vienība nerastos divreiz. Pēc pārcelšanas darbnīca paliek uzticams partneris. Iekšējās piezīmes paliek darbnīcā.",
+          "Korjaamon kumppaniohjelma ir darbnīcu partnerprogramma. Tās pamatmaksa ir 14,90 € mēnesī, PVN 0 %. Neierobežots skaits kopīgotu klienta vienību ir iekļauts pamatmaksā. Kopīgotas klienta vienības darbnīcai netiek rēķinātas. Darbnīcas pārvaldītās vienības rēķina ar 35 % atlaidi no parastās vienības cenas šajā punktā. Piekabe ir puse vienības, un mašīnai piestiprināta iekārta ir iekļauta cenā tāpat kā vispārējā cenrādī. Kad vienība ir pārgājusi klientam, klients maksā parastā cenrāža cenu un šīs vienības aprēķins darbnīcā beidzas, lai tā pati vienība netiktu rēķināta divreiz. Darbnīca var iekļaut pakalpojumu savā apkopes līgumā ar klientu. Darbnīcas paša autoparks tiek rēķināts pēc šī punkta vispārējā cenrāža, atsevišķi no Korjaamon kumppaniohjelma. Pievienotās vērtības nodoklis tiek pieskaitīts rēķinam pēc spēkā esošās likmes. Šīs partnerprogrammas cenas vispārējā cenrādī netiek rādītas."
+        ]
+      ],
+      [
+        "7. Cancellation and liability (business customers only)",
+        [
+          "This section applies only to business customers. It does not apply to a consumer, and it does not limit the consumer’s mandatory rights.",
+          "[[prominent]]iqFleetSync is only a record-keeping, reminder and reporting tool. The customer is solely responsible for the roadworthiness of vehicles and machines, for the quality of maintenance, for inspections, for legal obligations, and for decisions about using a vehicle. IqSoftCore is not liable for damage, accidents, or breakdowns of vehicles or machines. This includes a case where a reminder was missed, data was entered incorrectly, or a driver used a vehicle that was not roadworthy. This clause does not affect consumer rights.",
+          "The business customer cancels the paid service themselves in the app at Tilaus ja laskutus → Irtisano palvelu (Subscription and billing → Cancel the service), or by email to info@iqsoftcore.fi. Cancellation takes effect at the end of the billing period that has already started. A month that has already been billed is not refunded, unless mandatory law requires a refund.",
+          "Stopping the trial does not cost anything. Once cancellation has taken effect, the business customer’s data is kept for 90 days so the customer can view and export it. After that the data is deleted automatically. Only the invoicing data that bookkeeping law requires is kept.",
+          "The provider may end the customer’s use if the customer materially breaches these terms and does not fix it after a written notice. If the whole service is discontinued, that is announced in advance when possible.",
+          "To the extent Finnish mandatory law allows it, the provider is not liable for indirect damage, lost profit, or lost data.",
+          "Liability for direct damage is limited to the fees the customer has paid for that service during the 12 months before the damage. If no fees have been paid, that cap is 0 €.",
+          "The limit does not apply to damage caused intentionally or by gross negligence, or to any other liability that cannot be limited by law."
+        ]
+      ],
+      [
+        "8. Consumers",
+        [
+          "Mandatory Finnish and EU consumer protection applies to a consumer. A conflicting term gives way.",
+          "The liability cap in section 7, the rule that a period already billed is not refunded, and the clause that iqFleetSync is only a record-keeping, reminder and reporting tool do not limit consumer rights.",
+          "In a distance sale, the consumer has a 14-day right of withdrawal for a digital service or digital content. The time runs from the day the contract is made.",
+          "The right of withdrawal ends if, during the withdrawal period, the consumer expressly asks for delivery or performance to start and at the same time acknowledges that they lose the right once supply of the digital content has begun or once the digital service has been fully performed.",
+          "Until then, the consumer can withdraw with a clear notice, for example by email to info@iqsoftcore.fi. The provider refunds the payment received within 14 days of the notice, to the extent the law requires a refund.",
+          "The consumer can bring a dispute to the Finnish Consumer Disputes Board, Kuluttajariitalautakunta (www.kuluttajariita.fi). The EU online dispute resolution platform closed on 20 July 2025 under Regulation (EU) 2024/3228, so there is no link to it. A list of dispute resolution bodies is at https://consumer-redress.ec.europa.eu/dispute-resolution-bodies.",
+          "A consumer who lives in another EU country does not lose the mandatory protection of their home country."
+        ]
+      ],
+      [
+        "9. Customer data",
+        [
+          "Fleet, maintenance, and user data that the customer stores in the service belongs to the customer.",
+          "The provider does not sell this data. It is used to provide the service, to bill, to keep the service secure, and to meet duties required by law.",
+          "The customer can ask for an export of their data by emailing info@iqsoftcore.fi. The data is delivered in a common machine-readable format once the request has been handled.",
+          "A business customer’s data is kept for 90 days after cancellation. During that time the business customer can export the data, including by asking for an export at info@iqsoftcore.fi. After 90 days the data is deleted automatically. After that, only the invoicing data that bookkeeping law requires is kept.",
+          "A consumer’s data is handled so that mandatory consumer protection and data protection are followed. A consumer can ask for an export or deletion of their data at info@iqsoftcore.fi."
+        ]
+      ],
+      [
+        "10. Privacy",
+        [
+          "Processing of personal data is described on the [[privacy]] page.",
+          "When the provider processes personal data for the customer, the provider is the processor and the customer is the controller, unless the roles are agreed otherwise. The provider is the controller of its own account and billing data. Data that may be processed includes a user’s name and email, an optional phone number used only as a contact field, a login code sent by email, a passkey identifier, and data the customer stores if it contains personal data. The phone number is not used to sign in."
+        ]
+      ],
+      [
+        "11. Availability and maintenance",
+        [
+          "The service is kept available with reasonable effort. Uninterrupted use is not promised.",
+          "Maintenance, an update, a fault, or the network may cause a break. A planned longer break is announced in advance in the service or by email when that is possible. The service is provided as it is."
+        ]
+      ],
+      [
+        "12. Acceptable use",
+        [
+          "An IQSoftCore service may be used only for a lawful purpose.",
+          "The service may be used to record fleet maintenance data and to manage that data.",
+          "The service may not be used unlawfully, to spread malware, to disrupt the service, to access another customer’s data, or to bypass access rights. The provider may limit use if these terms are seriously breached."
+        ]
+      ],
+      [
+        "13. Changes to the terms and prices",
+        [
+          "The provider may change these terms and the prices. A change is announced in the service or by email at least 30 days before it takes effect.",
+          "If the customer does not accept a change, they can stop use before the change takes effect. If a business customer continues to use the service after the change, they accept the updated terms. A consumer’s silence or continued use does not remove a mandatory consumer right. A price change does not affect a period that has already been billed."
+        ]
+      ],
+      [
+        "14. Force majeure",
+        [
+          "The provider is not liable for a delay or interruption caused by force majeure. That includes, for example, war, a strike, a power or network outage, an order by an authority, or another obstacle that cannot reasonably be avoided.",
+          "The obstacle and its end are announced when that is possible."
+        ]
+      ],
+      [
+        "15. Governing law",
+        [
+          "Finnish law applies to these terms. The parties try to settle a disagreement together first.",
+          "A business customer’s dispute is heard by the district court of the provider’s domicile in Finland, unless mandatory law places it elsewhere. How a consumer dispute is handled is set out in section 8."
+        ]
+      ],
+      [
+        "16. Contact",
+        [
+          "toiminimi IqSoftCore, Y-tunnus 3658340-4, Siihtalantie 56, 62710 Kurejoki, Finland. info@iqsoftcore.fi, +358 45 133 4009."
+        ]
+      ],
+      [
+        "17. Copyright and intellectual property",
+        [
+          "The software, content, how-to videos, and logos are the property of IqSoftCore. The customer receives a right to use them, not ownership. The customer’s own data remains the customer’s property."
+        ]
+      ]
+    ]
+  },
+  "lt": {
+    "metaTitle": "Naudojimo sąlygos | IQSoftCore",
+    "metaDescription": "iqFleetSync naudojimo sąlygos ir IQSoftCore paslaugų bendrosios sąlygos.",
+    "title": "Naudojimo sąlygos",
+    "updated": "Galioja nuo 2026-10-20.",
+    "translationNote": "Oficialus tekstas yra suomių kalba. Šis vertimas yra patogumui ir nėra atskirai peržiūrėtas kaip teisinis tekstas.",
+    "scope": "Tai IQSoftCore paslaugų bendrosios sąlygos. Jos taikomos vartotojams ir verslo klientams. Jei produktas turi savo sąlygas, jos taikomos papildomai. Kaina imama tik tada, kai ji paskelbta arba atskirai sutarta.",
+    "privacyLink": "Privatumas",
+    "pricing": "Kainynas",
+    "product": "iqFleetSync",
+    "home": "Pradžia",
+    "sections": [
+      [
+        "1. Parties and the provider",
+        [
+          "The provider is the Finnish sole trader toiminimi IqSoftCore, Finland.",
+          "Business ID (Y-tunnus): 3658340-4",
+          "Address: Siihtalantie 56, 62710 Kurejoki, Finland.",
+          "A customer may be a private consumer or a business customer. A consumer is a natural person who makes the contract mainly outside their trade. A business customer is a company or other organisation. Contact: info@iqsoftcore.fi and +358 45 133 4009."
+        ]
+      ],
+      [
+        "2. Who these terms cover",
+        [
+          "Sections 1–5 and 9–17 apply to every customer.",
+          "Sections 6 and 7 apply only to business customers and to iqFleetSync. Section 8 applies only to consumers.",
+          "If mandatory consumer protection is more favourable to the consumer, it applies. A term that would limit such a right does not bind the consumer."
+        ]
+      ],
+      [
+        "3. Services",
+        [
+          "IQSoftCore builds software and applications and does electronics design. A private consumer can buy applications and other products.",
+          "iqFleetSync is a business service only. A consumer cannot open an iqFleetSync account."
+        ]
+      ],
+      [
+        "4. Prices and VAT",
+        [
+          "A price shown to a consumer includes VAT. iqWorkLog™ (formerly Tuntilappu) is a free download and includes a 14-day trial. After that, continued use is a one-time in-app purchase via Google Play. The app store's payment service receives the payment. If a price is published for iqRallyNote, it is shown including VAT.",
+          "iqFleetSync prices are for business customers and are VAT 0%. Value added tax is added on the invoice at the rate in force. The current [[pricing]] page is part of these terms.",
+          "For a business customer in another EU country with a valid VAT ID, the invoice uses reverse charge where it applies.",
+          "When a consumer buys from another EU country, VAT is charged at the rate of the customer’s country where the law requires it."
+        ]
+      ],
+      [
+        "5. Payment",
+        [
+          "Paid use is paid by card through Stripe. The invoice is monthly, in arrears.",
+          "An invoice is due 14 days after the invoice date. If a business customer’s payment is late, the provider may charge late-payment interest under the Finnish Interest Act (korkolaki) and reasonable collection costs.",
+          "If a business customer’s invoice is unpaid 7 days after the due date, the account goes to read-only mode. Saved data can be viewed, and new data cannot be saved. Read-only mode ends automatically when the payment is made.",
+          "The due date and the late-payment term above apply to a business customer. A consumer pays, at the time of purchase, the price the service shows. The business due date and late-payment term are not applied to a consumer in a way that would weaken mandatory consumer rights."
+        ]
+      ],
+      [
+        "6. iqFleetSync (business customers only)",
+        [
+          "Opening an iqFleetSync account requires a Finnish business ID (Y-tunnus).",
+          "iqFleetSync is a web service for fleet maintenance at fleetsync.iqsoftcore.fi. Each customer company’s data is kept separate from other customers.",
+          "iqFleetSync runs in the browser on a phone or a computer. Drivers, maintenance and admins do not install an app. A QR sticker identifies the unit and does not log anyone in. Stickers can be printed from the service. Scanning with the phone camera opens the unit and adds it to the driver’s own units. The admin sees who used a unit and when.",
+          "An admin invites a person with an email link. Sign-in is then fingerprint or face (passkey). A 6-digit email code is the fallback. A shared vehicle phone can have an optional 4-digit PIN, which the admin can view. A phone number is only an optional contact field. An admin sees costs, billing, people and the audit log. Maintenance handles units, QR stickers, reports, defects and work orders, but not costs, billing or people. A driver sees only assigned units and units added by scanning, files defect reports and km or hour readings, and sees only the progress of their own defects. Costs and prices are hidden from the driver. Reports can include trailer sub-reports and photos. A defect can be marked not roadworthy. Maintenance acknowledges it, marks it in progress and marks it fixed, and the driver is notified in the app. The service has work orders, maintenance history, cost lines for the admin, service plans and deadlines by kilometres, hours or date, and reminders by email or in the app. A unit can be archived and a person can be edited or removed, and the history is kept.",
+          "The customer names an administrator who opens the account and manages users. The administrator decides who gets access and what rights they have.",
+          "The customer is responsible for what their users do in the service. A personal email code, invite link, and passkey are personal and must not be shared. The PIN on a shared phone belongs to that person. The customer is responsible for having the right to store the data they enter.",
+          "A new customer can try iqFleetSync free for 30 days.",
+          "The trial can be stopped at any time before it ends. That does not create a charge. During the trial the service is used under these terms.",
+          "These prices are for business customers and are VAT 0%. Value added tax is added on the invoice at the rate in force.",
+          "The base fee is 10.00 € per month per customer company. A vehicle, for example a truck, is one full unit. A work machine, for example an excavator or a wheel loader, is also one full unit. Vehicles and work machines fill the price tiers together. Vehicles are counted first, then work machines.",
+          "The price is graduated. The first 15 units are 1.50 €, units 16–50 are 1.30 €, units 51–100 are 1.10 €, and units above 100 are 0.90 € each.",
+          "A trailer is half a unit in the tier it falls into. It costs half the vehicle price of that tier: 0.75 €, 0.65 €, 0.55 €, or 0.45 €. An attachment, such as a tiltrotator, a hydraulic breaker, or a sweeper, costs 0.00 € and is not counted as a unit. Users are unlimited and are not charged.",
+          "Units must be classified correctly. An attachment is an implement fixed to a machine and without its own engine, for example a bucket, a plough, or a crane. A machine that operates on its own, such as a rock crusher, is added as a work machine. Units classified incorrectly may be billed retroactively according to the correct class.",
+          "The monthly price uses the highest unit count in that calendar month. If equipment is added during the month, the month is billed at the peak count. An archived unit is not billed.",
+          "If the trial ends and no payment has been made, the account becomes read-only. If a business customer’s invoice is unpaid 7 days after the due date, the account stays read-only until the invoice is paid.",
+          "In read-only mode the saved data can still be viewed. New reports and changes cannot be saved. Read-only mode ends automatically when the payment is made.",
+          "iqFleetSync yra viena paslauga. Organizacijos tipas yra parkas, dirbtuvės arba abu. Tipas parenka numatytąjį meniu. Ta pati programa ir tas pats QR lipdukas tinka kiekvienam tipui.",
+          "Parko įmonė gali dalytis vienetais su partnerio dirbtuvėmis. Dalijimasis gali apimti visus vienetus arba pasirinktus. Savininkas pasirenka leidžiamus rodinius. Patikimos dirbtuvės nuskaito lipduką ir atidaro vienetą iš karto. Prisijungęs naudotojas lipduką gali perskaityti ir programos mygtuku Skenuoti QR. Jei šis prisijungimas turi prieigą, vienetas atsidaro iš karto. Jei prieigos nėra, atsidaro svečio rodinys, kuriame yra Prašyti prieigos. Dirbtuvės, kurios dar nėra patikimos, gali prašyti prieigos šiuo būdu arba nuskaitydamos lipduką savo paskyroje. Savininko administratorius prašymą patvirtina arba atmeta. Savininkas gali duoti ir vienkartinę prieigą, pavyzdžiui 24 valandoms arba vienam darbo užsakymui, ir svečio rodinį be paskyros. Savininkas dalijimąsi gali atšaukti bet kada. Po atšaukimo dirbtuvės bendrų vienetų nebemato, bet jų pačių istorijos eilutės lieka.",
+          "Darbo užsakymą galima priskirti vienoms partnerio dirbtuvėms. Tik tos dirbtuvės mato darbą. Dirbtuvės gali atidaryti darbo užsakymą ir pažymėti jį baigtu. Užbaigimas uždaro susijusius gedimus ir prideda vieną eilutę savininko istorijoje. Valandos savininkui nekopijuojamos. Vidinė pastaba lieka dirbtuvėse ir savininkas jos nemato.",
+          "Dirbtuvės gali vesti vienetus klientui, kuris iqFleetSync dar nenaudoja. Toks vienetas yra dirbtuvių valdomas. Dirbtuvės turi lengvą klientų registrą: kliento pavadinimas, Y-tunnus jei yra, kontaktinis asmuo, el. paštas ir telefonas. Dirbtuvės gali šiems vienetams spausdinti QR lipdukus ir nustatyti apžiūrų priminimus. Gedimą galima pranešti nuo lipduko be paskyros.",
+          "Kai klientas pradeda naudoti iqFleetSync, dirbtuvės išsiunčia perkėlimo kvietimą kliento el. paštu. Klientas perkėlimą priima. Vienetai, jų istorija ir lipdukai pereina klientui. Jei klientas jau turi tą patį registracijos numerį arba gamyklinį numerį, vienetai sujungiami, kad tas pats vienetas neatsirastų du kartus. Po perkėlimo dirbtuvės lieka patikimu partneriu. Vidinės pastabos lieka dirbtuvėse.",
+          "Korjaamon kumppaniohjelma yra dirbtuvių partnerystės programa. Jos bazinis mokestis yra 14,90 € per mėnesį, PVM 0 %. Neribotas bendrų kliento vienetų skaičius įeina į bazinį mokestį. Bendri kliento vienetai dirbtuvėms sąskaitoje nerašomi. Dirbtuvių valdomi vienetai sąskaitoje rašomi su 35 % nuolaida nuo įprastos vieneto kainos šiame punkte. Priekaba yra pusė vieneto, o prie mašinos pritvirtinta įranga įeina į kainą taip pat kaip bendrame kainyne. Kai vienetas perėjo klientui, klientas moka įprasto kainyno kainą ir sąskaita už šį vienetą dirbtuvėms baigiasi, kad tas pats vienetas nebūtų įrašytas du kartus. Dirbtuvės gali įtraukti paslaugą į savo priežiūros sutartį su klientu. Pačių dirbtuvių parkas sąskaitoje rašomas pagal šio punkto bendrą kainyną, atskirai nuo Korjaamon kumppaniohjelma. Pridėtinės vertės mokestis pridedamas prie sąskaitos pagal galiojantį tarifą. Šių programos kainų bendrame kainyne nėra."
+        ]
+      ],
+      [
+        "7. Cancellation and liability (business customers only)",
+        [
+          "This section applies only to business customers. It does not apply to a consumer, and it does not limit the consumer’s mandatory rights.",
+          "[[prominent]]iqFleetSync is only a record-keeping, reminder and reporting tool. The customer is solely responsible for the roadworthiness of vehicles and machines, for the quality of maintenance, for inspections, for legal obligations, and for decisions about using a vehicle. IqSoftCore is not liable for damage, accidents, or breakdowns of vehicles or machines. This includes a case where a reminder was missed, data was entered incorrectly, or a driver used a vehicle that was not roadworthy. This clause does not affect consumer rights.",
+          "The business customer cancels the paid service themselves in the app at Tilaus ja laskutus → Irtisano palvelu (Subscription and billing → Cancel the service), or by email to info@iqsoftcore.fi. Cancellation takes effect at the end of the billing period that has already started. A month that has already been billed is not refunded, unless mandatory law requires a refund.",
+          "Stopping the trial does not cost anything. Once cancellation has taken effect, the business customer’s data is kept for 90 days so the customer can view and export it. After that the data is deleted automatically. Only the invoicing data that bookkeeping law requires is kept.",
+          "The provider may end the customer’s use if the customer materially breaches these terms and does not fix it after a written notice. If the whole service is discontinued, that is announced in advance when possible.",
+          "To the extent Finnish mandatory law allows it, the provider is not liable for indirect damage, lost profit, or lost data.",
+          "Liability for direct damage is limited to the fees the customer has paid for that service during the 12 months before the damage. If no fees have been paid, that cap is 0 €.",
+          "The limit does not apply to damage caused intentionally or by gross negligence, or to any other liability that cannot be limited by law."
+        ]
+      ],
+      [
+        "8. Consumers",
+        [
+          "Mandatory Finnish and EU consumer protection applies to a consumer. A conflicting term gives way.",
+          "The liability cap in section 7, the rule that a period already billed is not refunded, and the clause that iqFleetSync is only a record-keeping, reminder and reporting tool do not limit consumer rights.",
+          "In a distance sale, the consumer has a 14-day right of withdrawal for a digital service or digital content. The time runs from the day the contract is made.",
+          "The right of withdrawal ends if, during the withdrawal period, the consumer expressly asks for delivery or performance to start and at the same time acknowledges that they lose the right once supply of the digital content has begun or once the digital service has been fully performed.",
+          "Until then, the consumer can withdraw with a clear notice, for example by email to info@iqsoftcore.fi. The provider refunds the payment received within 14 days of the notice, to the extent the law requires a refund.",
+          "The consumer can bring a dispute to the Finnish Consumer Disputes Board, Kuluttajariitalautakunta (www.kuluttajariita.fi). The EU online dispute resolution platform closed on 20 July 2025 under Regulation (EU) 2024/3228, so there is no link to it. A list of dispute resolution bodies is at https://consumer-redress.ec.europa.eu/dispute-resolution-bodies.",
+          "A consumer who lives in another EU country does not lose the mandatory protection of their home country."
+        ]
+      ],
+      [
+        "9. Customer data",
+        [
+          "Fleet, maintenance, and user data that the customer stores in the service belongs to the customer.",
+          "The provider does not sell this data. It is used to provide the service, to bill, to keep the service secure, and to meet duties required by law.",
+          "The customer can ask for an export of their data by emailing info@iqsoftcore.fi. The data is delivered in a common machine-readable format once the request has been handled.",
+          "A business customer’s data is kept for 90 days after cancellation. During that time the business customer can export the data, including by asking for an export at info@iqsoftcore.fi. After 90 days the data is deleted automatically. After that, only the invoicing data that bookkeeping law requires is kept.",
+          "A consumer’s data is handled so that mandatory consumer protection and data protection are followed. A consumer can ask for an export or deletion of their data at info@iqsoftcore.fi."
+        ]
+      ],
+      [
+        "10. Privacy",
+        [
+          "Processing of personal data is described on the [[privacy]] page.",
+          "When the provider processes personal data for the customer, the provider is the processor and the customer is the controller, unless the roles are agreed otherwise. The provider is the controller of its own account and billing data. Data that may be processed includes a user’s name and email, an optional phone number used only as a contact field, a login code sent by email, a passkey identifier, and data the customer stores if it contains personal data. The phone number is not used to sign in."
+        ]
+      ],
+      [
+        "11. Availability and maintenance",
+        [
+          "The service is kept available with reasonable effort. Uninterrupted use is not promised.",
+          "Maintenance, an update, a fault, or the network may cause a break. A planned longer break is announced in advance in the service or by email when that is possible. The service is provided as it is."
+        ]
+      ],
+      [
+        "12. Acceptable use",
+        [
+          "An IQSoftCore service may be used only for a lawful purpose.",
+          "The service may be used to record fleet maintenance data and to manage that data.",
+          "The service may not be used unlawfully, to spread malware, to disrupt the service, to access another customer’s data, or to bypass access rights. The provider may limit use if these terms are seriously breached."
+        ]
+      ],
+      [
+        "13. Changes to the terms and prices",
+        [
+          "The provider may change these terms and the prices. A change is announced in the service or by email at least 30 days before it takes effect.",
+          "If the customer does not accept a change, they can stop use before the change takes effect. If a business customer continues to use the service after the change, they accept the updated terms. A consumer’s silence or continued use does not remove a mandatory consumer right. A price change does not affect a period that has already been billed."
+        ]
+      ],
+      [
+        "14. Force majeure",
+        [
+          "The provider is not liable for a delay or interruption caused by force majeure. That includes, for example, war, a strike, a power or network outage, an order by an authority, or another obstacle that cannot reasonably be avoided.",
+          "The obstacle and its end are announced when that is possible."
+        ]
+      ],
+      [
+        "15. Governing law",
+        [
+          "Finnish law applies to these terms. The parties try to settle a disagreement together first.",
+          "A business customer’s dispute is heard by the district court of the provider’s domicile in Finland, unless mandatory law places it elsewhere. How a consumer dispute is handled is set out in section 8."
+        ]
+      ],
+      [
+        "16. Contact",
+        [
+          "toiminimi IqSoftCore, Y-tunnus 3658340-4, Siihtalantie 56, 62710 Kurejoki, Finland. info@iqsoftcore.fi, +358 45 133 4009."
+        ]
+      ],
+      [
+        "17. Copyright and intellectual property",
+        [
+          "The software, content, how-to videos, and logos are the property of IqSoftCore. The customer receives a right to use them, not ownership. The customer’s own data remains the customer’s property."
         ]
       ]
     ]

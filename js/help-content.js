@@ -199,6 +199,7 @@ function renderHelpCenter(lang) {
     </div>
     <p>${escapeHelpHtml(page.lead)}</p>
     <div class="help-list">${cards}</div>
+    ${typeof workshopGuidesHtml === "function" ? workshopGuidesHtml(lang) : ""}
     <p class="policy-nav">
       <a class="btn btn-ghost" href="iqfleetsync.html">${escapeHelpHtml(page.back)}</a>
       <a class="btn btn-ghost" href="apps.html">${escapeHelpHtml(page.apps)}</a>
