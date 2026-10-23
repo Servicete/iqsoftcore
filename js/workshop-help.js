@@ -999,6 +999,13 @@ function workshopGuidesHtml(lang) {
     const afterWork = articles.findIndex((article) => article.id === "work-orders");
     articles.splice(afterWork === -1 ? articles.length : afterWork + 1, 0, parts);
   }
+  const stock = typeof WORKSHOP_STOCK_HELP !== "undefined"
+    ? (WORKSHOP_STOCK_HELP[lang] || WORKSHOP_STOCK_HELP.en)
+    : null;
+  if (stock) {
+    const afterParts = articles.findIndex((article) => article.id === "partner-parts");
+    articles.splice(afterParts === -1 ? articles.length : afterParts + 1, 0, stock);
+  }
   const cards = articles.map(workshopGuideCard).join("");
   return `<h2 id="workshop-guides">${escapeHelpHtml(guide.heading)}</h2>
     <p>${escapeHelpHtml(guide.intro)}</p>
@@ -1274,6 +1281,164 @@ const WORKSHOP_PARTS_HELP = {
       "Při dokončení práce se Použité díly vybírají z vlastního skladu dílny. Díly se odečtou ze skladu dílny. Stav nemůže klesnout pod nulu. Pokud dílů není dost, požádejte správce o doplnění skladu.",
       "Díly se zobrazí v servisní historii zákazníka s názvem, číslem dílu a množstvím. Řádek ukazuje, že práci provedla dílna.",
       "Pokud se práce znovu otevře, díly se vrátí do skladu dílny.",
+    ],
+  },
+};
+
+/** Barcode stock in and stock out. Purchase price is an administrator field only. */
+const WORKSHOP_STOCK_HELP = {
+  fi: {
+    id: "stock-in-out",
+    title: "Varastoon otto ja varastosta otto",
+    paragraphs: [
+      "iqFleetSync™ osavarastossa on kaksi suurta painiketta.",
+      "Skannaa · Varastoon otto on ylläpitäjälle. Korjaamon ylläpitäjä kirjaa sillä korjaamon omaan varastoon. Kamera lukee osan viivakoodin tai toimittajan tuotekoodin, tai koodin voi kirjoittaa. Jos koodi ei vastaa osaa, ylläpitäjä luo osan tai liittää koodin olemassa olevaan osaan.",
+      "Määrä on valmiiksi 1. Kirjoita hyllypaikka. Ostohinta sekä huomio tai viite ovat valinnaisia. Tallenna kirjaa liikkeen: suunta sisään, määrä, henkilö ja aika.",
+      "Skannaa · Varastosta otto on myös huoltohenkilölle. Kirjoita määrä. Voit valita koneen tai avoimen työmääräimen. Saldo vähenee eikä laske alle nollan. Jos saldo ei riitä, teksti on: Varastossa vain N kpl. Pyydä ylläpitäjää kirjaamaan osat varastoon.",
+      "Jos kone tai työmääräin on valittu, osa kirjautuu samoin kuin käytetty osa. Tallenna pysyy harmaana, kunnes osa on valittu ja määrä on suurempi kuin nolla. Ylläpitäjä suodattaa osan liikkeet suunnan ja päivämäärän mukaan.",
+    ],
+  },
+  sv: {
+    id: "stock-in-out",
+    title: "In i lager och ut ur lager",
+    paragraphs: [
+      "Delagret i iqFleetSync™ har två stora knappar.",
+      "Skanna · In i lager är för administratören. En administratör på verkstaden använder den för verkstadens eget lager. Kameran läser delens streckkod eller en leverantörs produktkod, eller så kan koden skrivas. Om koden inte motsvarar någon del skapar administratören delen eller kopplar koden till en befintlig del.",
+      "Antalet är 1 från början. Skriv hyllplats. Inköpspris samt anmärkning eller referens är valfria. Spara bokför rörelsen: riktning in, antal, person och tid.",
+      "Skanna · Ut ur lager är också för underhållspersonen. Skriv antalet. Du kan välja en maskin eller en öppen arbetsorder. Saldot minskar och går inte under noll. Om saldot inte räcker är texten: I lager bara N st. Be administratören att bokföra delarna i lagret.",
+      "Om en maskin eller en arbetsorder har valts bokförs delen på samma sätt som en använd del. Spara förblir grå tills en del har valts och antalet är större än noll. Administratören filtrerar en dels rörelser efter riktning och datum.",
+    ],
+  },
+  no: {
+    id: "stock-in-out",
+    title: "Inn på lager og ut av lager",
+    paragraphs: [
+      "Delelageret i iqFleetSync™ har to store knapper.",
+      "Skann · Inn på lager er for administratoren. En administrator på verkstedet bruker den for verkstedets eget lager. Kameraet leser delens strekkode eller en leverandørs produktkode, eller koden kan skrives. Hvis koden ikke svarer til en del, oppretter administratoren delen eller knytter koden til en eksisterende del.",
+      "Antallet står på 1. Skriv hylleplass. Innkjøpspris samt merknad eller referanse er valgfrie. Lagre bokfører bevegelsen: retning inn, antall, person og tid.",
+      "Skann · Ut av lager er også for vedlikeholdspersonen. Skriv antallet. Du kan velge en maskin eller en åpen arbeidsordre. Saldoen synker og går ikke under null. Hvis saldoen ikke strekker til, er teksten: På lager bare N stk. Be administratoren om å bokføre delene på lager.",
+      "Hvis en maskin eller en arbeidsordre er valgt, føres delen på samme måte som en brukt del. Lagre forblir grå til en del er valgt og antallet er større enn null. Administratoren filtrerer bevegelsene til en del etter retning og dato.",
+    ],
+  },
+  da: {
+    id: "stock-in-out",
+    title: "Ind på lager og ud af lager",
+    paragraphs: [
+      "Delelageret i iqFleetSync™ har to store knapper.",
+      "Scan · Ind på lager er for administratoren. En administrator på værkstedet bruger den til værkstedets eget lager. Kameraet læser delens stregkode eller en leverandørs produktkode, eller koden kan skrives. Hvis koden ikke svarer til en del, opretter administratoren delen eller knytter koden til en eksisterende del.",
+      "Antallet står på 1. Skriv hyldeplads. Indkøbspris samt bemærkning eller reference er valgfrie. Gem bogfører bevægelsen: retning ind, antal, person og tid.",
+      "Scan · Ud af lager er også for vedligeholdelsespersonen. Skriv antallet. Du kan vælge en maskine eller en åben arbejdsordre. Saldoen falder og går ikke under nul. Hvis saldoen ikke rækker, er teksten: På lager kun N stk. Bed administratoren om at bogføre delene på lager.",
+      "Hvis en maskine eller en arbejdsordre er valgt, registreres delen på samme måde som en brugt del. Gem forbliver grå, indtil en del er valgt og antallet er større end nul. Administratoren filtrerer en dels bevægelser efter retning og dato.",
+    ],
+  },
+  de: {
+    id: "stock-in-out",
+    title: "Einlagern und auslagern",
+    paragraphs: [
+      "Das Teilelager in iqFleetSync™ hat zwei große Schaltflächen.",
+      "Scannen · Einlagern ist für die Administration. Die Administration einer Werkstatt bucht damit in den eigenen Bestand dieser Werkstatt. Die Kamera liest den Strichcode des Teils oder einen Produktcode des Lieferanten, oder der Code kann eingegeben werden. Wenn der Code keinem Teil entspricht, legt die Administration das Teil an oder verknüpft den Code mit einem bestehenden Teil.",
+      "Die Menge steht zuerst auf 1. Lagerplatz eingeben. Einkaufspreis sowie Hinweis oder Referenz sind optional. Speichern erfasst die Bewegung: Richtung Eingang, Menge, Person und Zeit.",
+      "Scannen · Auslagern ist auch für das Wartungspersonal. Menge eingeben. Eine Maschine oder ein offener Arbeitsauftrag kann gewählt werden. Der Bestand sinkt und fällt nicht unter null. Wenn der Bestand nicht reicht, lautet der Text: Auf Lager nur N Stk. Bitten Sie die Administration, die Teile einzulagern.",
+      "Wenn eine Maschine oder ein Arbeitsauftrag gewählt wurde, wird das Teil so erfasst wie ein verwendetes Teil. Speichern bleibt grau, bis ein Teil gewählt ist und die Menge größer als null ist. Die Administration filtert die Bewegungen eines Teils nach Richtung und Datum.",
+    ],
+  },
+  en: {
+    id: "stock-in-out",
+    title: "Stock in and stock out",
+    paragraphs: [
+      "iqFleetSync™ parts stock has two large buttons.",
+      "Scan · Stock in is for the administrator. A workshop administrator uses it for that workshop’s own stock. The camera reads the part barcode or a supplier product code, or you can type the code. If the code matches no part, the administrator creates the part or links the code to an existing part.",
+      "Quantity starts at 1. Type the shelf location. Purchase price and a note or reference are optional. Save stores the movement: direction in, quantity, person and time.",
+      "Scan · Stock out is also for the maintenance technician. Type a quantity. You can choose a machine or an open work order. The balance drops and cannot fall below zero; if there is not enough on hand, an administrator is asked to book the parts into stock.",
+      "If a machine or work order was chosen, the part is logged like a used part. Save stays grey until a part is chosen and the quantity is greater than zero. The administrator filters a part’s movements by direction and date.",
+    ],
+  },
+  es: {
+    id: "stock-in-out",
+    title: "Entrada y salida de stock",
+    paragraphs: [
+      "El stock de piezas de iqFleetSync™ tiene dos botones grandes.",
+      "Escanear · Entrada de stock es para la administración. La administración de un taller lo usa para el stock propio de ese taller. La cámara lee el código de barras de la pieza o un código de producto del proveedor, o el código se puede escribir. Si el código no corresponde a ninguna pieza, la administración crea la pieza o vincula el código a una pieza existente.",
+      "La cantidad empieza en 1. Escriba la ubicación en la estantería. El precio de compra y una nota o referencia son opcionales. Guardar registra el movimiento: dirección de entrada, cantidad, persona y hora.",
+      "Escanear · Salida de stock es también para el personal de mantenimiento. Escriba una cantidad. Puede elegir una máquina o una orden de trabajo abierta. El saldo baja y no baja de cero. Si el saldo no alcanza, el texto es: En stock solo N uds. Pida a la administración que registre las piezas en el stock.",
+      "Si se eligió una máquina o una orden de trabajo, la pieza queda registrada igual que una pieza usada. Guardar permanece en gris hasta que se elige una pieza y la cantidad es mayor que cero. La administración filtra los movimientos de una pieza por dirección y fecha.",
+    ],
+  },
+  it: {
+    id: "stock-in-out",
+    title: "Carico e scarico di magazzino",
+    paragraphs: [
+      "Il magazzino ricambi di iqFleetSync™ ha due pulsanti grandi.",
+      "Scansiona · Carico è per l’amministrazione. L’amministrazione di un’officina lo usa per il magazzino proprio di quell’officina. La fotocamera legge il codice a barre del ricambio o un codice prodotto del fornitore, oppure il codice si può scrivere. Se il codice non corrisponde a nessun ricambio, l’amministrazione crea il ricambio o collega il codice a un ricambio esistente.",
+      "La quantità è già 1. Scrivi la posizione sullo scaffale. Il prezzo di acquisto e una nota o un riferimento sono facoltativi. Salva registra il movimento: direzione in entrata, quantità, persona e ora.",
+      "Scansiona · Scarico è anche per il personale di manutenzione. Scrivi una quantità. Puoi scegliere una macchina o un ordine di lavoro aperto. La giacenza diminuisce e non scende sotto zero. Se la giacenza non basta, il testo è: A magazzino solo N pz. Chiedi all’amministrazione di registrare i ricambi a magazzino.",
+      "Se è stata scelta una macchina o un ordine di lavoro, il ricambio viene registrato come un ricambio usato. Salva resta grigio finché un ricambio non è scelto e la quantità è maggiore di zero. L’amministrazione filtra i movimenti di un ricambio per direzione e data.",
+    ],
+  },
+  fr: {
+    id: "stock-in-out",
+    title: "Entrée et sortie de stock",
+    paragraphs: [
+      "Le stock de pièces d’iqFleetSync™ comporte deux grands boutons.",
+      "Scanner · Entrée de stock est destiné à l’administration. L’administration d’un atelier l’utilise pour le stock propre de cet atelier. L’appareil photo lit le code-barres de la pièce ou un code produit du fournisseur, ou le code peut être saisi. Si le code ne correspond à aucune pièce, l’administration crée la pièce ou rattache le code à une pièce existante.",
+      "La quantité est déjà à 1. Saisissez l’emplacement de rayon. Le prix d’achat ainsi qu’une note ou une référence sont facultatifs. Enregistrer consigne le mouvement : sens entrée, quantité, personne et heure.",
+      "Scanner · Sortie de stock est aussi pour le personnel de maintenance. Saisissez une quantité. Vous pouvez choisir une machine ou un ordre de travail ouvert. Le solde diminue et ne descend pas sous zéro. Si le solde ne suffit pas, le texte est : En stock seulement N pce. Demandez à l’administration d’enregistrer les pièces en stock.",
+      "Si une machine ou un ordre de travail a été choisi, la pièce est enregistrée comme une pièce utilisée. Enregistrer reste gris tant qu’aucune pièce n’est choisie et que la quantité n’est pas supérieure à zéro. L’administration filtre les mouvements d’une pièce selon le sens et la date.",
+    ],
+  },
+  et: {
+    id: "stock-in-out",
+    title: "Lattu võtmine ja laost võtmine",
+    paragraphs: [
+      "iqFleetSync™ varuosalaos on kaks suurt nuppu.",
+      "Skanni · Lattu võtmine on administraatorile. Töökoja administraator kirjendab sellega töökoja enda lattu. Kaamera loeb osa vöötkoodi või tarnija tootekoodi, või koodi saab kirjutada. Kui kood ei vasta osale, loob administraator osa või seob koodi olemasoleva osaga.",
+      "Kogus on eelnevalt 1. Kirjuta riiulikoht. Ostuhind ning märkus või viide on valikulised. Salvesta kirjendab liikumise: suund sisse, kogus, isik ja aeg.",
+      "Skanni · Laost võtmine on ka hooldustehnikule. Kirjuta kogus. Saad valida masina või avatud töökäsu. Laoseis väheneb ega lange alla nulli. Kui laoseisu ei jätku, on tekst: Laos ainult N tk. Palu administraatoril osad lattu kirja panna.",
+      "Kui masin või töökäsk on valitud, kirjendub osa samamoodi nagu kasutatud osa. Salvesta püsib hallina, kuni osa on valitud ja kogus on suurem kui null. Administraator filtreerib osa liikumisi suuna ja kuupäeva järgi.",
+    ],
+  },
+  lv: {
+    id: "stock-in-out",
+    title: "Pieņemšana noliktavā un izņemšana no noliktavas",
+    paragraphs: [
+      "iqFleetSync™ detaļu noliktavā ir divas lielas pogas.",
+      "Skenēt · Pieņemšana noliktavā ir administrācijai. Darbnīcas administrācija ar to grāmato detaļas šīs darbnīcas noliktavā. Kamera nolasa detaļas svītrkodu vai piegādātāja preces kodu, vai arī kodu var ierakstīt. Ja kods neatbilst detaļai, administrācija izveido detaļu vai piesaista kodu esošai detaļai.",
+      "Daudzums sākumā ir 1. Ierakstiet plaukta vietu. Iepirkuma cena, kā arī piezīme vai atsauce, nav obligātas. Saglabāt ieraksta kustību: virziens iekšā, daudzums, persona un laiks.",
+      "Skenēt · Izņemšana no noliktavas ir arī apkopes personālam. Ierakstiet daudzumu. Var izvēlēties mašīnu vai atvērtu darba uzdevumu. Atlikums samazinās un nenokrīt zem nulles. Ja atlikuma nepietiek, teksts ir: Noliktavā tikai N gab. Lūdziet administrācijai iegrāmatot detaļas noliktavā.",
+      "Ja ir izvēlēta mašīna vai darba uzdevums, detaļa tiek ierakstīta tāpat kā izmantotā detaļa. Saglabāt paliek pelēka, līdz ir izvēlēta detaļa un daudzums ir lielāks par nulli. Administrācija filtrē detaļas kustības pēc virziena un datuma.",
+    ],
+  },
+  lt: {
+    id: "stock-in-out",
+    title: "Priėmimas į sandėlį ir paėmimas iš sandėlio",
+    paragraphs: [
+      "iqFleetSync™ dalių sandėlyje yra du dideli mygtukai.",
+      "Skenuoti · Priėmimas į sandėlį yra administracijai. Dirbtuvių administracija juo įrašo į tų dirbtuvių sandėlį. Kamera nuskaito dalies brūkšninį kodą arba tiekėjo prekės kodą, arba kodą galima įrašyti. Jei kodas neatitinka dalies, administracija sukuria dalį arba susieja kodą su esama dalimi.",
+      "Kiekis iš anksto yra 1. Įrašykite lentynos vietą. Pirkimo kaina bei pastaba arba nuoroda yra neprivalomos. Išsaugoti įrašo judėjimą: kryptis į vidų, kiekis, asmuo ir laikas.",
+      "Skenuoti · Paėmimas iš sandėlio yra ir priežiūros personalui. Įrašykite kiekį. Galite pasirinkti mašiną arba atidarytą darbo užsakymą. Likutis mažėja ir nenukrenta žemiau nulio. Jei likučio nepakanka, tekstas yra: Sandėlyje tik N vnt. Paprašykite administracijos įrašyti dalis į sandėlį.",
+      "Jei pasirinkta mašina arba darbo užsakymas, dalis įrašoma taip pat kaip panaudota dalis. Išsaugoti lieka pilkas, kol pasirinkta dalis ir kiekis yra didesnis už nulį. Administracija filtruoja dalies judėjimus pagal kryptį ir datą.",
+    ],
+  },
+  pl: {
+    id: "stock-in-out",
+    title: "Przyjęcie na magazyn i wydanie z magazynu",
+    paragraphs: [
+      "Magazyn części w iqFleetSync™ ma dwa duże przyciski.",
+      "Skanuj · Przyjęcie na magazyn jest dla administracji. Administracja warsztatu zapisuje nim do własnego magazynu tego warsztatu. Aparat odczytuje kod kreskowy części lub kod produktu dostawcy, albo kod można wpisać. Jeśli kod nie odpowiada części, administracja tworzy część albo przypisuje kod do istniejącej części.",
+      "Ilość jest z góry równa 1. Wpisz miejsce na regale. Cena zakupu oraz uwaga lub odniesienie są opcjonalne. Zapisz zapisuje ruch: kierunek przyjęcia, ilość, osoba i czas.",
+      "Skanuj · Wydanie z magazynu jest też dla personelu utrzymania. Wpisz ilość. Możesz wybrać maszynę albo otwarte zlecenie pracy. Stan maleje i nie spada poniżej zera. Jeśli stanu nie wystarcza, tekst brzmi: W magazynie tylko N szt. Poproś administrację, aby zaksięgowała części na magazyn.",
+      "Jeśli wybrano maszynę albo zlecenie pracy, część jest zapisywana tak samo jak zużyta część. Zapisz pozostaje szary, aż zostanie wybrana część i ilość będzie większa od zera. Administracja filtruje ruchy części według kierunku i daty.",
+    ],
+  },
+  cs: {
+    id: "stock-in-out",
+    title: "Příjem na sklad a výdej ze skladu",
+    paragraphs: [
+      "Sklad dílů v iqFleetSync™ má dvě velká tlačítka.",
+      "Skenovat · Příjem na sklad je pro správu. Správa dílny jím zapisuje do vlastního skladu této dílny. Fotoaparát přečte čárový kód dílu nebo kód produktu dodavatele, nebo kód lze napsat. Pokud kód neodpovídá dílu, správa díl vytvoří nebo kód připojí k existujícímu dílu.",
+      "Množství je předem 1. Napište umístění v regálu. Nákupní cena a poznámka nebo reference jsou volitelné. Uložit zaznamená pohyb: směr dovnitř, množství, osoba a čas.",
+      "Skenovat · Výdej ze skladu je také pro personál údržby. Napište množství. Můžete vybrat stroj nebo otevřený pracovní příkaz. Stav klesá a neklesne pod nulu. Pokud stav nestačí, text je: Na skladě jen N ks. Požádejte správu, aby díly zaevidovala na sklad.",
+      "Pokud je vybrán stroj nebo pracovní příkaz, díl se zapíše stejně jako použitý díl. Uložit zůstane šedé, dokud není vybrán díl a množství není větší než nula. Správa filtruje pohyby dílu podle směru a data.",
     ],
   },
 };
