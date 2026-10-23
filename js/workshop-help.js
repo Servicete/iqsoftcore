@@ -992,6 +992,13 @@ function workshopGuidesHtml(lang) {
     const after = articles.findIndex((article) => article.id === "access");
     articles.splice(after === -1 ? articles.length : after + 1, 0, scan);
   }
+  const parts = typeof WORKSHOP_PARTS_HELP !== "undefined"
+    ? (WORKSHOP_PARTS_HELP[lang] || WORKSHOP_PARTS_HELP.en)
+    : null;
+  if (parts) {
+    const afterWork = articles.findIndex((article) => article.id === "work-orders");
+    articles.splice(afterWork === -1 ? articles.length : afterWork + 1, 0, parts);
+  }
   const cards = articles.map(workshopGuideCard).join("");
   return `<h2 id="workshop-guides">${escapeHelpHtml(guide.heading)}</h2>
     <p>${escapeHelpHtml(guide.intro)}</p>
@@ -1123,6 +1130,150 @@ const WORKSHOP_SCAN_HELP = {
       "V aplikaci je tlačítko Skenovat QR. Přečte nálepku jednotky přihlášením, které je už otevřené. Nálepka nikoho sama nepřihlásí.",
       "Pokud toto přihlášení přístup už má, jednotka se otevře přímo.",
       "Pokud přístup není, otevře se pohled hosta. V něm je Požádat o přístup.",
+    ],
+  },
+};
+
+/** Partner workshop: used parts from its own stock on shared customer units. No prices. */
+const WORKSHOP_PARTS_HELP = {
+  fi: {
+    id: "partner-parts",
+    title: "Käytetyt osat asiakkaan yksikön työssä",
+    paragraphs: [
+      "Korjaamo avaa työn asiakkaan jakamalle yksikölle yksikön sivulta. Uusi työmääräin -sivulla näkyvät vain korjaamon omat yksiköt, ja sivulla on tästä vihje korjaamolle.",
+      "Kun työ kuitataan valmiiksi, valitaan Käytetyt osat korjaamon omasta varastosta. Osat vähennetään korjaamon varastosta. Saldo ei voi mennä miinukselle. Jos osaa ei ole tarpeeksi, pyydä pääkäyttäjää lisäämään osia varastoon.",
+      "Osat näkyvät asiakkaan huoltohistoriassa nimellä, osanumerolla ja määrällä. Rivillä näkyy, että työn teki korjaamo.",
+      "Jos työ avataan uudelleen, osat palautuvat korjaamon varastoon.",
+    ],
+  },
+  sv: {
+    id: "partner-parts",
+    title: "Använda delar i arbete på kundens enhet",
+    paragraphs: [
+      "Verkstaden öppnar arbetet för en enhet som kunden har delat från enhetens sida. Sidan Ny arbetsorder visar bara verkstadens egna enheter och har en tips-text för verkstaden.",
+      "När arbetet kvitteras som klart väljs Använda delar från verkstadens eget lager. Delarna dras från verkstadens lager. Saldot kan inte bli negativt. Om det inte finns tillräckligt, be administratören att lägga till delar i lagret.",
+      "Delarna syns i kundens servicehistorik med namn, artikelnummer och antal. Raden visar att verkstaden gjorde arbetet.",
+      "Om arbetet öppnas igen går delarna tillbaka till verkstadens lager.",
+    ],
+  },
+  no: {
+    id: "partner-parts",
+    title: "Brukte deler i arbeid på kundens enhet",
+    paragraphs: [
+      "Verkstedet åpner arbeidet for en enhet som kunden har delt, fra enhetens side. Siden Ny arbeidsordre viser bare verkstedets egne enheter og har et hint for verkstedet.",
+      "Når arbeidet kvitteres som ferdig, velges Brukte deler fra verkstedets eget lager. Delene trekkes fra verkstedets lager. Saldoen kan ikke bli negativ. Hvis det ikke er nok, be administratoren legge til deler på lageret.",
+      "Delene vises i kundens servicehistorikk med navn, delenummer og antall. Raden viser at verkstedet gjorde arbeidet.",
+      "Hvis arbeidet åpnes igjen, går delene tilbake til verkstedets lager.",
+    ],
+  },
+  da: {
+    id: "partner-parts",
+    title: "Brugte dele i arbejde på kundens enhed",
+    paragraphs: [
+      "Værkstedet åbner arbejdet for en enhed, som kunden har delt, fra enhedens side. Siden Ny arbejdsordre viser kun værkstedets egne enheder og har et tip til værkstedet.",
+      "Når arbejdet kvitteres som færdigt, vælges Brugte dele fra værkstedets eget lager. Delene trækkes fra værkstedets lager. Saldoen kan ikke blive negativ. Hvis der ikke er nok, så bed administratoren om at lægge dele på lager.",
+      "Delene vises i kundens servicehistorik med navn, varenummer og antal. Linjen viser, at værkstedet udførte arbejdet.",
+      "Hvis arbejdet åbnes igen, går delene tilbage til værkstedets lager.",
+    ],
+  },
+  de: {
+    id: "partner-parts",
+    title: "Verwendete Teile bei Arbeiten an der Kundeneinheit",
+    paragraphs: [
+      "Die Werkstatt öffnet die Arbeit für eine vom Kunden geteilte Einheit auf der Seite der Einheit. Die Seite Neuer Arbeitsauftrag zeigt nur eigene Einheiten der Werkstatt und enthält dazu einen Hinweis.",
+      "Beim Abschließen der Arbeit werden Verwendete Teile aus dem eigenen Lager der Werkstatt gewählt. Die Teile werden vom Lager der Werkstatt abgebucht. Der Bestand kann nicht negativ werden. Reicht der Bestand nicht, bitten Sie die Administration, Teile ins Lager aufzunehmen.",
+      "Die Teile erscheinen in der Servicehistorie des Kunden mit Name, Teilenummer und Menge. Die Zeile zeigt, dass die Werkstatt die Arbeit ausgeführt hat.",
+      "Wird die Arbeit wieder geöffnet, gehen die Teile zurück ins Lager der Werkstatt.",
+    ],
+  },
+  en: {
+    id: "partner-parts",
+    title: "Used parts in work on a customer unit",
+    paragraphs: [
+      "The workshop opens work on a unit the customer has shared from the unit page. The New work order page lists only the workshop’s own units and shows a hint about this for workshops.",
+      "When the work is completed, Used parts are chosen from the workshop’s own stock. The parts are deducted from the workshop’s stock. Stock cannot go negative. If there is not enough, ask an admin to add parts to stock.",
+      "The parts show in the customer’s service history with name, part number and quantity. The row shows that the workshop did the work.",
+      "If the work is reopened, the parts return to the workshop’s stock.",
+    ],
+  },
+  es: {
+    id: "partner-parts",
+    title: "Piezas usadas en trabajos en la unidad del cliente",
+    paragraphs: [
+      "El taller abre el trabajo de una unidad compartida por el cliente desde la página de la unidad. La página Nueva orden de trabajo solo muestra las unidades propias del taller y muestra un aviso al taller.",
+      "Al completar el trabajo, se eligen las Piezas usadas del stock propio del taller. Las piezas se descuentan del stock del taller. El stock no puede quedar en negativo. Si no hay suficiente, pida a un administrador que añada piezas al stock.",
+      "Las piezas aparecen en el historial de servicio del cliente con nombre, número de pieza y cantidad. La fila indica que el trabajo lo hizo el taller.",
+      "Si el trabajo se reabre, las piezas vuelven al stock del taller.",
+    ],
+  },
+  it: {
+    id: "partner-parts",
+    title: "Ricambi usati nei lavori sull’unità del cliente",
+    paragraphs: [
+      "L’officina apre il lavoro su un’unità condivisa dal cliente dalla pagina dell’unità. La pagina Nuovo ordine di lavoro mostra solo le unità proprie dell’officina e un suggerimento per l’officina.",
+      "Quando il lavoro viene completato, si scelgono i Ricambi usati dal magazzino proprio dell’officina. I ricambi vengono scalati dal magazzino dell’officina. La giacenza non può andare in negativo. Se non basta, chiedi a un amministratore di aggiungere ricambi al magazzino.",
+      "I ricambi compaiono nello storico manutenzione del cliente con nome, codice e quantità. La riga indica che il lavoro è stato fatto dall’officina.",
+      "Se il lavoro viene riaperto, i ricambi tornano nel magazzino dell’officina.",
+    ],
+  },
+  fr: {
+    id: "partner-parts",
+    title: "Pièces utilisées sur l’unité d’un client",
+    paragraphs: [
+      "L’atelier ouvre le travail sur une unité partagée par le client depuis la page de l’unité. La page Nouvel ordre de travail ne liste que les unités propres à l’atelier et affiche une indication pour l’atelier.",
+      "À la clôture du travail, les Pièces utilisées sont choisies dans le stock propre de l’atelier. Elles sont déduites du stock de l’atelier. Le stock ne peut pas devenir négatif. S’il n’y en a pas assez, demandez à un administrateur d’ajouter des pièces au stock.",
+      "Les pièces apparaissent dans l’historique d’entretien du client avec le nom, la référence et la quantité. La ligne indique que l’atelier a fait le travail.",
+      "Si le travail est rouvert, les pièces retournent dans le stock de l’atelier.",
+    ],
+  },
+  et: {
+    id: "partner-parts",
+    title: "Kasutatud osad kliendi üksuse töös",
+    paragraphs: [
+      "Töökoda avab töö kliendi jagatud üksusele üksuse lehelt. Lehel Uus töökäsk on ainult töökoja oma üksused ning töökojale on seal vihje.",
+      "Kui töö märgitakse valmis, valitakse Kasutatud osad töökoja enda laost. Osad arvatakse maha töökoja laost. Laoseis ei saa minna miinusesse. Kui osi ei ole piisavalt, palu administraatoril osi lattu lisada.",
+      "Osad on kliendi hooldusajaloos nime, osanumbri ja kogusega. Real on näha, et töö tegi töökoda.",
+      "Kui töö avatakse uuesti, lähevad osad tagasi töökoja lattu.",
+    ],
+  },
+  lv: {
+    id: "partner-parts",
+    title: "Izmantotās detaļas darbā ar klienta vienību",
+    paragraphs: [
+      "Darbnīca atver darbu klienta kopīgotai vienībai no vienības lapas. Lapā Jauns darba uzdevums ir tikai darbnīcas pašas vienības, un tur ir norāde darbnīcai.",
+      "Kad darbs tiek pabeigts, Izmantotās detaļas izvēlas no darbnīcas pašas noliktavas. Detaļas tiek norakstītas no darbnīcas noliktavas. Atlikums nevar kļūt negatīvs. Ja detaļu nepietiek, palūdziet administratoram pievienot detaļas noliktavā.",
+      "Detaļas redzamas klienta apkopes vēsturē ar nosaukumu, detaļas numuru un daudzumu. Rindā redzams, ka darbu veica darbnīca.",
+      "Ja darbu atver atkārtoti, detaļas atgriežas darbnīcas noliktavā.",
+    ],
+  },
+  lt: {
+    id: "partner-parts",
+    title: "Panaudotos dalys darbe su kliento vienetu",
+    paragraphs: [
+      "Dirbtuvės atidaro darbą kliento bendrinamam vienetui iš vieneto puslapio. Puslapyje Naujas darbo užsakymas rodomi tik pačių dirbtuvių vienetai ir yra užuomina dirbtuvėms.",
+      "Užbaigiant darbą, Panaudotos dalys pasirenkamos iš pačių dirbtuvių sandėlio. Dalys nurašomos iš dirbtuvių sandėlio. Likutis negali tapti neigiamas. Jei dalių nepakanka, paprašykite administratoriaus papildyti sandėlį.",
+      "Dalys rodomos kliento aptarnavimo istorijoje su pavadinimu, dalies numeriu ir kiekiu. Eilutėje matyti, kad darbą atliko dirbtuvės.",
+      "Jei darbas atidaromas iš naujo, dalys grįžta į dirbtuvių sandėlį.",
+    ],
+  },
+  pl: {
+    id: "partner-parts",
+    title: "Zużyte części w pracy przy jednostce klienta",
+    paragraphs: [
+      "Warsztat otwiera pracę dla jednostki udostępnionej przez klienta ze strony jednostki. Strona Nowe zlecenie pracy pokazuje tylko własne jednostki warsztatu i wyświetla wskazówkę dla warsztatu.",
+      "Przy zakończeniu pracy Zużyte części wybiera się z własnego magazynu warsztatu. Części są odejmowane z magazynu warsztatu. Stan nie może spaść poniżej zera. Jeśli części brakuje, poproś administratora o dodanie ich do magazynu.",
+      "Części widać w historii serwisowej klienta z nazwą, numerem części i ilością. Wiersz pokazuje, że pracę wykonał warsztat.",
+      "Jeśli praca zostanie ponownie otwarta, części wracają do magazynu warsztatu.",
+    ],
+  },
+  cs: {
+    id: "partner-parts",
+    title: "Použité díly při práci na jednotce zákazníka",
+    paragraphs: [
+      "Dílna otevře práci na jednotce sdílené zákazníkem ze stránky jednotky. Stránka Nový pracovní příkaz ukazuje jen vlastní jednotky dílny a zobrazuje pro dílnu nápovědu.",
+      "Při dokončení práce se Použité díly vybírají z vlastního skladu dílny. Díly se odečtou ze skladu dílny. Stav nemůže klesnout pod nulu. Pokud dílů není dost, požádejte správce o doplnění skladu.",
+      "Díly se zobrazí v servisní historii zákazníka s názvem, číslem dílu a množstvím. Řádek ukazuje, že práci provedla dílna.",
+      "Pokud se práce znovu otevře, díly se vrátí do skladu dílny.",
     ],
   },
 };
