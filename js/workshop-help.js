@@ -971,10 +971,20 @@ const WORKSHOP_GUIDES = {
   },
 };
 
-function workshopGuideCard(article) {
+function workshopGuideCard(article, lang) {
   const copy = article.paragraphs
     .map((paragraph) => "<p>" + escapeHelpHtml(paragraph) + "</p>")
     .join("");
+  if (article.video && typeof helpMediaHtml === "function") {
+    const pages = typeof HELP_CENTER !== "undefined" ? HELP_CENTER : null;
+    const page = pages ? (pages[lang] || pages.en) : null;
+    const video = helpMediaHtml(article.video, article, page && page.unsupported ? page.unsupported : "");
+    return `<article class="help-card" id="${escapeHelpHtml(article.id)}">
+      <h3>${escapeHelpHtml(article.title)}</h3>
+      <div class="help-copy">${copy}</div>
+      ${video}
+    </article>`;
+  }
   return `<article class="help-card" id="${escapeHelpHtml(article.id)}">
       <h3>${escapeHelpHtml(article.title)}</h3>
       <div class="help-copy">${copy}</div>
@@ -1003,10 +1013,13 @@ function workshopGuidesHtml(lang) {
     ? (WORKSHOP_STOCK_HELP[lang] || WORKSHOP_STOCK_HELP.en)
     : null;
   if (stock) {
+    const withVideo = WORKSHOP_STOCK_HELP.video
+      ? Object.assign({}, stock, { video: WORKSHOP_STOCK_HELP.video })
+      : stock;
     const afterParts = articles.findIndex((article) => article.id === "partner-parts");
-    articles.splice(afterParts === -1 ? articles.length : afterParts + 1, 0, stock);
+    articles.splice(afterParts === -1 ? articles.length : afterParts + 1, 0, withVideo);
   }
-  const cards = articles.map(workshopGuideCard).join("");
+  const cards = articles.map((article) => workshopGuideCard(article, lang)).join("");
   return `<h2 id="workshop-guides">${escapeHelpHtml(guide.heading)}</h2>
     <p>${escapeHelpHtml(guide.intro)}</p>
     <div class="help-list">${cards}</div>`;
@@ -1287,6 +1300,10 @@ const WORKSHOP_PARTS_HELP = {
 
 /** Barcode stock in and stock out. Purchase price is an administrator field only. */
 const WORKSHOP_STOCK_HELP = {
+  video: {
+    src: "videos/iqfleetsync/varasto-viivakoodi.mp4",
+    captions: "videos/iqfleetsync/varasto-viivakoodi.vtt",
+  },
   fi: {
     id: "stock-in-out",
     title: "Varastoon otto ja varastosta otto",
