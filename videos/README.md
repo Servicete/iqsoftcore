@@ -18,5 +18,7 @@ Ohjekeskus on iqFleetSync-sivun osio `#ohjekeskus`. Se soittaa nämä tiedostot 
 - `videos/iqfleetsync/qr-tarrat.vtt`
 - `videos/iqfleetsync/varasto-viivakoodi.mp4`
 - `videos/iqfleetsync/varasto-viivakoodi.vtt`
+- `videos/iqfleetsync/tukibotti.mp4`
+- `videos/iqfleetsync/tukibotti.vtt`
 
 Tekstitysraita on `<track kind="subtitles" srclang="fi">`. Vanha osoite `ohjekeskus.html` ohjaa tähän osioon.

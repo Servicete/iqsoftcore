@@ -1472,10 +1472,14 @@ const WORKSHOP_STOCK_HELP = {
 
 /**
  * In-app support assistant, for every role.
- * Optional shared video: { src, captions }. Not set yet.
- * workshopGuideCard renders it when present.
+ * Shared video: { src, captions }. Finnish clip with burned-in Finnish subtitles.
+ * workshopGuideCard renders it on every language card.
  */
 const SUPPORT_ASSISTANT_HELP = {
+  video: {
+    src: "videos/iqfleetsync/tukibotti.mp4",
+    captions: "videos/iqfleetsync/tukibotti.vtt",
+  },
   fi: {
     id: "support-assistant",
     title: "Tukibotti / Kysy avustajalta",
