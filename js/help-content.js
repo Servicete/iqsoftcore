@@ -184,6 +184,7 @@ function renderHelpCenter(lang) {
   }
   const heading = embedded ? "h2" : "h1";
 
+  const supportCard = typeof supportAssistantCardHtml === "function" ? supportAssistantCardHtml(lang) : "";
   const cards = HELP_MEDIA.map((item) => {
     const topic = page.topics[item.id];
     if (!topic) return "";
@@ -203,7 +204,7 @@ function renderHelpCenter(lang) {
       </div>
     </div>
     <p>${escapeHelpHtml(page.lead)}</p>
-    <div class="help-list">${cards}</div>
+    <div class="help-list">${cards}${supportCard}</div>
     ${typeof workshopGuidesHtml === "function" ? workshopGuidesHtml(lang) : ""}
     <p class="policy-nav">
       <a class="btn btn-ghost" href="${backHref}">${escapeHelpHtml(page.back)}</a>

@@ -731,8 +731,14 @@ function renderPrivacyPolicy(lang) {
   const showFleetNotice = policyId === "company" && window.location.hash === "#iqfleetsync";
   const sections = (policy.sections || []).filter((section) => showFleetNotice || section.id !== "iqfleetsync");
 
+  let updated = policy.updated;
+  if (showFleetNotice && typeof FLEETSYNC_PRIVACY !== "undefined") {
+    const fleet = FLEETSYNC_PRIVACY[lang] || FLEETSYNC_PRIVACY.en;
+    if (fleet && fleet.updated) updated = fleet.updated;
+  }
+
   let html = `<h1>${escapeHtml(title)}</h1>`;
-  html += `<p class="policy-updated">${escapeHtml(policy.updated)}</p>`;
+  html += `<p class="policy-updated">${escapeHtml(updated)}</p>`;
   html += renderPolicySections(sections, appName, lang);
 
   html += `<p class="policy-nav">`;
