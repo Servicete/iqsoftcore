@@ -1025,6 +1025,16 @@ function workshopGuidesHtml(lang) {
     <div class="help-list">${cards}</div>`;
 }
 
+function supportAssistantCardHtml(lang) {
+  if (typeof SUPPORT_ASSISTANT_HELP === "undefined") return "";
+  const article = SUPPORT_ASSISTANT_HELP[lang] || SUPPORT_ASSISTANT_HELP.en;
+  if (!article || !article.paragraphs) return "";
+  const withVideo = SUPPORT_ASSISTANT_HELP.video
+    ? Object.assign({}, article, { video: SUPPORT_ASSISTANT_HELP.video })
+    : article;
+  return workshopGuideCard(withVideo, lang);
+}
+
 const WORKSHOP_SCAN_HELP = {
   fi: {
     id: "scan-in-app",
@@ -1456,6 +1466,168 @@ const WORKSHOP_STOCK_HELP = {
       "Množství je předem 1. Napište umístění v regálu. Nákupní cena a poznámka nebo reference jsou volitelné. Uložit zaznamená pohyb: směr dovnitř, množství, osoba a čas.",
       "Skenovat · Výdej ze skladu je také pro personál údržby. Napište množství. Můžete vybrat stroj nebo otevřený pracovní příkaz. Stav klesá a neklesne pod nulu. Pokud stav nestačí, text je: Na skladě jen N ks. Požádejte správu, aby díly zaevidovala na sklad.",
       "Pokud je vybrán stroj nebo pracovní příkaz, díl se zapíše stejně jako použitý díl. Uložit zůstane šedé, dokud není vybrán díl a množství není větší než nula. Správa filtruje pohyby dílu podle směru a data.",
+    ],
+  },
+};
+
+/**
+ * In-app support assistant, for every role.
+ * Optional shared video: { src, captions }. Not set yet.
+ * workshopGuideCard renders it when present.
+ */
+const SUPPORT_ASSISTANT_HELP = {
+  fi: {
+    id: "support-assistant",
+    title: "Tukibotti / Kysy avustajalta",
+    paragraphs: [
+      "iqFleetSync™-palvelun otsikossa on painike Kysy avustajalta. Se avaa paneelin Tukibotti.",
+      "Kysy, miten sovellusta käytetään. Avustaja vastaa kielellä, jolla kirjoitat. Kielet ovat suomi, ruotsi, norja, tanska, saksa, englanti, espanja, italia, ranska, viro, latvia, liettua, puola ja tšekki.",
+      "Paneelissa lukee: Tekoälyavustaja voi erehtyä. Tarkista tärkeät asiat.",
+      "Kysymyksiä voi lähettää 20 vuorokaudessa. Organisaatiolla on 300 kysymystä kuukaudessa.",
+      "Avustaja ei vastaa teknisen toteutuksen kysymyksiin.",
+    ],
+  },
+  sv: {
+    id: "support-assistant",
+    title: "Supportassistent / Fråga assistenten",
+    paragraphs: [
+      "iqFleetSync™ har knappen Fråga assistenten i sidhuvudet. Den öppnar panelen Supportassistent.",
+      "Fråga hur appen används. Assistenten svarar på det språk du skriver. Språken är finska, svenska, norska, danska, tyska, engelska, spanska, italienska, franska, estniska, lettiska, litauiska, polska och tjeckiska.",
+      "I panelen står: AI-assistenten kan ha fel. Kontrollera det som är viktigt.",
+      "Du kan skicka 20 frågor per dygn. En organisation har 300 frågor per månad.",
+      "Assistenten svarar inte på frågor om den tekniska implementationen.",
+    ],
+  },
+  no: {
+    id: "support-assistant",
+    title: "Støtteassistent / Spør assistenten",
+    paragraphs: [
+      "iqFleetSync™ har knappen Spør assistenten i toppen. Den åpner panelet Støtteassistent.",
+      "Spør hvordan appen brukes. Assistenten svarer på språket du skriver. Språkene er finsk, svensk, norsk, dansk, tysk, engelsk, spansk, italiensk, fransk, estisk, latvisk, litauisk, polsk og tsjekkisk.",
+      "I panelet står: KI-assistenten kan ta feil. Kontroller det som er viktig.",
+      "Du kan sende 20 spørsmål per døgn. En organisasjon har 300 spørsmål per måned.",
+      "Assistenten svarer ikke på spørsmål om den tekniske gjennomføringen.",
+    ],
+  },
+  da: {
+    id: "support-assistant",
+    title: "Supportassistent / Spørg assistenten",
+    paragraphs: [
+      "iqFleetSync™ har knappen Spørg assistenten i toppen. Den åbner panelet Supportassistent.",
+      "Spørg, hvordan appen bruges. Assistenten svarer på det sprog, du skriver. Sprogene er finsk, svensk, norsk, dansk, tysk, engelsk, spansk, italiensk, fransk, estisk, lettisk, litauisk, polsk og tjekkisk.",
+      "I panelet står: AI-assistenten kan tage fejl. Kontrollér det, der er vigtigt.",
+      "Du kan sende 20 spørgsmål pr. døgn. En organisation har 300 spørgsmål pr. måned.",
+      "Assistenten svarer ikke på spørgsmål om den tekniske gennemførelse.",
+    ],
+  },
+  de: {
+    id: "support-assistant",
+    title: "Support-Assistenz / Assistenz fragen",
+    paragraphs: [
+      "iqFleetSync™ hat in der Kopfzeile die Schaltfläche Assistenz fragen. Sie öffnet den Bereich Support-Assistenz.",
+      "Fragen Sie, wie die App genutzt wird. Die Assistenz antwortet in der Sprache, in der Sie schreiben. Die Sprachen sind Finnisch, Schwedisch, Norwegisch, Dänisch, Deutsch, Englisch, Spanisch, Italienisch, Französisch, Estnisch, Lettisch, Litauisch, Polnisch und Tschechisch.",
+      "Im Bereich steht: Die KI-Assistenz kann sich irren. Prüfen Sie Wichtiges.",
+      "Es können 20 Fragen pro Tag gesendet werden. Eine Organisation hat 300 Fragen pro Monat.",
+      "Die Assistenz beantwortet keine Fragen zur technischen Umsetzung.",
+    ],
+  },
+  en: {
+    id: "support-assistant",
+    title: "Support assistant / Ask the assistant",
+    paragraphs: [
+      "iqFleetSync™ has a header button, Ask the assistant. It opens the Support assistant panel.",
+      "Ask how to use the app. The assistant answers in the language you write in. The languages are Finnish, Swedish, Norwegian, Danish, German, English, Spanish, Italian, French, Estonian, Latvian, Lithuanian, Polish and Czech.",
+      "The panel says: The AI assistant may make mistakes. Check anything important.",
+      "You can send 20 questions per day. An organisation has 300 questions per month.",
+      "The assistant does not answer questions about technical implementation.",
+    ],
+  },
+  es: {
+    id: "support-assistant",
+    title: "Asistente de ayuda / Preguntar al asistente",
+    paragraphs: [
+      "iqFleetSync™ tiene en la cabecera el botón Preguntar al asistente. Abre el panel Asistente de ayuda.",
+      "Pregunte cómo se usa la aplicación. El asistente responde en el idioma en el que escribe. Los idiomas son finés, sueco, noruego, danés, alemán, inglés, español, italiano, francés, estonio, letón, lituano, polaco y checo.",
+      "En el panel dice: El asistente de IA puede equivocarse. Compruebe lo importante.",
+      "Se pueden enviar 20 preguntas al día. Una organización tiene 300 preguntas al mes.",
+      "El asistente no responde a preguntas sobre la implementación técnica.",
+    ],
+  },
+  it: {
+    id: "support-assistant",
+    title: "Assistente di supporto / Chiedi all’assistente",
+    paragraphs: [
+      "iqFleetSync™ ha nell’intestazione il pulsante Chiedi all’assistente. Apre il pannello Assistente di supporto.",
+      "Chiedi come si usa l’app. L’assistente risponde nella lingua in cui scrivi. Le lingue sono finlandese, svedese, norvegese, danese, tedesco, inglese, spagnolo, italiano, francese, estone, lettone, lituano, polacco e ceco.",
+      "Nel pannello c’è scritto: L’assistente di IA può sbagliare. Controlla ciò che è importante.",
+      "Si possono inviare 20 domande al giorno. Un’organizzazione ha 300 domande al mese.",
+      "L’assistente non risponde a domande sull’implementazione tecnica.",
+    ],
+  },
+  fr: {
+    id: "support-assistant",
+    title: "Assistant d’aide / Demander à l’assistant",
+    paragraphs: [
+      "iqFleetSync™ a dans l’en-tête le bouton Demander à l’assistant. Il ouvre le panneau Assistant d’aide.",
+      "Demandez comment utiliser l’application. L’assistant répond dans la langue que vous écrivez. Les langues sont le finnois, le suédois, le norvégien, le danois, l’allemand, l’anglais, l’espagnol, l’italien, le français, l’estonien, le letton, le lituanien, le polonais et le tchèque.",
+      "Le panneau indique : L’assistant d’IA peut se tromper. Vérifiez ce qui est important.",
+      "Vous pouvez envoyer 20 questions par jour. Une organisation a 300 questions par mois.",
+      "L’assistant ne répond pas aux questions sur la mise en œuvre technique.",
+    ],
+  },
+  et: {
+    id: "support-assistant",
+    title: "Tugiabiline / Küsi assistendilt",
+    paragraphs: [
+      "iqFleetSync™ päises on nupp Küsi assistendilt. See avab paneeli Tugiabiline.",
+      "Küsi, kuidas rakendust kasutada. Assistent vastab keeles, milles kirjutad. Keeled on soome, rootsi, norra, taani, saksa, inglise, hispaania, itaalia, prantsuse, eesti, läti, leedu, poola ja tšehhi.",
+      "Paneelil on tekst: Tehisintellekti abiline võib eksida. Kontrolli olulisi asju.",
+      "Küsimusi saab saata 20 ööpäevas. Organisatsioonil on 300 küsimust kuus.",
+      "Assistent ei vasta tehnilise teostuse küsimustele.",
+    ],
+  },
+  lv: {
+    id: "support-assistant",
+    title: "Atbalsta asistents / Jautāt asistentam",
+    paragraphs: [
+      "iqFleetSync™ galvenē ir poga Jautāt asistentam. Tā atver paneli Atbalsta asistents.",
+      "Jautājiet, kā lietot lietotni. Asistents atbild valodā, kurā rakstāt. Valodas ir somu, zviedru, norvēģu, dāņu, vācu, angļu, spāņu, itāļu, franču, igauņu, latviešu, lietuviešu, poļu un čehu.",
+      "Panelī ir teksts: MI asistents var kļūdīties. Pārbaudiet svarīgo.",
+      "Dienā var nosūtīt 20 jautājumus. Organizācijai ir 300 jautājumi mēnesī.",
+      "Asistents neatbild uz jautājumiem par tehnisko īstenošanu.",
+    ],
+  },
+  lt: {
+    id: "support-assistant",
+    title: "Pagalbos asistentas / Klausti asistento",
+    paragraphs: [
+      "iqFleetSync™ antraštėje yra mygtukas Klausti asistento. Jis atidaro skydelį Pagalbos asistentas.",
+      "Klauskite, kaip naudoti programą. Asistentas atsako ta kalba, kuria rašote. Kalbos yra suomių, švedų, norvegų, danų, vokiečių, anglų, ispanų, italų, prancūzų, estų, latvių, lietuvių, lenkų ir čekų.",
+      "Skydelyje parašyta: DI asistentas gali klysti. Patikrinkite, kas svarbu.",
+      "Per parą galima išsiųsti 20 klausimų. Organizacija turi 300 klausimų per mėnesį.",
+      "Asistentas neatsako į klausimus apie techninį įgyvendinimą.",
+    ],
+  },
+  pl: {
+    id: "support-assistant",
+    title: "Asystent wsparcia / Zapytaj asystenta",
+    paragraphs: [
+      "iqFleetSync™ ma w nagłówku przycisk Zapytaj asystenta. Otwiera panel Asystent wsparcia.",
+      "Pytaj, jak korzystać z aplikacji. Asystent odpowiada w języku, w którym piszesz. Języki to fiński, szwedzki, norweski, duński, niemiecki, angielski, hiszpański, włoski, francuski, estoński, łotewski, litewski, polski i czeski.",
+      "Na panelu jest napis: Asystent AI może się mylić. Sprawdź to, co ważne.",
+      "Można wysłać 20 pytań na dobę. Organizacja ma 300 pytań na miesiąc.",
+      "Asystent nie odpowiada na pytania o techniczną realizację.",
+    ],
+  },
+  cs: {
+    id: "support-assistant",
+    title: "Asistent podpory / Zeptejte se asistenta",
+    paragraphs: [
+      "iqFleetSync™ má v záhlaví tlačítko Zeptejte se asistenta. Otevře panel Asistent podpory.",
+      "Ptejte se, jak se aplikace používá. Asistent odpovídá v jazyce, kterým píšete. Jazyky jsou finština, švédština, norština, dánština, němčina, angličtina, španělština, italština, francouzština, estonština, lotyština, litevština, polština a čeština.",
+      "Na panelu je text: Asistent AI se může mýlit. Ověřte, co je důležité.",
+      "Za den lze odeslat 20 otázek. Organizace má 300 otázek za měsíc.",
+      "Asistent neodpovídá na otázky o technickém provedení.",
     ],
   },
 };

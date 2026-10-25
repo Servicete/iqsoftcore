@@ -7,7 +7,7 @@ const FLEETSYNC_PRIVACY = {
     metaTitle: "iqFleetSync – Tietosuojaseloste | IQSoftCore",
     metaDescription: "iqFleetSyncin tietosuojaseloste. Rekisterinpitäjä ja käsittelijä, tiedot, tarkoitukset, alihankkijat ja oikeudet.",
     title: "iqFleetSync – tietosuojaseloste",
-    updated: "Päivitetty 2026-10-14.",
+    updated: "Päivitetty 2026-10-25.",
     backFleet: "iqFleetSync",
     backCompany: "Yrityksen tietosuoja",
     backHome: "Etusivu",
@@ -56,8 +56,16 @@ const FLEETSYNC_PRIVACY = {
           "Maksupalvelu: maksut; korttitiedot vain maksupalvelulla",
         ],
       },
+      { heading: "5. Tukibotti", paragraphs: [
+        "Palvelussa on tukibotti. Sen avaa otsikon painike Kysy avustajalta. Paneelin nimi on Tukibotti.",
+        "Tarkoitus on vastata sovelluksen käyttöä koskeviin kysymyksiin.",
+        "Käsitellään kirjoittamasi kysymysteksti, saman keskustelun viimeisimmät vuorot sekä käyttäjän ja organisaation tunnisteet kyselyrajoja varten. Raja on 20 kysymystä käyttäjää kohti vuorokaudessa ja 300 kysymystä organisaatiota kohti kuukaudessa.",
+        "Keskustelun sisältöä ei tallenneta. Käyttötilastoja varten tallennetaan vain kysymysten lukumäärä.",
+        "Kysymykset lähetetään käsiteltäväksi tekoälypalvelun tarjoajalle. Tarjoaja voi käsitellä tietoja Euroopan unionin ulkopuolella. Siirto suojataan vakiosopimuslausekkeilla.",
+        "Älä kirjoita kysymyksiin henkilötietoja tai luottamuksellisia tietoja.",
+      ]},
       {
-        heading: "5. Säilytys",
+        heading: "6. Säilytys",
         paragraphs: [
           "Tietoja säilytetään, kun tilaus on voimassa.",
           "Arkistoidut kohteet säilyvät historiana.",
@@ -65,7 +73,7 @@ const FLEETSYNC_PRIVACY = {
         ],
       },
       {
-        heading: "6. Rekisteröidyn oikeudet",
+        heading: "7. Rekisteröidyn oikeudet",
         paragraphs: [
           "Sinulla on oikeus saada pääsy tietoihin, pyytää oikaisua tai poistoa, rajoittaa käsittelyä, siirtää tiedot ja vastustaa käsittelyä, kun peruste sen sallii.",
           "Työntekijän tiedoissa rekisterinpitäjä on työnantajayritys. Pyyntö kannattaa tehdä ensin sinne. IqSoftCore auttaa asiakasyritystä vastaamaan.",
@@ -73,13 +81,13 @@ const FLEETSYNC_PRIVACY = {
         ],
       },
       {
-        heading: "7. Evästeet",
+        heading: "8. Evästeet",
         paragraphs: [
           "Palvelu käyttää vain välttämättömiä istunto- ja organisaatioevästeitä. Analytiikka- tai mainosevästeitä ei käytetä.",
         ],
       },
       {
-        heading: "8. Yhteys ja valitus",
+        heading: "9. Yhteys ja valitus",
         paragraphs: [
           "jarno@iqsoftcore.fi",
           "Voit tehdä valituksen tietosuojavaltuutetulle: tietosuoja.fi.",
@@ -93,7 +101,7 @@ const FLEETSYNC_PRIVACY_EN = {
   metaTitle: "iqFleetSync – Privacy notice | IQSoftCore",
   metaDescription: "Privacy notice for iqFleetSync. Controller and processor, data, purposes, subprocessors and rights.",
   title: "iqFleetSync – privacy notice",
-  updated: "Updated 2026-10-14.",
+  updated: "Updated 2026-10-25.",
   backFleet: "iqFleetSync",
   backCompany: "Company privacy",
   backHome: "Home",
@@ -142,8 +150,16 @@ const FLEETSYNC_PRIVACY_EN = {
         "Payment service: payments; card data stays with the payment service",
       ],
     },
+    { heading: "5. Support assistant", paragraphs: [
+      "The service includes a support assistant. A button in the header opens it. The panel is called Support assistant.",
+      "The purpose is to answer questions about using the app.",
+      "The question text you type, recent turns of the same conversation, and user and organisation identifiers are processed so the limits can be applied. The limit is 20 questions per user per day and 300 questions per organisation per month.",
+      "Conversation content is not stored. Only question counts are stored, for usage statistics.",
+      "Questions are sent to an AI service provider for processing. The provider may process the data outside the European Union. The transfer is protected by standard contractual clauses.",
+      "Do not type personal or confidential data into questions.",
+    ]},
     {
-      heading: "5. Retention",
+      heading: "6. Retention",
       paragraphs: [
         "Data is kept while the subscription is active.",
         "Archived items are kept as history.",
@@ -151,7 +167,7 @@ const FLEETSYNC_PRIVACY_EN = {
       ],
     },
     {
-      heading: "6. Your rights",
+      heading: "7. Your rights",
       paragraphs: [
         "You can ask for access, correction or deletion, restrict processing, receive a copy, and object where the basis allows it.",
         "For an employee’s data, the employer company is the controller. Start with them. IqSoftCore helps the customer company respond.",
@@ -159,13 +175,13 @@ const FLEETSYNC_PRIVACY_EN = {
       ],
     },
     {
-      heading: "7. Cookies",
+      heading: "8. Cookies",
       paragraphs: [
         "The service uses only necessary session and organisation cookies. It does not use analytics or advertising cookies.",
       ],
     },
     {
-      heading: "8. Contact and complaints",
+      heading: "9. Contact and complaints",
       paragraphs: [
         "jarno@iqsoftcore.fi",
         "You can complain to the Finnish Data Protection Ombudsman (Tietosuojavaltuutettu): tietosuoja.fi.",
@@ -187,7 +203,7 @@ FLEETSYNC_PRIVACY.sv = fleetPrivacyFromEnglish("sv", {
   metaTitle: "iqFleetSync – Integritetsmeddelande | IQSoftCore",
   metaDescription: "Integritetsmeddelande för iqFleetSync. Ansvarig, biträde, uppgifter, ändamål, underbiträden och rättigheter.",
   title: "iqFleetSync – integritetsmeddelande",
-  updated: "Uppdaterad 2026-10-14.",
+  updated: "Uppdaterad 2026-10-25.",
   backCompany: "Företagets integritet",
   backHome: "Startsida",
 });
@@ -222,20 +238,28 @@ FLEETSYNC_PRIVACY.sv.sections = [
     "E-posttjänst: utskick av e-post",
     "Betaltjänst: betalningar; kortuppgifter bara hos betaltjänsten",
   ]},
-  { heading: "5. Lagring", paragraphs: [
+  { heading: "5. Supportassistent", paragraphs: [
+    "Tjänsten har en supportassistent. En knapp i sidhuvudet öppnar den. Panelen heter Supportassistent.",
+    "Ändamålet är att svara på frågor om hur appen används.",
+    "Den frågetext du skriver, de senaste turerna i samma samtal samt användar- och organisationsidentifierare behandlas för att gränserna ska kunna hållas. Gränsen är 20 frågor per användare och dygn och 300 frågor per organisation och månad.",
+    "Samtalets innehåll sparas inte. För användningsstatistik sparas bara antalet frågor.",
+    "Frågorna skickas för behandling till en leverantör av en AI-tjänst. Leverantören kan behandla uppgifterna utanför Europeiska unionen. Överföringen skyddas med standardavtalsklausuler.",
+    "Skriv inte personuppgifter eller konfidentiella uppgifter i frågorna.",
+  ]},
+  { heading: "6. Lagring", paragraphs: [
     "Uppgifter sparas medan prenumerationen är aktiv.",
     "Arkiverade poster behålls som historik.",
     "Uppgifter raderas på begäran eller när prenumerationen har upphört. De faktureringsuppgifter som bokföringslagen kräver sparas.",
   ]},
-  { heading: "6. Den registrerades rättigheter", paragraphs: [
+  { heading: "7. Den registrerades rättigheter", paragraphs: [
     "Du kan begära tillgång, rättelse eller radering, begränsning av behandlingen, en kopia och invända när grunden tillåter det.",
     "För en anställds uppgifter är arbetsgivarföretaget personuppgiftsansvarigt. Börja där. IqSoftCore hjälper kundföretaget att svara.",
     "En begäran skickas till jarno@iqsoftcore.fi.",
   ]},
-  { heading: "7. Kakor", paragraphs: [
+  { heading: "8. Kakor", paragraphs: [
     "Tjänsten använder bara nödvändiga sessions- och organisationskakor. Analytiska kakor och reklamkakor används inte.",
   ]},
-  { heading: "8. Kontakt och klagomål", paragraphs: [
+  { heading: "9. Kontakt och klagomål", paragraphs: [
     "jarno@iqsoftcore.fi",
     "Du kan klaga hos dataombudsmannen i Finland (Tietosuojavaltuutettu): tietosuoja.fi.",
   ]},
@@ -258,7 +282,7 @@ addFleetPrivacy("no", {
   metaTitle: "iqFleetSync – Personvernerklæring | IQSoftCore",
   metaDescription: "Personvernerklæring for iqFleetSync. Ansvarlig, databehandler, opplysninger, formål, underleverandører og rettigheter.",
   title: "iqFleetSync – personvernerklæring",
-  updated: "Oppdatert 2026-10-14.",
+  updated: "Oppdatert 2026-10-25.",
   backCompany: "Virksomhetens personvern",
   backHome: "Hjem",
 }, [
@@ -292,20 +316,28 @@ addFleetPrivacy("no", {
     "E-posttjeneste: sending av e-post",
     "Betalingstjeneste: betalinger; kortopplysninger bare hos betalingstjenesten",
   ]},
-  { heading: "5. Lagring", paragraphs: [
+  { heading: "5. Støtteassistent", paragraphs: [
+    "Tjenesten har en støtteassistent. En knapp i toppen åpner den. Panelet heter Støtteassistent.",
+    "Formålet er å svare på spørsmål om hvordan appen brukes.",
+    "Spørsmålsteksten du skriver, de siste turene i samme samtale og identifikatorer for bruker og organisasjon behandles for å holde grensene. Grensen er 20 spørsmål per bruker per døgn og 300 spørsmål per organisasjon per måned.",
+    "Samtalens innhold lagres ikke. Til bruksstatistikk lagres bare antallet spørsmål.",
+    "Spørsmålene sendes for behandling til en leverandør av en KI-tjeneste. Leverandøren kan behandle opplysningene utenfor Den europeiske union. Overføringen er beskyttet med standardkontraktsklausuler.",
+    "Ikke skriv personopplysninger eller fortrolige opplysninger i spørsmålene.",
+  ]},
+  { heading: "6. Lagring", paragraphs: [
     "Opplysninger lagres mens abonnementet er aktivt.",
     "Arkiverte poster beholdes som historikk.",
     "Opplysninger slettes på forespørsel eller når abonnementet er avsluttet. Faktureringsopplysninger som regnskapsloven krever, beholdes.",
   ]},
-  { heading: "6. Den registrertes rettigheter", paragraphs: [
+  { heading: "7. Den registrertes rettigheter", paragraphs: [
     "Du kan be om innsyn, retting eller sletting, begrensning, en kopi og protestere når grunnlaget tillater det.",
     "For en ansatts opplysninger er arbeidsgiverbedriften behandlingsansvarlig. Start der. IqSoftCore hjelper kundebedriften med å svare.",
     "En forespørsel sendes til jarno@iqsoftcore.fi.",
   ]},
-  { heading: "7. Informasjonskapsler", paragraphs: [
+  { heading: "8. Informasjonskapsler", paragraphs: [
     "Tjenesten bruker bare nødvendige økt- og organisasjonskapsler. Analyse- og reklamekapsler brukes ikke.",
   ]},
-  { heading: "8. Kontakt og klage", paragraphs: [
+  { heading: "9. Kontakt og klage", paragraphs: [
     "jarno@iqsoftcore.fi",
     "Du kan klage til datatilsynet i Finland (Tietosuojavaltuutettu): tietosuoja.fi.",
   ]},
@@ -315,7 +347,7 @@ addFleetPrivacy("da", {
   metaTitle: "iqFleetSync – Privatlivserklæring | IQSoftCore",
   metaDescription: "Privatlivserklæring for iqFleetSync. Ansvarlig, databehandler, oplysninger, formål, underdatabehandlere og rettigheder.",
   title: "iqFleetSync – privatlivserklæring",
-  updated: "Opdateret 2026-10-14.",
+  updated: "Opdateret 2026-10-25.",
   backCompany: "Virksomhedens privatliv",
   backHome: "Forside",
 }, [
@@ -349,20 +381,28 @@ addFleetPrivacy("da", {
     "E-mailtjeneste: afsendelse af e-mail",
     "Betalingstjeneste: betalinger; kortoplysninger kun hos betalingstjenesten",
   ]},
-  { heading: "5. Opbevaring", paragraphs: [
+  { heading: "5. Supportassistent", paragraphs: [
+    "Tjenesten har en supportassistent. En knap i toppen åbner den. Panelet hedder Supportassistent.",
+    "Formålet er at svare på spørgsmål om, hvordan appen bruges.",
+    "Spørgsmålsteksten, du skriver, de seneste ture i samme samtale og identifikatorer for bruger og organisation behandles, så grænserne kan holdes. Grænsen er 20 spørgsmål pr. bruger pr. døgn og 300 spørgsmål pr. organisation pr. måned.",
+    "Samtalens indhold gemmes ikke. Til brugsstatistik gemmes kun antallet af spørgsmål.",
+    "Spørgsmålene sendes til behandling hos en udbyder af en AI-tjeneste. Udbyderen kan behandle oplysningerne uden for Den Europæiske Union. Overførslen beskyttes med standardkontraktbestemmelser.",
+    "Skriv ikke personoplysninger eller fortrolige oplysninger i spørgsmålene.",
+  ]},
+  { heading: "6. Opbevaring", paragraphs: [
     "Oplysninger opbevares, mens abonnementet er aktivt.",
     "Arkiverede poster beholdes som historik.",
     "Oplysninger slettes på anmodning eller når abonnementet er ophørt. De faktureringsoplysninger, som bogføringsloven kræver, beholdes.",
   ]},
-  { heading: "6. Den registreredes rettigheder", paragraphs: [
+  { heading: "7. Den registreredes rettigheder", paragraphs: [
     "Du kan bede om indsigt, rettelse eller sletning, begrænsning, en kopi og gøre indsigelse, når grundlaget tillader det.",
     "For en medarbejders oplysninger er arbejdsgiveren dataansvarlig. Start der. IqSoftCore hjælper kunden med at svare.",
     "En anmodning sendes til jarno@iqsoftcore.fi.",
   ]},
-  { heading: "7. Cookies", paragraphs: [
+  { heading: "8. Cookies", paragraphs: [
     "Tjenesten bruger kun nødvendige sessions- og organisationscookies. Analyse- og reklamecookies bruges ikke.",
   ]},
-  { heading: "8. Kontakt og klage", paragraphs: [
+  { heading: "9. Kontakt og klage", paragraphs: [
     "jarno@iqsoftcore.fi",
     "Du kan klage til datatilsynet i Finland (Tietosuojavaltuutettu): tietosuoja.fi.",
   ]},
@@ -372,7 +412,7 @@ addFleetPrivacy("de", {
   metaTitle: "iqFleetSync – Datenschutzhinweis | IQSoftCore",
   metaDescription: "Datenschutzhinweis für iqFleetSync. Verantwortlicher, Auftragsverarbeiter, Daten, Zwecke, Unterauftragsverarbeiter und Rechte.",
   title: "iqFleetSync – Datenschutzhinweis",
-  updated: "Aktualisiert am 2026-10-14.",
+  updated: "Aktualisiert am 2026-10-25.",
   backCompany: "Datenschutz des Unternehmens",
   backHome: "Startseite",
 }, [
@@ -406,20 +446,28 @@ addFleetPrivacy("de", {
     "E-Mail-Dienst: Versand von E-Mail",
     "Zahlungsdienst: Zahlungen; Kartendaten nur beim Zahlungsdienst",
   ]},
-  { heading: "5. Speicherdauer", paragraphs: [
+  { heading: "5. Support-Assistenz", paragraphs: [
+    "Der Dienst hat eine Support-Assistenz. Eine Schaltfläche in der Kopfzeile öffnet sie. Der Bereich heißt Support-Assistenz.",
+    "Der Zweck ist, Fragen zur Nutzung der App zu beantworten.",
+    "Verarbeitet werden der Fragetext, den Sie eingeben, die letzten Gesprächsschritte desselben Gesprächs sowie Kennungen der nutzenden Person und der Organisation, damit die Grenzen eingehalten werden können. Die Grenze beträgt 20 Fragen je Person und Tag und 300 Fragen je Organisation und Monat.",
+    "Der Gesprächsinhalt wird nicht gespeichert. Für die Nutzungsstatistik wird nur die Anzahl der Fragen gespeichert.",
+    "Die Fragen werden zur Verarbeitung an einen Anbieter eines KI-Dienstes gesendet. Der Anbieter kann die Daten außerhalb der Europäischen Union verarbeiten. Die Übermittlung ist durch Standardvertragsklauseln geschützt.",
+    "Geben Sie in Fragen keine personenbezogenen oder vertraulichen Daten ein.",
+  ]},
+  { heading: "6. Speicherdauer", paragraphs: [
     "Daten werden gespeichert, solange das Abonnement aktiv ist.",
     "Archivierte Einträge bleiben als Historie.",
     "Daten werden auf Antrag oder nach Ende des Abonnements gelöscht. Abrechnungsdaten, die das Buchhaltungsrecht verlangt, bleiben erhalten.",
   ]},
-  { heading: "6. Rechte der betroffenen Person", paragraphs: [
+  { heading: "7. Rechte der betroffenen Person", paragraphs: [
     "Sie können Auskunft, Berichtigung oder Löschung verlangen, die Verarbeitung einschränken, eine Kopie erhalten und widersprechen, soweit die Grundlage das zulässt.",
     "Bei Daten einer beschäftigten Person ist das Arbeitgeberunternehmen Verantwortlicher. Beginnen Sie dort. IqSoftCore hilft dem Kundenunternehmen bei der Antwort.",
     "Eine Anfrage geht an jarno@iqsoftcore.fi.",
   ]},
-  { heading: "7. Cookies", paragraphs: [
+  { heading: "8. Cookies", paragraphs: [
     "Der Dienst verwendet nur notwendige Sitzungs- und Organisations-Cookies. Analyse- oder Werbe-Cookies werden nicht verwendet.",
   ]},
-  { heading: "8. Kontakt und Beschwerde", paragraphs: [
+  { heading: "9. Kontakt und Beschwerde", paragraphs: [
     "jarno@iqsoftcore.fi",
     "Sie können sich bei der finnischen Datenschutzbehörde (Tietosuojavaltuutettu) beschweren: tietosuoja.fi.",
   ]},
@@ -429,7 +477,7 @@ addFleetPrivacy("nl", {
   metaTitle: "iqFleetSync – Privacyverklaring | IQSoftCore",
   metaDescription: "Privacyverklaring voor iqFleetSync. Verantwoordelijke, verwerker, gegevens, doelen, subverwerkers en rechten.",
   title: "iqFleetSync – privacyverklaring",
-  updated: "Bijgewerkt op 2026-10-14.",
+  updated: "Bijgewerkt op 2026-10-25.",
   backCompany: "Privacy van het bedrijf",
   backHome: "Home",
 }, [
@@ -463,20 +511,28 @@ addFleetPrivacy("nl", {
     "E-maildienst: verzending van e-mail",
     "Betaaldienst: betalingen; kaartgegevens alleen bij de betaaldienst",
   ]},
-  { heading: "5. Bewaartermijn", paragraphs: [
+  { heading: "5. Ondersteuningsassistent", paragraphs: [
+    "De dienst heeft een ondersteuningsassistent. Een knop in de kop opent die. Het paneel heet Ondersteuningsassistent.",
+    "Het doel is vragen over het gebruik van de app te beantwoorden.",
+    "De vraagtekst die u typt, de laatste beurten van hetzelfde gesprek en identificatiegegevens van de gebruiker en de organisatie worden verwerkt om de limieten te kunnen toepassen. De limiet is 20 vragen per gebruiker per dag en 300 vragen per organisatie per maand.",
+    "De inhoud van het gesprek wordt niet opgeslagen. Voor gebruiksstatistieken wordt alleen het aantal vragen opgeslagen.",
+    "Vragen worden ter verwerking gestuurd naar een aanbieder van een AI-dienst. De aanbieder kan de gegevens buiten de Europese Unie verwerken. De doorgifte is beschermd met standaardcontractbepalingen.",
+    "Typ geen persoonsgegevens of vertrouwelijke gegevens in vragen.",
+  ]},
+  { heading: "6. Bewaartermijn", paragraphs: [
     "Gegevens worden bewaard zolang het abonnement actief is.",
     "Gearchiveerde items blijven als geschiedenis.",
     "Gegevens worden gewist op verzoek of nadat het abonnement is geëindigd. Factuurgegevens die de boekhoudwet eist, blijven bewaard.",
   ]},
-  { heading: "6. Rechten van de betrokkene", paragraphs: [
+  { heading: "7. Rechten van de betrokkene", paragraphs: [
     "U kunt inzage, correctie of wissing vragen, de verwerking beperken, een kopie ontvangen en bezwaar maken waar de grondslag dat toelaat.",
     "Voor gegevens van een werknemer is het werkgeversbedrijf verwerkingsverantwoordelijke. Begin daar. IqSoftCore helpt het klantbedrijf met het antwoord.",
     "Een verzoek gaat naar jarno@iqsoftcore.fi.",
   ]},
-  { heading: "7. Cookies", paragraphs: [
+  { heading: "8. Cookies", paragraphs: [
     "De dienst gebruikt alleen noodzakelijke sessie- en organisatiecookies. Analyse- of advertentiecookies worden niet gebruikt.",
   ]},
-  { heading: "8. Contact en klacht", paragraphs: [
+  { heading: "9. Contact en klacht", paragraphs: [
     "jarno@iqsoftcore.fi",
     "U kunt een klacht indienen bij de Finse toezichthouder (Tietosuojavaltuutettu): tietosuoja.fi.",
   ]},
@@ -486,7 +542,7 @@ addFleetPrivacy("fr", {
   metaTitle: "iqFleetSync – Notice de confidentialité | IQSoftCore",
   metaDescription: "Notice de confidentialité d’iqFleetSync. Responsable, sous-traitant, données, finalités, sous-traitants ultérieurs et droits.",
   title: "iqFleetSync – notice de confidentialité",
-  updated: "Mise à jour le 2026-10-14.",
+  updated: "Mise à jour le 2026-10-25.",
   backCompany: "Confidentialité de l’entreprise",
   backHome: "Accueil",
 }, [
@@ -520,20 +576,28 @@ addFleetPrivacy("fr", {
     "Service d’e-mail : envoi des e-mails",
     "Service de paiement : paiements ; données de carte seulement chez le service de paiement",
   ]},
-  { heading: "5. Conservation", paragraphs: [
+  { heading: "5. Assistant d’aide", paragraphs: [
+    "Le service comporte un assistant d’aide. Un bouton dans l’en-tête l’ouvre. Le panneau s’appelle Assistant d’aide.",
+    "La finalité est de répondre aux questions sur l’utilisation de l’application.",
+    "Sont traités le texte de la question que vous saisissez, les derniers tours de la même conversation et les identifiants de la personne et de l’organisation, afin d’appliquer les limites. La limite est de 20 questions par personne et par jour et de 300 questions par organisation et par mois.",
+    "Le contenu de la conversation n’est pas conservé. Pour les statistiques d’usage, seul le nombre de questions est conservé.",
+    "Les questions sont envoyées pour traitement à un prestataire de service d’IA. Le prestataire peut traiter les données en dehors de l’Union européenne. Le transfert est protégé par des clauses contractuelles types.",
+    "N’écrivez pas de données personnelles ou confidentielles dans les questions.",
+  ]},
+  { heading: "6. Conservation", paragraphs: [
     "Les données sont conservées tant que l’abonnement est actif.",
     "Les éléments archivés restent comme historique.",
     "Les données sont effacées sur demande ou après la fin de l’abonnement. Les données de facturation exigées par la loi comptable sont conservées.",
   ]},
-  { heading: "6. Droits de la personne", paragraphs: [
+  { heading: "7. Droits de la personne", paragraphs: [
     "Vous pouvez demander l’accès, la rectification ou l’effacement, limiter le traitement, recevoir une copie et vous opposer lorsque la base le permet.",
     "Pour les données d’un salarié, l’entreprise employeuse est responsable du traitement. Commencez par elle. IqSoftCore aide l’entreprise cliente à répondre.",
     "Une demande s’envoie à jarno@iqsoftcore.fi.",
   ]},
-  { heading: "7. Cookies", paragraphs: [
+  { heading: "8. Cookies", paragraphs: [
     "Le service utilise seulement les cookies de session et d’organisation nécessaires. Il n’utilise pas de cookies d’analyse ou de publicité.",
   ]},
-  { heading: "8. Contact et réclamation", paragraphs: [
+  { heading: "9. Contact et réclamation", paragraphs: [
     "jarno@iqsoftcore.fi",
     "Vous pouvez introduire une réclamation auprès de l’autorité finlandaise de protection des données (Tietosuojavaltuutettu) : tietosuoja.fi.",
   ]},
@@ -543,7 +607,7 @@ addFleetPrivacy("es", {
   metaTitle: "iqFleetSync – Aviso de privacidad | IQSoftCore",
   metaDescription: "Aviso de privacidad de iqFleetSync. Responsable, encargado, datos, fines, subencargados y derechos.",
   title: "iqFleetSync – aviso de privacidad",
-  updated: "Actualizado el 2026-10-14.",
+  updated: "Actualizado el 2026-10-25.",
   backCompany: "Privacidad de la empresa",
   backHome: "Inicio",
 }, [
@@ -577,20 +641,28 @@ addFleetPrivacy("es", {
     "Servicio de correo: envío de correo",
     "Servicio de pago: pagos; los datos de la tarjeta solo en el servicio de pago",
   ]},
-  { heading: "5. Conservación", paragraphs: [
+  { heading: "5. Asistente de ayuda", paragraphs: [
+    "El servicio tiene un asistente de ayuda. Un botón de la cabecera lo abre. El panel se llama Asistente de ayuda.",
+    "La finalidad es responder a preguntas sobre el uso de la aplicación.",
+    "Se tratan el texto de la pregunta que escribe, los turnos recientes de la misma conversación y los identificadores de la persona y de la organización, para aplicar los límites. El límite es de 20 preguntas por persona y día y de 300 preguntas por organización y mes.",
+    "El contenido de la conversación no se guarda. Para las estadísticas de uso solo se guarda el número de preguntas.",
+    "Las preguntas se envían a un proveedor de un servicio de IA para su tratamiento. El proveedor puede tratar los datos fuera de la Unión Europea. La transferencia está protegida por cláusulas contractuales tipo.",
+    "No escriba datos personales ni confidenciales en las preguntas.",
+  ]},
+  { heading: "6. Conservación", paragraphs: [
     "Los datos se conservan mientras la suscripción está activa.",
     "Los elementos archivados se conservan como historial.",
     "Los datos se borran si se pide o cuando termina la suscripción. Se conservan los datos de facturación que exige la ley contable.",
   ]},
-  { heading: "6. Derechos de la persona", paragraphs: [
+  { heading: "7. Derechos de la persona", paragraphs: [
     "Puede pedir acceso, rectificación o supresión, limitar el tratamiento, recibir una copia y oponerse cuando la base lo permita.",
     "En los datos de un empleado, la empresa empleadora es la responsable. Empiece por ella. IqSoftCore ayuda a la empresa cliente a responder.",
     "Una solicitud se envía a jarno@iqsoftcore.fi.",
   ]},
-  { heading: "7. Cookies", paragraphs: [
+  { heading: "8. Cookies", paragraphs: [
     "El servicio usa solo las cookies necesarias de sesión y de organización. No usa cookies de analítica ni de publicidad.",
   ]},
-  { heading: "8. Contacto y reclamación", paragraphs: [
+  { heading: "9. Contacto y reclamación", paragraphs: [
     "jarno@iqsoftcore.fi",
     "Puede reclamar ante la autoridad finlandesa de protección de datos (Tietosuojavaltuutettu): tietosuoja.fi.",
   ]},
@@ -600,7 +672,7 @@ addFleetPrivacy("pt", {
   metaTitle: "iqFleetSync – Aviso de privacidade | IQSoftCore",
   metaDescription: "Aviso de privacidade do iqFleetSync. Responsável, subcontratante, dados, finalidades, subcontratantes e direitos.",
   title: "iqFleetSync – aviso de privacidade",
-  updated: "Atualizado em 2026-10-14.",
+  updated: "Atualizado em 2026-10-25.",
   backCompany: "Privacidade da empresa",
   backHome: "Início",
 }, [
@@ -634,20 +706,28 @@ addFleetPrivacy("pt", {
     "Serviço de e-mail: envio de e-mail",
     "Serviço de pagamento: pagamentos; dados do cartão só no serviço de pagamento",
   ]},
-  { heading: "5. Conservação", paragraphs: [
+  { heading: "5. Assistente de apoio", paragraphs: [
+    "O serviço tem um assistente de apoio. Um botão no cabeçalho abre-o. O painel chama-se Assistente de apoio.",
+    "A finalidade é responder a perguntas sobre a utilização da aplicação.",
+    "São tratados o texto da pergunta que escreve, as últimas voltas da mesma conversa e os identificadores da pessoa e da organização, para aplicar os limites. O limite é de 20 perguntas por pessoa e por dia e de 300 perguntas por organização e por mês.",
+    "O conteúdo da conversa não é guardado. Para estatísticas de utilização guarda-se apenas o número de perguntas.",
+    "As perguntas são enviadas para tratamento a um prestador de um serviço de IA. O prestador pode tratar os dados fora da União Europeia. A transferência é protegida por cláusulas contratuais-tipo.",
+    "Não escreva dados pessoais nem confidenciais nas perguntas.",
+  ]},
+  { heading: "6. Conservação", paragraphs: [
     "Os dados são conservados enquanto a subscrição está ativa.",
     "Os itens arquivados ficam como histórico.",
     "Os dados são apagados a pedido ou depois de a subscrição terminar. Ficam os dados de faturação que a lei contabilística exige.",
   ]},
-  { heading: "6. Direitos da pessoa", paragraphs: [
+  { heading: "7. Direitos da pessoa", paragraphs: [
     "Pode pedir acesso, retificação ou apagamento, limitar o tratamento, receber uma cópia e opor-se quando a base o permitir.",
     "Nos dados de um trabalhador, a empresa empregadora é a responsável. Comece por ela. A IqSoftCore ajuda a empresa cliente a responder.",
     "Um pedido envia-se para jarno@iqsoftcore.fi.",
   ]},
-  { heading: "7. Cookies", paragraphs: [
+  { heading: "8. Cookies", paragraphs: [
     "O serviço usa só os cookies necessários de sessão e de organização. Não usa cookies de análise nem de publicidade.",
   ]},
-  { heading: "8. Contacto e reclamação", paragraphs: [
+  { heading: "9. Contacto e reclamação", paragraphs: [
     "jarno@iqsoftcore.fi",
     "Pode reclamar junto da autoridade finlandesa de proteção de dados (Tietosuojavaltuutettu): tietosuoja.fi.",
   ]},
@@ -657,7 +737,7 @@ addFleetPrivacy("it", {
   metaTitle: "iqFleetSync – Informativa privacy | IQSoftCore",
   metaDescription: "Informativa privacy di iqFleetSync. Titolare, responsabile, dati, finalità, sub-responsabili e diritti.",
   title: "iqFleetSync – informativa privacy",
-  updated: "Aggiornata il 2026-10-14.",
+  updated: "Aggiornata il 2026-10-25.",
   backCompany: "Privacy dell’azienda",
   backHome: "Home",
 }, [
@@ -691,20 +771,28 @@ addFleetPrivacy("it", {
     "Servizio e-mail: invio delle e-mail",
     "Servizio di pagamento: pagamenti; dati della carta solo presso il servizio di pagamento",
   ]},
-  { heading: "5. Conservazione", paragraphs: [
+  { heading: "5. Assistente di supporto", paragraphs: [
+    "Il servizio ha un assistente di supporto. Un pulsante nell’intestazione lo apre. Il pannello si chiama Assistente di supporto.",
+    "La finalità è rispondere a domande sull’uso dell’app.",
+    "Sono trattati il testo della domanda inserita, gli ultimi turni della stessa conversazione e gli identificativi della persona e dell’organizzazione, per applicare i limiti. Il limite è di 20 domande per persona al giorno e di 300 domande per organizzazione al mese.",
+    "Il contenuto della conversazione non viene conservato. Per le statistiche d’uso si conserva solo il numero di domande.",
+    "Le domande sono inviate per il trattamento a un fornitore di un servizio di IA. Il fornitore può trattare i dati al di fuori dell’Unione europea. Il trasferimento è protetto da clausole contrattuali standard.",
+    "Nelle domande non vanno inseriti dati personali o riservati.",
+  ]},
+  { heading: "6. Conservazione", paragraphs: [
     "I dati sono conservati finché l’abbonamento è attivo.",
     "Gli elementi archiviati restano come storico.",
     "I dati sono cancellati su richiesta o dopo la fine dell’abbonamento. Restano i dati di fatturazione richiesti dalla legge contabile.",
   ]},
-  { heading: "6. Diritti della persona", paragraphs: [
+  { heading: "7. Diritti della persona", paragraphs: [
     "Può chiedere accesso, rettifica o cancellazione, limitare il trattamento, ricevere una copia e opporsi quando la base lo consente.",
     "Per i dati di un dipendente, l’azienda datrice è titolare. Inizi da lei. IqSoftCore aiuta l’azienda cliente a rispondere.",
     "Una richiesta si invia a jarno@iqsoftcore.fi.",
   ]},
-  { heading: "7. Cookie", paragraphs: [
+  { heading: "8. Cookie", paragraphs: [
     "Il servizio usa solo i cookie necessari di sessione e di organizzazione. Non usa cookie di analisi o pubblicità.",
   ]},
-  { heading: "8. Contatto e reclamo", paragraphs: [
+  { heading: "9. Contatto e reclamo", paragraphs: [
     "jarno@iqsoftcore.fi",
     "Può proporre reclamo al Garante finlandese (Tietosuojavaltuutettu): tietosuoja.fi.",
   ]},
@@ -714,7 +802,7 @@ addFleetPrivacy("pl", {
   metaTitle: "iqFleetSync – Informacja o prywatności | IQSoftCore",
   metaDescription: "Informacja o prywatności iqFleetSync. Administrator, podmiot przetwarzający, dane, cele, podmioty i prawa.",
   title: "iqFleetSync – informacja o prywatności",
-  updated: "Aktualizacja 2026-10-14.",
+  updated: "Aktualizacja 2026-10-25.",
   backCompany: "Prywatność firmy",
   backHome: "Strona główna",
 }, [
@@ -748,20 +836,28 @@ addFleetPrivacy("pl", {
     "Usługa e-mail: wysyłka e-mail",
     "Usługa płatności: płatności; dane karty tylko u usługi płatności",
   ]},
-  { heading: "5. Przechowywanie", paragraphs: [
+  { heading: "5. Asystent wsparcia", paragraphs: [
+    "Usługa ma asystenta wsparcia. Przycisk w nagłówku go otwiera. Panel nazywa się Asystent wsparcia.",
+    "Celem jest odpowiadanie na pytania o korzystanie z aplikacji.",
+    "Przetwarzany jest tekst pytania, ostatnie tury tej samej rozmowy oraz identyfikatory osoby i organizacji, aby stosować limity. Limit to 20 pytań na osobę na dobę i 300 pytań na organizację na miesiąc.",
+    "Treść rozmowy nie jest zapisywana. Do statystyk użycia zapisywana jest tylko liczba pytań.",
+    "Pytania są wysyłane do przetwarzania do dostawcy usługi AI. Dostawca może przetwarzać dane poza Unią Europejską. Przekazanie jest chronione standardowymi klauzulami umownymi.",
+    "Nie wpisuj w pytaniach danych osobowych ani poufnych.",
+  ]},
+  { heading: "6. Przechowywanie", paragraphs: [
     "Dane są przechowywane, gdy subskrypcja jest aktywna.",
     "Zarchiwizowane pozycje zostają jako historia.",
     "Dane są usuwane na żądanie albo po zakończeniu subskrypcji. Zostają dane fakturowe, których wymaga prawo księgowe.",
   ]},
-  { heading: "6. Prawa osoby", paragraphs: [
+  { heading: "7. Prawa osoby", paragraphs: [
     "Można prosić o dostęp, sprostowanie albo usunięcie, ograniczenie przetwarzania, kopię i sprzeciw, gdy podstawa na to pozwala.",
     "Przy danych pracownika administratorem jest firma pracodawcy. Zacznij od niej. IqSoftCore pomaga firmie klienta odpowiedzieć.",
     "Wniosek wysyła się na jarno@iqsoftcore.fi.",
   ]},
-  { heading: "7. Pliki cookie", paragraphs: [
+  { heading: "8. Pliki cookie", paragraphs: [
     "Usługa używa tylko niezbędnych plików cookie sesji i organizacji. Nie używa plików analitycznych ani reklamowych.",
   ]},
-  { heading: "8. Kontakt i skarga", paragraphs: [
+  { heading: "9. Kontakt i skarga", paragraphs: [
     "jarno@iqsoftcore.fi",
     "Można złożyć skargę do fińskiego organu ochrony danych (Tietosuojavaltuutettu): tietosuoja.fi.",
   ]},
@@ -771,7 +867,7 @@ addFleetPrivacy("cs", {
   metaTitle: "iqFleetSync – Informace o ochraně soukromí | IQSoftCore",
   metaDescription: "Informace o ochraně soukromí iqFleetSync. Správce, zpracovatel, údaje, účely, další zpracovatelé a práva.",
   title: "iqFleetSync – informace o ochraně soukromí",
-  updated: "Aktualizováno 2026-10-14.",
+  updated: "Aktualizováno 2026-10-25.",
   backCompany: "Soukromí firmy",
   backHome: "Domů",
 }, [
@@ -805,20 +901,28 @@ addFleetPrivacy("cs", {
     "E-mailová služba: odesílání e-mailu",
     "Platební služba: platby; údaje karty jen u platební služby",
   ]},
-  { heading: "5. Uchování", paragraphs: [
+  { heading: "5. Asistent podpory", paragraphs: [
+    "Služba má asistenta podpory. Tlačítko v záhlaví ho otevře. Panel se jmenuje Asistent podpory.",
+    "Účelem je odpovídat na otázky o používání aplikace.",
+    "Zpracovává se text otázky, poslední kroky téže konverzace a identifikátory osoby a organizace, aby šlo uplatnit limity. Limit je 20 otázek na osobu a den a 300 otázek na organizaci a měsíc.",
+    "Obsah konverzace se neukládá. Pro statistiku používání se ukládá jen počet otázek.",
+    "Otázky se k zpracování posílají poskytovateli služby AI. Poskytovatel může údaje zpracovávat mimo Evropskou unii. Předání je chráněno standardními smluvními doložkami.",
+    "Do otázek nepište osobní ani důvěrné údaje.",
+  ]},
+  { heading: "6. Uchování", paragraphs: [
     "Údaje se uchovávají, dokud je předplatné aktivní.",
     "Archivované položky zůstávají jako historie.",
     "Údaje se smažou na žádost nebo po skončení předplatného. Zůstanou fakturační údaje, které vyžaduje účetní zákon.",
   ]},
-  { heading: "6. Práva osoby", paragraphs: [
+  { heading: "7. Práva osoby", paragraphs: [
     "Můžete žádat o přístup, opravu nebo výmaz, omezení zpracování, kopii a námitku, pokud to základ dovoluje.",
     "U údajů zaměstnance je správcem zaměstnavatelská firma. Začněte u ní. IqSoftCore pomůže zákaznické firmě odpovědět.",
     "Žádost se posílá na jarno@iqsoftcore.fi.",
   ]},
-  { heading: "7. Cookies", paragraphs: [
+  { heading: "8. Cookies", paragraphs: [
     "Služba používá jen nezbytné cookies relace a organizace. Nepoužívá analytické ani reklamní cookies.",
   ]},
-  { heading: "8. Kontakt a stížnost", paragraphs: [
+  { heading: "9. Kontakt a stížnost", paragraphs: [
     "jarno@iqsoftcore.fi",
     "Stížnost můžete podat finskému úřadu pro ochranu údajů (Tietosuojavaltuutettu): tietosuoja.fi.",
   ]},
@@ -828,7 +932,7 @@ addFleetPrivacy("ja", {
   metaTitle: "iqFleetSync – プライバシー通知 | IQSoftCore",
   metaDescription: "iqFleetSyncのプライバシー通知。管理者、処理者、データ、目的、委託先、権利。",
   title: "iqFleetSync – プライバシー通知",
-  updated: "更新日 2026-10-14。",
+  updated: "更新日 2026-10-25。",
   backCompany: "会社のプライバシー",
   backHome: "ホーム",
 }, [
@@ -862,20 +966,28 @@ addFleetPrivacy("ja", {
     "メールサービス：メール送信",
     "決済サービス：支払い。カード情報は決済サービスのみ",
   ]},
-  { heading: "5. 保存", paragraphs: [
+  { heading: "5. サポートアシスタント", paragraphs: [
+    "サービスにはサポートアシスタントがあります。ヘッダーのボタンで開きます。パネルの名前はサポートアシスタントです。",
+    "目的は、アプリの使い方に関する質問に答えることです。",
+    "入力した質問文、同じ会話の直近のやりとり、および上限のための利用者と組織の識別子を処理します。上限は利用者ごとに1日20件、組織ごとに1か月300件です。",
+    "会話の内容は保存しません。利用統計として保存するのは質問の件数だけです。",
+    "質問は処理のためAIサービスの提供者に送られます。提供者はEU域外でデータを処理することがあります。移転は標準契約条項で保護されます。",
+    "質問に個人データや機密データを入力しないでください。",
+  ]},
+  { heading: "6. 保存", paragraphs: [
     "契約が有効な間、データを保存します。",
     "アーカイブした項目は履歴として残します。",
     "請求があったとき、または契約が終わったあとに削除します。会計法が求める請求データは残します。",
   ]},
-  { heading: "6. 本人の権利", paragraphs: [
+  { heading: "7. 本人の権利", paragraphs: [
     "アクセス、訂正、削除、処理の制限、写しの受け取り、根拠が許す範囲での異議を求められます。",
     "従業員のデータでは、雇用主である企業が管理者です。まずそちらに連絡してください。IqSoftCoreは顧客企業の回答を助けます。",
     "請求は jarno@iqsoftcore.fi へ送ります。",
   ]},
-  { heading: "7. Cookie", paragraphs: [
+  { heading: "8. Cookie", paragraphs: [
     "サービスは、必要なセッション用と組織用のCookieだけを使います。分析や広告のCookieは使いません。",
   ]},
-  { heading: "8. 連絡と苦情", paragraphs: [
+  { heading: "9. 連絡と苦情", paragraphs: [
     "jarno@iqsoftcore.fi",
     "フィンランドのデータ保護オンブズマン（Tietosuojavaltuutettu）に苦情を出せます：tietosuoja.fi。",
   ]},
@@ -885,7 +997,7 @@ addFleetPrivacy("ko", {
   metaTitle: "iqFleetSync – 개인정보 안내 | IQSoftCore",
   metaDescription: "iqFleetSync 개인정보 안내. 관리자, 처리자, 데이터, 목적, 수탁자, 권리.",
   title: "iqFleetSync – 개인정보 안내",
-  updated: "업데이트 2026-10-14.",
+  updated: "업데이트 2026-10-25.",
   backCompany: "회사 개인정보",
   backHome: "홈",
 }, [
@@ -919,20 +1031,28 @@ addFleetPrivacy("ko", {
     "이메일 서비스: 이메일 발송",
     "결제 서비스: 결제. 카드 정보는 결제 서비스만",
   ]},
-  { heading: "5. 보관", paragraphs: [
+  { heading: "5. 지원 도우미", paragraphs: [
+    "서비스에 지원 도우미가 있습니다. 머리글의 버튼으로 엽니다. 패널 이름은 지원 도우미입니다.",
+    "목적은 앱 사용에 관한 질문에 답하는 것입니다.",
+    "입력한 질문 문구, 같은 대화의 최근 주고받은 내용, 그리고 한도를 위한 사용자와 조직 식별자가 처리됩니다. 한도는 사용자당 하루 20건, 조직당 한 달 300건입니다.",
+    "대화 내용은 저장하지 않습니다. 이용 통계로는 질문 횟수만 저장합니다.",
+    "질문은 처리를 위해 AI 서비스 제공자에게 전송됩니다. 제공자는 EU 밖에서 데이터를 처리할 수 있습니다. 이전은 표준계약조항으로 보호됩니다.",
+    "질문에는 개인정보나 기밀 정보를 입력하지 마십시오.",
+  ]},
+  { heading: "6. 보관", paragraphs: [
     "구독이 유지되는 동안 데이터를 보관합니다.",
     "보관한 항목은 이력으로 남깁니다.",
     "요청이 있거나 구독이 끝나면 삭제합니다. 회계법이 요구하는 청구 데이터는 남깁니다.",
   ]},
-  { heading: "6. 정보주체의 권리", paragraphs: [
+  { heading: "7. 정보주체의 권리", paragraphs: [
     "열람, 정정, 삭제, 처리 제한, 사본, 그리고 근거가 허용할 때의 반대를 요청할 수 있습니다.",
     "직원 데이터에서는 고용주 회사가 관리자입니다. 먼저 그곳에 요청하세요. IqSoftCore는 고객 회사의 답변을 돕습니다.",
     "요청은 jarno@iqsoftcore.fi 로 보냅니다.",
   ]},
-  { heading: "7. 쿠키", paragraphs: [
+  { heading: "8. 쿠키", paragraphs: [
     "서비스는 필요한 세션 쿠키와 조직 쿠키만 씁니다. 분석이나 광고 쿠키는 쓰지 않습니다.",
   ]},
-  { heading: "8. 연락과 이의", paragraphs: [
+  { heading: "9. 연락과 이의", paragraphs: [
     "jarno@iqsoftcore.fi",
     "핀란드 개인정보 감독기관(Tietosuojavaltuutettu)에 이의를 제기할 수 있습니다: tietosuoja.fi.",
   ]},
@@ -942,7 +1062,7 @@ addFleetPrivacy("zh", {
   metaTitle: "iqFleetSync – 隐私说明 | IQSoftCore",
   metaDescription: "iqFleetSync 隐私说明。控制者、处理者、数据、目的、次处理者和权利。",
   title: "iqFleetSync – 隐私说明",
-  updated: "更新于 2026-10-14。",
+  updated: "更新于 2026-10-25。",
   backCompany: "公司隐私",
   backHome: "首页",
 }, [
@@ -976,20 +1096,28 @@ addFleetPrivacy("zh", {
     "电子邮件服务：发送电子邮件",
     "支付服务：付款；卡数据只在支付服务",
   ]},
-  { heading: "5. 保存", paragraphs: [
+  { heading: "5. 支持助手", paragraphs: [
+    "服务中有支持助手。页眉中的按钮可打开它。面板名称为支持助手。",
+    "目的是回答关于如何使用应用的问题。",
+    "为执行限额，会处理所输入的问题文本、同一对话的最近几轮，以及用户和组织标识。限额为每位用户每天 20 个问题，每个组织每月 300 个问题。",
+    "不保存对话内容。使用统计只保存问题次数。",
+    "问题会发送给人工智能服务提供方处理。提供方可能在欧盟以外处理数据。传输受标准合同条款保护。",
+    "请勿在问题中输入个人数据或保密数据。",
+  ]},
+  { heading: "6. 保存", paragraphs: [
     "订阅有效期间保存数据。",
     "已归档的项目作为历史保留。",
     "应要求或在订阅结束后删除。会计法要求的账单数据会保留。",
   ]},
-  { heading: "6. 本人权利", paragraphs: [
+  { heading: "7. 本人权利", paragraphs: [
     "可以请求访问、更正或删除，限制处理，取得副本，并在依据允许时提出反对。",
     "员工数据的控制者是雇主公司。请先联系雇主。IqSoftCore 协助客户公司回复。",
     "请求发到 jarno@iqsoftcore.fi。",
   ]},
-  { heading: "7. Cookie", paragraphs: [
+  { heading: "8. Cookie", paragraphs: [
     "服务只使用必要的会话 Cookie 和组织 Cookie。不使用分析或广告 Cookie。",
   ]},
-  { heading: "8. 联系和投诉", paragraphs: [
+  { heading: "9. 联系和投诉", paragraphs: [
     "jarno@iqsoftcore.fi",
     "可以向芬兰数据保护监察专员（Tietosuojavaltuutettu）投诉：tietosuoja.fi。",
   ]},
