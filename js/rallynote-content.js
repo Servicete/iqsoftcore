@@ -265,6 +265,54 @@ const RALLY_PAGE = {
     contact: "联系我们",
     backApps: "全部应用",
   },
+  et: {
+    metaTitle: "iqRallyNote | IQSoftCore",
+    metaDescription: "iqRallyNote on Androidi tahvelrakendus ralli pacenote’ide muutmiseks. Sisu jääb seadmesse.",
+    lead: "iqRallyNote on Androidi tahvelrakendus ralli pacenote’ide (pace notes) muutmiseks.",
+    featuresHeading: "Kasutus",
+    features: [
+      "Recce hääldikteerimisega.",
+      "Oma sümbolite kogu.",
+      "Võistlusrežiim.",
+      "PDF-eksport.",
+    ],
+    body: "Rakendus töötab peamiselt ilma kasutajakontota. Märkmed, katsed ja muu sisu jäävad kasutaja seadmesse. IQSoftCore ei kogu märkmeid, fotosid, videoid ega asukohaandmeid oma serveritesse.",
+    missing: "Sellel lehel ei ole allalaadimislinki ega avaldatud hinda. Kui tarbijahind avaldatakse, näidatakse seda koos käibemaksuga.",
+    contact: "Võtke ühendust",
+    backApps: "Kõik rakendused",
+  },
+  lv: {
+    metaTitle: "iqRallyNote | IQSoftCore",
+    metaDescription: "iqRallyNote ir Android planšetdatora lietotne rallija piezīmju rediģēšanai. Saturs paliek ierīcē.",
+    lead: "iqRallyNote ir Android planšetdatora lietotne rallija piezīmju (pace notes) rediģēšanai.",
+    featuresHeading: "Lietojums",
+    features: [
+      "Recce ar balss diktēšanu.",
+      "Pašu simbolu bibliotēka.",
+      "Sacensību režīms.",
+      "PDF eksports.",
+    ],
+    body: "Lietotne darbojas galvenokārt bez lietotāja konta. Piezīmes, ātrumposmi un cits saturs paliek lietotāja ierīcē. IQSoftCore neievāc piezīmes, foto, video vai atrašanās vietas datus savos serveros.",
+    missing: "Šajā lapā nav lejupielādes saites un nav publicētas cenas. Publicētu patērētāja cenu rāda ar PVN.",
+    contact: "Sazināties",
+    backApps: "Visas lietotnes",
+  },
+  lt: {
+    metaTitle: "iqRallyNote | IQSoftCore",
+    metaDescription: "iqRallyNote yra Android planšetės programa ralio užrašams redaguoti. Turinys lieka įrenginyje.",
+    lead: "iqRallyNote yra Android planšetės programa ralio užrašams (pace notes) redaguoti.",
+    featuresHeading: "Naudojimas",
+    features: [
+      "Recce diktuojant balsu.",
+      "Sava simbolių biblioteka.",
+      "Varžybų režimas.",
+      "PDF eksportas.",
+    ],
+    body: "Programa veikia daugiausia be naudotojo paskyros. Užrašai, greičio ruožai ir kitas turinys lieka naudotojo įrenginyje. IQSoftCore nerenka užrašų, nuotraukų, vaizdo įrašų ar vietos duomenų į savo serverius.",
+    missing: "Šiame puslapyje nėra atsisiuntimo nuorodos ir paskelbtos kainos. Paskelbta vartotojo kaina rodoma su PVM.",
+    contact: "Susisiekti",
+    backApps: "Visos programos",
+  },
 };
 
 function escapeRallyHtml(value) {
@@ -292,6 +340,9 @@ const RALLY_PRIVACY_LINK = {
   ja: "プライバシーポリシー",
   ko: "개인정보 처리방침",
   zh: "隐私政策",
+  et: "Andmekaitse",
+  lv: "Privātuma politika",
+  lt: "Privatumo politika",
 };
 
 const RALLY_OG_LOCALE = {
@@ -311,6 +362,9 @@ const RALLY_OG_LOCALE = {
   ja: "ja_JP",
   ko: "ko_KR",
   zh: "zh_CN",
+  et: "et_EE",
+  lv: "lv_LV",
+  lt: "lt_LT",
 };
 
 function syncRallySocial(lang, title, description) {

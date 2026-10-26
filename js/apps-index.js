@@ -270,6 +270,16 @@ function renderAppsPage(lang) {
 
   const metaDesc = document.querySelector('meta[name="description"]');
   if (metaDesc && page.metaDescription) metaDesc.setAttribute("content", page.metaDescription);
+  const socialLocale = typeof OG_LOCALE !== "undefined" && OG_LOCALE[lang] ? OG_LOCALE[lang] : "fi_FI";
+  const setSocial = (selector, value) => {
+    const el = document.querySelector(selector);
+    if (el && value) el.setAttribute("content", value);
+  };
+  setSocial('meta[property="og:title"]', page.metaTitle);
+  setSocial('meta[property="og:description"]', page.metaDescription);
+  setSocial('meta[name="twitter:title"]', page.metaTitle);
+  setSocial('meta[name="twitter:description"]', page.metaDescription);
+  setSocial('meta[property="og:locale"]', socialLocale);
 
   const productIcons = {
     "tuntilappu.html": "assets/iqworklog-icon.svg",

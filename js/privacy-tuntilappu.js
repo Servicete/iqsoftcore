@@ -1411,4 +1411,154 @@ PRIVACY_POLICIES.tuntilappu = {
     backCompany: "公司隐私政策",
     backHome: "返回首页",
   },
+  et: {
+    metaTitle: "{app} – Andmekaitse | IQSoftCore",
+    metaDescription: "iqWorkLog™ rakenduse andmekaitse. Andmed jäävad kasutaja seadmesse.",
+    title: "Andmekaitse – {app}",
+    updated: "Viimati uuendatud: 2026-08-05",
+    sections: [
+      { heading: "1. Üldist", paragraphs: [
+        "Need andmekaitsetingimused kirjeldavad, kuidas rakendus iqWorkLog™ (endine Tuntilappu) kasutajaandmeid töötleb. Vastutav töötleja on toiminimi IqSoftCore, Y-tunnus 3658340-4, Siihtalantie 56, 62710 Kurejoki, Soome.",
+        "Rakendus on tehtud nii, et see ei kogu, salvesta, jaga ega töötle serverites ühtegi isikuandmet. Kõik rakenduse loodud andmed salvestatakse ainult kasutaja enda seadmesse. Rakendust saab kasutada ilma registreerimise, sisselogimise ja kasutajakontota.",
+      ]},
+      { heading: "2. Andmed, mida me ei kogu", paragraphs: ["Rakendus ei kogu järgmist:"], bullets: [
+        "isikuandmed (nimi, e-post, telefoninumber, aadress)",
+        "asukohaandmed",
+        "seadme tunnused",
+        "analüütikaandmed",
+        "kasutusandmed",
+        "pilvesalvestuse andmed",
+        "küpsised",
+      ], after: ["Rakendus ei saada andmeid välistele serveritele."] },
+      { heading: "3. Seadmesse salvestatavad andmed", paragraphs: ["Rakendus salvestab ainult kasutaja enda sisestatud sisu, näiteks:"], bullets: [
+        "tunnikirjed",
+        "töömärkmed",
+        "PDF-aruanded",
+        "sätted (keel, ettevõtte andmed)",
+      ], after: ["Kõik andmed salvestatakse ainult kasutaja seadmesse. Kasutaja saab andmed igal ajal kustutada, eemaldades rakenduse või tühjendades rakenduse andmed seadme sätetes."] },
+      { heading: "4. Maksed", paragraphs: [
+        "Rakenduse saab alla laadida tasuta. See sisaldab 14-päevast prooviperioodi. Pärast prooviperioodi jätkub kasutus ühekordse rakendusesisese ostuna rakendusepoes. Makse võtab vastu rakendusepoe makseteenus. Rakendus ei salvesta makseandmeid. Rakendusepoe makseteenus töötleb makset turvaliselt oma tingimuste järgi.",
+      ]},
+      { heading: "5. Kolmandate osapoolte teenused", paragraphs: [
+        "Rakendus ei kasuta reklaami, analüütikat ega kolmandate osapoolte teeke, mis andmeid koguvad, ega väliseid servereid ega pilvesalvestust.",
+      ]},
+      { heading: "6. PDF-failid", paragraphs: [
+        "PDF-aruanded luuakse seadmes ja neid ei saadeta kuhugi automaatselt. Kasutaja võib PDF-faili jagada nii, nagu ise valib (näiteks e-postiga).",
+      ]},
+      { heading: "7. Andmete kustutamine", paragraphs: [
+        "Kuna rakendus ei kogu isikuandmeid, saab kasutaja kõik rakenduse salvestatud andmed kustutada, eemaldades rakenduse või tühjendades selle andmed seadme sätetes.",
+      ]},
+      { heading: "8. Laste andmekaitse", paragraphs: [
+        "Rakendus ei kogu isikuandmeid, seega on see ohutu kõikidele kasutajarühmadele.",
+      ]},
+      { heading: "9. Muudatused", paragraphs: [
+        "Andmekaitsetingimusi võidakse vajaduse korral uuendada. Uuendused avaldatakse rakenduses ja vajaduse korral veebilehel.",
+      ]},
+      { heading: "10. Kontakt", paragraphs: [
+        "Andmekaitse küsimused: info@iqsoftcore.fi",
+      ]},
+    ],
+    backCompany: "Ettevõtte andmekaitse",
+    backHome: "Tagasi avalehele",
+  },
+  lv: {
+    metaTitle: "{app} – Privātuma politika | IQSoftCore",
+    metaDescription: "iqWorkLog™ lietotnes privātuma politika. Dati paliek lietotāja ierīcē.",
+    title: "Privātuma politika – {app}",
+    updated: "Pēdējo reizi atjaunināta: 2026-08-05",
+    sections: [
+      { heading: "1. Vispārīgi", paragraphs: [
+        "Šī privātuma politika apraksta, kā lietotne iqWorkLog™ (agrāk Tuntilappu) apstrādā lietotāja datus. Pārzinis ir toiminimi IqSoftCore, Y-tunnus 3658340-4, Siihtalantie 56, 62710 Kurejoki, Somija.",
+        "Lietotne ir veidota tā, ka tā serveros neievāc, neglabā, neizpauž un neapstrādā personas datus. Visi lietotnes radītie dati tiek glabāti tikai lietotāja ierīcē. Lietotni var lietot bez reģistrācijas, pieteikšanās un lietotāja konta.",
+      ]},
+      { heading: "2. Dati, ko neievācam", paragraphs: ["Lietotne neievāc šādus datus:"], bullets: [
+        "personas dati (vārds, e-pasts, tālrunis, adrese)",
+        "atrašanās vietas dati",
+        "ierīces identifikatori",
+        "analītikas dati",
+        "lietojuma dati",
+        "mākoņkrātuves dati",
+        "sīkdatnes",
+      ], after: ["Lietotne nesūta datus uz ārējiem serveriem."] },
+      { heading: "3. Dati, kas glabājas ierīcē", paragraphs: ["Lietotne glabā tikai lietotāja ievadīto saturu, piemēram:"], bullets: [
+        "stundu ieraksti",
+        "darba piezīmes",
+        "PDF atskaites",
+        "iestatījumi (valoda, uzņēmuma dati)",
+      ], after: ["Visi dati glabājas tikai lietotāja ierīcē. Lietotājs datus var dzēst jebkurā laikā, atinstalējot lietotni vai notīrot tās datus ierīces iestatījumos."] },
+      { heading: "4. Maksājumi", paragraphs: [
+        "Lietotni var lejupielādēt bez maksas. Tajā ir 14 dienu izmēģinājums. Pēc izmēģinājuma lietošana turpinās ar vienreizēju pirkumu lietotnē lietotņu veikalā. Maksājumu saņem lietotņu veikala maksājumu pakalpojums. Lietotne maksājuma datus neglabā. Lietotņu veikala maksājumu pakalpojums maksājumu apstrādā droši saskaņā ar saviem noteikumiem.",
+      ]},
+      { heading: "5. Trešo personu pakalpojumi", paragraphs: [
+        "Lietotne neizmanto reklāmu, analītiku un trešo personu bibliotēkas, kas ievāc datus, un neizmanto ārējus serverus vai mākoņkrātuvi.",
+      ]},
+      { heading: "6. PDF faili", paragraphs: [
+        "PDF atskaites tiek veidotas ierīcē un nekur netiek sūtītas automātiski. Lietotājs PDF failu var kopīgot pēc savas izvēles (piemēram, e-pastā).",
+      ]},
+      { heading: "7. Datu dzēšana", paragraphs: [
+        "Tā kā lietotne neievāc personas datus, lietotājs visus lietotnes saglabātos datus var dzēst, atinstalējot lietotni vai notīrot tās datus ierīces iestatījumos.",
+      ]},
+      { heading: "8. Bērnu privātums", paragraphs: [
+        "Lietotne neievāc personas datus, tāpēc tā ir droša visām lietotāju grupām.",
+      ]},
+      { heading: "9. Izmaiņas", paragraphs: [
+        "Šo privātuma politiku var atjaunināt, kad tas vajadzīgs. Atjauninājumi tiek publicēti lietotnē un, ja piemērojams, tīmekļa vietnē.",
+      ]},
+      { heading: "10. Kontakti", paragraphs: [
+        "Jautājumi par privātumu: info@iqsoftcore.fi",
+      ]},
+    ],
+    backCompany: "Uzņēmuma privātuma politika",
+    backHome: "Atpakaļ uz sākumu",
+  },
+  lt: {
+    metaTitle: "{app} – Privatumo politika | IQSoftCore",
+    metaDescription: "iqWorkLog™ programos privatumo politika. Duomenys lieka naudotojo įrenginyje.",
+    title: "Privatumo politika – {app}",
+    updated: "Paskutinį kartą atnaujinta: 2026-08-05",
+    sections: [
+      { heading: "1. Bendrai", paragraphs: [
+        "Ši privatumo politika aprašo, kaip programa iqWorkLog™ (anksčiau Tuntilappu) tvarko naudotojo duomenis. Duomenų valdytojas yra toiminimi IqSoftCore, Y-tunnus 3658340-4, Siihtalantie 56, 62710 Kurejoki, Suomija.",
+        "Programa sukurta taip, kad serveriuose nerenka, nesaugo, neperduoda ir netvarko jokių asmens duomenų. Visi programos sukurti duomenys saugomi tik naudotojo įrenginyje. Programą galima naudoti be registracijos, prisijungimo ir naudotojo paskyros.",
+      ]},
+      { heading: "2. Duomenys, kurių nerenkame", paragraphs: ["Programa nerenka šių duomenų:"], bullets: [
+        "asmens duomenys (vardas, el. paštas, telefonas, adresas)",
+        "vietos duomenys",
+        "įrenginio identifikatoriai",
+        "analitikos duomenys",
+        "naudojimo duomenys",
+        "debesijos duomenys",
+        "slapukai",
+      ], after: ["Programa nesiunčia duomenų į išorinius serverius."] },
+      { heading: "3. Duomenys įrenginyje", paragraphs: ["Programa saugo tik naudotojo įvestą turinį, pavyzdžiui:"], bullets: [
+        "valandų įrašai",
+        "darbo pastabos",
+        "PDF ataskaitos",
+        "nustatymai (kalba, įmonės duomenys)",
+      ], after: ["Visi duomenys saugomi tik naudotojo įrenginyje. Naudotojas duomenis gali ištrinti bet kada, pašalindamas programą arba išvalydamas jos duomenis įrenginio nustatymuose."] },
+      { heading: "4. Mokėjimai", paragraphs: [
+        "Programą galima atsisiųsti nemokamai. Joje yra 14 dienų bandymas. Po bandymo naudojimas tęsiamas vienkartiniu pirkimu programoje, programų parduotuvėje. Mokėjimą gauna programų parduotuvės mokėjimo paslauga. Programa mokėjimo duomenų nesaugo. Programų parduotuvės mokėjimo paslauga mokėjimą tvarko saugiai pagal savo sąlygas.",
+      ]},
+      { heading: "5. Trečiųjų šalių paslaugos", paragraphs: [
+        "Programa nenaudoja reklamos, analitikos ir trečiųjų šalių bibliotekų, kurios renka duomenis, ir nenaudoja išorinių serverių ar debesijos.",
+      ]},
+      { heading: "6. PDF failai", paragraphs: [
+        "PDF ataskaitos kuriamos įrenginyje ir niekur nesiunčiamos automatiškai. Naudotojas PDF failą gali bendrinti kaip pats pasirenka (pavyzdžiui, el. paštu).",
+      ]},
+      { heading: "7. Duomenų trynimas", paragraphs: [
+        "Kadangi programa nerenka asmens duomenų, naudotojas visus programos išsaugotus duomenis gali ištrinti pašalindamas programą arba išvalydamas jos duomenis įrenginio nustatymuose.",
+      ]},
+      { heading: "8. Vaikų privatumas", paragraphs: [
+        "Programa nerenka asmens duomenų, todėl ji saugi visoms naudotojų grupėms.",
+      ]},
+      { heading: "9. Pakeitimai", paragraphs: [
+        "Šią privatumo politiką galima atnaujinti, kai reikia. Atnaujinimai skelbiami programoje ir, kai taikoma, svetainėje.",
+      ]},
+      { heading: "10. Kontaktai", paragraphs: [
+        "Privatumo klausimai: info@iqsoftcore.fi",
+      ]},
+    ],
+    backCompany: "Įmonės privatumo politika",
+    backHome: "Atgal į pradžią",
+  },
 };

@@ -644,6 +644,108 @@ const PRIVACY_POLICIES = {
       ],
       backHome: "返回首页",
     },
+    et: {
+      metaTitle: "IQSoftCore – Andmekaitse",
+      metaDescription: "IQSoftCore’i ettevõtte andmekaitsetingimused.",
+      title: "Andmekaitse",
+      updated: "Viimati uuendatud: 2026-10-14",
+      sections: [
+        {
+          heading: "1. Üldist",
+          paragraphs: [
+            "Need andmekaitsetingimused kirjeldavad, kuidas IQSoftCore töötleb isikuandmeid oma veebilehel ja ettevõtluses. Vastutav töötleja on toiminimi IqSoftCore, Y-tunnus 3658340-4, Siihtalantie 56, 62710 Kurejoki, Soome.",
+            "Üksikutel rakendustel (näiteks rakendusepoe kaudu levitatavatel) on oma andmekaitsetingimused, mis kirjeldavad selle rakenduse andmetöötlust täpsemalt.",
+          ],
+        },
+        {
+          heading: "2. Veebileht",
+          paragraphs: [
+            "Meie veebileht on staatiline tutvustusleht. Me ei kasuta analüütikat, reklaami ega jälgimisküpsiseid.",
+            "Kui võtate meiega e-posti teel ühendust, töötleme teie kirjas olevaid andmeid ainult päringu lahendamiseks. Me ei müü ega anna kontaktandmeid edasi kõrvaliste turunduseks.",
+          ],
+        },
+        {
+          heading: "3. Rakendused",
+          paragraphs: [
+            "iqWorkLog™ ja osa teisi rakendusi on tehtud nii, et andmed jäävad kasutaja enda seadmesse. iqFleetSync on veebiteenus. Iga rakenduse andmekaitse on selle rakenduse lehel.",
+          ],
+        },
+        { id: "iqfleetsync", heading: "iqFleetSync", paragraphs: [] },
+        {
+          heading: "4. Kontakt",
+          paragraphs: ["Andmekaitse küsimused: info@iqsoftcore.fi"],
+        },
+      ],
+      backHome: "Tagasi avalehele",
+    },
+    lv: {
+      metaTitle: "IQSoftCore – Privātuma politika",
+      metaDescription: "IQSoftCore uzņēmuma privātuma politika.",
+      title: "Privātuma politika",
+      updated: "Pēdējo reizi atjaunināta: 2026-10-14",
+      sections: [
+        {
+          heading: "1. Vispārīgi",
+          paragraphs: [
+            "Šī privātuma politika apraksta, kā IQSoftCore apstrādā personas datus savā tīmekļa vietnē un uzņēmējdarbībā. Pārzinis ir toiminimi IqSoftCore, Y-tunnus 3658340-4, Siihtalantie 56, 62710 Kurejoki, Somija.",
+            "Atsevišķām lietotnēm (piemēram, tām, ko izplata lietotņu veikalā) ir sava privātuma politika, kas šīs lietotnes datu apstrādi apraksta sīkāk.",
+          ],
+        },
+        {
+          heading: "2. Tīmekļa vietne",
+          paragraphs: [
+            "Mūsu tīmekļa vietne ir statiska iepazīstināšanas lapa. Mēs neizmantojam analītiku, reklāmu un izsekošanas sīkdatnes.",
+            "Ja sazināties ar mums e-pastā, apstrādājam vēstulē norādītos datus tikai pieprasījuma kārtošanai. Kontaktus nepārdodam un nenododam trešo personu mārketingam.",
+          ],
+        },
+        {
+          heading: "3. Lietotnes",
+          paragraphs: [
+            "iqWorkLog™ un daļa citu lietotņu ir veidotas tā, lai dati paliktu lietotāja ierīcē. iqFleetSync ir tīmekļa pakalpojums. Katrai lietotnei privātuma politika ir tās lapā.",
+          ],
+        },
+        { id: "iqfleetsync", heading: "iqFleetSync", paragraphs: [] },
+        {
+          heading: "4. Kontakti",
+          paragraphs: ["Jautājumi par privātumu: info@iqsoftcore.fi"],
+        },
+      ],
+      backHome: "Atpakaļ uz sākumu",
+    },
+    lt: {
+      metaTitle: "IQSoftCore – Privatumo politika",
+      metaDescription: "IQSoftCore įmonės privatumo politika.",
+      title: "Privatumo politika",
+      updated: "Paskutinį kartą atnaujinta: 2026-10-14",
+      sections: [
+        {
+          heading: "1. Bendrai",
+          paragraphs: [
+            "Ši privatumo politika aprašo, kaip IQSoftCore tvarko asmens duomenis savo svetainėje ir veikloje. Duomenų valdytojas yra toiminimi IqSoftCore, Y-tunnus 3658340-4, Siihtalantie 56, 62710 Kurejoki, Suomija.",
+            "Atskiros programos (pavyzdžiui, platinamos programų parduotuvėje) turi savo privatumo politiką, kuri tos programos duomenų tvarkymą aprašo išsamiau.",
+          ],
+        },
+        {
+          heading: "2. Svetainė",
+          paragraphs: [
+            "Mūsų svetainė yra statinis pristatymo puslapis. Nenaudojame analitikos, reklamos ir sekimo slapukų.",
+            "Jei susisiekiate el. paštu, laiške pateiktus duomenis tvarkome tik užklausai sutvarkyti. Kontaktų neparduodame ir neperduodame trečiųjų šalių rinkodarai.",
+          ],
+        },
+        {
+          heading: "3. Programos",
+          paragraphs: [
+            "iqWorkLog™ ir dalis kitų programų sukurtos taip, kad duomenys liktų naudotojo įrenginyje. iqFleetSync yra žiniatinklio paslauga. Kiekvienos programos privatumo politika yra tos programos puslapyje.",
+          ],
+        },
+        { id: "iqfleetsync", heading: "iqFleetSync", paragraphs: [] },
+        {
+          heading: "4. Kontaktai",
+          paragraphs: ["Privatumo klausimai: info@iqsoftcore.fi"],
+        },
+      ],
+      backHome: "Atgal į pradžią",
+    },
   },
 };
 
@@ -727,6 +829,16 @@ function renderPrivacyPolicy(lang) {
   if (metaDesc && metaDescription) {
     metaDesc.setAttribute("content", metaDescription);
   }
+  const socialLocale = typeof OG_LOCALE !== "undefined" && OG_LOCALE[lang] ? OG_LOCALE[lang] : "fi_FI";
+  const setSocial = (selector, value) => {
+    const el = document.querySelector(selector);
+    if (el && value) el.setAttribute("content", value);
+  };
+  setSocial('meta[property="og:title"]', metaTitle);
+  setSocial('meta[property="og:description"]', metaDescription);
+  setSocial('meta[name="twitter:title"]', metaTitle);
+  setSocial('meta[name="twitter:description"]', metaDescription);
+  setSocial('meta[property="og:locale"]', socialLocale);
 
   const showFleetNotice = policyId === "company" && window.location.hash === "#iqfleetsync";
   const sections = (policy.sections || []).filter((section) => showFleetNotice || section.id !== "iqfleetsync");
