@@ -20,12 +20,12 @@ const WORKSHOP_PAGE = {
       "Sama QR-tarra pysyy yksikössä. Yksikkö ja tarra jäävät omistajalle. Luotettu kumppani skannaa tarran ja avaa yksikön suoraan.",
       "Korjaamo, jota ei ole vielä luotettu, pyytää pääsyä omassa tilissään. Omistajan ylläpitäjä hyväksyy tai hylkää pyynnön.",
       "Omistaja voi antaa kertapääsyn, esimerkiksi 24 tunniksi tai yhdeksi työtilaukseksi, ja vierasnäkymän ilman tunnusta.",
-      "Kun jako perutaan, korjaamo ei enää näe yksikköä. Korjaamon omat historiarivit säilyvät.",
+      "Kun jako perutaan, yksikkö näkyy vain omistajalle. Korjaamon omat historiarivit säilyvät.",
     ],
     order: [
       "Omistaja osoittaa avoimen työn yhdelle kumppanikorjaamolle. Vain se korjaamo näkee työn.",
       "Korjaamo avaa työmääräimen ja kuittaa sen valmiiksi. Kuittaus sulkee viat ja lisää yhden rivin omistajan historiaan.",
-      "Sisäinen muistiinpano jää korjaamolle. Omistaja ei näe sitä.",
+      "Sisäinen muistiinpano näkyy vain korjaamolle.",
     ],
     managed: [
       "Korjaamo voi hallita yksiköitä asiakkaalle, joka ei vielä käytä iqFleetSync™-palvelua. Yksikkö merkitään korjaamon hallitsemaksi.",
@@ -67,12 +67,12 @@ const WORKSHOP_PAGE = {
       "Samma QR-dekal sitter kvar på enheten. Enheten och dekalen stannar hos ägaren. En betrodd partner skannar dekalen och öppnar enheten direkt.",
       "En verkstad som ännu inte är betrodd begär åtkomst i sitt eget konto. Ägarens administratör godkänner eller avslår begäran.",
       "Ägaren kan ge engångsåtkomst, till exempel i 24 timmar eller för en arbetsorder, och en gästvy utan konto.",
-      "När delningen återkallas ser verkstaden inte längre enheten. Verkstadens egna historikrader finns kvar.",
+      "När delningen återkallas är enheten synlig bara för ägaren. Verkstadens egna historikrader finns kvar.",
     ],
     order: [
       "Ägaren tilldelar ett öppet jobb till en partnerverkstad. Bara den verkstaden ser jobbet.",
       "Verkstaden öppnar arbetsordern och kvitterar den. Kvitteringen stänger felen och lägger till en rad i ägarens historik.",
-      "En intern anteckning stannar hos verkstaden. Ägaren ser den inte.",
+      "En intern anteckning är synlig bara för verkstaden.",
     ],
     managed: [
       "En verkstad kan hantera enheter åt en kund som ännu inte använder iqFleetSync™. Enheten märks som hanterad av verkstaden.",
@@ -114,12 +114,12 @@ const WORKSHOP_PAGE = {
       "Det samme QR-merket blir på enheten. Enheten og merket blir hos eieren. En betrodd partner skanner merket og åpner enheten direkte.",
       "Et verksted som ennå ikke er betrodd, ber om tilgang i sin egen konto. Eierens administrator godkjenner eller avslår forespørselen.",
       "Eieren kan gi engangstilgang, for eksempel i 24 timer eller for én arbeidsordre, og en gjestvisning uten konto.",
-      "Når delingen trekkes tilbake, ser ikke verkstedet enheten lenger. Verkstedets egne historierader blir værende.",
+      "Når delingen trekkes tilbake, er enheten synlig bare for eieren. Verkstedets egne historierader blir værende.",
     ],
     order: [
       "Eieren tildeler en åpen jobb til ett partnerverksted. Bare det verkstedet ser jobben.",
       "Verkstedet åpner arbeidsordren og kvitterer den. Kvitteringen lukker feilene og legger til én rad i eierens historikk.",
-      "Et internt notat blir hos verkstedet. Eieren ser det ikke.",
+      "Et internt notat er synlig bare for verkstedet.",
     ],
     managed: [
       "Et verksted kan administrere enheter for en kunde som ennå ikke bruker iqFleetSync™. Enheten merkes som administrert av verkstedet.",
@@ -161,12 +161,12 @@ const WORKSHOP_PAGE = {
       "Det samme QR-mærke bliver på enheden. Enheden og mærket bliver hos ejeren. En betroet partner scanner mærket og åbner enheden direkte.",
       "Et værksted, der endnu ikke er betroet, anmoder om adgang i sin egen konto. Ejerens administrator godkender eller afviser anmodningen.",
       "Ejeren kan give engangsadgang, for eksempel i 24 timer eller til én arbejdsordre, og en gæstevisning uden konto.",
-      "Når delingen trækkes tilbage, ser værkstedet ikke længere enheden. Værkstedets egne historikrækker bliver.",
+      "Når delingen trækkes tilbage, er enheden synlig kun for ejeren. Værkstedets egne historikrækker bliver.",
     ],
     order: [
       "Ejeren tildeler et åbent job til ét partnerværksted. Kun det værksted ser jobbet.",
       "Værkstedet åbner arbejdsordren og kvitterer den. Kvitteringen lukker fejlene og tilføjer én række i ejerens historik.",
-      "En intern note bliver hos værkstedet. Ejeren ser den ikke.",
+      "En intern note er synlig kun for værkstedet.",
     ],
     managed: [
       "Et værksted kan administrere enheder for en kunde, der endnu ikke bruger iqFleetSync™. Enheden mærkes som administreret af værkstedet.",
@@ -208,12 +208,12 @@ const WORKSHOP_PAGE = {
       "Derselbe QR-Aufkleber bleibt an der Einheit. Einheit und Aufkleber bleiben bei der Eigentümerseite. Eine vertraute Partnerwerkstatt scannt den Aufkleber und öffnet die Einheit direkt.",
       "Eine Werkstatt, die noch nicht vertraut ist, beantragt den Zugang im eigenen Konto. Die Administration der Eigentümerseite genehmigt oder lehnt den Antrag ab.",
       "Die Eigentümerseite kann einen einmaligen Zugang geben, zum Beispiel für 24 Stunden oder für einen Auftrag, und eine Gastansicht ohne Konto.",
-      "Wird die Freigabe widerrufen, sieht die Werkstatt die Einheit nicht mehr. Die eigenen Historieneinträge der Werkstatt bleiben.",
+      "Wird die Freigabe widerrufen, ist die Einheit nur für die Eigentümerseite sichtbar. Die eigenen Historieneinträge der Werkstatt bleiben.",
     ],
     order: [
       "Die Eigentümerseite weist eine offene Arbeit einer Partnerwerkstatt zu. Nur diese Werkstatt sieht die Arbeit.",
       "Die Werkstatt öffnet den Auftrag und schließt ihn ab. Der Abschluss schließt die Mängel und fügt einen Eintrag in der Historie der Eigentümerseite hinzu.",
-      "Eine interne Notiz bleibt bei der Werkstatt. Die Eigentümerseite sieht sie nicht.",
+      "Eine interne Notiz ist nur für die Werkstatt sichtbar.",
     ],
     managed: [
       "Eine Werkstatt kann Einheiten für Kundschaft führen, die iqFleetSync™ noch nicht nutzt. Die Einheit ist als von der Werkstatt geführt gekennzeichnet.",
@@ -255,12 +255,12 @@ const WORKSHOP_PAGE = {
       "The same QR sticker stays on the unit. The unit and the sticker remain with the owner. A trusted partner scans the sticker and opens the unit directly.",
       "A workshop that is not yet trusted requests access in its own account. The owner’s administrator approves or rejects the request.",
       "The owner can give one-time access, for example for 24 hours or for one work order, and a guest view without an account.",
-      "When the share is revoked, the workshop no longer sees the unit. The workshop keeps its own history rows.",
+      "When the share is revoked, the unit is visible only to the owner. The workshop keeps its own history rows.",
     ],
     order: [
       "The owner assigns an open job to one partner workshop. Only that workshop sees the job.",
       "The workshop opens the work order and completes it. Completion closes the defects and adds one row to the owner’s history.",
-      "An internal note stays with the workshop. The owner does not see it.",
+      "An internal note is visible only to the workshop.",
     ],
     managed: [
       "A workshop can manage units for a customer that does not use iqFleetSync™ yet. The unit is marked workshop-managed.",
@@ -302,12 +302,12 @@ const WORKSHOP_PAGE = {
       "La misma etiqueta QR sigue en la unidad. La unidad y la etiqueta se quedan con quien es propietaria. Un taller de confianza escanea la etiqueta y abre la unidad directamente.",
       "Un taller que todavía no es de confianza solicita acceso en su propia cuenta. La administración de la propietaria aprueba o rechaza la solicitud.",
       "La propietaria puede dar un acceso de una sola vez, por ejemplo durante 24 horas o para una orden de trabajo, y una vista de invitación sin cuenta.",
-      "Cuando se revoca el uso compartido, el taller ya no ve la unidad. Las filas de historial propias del taller se conservan.",
+      "Cuando se revoca el uso compartido, la unidad es visible solo para la propietaria. Las filas de historial propias del taller se conservan.",
     ],
     order: [
       "La propietaria asigna un trabajo abierto a un solo taller asociado. Solo ese taller ve el trabajo.",
       "El taller abre la orden y la completa. Al completarla se cierran las averías y se añade una fila al historial de la propietaria.",
-      "Una nota interna se queda en el taller. La propietaria no la ve.",
+      "Una nota interna es visible solo para el taller.",
     ],
     managed: [
       "Un taller puede gestionar unidades para clientela que todavía no usa iqFleetSync™. La unidad se marca como gestionada por el taller.",
@@ -349,12 +349,12 @@ const WORKSHOP_PAGE = {
       "La stessa etichetta QR resta sull’unità. Unità ed etichetta restano a chi ne è proprietaria. Un’officina di fiducia scansiona l’etichetta e apre l’unità direttamente.",
       "Un’officina non ancora di fiducia chiede l’accesso nel proprio account. L’amministrazione della proprietaria approva o rifiuta la richiesta.",
       "La proprietaria può dare un accesso una tantum, per esempio per 24 ore o per un ordine di lavoro, e una vista ospite senza account.",
-      "Quando la condivisione viene revocata, l’officina non vede più l’unità. Le righe di storico proprie dell’officina restano.",
+      "Quando la condivisione viene revocata, l’unità è visibile solo a chi ne è proprietaria. Le righe di storico proprie dell’officina restano.",
     ],
     order: [
       "La proprietaria assegna un lavoro aperto a una sola officina partner. Solo quell’officina vede il lavoro.",
       "L’officina apre l’ordine e lo completa. Il completamento chiude i guasti e aggiunge una riga allo storico della proprietaria.",
-      "Una nota interna resta all’officina. La proprietaria non la vede.",
+      "Una nota interna è visibile solo all’officina.",
     ],
     managed: [
       "Un’officina può gestire unità per clientela che non usa ancora iqFleetSync™. L’unità è contrassegnata come gestita dall’officina.",
@@ -396,12 +396,12 @@ const WORKSHOP_PAGE = {
       "La même étiquette QR reste sur l’unité. L’unité et l’étiquette restent chez le propriétaire. Un atelier de confiance scanne l’étiquette et ouvre l’unité directement.",
       "Un atelier qui n’est pas encore de confiance demande l’accès dans son propre compte. L’administration du propriétaire approuve ou refuse la demande.",
       "Le propriétaire peut donner un accès unique, par exemple pour 24 heures ou pour un ordre de travail, et une vue invité sans compte.",
-      "Quand le partage est retiré, l’atelier ne voit plus l’unité. Les lignes d’historique propres à l’atelier restent.",
+      "Quand le partage est retiré, l’unité est visible seulement pour le propriétaire. Les lignes d’historique propres à l’atelier restent.",
     ],
     order: [
       "Le propriétaire assigne un travail ouvert à un seul atelier partenaire. Seul cet atelier voit le travail.",
       "L’atelier ouvre l’ordre et le termine. La clôture ferme les pannes et ajoute une ligne à l’historique du propriétaire.",
-      "Une note interne reste à l’atelier. Le propriétaire ne la voit pas.",
+      "Une note interne est visible seulement pour l’atelier.",
     ],
     managed: [
       "Un atelier peut gérer des unités pour une clientèle qui n’utilise pas encore iqFleetSync™. L’unité est marquée comme gérée par l’atelier.",
@@ -443,12 +443,12 @@ const WORKSHOP_PAGE = {
       "Sama QR-kleebis jääb üksusele. Üksus ja kleebis jäävad omanikule. Usaldusväärne partner skannib kleebise ja avab üksuse otse.",
       "Töökoda, mis ei ole veel usaldusväärne, küsib ligipääsu oma kontol. Omaniku administraator kinnitab või lükkab taotluse tagasi.",
       "Omanik võib anda ühekordse ligipääsu, näiteks 24 tunniks või üheks töökäsuks, ja külalisvaate ilma kontota.",
-      "Kui jagamine tühistatakse, ei näe töökoda üksust enam. Töökoja oma ajaloo read jäävad alles.",
+      "Kui jagamine tühistatakse, on üksus nähtav ainult omanikule. Töökoja oma ajaloo read jäävad alles.",
     ],
     order: [
       "Omanik suunab avatud töö ühele partnertöökojale. Ainult see töökoda näeb tööd.",
       "Töökoda avab töökäsu ja märgib selle valmis. Valmimine sulgeb rikked ja lisab ühe rea omaniku ajalukku.",
-      "Sisemine märkus jääb töökojale. Omanik seda ei näe.",
+      "Sisemine märkus on nähtav ainult töökojale.",
     ],
     managed: [
       "Töökoda võib hallata üksusi kliendile, kes iqFleetSync™-i veel ei kasuta. Üksus märgitakse töökoja hallatavaks.",
@@ -490,12 +490,12 @@ const WORKSHOP_PAGE = {
       "Tā pati QR uzlīme paliek uz vienības. Vienība un uzlīme paliek īpašniekam. Uzticams partneris noskenē uzlīmi un atver vienību uzreiz.",
       "Darbnīca, kas vēl nav uzticama, pieprasa piekļuvi savā kontā. Īpašnieka administrators apstiprina vai noraida pieprasījumu.",
       "Īpašnieks var dot vienreizēju piekļuvi, piemēram, uz 24 stundām vai vienam darba uzdevumam, un viesa skatu bez konta.",
-      "Kad koplietošana tiek atsaukta, darbnīca vairs neredz vienību. Darbnīcas pašu vēstures rindas paliek.",
+      "Kad koplietošana tiek atsaukta, vienība ir redzama tikai īpašniekam. Darbnīcas pašu vēstures rindas paliek.",
     ],
     order: [
       "Īpašnieks piešķir atvērtu darbu vienai partnera darbnīcai. Tikai šī darbnīca redz darbu.",
       "Darbnīca atver darba uzdevumu un pabeidz to. Pabeigšana aizver defektus un pievieno vienu rindu īpašnieka vēsturē.",
-      "Iekšēja piezīme paliek darbnīcai. Īpašnieks to neredz.",
+      "Iekšēja piezīme ir redzama tikai darbnīcai.",
     ],
     managed: [
       "Darbnīca var pārvaldīt vienības klientam, kurš vēl nelieto iqFleetSync™. Vienība tiek atzīmēta kā darbnīcas pārvaldīta.",
@@ -537,12 +537,12 @@ const WORKSHOP_PAGE = {
       "Tas pats QR lipdukas lieka ant vieneto. Vienetas ir lipdukas lieka savininkui. Patikimas partneris nuskaito lipduką ir atidaro vienetą iš karto.",
       "Dirbtuvės, kurios dar nėra patikimos, prašo prieigos savo paskyroje. Savininko administratorius patvirtina arba atmeta prašymą.",
       "Savininkas gali suteikti vienkartinę prieigą, pavyzdžiui, 24 valandoms arba vienam darbo užsakymui, ir svečio rodinį be paskyros.",
-      "Kai bendrinimas atšaukiamas, dirbtuvės vieneto nebemato. Dirbtuvių savos istorijos eilutės lieka.",
+      "Kai bendrinimas atšaukiamas, vienetas matomas tik savininkui. Dirbtuvių savos istorijos eilutės lieka.",
     ],
     order: [
       "Savininkas paskiria atvirą darbą vienoms partnerio dirbtuvėms. Tik tos dirbtuvės mato darbą.",
       "Dirbtuvės atidaro darbo užsakymą ir jį užbaigia. Užbaigimas uždaro gedimus ir prideda vieną eilutę savininko istorijoje.",
-      "Vidinė pastaba lieka dirbtuvėms. Savininkas jos nemato.",
+      "Vidinė pastaba matoma tik dirbtuvėms.",
     ],
     managed: [
       "Dirbtuvės gali valdyti vienetus klientui, kuris dar nenaudoja iqFleetSync™. Vienetas pažymimas kaip dirbtuvių valdomas.",
@@ -584,12 +584,12 @@ const WORKSHOP_PAGE = {
       "Ta sama naklejka QR zostaje na jednostce. Jednostka i naklejka zostają u właściciela. Zaufany partner skanuje naklejkę i otwiera jednostkę od razu.",
       "Warsztat, który nie jest jeszcze zaufany, prosi o dostęp na własnym koncie. Administrator właściciela zatwierdza albo odrzuca prośbę.",
       "Właściciel może dać dostęp jednorazowy, na przykład na 24 godziny albo na jedno zlecenie, oraz widok gościa bez konta.",
-      "Gdy udostępnienie zostanie cofnięte, warsztat nie widzi już jednostki. Własne wiersze historii warsztatu zostają.",
+      "Gdy udostępnienie zostanie cofnięte, jednostka jest widoczna tylko dla właściciela. Własne wiersze historii warsztatu zostają.",
     ],
     order: [
       "Właściciel przypisuje otwartą pracę jednemu warsztatowi partnerskiemu. Tylko ten warsztat widzi pracę.",
       "Warsztat otwiera zlecenie i je kończy. Zakończenie zamyka usterki i dodaje jeden wiersz do historii właściciela.",
-      "Notatka wewnętrzna zostaje w warsztacie. Właściciel jej nie widzi.",
+      "Notatka wewnętrzna jest widoczna tylko dla warsztatu.",
     ],
     managed: [
       "Warsztat może prowadzić jednostki dla klienta, który nie korzysta jeszcze z iqFleetSync™. Jednostka jest oznaczona jako prowadzona przez warsztat.",
@@ -631,12 +631,12 @@ const WORKSHOP_PAGE = {
       "Stejná QR nálepka zůstává na jednotce. Jednotka i nálepka zůstávají vlastníkovi. Důvěryhodný partner naskenuje nálepku a jednotku otevře přímo.",
       "Dílna, která ještě není důvěryhodná, požádá o přístup na vlastním účtu. Správce vlastníka žádost schválí nebo odmítne.",
       "Vlastník může dát jednorázový přístup, například na 24 hodin nebo na jednu zakázku, a pohled hosta bez účtu.",
-      "Když se sdílení zruší, dílna jednotku už nevidí. Vlastní řádky historie dílny zůstanou.",
+      "Když se sdílení zruší, je jednotka viditelná jen pro vlastníka. Vlastní řádky historie dílny zůstanou.",
     ],
     order: [
       "Vlastník přidělí otevřenou práci jedné partnerské dílně. Jen tato dílna práci vidí.",
       "Dílna zakázku otevře a dokončí ji. Dokončení uzavře závady a přidá jeden řádek do historie vlastníka.",
-      "Interní poznámka zůstane dílně. Vlastník ji nevidí.",
+      "Interní poznámka je viditelná jen pro dílnu.",
     ],
     managed: [
       "Dílna může vést jednotky pro zákazníka, který iqFleetSync™ ještě nepoužívá. Jednotka je označená jako vedená dílnou.",

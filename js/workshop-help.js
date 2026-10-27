@@ -23,7 +23,7 @@ const WORKSHOP_GUIDES = {
           "Korjaamo, jota ei ole luotettu, skannaa tarran omassa tilissään ja pyytää pääsyä. Pyyntö menee yksikön omistajalle. Ylläpitäjä hyväksyy tai hylkää sen.",
           "Omistaja voi antaa kertapääsyn, esimerkiksi 24 tunniksi tai yhdeksi työtilaukseksi. Linkki vanhenee itsestään.",
           "Vieras ilman tunnusta voi kirjata tehdyn työn, kun vieraskirjaus on päällä. Kirjaus odottaa omistajan hyväksyntää.",
-          "Omistaja voi perua jaon milloin tahansa. Peruutuksen jälkeen korjaamo ei näe jaettuja yksiköitä. Omat historiarivit säilyvät.",
+          "Omistaja voi perua jaon milloin tahansa. Peruutuksen jälkeen jaetut yksiköt näkyvät vain omistajalle. Korjaamon omat historiarivit säilyvät.",
         ],
       },
       {
@@ -32,7 +32,7 @@ const WORKSHOP_GUIDES = {
         paragraphs: [
           "Omistaja osoittaa avoimen työn yhdelle kumppanikorjaamolle. Vain se korjaamo näkee työn ja saa siitä viestin.",
           "Korjaamo avaa työmääräimen ja kuittaa sen valmiiksi. Kuittaus sulkee viat ja lisää yhden rivin omistajan historiaan. Tunteja ei kopioida omistajalle.",
-          "Sisäinen muistiinpano jää korjaamolle. Omistaja ei näe sitä.",
+          "Sisäinen muistiinpano näkyy vain korjaamolle.",
         ],
       },
       {
@@ -92,7 +92,7 @@ const WORKSHOP_GUIDES = {
           "En verkstad som inte är betrodd skannar dekalen i sitt eget konto och begär åtkomst. Begäran går till enhetens ägare. Administratören godkänner eller avslår den.",
           "Ägaren kan ge engångsåtkomst, till exempel i 24 timmar eller för en arbetsorder. Länken går ut av sig själv.",
           "En gäst utan konto kan skriva in utfört arbete när gästinmatning är på. Posten väntar på ägarens godkännande.",
-          "Ägaren kan återkalla en delning när som helst. Därefter ser verkstaden inte de delade enheterna. De egna historikraderna finns kvar.",
+          "Ägaren kan återkalla en delning när som helst. Därefter är de delade enheterna synliga bara för ägaren. De egna historikraderna finns kvar.",
         ],
       },
       {
@@ -101,7 +101,7 @@ const WORKSHOP_GUIDES = {
         paragraphs: [
           "Ägaren tilldelar ett öppet jobb till en partnerverkstad. Bara den verkstaden ser jobbet och får ett meddelande om det.",
           "Verkstaden öppnar arbetsordern och kvitterar den. Kvitteringen stänger felen och lägger till en rad i ägarens historik. Timmar kopieras inte till ägaren.",
-          "En intern anteckning stannar hos verkstaden. Ägaren ser den inte.",
+          "En intern anteckning är synlig bara för verkstaden.",
         ],
       },
       {
@@ -161,7 +161,7 @@ const WORKSHOP_GUIDES = {
           "Et verksted som ikke er betrodd, skanner merket i sin egen konto og ber om tilgang. Forespørselen går til enhetens eier. Administratoren godkjenner eller avslår den.",
           "Eieren kan gi engangstilgang, for eksempel i 24 timer eller for én arbeidsordre. Lenken utløper av seg selv.",
           "En gjest uten konto kan føre utført arbeid når gjesteregistrering er på. Føringen venter på eierens godkjenning.",
-          "Eieren kan trekke tilbake en deling når som helst. Deretter ser ikke verkstedet de delte enhetene. Egne historierader blir værende.",
+          "Eieren kan trekke tilbake en deling når som helst. Deretter er de delte enhetene synlige bare for eieren. Egne historierader blir værende.",
         ],
       },
       {
@@ -170,7 +170,7 @@ const WORKSHOP_GUIDES = {
         paragraphs: [
           "Eieren tildeler en åpen jobb til ett partnerverksted. Bare det verkstedet ser jobben og får en melding om den.",
           "Verkstedet åpner arbeidsordren og kvitterer den. Kvitteringen lukker feilene og legger til én rad i eierens historikk. Timer kopieres ikke til eieren.",
-          "Et internt notat blir hos verkstedet. Eieren ser det ikke.",
+          "Et internt notat er synlig bare for verkstedet.",
         ],
       },
       {
@@ -230,7 +230,7 @@ const WORKSHOP_GUIDES = {
           "Et værksted, der ikke er betroet, scanner mærket i sin egen konto og anmoder om adgang. Anmodningen går til enhedens ejer. Administratoren godkender eller afviser den.",
           "Ejeren kan give engangsadgang, for eksempel i 24 timer eller til én arbejdsordre. Linket udløber af sig selv.",
           "En gæst uden konto kan skrive udført arbejde, når gæsteregistrering er slået til. Registreringen venter på ejerens godkendelse.",
-          "Ejeren kan trække en deling tilbage når som helst. Derefter ser værkstedet ikke de delte enheder. Egne historikrækker bliver.",
+          "Ejeren kan trække en deling tilbage når som helst. Derefter er de delte enheder synlige kun for ejeren. Egne historikrækker bliver.",
         ],
       },
       {
@@ -239,7 +239,7 @@ const WORKSHOP_GUIDES = {
         paragraphs: [
           "Ejeren tildeler et åbent job til ét partnerværksted. Kun det værksted ser jobbet og får en besked om det.",
           "Værkstedet åbner arbejdsordren og kvitterer den. Kvitteringen lukker fejlene og tilføjer én række i ejerens historik. Timer kopieres ikke til ejeren.",
-          "En intern note bliver hos værkstedet. Ejeren ser den ikke.",
+          "En intern note er synlig kun for værkstedet.",
         ],
       },
       {
@@ -299,7 +299,7 @@ const WORKSHOP_GUIDES = {
           "Eine Werkstatt, die noch nicht vertraut ist, scannt den Aufkleber im eigenen Konto und beantragt Zugang. Die Anfrage geht an die Eigentümerseite der Einheit. Die Administration genehmigt oder lehnt sie ab.",
           "Die Eigentümerseite kann einen einmaligen Zugang geben, zum Beispiel für 24 Stunden oder für einen Auftrag. Der Link läuft von selbst ab.",
           "Eine gastweise Person ohne Konto kann erledigte Arbeit eintragen, wenn die Gasteingabe an ist. Der Eintrag wartet auf die Freigabe der Eigentümerseite.",
-          "Die Eigentümerseite kann eine Freigabe jederzeit widerrufen. Danach sieht die Werkstatt die geteilten Einheiten nicht mehr. Die eigenen Historieneinträge bleiben.",
+          "Die Eigentümerseite kann eine Freigabe jederzeit widerrufen. Danach sind die geteilten Einheiten nur für die Eigentümerseite sichtbar. Die eigenen Historieneinträge bleiben.",
         ],
       },
       {
@@ -308,7 +308,7 @@ const WORKSHOP_GUIDES = {
         paragraphs: [
           "Die Eigentümerseite weist eine offene Arbeit einer Partnerwerkstatt zu. Nur diese Werkstatt sieht die Arbeit und bekommt eine Nachricht dazu.",
           "Die Werkstatt öffnet den Auftrag und schließt ihn ab. Der Abschluss schließt die Mängel und fügt einen Eintrag in der Historie der Eigentümerseite hinzu. Stunden werden nicht an die Eigentümerseite kopiert.",
-          "Eine interne Notiz bleibt bei der Werkstatt. Die Eigentümerseite sieht sie nicht.",
+          "Eine interne Notiz ist nur für die Werkstatt sichtbar.",
         ],
       },
       {
@@ -368,7 +368,7 @@ const WORKSHOP_GUIDES = {
           "A workshop that is not trusted scans the sticker in its own account and requests access. The request goes to the owner of the unit. The administrator approves or rejects it.",
           "The owner can give one-time access, for example for 24 hours or for one work order. The link expires by itself.",
           "A guest without an account can record completed work when guest entry is on. The entry waits for the owner’s approval.",
-          "The owner can revoke a share at any time. After that the workshop no longer sees the shared units. Its own history rows remain.",
+          "The owner can revoke a share at any time. After that the shared units are visible only to the owner. Its own history rows remain.",
         ],
       },
       {
@@ -377,7 +377,7 @@ const WORKSHOP_GUIDES = {
         paragraphs: [
           "The owner assigns an open job to one partner workshop. Only that workshop sees the job and gets a message about it.",
           "The workshop opens the work order and completes it. Completion closes the defects and adds one row to the owner’s history. Hours are not copied to the owner.",
-          "An internal note stays with the workshop. The owner does not see it.",
+          "An internal note is visible only to the workshop.",
         ],
       },
       {
@@ -437,7 +437,7 @@ const WORKSHOP_GUIDES = {
           "Un taller que no es de confianza escanea la etiqueta en su propia cuenta y solicita acceso. La solicitud llega a la propietaria de la unidad. La administración la aprueba o la rechaza.",
           "La propietaria puede dar un acceso de una sola vez, por ejemplo durante 24 horas o para una orden de trabajo. El enlace caduca solo.",
           "Una persona invitada sin cuenta puede registrar el trabajo hecho cuando el registro de invitación está activo. El registro espera la aprobación de la propietaria.",
-          "La propietaria puede revocar un uso compartido en cualquier momento. Después el taller ya no ve las unidades compartidas. Sus propias filas de historial se conservan.",
+          "La propietaria puede revocar un uso compartido en cualquier momento. Después las unidades compartidas son visibles solo para la propietaria. Sus propias filas de historial se conservan.",
         ],
       },
       {
@@ -446,7 +446,7 @@ const WORKSHOP_GUIDES = {
         paragraphs: [
           "La propietaria asigna un trabajo abierto a un solo taller asociado. Solo ese taller ve el trabajo y recibe un mensaje.",
           "El taller abre la orden y la completa. Al completarla se cierran las averías y se añade una fila al historial de la propietaria. Las horas no se copian a la propietaria.",
-          "Una nota interna se queda en el taller. La propietaria no la ve.",
+          "Una nota interna es visible solo para el taller.",
         ],
       },
       {
@@ -506,7 +506,7 @@ const WORKSHOP_GUIDES = {
           "Un’officina non ancora di fiducia scansiona l’etichetta nel proprio account e chiede l’accesso. La richiesta arriva alla proprietaria dell’unità. L’amministrazione la approva o la rifiuta.",
           "La proprietaria può dare un accesso una tantum, per esempio per 24 ore o per un ordine di lavoro. Il link scade da solo.",
           "Una persona ospite senza account può registrare il lavoro fatto quando la registrazione ospite è attiva. La registrazione attende l’approvazione della proprietaria.",
-          "La proprietaria può revocare una condivisione in qualsiasi momento. Dopo, l’officina non vede più le unità condivise. Le sue righe di storico restano.",
+          "La proprietaria può revocare una condivisione in qualsiasi momento. Dopo, le unità condivise sono visibili solo a chi ne è proprietaria. Le sue righe di storico restano.",
         ],
       },
       {
@@ -515,7 +515,7 @@ const WORKSHOP_GUIDES = {
         paragraphs: [
           "La proprietaria assegna un lavoro aperto a una sola officina partner. Solo quell’officina vede il lavoro e riceve un messaggio.",
           "L’officina apre l’ordine e lo completa. Il completamento chiude i guasti e aggiunge una riga allo storico della proprietaria. Le ore non vengono copiate alla proprietaria.",
-          "Una nota interna resta all’officina. La proprietaria non la vede.",
+          "Una nota interna è visibile solo all’officina.",
         ],
       },
       {
@@ -575,7 +575,7 @@ const WORKSHOP_GUIDES = {
           "Un atelier qui n’est pas de confiance scanne l’étiquette dans son propre compte et demande l’accès. La demande va au propriétaire de l’unité. L’administration l’approuve ou la refuse.",
           "Le propriétaire peut donner un accès unique, par exemple pour 24 heures ou pour un ordre de travail. Le lien expire tout seul.",
           "Une personne invitée sans compte peut enregistrer le travail fait quand la saisie invité est ouverte. L’enregistrement attend l’approbation du propriétaire.",
-          "Le propriétaire peut retirer un partage à tout moment. Ensuite l’atelier ne voit plus les unités partagées. Ses propres lignes d’historique restent.",
+          "Le propriétaire peut retirer un partage à tout moment. Ensuite les unités partagées sont visibles seulement pour le propriétaire. Ses propres lignes d’historique restent.",
         ],
       },
       {
@@ -584,7 +584,7 @@ const WORKSHOP_GUIDES = {
         paragraphs: [
           "Le propriétaire assigne un travail ouvert à un seul atelier partenaire. Seul cet atelier voit le travail et reçoit un message.",
           "L’atelier ouvre l’ordre et le termine. La clôture ferme les pannes et ajoute une ligne à l’historique du propriétaire. Les heures ne sont pas copiées chez le propriétaire.",
-          "Une note interne reste à l’atelier. Le propriétaire ne la voit pas.",
+          "Une note interne est visible seulement pour l’atelier.",
         ],
       },
       {
@@ -644,7 +644,7 @@ const WORKSHOP_GUIDES = {
           "Töökoda, mis ei ole usaldusväärne, skannib kleebise oma kontol ja küsib ligipääsu. Taotlus läheb üksuse omanikule. Administraator kinnitab või lükkab selle tagasi.",
           "Omanik võib anda ühekordse ligipääsu, näiteks 24 tunniks või üheks töökäsuks. Link aegub ise.",
           "Külaline ilma kontota võib tehtud töö kirja panna, kui külaliskirje on sees. Kirje ootab omaniku kinnitust.",
-          "Omanik võib jagamise igal ajal tühistada. Pärast seda ei näe töökoda jagatud üksusi. Töökoja oma ajaloo read jäävad alles.",
+          "Omanik võib jagamise igal ajal tühistada. Pärast seda on jagatud üksused nähtavad ainult omanikule. Töökoja oma ajaloo read jäävad alles.",
         ],
       },
       {
@@ -653,7 +653,7 @@ const WORKSHOP_GUIDES = {
         paragraphs: [
           "Omanik suunab avatud töö ühele partnertöökojale. Ainult see töökoda näeb tööd ja saab selle kohta teate.",
           "Töökoda avab töökäsu ja märgib selle valmis. Valmimine sulgeb rikked ja lisab ühe rea omaniku ajalukku. Tunde omanikule ei kopeerita.",
-          "Sisemine märkus jääb töökojale. Omanik seda ei näe.",
+          "Sisemine märkus on nähtav ainult töökojale.",
         ],
       },
       {
@@ -713,7 +713,7 @@ const WORKSHOP_GUIDES = {
           "Darbnīca, kas nav uzticama, noskenē uzlīmi savā kontā un pieprasa piekļuvi. Pieprasījums aiziet vienības īpašniekam. Administrators to apstiprina vai noraida.",
           "Īpašnieks var dot vienreizēju piekļuvi, piemēram, uz 24 stundām vai vienam darba uzdevumam. Saite beidzas pati.",
           "Viesis bez konta var ierakstīt padarīto darbu, kad viesu ieraksts ir ieslēgts. Ieraksts gaida īpašnieka apstiprinājumu.",
-          "Īpašnieks var koplietošanu atsaukt jebkurā brīdī. Pēc tam darbnīca vairs neredz koplietotās vienības. Darbnīcas pašu vēstures rindas paliek.",
+          "Īpašnieks var koplietošanu atsaukt jebkurā brīdī. Pēc tam koplietotās vienības ir redzamas tikai īpašniekam. Darbnīcas pašu vēstures rindas paliek.",
         ],
       },
       {
@@ -722,7 +722,7 @@ const WORKSHOP_GUIDES = {
         paragraphs: [
           "Īpašnieks piešķir atvērtu darbu vienai partnera darbnīcai. Tikai šī darbnīca redz darbu un saņem par to ziņu.",
           "Darbnīca atver darba uzdevumu un to pabeidz. Pabeigšana aizver defektus un pievieno vienu rindu īpašnieka vēsturē. Stundas īpašniekam netiek kopētas.",
-          "Iekšēja piezīme paliek darbnīcai. Īpašnieks to neredz.",
+          "Iekšēja piezīme ir redzama tikai darbnīcai.",
         ],
       },
       {
@@ -782,7 +782,7 @@ const WORKSHOP_GUIDES = {
           "Dirbtuvės, kurios nėra patikimos, nuskaito lipduką savo paskyroje ir prašo prieigos. Prašymas nueina vieneto savininkui. Administratorius jį patvirtina arba atmeta.",
           "Savininkas gali suteikti vienkartinę prieigą, pavyzdžiui, 24 valandoms arba vienam darbo užsakymui. Nuoroda baigiasi pati.",
           "Svečias be paskyros gali įrašyti atliktą darbą, kai svečio įrašas įjungtas. Įrašas laukia savininko patvirtinimo.",
-          "Savininkas gali bendrinimą atšaukti bet kada. Po to dirbtuvės nebemato bendrinamų vienetų. Dirbtuvių savos istorijos eilutės lieka.",
+          "Savininkas gali bendrinimą atšaukti bet kada. Po to bendrinami vienetai matomi tik savininkui. Dirbtuvių savos istorijos eilutės lieka.",
         ],
       },
       {
@@ -791,7 +791,7 @@ const WORKSHOP_GUIDES = {
         paragraphs: [
           "Savininkas paskiria atvirą darbą vienoms partnerio dirbtuvėms. Tik tos dirbtuvės mato darbą ir gauna apie jį žinutę.",
           "Dirbtuvės atidaro darbo užsakymą ir jį užbaigia. Užbaigimas uždaro gedimus ir prideda vieną eilutę savininko istorijoje. Valandos savininkui nekopijuojamos.",
-          "Vidinė pastaba lieka dirbtuvėms. Savininkas jos nemato.",
+          "Vidinė pastaba matoma tik dirbtuvėms.",
         ],
       },
       {
@@ -851,7 +851,7 @@ const WORKSHOP_GUIDES = {
           "Warsztat, który nie jest zaufany, skanuje naklejkę na własnym koncie i prosi o dostęp. Prośba trafia do właściciela jednostki. Administrator ją zatwierdza albo odrzuca.",
           "Właściciel może dać dostęp jednorazowy, na przykład na 24 godziny albo na jedno zlecenie. Odnośnik wygasa sam.",
           "Gość bez konta może wpisać wykonaną pracę, gdy wpis gościa jest włączony. Wpis czeka na zatwierdzenie właściciela.",
-          "Właściciel może cofnąć udostępnienie w dowolnej chwili. Potem warsztat nie widzi udostępnionych jednostek. Własne wiersze historii zostają.",
+          "Właściciel może cofnąć udostępnienie w dowolnej chwili. Potem udostępnione jednostki są widoczne tylko dla właściciela. Własne wiersze historii zostają.",
         ],
       },
       {
@@ -860,7 +860,7 @@ const WORKSHOP_GUIDES = {
         paragraphs: [
           "Właściciel przypisuje otwartą pracę jednemu warsztatowi partnerskiemu. Tylko ten warsztat widzi pracę i dostaje o niej wiadomość.",
           "Warsztat otwiera zlecenie i je kończy. Zakończenie zamyka usterki i dodaje jeden wiersz do historii właściciela. Godziny nie są kopiowane do właściciela.",
-          "Notatka wewnętrzna zostaje w warsztacie. Właściciel jej nie widzi.",
+          "Notatka wewnętrzna jest widoczna tylko dla warsztatu.",
         ],
       },
       {
@@ -920,7 +920,7 @@ const WORKSHOP_GUIDES = {
           "Dílna, která není důvěryhodná, naskenuje nálepku na vlastním účtu a požádá o přístup. Žádost jde vlastníkovi jednotky. Správce ji schválí nebo odmítne.",
           "Vlastník může dát jednorázový přístup, například na 24 hodin nebo na jednu zakázku. Odkaz vyprší sám.",
           "Host bez účtu může zapsat hotovou práci, když je zápis hosta zapnutý. Zápis čeká na schválení vlastníka.",
-          "Vlastník může sdílení kdykoli zrušit. Potom dílna sdílené jednotky nevidí. Vlastní řádky historie zůstanou.",
+          "Vlastník může sdílení kdykoli zrušit. Potom jsou sdílené jednotky viditelné jen pro vlastníka. Vlastní řádky historie zůstanou.",
         ],
       },
       {
@@ -929,7 +929,7 @@ const WORKSHOP_GUIDES = {
         paragraphs: [
           "Vlastník přidělí otevřenou práci jedné partnerské dílně. Jen tato dílna práci vidí a dostane o ní zprávu.",
           "Dílna zakázku otevře a dokončí ji. Dokončení uzavře závady a přidá jeden řádek do historie vlastníka. Hodiny se vlastníkovi nekopírují.",
-          "Interní poznámka zůstane dílně. Vlastník ji nevidí.",
+          "Interní poznámka je viditelná jen pro dílnu.",
         ],
       },
       {
@@ -1308,7 +1308,7 @@ const WORKSHOP_PARTS_HELP = {
   },
 };
 
-/** Barcode stock in and stock out. Purchase price is an administrator field only. */
+/** Barcode stock in and stock out. The article does not name purchase price; mechanics read it. */
 const WORKSHOP_STOCK_HELP = {
   video: {
     src: "videos/iqfleetsync/varasto-viivakoodi.mp4",
@@ -1320,7 +1320,7 @@ const WORKSHOP_STOCK_HELP = {
     paragraphs: [
       "iqFleetSync™ osavarastossa on kaksi suurta painiketta.",
       "Skannaa · Varastoon otto on ylläpitäjälle. Korjaamon ylläpitäjä kirjaa sillä korjaamon omaan varastoon. Kamera lukee osan viivakoodin tai toimittajan tuotekoodin, tai koodin voi kirjoittaa. Jos koodi ei vastaa osaa, ylläpitäjä luo osan tai liittää koodin olemassa olevaan osaan.",
-      "Määrä on valmiiksi 1. Kirjoita hyllypaikka. Ostohinta sekä huomio tai viite ovat valinnaisia. Tallenna kirjaa liikkeen: suunta sisään, määrä, henkilö ja aika.",
+      "Määrä on valmiiksi 1. Kirjoita hyllypaikka. Huomio tai viite on valinnainen. Tallenna kirjaa liikkeen: suunta sisään, määrä, henkilö ja aika.",
       "Skannaa · Varastosta otto on myös huoltohenkilölle. Kirjoita määrä. Voit valita koneen tai avoimen työmääräimen. Saldo vähenee eikä laske alle nollan. Jos saldo ei riitä, teksti on: Varastossa vain N kpl. Pyydä ylläpitäjää kirjaamaan osat varastoon.",
       "Jos kone tai työmääräin on valittu, osa kirjautuu samoin kuin käytetty osa. Tallenna pysyy harmaana, kunnes osa on valittu ja määrä on suurempi kuin nolla. Ylläpitäjä suodattaa osan liikkeet suunnan ja päivämäärän mukaan.",
     ],
@@ -1331,7 +1331,7 @@ const WORKSHOP_STOCK_HELP = {
     paragraphs: [
       "Delagret i iqFleetSync™ har två stora knappar.",
       "Skanna · In i lager är för administratören. En administratör på verkstaden använder den för verkstadens eget lager. Kameran läser delens streckkod eller en leverantörs produktkod, eller så kan koden skrivas. Om koden inte motsvarar någon del skapar administratören delen eller kopplar koden till en befintlig del.",
-      "Antalet är 1 från början. Skriv hyllplats. Inköpspris samt anmärkning eller referens är valfria. Spara bokför rörelsen: riktning in, antal, person och tid.",
+      "Antalet är 1 från början. Skriv hyllplats. Anmärkning eller referens är valfri. Spara bokför rörelsen: riktning in, antal, person och tid.",
       "Skanna · Ut ur lager är också för underhållspersonen. Skriv antalet. Du kan välja en maskin eller en öppen arbetsorder. Saldot minskar och går inte under noll. Om saldot inte räcker är texten: I lager bara N st. Be administratören att bokföra delarna i lagret.",
       "Om en maskin eller en arbetsorder har valts bokförs delen på samma sätt som en använd del. Spara förblir grå tills en del har valts och antalet är större än noll. Administratören filtrerar en dels rörelser efter riktning och datum.",
     ],
@@ -1342,7 +1342,7 @@ const WORKSHOP_STOCK_HELP = {
     paragraphs: [
       "Delelageret i iqFleetSync™ har to store knapper.",
       "Skann · Inn på lager er for administratoren. En administrator på verkstedet bruker den for verkstedets eget lager. Kameraet leser delens strekkode eller en leverandørs produktkode, eller koden kan skrives. Hvis koden ikke svarer til en del, oppretter administratoren delen eller knytter koden til en eksisterende del.",
-      "Antallet står på 1. Skriv hylleplass. Innkjøpspris samt merknad eller referanse er valgfrie. Lagre bokfører bevegelsen: retning inn, antall, person og tid.",
+      "Antallet står på 1. Skriv hylleplass. Merknad eller referanse er valgfri. Lagre bokfører bevegelsen: retning inn, antall, person og tid.",
       "Skann · Ut av lager er også for vedlikeholdspersonen. Skriv antallet. Du kan velge en maskin eller en åpen arbeidsordre. Saldoen synker og går ikke under null. Hvis saldoen ikke strekker til, er teksten: På lager bare N stk. Be administratoren om å bokføre delene på lager.",
       "Hvis en maskin eller en arbeidsordre er valgt, føres delen på samme måte som en brukt del. Lagre forblir grå til en del er valgt og antallet er større enn null. Administratoren filtrerer bevegelsene til en del etter retning og dato.",
     ],
@@ -1353,7 +1353,7 @@ const WORKSHOP_STOCK_HELP = {
     paragraphs: [
       "Delelageret i iqFleetSync™ har to store knapper.",
       "Scan · Ind på lager er for administratoren. En administrator på værkstedet bruger den til værkstedets eget lager. Kameraet læser delens stregkode eller en leverandørs produktkode, eller koden kan skrives. Hvis koden ikke svarer til en del, opretter administratoren delen eller knytter koden til en eksisterende del.",
-      "Antallet står på 1. Skriv hyldeplads. Indkøbspris samt bemærkning eller reference er valgfrie. Gem bogfører bevægelsen: retning ind, antal, person og tid.",
+      "Antallet står på 1. Skriv hyldeplads. Bemærkning eller reference er valgfri. Gem bogfører bevægelsen: retning ind, antal, person og tid.",
       "Scan · Ud af lager er også for vedligeholdelsespersonen. Skriv antallet. Du kan vælge en maskine eller en åben arbejdsordre. Saldoen falder og går ikke under nul. Hvis saldoen ikke rækker, er teksten: På lager kun N stk. Bed administratoren om at bogføre delene på lager.",
       "Hvis en maskine eller en arbejdsordre er valgt, registreres delen på samme måde som en brugt del. Gem forbliver grå, indtil en del er valgt og antallet er større end nul. Administratoren filtrerer en dels bevægelser efter retning og dato.",
     ],
@@ -1364,7 +1364,7 @@ const WORKSHOP_STOCK_HELP = {
     paragraphs: [
       "Das Teilelager in iqFleetSync™ hat zwei große Schaltflächen.",
       "Scannen · Einlagern ist für die Administration. Die Administration einer Werkstatt bucht damit in den eigenen Bestand dieser Werkstatt. Die Kamera liest den Strichcode des Teils oder einen Produktcode des Lieferanten, oder der Code kann eingegeben werden. Wenn der Code keinem Teil entspricht, legt die Administration das Teil an oder verknüpft den Code mit einem bestehenden Teil.",
-      "Die Menge steht zuerst auf 1. Lagerplatz eingeben. Einkaufspreis sowie Hinweis oder Referenz sind optional. Speichern erfasst die Bewegung: Richtung Eingang, Menge, Person und Zeit.",
+      "Die Menge steht zuerst auf 1. Lagerplatz eingeben. Hinweis oder Referenz ist optional. Speichern erfasst die Bewegung: Richtung Eingang, Menge, Person und Zeit.",
       "Scannen · Auslagern ist auch für das Wartungspersonal. Menge eingeben. Eine Maschine oder ein offener Arbeitsauftrag kann gewählt werden. Der Bestand sinkt und fällt nicht unter null. Wenn der Bestand nicht reicht, lautet der Text: Auf Lager nur N Stk. Bitten Sie die Administration, die Teile einzulagern.",
       "Wenn eine Maschine oder ein Arbeitsauftrag gewählt wurde, wird das Teil so erfasst wie ein verwendetes Teil. Speichern bleibt grau, bis ein Teil gewählt ist und die Menge größer als null ist. Die Administration filtert die Bewegungen eines Teils nach Richtung und Datum.",
     ],
@@ -1375,7 +1375,7 @@ const WORKSHOP_STOCK_HELP = {
     paragraphs: [
       "iqFleetSync™ parts stock has two large buttons.",
       "Scan · Stock in is for the administrator. A workshop administrator uses it for that workshop’s own stock. The camera reads the part barcode or a supplier product code, or you can type the code. If the code matches no part, the administrator creates the part or links the code to an existing part.",
-      "Quantity starts at 1. Type the shelf location. Purchase price and a note or reference are optional. Save stores the movement: direction in, quantity, person and time.",
+      "Quantity starts at 1. Type the shelf location. A note or reference is optional. Save stores the movement: direction in, quantity, person and time.",
       "Scan · Stock out is also for the maintenance technician. Type a quantity. You can choose a machine or an open work order. The balance drops and cannot fall below zero; if there is not enough on hand, an administrator is asked to book the parts into stock.",
       "If a machine or work order was chosen, the part is logged like a used part. Save stays grey until a part is chosen and the quantity is greater than zero. The administrator filters a part’s movements by direction and date.",
     ],
@@ -1386,7 +1386,7 @@ const WORKSHOP_STOCK_HELP = {
     paragraphs: [
       "El stock de piezas de iqFleetSync™ tiene dos botones grandes.",
       "Escanear · Entrada de stock es para la administración. La administración de un taller lo usa para el stock propio de ese taller. La cámara lee el código de barras de la pieza o un código de producto del proveedor, o el código se puede escribir. Si el código no corresponde a ninguna pieza, la administración crea la pieza o vincula el código a una pieza existente.",
-      "La cantidad empieza en 1. Escriba la ubicación en la estantería. El precio de compra y una nota o referencia son opcionales. Guardar registra el movimiento: dirección de entrada, cantidad, persona y hora.",
+      "La cantidad empieza en 1. Escriba la ubicación en la estantería. Una nota o referencia es opcional. Guardar registra el movimiento: dirección de entrada, cantidad, persona y hora.",
       "Escanear · Salida de stock es también para el personal de mantenimiento. Escriba una cantidad. Puede elegir una máquina o una orden de trabajo abierta. El saldo baja y no baja de cero. Si el saldo no alcanza, el texto es: En stock solo N uds. Pida a la administración que registre las piezas en el stock.",
       "Si se eligió una máquina o una orden de trabajo, la pieza queda registrada igual que una pieza usada. Guardar permanece en gris hasta que se elige una pieza y la cantidad es mayor que cero. La administración filtra los movimientos de una pieza por dirección y fecha.",
     ],
@@ -1397,7 +1397,7 @@ const WORKSHOP_STOCK_HELP = {
     paragraphs: [
       "Il magazzino ricambi di iqFleetSync™ ha due pulsanti grandi.",
       "Scansiona · Carico è per l’amministrazione. L’amministrazione di un’officina lo usa per il magazzino proprio di quell’officina. La fotocamera legge il codice a barre del ricambio o un codice prodotto del fornitore, oppure il codice si può scrivere. Se il codice non corrisponde a nessun ricambio, l’amministrazione crea il ricambio o collega il codice a un ricambio esistente.",
-      "La quantità è già 1. Scrivi la posizione sullo scaffale. Il prezzo di acquisto e una nota o un riferimento sono facoltativi. Salva registra il movimento: direzione in entrata, quantità, persona e ora.",
+      "La quantità è già 1. Scrivi la posizione sullo scaffale. Una nota o un riferimento è facoltativo. Salva registra il movimento: direzione in entrata, quantità, persona e ora.",
       "Scansiona · Scarico è anche per il personale di manutenzione. Scrivi una quantità. Puoi scegliere una macchina o un ordine di lavoro aperto. La giacenza diminuisce e non scende sotto zero. Se la giacenza non basta, il testo è: A magazzino solo N pz. Chiedi all’amministrazione di registrare i ricambi a magazzino.",
       "Se è stata scelta una macchina o un ordine di lavoro, il ricambio viene registrato come un ricambio usato. Salva resta grigio finché un ricambio non è scelto e la quantità è maggiore di zero. L’amministrazione filtra i movimenti di un ricambio per direzione e data.",
     ],
@@ -1408,7 +1408,7 @@ const WORKSHOP_STOCK_HELP = {
     paragraphs: [
       "Le stock de pièces d’iqFleetSync™ comporte deux grands boutons.",
       "Scanner · Entrée de stock est destiné à l’administration. L’administration d’un atelier l’utilise pour le stock propre de cet atelier. L’appareil photo lit le code-barres de la pièce ou un code produit du fournisseur, ou le code peut être saisi. Si le code ne correspond à aucune pièce, l’administration crée la pièce ou rattache le code à une pièce existante.",
-      "La quantité est déjà à 1. Saisissez l’emplacement de rayon. Le prix d’achat ainsi qu’une note ou une référence sont facultatifs. Enregistrer consigne le mouvement : sens entrée, quantité, personne et heure.",
+      "La quantité est déjà à 1. Saisissez l’emplacement de rayon. Une note ou une référence est facultative. Enregistrer consigne le mouvement : sens entrée, quantité, personne et heure.",
       "Scanner · Sortie de stock est aussi pour le personnel de maintenance. Saisissez une quantité. Vous pouvez choisir une machine ou un ordre de travail ouvert. Le solde diminue et ne descend pas sous zéro. Si le solde ne suffit pas, le texte est : En stock seulement N pce. Demandez à l’administration d’enregistrer les pièces en stock.",
       "Si une machine ou un ordre de travail a été choisi, la pièce est enregistrée comme une pièce utilisée. Enregistrer reste gris tant qu’aucune pièce n’est choisie et que la quantité n’est pas supérieure à zéro. L’administration filtre les mouvements d’une pièce selon le sens et la date.",
     ],
@@ -1419,7 +1419,7 @@ const WORKSHOP_STOCK_HELP = {
     paragraphs: [
       "iqFleetSync™ varuosalaos on kaks suurt nuppu.",
       "Skanni · Lattu võtmine on administraatorile. Töökoja administraator kirjendab sellega töökoja enda lattu. Kaamera loeb osa vöötkoodi või tarnija tootekoodi, või koodi saab kirjutada. Kui kood ei vasta osale, loob administraator osa või seob koodi olemasoleva osaga.",
-      "Kogus on eelnevalt 1. Kirjuta riiulikoht. Ostuhind ning märkus või viide on valikulised. Salvesta kirjendab liikumise: suund sisse, kogus, isik ja aeg.",
+      "Kogus on eelnevalt 1. Kirjuta riiulikoht. Märkus või viide on valikuline. Salvesta kirjendab liikumise: suund sisse, kogus, isik ja aeg.",
       "Skanni · Laost võtmine on ka hooldustehnikule. Kirjuta kogus. Saad valida masina või avatud töökäsu. Laoseis väheneb ega lange alla nulli. Kui laoseisu ei jätku, on tekst: Laos ainult N tk. Palu administraatoril osad lattu kirja panna.",
       "Kui masin või töökäsk on valitud, kirjendub osa samamoodi nagu kasutatud osa. Salvesta püsib hallina, kuni osa on valitud ja kogus on suurem kui null. Administraator filtreerib osa liikumisi suuna ja kuupäeva järgi.",
     ],
@@ -1430,7 +1430,7 @@ const WORKSHOP_STOCK_HELP = {
     paragraphs: [
       "iqFleetSync™ detaļu noliktavā ir divas lielas pogas.",
       "Skenēt · Pieņemšana noliktavā ir administrācijai. Darbnīcas administrācija ar to grāmato detaļas šīs darbnīcas noliktavā. Kamera nolasa detaļas svītrkodu vai piegādātāja preces kodu, vai arī kodu var ierakstīt. Ja kods neatbilst detaļai, administrācija izveido detaļu vai piesaista kodu esošai detaļai.",
-      "Daudzums sākumā ir 1. Ierakstiet plaukta vietu. Iepirkuma cena, kā arī piezīme vai atsauce, nav obligātas. Saglabāt ieraksta kustību: virziens iekšā, daudzums, persona un laiks.",
+      "Daudzums sākumā ir 1. Ierakstiet plaukta vietu. Piezīme vai atsauce nav obligāta. Saglabāt ieraksta kustību: virziens iekšā, daudzums, persona un laiks.",
       "Skenēt · Izņemšana no noliktavas ir arī apkopes personālam. Ierakstiet daudzumu. Var izvēlēties mašīnu vai atvērtu darba uzdevumu. Atlikums samazinās un nenokrīt zem nulles. Ja atlikuma nepietiek, teksts ir: Noliktavā tikai N gab. Lūdziet administrācijai iegrāmatot detaļas noliktavā.",
       "Ja ir izvēlēta mašīna vai darba uzdevums, detaļa tiek ierakstīta tāpat kā izmantotā detaļa. Saglabāt paliek pelēka, līdz ir izvēlēta detaļa un daudzums ir lielāks par nulli. Administrācija filtrē detaļas kustības pēc virziena un datuma.",
     ],
@@ -1441,7 +1441,7 @@ const WORKSHOP_STOCK_HELP = {
     paragraphs: [
       "iqFleetSync™ dalių sandėlyje yra du dideli mygtukai.",
       "Skenuoti · Priėmimas į sandėlį yra administracijai. Dirbtuvių administracija juo įrašo į tų dirbtuvių sandėlį. Kamera nuskaito dalies brūkšninį kodą arba tiekėjo prekės kodą, arba kodą galima įrašyti. Jei kodas neatitinka dalies, administracija sukuria dalį arba susieja kodą su esama dalimi.",
-      "Kiekis iš anksto yra 1. Įrašykite lentynos vietą. Pirkimo kaina bei pastaba arba nuoroda yra neprivalomos. Išsaugoti įrašo judėjimą: kryptis į vidų, kiekis, asmuo ir laikas.",
+      "Kiekis iš anksto yra 1. Įrašykite lentynos vietą. Pastaba arba nuoroda yra neprivaloma. Išsaugoti įrašo judėjimą: kryptis į vidų, kiekis, asmuo ir laikas.",
       "Skenuoti · Paėmimas iš sandėlio yra ir priežiūros personalui. Įrašykite kiekį. Galite pasirinkti mašiną arba atidarytą darbo užsakymą. Likutis mažėja ir nenukrenta žemiau nulio. Jei likučio nepakanka, tekstas yra: Sandėlyje tik N vnt. Paprašykite administracijos įrašyti dalis į sandėlį.",
       "Jei pasirinkta mašina arba darbo užsakymas, dalis įrašoma taip pat kaip panaudota dalis. Išsaugoti lieka pilkas, kol pasirinkta dalis ir kiekis yra didesnis už nulį. Administracija filtruoja dalies judėjimus pagal kryptį ir datą.",
     ],
@@ -1452,7 +1452,7 @@ const WORKSHOP_STOCK_HELP = {
     paragraphs: [
       "Magazyn części w iqFleetSync™ ma dwa duże przyciski.",
       "Skanuj · Przyjęcie na magazyn jest dla administracji. Administracja warsztatu zapisuje nim do własnego magazynu tego warsztatu. Aparat odczytuje kod kreskowy części lub kod produktu dostawcy, albo kod można wpisać. Jeśli kod nie odpowiada części, administracja tworzy część albo przypisuje kod do istniejącej części.",
-      "Ilość jest z góry równa 1. Wpisz miejsce na regale. Cena zakupu oraz uwaga lub odniesienie są opcjonalne. Zapisz zapisuje ruch: kierunek przyjęcia, ilość, osoba i czas.",
+      "Ilość jest z góry równa 1. Wpisz miejsce na regale. Uwaga lub odniesienie jest opcjonalne. Zapisz zapisuje ruch: kierunek przyjęcia, ilość, osoba i czas.",
       "Skanuj · Wydanie z magazynu jest też dla personelu utrzymania. Wpisz ilość. Możesz wybrać maszynę albo otwarte zlecenie pracy. Stan maleje i nie spada poniżej zera. Jeśli stanu nie wystarcza, tekst brzmi: W magazynie tylko N szt. Poproś administrację, aby zaksięgowała części na magazyn.",
       "Jeśli wybrano maszynę albo zlecenie pracy, część jest zapisywana tak samo jak zużyta część. Zapisz pozostaje szary, aż zostanie wybrana część i ilość będzie większa od zera. Administracja filtruje ruchy części według kierunku i daty.",
     ],
@@ -1463,7 +1463,7 @@ const WORKSHOP_STOCK_HELP = {
     paragraphs: [
       "Sklad dílů v iqFleetSync™ má dvě velká tlačítka.",
       "Skenovat · Příjem na sklad je pro správu. Správa dílny jím zapisuje do vlastního skladu této dílny. Fotoaparát přečte čárový kód dílu nebo kód produktu dodavatele, nebo kód lze napsat. Pokud kód neodpovídá dílu, správa díl vytvoří nebo kód připojí k existujícímu dílu.",
-      "Množství je předem 1. Napište umístění v regálu. Nákupní cena a poznámka nebo reference jsou volitelné. Uložit zaznamená pohyb: směr dovnitř, množství, osoba a čas.",
+      "Množství je předem 1. Napište umístění v regálu. Poznámka nebo reference je volitelná. Uložit zaznamená pohyb: směr dovnitř, množství, osoba a čas.",
       "Skenovat · Výdej ze skladu je také pro personál údržby. Napište množství. Můžete vybrat stroj nebo otevřený pracovní příkaz. Stav klesá a neklesne pod nulu. Pokud stav nestačí, text je: Na skladě jen N ks. Požádejte správu, aby díly zaevidovala na sklad.",
       "Pokud je vybrán stroj nebo pracovní příkaz, díl se zapíše stejně jako použitý díl. Uložit zůstane šedé, dokud není vybrán díl a množství není větší než nula. Správa filtruje pohyby dílu podle směru a data.",
     ],
