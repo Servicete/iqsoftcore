@@ -1123,3 +1123,198 @@ addFleetPrivacy("zh", {
   ]},
 ]);
 
+
+addFleetPrivacy("et", {
+  metaTitle: "iqFleetSync – Andmekaitseteade | IQSoftCore",
+  metaDescription: "iqFleetSynci andmekaitseteade. Vastutav töötleja ja volitatud töötleja, andmed, eesmärgid, töötlejad ja õigused.",
+  title: "iqFleetSync – andmekaitseteade",
+  updated: "Uuendatud 2026-10-25.",
+  backCompany: "Ettevõtte andmekaitse",
+  backHome: "Avaleht",
+}, [
+  { heading: "1. Kes andmete eest vastutab", paragraphs: [
+    "See teade käsitleb teenust aadressil fleetsync.iqsoftcore.fi.",
+    "IqSoftCore (toiminimi), äriregistri kood 3658340-4, Siihtalantie 56, 62710 Kurejoki, Soome, on vastutav töötleja kliendiettevõtte enda kontandmete osas. Sinna kuuluvad leping, arvelduskontakt ja tellimus.",
+    "Kliendiettevõte on vastutav töötleja oma töötajate andmete ja masinapargi andmete osas. IqSoftCore on nende andmete volitatud töötleja. Andmetöötlusleping antakse soovi korral.",
+    "Andmekaitse kontakt: jarno@iqsoftcore.fi.",
+  ]},
+  { heading: "2. Milliseid andmeid töödeldakse", paragraphs: ["Teenuses võidakse töödelda:"], bullets: [
+    "nimi, e-post, valikuline telefoninumber ja roll",
+    "sisselogimise ja passkey tehnilised andmed",
+    "jagatud telefoni PIN räsina või krüpteeritult",
+    "üksuste andmed, aruanded, fotod, rikketeated ja näidud",
+    "auditilogi",
+    "arveldusandmed makseteenuse kaudu; kaardinumbrit töötleb ainult makseteenus ja IqSoftCore seda ei salvesta",
+  ]},
+  { heading: "3. Miks ja millisel alusel", paragraphs: [
+    "Kliendiettevõtte kontot ja teenuse osutamist käsitletakse lepingu alusel.",
+    "Masinapargi ja töötajate andmeid töödeldakse ainult teenuse osutamiseks kliendiettevõttele. Nende andmete eesmärgi otsustab kliendiettevõte.",
+    "Arveldus ja raamatupidamine põhinevad lepingul ning seadusjärgsel kohustusel arveid säilitada.",
+    "Sisselogimise turvalisus ja auditilogi põhinevad õigustatud huvil hoida teenus töökorras ja turvaline.",
+    "Telefoninumbrit kasutatakse ainult kontaktandmena, kui see on antud. Sellega sisse ei logita.",
+    "Isikuandmeid ei müüda.",
+  ]},
+  { heading: "4. Töötlejad", paragraphs: [
+    "Teenuse andmed asuvad Euroopa Liidus. Andmebaas ja sisselogimine töötavad andmebaasi- ja autentimisteenuses ELi piirkonnas. Rakendust majutab majutusteenus.",
+  ], bullets: [
+    "Andmebaasi- ja autentimisteenus: andmebaas ja sisselogimine, ELi piirkond",
+    "Majutusteenus: rakenduse majutus",
+    "E-posti teenus: e-kirjade saatmine",
+    "Makseteenus: maksed; kaardiandmed jäävad makseteenusele",
+  ]},
+  { heading: "5. Tugiabiline", paragraphs: [
+    "Teenuses on tugiabiline. Selle avab päise nupp Küsi assistendilt. Paneeli nimi on Tugiabiline.",
+    "Eesmärk on vastata küsimustele rakenduse kasutamise kohta.",
+    "Töödeldakse teie kirjutatud küsimuse teksti, sama vestluse viimaseid voorusid ning kasutaja ja organisatsiooni tunnuseid, et piiranguid rakendada. Piirang on 20 küsimust kasutaja kohta ööpäevas ja 300 küsimust organisatsiooni kohta kuus.",
+    "Vestluse sisu ei salvestata. Kasutusstatistika jaoks salvestatakse ainult küsimuste arv.",
+    "Küsimused saadetakse töötlemiseks tehisintellekti teenuse osutajale. Osutaja võib andmeid töödelda väljaspool Euroopa Liitu. Edastus on kaitstud tüüptingimustega.",
+    "Ärge kirjutage küsimustesse isikuandmeid ega konfidentsiaalseid andmeid.",
+  ]},
+  { heading: "6. Säilitamine", paragraphs: [
+    "Andmeid säilitatakse, kuni tellimus kehtib.",
+    "Arhiveeritud kirjed jäävad ajalooks.",
+    "Andmed kustutatakse taotlusel või pärast tellimuse lõppu. Arveldusandmetest säilitatakse see, mida raamatupidamisseadus nõuab.",
+  ]},
+  { heading: "7. Andmesubjekti õigused", paragraphs: [
+    "Teil on õigus andmetega tutvuda, paluda parandamist või kustutamist, piirata töötlemist, saada koopia ja esitada vastuväide, kui alus seda lubab.",
+    "Töötaja andmete vastutav töötleja on tööandjaettevõte. Alustage sealt. IqSoftCore aitab kliendiettevõttel vastata.",
+    "Taotluse võib saata aadressile jarno@iqsoftcore.fi.",
+  ]},
+  { heading: "8. Küpsised", paragraphs: [
+    "Teenus kasutab ainult vajalikke seansi- ja organisatsiooniküpsiseid. Analüütika- ega reklaamiküpsiseid ei kasutata.",
+  ]},
+  { heading: "9. Kontakt ja kaebus", paragraphs: [
+    "jarno@iqsoftcore.fi",
+    "Kaebuse võib esitada Soome andmekaitse volinikule (Tietosuojavaltuutettu): tietosuoja.fi.",
+  ]},
+]);
+
+addFleetPrivacy("lv", {
+  metaTitle: "iqFleetSync – Privātuma paziņojums | IQSoftCore",
+  metaDescription: "iqFleetSync privātuma paziņojums. Pārzinis un apstrādātājs, dati, mērķi, apakšapstrādātāji un tiesības.",
+  title: "iqFleetSync – privātuma paziņojums",
+  updated: "Atjaunināts 2026-10-25.",
+  backCompany: "Uzņēmuma privātums",
+  backHome: "Sākums",
+}, [
+  { heading: "1. Kas ir atbildīgs par datiem", paragraphs: [
+    "Šis paziņojums attiecas uz pakalpojumu fleetsync.iqsoftcore.fi.",
+    "IqSoftCore (toiminimi), uzņēmuma numurs 3658340-4, Siihtalantie 56, 62710 Kurejoki, Somija, ir pārzinis klienta uzņēmuma paša konta datiem. Tajos ietilpst līgums, norēķinu kontakts un abonements.",
+    "Klienta uzņēmums ir pārzinis savu darbinieku datiem un tehnikas parka datiem. IqSoftCore ir šo datu apstrādātājs. Datu apstrādes līgums ir pieejams pēc pieprasījuma.",
+    "Privātuma kontakts: jarno@iqsoftcore.fi.",
+  ]},
+  { heading: "2. Kādi dati tiek apstrādāti", paragraphs: ["Pakalpojums var apstrādāt:"], bullets: [
+    "vārds, e-pasts, neobligāts tālruņa numurs un loma",
+    "pieteikšanās un passkey tehniskie dati",
+    "kopīga tālruņa PIN kā jaucējvērtība vai šifrētā veidā",
+    "vienību dati, atskaites, foto, defektu ziņojumi un rādījumi",
+    "audita žurnāls",
+    "norēķinu dati caur maksājumu pakalpojumu; kartes numuru apstrādā tikai maksājumu pakalpojums, un IqSoftCore to neglabā",
+  ]},
+  { heading: "3. Kāpēc un uz kāda pamata", paragraphs: [
+    "Klienta uzņēmuma konts un pakalpojuma sniegšana notiek saskaņā ar līgumu.",
+    "Tehnikas parka un darbinieku dati tiek apstrādāti tikai, lai sniegtu pakalpojumu klienta uzņēmumam. Šo datu mērķi nosaka klienta uzņēmums.",
+    "Norēķini un grāmatvedība balstās uz līgumu un likumā noteikto pienākumu glabāt rēķinus.",
+    "Pieteikšanās drošība un audita žurnāls balstās uz leģitīmu interesi uzturēt pakalpojumu darba kārtībā un drošu.",
+    "Tālruņa numuru izmanto tikai kā kontaktu, ja tas ir norādīts. Ar to nepiesakās.",
+    "Personas datus nepārdod.",
+  ]},
+  { heading: "4. Apstrādātāji", paragraphs: [
+    "Pakalpojuma dati atrodas Eiropas Savienībā. Datu bāze un pieteikšanās darbojas datu bāzes un autentifikācijas pakalpojumā ES reģionā. Lietotni mitina mitināšanas pakalpojums.",
+  ], bullets: [
+    "Datu bāzes un autentifikācijas pakalpojums: datu bāze un pieteikšanās, ES reģions",
+    "Mitināšanas pakalpojums: lietotnes mitināšana",
+    "E-pasta pakalpojums: e-pasta sūtīšana",
+    "Maksājumu pakalpojums: maksājumi; kartes dati paliek maksājumu pakalpojumā",
+  ]},
+  { heading: "5. Atbalsta asistents", paragraphs: [
+    "Pakalpojumā ir atbalsta asistents. To atver pogas galvenē. Paneļa nosaukums ir Atbalsta asistents.",
+    "Mērķis ir atbildēt uz jautājumiem par lietotnes lietošanu.",
+    "Tiek apstrādāts jūsu ierakstītais jautājuma teksts, tās pašas sarunas nesenie gājieni un lietotāja un organizācijas identifikatori, lai piemērotu limitus. Limits ir 20 jautājumi lietotājam dienā un 300 jautājumi organizācijai mēnesī.",
+    "Sarunas saturu neglabā. Lietošanas statistikai glabā tikai jautājumu skaitu.",
+    "Jautājumi tiek nosūtīti apstrādei mākslīgā intelekta pakalpojuma sniedzējam. Sniedzējs var apstrādāt datus ārpus Eiropas Savienības. Nosūtīšanu aizsargā standartlīguma klauzulas.",
+    "Jautājumos nerakstiet personas vai konfidenciālus datus.",
+  ]},
+  { heading: "6. Glabāšana", paragraphs: [
+    "Datus glabā, kamēr abonements ir aktīvs.",
+    "Arhivētie ieraksti paliek kā vēsture.",
+    "Datus dzēš pēc pieprasījuma vai pēc abonementa beigām. Saglabā tos norēķinu datus, ko prasa grāmatvedības likums.",
+  ]},
+  { heading: "7. Jūsu tiesības", paragraphs: [
+    "Varat prasīt piekļuvi, labošanu vai dzēšanu, ierobežot apstrādi, saņemt kopiju un iebilst, ja pamats to pieļauj.",
+    "Darbinieka datu pārzinis ir darba devēja uzņēmums. Sāciet ar viņiem. IqSoftCore palīdz klienta uzņēmumam atbildēt.",
+    "Pieprasījumu sūtiet uz jarno@iqsoftcore.fi.",
+  ]},
+  { heading: "8. Sīkdatnes", paragraphs: [
+    "Pakalpojums izmanto tikai nepieciešamās sesijas un organizācijas sīkdatnes. Analītikas un reklāmas sīkdatnes neizmanto.",
+  ]},
+  { heading: "9. Kontakti un sūdzības", paragraphs: [
+    "jarno@iqsoftcore.fi",
+    "Sūdzību var iesniegt Somijas datu aizsardzības ombudam (Tietosuojavaltuutettu): tietosuoja.fi.",
+  ]},
+]);
+
+addFleetPrivacy("lt", {
+  metaTitle: "iqFleetSync – Privatumo pranešimas | IQSoftCore",
+  metaDescription: "iqFleetSync privatumo pranešimas. Valdytojas ir tvarkytojas, duomenys, tikslai, tvarkytojai ir teisės.",
+  title: "iqFleetSync – privatumo pranešimas",
+  updated: "Atnaujinta 2026-10-25.",
+  backCompany: "Įmonės privatumas",
+  backHome: "Pradžia",
+}, [
+  { heading: "1. Kas atsako už duomenis", paragraphs: [
+    "Šis pranešimas taikomas paslaugai adresu fleetsync.iqsoftcore.fi.",
+    "IqSoftCore (toiminimi), įmonės kodas 3658340-4, Siihtalantie 56, 62710 Kurejoki, Suomija, yra kliento įmonės savo paskyros duomenų valdytojas. Tai apima sutartį, sąskaitų kontaktą ir prenumeratą.",
+    "Kliento įmonė yra savo darbuotojų duomenų ir technikos parko duomenų valdytoja. IqSoftCore yra tų duomenų tvarkytojas. Duomenų tvarkymo sutartis pateikiama paprašius.",
+    "Privatumo kontaktas: jarno@iqsoftcore.fi.",
+  ]},
+  { heading: "2. Kokie duomenys tvarkomi", paragraphs: ["Paslauga gali tvarkyti:"], bullets: [
+    "vardas, el. paštas, neprivalomas telefono numeris ir vaidmuo",
+    "prisijungimo ir passkey techniniai duomenys",
+    "bendro telefono PIN kaip maiša arba užšifruotas",
+    "vienetų duomenys, ataskaitos, nuotraukos, gedimų pranešimai ir rodmenys",
+    "audito žurnalas",
+    "sąskaitų duomenys per mokėjimo paslaugą; kortelės numerį tvarko tik mokėjimo paslauga, ir IqSoftCore jo nesaugo",
+  ]},
+  { heading: "3. Kodėl ir kokiu pagrindu", paragraphs: [
+    "Kliento įmonės paskyra ir paslaugos teikimas tvarkomi pagal sutartį.",
+    "Technikos parko ir darbuotojų duomenys tvarkomi tik paslaugai teikti kliento įmonei. Tų duomenų tikslą nustato kliento įmonė.",
+    "Sąskaitos ir apskaita remiasi sutartimi ir įstatymų pareiga saugoti sąskaitas.",
+    "Prisijungimo sauga ir audito žurnalas remiasi teisėtu interesu palaikyti paslaugą veikiančią ir saugią.",
+    "Telefono numeris naudojamas tik kaip kontaktas, jei jis nurodytas. Juo neprisijungiama.",
+    "Asmens duomenys neparduodami.",
+  ]},
+  { heading: "4. Tvarkytojai", paragraphs: [
+    "Paslaugos duomenys yra Europos Sąjungoje. Duomenų bazė ir prisijungimas veikia duomenų bazės ir tapatumo paslaugoje ES regione. Programą talpina talpinimo paslauga.",
+  ], bullets: [
+    "Duomenų bazės ir tapatumo paslauga: duomenų bazė ir prisijungimas, ES regionas",
+    "Talpinimo paslauga: programos talpinimas",
+    "El. pašto paslauga: el. laiškų siuntimas",
+    "Mokėjimo paslauga: mokėjimai; kortelės duomenys lieka mokėjimo paslaugoje",
+  ]},
+  { heading: "5. Pagalbos asistentas", paragraphs: [
+    "Paslaugoje yra pagalbos asistentas. Jį atidaro antraštės mygtukas. Skydelio pavadinimas yra Pagalbos asistentas.",
+    "Tikslas yra atsakyti į klausimus apie programos naudojimą.",
+    "Tvarkomas jūsų įvestas klausimo tekstas, to paties pokalbio paskutiniai ėjimai ir naudotojo bei organizacijos identifikatoriai, kad būtų taikomi limitai. Limitas yra 20 klausimų naudotojui per parą ir 300 klausimų organizacijai per mėnesį.",
+    "Pokalbio turinys nesaugomas. Naudojimo statistikai saugomas tik klausimų skaičius.",
+    "Klausimai siunčiami tvarkyti dirbtinio intelekto paslaugos teikėjui. Teikėjas gali tvarkyti duomenis už Europos Sąjungos ribų. Perdavimą saugo standartinės sutarčių sąlygos.",
+    "Į klausimus nerašykite asmens ar konfidencialių duomenų.",
+  ]},
+  { heading: "6. Saugojimas", paragraphs: [
+    "Duomenys saugomi, kol prenumerata galioja.",
+    "Archyvuoti įrašai lieka kaip istorija.",
+    "Duomenys ištrinami paprašius arba pasibaigus prenumeratai. Sąskaitų duomenys, kurių reikalauja apskaitos įstatymas, išsaugomi.",
+  ]},
+  { heading: "7. Jūsų teisės", paragraphs: [
+    "Galite prašyti prieigos, ištaisymo ar ištrynimo, apriboti tvarkymą, gauti kopiją ir nesutikti, kai pagrindas tai leidžia.",
+    "Darbuotojo duomenų valdytojas yra darbdavio įmonė. Pradėkite nuo jų. IqSoftCore padeda kliento įmonei atsakyti.",
+    "Prašymą siųskite adresu jarno@iqsoftcore.fi.",
+  ]},
+  { heading: "8. Slapukai", paragraphs: [
+    "Paslauga naudoja tik būtinus seanso ir organizacijos slapukus. Analitikos ir reklamos slapukų nenaudoja.",
+  ]},
+  { heading: "9. Kontaktai ir skundai", paragraphs: [
+    "jarno@iqsoftcore.fi",
+    "Skundą galite pateikti Suomijos duomenų apsaugos ombudsmenui (Tietosuojavaltuutettu): tietosuoja.fi.",
+  ]},
+]);

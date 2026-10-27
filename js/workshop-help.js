@@ -4,8 +4,8 @@
  */
 const WORKSHOP_GUIDES = {
   fi: {
-    heading: "Korjaamon ohjeet",
-    intro: "Nämä ohjeet ovat kalustoyritykselle ja korjaamolle",
+    heading: "Kumppanikorjaamot",
+    intro: "Sovelluksen valikko on Kumppanikorjaamot. Nämä ohjeet ovat kalustoyritykselle ja korjaamolle.",
     articles: [
       {
         id: "sharing",
@@ -73,8 +73,8 @@ const WORKSHOP_GUIDES = {
     ],
   },
   sv: {
-    heading: "Guider för verkstaden",
-    intro: "Guiderna är för ett åkeri och en verkstad",
+    heading: "Partnerverkstäder",
+    intro: "Menyn i appen heter Partnerverkstäder. Guiderna är för ett åkeri och en verkstad.",
     articles: [
       {
         id: "sharing",
@@ -142,8 +142,8 @@ const WORKSHOP_GUIDES = {
     ],
   },
   no: {
-    heading: "Veiledninger for verkstedet",
-    intro: "Veiledningene er for et transportfirma og et verksted",
+    heading: "Partnerverksteder",
+    intro: "Menyen i appen heter Partnerverksteder. Veiledningene er for et transportfirma og et verksted.",
     articles: [
       {
         id: "sharing",
@@ -211,8 +211,8 @@ const WORKSHOP_GUIDES = {
     ],
   },
   da: {
-    heading: "Vejledninger til værkstedet",
-    intro: "Vejledningerne er til et vognmandsfirma og et værksted",
+    heading: "Partnerværksteder",
+    intro: "Menuen i appen hedder Partnerværksteder. Vejledningerne er til et vognmandsfirma og et værksted.",
     articles: [
       {
         id: "sharing",
@@ -280,8 +280,8 @@ const WORKSHOP_GUIDES = {
     ],
   },
   de: {
-    heading: "Anleitungen für die Werkstatt",
-    intro: "Die Anleitungen gelten für ein Fuhrunternehmen und eine Werkstatt",
+    heading: "Partnerwerkstätten",
+    intro: "Das Menü in der App heißt Partnerwerkstätten. Die Anleitungen gelten für ein Fuhrunternehmen und eine Werkstatt.",
     articles: [
       {
         id: "sharing",
@@ -349,8 +349,8 @@ const WORKSHOP_GUIDES = {
     ],
   },
   en: {
-    heading: "Workshop guides",
-    intro: "These guides are for a fleet company and a workshop",
+    heading: "Partner workshops",
+    intro: "The menu in the app is Partner workshops. These guides are for a fleet company and a workshop.",
     articles: [
       {
         id: "sharing",
@@ -418,8 +418,8 @@ const WORKSHOP_GUIDES = {
     ],
   },
   es: {
-    heading: "Guías del taller",
-    intro: "Estas guías son para una empresa de flota y un taller",
+    heading: "Talleres asociados",
+    intro: "El menú de la aplicación es Talleres asociados. Estas guías son para una empresa de flota y un taller.",
     articles: [
       {
         id: "sharing",
@@ -487,8 +487,8 @@ const WORKSHOP_GUIDES = {
     ],
   },
   it: {
-    heading: "Guide per l’officina",
-    intro: "Queste guide sono per un’azienda di flotta e un’officina",
+    heading: "Officine partner",
+    intro: "Il menu nell’app è Officine partner. Queste guide sono per un’azienda di flotta e un’officina.",
     articles: [
       {
         id: "sharing",
@@ -556,8 +556,8 @@ const WORKSHOP_GUIDES = {
     ],
   },
   fr: {
-    heading: "Guides pour l’atelier",
-    intro: "Ces guides sont pour une entreprise de parc et un atelier",
+    heading: "Ateliers partenaires",
+    intro: "Le menu dans l’application s’appelle Ateliers partenaires. Ces guides sont pour une entreprise de parc et un atelier.",
     articles: [
       {
         id: "sharing",
@@ -625,8 +625,8 @@ const WORKSHOP_GUIDES = {
     ],
   },
   et: {
-    heading: "Töökoja juhendid",
-    intro: "Need juhendid on autopargi ettevõttele ja töökojale",
+    heading: "Partneri töökojad",
+    intro: "Rakenduse menüü on Partneri töökojad. Need juhendid on autopargi ettevõttele ja töökojale.",
     articles: [
       {
         id: "sharing",
@@ -694,8 +694,8 @@ const WORKSHOP_GUIDES = {
     ],
   },
   lv: {
-    heading: "Darbnīcas ceļveži",
-    intro: "Šie ceļveži ir autoparka uzņēmumam un darbnīcai",
+    heading: "Partneru darbnīcas",
+    intro: "Lietotnes izvēlne ir Partneru darbnīcas. Šie ceļveži ir autoparka uzņēmumam un darbnīcai.",
     articles: [
       {
         id: "sharing",
@@ -763,8 +763,8 @@ const WORKSHOP_GUIDES = {
     ],
   },
   lt: {
-    heading: "Instrukcijos dirbtuvėms",
-    intro: "Šios instrukcijos skirtos autoparko įmonei ir dirbtuvėms.",
+    heading: "Partnerių dirbtuvės",
+    intro: "Programos meniu yra Partnerių dirbtuvės. Šios instrukcijos skirtos autoparko įmonei ir dirbtuvėms.",
     articles: [
       {
         id: "sharing",
@@ -832,8 +832,8 @@ const WORKSHOP_GUIDES = {
     ],
   },
   pl: {
-    heading: "Instrukcje dla warsztatu",
-    intro: "Te instrukcje są dla firmy flotowej i warsztatu",
+    heading: "Warsztaty partnerskie",
+    intro: "Menu w aplikacji to Warsztaty partnerskie. Te instrukcje są dla firmy flotowej i warsztatu.",
     articles: [
       {
         id: "sharing",
@@ -901,8 +901,8 @@ const WORKSHOP_GUIDES = {
     ],
   },
   cs: {
-    heading: "Návody pro dílnu",
-    intro: "Tyto návody jsou pro flotilovou firmu a dílnu",
+    heading: "Partnerské dílny",
+    intro: "Nabídka v aplikaci se jmenuje Partnerské dílny. Tyto návody jsou pro flotilovou firmu a dílnu.",
     articles: [
       {
         id: "sharing",

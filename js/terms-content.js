@@ -64,7 +64,7 @@ const TERMS_PAGE = {
           "iqFleetSync-tilin avaaminen edellyttää suomalaista Y-tunnusta.",
           "iqFleetSync on verkkopalvelu kaluston huoltoon osoitteessa fleetsync.iqsoftcore.fi. Jokaisen asiakasyrityksen tiedot pidetään erillään muista asiakkaista.",
           "iqFleetSync toimii selaimessa puhelimella ja tietokoneella. Kuljettaja, huolto ja pääkäyttäjä eivät asenna sovellusta. QR-tarra tunnistaa yksikön eikä kirjaa ketään sisään. Tarrat voi tulostaa palvelusta. Skannaus puhelimen kameralla avaa yksikön ja lisää sen kuljettajan omiin yksiköihin. Pääkäyttäjä näkee, kuka käytti yksikköä ja milloin.",
-          "Pääkäyttäjä kutsuu henkilön sähköpostilinkillä. Kirjautuminen on sen jälkeen sormenjäljellä tai kasvoilla (passkey). Varalla on 6-numeroinen sähköpostikoodi. Jaetussa ajoneuvopuhelimessa voi olla valinnainen 4 numeron PIN, jonka pääkäyttäjä voi nähdä. Puhelinnumero on vain valinnainen yhteystieto. Pääkäyttäjä näkee kustannukset, laskutuksen, henkilöt ja audit-lokin. Huolto käsittelee yksiköt, QR-tarrat, raportit, viat ja työmääräykset, mutta ei kustannuksia, laskutusta eikä henkilöitä. Kuljettaja näkee vain omat ja skannaamalla lisätyt yksiköt, tekee vikailmoituksia sekä kilometri- ja tuntikirjauksia ja näkee vain omien vikojensa etenemisen. Kustannuksia ja hintoja ei näytetä kuljettajalle. Raporteissa voi olla perävaunun aliraportteja ja kuvia. Vian voi merkitä liikennekelvottomaksi. Huolto kuittaa vian, merkitsee sen käynnissä olevaksi ja korjatuksi, ja kuljettaja saa tiedon sovelluksessa. Palvelussa on työmääräykset, huoltohistoria, kustannusrivit pääkäyttäjälle, huoltosuunnitelmat ja määräajat kilometreinä, tunteina tai päivämääränä sekä muistutukset sähköpostilla tai sovelluksessa. Yksikön voi arkistoida ja henkilön voi muokata tai poistaa niin, että historia säilyy.",
+          "Pääkäyttäjä kutsuu henkilön sähköpostilinkillä. Kirjautuminen on sen jälkeen sormenjäljellä tai kasvoilla (passkey). Varalla on 6-numeroinen sähköpostikoodi. Jaetussa ajoneuvopuhelimessa voi olla valinnainen 4 numeron PIN, jonka pääkäyttäjä voi nähdä. Puhelinnumero on vain valinnainen yhteystieto. Pääkäyttäjä näkee kustannukset, laskutuksen, henkilöt ja audit-lokin. Huolto käsittelee yksiköt, QR-tarrat, raportit, viat ja työmääräykset, mutta ei kustannuksia, laskutusta eikä henkilöitä. Kuljettaja näkee vain omat ja skannaamalla lisätyt yksiköt, tekee vikailmoituksia sekä kilometri- ja tuntikirjauksia ja näkee vain omien vikojensa etenemisen. Kustannuksia ja hintoja ei näytetä kuljettajalle. Raporteissa voi olla perävaunun aliraportteja ja kuvia. Vian voi merkitä liikennekelvottomaksi. Huolto kuittaa vian, merkitsee sen käynnissä olevaksi ja korjatuksi, ja kuljettaja saa tiedon sovelluksessa. Palvelussa on työmääräykset, huoltohistoria, kustannusrivit pääkäyttäjälle, huoltosuunnitelmat ja määräajat kilometreinä, tunteina tai päivämääränä sekä muistutukset sähköpostilla, push-ilmoituksena tai sovelluksessa. Yksikön voi arkistoida ja henkilön voi muokata tai poistaa niin, että historia säilyy.",
           "Asiakas nimeää ylläpitäjän, joka avaa tilin ja hallitsee käyttäjiä. Ylläpitäjä päättää, keille annetaan pääsy ja mitkä oikeudet he saavat.",
           "Asiakas vastaa omien käyttäjiensä toimista palvelussa. Henkilökohtainen sähköpostikoodi, kutsulinkki ja passkey ovat henkilökohtaisia, eikä niitä saa antaa toiselle. Jaetun puhelimen PIN on sen henkilön oma. Asiakas vastaa siitä, että palveluun tallennettavat tiedot saa tallentaa.",
           "Uusi asiakas voi kokeilla iqFleetSynciä 30 päivää ilmaiseksi.",
@@ -237,7 +237,7 @@ const TERMS_PAGE = {
           "Opening an iqFleetSync account requires a Finnish business ID (Y-tunnus).",
           "iqFleetSync is a web service for fleet maintenance at fleetsync.iqsoftcore.fi. Each customer company’s data is kept separate from other customers.",
           "iqFleetSync runs in the browser on a phone or a computer. Drivers, maintenance and admins do not install an app. A QR sticker identifies the unit and does not log anyone in. Stickers can be printed from the service. Scanning with the phone camera opens the unit and adds it to the driver’s own units. The admin sees who used a unit and when.",
-          "An admin invites a person with an email link. Sign-in is then fingerprint or face (passkey). A 6-digit email code is the fallback. A shared vehicle phone can have an optional 4-digit PIN, which the admin can view. A phone number is only an optional contact field. An admin sees costs, billing, people and the audit log. Maintenance handles units, QR stickers, reports, defects and work orders, but not costs, billing or people. A driver sees only assigned units and units added by scanning, files defect reports and km or hour readings, and sees only the progress of their own defects. Costs and prices are hidden from the driver. Reports can include trailer sub-reports and photos. A defect can be marked not roadworthy. Maintenance acknowledges it, marks it in progress and marks it fixed, and the driver is notified in the app. The service has work orders, maintenance history, cost lines for the admin, service plans and deadlines by kilometres, hours or date, and reminders by email or in the app. A unit can be archived and a person can be edited or removed, and the history is kept.",
+          "An admin invites a person with an email link. Sign-in is then fingerprint or face (passkey). A 6-digit email code is the fallback. A shared vehicle phone can have an optional 4-digit PIN, which the admin can view. A phone number is only an optional contact field. An admin sees costs, billing, people and the audit log. Maintenance handles units, QR stickers, reports, defects and work orders, but not costs, billing or people. A driver sees only assigned units and units added by scanning, files defect reports and km or hour readings, and sees only the progress of their own defects. Costs and prices are hidden from the driver. Reports can include trailer sub-reports and photos. A defect can be marked not roadworthy. Maintenance acknowledges it, marks it in progress and marks it fixed, and the driver is notified in the app. The service has work orders, maintenance history, cost lines for the admin, service plans and deadlines by kilometres, hours or date, and reminders by email, as a push notification, or in the app. A unit can be archived and a person can be edited or removed, and the history is kept.",
           "The customer names an administrator who opens the account and manages users. The administrator decides who gets access and what rights they have.",
           "The customer is responsible for what their users do in the service. A personal email code, invite link, and passkey are personal and must not be shared. The PIN on a shared phone belongs to that person. The customer is responsible for having the right to store the data they enter.",
           "A new customer can try iqFleetSync free for 30 days.",
@@ -410,7 +410,7 @@ const TERMS_PAGE = {
           "För att öppna ett iqFleetSync-konto krävs ett finskt FO-nummer (Y-tunnus).",
           "iqFleetSync är en webbtjänst för underhåll av en flotta på fleetsync.iqsoftcore.fi. Varje kundföretags uppgifter hålls åtskilda från andra kunder.",
           "iqFleetSync körs i webbläsaren på telefon eller dator. Förare, underhåll och administratörer installerar ingen app. QR-dekalen identifierar enheten och loggar inte in någon. Dekaler kan skrivas ut från tjänsten. Skanning med telefonens kamera öppnar enheten och lägger till den bland förarens egna enheter. Administratören ser vem som använde en enhet och när.",
-          "En administratör bjuder in en person med en länk i e-post. Därefter sker inloggning med fingeravtryck eller ansikte (passkey). En 6-siffrig e-postkod är reserven. En delad fordonstelefon kan ha en valfri PIN på 4 siffror, som administratören kan se. Ett telefonnummer är bara ett valfritt kontaktfält. Administratören ser kostnader, fakturering, personer och auditloggen. Underhåll hanterar enheter, QR-dekaler, rapporter, fel och arbetsordrar, men inte kostnader, fakturering eller personer. Föraren ser bara tilldelade enheter och enheter som lagts till genom skanning, gör felanmälningar och km- eller timavläsningar och ser bara hur de egna felen går vidare. Kostnader och priser visas inte för föraren. Rapporter kan ha underrapporter för släp och foton. Ett fel kan markeras som inte trafiksäkert. Underhåll kvitterar, markerar pågående och åtgärdat, och föraren får besked i appen. Tjänsten har arbetsordrar, underhållshistorik, kostnadsrader för administratören, serviceplaner och deadlines i kilometer, timmar eller datum samt påminnelser via e-post eller i appen. En enhet kan arkiveras och en person kan redigeras eller tas bort, och historiken behålls.",
+          "En administratör bjuder in en person med en länk i e-post. Därefter sker inloggning med fingeravtryck eller ansikte (passkey). En 6-siffrig e-postkod är reserven. En delad fordonstelefon kan ha en valfri PIN på 4 siffror, som administratören kan se. Ett telefonnummer är bara ett valfritt kontaktfält. Administratören ser kostnader, fakturering, personer och auditloggen. Underhåll hanterar enheter, QR-dekaler, rapporter, fel och arbetsordrar, men inte kostnader, fakturering eller personer. Föraren ser bara tilldelade enheter och enheter som lagts till genom skanning, gör felanmälningar och km- eller timavläsningar och ser bara hur de egna felen går vidare. Kostnader och priser visas inte för föraren. Rapporter kan ha underrapporter för släp och foton. Ett fel kan markeras som inte trafiksäkert. Underhåll kvitterar, markerar pågående och åtgärdat, och föraren får besked i appen. Tjänsten har arbetsordrar, underhållshistorik, kostnadsrader för administratören, serviceplaner och deadlines i kilometer, timmar eller datum samt påminnelser via e-post, som push-notis eller i appen. En enhet kan arkiveras och en person kan redigeras eller tas bort, och historiken behålls.",
           "Kunden utser en administratör som öppnar kontot och hanterar användare. Administratören bestämmer vem som får tillgång och vilka rättigheter de har.",
           "Kunden ansvarar för vad de egna användarna gör i tjänsten. En personlig e-postkod, inbjudningslänk och passkey är personliga och får inte lämnas vidare. PIN-koden på en delad telefon tillhör den personen. Kunden ansvarar för att ha rätt att spara de uppgifter som läggs in.",
           "En ny kund kan prova iqFleetSync gratis i 30 dagar.",
@@ -583,7 +583,7 @@ const TERMS_PAGE = {
           "Für ein iqFleetSync-Konto ist eine finnische Geschäftskennnummer (Y-tunnus) erforderlich.",
           "iqFleetSync ist ein Webdienst für die Wartung eines Fuhrparks unter fleetsync.iqsoftcore.fi. Die Daten jedes Kundenunternehmens bleiben von anderen Kunden getrennt.",
           "iqFleetSync läuft im Browser auf Telefon oder Computer. Fahrende Personen, die Werkstatt und die Administration installieren keine App. Der QR-Aufkleber erkennt die Einheit und meldet niemanden an. Aufkleber lassen sich aus dem Dienst drucken. Scannen mit der Telefonkamera öffnet die Einheit und fügt sie den eigenen Einheiten hinzu. Die Administration sieht, wer eine Einheit wann genutzt hat.",
-          "Die Administration lädt eine Person mit einem Link per E-Mail ein. Danach erfolgt die Anmeldung mit Fingerabdruck oder Gesicht (Passkey). Ein 6-stelliger E-Mail-Code ist die Alternative. Ein gemeinsames Fahrzeugtelefon kann eine optionale PIN mit 4 Ziffern haben, die die Administration einsehen kann. Eine Telefonnummer ist nur ein optionales Kontaktfeld. Die Administration sieht Kosten, Abrechnung, Personen und das Audit-Protokoll. Die Werkstatt bearbeitet Einheiten, QR-Aufkleber, Berichte, Mängel und Arbeitsaufträge, aber keine Kosten, keine Abrechnung und keine Personen. Die fahrende Person sieht nur zugewiesene Einheiten und durch Scannen hinzugefügte Einheiten, meldet Mängel sowie Kilometer oder Stunden und sieht nur den Fortschritt der eigenen Mängel. Kosten und Preise sind nicht sichtbar. Berichte können Unterberichte zum Anhänger und Fotos enthalten. Ein Mangel kann als nicht fahrbereit markiert werden. Die Werkstatt bestätigt ihn, markiert ihn als in Arbeit und als behoben, und die fahrende Person wird in der App benachrichtigt. Der Dienst hat Arbeitsaufträge, Wartungshistorie, Kostenzeilen für die Administration, Wartungspläne und Fristen nach Kilometern, Stunden oder Datum sowie Erinnerungen per E-Mail oder in der App. Eine Einheit kann archiviert und eine Person bearbeitet oder entfernt werden, und die Historie bleibt.",
+          "Die Administration lädt eine Person mit einem Link per E-Mail ein. Danach erfolgt die Anmeldung mit Fingerabdruck oder Gesicht (Passkey). Ein 6-stelliger E-Mail-Code ist die Alternative. Ein gemeinsames Fahrzeugtelefon kann eine optionale PIN mit 4 Ziffern haben, die die Administration einsehen kann. Eine Telefonnummer ist nur ein optionales Kontaktfeld. Die Administration sieht Kosten, Abrechnung, Personen und das Audit-Protokoll. Die Werkstatt bearbeitet Einheiten, QR-Aufkleber, Berichte, Mängel und Arbeitsaufträge, aber keine Kosten, keine Abrechnung und keine Personen. Die fahrende Person sieht nur zugewiesene Einheiten und durch Scannen hinzugefügte Einheiten, meldet Mängel sowie Kilometer oder Stunden und sieht nur den Fortschritt der eigenen Mängel. Kosten und Preise sind nicht sichtbar. Berichte können Unterberichte zum Anhänger und Fotos enthalten. Ein Mangel kann als nicht fahrbereit markiert werden. Die Werkstatt bestätigt ihn, markiert ihn als in Arbeit und als behoben, und die fahrende Person wird in der App benachrichtigt. Der Dienst hat Arbeitsaufträge, Wartungshistorie, Kostenzeilen für die Administration, Wartungspläne und Fristen nach Kilometern, Stunden oder Datum sowie Erinnerungen per E-Mail, als Push-Nachricht oder in der App. Eine Einheit kann archiviert und eine Person bearbeitet oder entfernt werden, und die Historie bleibt.",
           "Der Kunde benennt eine Verwaltung, die das Konto eröffnet und Benutzer verwaltet. Die Verwaltung entscheidet, wer Zugang erhält und welche Rechte gelten.",
           "Der Kunde haftet für das, was die eigenen Benutzer im Dienst tun. Ein persönlicher E-Mail-Code, ein Einladungslink und ein Passkey sind persönlich und dürfen nicht weitergegeben werden. Die PIN an einem gemeinsamen Telefon gehört dieser Person. Der Kunde ist dafür verantwortlich, dass die eingegebenen Daten gespeichert werden dürfen.",
           "Ein neuer Kunde kann iqFleetSync 30 Tage kostenlos testen.",
@@ -756,7 +756,7 @@ const TERMS_PAGE = {
           "Å åpne en iqFleetSync-konto krever et finsk organisasjonsnummer (Y-tunnus).",
           "iqFleetSync er en nettjeneste for vedlikehold av en flåte på fleetsync.iqsoftcore.fi. Hvert kundeforetaks data holdes atskilt fra andre kunder.",
           "iqFleetSync kjører i nettleseren på telefon eller datamaskin. Sjåfører, vedlikehold og administratorer installerer ingen app. QR-merket identifiserer enheten og logger ikke inn noen. Merkene kan skrives ut fra tjenesten. Skanning med telefonens kamera åpner enheten og legger den til blant sjåførens egne enheter. Administratoren ser hvem som brukte en enhet og når.",
-          "En administrator inviterer en person med en lenke på e-post. Deretter er innlogging fingeravtrykk eller ansikt (passkey). En 6-sifret e-postkode er reserven. En delt kjøretøytelefon kan ha en valgfri PIN på 4 sifre, som administratoren kan se. Et telefonnummer er bare et valgfritt kontaktfelt. Administratoren ser kostnader, fakturering, personer og revisjonsloggen. Vedlikehold håndterer enheter, QR-merker, rapporter, feil og arbeidsordrer, men ikke kostnader, fakturering eller personer. Sjåføren ser bare tildelte enheter og enheter lagt til ved skanning, melder feil og km- eller timeavlesninger og ser bare fremdriften på egne feil. Kostnader og priser vises ikke for sjåføren. Rapporter kan ha underrapporter for tilhenger og bilder. En feil kan merkes som ikke kjørbar. Vedlikehold kvitterer, merker pågående og rettet, og sjåføren får beskjed i appen. Tjenesten har arbeidsordrer, vedlikeholdshistorikk, kostnadslinjer for administratoren, serviceplaner og frister i kilometer, timer eller dato, og påminnelser på e-post eller i appen. En enhet kan arkiveres og en person kan redigeres eller fjernes, og historikken beholdes.",
+          "En administrator inviterer en person med en lenke på e-post. Deretter er innlogging fingeravtrykk eller ansikt (passkey). En 6-sifret e-postkode er reserven. En delt kjøretøytelefon kan ha en valgfri PIN på 4 sifre, som administratoren kan se. Et telefonnummer er bare et valgfritt kontaktfelt. Administratoren ser kostnader, fakturering, personer og revisjonsloggen. Vedlikehold håndterer enheter, QR-merker, rapporter, feil og arbeidsordrer, men ikke kostnader, fakturering eller personer. Sjåføren ser bare tildelte enheter og enheter lagt til ved skanning, melder feil og km- eller timeavlesninger og ser bare fremdriften på egne feil. Kostnader og priser vises ikke for sjåføren. Rapporter kan ha underrapporter for tilhenger og bilder. En feil kan merkes som ikke kjørbar. Vedlikehold kvitterer, merker pågående og rettet, og sjåføren får beskjed i appen. Tjenesten har arbeidsordrer, vedlikeholdshistorikk, kostnadslinjer for administratoren, serviceplaner og frister i kilometer, timer eller dato, og påminnelser på e-post, som push-varsel eller i appen. En enhet kan arkiveres og en person kan redigeres eller fjernes, og historikken beholdes.",
           "Kunden utpeker en administrator som åpner kontoen og styrer brukerne. Administratoren bestemmer hvem som får tilgang og hvilke rettigheter de har.",
           "Kunden svarer for det egne brukere gjør i tjenesten. En personlig e-postkode, invitasjonslenke og passkey er personlige og skal ikke gis videre. PIN-koden på en delt telefon tilhører den personen. Kunden svarer for at opplysningene som lagres, kan lagres.",
           "En ny kunde kan prøve iqFleetSync gratis i 30 dager.",
@@ -929,7 +929,7 @@ const TERMS_PAGE = {
           "At åbne en iqFleetSync-konto kræver et finsk virksomhedsnummer (Y-tunnus).",
           "iqFleetSync er en webtjeneste til vedligehold af en flåde på fleetsync.iqsoftcore.fi. Hver kundes data holdes adskilt fra andre kunder.",
           "iqFleetSync kører i browseren på telefon eller computer. Chauffører, vedligehold og administratorer installerer ingen app. QR-mærket identificerer enheden og logger ikke nogen ind. Mærker kan udskrives fra tjenesten. Scanning med telefonens kamera åbner enheden og tilføjer den til chaufførens egne enheder. Administratoren ser, hvem der brugte en enhed, og hvornår.",
-          "En administrator inviterer en person med et link i e-mail. Derefter er login fingeraftryk eller ansigt (passkey). En 6-cifret e-mailkode er reserven. En delt køretøjstelefon kan have en valgfri PIN på 4 cifre, som administratoren kan se. Et telefonnummer er kun et valgfrit kontaktfelt. Administratoren ser omkostninger, fakturering, personer og revisionsloggen. Vedligehold håndterer enheder, QR-mærker, rapporter, fejl og arbejdsordrer, men ikke omkostninger, fakturering eller personer. Chaufføren ser kun tildelte enheder og enheder tilføjet ved scanning, laver fejlmeldinger og km- eller timeaflæsninger og ser kun fremdriften på egne fejl. Omkostninger og priser vises ikke for chaufføren. Rapporter kan have underrapporter for anhænger og fotos. En fejl kan markeres som ikke køreklar. Vedligehold kvitterer, markerer i gang og udbedret, og chaufføren får besked i appen. Tjenesten har arbejdsordrer, vedligeholdelseshistorik, omkostningslinjer for administratoren, serviceplaner og frister i kilometer, timer eller dato samt påmindelser via e-mail eller i appen. En enhed kan arkiveres og en person kan redigeres eller fjernes, og historikken beholdes.",
+          "En administrator inviterer en person med et link i e-mail. Derefter er login fingeraftryk eller ansigt (passkey). En 6-cifret e-mailkode er reserven. En delt køretøjstelefon kan have en valgfri PIN på 4 cifre, som administratoren kan se. Et telefonnummer er kun et valgfrit kontaktfelt. Administratoren ser omkostninger, fakturering, personer og revisionsloggen. Vedligehold håndterer enheder, QR-mærker, rapporter, fejl og arbejdsordrer, men ikke omkostninger, fakturering eller personer. Chaufføren ser kun tildelte enheder og enheder tilføjet ved scanning, laver fejlmeldinger og km- eller timeaflæsninger og ser kun fremdriften på egne fejl. Omkostninger og priser vises ikke for chaufføren. Rapporter kan have underrapporter for anhænger og fotos. En fejl kan markeres som ikke køreklar. Vedligehold kvitterer, markerer i gang og udbedret, og chaufføren får besked i appen. Tjenesten har arbejdsordrer, vedligeholdelseshistorik, omkostningslinjer for administratoren, serviceplaner og frister i kilometer, timer eller dato samt påmindelser via e-mail, som push-besked eller i appen. En enhed kan arkiveres og en person kan redigeres eller fjernes, og historikken beholdes.",
           "Kunden udpeger en administrator, som åbner kontoen og styrer brugerne. Administratoren bestemmer, hvem der får adgang, og hvilke rettigheder de har.",
           "Kunden hæfter for det, egne brugere gør i tjenesten. En personlig e-mailkode, invitationslink og passkey er personlige og må ikke gives videre. PIN-koden på en delt telefon tilhører den person. Kunden er ansvarlig for, at de indtastede oplysninger må gemmes.",
           "En ny kunde kan prøve iqFleetSync gratis i 30 dage.",
@@ -1102,7 +1102,7 @@ const TERMS_PAGE = {
           "Voor een iqFleetSync-account is een Fins ondernemingsnummer (Y-tunnus) nodig.",
           "iqFleetSync is een webdienst voor onderhoud van een wagenpark op fleetsync.iqsoftcore.fi. De gegevens van elk klantbedrijf blijven gescheiden van andere klanten.",
           "iqFleetSync draait in de browser op een telefoon of computer. Bestuurders, onderhoud en beheerders installeren geen app. De QR-sticker herkent de eenheid en meldt niemand aan. Stickers kunnen vanuit de dienst worden afgedrukt. Scannen met de camera van de telefoon opent de eenheid en voegt hem toe aan de eigen eenheden. De beheerder ziet wie een eenheid gebruikte en wanneer.",
-          "Een beheerder nodigt een persoon uit met een link per e-mail. Daarna is aanmelden een vingerafdruk of gezicht (passkey). Een e-mailcode van 6 cijfers is de reserve. Een gedeelde voertuigtelefoon kan een optionele pincode van 4 cijfers hebben, die de beheerder kan bekijken. Een telefoonnummer is alleen een optioneel contactveld. De beheerder ziet kosten, facturatie, personen en het auditlogboek. Onderhoud behandelt eenheden, QR-stickers, rapporten, gebreken en werkorders, maar geen kosten, facturatie of personen. Een bestuurder ziet alleen toegewezen eenheden en eenheden die door scannen zijn toegevoegd, meldt gebreken en km- of urenstanden en ziet alleen de voortgang van de eigen gebreken. Kosten en prijzen zijn niet zichtbaar. Rapporten kunnen deelrapporten van de aanhanger en foto’s bevatten. Een gebrek kan als niet rijwaardig worden gemarkeerd. Onderhoud bevestigt het, markeert het als bezig en als hersteld, en de bestuurder krijgt bericht in de app. De dienst heeft werkorders, onderhoudshistorie, kostenregels voor de beheerder, onderhoudsplannen en termijnen in kilometers, uren of datum, en herinneringen per e-mail of in de app. Een eenheid kan worden gearchiveerd en een persoon kan worden bewerkt of verwijderd, en de geschiedenis blijft.",
+          "Een beheerder nodigt een persoon uit met een link per e-mail. Daarna is aanmelden een vingerafdruk of gezicht (passkey). Een e-mailcode van 6 cijfers is de reserve. Een gedeelde voertuigtelefoon kan een optionele pincode van 4 cijfers hebben, die de beheerder kan bekijken. Een telefoonnummer is alleen een optioneel contactveld. De beheerder ziet kosten, facturatie, personen en het auditlogboek. Onderhoud behandelt eenheden, QR-stickers, rapporten, gebreken en werkorders, maar geen kosten, facturatie of personen. Een bestuurder ziet alleen toegewezen eenheden en eenheden die door scannen zijn toegevoegd, meldt gebreken en km- of urenstanden en ziet alleen de voortgang van de eigen gebreken. Kosten en prijzen zijn niet zichtbaar. Rapporten kunnen deelrapporten van de aanhanger en foto’s bevatten. Een gebrek kan als niet rijwaardig worden gemarkeerd. Onderhoud bevestigt het, markeert het als bezig en als hersteld, en de bestuurder krijgt bericht in de app. De dienst heeft werkorders, onderhoudshistorie, kostenregels voor de beheerder, onderhoudsplannen en termijnen in kilometers, uren of datum, en herinneringen per e-mail, als pushbericht of in de app. Een eenheid kan worden gearchiveerd en een persoon kan worden bewerkt of verwijderd, en de geschiedenis blijft.",
           "De klant wijst een beheerder aan die het account opent en gebruikers beheert. De beheerder bepaalt wie toegang krijgt en welke rechten die heeft.",
           "De klant is verantwoordelijk voor wat de eigen gebruikers in de dienst doen. Een persoonlijke e-mailcode, uitnodigingslink en passkey zijn persoonlijk en mogen niet worden doorgegeven. De pincode op een gedeelde telefoon hoort bij die persoon. De klant is ervoor verantwoordelijk dat de ingevoerde gegevens opgeslagen mogen worden.",
           "Een nieuwe klant kan iqFleetSync 30 dagen gratis proberen.",
@@ -1275,7 +1275,7 @@ const TERMS_PAGE = {
           "L’ouverture d’un compte iqFleetSync exige un numéro d’entreprise finlandais (Y-tunnus).",
           "iqFleetSync est un service web d’entretien de parc à fleetsync.iqsoftcore.fi. Les données de chaque entreprise cliente restent séparées des autres clients.",
           "iqFleetSync fonctionne dans le navigateur sur téléphone ou ordinateur. Conducteurs, entretien et administrateurs n’installent pas d’application. L’autocollant QR identifie l’unité et ne connecte personne. Les autocollants s’impriment depuis le service. Le scan avec l’appareil photo du téléphone ouvre l’unité et l’ajoute aux unités du conducteur. L’administrateur voit qui a utilisé une unité et quand.",
-          "Un administrateur invite une personne par un lien envoyé par e-mail. Ensuite, la connexion se fait par empreinte ou visage (passkey). Un code e-mail à 6 chiffres sert de recours. Un téléphone partagé peut avoir un PIN facultatif de 4 chiffres, que l’administrateur peut voir. Un numéro de téléphone n’est qu’un champ de contact facultatif. L’administrateur voit les coûts, la facturation, les personnes et le journal d’audit. L’entretien gère les unités, les autocollants QR, les rapports, les défauts et les ordres de travail, mais pas les coûts, la facturation ni les personnes. Un conducteur ne voit que les unités assignées et celles ajoutées par scan, signale des défauts et des relevés de km ou d’heures, et voit seulement l’avancement de ses propres défauts. Les coûts et les prix sont cachés. Les rapports peuvent comprendre des sous-rapports de remorque et des photos. Un défaut peut être marqué non apte à circuler. L’entretien accuse réception, le marque en cours puis réparé, et le conducteur est prévenu dans l’application. Le service a des ordres de travail, un historique d’entretien, des lignes de coût pour l’administrateur, des plans et des échéances en kilomètres, heures ou date, et des rappels par e-mail ou dans l’application. Une unité peut être archivée et une personne modifiée ou retirée, et l’historique est conservé.",
+          "Un administrateur invite une personne par un lien envoyé par e-mail. Ensuite, la connexion se fait par empreinte ou visage (passkey). Un code e-mail à 6 chiffres sert de recours. Un téléphone partagé peut avoir un PIN facultatif de 4 chiffres, que l’administrateur peut voir. Un numéro de téléphone n’est qu’un champ de contact facultatif. L’administrateur voit les coûts, la facturation, les personnes et le journal d’audit. L’entretien gère les unités, les autocollants QR, les rapports, les défauts et les ordres de travail, mais pas les coûts, la facturation ni les personnes. Un conducteur ne voit que les unités assignées et celles ajoutées par scan, signale des défauts et des relevés de km ou d’heures, et voit seulement l’avancement de ses propres défauts. Les coûts et les prix sont cachés. Les rapports peuvent comprendre des sous-rapports de remorque et des photos. Un défaut peut être marqué non apte à circuler. L’entretien accuse réception, le marque en cours puis réparé, et le conducteur est prévenu dans l’application. Le service a des ordres de travail, un historique d’entretien, des lignes de coût pour l’administrateur, des plans et des échéances en kilomètres, heures ou date, et des rappels par e-mail, en notification push ou dans l’application. Une unité peut être archivée et une personne modifiée ou retirée, et l’historique est conservé.",
           "Le client désigne un administrateur qui ouvre le compte et gère les utilisateurs. L’administrateur décide qui a accès et quels droits il a.",
           "Le client répond de ce que font ses utilisateurs dans le service. Un code e-mail personnel, un lien d’invitation et un passkey sont personnels et ne doivent pas être transmis. Le PIN d’un téléphone partagé appartient à cette personne. Le client est responsable du droit d’enregistrer les données saisies.",
           "Un nouveau client peut essayer iqFleetSync gratuitement pendant 30 jours.",
@@ -1448,7 +1448,7 @@ const TERMS_PAGE = {
           "Abrir una cuenta de iqFleetSync exige un número de empresa finlandés (Y-tunnus).",
           "iqFleetSync es un servicio web de mantenimiento de flota en fleetsync.iqsoftcore.fi. Los datos de cada empresa cliente se mantienen separados de los demás clientes.",
           "iqFleetSync funciona en el navegador en el teléfono o el ordenador. Conductores, mantenimiento y administradores no instalan una aplicación. La pegatina QR identifica la unidad y no inicia la sesión de nadie. Las pegatinas se imprimen desde el servicio. Escanear con la cámara del teléfono abre la unidad y la añade a las unidades del conductor. El administrador ve quién usó una unidad y cuándo.",
-          "Un administrador invita a una persona con un enlace por correo. Después, el acceso es con huella o cara (passkey). Un código de correo de 6 dígitos es el recurso. Un teléfono compartido puede tener un PIN opcional de 4 dígitos, que el administrador puede ver. Un número de teléfono es solo un dato de contacto opcional. El administrador ve costes, facturación, personas y el registro de auditoría. Mantenimiento gestiona unidades, pegatinas QR, informes, defectos y órdenes de trabajo, pero no costes, facturación ni personas. Un conductor solo ve las unidades asignadas y las añadidas al escanear, registra defectos y lecturas de km u horas, y solo ve el avance de sus propios defectos. Los costes y los precios no se muestran. Los informes pueden incluir subinformes del remolque y fotos. Un defecto se puede marcar como no apto para circular. Mantenimiento lo acusa, lo marca en curso y lo marca reparado, y el conductor recibe el aviso en la aplicación. El servicio tiene órdenes de trabajo, historial de mantenimiento, líneas de coste para el administrador, planes y plazos por kilómetros, horas o fecha, y avisos por correo o en la aplicación. Una unidad se puede archivar y una persona se puede editar o quitar, y el historial se conserva.",
+          "Un administrador invita a una persona con un enlace por correo. Después, el acceso es con huella o cara (passkey). Un código de correo de 6 dígitos es el recurso. Un teléfono compartido puede tener un PIN opcional de 4 dígitos, que el administrador puede ver. Un número de teléfono es solo un dato de contacto opcional. El administrador ve costes, facturación, personas y el registro de auditoría. Mantenimiento gestiona unidades, pegatinas QR, informes, defectos y órdenes de trabajo, pero no costes, facturación ni personas. Un conductor solo ve las unidades asignadas y las añadidas al escanear, registra defectos y lecturas de km u horas, y solo ve el avance de sus propios defectos. Los costes y los precios no se muestran. Los informes pueden incluir subinformes del remolque y fotos. Un defecto se puede marcar como no apto para circular. Mantenimiento lo acusa, lo marca en curso y lo marca reparado, y el conductor recibe el aviso en la aplicación. El servicio tiene órdenes de trabajo, historial de mantenimiento, líneas de coste para el administrador, planes y plazos por kilómetros, horas o fecha, y avisos por correo, como notificación push o en la aplicación. Una unidad se puede archivar y una persona se puede editar o quitar, y el historial se conserva.",
           "El cliente nombra a un administrador que abre la cuenta y gestiona a los usuarios. El administrador decide quién tiene acceso y qué derechos tiene.",
           "El cliente responde de lo que hacen sus usuarios en el servicio. Un código de correo personal, un enlace de invitación y un passkey son personales y no se deben compartir. El PIN de un teléfono compartido pertenece a esa persona. El cliente responde de tener derecho a guardar los datos que introduce.",
           "Un cliente nuevo puede probar iqFleetSync gratis durante 30 días.",
@@ -1621,7 +1621,7 @@ const TERMS_PAGE = {
           "Abrir uma conta iqFleetSync exige um número de empresa finlandês (Y-tunnus).",
           "O iqFleetSync é um serviço web de manutenção de frota em fleetsync.iqsoftcore.fi. Os dados de cada empresa cliente ficam separados dos outros clientes.",
           "O iqFleetSync funciona no navegador no telemóvel ou no computador. Motoristas, manutenção e administradores não instalam uma aplicação. O autocolante QR identifica a unidade e não inicia a sessão de ninguém. Os autocolantes imprimem-se no serviço. Ler com a câmara do telemóvel abre a unidade e adiciona-a às unidades do motorista. O administrador vê quem usou uma unidade e quando.",
-          "Um administrador convida uma pessoa com uma ligação por e-mail. Depois, o acesso é por impressão digital ou rosto (passkey). Um código de e-mail de 6 dígitos é a alternativa. Um telemóvel partilhado pode ter um PIN opcional de 4 dígitos, que o administrador pode ver. Um número de telefone é apenas um contacto opcional. O administrador vê custos, faturação, pessoas e o registo de auditoria. A manutenção trata de unidades, autocolantes QR, relatórios, defeitos e ordens de trabalho, mas não de custos, faturação ou pessoas. Um motorista só vê as unidades atribuídas e as adicionadas por leitura, regista defeitos e leituras de km ou horas e só vê o andamento dos próprios defeitos. Custos e preços ficam ocultos. Os relatórios podem incluir sub-relatórios do reboque e fotografias. Um defeito pode ser marcado como não apto a circular. A manutenção confirma, marca em curso e marca reparado, e o motorista é avisado na aplicação. O serviço tem ordens de trabalho, histórico de manutenção, linhas de custo para o administrador, planos e prazos em quilómetros, horas ou data, e lembretes por e-mail ou na aplicação. Uma unidade pode ser arquivada e uma pessoa editada ou removida, e o histórico fica guardado.",
+          "Um administrador convida uma pessoa com uma ligação por e-mail. Depois, o acesso é por impressão digital ou rosto (passkey). Um código de e-mail de 6 dígitos é a alternativa. Um telemóvel partilhado pode ter um PIN opcional de 4 dígitos, que o administrador pode ver. Um número de telefone é apenas um contacto opcional. O administrador vê custos, faturação, pessoas e o registo de auditoria. A manutenção trata de unidades, autocolantes QR, relatórios, defeitos e ordens de trabalho, mas não de custos, faturação ou pessoas. Um motorista só vê as unidades atribuídas e as adicionadas por leitura, regista defeitos e leituras de km ou horas e só vê o andamento dos próprios defeitos. Custos e preços ficam ocultos. Os relatórios podem incluir sub-relatórios do reboque e fotografias. Um defeito pode ser marcado como não apto a circular. A manutenção confirma, marca em curso e marca reparado, e o motorista é avisado na aplicação. O serviço tem ordens de trabalho, histórico de manutenção, linhas de custo para o administrador, planos e prazos em quilómetros, horas ou data, e lembretes por e-mail, como notificação push ou na aplicação. Uma unidade pode ser arquivada e uma pessoa editada ou removida, e o histórico fica guardado.",
           "O cliente nomeia um administrador que abre a conta e gere os utilizadores. O administrador decide quem tem acesso e que direitos tem.",
           "O cliente responde pelo que os seus utilizadores fazem no serviço. Um código de e-mail pessoal, um link de convite e um passkey são pessoais e não devem ser partilhados. O PIN de um telefone partilhado pertence a essa pessoa. O cliente é responsável por ter o direito de guardar os dados que introduz.",
           "Um cliente novo pode experimentar o iqFleetSync grátis durante 30 dias.",
@@ -1794,7 +1794,7 @@ const TERMS_PAGE = {
           "Aprire un account iqFleetSync richiede un codice impresa finlandese (Y-tunnus).",
           "iqFleetSync è un servizio web per la manutenzione di una flotta all’indirizzo fleetsync.iqsoftcore.fi. I dati di ogni impresa cliente restano separati dagli altri clienti.",
           "iqFleetSync funziona nel browser sul telefono o sul computer. Conducenti, officina e amministratori non installano un’app. L’adesivo QR identifica l’unità e non fa accedere nessuno. Gli adesivi si stampano dal servizio. La scansione con la fotocamera del telefono apre l’unità e la aggiunge alle unità del conducente. L’amministratore vede chi ha usato un’unità e quando.",
-          "Un amministratore invita una persona con un link via e-mail. Poi l’accesso è con impronta o volto (passkey). Un codice e-mail di 6 cifre è l’alternativa. Un telefono condiviso può avere un PIN facoltativo di 4 cifre, che l’amministratore può vedere. Un numero di telefono è solo un contatto facoltativo. L’amministratore vede costi, fatturazione, persone e il registro di audit. L’officina gestisce unità, adesivi QR, rapporti, difetti e ordini di lavoro, ma non costi, fatturazione o persone. Un conducente vede solo le unità assegnate e quelle aggiunte con la scansione, segnala difetti e letture di km o ore e vede solo l’avanzamento dei propri difetti. Costi e prezzi sono nascosti. I rapporti possono includere sotto-rapporti del rimorchio e foto. Un difetto si può segnare come non idoneo alla circolazione. L’officina lo conferma, lo segna in corso e lo segna riparato, e il conducente riceve l’avviso nell’app. Il servizio ha ordini di lavoro, storico di manutenzione, righe di costo per l’amministratore, piani e scadenze in chilometri, ore o data, e promemoria per e-mail o nell’app. Un’unità si può archiviare e una persona modificare o rimuovere, e lo storico resta.",
+          "Un amministratore invita una persona con un link via e-mail. Poi l’accesso è con impronta o volto (passkey). Un codice e-mail di 6 cifre è l’alternativa. Un telefono condiviso può avere un PIN facoltativo di 4 cifre, che l’amministratore può vedere. Un numero di telefono è solo un contatto facoltativo. L’amministratore vede costi, fatturazione, persone e il registro di audit. L’officina gestisce unità, adesivi QR, rapporti, difetti e ordini di lavoro, ma non costi, fatturazione o persone. Un conducente vede solo le unità assegnate e quelle aggiunte con la scansione, segnala difetti e letture di km o ore e vede solo l’avanzamento dei propri difetti. Costi e prezzi sono nascosti. I rapporti possono includere sotto-rapporti del rimorchio e foto. Un difetto si può segnare come non idoneo alla circolazione. L’officina lo conferma, lo segna in corso e lo segna riparato, e il conducente riceve l’avviso nell’app. Il servizio ha ordini di lavoro, storico di manutenzione, righe di costo per l’amministratore, piani e scadenze in chilometri, ore o data, e promemoria per e-mail, come notifica push o nell’app. Un’unità si può archiviare e una persona modificare o rimuovere, e lo storico resta.",
           "Il cliente nomina un amministratore che apre l’account e gestisce gli utenti. L’amministratore decide chi ha accesso e quali diritti ha.",
           "Il cliente risponde di ciò che i propri utenti fanno nel servizio. Un codice e-mail personale, un link di invito e un passkey sono personali e non vanno condivisi. Il PIN di un telefono condiviso appartiene a quella persona. Il cliente è responsabile del diritto di salvare i dati inseriti.",
           "Un nuovo cliente può provare iqFleetSync gratis per 30 giorni.",
@@ -1967,7 +1967,7 @@ const TERMS_PAGE = {
           "Otwarcie konta iqFleetSync wymaga fińskiego numeru firmy (Y-tunnus).",
           "iqFleetSync to usługa internetowa do utrzymania floty pod adresem fleetsync.iqsoftcore.fi. Dane każdej firmy klienta są oddzielone od innych klientów.",
           "iqFleetSync działa w przeglądarce na telefonie lub komputerze. Kierowcy, serwis i administratorzy nie instalują aplikacji. Naklejka QR identyfikuje jednostkę i nikogo nie loguje. Naklejki można drukować z usługi. Skan aparatem telefonu otwiera jednostkę i dodaje ją do jednostek kierowcy. Administrator widzi, kto używał jednostki i kiedy.",
-          "Administrator zaprasza osobę linkiem w e-mailu. Potem logowanie jest odciskiem palca lub twarzą (passkey). Kod e-mail z 6 cyfr jest zapasowy. Wspólny telefon pojazdu może mieć opcjonalny PIN z 4 cyfr, który administrator może zobaczyć. Numer telefonu to tylko opcjonalne pole kontaktowe. Administrator widzi koszty, rozliczenia, osoby i dziennik audytu. Serwis obsługuje jednostki, naklejki QR, raporty, usterki i zlecenia, ale nie koszty, rozliczenia ani osoby. Kierowca widzi tylko przypisane jednostki i jednostki dodane skanem, zgłasza usterki oraz kilometry lub motogodziny i widzi tylko postęp własnych zgłoszeń. Koszty i ceny są ukryte. Raporty mogą mieć podraporty naczepy i zdjęcia. Usterkę można oznaczyć jako niezdatną do ruchu. Serwis potwierdza, oznacza jako w toku i jako naprawioną, a kierowca dostaje informację w aplikacji. Usługa ma zlecenia, historię serwisu, wiersze kosztów dla administratora, plany i terminy w kilometrach, motogodzinach lub dacie oraz przypomnienia e-mailem lub w aplikacji. Jednostkę można zarchiwizować, a osobę edytować lub usunąć, i historia zostaje.",
+          "Administrator zaprasza osobę linkiem w e-mailu. Potem logowanie jest odciskiem palca lub twarzą (passkey). Kod e-mail z 6 cyfr jest zapasowy. Wspólny telefon pojazdu może mieć opcjonalny PIN z 4 cyfr, który administrator może zobaczyć. Numer telefonu to tylko opcjonalne pole kontaktowe. Administrator widzi koszty, rozliczenia, osoby i dziennik audytu. Serwis obsługuje jednostki, naklejki QR, raporty, usterki i zlecenia, ale nie koszty, rozliczenia ani osoby. Kierowca widzi tylko przypisane jednostki i jednostki dodane skanem, zgłasza usterki oraz kilometry lub motogodziny i widzi tylko postęp własnych zgłoszeń. Koszty i ceny są ukryte. Raporty mogą mieć podraporty naczepy i zdjęcia. Usterkę można oznaczyć jako niezdatną do ruchu. Serwis potwierdza, oznacza jako w toku i jako naprawioną, a kierowca dostaje informację w aplikacji. Usługa ma zlecenia, historię serwisu, wiersze kosztów dla administratora, plany i terminy w kilometrach, motogodzinach lub dacie oraz przypomnienia e-mailem, jako powiadomienie push lub w aplikacji. Jednostkę można zarchiwizować, a osobę edytować lub usunąć, i historia zostaje.",
           "Klient wyznacza administratora, który otwiera konto i zarządza użytkownikami. Administrator decyduje, kto ma dostęp i jakie ma uprawnienia.",
           "Klient odpowiada za to, co jego użytkownicy robią w usłudze. Osobisty kod e-mail, link zaproszenia i passkey są osobiste i nie wolno ich przekazywać. PIN na wspólnym telefonie należy do tej osoby. Klient odpowiada za prawo do zapisania wprowadzonych danych.",
           "Nowy klient może wypróbować iqFleetSync bezpłatnie przez 30 dni.",
@@ -2140,7 +2140,7 @@ const TERMS_PAGE = {
           "Otevření účtu iqFleetSync vyžaduje finské IČ (Y-tunnus).",
           "iqFleetSync je webová služba pro údržbu vozového parku na adrese fleetsync.iqsoftcore.fi. Údaje každé zákaznické firmy jsou oddělené od ostatních zákazníků.",
           "iqFleetSync běží v prohlížeči na telefonu nebo počítači. Řidiči, údržba a správci neinstalují aplikaci. QR štítek identifikuje jednotku a nikoho nepřihlásí. Štítky se tisknou ze služby. Sken fotoaparátem telefonu otevře jednotku a přidá ji k jednotkám řidiče. Správce vidí, kdo jednotku použil a kdy.",
-          "Správce pozve osobu odkazem v e-mailu. Potom je přihlášení otiskem prstu nebo obličejem (passkey). Šestimístný e-mailový kód je záloha. Sdílený telefon vozidla může mít volitelný PIN o 4 číslicích, který správce může zobrazit. Telefonní číslo je jen volitelný kontakt. Správce vidí náklady, fakturaci, osoby a auditní záznam. Údržba spravuje jednotky, QR štítky, hlášení, závady a pracovní příkazy, ale ne náklady, fakturaci ani osoby. Řidič vidí jen přidělené jednotky a jednotky přidané skenem, hlásí závady a km nebo motohodiny a vidí jen postup vlastních hlášení. Náklady a ceny se nezobrazují. Hlášení mohou obsahovat dílčí hlášení návěsu a fotografie. Závadu lze označit jako nezpůsobilou k provozu. Údržba ji potvrdí, označí jako rozpracovanou a jako opravenou a řidič dostane zprávu v aplikaci. Služba má pracovní příkazy, historii údržby, řádky nákladů pro správce, servisní plány a termíny v kilometrech, motohodinách nebo datu a připomínky e-mailem nebo v aplikaci. Jednotku lze archivovat a osobu upravit nebo odebrat, a historie zůstane.",
+          "Správce pozve osobu odkazem v e-mailu. Potom je přihlášení otiskem prstu nebo obličejem (passkey). Šestimístný e-mailový kód je záloha. Sdílený telefon vozidla může mít volitelný PIN o 4 číslicích, který správce může zobrazit. Telefonní číslo je jen volitelný kontakt. Správce vidí náklady, fakturaci, osoby a auditní záznam. Údržba spravuje jednotky, QR štítky, hlášení, závady a pracovní příkazy, ale ne náklady, fakturaci ani osoby. Řidič vidí jen přidělené jednotky a jednotky přidané skenem, hlásí závady a km nebo motohodiny a vidí jen postup vlastních hlášení. Náklady a ceny se nezobrazují. Hlášení mohou obsahovat dílčí hlášení návěsu a fotografie. Závadu lze označit jako nezpůsobilou k provozu. Údržba ji potvrdí, označí jako rozpracovanou a jako opravenou a řidič dostane zprávu v aplikaci. Služba má pracovní příkazy, historii údržby, řádky nákladů pro správce, servisní plány a termíny v kilometrech, motohodinách nebo datu a připomínky e-mailem, jako push oznámení nebo v aplikaci. Jednotku lze archivovat a osobu upravit nebo odebrat, a historie zůstane.",
           "Zákazník určí správce, který účet otevře a spravuje uživatele. Správce rozhoduje, kdo dostane přístup a jaká práva má.",
           "Zákazník odpovídá za to, co jeho uživatelé ve službě dělají. Osobní e-mailový kód, odkaz na pozvánku a passkey jsou osobní a nesmí se předávat dál. PIN na sdíleném telefonu patří této osobě. Zákazník odpovídá za to, že zadané údaje smí uložit.",
           "Nový zákazník může iqFleetSync zkoušet 30 dní zdarma.",
@@ -2313,7 +2313,7 @@ const TERMS_PAGE = {
           "iqFleetSync のアカウント開設には、フィンランドの事業者番号（Y-tunnus）が必要です。",
           "iqFleetSync は fleetsync.iqsoftcore.fi にある車両・機械の整備用ウェブサービスです。各顧客会社のデータは他の顧客と分けて保管します。",
           "iqFleetSyncは電話またはパソコンのブラウザで動きます。運転者、整備、管理者はアプリをインストールしません。QRシールはユニットを識別し、誰もログインさせません。シールはサービスから印刷できます。電話のカメラで読み取るとユニットが開き、運転者の自分のユニットに追加されます。管理者は、誰がいつユニットを使ったかを見ます。",
-          "管理者がメールのリンクで人を招待します。その後のログインは指紋または顔（パスキー）です。代わりにメールの6桁コードがあります。共用の車両電話には任意の4桁PINを付けられ、管理者はそれを見られます。電話番号は任意の連絡先項目だけです。管理者は費用、請求、担当者、監査ログを見ます。整備はユニット、QRシール、報告、不具合、作業指示を扱い、費用、請求、担当者は扱いません。運転者は割り当てられたユニットと読み取りで追加したユニットだけを見て、不具合とキロまたはアワーを記録し、自分の不具合の進み具合だけを見ます。費用と価格は表示しません。報告にはトレーラーの子報告と写真を含められます。不具合は走行不可とできます。整備が確認し、作業中にし、完了にし、運転者にはアプリ内で知らせます。サービスには作業指示、整備履歴、管理者向けの費用行、キロ・アワー・日付の計画と期限、メールまたはアプリ内の通知があります。ユニットはアーカイブでき、担当者は編集または削除でき、履歴は残ります。",
+          "管理者がメールのリンクで人を招待します。その後のログインは指紋または顔（パスキー）です。代わりにメールの6桁コードがあります。共用の車両電話には任意の4桁PINを付けられ、管理者はそれを見られます。電話番号は任意の連絡先項目だけです。管理者は費用、請求、担当者、監査ログを見ます。整備はユニット、QRシール、報告、不具合、作業指示を扱い、費用、請求、担当者は扱いません。運転者は割り当てられたユニットと読み取りで追加したユニットだけを見て、不具合とキロまたはアワーを記録し、自分の不具合の進み具合だけを見ます。費用と価格は表示しません。報告にはトレーラーの子報告と写真を含められます。不具合は走行不可とできます。整備が確認し、作業中にし、完了にし、運転者にはアプリ内で知らせます。サービスには作業指示、整備履歴、管理者向けの費用行、キロ・アワー・日付の計画と期限、メール、プッシュ通知、またはアプリ内の通知があります。ユニットはアーカイブでき、担当者は編集または削除でき、履歴は残ります。",
           "顧客は、アカウントを開きユーザーを管理する管理者を指名します。管理者は、誰にどの権限を与えるかを決めます。",
           "顧客は、自社ユーザーのサービス内の行為について責任を負います。個人のメールコード、招待リンク、パスキーは本人用であり、他人に渡してはなりません。共用電話のPINはその人のものです。顧客は、入力するデータを保存する権利があることについて責任を負います。",
           "新しい顧客は iqFleetSync を30日間無料で試せます。",
@@ -2486,7 +2486,7 @@ const TERMS_PAGE = {
           "iqFleetSync 계정을 열려면 핀란드 사업자번호(Y-tunnus)가 필요합니다.",
           "iqFleetSync는 fleetsync.iqsoftcore.fi의 차량·장비 정비 웹 서비스입니다. 각 고객 회사의 데이터는 다른 고객과 분리합니다.",
           "iqFleetSync는 전화나 컴퓨터의 브라우저에서 돌아갑니다. 운전자, 정비, 관리자는 앱을 설치하지 않습니다. QR 스티커는 장비를 식별하며 아무도 로그인시키지 않습니다. 스티커는 서비스에서 인쇄합니다. 전화 카메라로 읽으면 장비가 열리고 운전자의 자기 장비에 추가됩니다. 관리자는 누가 언제 장비를 썼는지 봅니다.",
-          "관리자가 이메일 링크로 사람을 초대합니다. 그다음 로그인은 지문 또는 얼굴(패스키)입니다. 이메일 6자리 코드가 대안입니다. 공용 차량 전화에는 선택 4자리 PIN을 둘 수 있고, 관리자가 볼 수 있습니다. 전화번호는 선택 연락처 항목일 뿐입니다. 관리자는 비용, 청구, 사람, 감사 기록을 봅니다. 정비는 장비, QR 스티커, 보고, 고장, 작업 지시를 다루고, 비용, 청구, 사람은 다루지 않습니다. 운전자는 배정된 장비와 읽어서 추가한 장비만 보고, 고장과 킬로미터 또는 시간을 기록하며, 자기 고장의 진행만 봅니다. 비용과 가격은 보이지 않습니다. 보고에는 트레일러 하위 보고와 사진을 넣을 수 있습니다. 고장은 운행 불가로 표시할 수 있습니다. 정비가 확인하고, 진행 중으로, 완료로 표시하며, 운전자는 앱 안에서 알림을 받습니다. 서비스에는 작업 지시, 정비 이력, 관리자용 비용 줄, 킬로미터·시간·날짜의 계획과 기한, 이메일 또는 앱 안 알림이 있습니다. 장비는 보관할 수 있고 사람은 수정하거나 제거할 수 있으며, 이력은 남습니다.",
+          "관리자가 이메일 링크로 사람을 초대합니다. 그다음 로그인은 지문 또는 얼굴(패스키)입니다. 이메일 6자리 코드가 대안입니다. 공용 차량 전화에는 선택 4자리 PIN을 둘 수 있고, 관리자가 볼 수 있습니다. 전화번호는 선택 연락처 항목일 뿐입니다. 관리자는 비용, 청구, 사람, 감사 기록을 봅니다. 정비는 장비, QR 스티커, 보고, 고장, 작업 지시를 다루고, 비용, 청구, 사람은 다루지 않습니다. 운전자는 배정된 장비와 읽어서 추가한 장비만 보고, 고장과 킬로미터 또는 시간을 기록하며, 자기 고장의 진행만 봅니다. 비용과 가격은 보이지 않습니다. 보고에는 트레일러 하위 보고와 사진을 넣을 수 있습니다. 고장은 운행 불가로 표시할 수 있습니다. 정비가 확인하고, 진행 중으로, 완료로 표시하며, 운전자는 앱 안에서 알림을 받습니다. 서비스에는 작업 지시, 정비 이력, 관리자용 비용 줄, 킬로미터·시간·날짜의 계획과 기한, 이메일, 푸시 알림 또는 앱 안 알림이 있습니다. 장비는 보관할 수 있고 사람은 수정하거나 제거할 수 있으며, 이력은 남습니다.",
           "고객은 계정을 열고 사용자를 관리할 관리자를 지정합니다. 관리자가 누구에게 어떤 권한을 줄지 정합니다.",
           "고객은 자기 사용자가 서비스에서 하는 일에 책임을 집니다. 개인 이메일 코드, 초대 링크, 패스키는 개인용이며 다른 사람에게 주면 안 됩니다. 공용 전화의 PIN은 그 사람의 것입니다. 고객은 입력하는 데이터를 저장할 권리가 있는지에 책임을 집니다.",
           "새 고객은 iqFleetSync를 30일 동안 무료로 써 볼 수 있습니다.",
@@ -2659,7 +2659,7 @@ const TERMS_PAGE = {
           "开设 iqFleetSync 账户需要芬兰营业编号（Y-tunnus）。",
           "iqFleetSync 是位于 fleetsync.iqsoftcore.fi 的车队维护网页服务。每家客户公司的数据与其他客户分开保存。",
           "iqFleetSync 在手机或电脑的浏览器里运行。驾驶员、维修和管理员都不安装应用。二维码贴识别设备，不会让任何人登录。贴纸可以在服务里打印。用手机相机扫描会打开设备，并把它加入驾驶员自己的设备。管理员可以看到谁在何时使用了设备。",
-          "管理员用电子邮件链接邀请人员。之后用指纹或人脸登录（通行密钥）。备用方式是电子邮件里的 6 位数字。共用的车辆电话可以使用可选的 4 位 PIN，管理员可以查看。电话号码只是可选的联系方式。管理员看到费用、账单、人员和审计日志。维修处理设备、二维码贴、报告、缺陷和工单，但不处理费用、账单和人员。驾驶员只看到分配的设备和扫描加入的设备，提交缺陷和公里或小时读数，并且只看到自己缺陷的进展。费用和价格不显示。报告可以包含挂车子报告和照片。缺陷可以标为不能上路。维修确认、标为进行中、再标为已修复，驾驶员在应用内收到通知。服务有工单、维护历史、管理员的费用行、按公里、小时或日期的计划和期限，以及电子邮件或应用内提醒。设备可以归档，人员可以编辑或移除，历史会保留。",
+          "管理员用电子邮件链接邀请人员。之后用指纹或人脸登录（通行密钥）。备用方式是电子邮件里的 6 位数字。共用的车辆电话可以使用可选的 4 位 PIN，管理员可以查看。电话号码只是可选的联系方式。管理员看到费用、账单、人员和审计日志。维修处理设备、二维码贴、报告、缺陷和工单，但不处理费用、账单和人员。驾驶员只看到分配的设备和扫描加入的设备，提交缺陷和公里或小时读数，并且只看到自己缺陷的进展。费用和价格不显示。报告可以包含挂车子报告和照片。缺陷可以标为不能上路。维修确认、标为进行中、再标为已修复，驾驶员在应用内收到通知。服务有工单、维护历史、管理员的费用行、按公里、小时或日期的计划和期限，以及电子邮件、推送通知或应用内提醒。设备可以归档，人员可以编辑或移除，历史会保留。",
           "客户指定一名管理员开设账户并管理用户。管理员决定谁可以访问以及拥有哪些权限。",
           "客户对自己的用户在服务中的行为负责。个人电子邮件验证码、邀请链接和通行密钥只供本人使用，不得交给他人。共用电话上的 PIN 属于该人。客户负责自己有权保存所填写的数据。",
           "新客户可以免费试用 iqFleetSync 30 天。",
@@ -2785,66 +2785,66 @@ const TERMS_PAGE = {
     "home": "Avaleht",
     "sections": [
       [
-        "1. Parties and the provider",
+        "1. Pooled ja teenuseosutaja",
         [
-          "The provider is the Finnish sole trader toiminimi IqSoftCore, Finland.",
-          "Business ID (Y-tunnus): 3658340-4",
-          "Address: Siihtalantie 56, 62710 Kurejoki, Finland.",
-          "A customer may be a private consumer or a business customer. A consumer is a natural person who makes the contract mainly outside their trade. A business customer is a company or other organisation. Contact: info@iqsoftcore.fi and +358 45 133 4009."
+          "Teenuseosutaja on Soome füüsilisest isikust ettevõtja toiminimi IqSoftCore, Soome.",
+          "Äriregistri kood (Y-tunnus): 3658340-4",
+          "Aadress: Siihtalantie 56, 62710 Kurejoki, Soome.",
+          "Klient võib olla eratarbija või äriklient. Tarbija on füüsiline isik, kes teeb lepingu peamiselt väljaspool oma majandustegevust. Äriklient on ettevõte või muu organisatsioon. Kontakt: info@iqsoftcore.fi ja +358 45 133 4009."
         ]
       ],
       [
-        "2. Who these terms cover",
+        "2. Keda need tingimused hõlmavad",
         [
-          "Sections 1–5 and 9–17 apply to every customer.",
-          "Sections 6 and 7 apply only to business customers and to iqFleetSync. Section 8 applies only to consumers.",
-          "If mandatory consumer protection is more favourable to the consumer, it applies. A term that would limit such a right does not bind the consumer."
+          "Punktid 1–5 ja 9–17 kehtivad igale kliendile.",
+          "Punktid 6 ja 7 kehtivad ainult äriklientidele ja iqFleetSyncile. Punkt 8 kehtib ainult tarbijatele.",
+          "Kui kohustuslik tarbijakaitse on tarbijale soodsam, kohaldub see. Tingimus, mis sellist õigust piiraks, tarbijat ei seo."
         ]
       ],
       [
-        "3. Services",
+        "3. Teenused",
         [
-          "IQSoftCore builds software and applications and does electronics design. A private consumer can buy applications and other products.",
-          "iqFleetSync is a business service only. A consumer cannot open an iqFleetSync account."
+          "IQSoftCore teeb tarkvara ja rakendusi ning tegeleb elektroonika projekteerimisega. Eratarbija saab osta rakendusi ja muid tooteid.",
+          "iqFleetSync on ainult äriteenus. Tarbija ei saa iqFleetSynci kontot avada."
         ]
       ],
       [
-        "4. Prices and VAT",
+        "4. Hinnad ja käibemaks",
         [
-          "A price shown to a consumer includes VAT. iqWorkLog™ (formerly Tuntilappu) is a free download and includes a 14-day trial. After that, continued use is a one-time in-app purchase via Google Play. The app store's payment service receives the payment. If a price is published for iqRallyNote, it is shown including VAT.",
-          "iqFleetSync prices are for business customers and are VAT 0%. Value added tax is added on the invoice at the rate in force. The current [[pricing]] page is part of these terms.",
-          "For a business customer in another EU country with a valid VAT ID, the invoice uses reverse charge where it applies.",
-          "When a consumer buys from another EU country, VAT is charged at the rate of the customer’s country where the law requires it."
+          "Tarbijale näidatud hind sisaldab käibemaksu. iqWorkLog™ (endine Tuntilappu) on tasuta allalaaditav ja sisaldab 14-päevast prooviperioodi. Pärast seda jätkub kasutus ühekordse rakendusesisese ostuna Google Play kaudu. Makse võtab vastu rakendusepoe makseteenus. Kui iqRallyNote’ile avaldatakse hind, näidatakse seda koos käibemaksuga.",
+          "iqFleetSynci hinnad on äriklientidele ja on käibemaks 0%. Käibemaks lisatakse arvele kehtiva määra järgi. Kehtiv [[pricing]] leht on nende tingimuste osa.",
+          "Teise ELi riigi ärikliendile, kellel on kehtiv käibemaksukohustuslase number, kasutatakse arvel pöördmaksustamist, kui see kohaldub.",
+          "Kui tarbija ostab teisest ELi riigist, võetakse käibemaks kliendi riigi määra järgi, kui seadus seda nõuab."
         ]
       ],
       [
-        "5. Payment",
+        "5. Maksmine",
         [
-          "Paid use is paid by card through Stripe. The invoice is monthly, in arrears.",
-          "An invoice is due 14 days after the invoice date. If a business customer’s payment is late, the provider may charge late-payment interest under the Finnish Interest Act (korkolaki) and reasonable collection costs.",
-          "If a business customer’s invoice is unpaid 7 days after the due date, the account goes to read-only mode. Saved data can be viewed, and new data cannot be saved. Read-only mode ends automatically when the payment is made.",
-          "The due date and the late-payment term above apply to a business customer. A consumer pays, at the time of purchase, the price the service shows. The business due date and late-payment term are not applied to a consumer in a way that would weaken mandatory consumer rights."
+          "Tasuline kasutus makstakse kaardiga Stripe’i kaudu. Arve on igakuine ja tagantjärele.",
+          "Arve tähtaeg on 14 päeva arve kuupäevast. Kui ärikliendi makse hilineb, võib teenuseosutaja nõuda viivist Soome intressiseaduse (korkolaki) alusel ja mõistlikke sissenõudmiskulusid.",
+          "Kui ärikliendi arve on tasumata 7 päeva pärast tähtpäeva, läheb konto ainult lugemise režiimi. Salvestatud andmeid saab vaadata, uusi andmeid ei saa salvestada. Ainult lugemise režiim lõpeb automaatselt, kui makse on tehtud.",
+          "Ülaltoodud tähtpäev ja viivise tingimus kehtivad ärikliendile. Tarbija maksab ostu hetkel hinna, mida teenus näitab. Ärikliendi tähtpäeva ja viivise tingimust ei kohaldata tarbijale viisil, mis nõrgendaks kohustuslikke tarbijaõigusi."
         ]
       ],
       [
-        "6. iqFleetSync (business customers only)",
+        "6. iqFleetSync (ainult ärikliendid)",
         [
-          "Opening an iqFleetSync account requires a Finnish business ID (Y-tunnus).",
-          "iqFleetSync is a web service for fleet maintenance at fleetsync.iqsoftcore.fi. Each customer company’s data is kept separate from other customers.",
-          "iqFleetSync runs in the browser on a phone or a computer. Drivers, maintenance and admins do not install an app. A QR sticker identifies the unit and does not log anyone in. Stickers can be printed from the service. Scanning with the phone camera opens the unit and adds it to the driver’s own units. The admin sees who used a unit and when.",
-          "An admin invites a person with an email link. Sign-in is then fingerprint or face (passkey). A 6-digit email code is the fallback. A shared vehicle phone can have an optional 4-digit PIN, which the admin can view. A phone number is only an optional contact field. An admin sees costs, billing, people and the audit log. Maintenance handles units, QR stickers, reports, defects and work orders, but not costs, billing or people. A driver sees only assigned units and units added by scanning, files defect reports and km or hour readings, and sees only the progress of their own defects. Costs and prices are hidden from the driver. Reports can include trailer sub-reports and photos. A defect can be marked not roadworthy. Maintenance acknowledges it, marks it in progress and marks it fixed, and the driver is notified in the app. The service has work orders, maintenance history, cost lines for the admin, service plans and deadlines by kilometres, hours or date, and reminders by email or in the app. A unit can be archived and a person can be edited or removed, and the history is kept.",
-          "The customer names an administrator who opens the account and manages users. The administrator decides who gets access and what rights they have.",
-          "The customer is responsible for what their users do in the service. A personal email code, invite link, and passkey are personal and must not be shared. The PIN on a shared phone belongs to that person. The customer is responsible for having the right to store the data they enter.",
-          "A new customer can try iqFleetSync free for 30 days.",
-          "The trial can be stopped at any time before it ends. That does not create a charge. During the trial the service is used under these terms.",
-          "These prices are for business customers and are VAT 0%. Value added tax is added on the invoice at the rate in force.",
-          "The base fee is 10.00 € per month per customer company. A vehicle, for example a truck, is one full unit. A work machine, for example an excavator or a wheel loader, is also one full unit. Vehicles and work machines fill the price tiers together. Vehicles are counted first, then work machines.",
-          "The price is graduated. The first 15 units are 1.50 €, units 16–50 are 1.30 €, units 51–100 are 1.10 €, and units above 100 are 0.90 € each.",
-          "A trailer is half a unit in the tier it falls into. It costs half the vehicle price of that tier: 0.75 €, 0.65 €, 0.55 €, or 0.45 €. An attachment, such as a tiltrotator, a hydraulic breaker, or a sweeper, costs 0.00 € and is not counted as a unit. Users are unlimited and are not charged.",
-          "Units must be classified correctly. An attachment is an implement fixed to a machine and without its own engine, for example a bucket, a plough, or a crane. A machine that operates on its own, such as a rock crusher, is added as a work machine. Units classified incorrectly may be billed retroactively according to the correct class.",
-          "The monthly price uses the highest unit count in that calendar month. If equipment is added during the month, the month is billed at the peak count. An archived unit is not billed.",
-          "If the trial ends and no payment has been made, the account becomes read-only. If a business customer’s invoice is unpaid 7 days after the due date, the account stays read-only until the invoice is paid.",
-          "In read-only mode the saved data can still be viewed. New reports and changes cannot be saved. Read-only mode ends automatically when the payment is made.",
+          "iqFleetSynci konto avamiseks on vaja Soome äriregistri koodi (Y-tunnus).",
+          "iqFleetSync on veebiteenus masinapargi hoolduseks aadressil fleetsync.iqsoftcore.fi. Iga kliendiettevõtte andmed hoitakse teistest klientidest eraldi.",
+          "iqFleetSync töötab brauseris telefonis või arvutis. Juhid, hooldus ja haldurid ei paigalda rakendust. QR-kleebis tuvastab üksuse ega logi kedagi sisse. Kleebiseid saab teenusest printida. Telefoni kaameraga skannimine avab üksuse ja lisab selle juhi enda üksuste hulka. Haldur näeb, kes üksust kasutas ja millal.",
+          "Haldur kutsub isiku e-posti lingiga. Sisselogimine on seejärel sõrmejälje või näoga (passkey). Varuks on 6-kohaline e-posti kood. Jagatud sõiduki telefonil võib olla valikuline 4-kohaline PIN, mida haldur näeb. Telefoninumber on ainult valikuline kontaktiväli. Haldur näeb kulusid, arveldust, inimesi ja auditilogi. Hooldus haldab üksusi, QR-kleebiseid, aruandeid, rikkeid ja töökäske, kuid mitte kulusid, arveldust ega inimesi. Juht näeb ainult määratud üksusi ja skannimisega lisatud üksusi, teeb rikketeateid ning kilomeetri- või tunninäite ja näeb ainult oma rikete edenemist. Kulusid ja hindu juhile ei näidata. Aruannetes võivad olla haagise alamaruanded ja fotod. Rikke saab märkida liikluskõlbmatuks. Hooldus kinnitab selle, märgib töösse ja parandatuks ning juht saab teate rakenduses. Teenuses on töökäsud, hooldusajalugu, kuluread haldurile, hooldusplaanid ja tähtajad kilomeetrite, tundide või kuupäeva järgi ning meeldetuletused e-postiga, tõuketeatisena või rakenduses. Üksuse saab arhiveerida ning isikut muuta või eemaldada, ja ajalugu säilib.",
+          "Klient nimetab halduri, kes avab konto ja haldab kasutajaid. Haldur otsustab, kes saab ligipääsu ja millised õigused neil on.",
+          "Klient vastutab selle eest, mida tema kasutajad teenuses teevad. Isiklik e-posti kood, kutselink ja passkey on isiklikud ning neid ei tohi jagada. Jagatud telefoni PIN kuulub sellele isikule. Klient vastutab selle eest, et tal on õigus salvestada sisestatavaid andmeid.",
+          "Uus klient saab iqFleetSynci 30 päeva tasuta proovida.",
+          "Prooviperioodi saab lõpetada igal ajal enne selle lõppu. Sellest tasu ei teki. Prooviperioodi ajal kasutatakse teenust nende tingimuste alusel.",
+          "Need hinnad on äriklientidele ja on käibemaks 0%. Käibemaks lisatakse arvele kehtiva määra järgi.",
+          "Põhitasu on 10,00 € kuus kliendiettevõtte kohta. Sõiduk, näiteks veok, on üks täisüksus. Töömasin, näiteks ekskavaator või rataslaadur, on samuti üks täisüksus. Sõidukid ja töömasinad täidavad hinnatasemed koos. Kõigepealt loetakse sõidukid, seejärel töömasinad.",
+          "Hind on astmeline. Esimesed 15 ühikut on 1,50 €, ühikud 16–50 on 1,30 €, ühikud 51–100 on 1,10 € ja ühikud üle 100 on 0,90 € tükk.",
+          "Haagis on pool ühikut tasemel, kuhu see satub. See maksab poole selle taseme sõidukihinnast: 0,75 €, 0,65 €, 0,55 € või 0,45 €. Seade, näiteks kallutaja, hüdrovasar või pühkimisseade, maksab 0,00 € ega loeta ühikuks. Kasutajaid on piiramatult ja nende eest ei võeta tasu.",
+          "Ühikud tuleb liigitada õigesti. Seade on masina külge kinnitatud tööriist ilma oma mootori, näiteks kopp, ader või kraana. Ise töötav masin, näiteks kivipurusti, lisatakse töömasinana. Valesti liigitatud ühikuid võidakse tagantjärele arveldada õige klassi järgi.",
+          "Kuu hind kasutab selle kalendrikuu suurimat ühikute arvu. Kui seadmeid lisatakse kuu jooksul, arveldatakse kuu tipparvu järgi. Arhiveeritud ühikut ei arveldata.",
+          "Kui prooviperiood lõpeb ja makset ei ole tehtud, muutub konto ainult loetavaks. Kui ärikliendi arve on tasumata 7 päeva pärast tähtpäeva, jääb konto ainult loetavaks, kuni arve on tasutud.",
+          "Ainult lugemise režiimis saab salvestatud andmeid endiselt vaadata. Uusi aruandeid ja muudatusi ei saa salvestada. Ainult lugemise režiim lõpeb automaatselt, kui makse on tehtud.",
           "iqFleetSync on üks teenus. Organisatsiooni tüüp on masinapark, töökoda või mõlemad. Tüüp valib vaikemenüü. Sama rakendus ja sama QR-kleebis sobivad igale tüübile.",
           "Masinapargi ettevõte saab üksusi partneri töökojaga jagada. Jagamine võib hõlmata kõiki üksusi või valitud üksusi. Omanik valib lubatud vaated. Usaldusväärne töökoda skannib kleebise ja avab üksuse otse. Sisse logitud kasutaja saab kleebist lugeda ka rakenduse nupuga Skanni QR. Kui sellel sisselogimisel on ligipääs, avaneb üksus otse. Kui ligipääsu ei ole, avaneb külalisvaade, kus on Küsi ligipääsu. Töökoda, mida veel ei usaldata, saab ligipääsu küsida sel viisil või kleebist oma kontol skannides. Omaniku haldur kinnitab või lükkab taotluse tagasi. Omanik võib anda ka ühekordse ligipääsu, näiteks 24 tunniks või üheks töökäsuks, ja külalisvaate ilma kontota. Omanik võib jagamise igal ajal tühistada. Pärast tühistamist ei näe töökoda enam jagatud üksusi, kuid tema enda ajalooread jäävad alles.",
           "Töökäsu saab suunata ühele partneri töökojale. Ainult see töökoda näeb tööd. Töökoda saab töökäsu avada ja valmis märkida. Valmis märkimine sulgeb seotud rikked ja lisab ühe rea omaniku ajalukku. Tunde omanikule ei kopeerita. Sisemine märkus jääb töökojale ja omanik seda ei näe.",
@@ -2854,93 +2854,93 @@ const TERMS_PAGE = {
         ]
       ],
       [
-        "7. Cancellation and liability (business customers only)",
+        "7. Lõpetamine ja vastutus (ainult ärikliendid)",
         [
-          "This section applies only to business customers. It does not apply to a consumer, and it does not limit the consumer’s mandatory rights.",
-          "[[prominent]]iqFleetSync is only a record-keeping, reminder and reporting tool. The customer is solely responsible for the roadworthiness of vehicles and machines, for the quality of maintenance, for inspections, for legal obligations, and for decisions about using a vehicle. IqSoftCore is not liable for damage, accidents, or breakdowns of vehicles or machines. This includes a case where a reminder was missed, data was entered incorrectly, or a driver used a vehicle that was not roadworthy. This clause does not affect consumer rights.",
-          "The business customer cancels the paid service themselves in the app at Tilaus ja laskutus → Irtisano palvelu (Subscription and billing → Cancel the service), or by email to info@iqsoftcore.fi. Cancellation takes effect at the end of the billing period that has already started. A month that has already been billed is not refunded, unless mandatory law requires a refund.",
-          "Stopping the trial does not cost anything. Once cancellation has taken effect, the business customer’s data is kept for 90 days so the customer can view and export it. After that the data is deleted automatically. Only the invoicing data that bookkeeping law requires is kept.",
-          "The provider may end the customer’s use if the customer materially breaches these terms and does not fix it after a written notice. If the whole service is discontinued, that is announced in advance when possible.",
-          "To the extent Finnish mandatory law allows it, the provider is not liable for indirect damage, lost profit, or lost data.",
-          "Liability for direct damage is limited to the fees the customer has paid for that service during the 12 months before the damage. If no fees have been paid, that cap is 0 €.",
-          "The limit does not apply to damage caused intentionally or by gross negligence, or to any other liability that cannot be limited by law."
+          "See punkt kehtib ainult äriklientidele. See ei kehti tarbijale ega piira tarbija kohustuslikke õigusi.",
+          "[[prominent]]iqFleetSync on ainult arvestuse, meeldetuletuste ja aruandluse vahend. Klient vastutab ainuisikuliselt sõidukite ja masinate liikluskõlblikkuse, hoolduse kvaliteedi, ülevaatuste, seadusest tulenevate kohustuste ja sõiduki kasutamise otsuste eest. IqSoftCore ei vastuta sõidukite või masinate kahju, õnnetuste ega rikete eest. See hõlmab juhtu, kus meeldetuletus jäi saamata, andmed sisestati valesti või juht kasutas sõidukit, mis ei olnud liikluskõlblik. See klausel ei mõjuta tarbijaõigusi.",
+          "Äriklient lõpetab tasulise teenuse ise rakenduses kohas Tilaus ja laskutus → Irtisano palvelu (Tellimus ja arveldus → Lõpeta teenus) või e-kirjaga aadressile info@iqsoftcore.fi. Lõpetamine jõustub juba alanud arveldusperioodi lõpus. Juba arveldatud kuud ei tagastata, välja arvatud kui kohustuslik seadus nõuab tagastust.",
+          "Prooviperioodi lõpetamine ei maksa midagi. Kui lõpetamine on jõustunud, hoitakse ärikliendi andmeid 90 päeva, et klient saaks neid vaadata ja eksportida. Pärast seda kustutatakse andmed automaatselt. Alles jäetakse ainult need arveldusandmed, mida raamatupidamisseadus nõuab.",
+          "Teenuseosutaja võib kliendi kasutuse lõpetada, kui klient rikub neid tingimusi oluliselt ega paranda seda pärast kirjalikku teadet. Kui kogu teenus lõpetatakse, teatatakse sellest võimaluse korral ette.",
+          "Ulatuses, mida Soome kohustuslik õigus lubab, ei vastuta teenuseosutaja kaudse kahju, saamata jäänud kasumi ega kaotsiläinud andmete eest.",
+          "Vastutus otsese kahju eest on piiratud tasudega, mille klient on selle teenuse eest maksnud kahjule eelnenud 12 kuu jooksul. Kui tasusid ei ole makstud, on see ülempiir 0 €.",
+          "Piirang ei kehti kahjule, mis on tekitatud tahtlikult või raske hooletusega, ega muule vastutusele, mida seadusega ei saa piirata."
         ]
       ],
       [
-        "8. Consumers",
+        "8. Tarbijad",
         [
-          "Mandatory Finnish and EU consumer protection applies to a consumer. A conflicting term gives way.",
-          "The liability cap in section 7, the rule that a period already billed is not refunded, and the clause that iqFleetSync is only a record-keeping, reminder and reporting tool do not limit consumer rights.",
-          "In a distance sale, the consumer has a 14-day right of withdrawal for a digital service or digital content. The time runs from the day the contract is made.",
-          "The right of withdrawal ends if, during the withdrawal period, the consumer expressly asks for delivery or performance to start and at the same time acknowledges that they lose the right once supply of the digital content has begun or once the digital service has been fully performed.",
-          "Until then, the consumer can withdraw with a clear notice, for example by email to info@iqsoftcore.fi. The provider refunds the payment received within 14 days of the notice, to the extent the law requires a refund.",
-          "The consumer can bring a dispute to the Finnish Consumer Disputes Board, Kuluttajariitalautakunta (www.kuluttajariita.fi). The EU online dispute resolution platform closed on 20 July 2025 under Regulation (EU) 2024/3228, so there is no link to it. A list of dispute resolution bodies is at https://consumer-redress.ec.europa.eu/dispute-resolution-bodies.",
-          "A consumer who lives in another EU country does not lose the mandatory protection of their home country."
+          "Tarbijale kohaldub kohustuslik Soome ja ELi tarbijakaitse. Vastuolus olev tingimus annab teed.",
+          "Punkti 7 vastutuse ülempiir, reegel, et juba arveldatud perioodi ei tagastata, ja klausel, et iqFleetSync on ainult arvestuse, meeldetuletuste ja aruandluse vahend, ei piira tarbijaõigusi.",
+          "Kaugmüügis on tarbijal 14-päevane taganemisõigus digiteenuse või digisisu puhul. Aeg hakkab kulgema lepingu sõlmimise päevast.",
+          "Taganemisõigus lõpeb, kui tarbija taganemistähtaja jooksul selgesõnaliselt palub alustada tarnimist või täitmist ja ühtlasi kinnitab, et kaotab õiguse, kui digisisu tarnimine on alanud või digiteenus on täielikult täidetud.",
+          "Seni saab tarbija taganeda selge teatega, näiteks e-kirjaga aadressile info@iqsoftcore.fi. Teenuseosutaja tagastab saadud makse 14 päeva jooksul teate saamisest ulatuses, milles seadus tagastust nõuab.",
+          "Tarbija võib vaidluse viia Soome tarbijavaidluste komisjoni, Kuluttajariitalautakunta (www.kuluttajariita.fi). ELi veebipõhine vaidluste lahendamise platvorm suleti 20. juulil 2025 määruse (EL) 2024/3228 alusel, seega linki sellele ei ole. Vaidluste lahendamise organite nimekiri on aadressil https://consumer-redress.ec.europa.eu/dispute-resolution-bodies.",
+          "Teises ELi riigis elav tarbija ei kaota oma koduriigi kohustuslikku kaitset."
         ]
       ],
       [
-        "9. Customer data",
+        "9. Kliendi andmed",
         [
-          "Fleet, maintenance, and user data that the customer stores in the service belongs to the customer.",
-          "The provider does not sell this data. It is used to provide the service, to bill, to keep the service secure, and to meet duties required by law.",
-          "The customer can ask for an export of their data by emailing info@iqsoftcore.fi. The data is delivered in a common machine-readable format once the request has been handled.",
-          "A business customer’s data is kept for 90 days after cancellation. During that time the business customer can export the data, including by asking for an export at info@iqsoftcore.fi. After 90 days the data is deleted automatically. After that, only the invoicing data that bookkeeping law requires is kept.",
-          "A consumer’s data is handled so that mandatory consumer protection and data protection are followed. A consumer can ask for an export or deletion of their data at info@iqsoftcore.fi."
+          "Masinapargi, hoolduse ja kasutajate andmed, mida klient teenusesse salvestab, kuuluvad kliendile.",
+          "Teenuseosutaja neid andmeid ei müü. Neid kasutatakse teenuse osutamiseks, arveldamiseks, teenuse turvalisuse hoidmiseks ja seadusest tulenevate kohustuste täitmiseks.",
+          "Klient saab oma andmete eksporti küsida e-kirjaga aadressile info@iqsoftcore.fi. Andmed antakse üle tavalises masinloetavas vormingus, kui taotlus on käsitletud.",
+          "Ärikliendi andmeid hoitakse 90 päeva pärast lõpetamist. Selle aja jooksul saab äriklient andmed eksportida, sealhulgas küsides eksporti aadressilt info@iqsoftcore.fi. 90 päeva pärast kustutatakse andmed automaatselt. Pärast seda hoitakse ainult neid arveldusandmeid, mida raamatupidamisseadus nõuab.",
+          "Tarbija andmeid käsitletakse nii, et kohustuslikku tarbijakaitset ja andmekaitset järgitakse. Tarbija saab küsida oma andmete eksporti või kustutamist aadressil info@iqsoftcore.fi."
         ]
       ],
       [
-        "10. Privacy",
+        "10. Andmekaitse",
         [
-          "Processing of personal data is described on the [[privacy]] page.",
-          "When the provider processes personal data for the customer, the provider is the processor and the customer is the controller, unless the roles are agreed otherwise. The provider is the controller of its own account and billing data. Data that may be processed includes a user’s name and email, an optional phone number used only as a contact field, a login code sent by email, a passkey identifier, and data the customer stores if it contains personal data. The phone number is not used to sign in."
+          "Isikuandmete töötlemist kirjeldatakse [[privacy]] lehel.",
+          "Kui teenuseosutaja töötleb isikuandmeid kliendi jaoks, on teenuseosutaja volitatud töötleja ja klient vastutav töötleja, kui rolle ei ole teisiti kokku lepitud. Teenuseosutaja on vastutav töötleja enda konto- ja arveldusandmete osas. Töödeldavad andmed võivad hõlmata kasutaja nime ja e-posti, valikulist telefoninumbrit ainult kontaktiväljana, e-postiga saadetavat sisselogimiskoodi, passkey tunnust ja kliendi salvestatud andmeid, kui need sisaldavad isikuandmeid. Telefoninumbriga sisse ei logita."
         ]
       ],
       [
-        "11. Availability and maintenance",
+        "11. Kättesaadavus ja hooldus",
         [
-          "The service is kept available with reasonable effort. Uninterrupted use is not promised.",
-          "Maintenance, an update, a fault, or the network may cause a break. A planned longer break is announced in advance in the service or by email when that is possible. The service is provided as it is."
+          "Teenust hoitakse kättesaadavana mõistliku pingutusega. Katkematut kasutust ei lubata.",
+          "Hooldus, uuendus, rike või võrk võib põhjustada katkestuse. Kavandatud pikemast katkestusest teatatakse ette teenuses või e-postiga, kui see on võimalik. Teenust osutatakse sellisena, nagu see on."
         ]
       ],
       [
-        "12. Acceptable use",
+        "12. Lubatud kasutus",
         [
-          "An IQSoftCore service may be used only for a lawful purpose.",
-          "The service may be used to record fleet maintenance data and to manage that data.",
-          "The service may not be used unlawfully, to spread malware, to disrupt the service, to access another customer’s data, or to bypass access rights. The provider may limit use if these terms are seriously breached."
+          "IQSoftCore’i teenust tohib kasutada ainult seaduslikul eesmärgil.",
+          "Teenust tohib kasutada masinapargi hooldusandmete kirjapanekuks ja nende andmete haldamiseks.",
+          "Teenust ei tohi kasutada ebaseaduslikult, pahavara levitamiseks, teenuse häirimiseks, teise kliendi andmetele juurdepääsuks ega ligipääsuõigustest möödahiilimiseks. Teenuseosutaja võib kasutust piirata, kui neid tingimusi rikutakse tõsiselt."
         ]
       ],
       [
-        "13. Changes to the terms and prices",
+        "13. Tingimuste ja hindade muutmine",
         [
-          "The provider may change these terms and the prices. A change is announced in the service or by email at least 30 days before it takes effect.",
-          "If the customer does not accept a change, they can stop use before the change takes effect. If a business customer continues to use the service after the change, they accept the updated terms. A consumer’s silence or continued use does not remove a mandatory consumer right. A price change does not affect a period that has already been billed."
+          "Teenuseosutaja võib neid tingimusi ja hindu muuta. Muudatusest teatatakse teenuses või e-postiga vähemalt 30 päeva enne jõustumist.",
+          "Kui klient muudatust ei aktsepteeri, võib ta kasutuse lõpetada enne muudatuse jõustumist. Kui äriklient jätkab teenuse kasutamist pärast muudatust, aktsepteerib ta uuendatud tingimusi. Tarbija vaikus või jätkuv kasutus ei võta ära kohustuslikku tarbijaõigust. Hinna muudatus ei mõjuta juba arveldatud perioodi."
         ]
       ],
       [
-        "14. Force majeure",
+        "14. Vääramatu jõud",
         [
-          "The provider is not liable for a delay or interruption caused by force majeure. That includes, for example, war, a strike, a power or network outage, an order by an authority, or another obstacle that cannot reasonably be avoided.",
-          "The obstacle and its end are announced when that is possible."
+          "Teenuseosutaja ei vastuta viivituse või katkestuse eest, mille on põhjustanud vääramatu jõud. See hõlmab näiteks sõda, streiki, elektri- või võrgukatkestust, ametiasutuse korraldust või muud takistust, mida ei saa mõistlikult vältida.",
+          "Takistusest ja selle lõppemisest teatatakse, kui see on võimalik."
         ]
       ],
       [
-        "15. Governing law",
+        "15. Kohaldatav õigus",
         [
-          "Finnish law applies to these terms. The parties try to settle a disagreement together first.",
-          "A business customer’s dispute is heard by the district court of the provider’s domicile in Finland, unless mandatory law places it elsewhere. How a consumer dispute is handled is set out in section 8."
+          "Nendele tingimustele kohaldub Soome õigus. Pooled püüavad lahkarvamuse kõigepealt koos lahendada.",
+          "Ärikliendi vaidlust arutab teenuseosutaja asukoha Soome ringkonnakohus, kui kohustuslik õigus ei paiguta seda mujale. Tarbija vaidluse menetlust kirjeldatakse punktis 8."
         ]
       ],
       [
-        "16. Contact",
+        "16. Kontakt",
         [
-          "toiminimi IqSoftCore, Y-tunnus 3658340-4, Siihtalantie 56, 62710 Kurejoki, Finland. info@iqsoftcore.fi, +358 45 133 4009."
+          "toiminimi IqSoftCore, Y-tunnus 3658340-4, Siihtalantie 56, 62710 Kurejoki, Soome. info@iqsoftcore.fi, +358 45 133 4009."
         ]
       ],
       [
-        "17. Copyright and intellectual property",
+        "17. Autoriõigus ja intellektuaalomand",
         [
-          "The software, content, how-to videos, and logos are the property of IqSoftCore. The customer receives a right to use them, not ownership. The customer’s own data remains the customer’s property."
+          "Tarkvara, sisu, juhendvideod ja logod kuuluvad IqSoftCore’ile. Klient saab kasutusõiguse, mitte omandi. Kliendi enda andmed jäävad kliendi omandiks."
         ]
       ]
     ]
@@ -2958,66 +2958,66 @@ const TERMS_PAGE = {
     "home": "Sākums",
     "sections": [
       [
-        "1. Parties and the provider",
+        "1. Puses un pakalpojuma sniedzējs",
         [
-          "The provider is the Finnish sole trader toiminimi IqSoftCore, Finland.",
-          "Business ID (Y-tunnus): 3658340-4",
-          "Address: Siihtalantie 56, 62710 Kurejoki, Finland.",
-          "A customer may be a private consumer or a business customer. A consumer is a natural person who makes the contract mainly outside their trade. A business customer is a company or other organisation. Contact: info@iqsoftcore.fi and +358 45 133 4009."
+          "Pakalpojuma sniedzējs ir Somijas individuālais komersants toiminimi IqSoftCore, Somija.",
+          "Uzņēmuma numurs (Y-tunnus): 3658340-4",
+          "Adrese: Siihtalantie 56, 62710 Kurejoki, Somija.",
+          "Klients var būt privāts patērētājs vai biznesa klients. Patērētājs ir fiziska persona, kas līgumu slēdz galvenokārt ārpus savas saimnieciskās darbības. Biznesa klients ir uzņēmums vai cita organizācija. Kontakti: info@iqsoftcore.fi un +358 45 133 4009."
         ]
       ],
       [
-        "2. Who these terms cover",
+        "2. Uz ko šie noteikumi attiecas",
         [
-          "Sections 1–5 and 9–17 apply to every customer.",
-          "Sections 6 and 7 apply only to business customers and to iqFleetSync. Section 8 applies only to consumers.",
-          "If mandatory consumer protection is more favourable to the consumer, it applies. A term that would limit such a right does not bind the consumer."
+          "Punkti 1–5 un 9–17 attiecas uz katru klientu.",
+          "Punkti 6 un 7 attiecas tikai uz biznesa klientiem un iqFleetSync. Punkts 8 attiecas tikai uz patērētājiem.",
+          "Ja obligātā patērētāju aizsardzība patērētājam ir labvēlīgāka, piemēro to. Noteikums, kas tādu tiesību ierobežotu, patērētāju nesaista."
         ]
       ],
       [
-        "3. Services",
+        "3. Pakalpojumi",
         [
-          "IQSoftCore builds software and applications and does electronics design. A private consumer can buy applications and other products.",
-          "iqFleetSync is a business service only. A consumer cannot open an iqFleetSync account."
+          "IQSoftCore veido programmatūru un lietotnes un nodarbojas ar elektronikas projektēšanu. Privāts patērētājs var pirkt lietotnes un citus produktus.",
+          "iqFleetSync ir tikai biznesa pakalpojums. Patērētājs nevar atvērt iqFleetSync kontu."
         ]
       ],
       [
-        "4. Prices and VAT",
+        "4. Cenas un PVN",
         [
-          "A price shown to a consumer includes VAT. iqWorkLog™ (formerly Tuntilappu) is a free download and includes a 14-day trial. After that, continued use is a one-time in-app purchase via Google Play. The app store's payment service receives the payment. If a price is published for iqRallyNote, it is shown including VAT.",
-          "iqFleetSync prices are for business customers and are VAT 0%. Value added tax is added on the invoice at the rate in force. The current [[pricing]] page is part of these terms.",
-          "For a business customer in another EU country with a valid VAT ID, the invoice uses reverse charge where it applies.",
-          "When a consumer buys from another EU country, VAT is charged at the rate of the customer’s country where the law requires it."
+          "Patērētājam rādītā cena ietver PVN. iqWorkLog™ (agrāk Tuntilappu) ir bezmaksas lejupielāde un ietver 14 dienu izmēģinājumu. Pēc tam lietošana turpinās ar vienreizēju pirkumu lietotnē caur Google Play. Maksājumu saņem lietotņu veikala maksājumu pakalpojums. Ja iqRallyNote publicē cenu, to rāda ar PVN.",
+          "iqFleetSync cenas ir biznesa klientiem un ir PVN 0%. PVN pieskaita rēķinam pēc spēkā esošās likmes. Spēkā esošā [[pricing]] lapa ir šo noteikumu daļa.",
+          "Biznesa klientam citā ES valstī ar derīgu PVN numuru rēķinā izmanto reversā maksājuma kārtību, kur tā piemērojama.",
+          "Kad patērētājs pērk no citas ES valsts, PVN iekasē pēc klienta valsts likmes, kur likums to prasa."
         ]
       ],
       [
-        "5. Payment",
+        "5. Maksājums",
         [
-          "Paid use is paid by card through Stripe. The invoice is monthly, in arrears.",
-          "An invoice is due 14 days after the invoice date. If a business customer’s payment is late, the provider may charge late-payment interest under the Finnish Interest Act (korkolaki) and reasonable collection costs.",
-          "If a business customer’s invoice is unpaid 7 days after the due date, the account goes to read-only mode. Saved data can be viewed, and new data cannot be saved. Read-only mode ends automatically when the payment is made.",
-          "The due date and the late-payment term above apply to a business customer. A consumer pays, at the time of purchase, the price the service shows. The business due date and late-payment term are not applied to a consumer in a way that would weaken mandatory consumer rights."
+          "Maksas lietošanu maksā ar karti caur Stripe. Rēķins ir ikmēneša un par pagājušo periodu.",
+          "Rēķina termiņš ir 14 dienas no rēķina datuma. Ja biznesa klienta maksājums kavējas, sniedzējs var prasīt nokavējuma procentus saskaņā ar Somijas procentu likumu (korkolaki) un saprātīgas piedziņas izmaksas.",
+          "Ja biznesa klienta rēķins nav samaksāts 7 dienas pēc termiņa, konts pāriet tikai lasīšanas režīmā. Saglabātos datus var skatīt, jaunus datus nevar saglabāt. Tikai lasīšanas režīms beidzas automātiski, kad maksājums ir veikts.",
+          "Iepriekš minētais termiņš un nokavējuma noteikums attiecas uz biznesa klientu. Patērētājs pirkuma brīdī maksā cenu, ko pakalpojums rāda. Biznesa termiņu un nokavējuma noteikumu patērētājam nepiemēro tā, ka tas vājinātu obligātās patērētāja tiesības."
         ]
       ],
       [
-        "6. iqFleetSync (business customers only)",
+        "6. iqFleetSync (tikai biznesa klientiem)",
         [
-          "Opening an iqFleetSync account requires a Finnish business ID (Y-tunnus).",
-          "iqFleetSync is a web service for fleet maintenance at fleetsync.iqsoftcore.fi. Each customer company’s data is kept separate from other customers.",
-          "iqFleetSync runs in the browser on a phone or a computer. Drivers, maintenance and admins do not install an app. A QR sticker identifies the unit and does not log anyone in. Stickers can be printed from the service. Scanning with the phone camera opens the unit and adds it to the driver’s own units. The admin sees who used a unit and when.",
-          "An admin invites a person with an email link. Sign-in is then fingerprint or face (passkey). A 6-digit email code is the fallback. A shared vehicle phone can have an optional 4-digit PIN, which the admin can view. A phone number is only an optional contact field. An admin sees costs, billing, people and the audit log. Maintenance handles units, QR stickers, reports, defects and work orders, but not costs, billing or people. A driver sees only assigned units and units added by scanning, files defect reports and km or hour readings, and sees only the progress of their own defects. Costs and prices are hidden from the driver. Reports can include trailer sub-reports and photos. A defect can be marked not roadworthy. Maintenance acknowledges it, marks it in progress and marks it fixed, and the driver is notified in the app. The service has work orders, maintenance history, cost lines for the admin, service plans and deadlines by kilometres, hours or date, and reminders by email or in the app. A unit can be archived and a person can be edited or removed, and the history is kept.",
-          "The customer names an administrator who opens the account and manages users. The administrator decides who gets access and what rights they have.",
-          "The customer is responsible for what their users do in the service. A personal email code, invite link, and passkey are personal and must not be shared. The PIN on a shared phone belongs to that person. The customer is responsible for having the right to store the data they enter.",
-          "A new customer can try iqFleetSync free for 30 days.",
-          "The trial can be stopped at any time before it ends. That does not create a charge. During the trial the service is used under these terms.",
-          "These prices are for business customers and are VAT 0%. Value added tax is added on the invoice at the rate in force.",
-          "The base fee is 10.00 € per month per customer company. A vehicle, for example a truck, is one full unit. A work machine, for example an excavator or a wheel loader, is also one full unit. Vehicles and work machines fill the price tiers together. Vehicles are counted first, then work machines.",
-          "The price is graduated. The first 15 units are 1.50 €, units 16–50 are 1.30 €, units 51–100 are 1.10 €, and units above 100 are 0.90 € each.",
-          "A trailer is half a unit in the tier it falls into. It costs half the vehicle price of that tier: 0.75 €, 0.65 €, 0.55 €, or 0.45 €. An attachment, such as a tiltrotator, a hydraulic breaker, or a sweeper, costs 0.00 € and is not counted as a unit. Users are unlimited and are not charged.",
-          "Units must be classified correctly. An attachment is an implement fixed to a machine and without its own engine, for example a bucket, a plough, or a crane. A machine that operates on its own, such as a rock crusher, is added as a work machine. Units classified incorrectly may be billed retroactively according to the correct class.",
-          "The monthly price uses the highest unit count in that calendar month. If equipment is added during the month, the month is billed at the peak count. An archived unit is not billed.",
-          "If the trial ends and no payment has been made, the account becomes read-only. If a business customer’s invoice is unpaid 7 days after the due date, the account stays read-only until the invoice is paid.",
-          "In read-only mode the saved data can still be viewed. New reports and changes cannot be saved. Read-only mode ends automatically when the payment is made.",
+          "iqFleetSync konta atvēršanai vajag Somijas uzņēmuma numuru (Y-tunnus).",
+          "iqFleetSync ir tīmekļa pakalpojums tehnikas parka apkopei adresē fleetsync.iqsoftcore.fi. Katras klienta uzņēmuma dati tiek turēti atsevišķi no citiem klientiem.",
+          "iqFleetSync darbojas pārlūkā tālrunī vai datorā. Vadītāji, apkope un administratori lietotni neinstalē. QR uzlīme identificē vienību un nevienu nepiesaka. Uzlīmes var izdrukāt no pakalpojuma. Skenēšana ar tālruņa kameru atver vienību un pievieno to vadītāja paša vienībām. Administrators redz, kurš vienību lietoja un kad.",
+          "Administrators uzaicina personu ar saiti e-pastā. Pieteikšanās pēc tam ir ar pirksta nospiedumu vai seju (passkey). Rezerve ir 6 ciparu e-pasta kods. Kopīgam transportlīdzekļa tālrunim var būt neobligāts 4 ciparu PIN, ko administrators var redzēt. Tālruņa numurs ir tikai neobligāts kontakta lauks. Administrators redz izmaksas, norēķinus, personas un audita žurnālu. Apkope pārvalda vienības, QR uzlīmes, atskaites, defektus un darba uzdevumus, bet ne izmaksas, norēķinus vai personas. Vadītājs redz tikai piešķirtās vienības un skenējot pievienotās vienības, iesniedz defektu ziņojumus un km vai stundu rādījumus un redz tikai savu defektu virzību. Izmaksas un cenas vadītājam ir paslēptas. Atskaitēs var būt piekabes apakšatskaites un foto. Defektu var atzīmēt kā nebraucamu. Apkope to apstiprina, atzīmē kā procesā un kā salabotu, un vadītājs saņem paziņojumu lietotnē. Pakalpojumā ir darba uzdevumi, apkopes vēsture, izmaksu rindas administratoram, apkopes plāni un termiņi pēc kilometriem, stundām vai datuma, un atgādinājumi e-pastā, kā push paziņojums vai lietotnē. Vienību var arhivēt, un personu var labot vai noņemt, un vēsture tiek saglabāta.",
+          "Klients nosauc administratoru, kurš atver kontu un pārvalda lietotājus. Administrators izlemj, kas saņem piekļuvi un kādas tiesības tiem ir.",
+          "Klients atbild par to, ko viņa lietotāji dara pakalpojumā. Personīgais e-pasta kods, uzaicinājuma saite un passkey ir personīgi, un tos nedrīkst nodot. PIN kopīgā tālrunī pieder šai personai. Klients atbild par to, ka viņam ir tiesības glabāt ievadītos datus.",
+          "Jauns klients var izmēģināt iqFleetSync bez maksas 30 dienas.",
+          "Izmēģinājumu var pārtraukt jebkurā laikā pirms tā beigām. No tā maksa nerodas. Izmēģinājuma laikā pakalpojumu lieto saskaņā ar šiem noteikumiem.",
+          "Šīs cenas ir biznesa klientiem un ir PVN 0%. PVN pieskaita rēķinam pēc spēkā esošās likmes.",
+          "Pamata maksa ir 10,00 € mēnesī par klienta uzņēmumu. Transportlīdzeklis, piemēram, kravas auto, ir viena pilna vienība. Darba mašīna, piemēram, ekskavators vai riteņiekrāvējs, arī ir viena pilna vienība. Transportlīdzekļi un darba mašīnas aizpilda cenu pakāpes kopā. Vispirms skaita transportlīdzekļus, pēc tam darba mašīnas.",
+          "Cena ir pakāpeniska. Pirmās 15 vienības ir 1,50 €, vienības 16–50 ir 1,30 €, vienības 51–100 ir 1,10 €, un vienības virs 100 ir 0,90 € katra.",
+          "Piekabe ir puse vienības pakāpē, kurā tā iekrīt. Tā maksā pusi no šīs pakāpes transportlīdzekļa cenas: 0,75 €, 0,65 €, 0,55 € vai 0,45 €. Aprīkojums, piemēram, rotators, hidrauliskais āmurs vai slaucītājs, maksā 0,00 € un netiek skaitīts kā vienība. Lietotāju skaits nav ierobežots, un par tiem nemaksā.",
+          "Vienības jāklasificē pareizi. Aprīkojums ir mašīnai piestiprināts darbarīks bez sava dzinēja, piemēram, kauss, arkls vai celtnis. Mašīna, kas darbojas pati, piemēram, akmeņu drupinātājs, tiek pievienota kā darba mašīna. Nepareizi klasificētas vienības var tikt aprēķinātas atpakaļejoši pēc pareizās klases.",
+          "Mēneša cena izmanto lielāko vienību skaitu tajā kalendāra mēnesī. Ja aprīkojumu pievieno mēneša laikā, mēnesi aprēķina pēc maksimuma. Arhivētu vienību neaprēķina.",
+          "Ja izmēģinājums beidzas un maksājums nav veikts, konts kļūst tikai lasāms. Ja biznesa klienta rēķins nav samaksāts 7 dienas pēc termiņa, konts paliek tikai lasāms, līdz rēķins ir samaksāts.",
+          "Tikai lasīšanas režīmā saglabātos datus joprojām var skatīt. Jaunas atskaites un izmaiņas nevar saglabāt. Tikai lasīšanas režīms beidzas automātiski, kad maksājums ir veikts.",
           "iqFleetSync ir viens pakalpojums. Organizācijas tips ir autoparks, darbnīca vai abi. Tips izvēlas noklusējuma izvēlni. Tā pati lietotne un tā pati QR uzlīme der katram tipam.",
           "Autoparka uzņēmums var dalīties ar vienībām ar partnera darbnīcu. Dalīšanās var attiekties uz visām vienībām vai izvēlētām vienībām. Īpašnieks izvēlas atļautos skatus. Uzticama darbnīca noskenē uzlīmi un atver vienību uzreiz. Pieteicies lietotājs var uzlīmi nolasīt arī ar pogu Skenēt QR lietotnē. Ja šai pieteikšanai ir piekļuve, vienība atveras uzreiz. Ja piekļuves nav, atveras viesa skats, un tur ir Pieprasīt piekļuvi. Darbnīca, kas vēl nav uzticama, var pieprasīt piekļuvi šādi vai skenējot uzlīmi savā kontā. Īpašnieka administrators apstiprina vai noraida pieprasījumu. Īpašnieks var dot arī vienreizēju piekļuvi, piemēram, uz 24 stundām vai vienam darba uzdevumam, un viesa skatu bez konta. Īpašnieks var atsaukt dalīšanos jebkurā laikā. Pēc atsaukšanas darbnīca vairs neredz kopīgotās vienības, bet darbnīcas pašas vēstures rindas paliek.",
           "Darba uzdevumu var piešķirt vienai partnera darbnīcai. Tikai šī darbnīca redz darbu. Darbnīca var atvērt darba uzdevumu un atzīmēt to kā pabeigtu. Pabeigšana aizver saistītos defektus un pievieno vienu rindu īpašnieka vēsturē. Stundas īpašniekam netiek kopētas. Iekšēja piezīme paliek darbnīcā, un īpašnieks to neredz.",
@@ -3027,93 +3027,93 @@ const TERMS_PAGE = {
         ]
       ],
       [
-        "7. Cancellation and liability (business customers only)",
+        "7. Atcelšana un atbildība (tikai biznesa klientiem)",
         [
-          "This section applies only to business customers. It does not apply to a consumer, and it does not limit the consumer’s mandatory rights.",
-          "[[prominent]]iqFleetSync is only a record-keeping, reminder and reporting tool. The customer is solely responsible for the roadworthiness of vehicles and machines, for the quality of maintenance, for inspections, for legal obligations, and for decisions about using a vehicle. IqSoftCore is not liable for damage, accidents, or breakdowns of vehicles or machines. This includes a case where a reminder was missed, data was entered incorrectly, or a driver used a vehicle that was not roadworthy. This clause does not affect consumer rights.",
-          "The business customer cancels the paid service themselves in the app at Tilaus ja laskutus → Irtisano palvelu (Subscription and billing → Cancel the service), or by email to info@iqsoftcore.fi. Cancellation takes effect at the end of the billing period that has already started. A month that has already been billed is not refunded, unless mandatory law requires a refund.",
-          "Stopping the trial does not cost anything. Once cancellation has taken effect, the business customer’s data is kept for 90 days so the customer can view and export it. After that the data is deleted automatically. Only the invoicing data that bookkeeping law requires is kept.",
-          "The provider may end the customer’s use if the customer materially breaches these terms and does not fix it after a written notice. If the whole service is discontinued, that is announced in advance when possible.",
-          "To the extent Finnish mandatory law allows it, the provider is not liable for indirect damage, lost profit, or lost data.",
-          "Liability for direct damage is limited to the fees the customer has paid for that service during the 12 months before the damage. If no fees have been paid, that cap is 0 €.",
-          "The limit does not apply to damage caused intentionally or by gross negligence, or to any other liability that cannot be limited by law."
+          "Šis punkts attiecas tikai uz biznesa klientiem. Tas neattiecas uz patērētāju un neierobežo patērētāja obligātās tiesības.",
+          "[[prominent]]iqFleetSync ir tikai uzskaites, atgādinājumu un atskaišu rīks. Klients vienpersoniski atbild par transportlīdzekļu un mašīnu braukšanas drošību, apkopes kvalitāti, apskatēm, likumā noteiktajiem pienākumiem un lēmumiem par transportlīdzekļa lietošanu. IqSoftCore neatbild par transportlīdzekļu vai mašīnu bojājumiem, negadījumiem vai bojājumiem. Tas ietver gadījumu, kad atgādinājums netika saņemts, dati tika ievadīti nepareizi vai vadītājs lietoja transportlīdzekli, kas nebija braukšanas kārtībā. Šis noteikums neietekmē patērētāja tiesības.",
+          "Biznesa klients maksas pakalpojumu atceļ pats lietotnē sadaļā Tilaus ja laskutus → Irtisano palvelu (Abonements un rēķini → Atcelt pakalpojumu) vai e-pastā uz info@iqsoftcore.fi. Atcelšana stājas spēkā jau sāktā norēķinu perioda beigās. Jau aprēķinātu mēnesi neatmaksā, ja vien obligātais likums neprasa atmaksu.",
+          "Izmēģinājuma pārtraukšana neko nemaksā. Kad atcelšana ir stājusies spēkā, biznesa klienta datus glabā 90 dienas, lai klients var tos skatīt un eksportēt. Pēc tam datus dzēš automātiski. Saglabā tikai tos norēķinu datus, ko prasa grāmatvedības likums.",
+          "Sniedzējs var izbeigt klienta lietošanu, ja klients būtiski pārkāpj šos noteikumus un nenovērš to pēc rakstiska brīdinājuma. Ja visu pakalpojumu pārtrauc, to paziņo iepriekš, kad tas iespējams.",
+          "Ciktāl Somijas obligātais likums to pieļauj, sniedzējs neatbild par netiešiem zaudējumiem, negūto peļņu vai zaudētiem datiem.",
+          "Atbildība par tiešiem zaudējumiem ir ierobežota ar maksām, ko klients par šo pakalpojumu ir samaksājis 12 mēnešos pirms zaudējuma. Ja maksas nav samaksātas, šis griests ir 0 €.",
+          "Ierobežojums neattiecas uz zaudējumu, kas nodarīts tīši vai rupjas neuzmanības dēļ, un uz citu atbildību, ko ar likumu nevar ierobežot."
         ]
       ],
       [
-        "8. Consumers",
+        "8. Patērētāji",
         [
-          "Mandatory Finnish and EU consumer protection applies to a consumer. A conflicting term gives way.",
-          "The liability cap in section 7, the rule that a period already billed is not refunded, and the clause that iqFleetSync is only a record-keeping, reminder and reporting tool do not limit consumer rights.",
-          "In a distance sale, the consumer has a 14-day right of withdrawal for a digital service or digital content. The time runs from the day the contract is made.",
-          "The right of withdrawal ends if, during the withdrawal period, the consumer expressly asks for delivery or performance to start and at the same time acknowledges that they lose the right once supply of the digital content has begun or once the digital service has been fully performed.",
-          "Until then, the consumer can withdraw with a clear notice, for example by email to info@iqsoftcore.fi. The provider refunds the payment received within 14 days of the notice, to the extent the law requires a refund.",
-          "The consumer can bring a dispute to the Finnish Consumer Disputes Board, Kuluttajariitalautakunta (www.kuluttajariita.fi). The EU online dispute resolution platform closed on 20 July 2025 under Regulation (EU) 2024/3228, so there is no link to it. A list of dispute resolution bodies is at https://consumer-redress.ec.europa.eu/dispute-resolution-bodies.",
-          "A consumer who lives in another EU country does not lose the mandatory protection of their home country."
+          "Patērētājam piemēro obligāto Somijas un ES patērētāju aizsardzību. Pretrunīgs noteikums atkāpjas.",
+          "Punkta 7 atbildības griests, noteikums, ka jau aprēķinātu periodu neatmaksā, un klauzula, ka iqFleetSync ir tikai uzskaites, atgādinājumu un atskaišu rīks, neierobežo patērētāja tiesības.",
+          "Distances pirkumā patērētājam ir 14 dienu atteikuma tiesības digitālam pakalpojumam vai digitālam saturam. Termiņš skrien no līguma noslēgšanas dienas.",
+          "Atteikuma tiesības beidzas, ja atteikuma laikā patērētājs nepārprotami lūdz sākt piegādi vai izpildi un vienlaikus apliecina, ka zaudē tiesības, kad digitālā satura piegāde ir sākusies vai digitālais pakalpojums ir pilnībā izpildīts.",
+          "Līdz tam patērētājs var atteikties ar skaidru paziņojumu, piemēram, e-pastā uz info@iqsoftcore.fi. Sniedzējs atmaksā saņemto maksājumu 14 dienu laikā no paziņojuma tiktāl, ciktāl likums prasa atmaksu.",
+          "Patērētājs strīdu var vērst Somijas patērētāju strīdu padomē, Kuluttajariitalautakunta (www.kuluttajariita.fi). ES tiešsaistes strīdu risināšanas platforma tika slēgta 2025. gada 20. jūlijā saskaņā ar Regulu (ES) 2024/3228, tāpēc saites uz to nav. Strīdu risināšanas iestāžu saraksts ir https://consumer-redress.ec.europa.eu/dispute-resolution-bodies.",
+          "Patērētājs, kurš dzīvo citā ES valstī, nezaudē savas mītnes valsts obligāto aizsardzību."
         ]
       ],
       [
-        "9. Customer data",
+        "9. Klienta dati",
         [
-          "Fleet, maintenance, and user data that the customer stores in the service belongs to the customer.",
-          "The provider does not sell this data. It is used to provide the service, to bill, to keep the service secure, and to meet duties required by law.",
-          "The customer can ask for an export of their data by emailing info@iqsoftcore.fi. The data is delivered in a common machine-readable format once the request has been handled.",
-          "A business customer’s data is kept for 90 days after cancellation. During that time the business customer can export the data, including by asking for an export at info@iqsoftcore.fi. After 90 days the data is deleted automatically. After that, only the invoicing data that bookkeeping law requires is kept.",
-          "A consumer’s data is handled so that mandatory consumer protection and data protection are followed. A consumer can ask for an export or deletion of their data at info@iqsoftcore.fi."
+          "Tehnikas parka, apkopes un lietotāju dati, ko klients glabā pakalpojumā, pieder klientam.",
+          "Sniedzējs šos datus nepārdod. Tos izmanto pakalpojuma sniegšanai, norēķiniem, pakalpojuma drošībai un likumā noteikto pienākumu izpildei.",
+          "Klients var lūgt savu datu eksportu, rakstot uz info@iqsoftcore.fi. Datus nodod izplatītā mašīnlasāmā formātā, kad pieprasījums ir izskatīts.",
+          "Biznesa klienta datus glabā 90 dienas pēc atcelšanas. Šajā laikā biznesa klients var datus eksportēt, tostarp lūdzot eksportu uz info@iqsoftcore.fi. Pēc 90 dienām datus dzēš automātiski. Pēc tam glabā tikai tos norēķinu datus, ko prasa grāmatvedības likums.",
+          "Patērētāja datus apstrādā tā, lai tiktu ievērota obligātā patērētāju aizsardzība un datu aizsardzība. Patērētājs var lūgt savu datu eksportu vai dzēšanu uz info@iqsoftcore.fi."
         ]
       ],
       [
-        "10. Privacy",
+        "10. Privātums",
         [
-          "Processing of personal data is described on the [[privacy]] page.",
-          "When the provider processes personal data for the customer, the provider is the processor and the customer is the controller, unless the roles are agreed otherwise. The provider is the controller of its own account and billing data. Data that may be processed includes a user’s name and email, an optional phone number used only as a contact field, a login code sent by email, a passkey identifier, and data the customer stores if it contains personal data. The phone number is not used to sign in."
+          "Personas datu apstrāde ir aprakstīta [[privacy]] lapā.",
+          "Kad sniedzējs apstrādā personas datus klienta labā, sniedzējs ir apstrādātājs un klients ir pārzinis, ja lomas nav citādi norunātas. Sniedzējs ir pārzinis saviem konta un norēķinu datiem. Apstrādājamie dati var ietvert lietotāja vārdu un e-pastu, neobligātu tālruņa numuru tikai kā kontaktu, e-pastā nosūtītu pieteikšanās kodu, passkey identifikatoru un klienta glabātos datus, ja tajos ir personas dati. Ar tālruņa numuru nepiesakās."
         ]
       ],
       [
-        "11. Availability and maintenance",
+        "11. Pieejamība un uzturēšana",
         [
-          "The service is kept available with reasonable effort. Uninterrupted use is not promised.",
-          "Maintenance, an update, a fault, or the network may cause a break. A planned longer break is announced in advance in the service or by email when that is possible. The service is provided as it is."
+          "Pakalpojumu uztur pieejamu ar saprātīgām pūlēm. Nepārtrauktu lietošanu neapsola.",
+          "Uzturēšana, atjauninājums, kļūme vai tīkls var radīt pārtraukumu. Par plānotu ilgāku pārtraukumu paziņo iepriekš pakalpojumā vai e-pastā, kad tas iespējams. Pakalpojumu sniedz tādu, kāds tas ir."
         ]
       ],
       [
-        "12. Acceptable use",
+        "12. Atļautā lietošana",
         [
-          "An IQSoftCore service may be used only for a lawful purpose.",
-          "The service may be used to record fleet maintenance data and to manage that data.",
-          "The service may not be used unlawfully, to spread malware, to disrupt the service, to access another customer’s data, or to bypass access rights. The provider may limit use if these terms are seriously breached."
+          "IQSoftCore pakalpojumu drīkst lietot tikai likumīgam mērķim.",
+          "Pakalpojumu drīkst lietot, lai reģistrētu tehnikas parka apkopes datus un šos datus pārvaldītu.",
+          "Pakalpojumu nedrīkst lietot nelikumīgi, ļaunprogrammatūras izplatīšanai, pakalpojuma traucēšanai, piekļuvei cita klienta datiem vai piekļuves tiesību apiešanai. Sniedzējs var ierobežot lietošanu, ja šie noteikumi tiek būtiski pārkāpti."
         ]
       ],
       [
-        "13. Changes to the terms and prices",
+        "13. Noteikumu un cenu izmaiņas",
         [
-          "The provider may change these terms and the prices. A change is announced in the service or by email at least 30 days before it takes effect.",
-          "If the customer does not accept a change, they can stop use before the change takes effect. If a business customer continues to use the service after the change, they accept the updated terms. A consumer’s silence or continued use does not remove a mandatory consumer right. A price change does not affect a period that has already been billed."
+          "Sniedzējs var mainīt šos noteikumus un cenas. Par izmaiņu paziņo pakalpojumā vai e-pastā vismaz 30 dienas pirms tās stāšanās spēkā.",
+          "Ja klients izmaiņu nepieņem, viņš var pārtraukt lietošanu pirms izmaiņas stāšanās spēkā. Ja biznesa klients turpina lietot pakalpojumu pēc izmaiņas, viņš pieņem atjauninātos noteikumus. Patērētāja klusēšana vai turpmāka lietošana nenullē obligātu patērētāja tiesību. Cenas izmaiņa neietekmē jau aprēķinātu periodu."
         ]
       ],
       [
-        "14. Force majeure",
+        "14. Nepārvarama vara",
         [
-          "The provider is not liable for a delay or interruption caused by force majeure. That includes, for example, war, a strike, a power or network outage, an order by an authority, or another obstacle that cannot reasonably be avoided.",
-          "The obstacle and its end are announced when that is possible."
+          "Sniedzējs neatbild par kavējumu vai pārtraukumu, ko izraisījusi nepārvarama vara. Tas ietver, piemēram, karu, streiku, elektrības vai tīkla pārrāvumu, iestādes rīkojumu vai citu šķērsli, ko nevar saprātīgi novērst.",
+          "Par šķērsli un tā beigām paziņo, kad tas iespējams."
         ]
       ],
       [
-        "15. Governing law",
+        "15. Piemērojamie tiesību akti",
         [
-          "Finnish law applies to these terms. The parties try to settle a disagreement together first.",
-          "A business customer’s dispute is heard by the district court of the provider’s domicile in Finland, unless mandatory law places it elsewhere. How a consumer dispute is handled is set out in section 8."
+          "Šiem noteikumiem piemēro Somijas tiesības. Puses vispirms cenšas domstarpību atrisināt kopā.",
+          "Biznesa klienta strīdu izskata Somijas tiesa pēc sniedzēja domicila, ja vien obligātais likums to nenovirza citur. Kā izskata patērētāja strīdu, noteikts 8. punktā."
         ]
       ],
       [
-        "16. Contact",
+        "16. Kontakti",
         [
-          "toiminimi IqSoftCore, Y-tunnus 3658340-4, Siihtalantie 56, 62710 Kurejoki, Finland. info@iqsoftcore.fi, +358 45 133 4009."
+          "toiminimi IqSoftCore, Y-tunnus 3658340-4, Siihtalantie 56, 62710 Kurejoki, Somija. info@iqsoftcore.fi, +358 45 133 4009."
         ]
       ],
       [
-        "17. Copyright and intellectual property",
+        "17. Autortiesības un intelektuālais īpašums",
         [
-          "The software, content, how-to videos, and logos are the property of IqSoftCore. The customer receives a right to use them, not ownership. The customer’s own data remains the customer’s property."
+          "Programmatūra, saturs, pamācību video un logotipi ir IqSoftCore īpašums. Klients saņem tiesības tos lietot, nevis īpašumtiesības. Klienta paša dati paliek klienta īpašums."
         ]
       ]
     ]
@@ -3131,66 +3131,66 @@ const TERMS_PAGE = {
     "home": "Pradžia",
     "sections": [
       [
-        "1. Parties and the provider",
+        "1. Šalys ir paslaugos teikėjas",
         [
-          "The provider is the Finnish sole trader toiminimi IqSoftCore, Finland.",
-          "Business ID (Y-tunnus): 3658340-4",
-          "Address: Siihtalantie 56, 62710 Kurejoki, Finland.",
-          "A customer may be a private consumer or a business customer. A consumer is a natural person who makes the contract mainly outside their trade. A business customer is a company or other organisation. Contact: info@iqsoftcore.fi and +358 45 133 4009."
+          "Paslaugos teikėjas yra Suomijos individualus verslininkas toiminimi IqSoftCore, Suomija.",
+          "Įmonės kodas (Y-tunnus): 3658340-4",
+          "Adresas: Siihtalantie 56, 62710 Kurejoki, Suomija.",
+          "Klientas gali būti privatus vartotojas arba verslo klientas. Vartotojas yra fizinis asmuo, kuris sutartį sudaro daugiausia ne savo ūkinei veiklai. Verslo klientas yra įmonė ar kita organizacija. Kontaktai: info@iqsoftcore.fi ir +358 45 133 4009."
         ]
       ],
       [
-        "2. Who these terms cover",
+        "2. Kam taikomos šios sąlygos",
         [
-          "Sections 1–5 and 9–17 apply to every customer.",
-          "Sections 6 and 7 apply only to business customers and to iqFleetSync. Section 8 applies only to consumers.",
-          "If mandatory consumer protection is more favourable to the consumer, it applies. A term that would limit such a right does not bind the consumer."
+          "Punktai 1–5 ir 9–17 taikomi kiekvienam klientui.",
+          "Punktai 6 ir 7 taikomi tik verslo klientams ir iqFleetSync. Punktas 8 taikomas tik vartotojams.",
+          "Jei privaloma vartotojų apsauga vartotojui palankesnė, taikoma ji. Sąlyga, kuri tokią teisę ribotų, vartotojo nesaisto."
         ]
       ],
       [
-        "3. Services",
+        "3. Paslaugos",
         [
-          "IQSoftCore builds software and applications and does electronics design. A private consumer can buy applications and other products.",
-          "iqFleetSync is a business service only. A consumer cannot open an iqFleetSync account."
+          "IQSoftCore kuria programinę įrangą ir programas bei užsiima elektronikos projektavimu. Privatus vartotojas gali pirkti programas ir kitus produktus.",
+          "iqFleetSync yra tik verslo paslauga. Vartotojas negali atidaryti iqFleetSync paskyros."
         ]
       ],
       [
-        "4. Prices and VAT",
+        "4. Kainos ir PVM",
         [
-          "A price shown to a consumer includes VAT. iqWorkLog™ (formerly Tuntilappu) is a free download and includes a 14-day trial. After that, continued use is a one-time in-app purchase via Google Play. The app store's payment service receives the payment. If a price is published for iqRallyNote, it is shown including VAT.",
-          "iqFleetSync prices are for business customers and are VAT 0%. Value added tax is added on the invoice at the rate in force. The current [[pricing]] page is part of these terms.",
-          "For a business customer in another EU country with a valid VAT ID, the invoice uses reverse charge where it applies.",
-          "When a consumer buys from another EU country, VAT is charged at the rate of the customer’s country where the law requires it."
+          "Vartotojui rodoma kaina apima PVM. iqWorkLog™ (anksčiau Tuntilappu) yra nemokamas atsisiuntimas ir apima 14 dienų bandymą. Po to naudojimas tęsiamas vienkartiniu pirkimu programoje per Google Play. Mokėjimą gauna programų parduotuvės mokėjimo paslauga. Jei iqRallyNote kaina paskelbiama, ji rodoma su PVM.",
+          "iqFleetSync kainos yra verslo klientams ir yra PVM 0%. PVM pridedamas sąskaitoje pagal galiojantį tarifą. Galiojantis [[pricing]] puslapis yra šių sąlygų dalis.",
+          "Verslo klientui kitoje ES šalyje su galiojančiu PVM kodu sąskaitoje taikomas atvirkštinis apmokestinimas, kai jis taikomas.",
+          "Kai vartotojas perka iš kitos ES šalies, PVM imamas pagal kliento šalies tarifą, kai to reikalauja įstatymas."
         ]
       ],
       [
-        "5. Payment",
+        "5. Mokėjimas",
         [
-          "Paid use is paid by card through Stripe. The invoice is monthly, in arrears.",
-          "An invoice is due 14 days after the invoice date. If a business customer’s payment is late, the provider may charge late-payment interest under the Finnish Interest Act (korkolaki) and reasonable collection costs.",
-          "If a business customer’s invoice is unpaid 7 days after the due date, the account goes to read-only mode. Saved data can be viewed, and new data cannot be saved. Read-only mode ends automatically when the payment is made.",
-          "The due date and the late-payment term above apply to a business customer. A consumer pays, at the time of purchase, the price the service shows. The business due date and late-payment term are not applied to a consumer in a way that would weaken mandatory consumer rights."
+          "Mokamas naudojimas apmokamas kortele per Stripe. Sąskaita yra mėnesinė ir išrašoma atgaline data.",
+          "Sąskaitos terminas yra 14 dienų nuo sąskaitos datos. Jei verslo kliento mokėjimas vėluoja, teikėjas gali reikalauti delspinigių pagal Suomijos palūkanų įstatymą (korkolaki) ir pagrįstų išieškojimo išlaidų.",
+          "Jei verslo kliento sąskaita neapmokėta 7 dienas po termino, paskyra pereina į tik skaitymo režimą. Išsaugotus duomenis galima peržiūrėti, naujų duomenų išsaugoti negalima. Tik skaitymo režimas baigiasi automatiškai, kai mokėjimas atliktas.",
+          "Pirmiau nurodytas terminas ir delspinigių sąlyga taikomi verslo klientui. Vartotojas pirkimo metu moka kainą, kurią rodo paslauga. Verslo termino ir delspinigių sąlyga vartotojui netaikoma taip, kad susilpnintų privalomas vartotojo teises."
         ]
       ],
       [
-        "6. iqFleetSync (business customers only)",
+        "6. iqFleetSync (tik verslo klientams)",
         [
-          "Opening an iqFleetSync account requires a Finnish business ID (Y-tunnus).",
-          "iqFleetSync is a web service for fleet maintenance at fleetsync.iqsoftcore.fi. Each customer company’s data is kept separate from other customers.",
-          "iqFleetSync runs in the browser on a phone or a computer. Drivers, maintenance and admins do not install an app. A QR sticker identifies the unit and does not log anyone in. Stickers can be printed from the service. Scanning with the phone camera opens the unit and adds it to the driver’s own units. The admin sees who used a unit and when.",
-          "An admin invites a person with an email link. Sign-in is then fingerprint or face (passkey). A 6-digit email code is the fallback. A shared vehicle phone can have an optional 4-digit PIN, which the admin can view. A phone number is only an optional contact field. An admin sees costs, billing, people and the audit log. Maintenance handles units, QR stickers, reports, defects and work orders, but not costs, billing or people. A driver sees only assigned units and units added by scanning, files defect reports and km or hour readings, and sees only the progress of their own defects. Costs and prices are hidden from the driver. Reports can include trailer sub-reports and photos. A defect can be marked not roadworthy. Maintenance acknowledges it, marks it in progress and marks it fixed, and the driver is notified in the app. The service has work orders, maintenance history, cost lines for the admin, service plans and deadlines by kilometres, hours or date, and reminders by email or in the app. A unit can be archived and a person can be edited or removed, and the history is kept.",
-          "The customer names an administrator who opens the account and manages users. The administrator decides who gets access and what rights they have.",
-          "The customer is responsible for what their users do in the service. A personal email code, invite link, and passkey are personal and must not be shared. The PIN on a shared phone belongs to that person. The customer is responsible for having the right to store the data they enter.",
-          "A new customer can try iqFleetSync free for 30 days.",
-          "The trial can be stopped at any time before it ends. That does not create a charge. During the trial the service is used under these terms.",
-          "These prices are for business customers and are VAT 0%. Value added tax is added on the invoice at the rate in force.",
-          "The base fee is 10.00 € per month per customer company. A vehicle, for example a truck, is one full unit. A work machine, for example an excavator or a wheel loader, is also one full unit. Vehicles and work machines fill the price tiers together. Vehicles are counted first, then work machines.",
-          "The price is graduated. The first 15 units are 1.50 €, units 16–50 are 1.30 €, units 51–100 are 1.10 €, and units above 100 are 0.90 € each.",
-          "A trailer is half a unit in the tier it falls into. It costs half the vehicle price of that tier: 0.75 €, 0.65 €, 0.55 €, or 0.45 €. An attachment, such as a tiltrotator, a hydraulic breaker, or a sweeper, costs 0.00 € and is not counted as a unit. Users are unlimited and are not charged.",
-          "Units must be classified correctly. An attachment is an implement fixed to a machine and without its own engine, for example a bucket, a plough, or a crane. A machine that operates on its own, such as a rock crusher, is added as a work machine. Units classified incorrectly may be billed retroactively according to the correct class.",
-          "The monthly price uses the highest unit count in that calendar month. If equipment is added during the month, the month is billed at the peak count. An archived unit is not billed.",
-          "If the trial ends and no payment has been made, the account becomes read-only. If a business customer’s invoice is unpaid 7 days after the due date, the account stays read-only until the invoice is paid.",
-          "In read-only mode the saved data can still be viewed. New reports and changes cannot be saved. Read-only mode ends automatically when the payment is made.",
+          "iqFleetSync paskyrai atidaryti reikia Suomijos įmonės kodo (Y-tunnus).",
+          "iqFleetSync yra žiniatinklio paslauga technikos parko priežiūrai adresu fleetsync.iqsoftcore.fi. Kiekvienos kliento įmonės duomenys laikomi atskirai nuo kitų klientų.",
+          "iqFleetSync veikia naršyklėje telefone arba kompiuteryje. Vairuotojai, priežiūra ir administratoriai programos nediegia. QR lipdukas identifikuoja vienetą ir nieko neprijungia. Lipdukus galima spausdinti iš paslaugos. Skaitymas telefono kamera atidaro vienetą ir prideda jį prie vairuotojo savų vienetų. Administratorius mato, kas vienetą naudojo ir kada.",
+          "Administratorius pakviečia asmenį nuoroda el. paštu. Prisijungimas po to yra piršto atspaudu arba veidu (passkey). Atsarga yra 6 skaitmenų el. pašto kodas. Bendrame transporto priemonės telefone gali būti neprivalomas 4 skaitmenų PIN, kurį administratorius gali matyti. Telefono numeris yra tik neprivalomas kontakto laukas. Administratorius mato sąnaudas, sąskaitas, asmenis ir audito žurnalą. Priežiūra tvarko vienetus, QR lipdukus, ataskaitas, gedimus ir darbo užsakymus, bet ne sąnaudas, sąskaitas ar asmenis. Vairuotojas mato tik priskirtus vienetus ir skaitymu pridėtus vienetus, teikia gedimų pranešimus ir km arba valandų rodmenis ir mato tik savo gedimų eigą. Sąnaudos ir kainos vairuotojui nerodomos. Ataskaitose gali būti priekabos papildomų ataskaitų ir nuotraukų. Gedimą galima pažymėti kaip netinkamą važiuoti. Priežiūra jį patvirtina, pažymi vykdomu ir sutaisytu, o vairuotojas gauna pranešimą programoje. Paslaugoje yra darbo užsakymai, priežiūros istorija, sąnaudų eilutės administratoriui, priežiūros planai ir terminai pagal kilometrus, valandas arba datą, ir priminimai el. paštu, kaip push pranešimas arba programoje. Vienetą galima archyvuoti, o asmenį redaguoti arba pašalinti, ir istorija išlieka.",
+          "Klientas paskiria administratorių, kuris atidaro paskyrą ir tvarko naudotojus. Administratorius nusprendžia, kas gauna prieigą ir kokias teises jie turi.",
+          "Klientas atsako už tai, ką jo naudotojai daro paslaugoje. Asmeninis el. pašto kodas, kvietimo nuoroda ir passkey yra asmeniniai ir jų negalima perduoti. Bendro telefono PIN priklauso tam asmeniui. Klientas atsako už tai, kad turi teisę saugoti įvedamus duomenis.",
+          "Naujas klientas gali išbandyti iqFleetSync nemokamai 30 dienų.",
+          "Bandymą galima nutraukti bet kada iki jo pabaigos. Dėl to mokestis neatsiranda. Bandymo metu paslauga naudojama pagal šias sąlygas.",
+          "Šios kainos yra verslo klientams ir yra PVM 0%. PVM pridedamas sąskaitoje pagal galiojantį tarifą.",
+          "Bazinis mokestis yra 10,00 € per mėnesį kliento įmonei. Transporto priemonė, pavyzdžiui, sunkvežimis, yra vienas pilnas vienetas. Darbo mašina, pavyzdžiui, ekskavatorius arba ratinis krautuvas, taip pat yra vienas pilnas vienetas. Transporto priemonės ir darbo mašinos užpildo kainų pakopas kartu. Pirma skaičiuojamos transporto priemonės, paskui darbo mašinos.",
+          "Kaina yra laiptuota. Pirmi 15 vienetų yra 1,50 €, vienetai 16–50 yra 1,30 €, vienetai 51–100 yra 1,10 €, o vienetai virš 100 yra po 0,90 €.",
+          "Priekaba yra pusė vieneto pakopoje, į kurią patenka. Ji kainuoja pusę tos pakopos transporto priemonės kainos: 0,75 €, 0,65 €, 0,55 € arba 0,45 €. Įranga, pavyzdžiui, rotatorius, hidraulinis kūjis arba šlavimo įrenginys, kainuoja 0,00 € ir neskaičiuojama kaip vienetas. Naudotojų skaičius neribotas ir už juos nemokama.",
+          "Vienetus reikia klasifikuoti teisingai. Įranga yra prie mašinos tvirtinamas įrankis be savo variklio, pavyzdžiui, kaušas, plūgas arba kranas. Mašina, kuri veikia pati, pavyzdžiui, akmenų trupintuvas, pridedama kaip darbo mašina. Neteisingai klasifikuoti vienetai gali būti apmokestinti atgaline data pagal teisingą klasę.",
+          "Mėnesio kaina naudoja didžiausią vienetų skaičių tą kalendorinį mėnesį. Jei įranga pridedama per mėnesį, mėnuo apmokestinamas pagal piką. Archyvuotas vienetas neapmokestinamas.",
+          "Jei bandymas baigiasi ir mokėjimas neatliktas, paskyra tampa tik skaitoma. Jei verslo kliento sąskaita neapmokėta 7 dienas po termino, paskyra lieka tik skaitoma, kol sąskaita apmokama.",
+          "Tik skaitymo režimu išsaugotus duomenis vis tiek galima peržiūrėti. Naujų ataskaitų ir pakeitimų išsaugoti negalima. Tik skaitymo režimas baigiasi automatiškai, kai mokėjimas atliktas.",
           "iqFleetSync yra viena paslauga. Organizacijos tipas yra parkas, dirbtuvės arba abu. Tipas parenka numatytąjį meniu. Ta pati programa ir tas pats QR lipdukas tinka kiekvienam tipui.",
           "Parko įmonė gali dalytis vienetais su partnerio dirbtuvėmis. Dalijimasis gali apimti visus vienetus arba pasirinktus. Savininkas pasirenka leidžiamus rodinius. Patikimos dirbtuvės nuskaito lipduką ir atidaro vienetą iš karto. Prisijungęs naudotojas lipduką gali perskaityti ir programos mygtuku Skenuoti QR. Jei šis prisijungimas turi prieigą, vienetas atsidaro iš karto. Jei prieigos nėra, atsidaro svečio rodinys, kuriame yra Prašyti prieigos. Dirbtuvės, kurios dar nėra patikimos, gali prašyti prieigos šiuo būdu arba nuskaitydamos lipduką savo paskyroje. Savininko administratorius prašymą patvirtina arba atmeta. Savininkas gali duoti ir vienkartinę prieigą, pavyzdžiui 24 valandoms arba vienam darbo užsakymui, ir svečio rodinį be paskyros. Savininkas dalijimąsi gali atšaukti bet kada. Po atšaukimo dirbtuvės bendrų vienetų nebemato, bet jų pačių istorijos eilutės lieka.",
           "Darbo užsakymą galima priskirti vienoms partnerio dirbtuvėms. Tik tos dirbtuvės mato darbą. Dirbtuvės gali atidaryti darbo užsakymą ir pažymėti jį baigtu. Užbaigimas uždaro susijusius gedimus ir prideda vieną eilutę savininko istorijoje. Valandos savininkui nekopijuojamos. Vidinė pastaba lieka dirbtuvėse ir savininkas jos nemato.",
@@ -3200,93 +3200,93 @@ const TERMS_PAGE = {
         ]
       ],
       [
-        "7. Cancellation and liability (business customers only)",
+        "7. Nutraukimas ir atsakomybė (tik verslo klientams)",
         [
-          "This section applies only to business customers. It does not apply to a consumer, and it does not limit the consumer’s mandatory rights.",
-          "[[prominent]]iqFleetSync is only a record-keeping, reminder and reporting tool. The customer is solely responsible for the roadworthiness of vehicles and machines, for the quality of maintenance, for inspections, for legal obligations, and for decisions about using a vehicle. IqSoftCore is not liable for damage, accidents, or breakdowns of vehicles or machines. This includes a case where a reminder was missed, data was entered incorrectly, or a driver used a vehicle that was not roadworthy. This clause does not affect consumer rights.",
-          "The business customer cancels the paid service themselves in the app at Tilaus ja laskutus → Irtisano palvelu (Subscription and billing → Cancel the service), or by email to info@iqsoftcore.fi. Cancellation takes effect at the end of the billing period that has already started. A month that has already been billed is not refunded, unless mandatory law requires a refund.",
-          "Stopping the trial does not cost anything. Once cancellation has taken effect, the business customer’s data is kept for 90 days so the customer can view and export it. After that the data is deleted automatically. Only the invoicing data that bookkeeping law requires is kept.",
-          "The provider may end the customer’s use if the customer materially breaches these terms and does not fix it after a written notice. If the whole service is discontinued, that is announced in advance when possible.",
-          "To the extent Finnish mandatory law allows it, the provider is not liable for indirect damage, lost profit, or lost data.",
-          "Liability for direct damage is limited to the fees the customer has paid for that service during the 12 months before the damage. If no fees have been paid, that cap is 0 €.",
-          "The limit does not apply to damage caused intentionally or by gross negligence, or to any other liability that cannot be limited by law."
+          "Šis punktas taikomas tik verslo klientams. Jis netaikomas vartotojui ir neriboja privalomų vartotojo teisių.",
+          "[[prominent]]iqFleetSync yra tik apskaitos, priminimų ir ataskaitų priemonė. Klientas vienas atsako už transporto priemonių ir mašinų tinkamumą važiuoti, priežiūros kokybę, apžiūras, įstatymų pareigas ir sprendimus dėl transporto priemonės naudojimo. IqSoftCore neatsako už transporto priemonių ar mašinų žalą, avarijas ar gedimus. Tai apima atvejį, kai priminimas nebuvo gautas, duomenys įvesti neteisingai arba vairuotojas naudojo transporto priemonę, kuri nebuvo tinkama važiuoti. Ši sąlyga nedaro poveikio vartotojo teisėms.",
+          "Verslo klientas mokamą paslaugą nutraukia pats programoje skiltyje Tilaus ja laskutus → Irtisano palvelu (Prenumerata ir sąskaitos → Nutraukti paslaugą) arba el. laišku adresu info@iqsoftcore.fi. Nutraukimas įsigalioja jau prasidėjusio atsiskaitymo laikotarpio pabaigoje. Jau apmokestintas mėnuo negrąžinamas, nebent privalomas įstatymas reikalauja grąžinti.",
+          "Bandymo nutraukimas nieko nekainuoja. Kai nutraukimas įsigalioja, verslo kliento duomenys saugomi 90 dienų, kad klientas galėtų juos peržiūrėti ir eksportuoti. Paskui duomenys ištrinami automatiškai. Paliekami tik tie sąskaitų duomenys, kurių reikalauja apskaitos įstatymas.",
+          "Teikėjas gali nutraukti kliento naudojimą, jei klientas iš esmės pažeidžia šias sąlygas ir to neištaiso po raštiško įspėjimo. Jei nutraukiama visa paslauga, apie tai pranešama iš anksto, kai tai įmanoma.",
+          "Tiek, kiek leidžia privaloma Suomijos teisė, teikėjas neatsako už netiesioginę žalą, negautą pelną ar prarastus duomenis.",
+          "Atsakomybė už tiesioginę žalą ribojama mokesčiais, kuriuos klientas už tą paslaugą sumokėjo per 12 mėnesių iki žalos. Jei mokesčių nesumokėta, ši riba yra 0 €.",
+          "Riba netaikoma žalai, padarytai tyčia arba dėl didelio neatsargumo, ir kitai atsakomybei, kurios įstatymas neleidžia riboti."
         ]
       ],
       [
-        "8. Consumers",
+        "8. Vartotojai",
         [
-          "Mandatory Finnish and EU consumer protection applies to a consumer. A conflicting term gives way.",
-          "The liability cap in section 7, the rule that a period already billed is not refunded, and the clause that iqFleetSync is only a record-keeping, reminder and reporting tool do not limit consumer rights.",
-          "In a distance sale, the consumer has a 14-day right of withdrawal for a digital service or digital content. The time runs from the day the contract is made.",
-          "The right of withdrawal ends if, during the withdrawal period, the consumer expressly asks for delivery or performance to start and at the same time acknowledges that they lose the right once supply of the digital content has begun or once the digital service has been fully performed.",
-          "Until then, the consumer can withdraw with a clear notice, for example by email to info@iqsoftcore.fi. The provider refunds the payment received within 14 days of the notice, to the extent the law requires a refund.",
-          "The consumer can bring a dispute to the Finnish Consumer Disputes Board, Kuluttajariitalautakunta (www.kuluttajariita.fi). The EU online dispute resolution platform closed on 20 July 2025 under Regulation (EU) 2024/3228, so there is no link to it. A list of dispute resolution bodies is at https://consumer-redress.ec.europa.eu/dispute-resolution-bodies.",
-          "A consumer who lives in another EU country does not lose the mandatory protection of their home country."
+          "Vartotojui taikoma privaloma Suomijos ir ES vartotojų apsauga. Prieštaraujanti sąlyga pasitraukia.",
+          "7 punkto atsakomybės riba, taisyklė, kad jau apmokestintas laikotarpis negrąžinamas, ir sąlyga, kad iqFleetSync yra tik apskaitos, priminimų ir ataskaitų priemonė, neriboja vartotojo teisių.",
+          "Nuotoliniame pardavime vartotojas turi 14 dienų atsisakymo teisę skaitmeninei paslaugai arba skaitmeniniam turiniui. Terminas skaičiuojamas nuo sutarties sudarymo dienos.",
+          "Atsisakymo teisė baigiasi, jei atsisakymo laikotarpiu vartotojas aiškiai prašo pradėti tiekimą ar vykdymą ir kartu pripažįsta, kad teisę praranda, kai skaitmeninio turinio tiekimas prasidėjo arba skaitmeninė paslauga buvo visiškai įvykdyta.",
+          "Iki tol vartotojas gali atsisakyti aiškiu pranešimu, pavyzdžiui, el. laišku adresu info@iqsoftcore.fi. Teikėjas grąžina gautą mokėjimą per 14 dienų nuo pranešimo tiek, kiek įstatymas reikalauja grąžinti.",
+          "Vartotojas ginčą gali perduoti Suomijos vartotojų ginčų komisijai, Kuluttajariitalautakunta (www.kuluttajariita.fi). ES internetinė ginčų sprendimo platforma uždaryta 2025 m. liepos 20 d. pagal Reglamentą (ES) 2024/3228, todėl nuorodos į ją nėra. Ginčų sprendimo įstaigų sąrašas yra https://consumer-redress.ec.europa.eu/dispute-resolution-bodies.",
+          "Vartotojas, gyvenantis kitoje ES šalyje, nepraranda savo šalies privalomos apsaugos."
         ]
       ],
       [
-        "9. Customer data",
+        "9. Kliento duomenys",
         [
-          "Fleet, maintenance, and user data that the customer stores in the service belongs to the customer.",
-          "The provider does not sell this data. It is used to provide the service, to bill, to keep the service secure, and to meet duties required by law.",
-          "The customer can ask for an export of their data by emailing info@iqsoftcore.fi. The data is delivered in a common machine-readable format once the request has been handled.",
-          "A business customer’s data is kept for 90 days after cancellation. During that time the business customer can export the data, including by asking for an export at info@iqsoftcore.fi. After 90 days the data is deleted automatically. After that, only the invoicing data that bookkeeping law requires is kept.",
-          "A consumer’s data is handled so that mandatory consumer protection and data protection are followed. A consumer can ask for an export or deletion of their data at info@iqsoftcore.fi."
+          "Technikos parko, priežiūros ir naudotojų duomenys, kuriuos klientas saugo paslaugoje, priklauso klientui.",
+          "Teikėjas šių duomenų neparduoda. Jie naudojami paslaugai teikti, sąskaitoms, paslaugos saugai ir įstatymų pareigoms vykdyti.",
+          "Klientas gali prašyti savo duomenų eksporto el. paštu info@iqsoftcore.fi. Duomenys pateikiami įprastu mašininiu formatu, kai prašymas sutvarkytas.",
+          "Verslo kliento duomenys saugomi 90 dienų po nutraukimo. Per tą laiką verslo klientas gali duomenis eksportuoti, taip pat paprašydamas eksporto adresu info@iqsoftcore.fi. Po 90 dienų duomenys ištrinami automatiškai. Paskui saugomi tik tie sąskaitų duomenys, kurių reikalauja apskaitos įstatymas.",
+          "Vartotojo duomenys tvarkomi taip, kad būtų laikomasi privalomos vartotojų apsaugos ir duomenų apsaugos. Vartotojas gali prašyti savo duomenų eksporto arba ištrynimo adresu info@iqsoftcore.fi."
         ]
       ],
       [
-        "10. Privacy",
+        "10. Privatumas",
         [
-          "Processing of personal data is described on the [[privacy]] page.",
-          "When the provider processes personal data for the customer, the provider is the processor and the customer is the controller, unless the roles are agreed otherwise. The provider is the controller of its own account and billing data. Data that may be processed includes a user’s name and email, an optional phone number used only as a contact field, a login code sent by email, a passkey identifier, and data the customer stores if it contains personal data. The phone number is not used to sign in."
+          "Asmens duomenų tvarkymas aprašytas [[privacy]] puslapyje.",
+          "Kai teikėjas tvarko asmens duomenis kliento naudai, teikėjas yra tvarkytojas, o klientas yra valdytojas, jei vaidmenys nesusitarti kitaip. Teikėjas yra savo paskyros ir sąskaitų duomenų valdytojas. Tvarkomi duomenys gali apimti naudotojo vardą ir el. paštą, neprivalomą telefono numerį tik kaip kontaktą, el. paštu siunčiamą prisijungimo kodą, passkey identifikatorių ir kliento saugomus duomenis, jei juose yra asmens duomenų. Telefono numeriu neprisijungiama."
         ]
       ],
       [
-        "11. Availability and maintenance",
+        "11. Prieinamumas ir priežiūra",
         [
-          "The service is kept available with reasonable effort. Uninterrupted use is not promised.",
-          "Maintenance, an update, a fault, or the network may cause a break. A planned longer break is announced in advance in the service or by email when that is possible. The service is provided as it is."
+          "Paslauga palaikoma prieinama protingomis pastangomis. Nepertraukiamo naudojimo nežadama.",
+          "Priežiūra, atnaujinimas, gedimas arba tinklas gali sukelti pertrauką. Apie planuotą ilgesnę pertrauką pranešama iš anksto paslaugoje arba el. paštu, kai tai įmanoma. Paslauga teikiama tokia, kokia yra."
         ]
       ],
       [
-        "12. Acceptable use",
+        "12. Leidžiamas naudojimas",
         [
-          "An IQSoftCore service may be used only for a lawful purpose.",
-          "The service may be used to record fleet maintenance data and to manage that data.",
-          "The service may not be used unlawfully, to spread malware, to disrupt the service, to access another customer’s data, or to bypass access rights. The provider may limit use if these terms are seriously breached."
+          "IQSoftCore paslaugą galima naudoti tik teisėtam tikslui.",
+          "Paslaugą galima naudoti technikos parko priežiūros duomenims įrašyti ir tiems duomenims tvarkyti.",
+          "Paslaugos negalima naudoti neteisėtai, kenkėjiškai programinei įrangai platinti, paslaugai trikdyti, kito kliento duomenims pasiekti arba prieigos teisėms apeiti. Teikėjas gali apriboti naudojimą, jei šios sąlygos iš esmės pažeidžiamos."
         ]
       ],
       [
-        "13. Changes to the terms and prices",
+        "13. Sąlygų ir kainų keitimas",
         [
-          "The provider may change these terms and the prices. A change is announced in the service or by email at least 30 days before it takes effect.",
-          "If the customer does not accept a change, they can stop use before the change takes effect. If a business customer continues to use the service after the change, they accept the updated terms. A consumer’s silence or continued use does not remove a mandatory consumer right. A price change does not affect a period that has already been billed."
+          "Teikėjas gali keisti šias sąlygas ir kainas. Apie pakeitimą pranešama paslaugoje arba el. paštu bent 30 dienų iki įsigaliojimo.",
+          "Jei klientas pakeitimo nepriima, jis gali nutraukti naudojimą iki pakeitimo įsigaliojimo. Jei verslo klientas toliau naudoja paslaugą po pakeitimo, jis priima atnaujintas sąlygas. Vartotojo tyla arba tolesnis naudojimas nepanaikina privalomos vartotojo teisės. Kainos pakeitimas nedaro poveikio jau apmokestintam laikotarpiui."
         ]
       ],
       [
-        "14. Force majeure",
+        "14. Nenugalima jėga",
         [
-          "The provider is not liable for a delay or interruption caused by force majeure. That includes, for example, war, a strike, a power or network outage, an order by an authority, or another obstacle that cannot reasonably be avoided.",
-          "The obstacle and its end are announced when that is possible."
+          "Teikėjas neatsako už vėlavimą ar pertrauką, kurią sukėlė nenugalima jėga. Tai apima, pavyzdžiui, karą, streiką, elektros ar tinklo sutrikimą, institucijos nurodymą ar kitą kliūtį, kurios negalima protingai išvengti.",
+          "Apie kliūtį ir jos pabaigą pranešama, kai tai įmanoma."
         ]
       ],
       [
-        "15. Governing law",
+        "15. Taikytina teisė",
         [
-          "Finnish law applies to these terms. The parties try to settle a disagreement together first.",
-          "A business customer’s dispute is heard by the district court of the provider’s domicile in Finland, unless mandatory law places it elsewhere. How a consumer dispute is handled is set out in section 8."
+          "Šioms sąlygoms taikoma Suomijos teisė. Šalys pirmiausia bando nesutarimą išspręsti kartu.",
+          "Verslo kliento ginčą nagrinėja Suomijos teismas pagal teikėjo buveinę, nebent privaloma teisė jį nukreipia kitur. Kaip nagrinėjamas vartotojo ginčas, nustatyta 8 punkte."
         ]
       ],
       [
-        "16. Contact",
+        "16. Kontaktai",
         [
-          "toiminimi IqSoftCore, Y-tunnus 3658340-4, Siihtalantie 56, 62710 Kurejoki, Finland. info@iqsoftcore.fi, +358 45 133 4009."
+          "toiminimi IqSoftCore, Y-tunnus 3658340-4, Siihtalantie 56, 62710 Kurejoki, Suomija. info@iqsoftcore.fi, +358 45 133 4009."
         ]
       ],
       [
-        "17. Copyright and intellectual property",
+        "17. Autorių teisės ir intelektinė nuosavybė",
         [
-          "The software, content, how-to videos, and logos are the property of IqSoftCore. The customer receives a right to use them, not ownership. The customer’s own data remains the customer’s property."
+          "Programinė įranga, turinys, pagalbos vaizdo įrašai ir logotipai yra IqSoftCore nuosavybė. Klientas gauna teisę jais naudotis, ne nuosavybę. Kliento savo duomenys lieka kliento nuosavybe."
         ]
       ]
     ]
@@ -3319,6 +3319,16 @@ function renderTermsPage(lang) {
   if (titleEl) titleEl.textContent = page.metaTitle;
   const metaDesc = document.querySelector('meta[name="description"]');
   if (metaDesc) metaDesc.setAttribute("content", page.metaDescription);
+  const socialLocale = typeof OG_LOCALE !== "undefined" && OG_LOCALE[lang] ? OG_LOCALE[lang] : "fi_FI";
+  const setSocial = (selector, value) => {
+    const el = document.querySelector(selector);
+    if (el && value) el.setAttribute("content", value);
+  };
+  setSocial('meta[property="og:title"]', page.metaTitle);
+  setSocial('meta[property="og:description"]', page.metaDescription);
+  setSocial('meta[name="twitter:title"]', page.metaTitle);
+  setSocial('meta[name="twitter:description"]', page.metaDescription);
+  setSocial('meta[property="og:locale"]', socialLocale);
 
   const sections = page.sections
     .map(([heading, paragraphs]) => {
