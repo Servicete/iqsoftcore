@@ -1,0 +1,26 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:09.000
+Admin opens People and devices.
+The list shows the company’s people.
+
+00:00:09.000 --> 00:00:18.000
+Invite user is the form on the page.
+Email is required. The role is chosen from the list.
+
+00:00:18.000 --> 00:00:27.000
+Role Admin.
+
+00:00:27.000 --> 00:00:36.000
+Role Maintenance.
+
+00:00:36.000 --> 00:00:45.000
+Role Driver.
+
+00:00:45.000 --> 00:00:54.000
+The invite has been sent. The person is not a member yet.
+They open the link from the email.
+
+00:00:54.000 --> 00:01:03.000
+Opening the invite link accepts the invite.
+The person reaches the view for their own role.

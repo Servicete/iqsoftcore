@@ -1,0 +1,45 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:06.000
+El stock de piezas tiene dos botones:
+Escanear · Entrada de stock y Escanear · Salida de stock.
+
+00:00:06.000 --> 00:00:12.000
+La administración abre Entrada de stock.
+Lea el código de barras con la cámara o escriba el código.
+
+00:00:12.000 --> 00:00:18.000
+Un código desconocido se puede vincular a una pieza existente
+o se puede crear una pieza nueva.
+
+00:00:18.000 --> 00:00:25.000
+Cuando la pieza se encuentra, la cantidad ya es 1.
+Escriba la ubicación. Los demás campos son opcionales.
+
+00:00:25.000 --> 00:00:31.000
+Pulse Guardar.
+El movimiento queda registrado: dirección, cantidad, persona y hora.
+
+00:00:31.000 --> 00:00:36.000
+La entrada de stock se guardó.
+El saldo sube con la cantidad registrada.
+
+00:00:36.000 --> 00:00:43.000
+La salida de stock también es para mantenimiento.
+Lea el código y escriba la cantidad.
+
+00:00:43.000 --> 00:00:49.000
+Si hace falta, elija una máquina o una orden de trabajo abierta.
+Luego pulse Guardar.
+
+00:00:49.000 --> 00:00:56.000
+El saldo nunca baja de cero.
+Si no hay bastante pieza, ve este aviso.
+
+00:00:56.000 --> 00:01:01.000
+La salida de stock se guardó.
+El saldo baja con la cantidad sacada.
+
+00:01:01.000 --> 00:01:09.000
+En la página de la pieza, Movimientos muestra el historial.
+Filtre por dirección y fecha.

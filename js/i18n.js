@@ -1112,6 +1112,7 @@ function applyTranslations(lang) {
   }
 
   if (typeof window.refreshNav === "function") window.refreshNav();
+  if (typeof syncCaptionTracks === "function") syncCaptionTracks(lang);
 }
 
 function initNav() {
