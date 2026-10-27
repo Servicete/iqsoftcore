@@ -1,18 +1,18 @@
 WEBVTT
 
-00:00:00.000 --> 00:00:14.000
+00:00:00.000 --> 00:00:14.000 line:100%,end
 El conductor apunta al código QR de la máquina.
 El navegador del teléfono abre la página de esta máquina.
 
-00:00:14.000 --> 00:00:28.000
+00:00:14.000 --> 00:00:28.000 line:100%,end
 El navegador se abre desde el código QR.
 El código de correo se pide solo en un teléfono nuevo.
 Escriba el correo y pulse Entrar con código de correo.
 
-00:00:28.000 --> 00:00:42.000
+00:00:28.000 --> 00:00:42.000 line:100%,end
 La siguiente vez pulse Entrar con huella.
 El teléfono pide la huella y se abre la vista de la máquina.
 
-00:00:42.000 --> 00:00:56.000
+00:00:42.000 --> 00:00:56.000 line:100%,end
 Tras entrar se ve la vista de la máquina.
 Desde ahí se anotan las lecturas o se avisa una avería.

@@ -1,45 +1,45 @@
 WEBVTT
 
-00:00:00.000 --> 00:00:06.000
+00:00:00.000 --> 00:00:06.000 line:100%,end
 Das Teilelager hat zwei Schaltflächen:
 Scannen · Einlagern und Scannen · Auslagern.
 
-00:00:06.000 --> 00:00:12.000
+00:00:06.000 --> 00:00:12.000 line:100%,end
 Die Administration öffnet Einlagern.
 Strichcode mit der Kamera lesen oder den Code eingeben.
 
-00:00:12.000 --> 00:00:18.000
+00:00:12.000 --> 00:00:18.000 line:100%,end
 Ein unbekannter Code kann einem bestehenden Teil zugeordnet
 oder daraus ein neues Teil angelegt werden.
 
-00:00:18.000 --> 00:00:25.000
+00:00:18.000 --> 00:00:25.000 line:100%,end
 Wenn das Teil gefunden ist, steht die Menge auf 1.
 Lagerplatz eingeben. Die übrigen Felder sind optional.
 
-00:00:25.000 --> 00:00:31.000
+00:00:25.000 --> 00:00:31.000 line:100%,end
 Speichern drücken.
 Die Bewegung wird erfasst: Richtung, Menge, Person und Zeit.
 
-00:00:31.000 --> 00:00:36.000
+00:00:31.000 --> 00:00:36.000 line:100%,end
 Einlagern wurde gespeichert.
 Der Bestand steigt um die erfasste Menge.
 
-00:00:36.000 --> 00:00:43.000
+00:00:36.000 --> 00:00:43.000 line:100%,end
 Auslagern geht auch für die Werkstatt.
 Code lesen und die Menge eingeben.
 
-00:00:43.000 --> 00:00:49.000
+00:00:43.000 --> 00:00:49.000 line:100%,end
 Bei Bedarf eine Maschine oder einen offenen Arbeitsauftrag wählen.
 Dann Speichern drücken.
 
-00:00:49.000 --> 00:00:56.000
+00:00:49.000 --> 00:00:56.000 line:100%,end
 Der Bestand fällt nie unter null.
 Wenn das Teil nicht reicht, sehen Sie diese Meldung.
 
-00:00:56.000 --> 00:01:01.000
+00:00:56.000 --> 00:01:01.000 line:100%,end
 Auslagern wurde gespeichert.
 Der Bestand sinkt um die entnommene Menge.
 
-00:01:01.000 --> 00:01:09.000
+00:01:01.000 --> 00:01:09.000 line:100%,end
 Auf der Teileseite zeigt Bewegungen den Verlauf.
 Nach Richtung und Datum filtern.

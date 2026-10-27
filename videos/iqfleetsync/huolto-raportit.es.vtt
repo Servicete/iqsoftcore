@@ -1,21 +1,21 @@
 WEBVTT
 
-00:00:00.000 --> 00:00:12.000
+00:00:00.000 --> 00:00:12.000 line:100%,end
 Mantenimiento abre Informes.
 Un envío nuevo y un aviso de avería se ven aquí.
 
-00:00:12.000 --> 00:00:24.000
+00:00:12.000 --> 00:00:24.000 line:100%,end
 Abra la avería. Acusar recibo cuando es nueva.
 Empezar el trabajo cuando lo toma.
 
-00:00:24.000 --> 00:00:36.000
+00:00:24.000 --> 00:00:36.000 line:100%,end
 Órdenes de trabajo listan los trabajos abiertos.
 Rojo No apto para circular se ve cuando el trabajo tiene una avería abierta.
 
-00:00:36.000 --> 00:00:48.000
+00:00:36.000 --> 00:00:48.000 line:100%,end
 En la página de la máquina, Intervalos de mantenimiento muestra el próximo.
 El conductor ve el mismo dato como un color.
 
-00:00:48.000 --> 00:01:00.000
+00:00:48.000 --> 00:01:00.000 line:100%,end
 Registre el mantenimiento hecho en la página de la máquina.
 Elija la acción, el día y la lectura, y pulse Registrar el mantenimiento.

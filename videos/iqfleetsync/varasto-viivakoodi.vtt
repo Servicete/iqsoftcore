@@ -1,45 +1,45 @@
 WEBVTT
 
-00:00:00.000 --> 00:00:06.000
+00:00:00.000 --> 00:00:06.000 line:100%,end
 Osavarastossa on kaksi painiketta:
 Skannaa · Varastoon otto ja Skannaa · Varastosta otto.
 
-00:00:06.000 --> 00:00:12.000
+00:00:06.000 --> 00:00:12.000 line:100%,end
 Ylläpitäjä avaa Varastoon otto.
 Lue viivakoodi kameralla tai kirjoita koodi.
 
-00:00:12.000 --> 00:00:18.000
+00:00:12.000 --> 00:00:18.000 line:100%,end
 Tuntemattoman koodin voi liittää olemassa olevaan osaan
 tai siitä voi luoda uuden osan.
 
-00:00:18.000 --> 00:00:25.000
+00:00:18.000 --> 00:00:25.000 line:100%,end
 Kun osa löytyy, määrä on valmiiksi 1.
 Kirjoita hyllypaikka. Muut kentät ovat valinnaisia.
 
-00:00:25.000 --> 00:00:31.000
+00:00:25.000 --> 00:00:31.000 line:100%,end
 Paina Tallenna.
 Liike kirjataan: suunta, määrä, henkilö ja aika.
 
-00:00:31.000 --> 00:00:36.000
+00:00:31.000 --> 00:00:36.000 line:100%,end
 Varastoon otto tallennettiin.
 Saldo kasvaa kirjatulla määrällä.
 
-00:00:36.000 --> 00:00:43.000
+00:00:36.000 --> 00:00:43.000 line:100%,end
 Varastosta otto toimii myös huoltohenkilölle.
 Lue koodi ja kirjoita määrä.
 
-00:00:43.000 --> 00:00:49.000
+00:00:43.000 --> 00:00:49.000 line:100%,end
 Valitse tarvittaessa kone tai avoin työmääräin.
 Paina sitten Tallenna.
 
-00:00:49.000 --> 00:00:56.000
+00:00:49.000 --> 00:00:56.000 line:100%,end
 Saldo ei koskaan laske alle nollan.
 Jos osaa ei ole tarpeeksi, näet tämän ilmoituksen.
 
-00:00:56.000 --> 00:01:01.000
+00:00:56.000 --> 00:01:01.000 line:100%,end
 Varastosta otto tallennettiin.
 Saldo pienenee otetulla määrällä.
 
-00:01:01.000 --> 00:01:09.000
+00:01:01.000 --> 00:01:09.000 line:100%,end
 Osan sivulla Liikkeet näyttää historian.
 Suodata suunnan ja päivämäärän mukaan.

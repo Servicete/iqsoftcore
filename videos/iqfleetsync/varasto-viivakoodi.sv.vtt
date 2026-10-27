@@ -1,45 +1,45 @@
 WEBVTT
 
-00:00:00.000 --> 00:00:06.000
+00:00:00.000 --> 00:00:06.000 line:100%,end
 Delagret har två knappar:
 Skanna · In i lager och Skanna · Ut ur lager.
 
-00:00:06.000 --> 00:00:12.000
+00:00:06.000 --> 00:00:12.000 line:100%,end
 Administratör öppnar In i lager.
 Läs streckkoden med kameran eller skriv koden.
 
-00:00:12.000 --> 00:00:18.000
+00:00:12.000 --> 00:00:18.000 line:100%,end
 En okänd kod kan kopplas till en befintlig del
 eller så kan en ny del skapas.
 
-00:00:18.000 --> 00:00:25.000
+00:00:18.000 --> 00:00:25.000 line:100%,end
 När delen hittas är antalet redan 1.
 Skriv hyllplats. Övriga fält är valfria.
 
-00:00:25.000 --> 00:00:31.000
+00:00:25.000 --> 00:00:31.000 line:100%,end
 Tryck på Spara.
 Rörelsen bokförs: riktning, antal, person och tid.
 
-00:00:31.000 --> 00:00:36.000
+00:00:31.000 --> 00:00:36.000 line:100%,end
 In i lager sparades.
 Saldot ökar med det bokförda antalet.
 
-00:00:36.000 --> 00:00:43.000
+00:00:36.000 --> 00:00:43.000 line:100%,end
 Ut ur lager fungerar också för underhållspersonal.
 Läs koden och skriv antalet.
 
-00:00:43.000 --> 00:00:49.000
+00:00:43.000 --> 00:00:49.000 line:100%,end
 Välj vid behov en maskin eller en öppen arbetsorder.
 Tryck sedan på Spara.
 
-00:00:49.000 --> 00:00:56.000
+00:00:49.000 --> 00:00:56.000 line:100%,end
 Saldot går aldrig under noll.
 Om delen inte räcker ser du det här meddelandet.
 
-00:00:56.000 --> 00:01:01.000
+00:00:56.000 --> 00:01:01.000 line:100%,end
 Ut ur lager sparades.
 Saldot minskar med det uttagna antalet.
 
-00:01:01.000 --> 00:01:09.000
+00:01:01.000 --> 00:01:09.000 line:100%,end
 På delens sida visar Rörelser historiken.
 Filtrera efter riktning och datum.

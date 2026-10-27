@@ -1,45 +1,45 @@
 WEBVTT
 
-00:00:00.000 --> 00:00:06.000
+00:00:00.000 --> 00:00:06.000 line:100%,end
 Delelageret har to knapper:
 Skann · Inn på lager og Skann · Ut av lager.
 
-00:00:06.000 --> 00:00:12.000
+00:00:06.000 --> 00:00:12.000 line:100%,end
 Administrator åpner Inn på lager.
 Les strekkoden med kameraet eller skriv koden.
 
-00:00:12.000 --> 00:00:18.000
+00:00:12.000 --> 00:00:18.000 line:100%,end
 En ukjent kode kan knyttes til en eksisterende del
 eller det kan opprettes en ny del.
 
-00:00:18.000 --> 00:00:25.000
+00:00:18.000 --> 00:00:25.000 line:100%,end
 Når delen finnes, står antallet på 1.
 Skriv hylleplass. De andre feltene er valgfrie.
 
-00:00:25.000 --> 00:00:31.000
+00:00:25.000 --> 00:00:31.000 line:100%,end
 Trykk Lagre.
 Bevegelsen bokføres: retning, antall, person og tid.
 
-00:00:31.000 --> 00:00:36.000
+00:00:31.000 --> 00:00:36.000 line:100%,end
 Inn på lager ble lagret.
 Saldoen øker med det bokførte antallet.
 
-00:00:36.000 --> 00:00:43.000
+00:00:36.000 --> 00:00:43.000 line:100%,end
 Ut av lager virker også for vedlikehold.
 Les koden og skriv antallet.
 
-00:00:43.000 --> 00:00:49.000
+00:00:43.000 --> 00:00:49.000 line:100%,end
 Velg om nødvendig en maskin eller en åpen arbeidsordre.
 Trykk deretter Lagre.
 
-00:00:49.000 --> 00:00:56.000
+00:00:49.000 --> 00:00:56.000 line:100%,end
 Saldoen går aldri under null.
 Hvis det ikke er nok av delen, ser du denne meldingen.
 
-00:00:56.000 --> 00:01:01.000
+00:00:56.000 --> 00:01:01.000 line:100%,end
 Ut av lager ble lagret.
 Saldoen minker med det uttatte antallet.
 
-00:01:01.000 --> 00:01:09.000
+00:01:01.000 --> 00:01:09.000 line:100%,end
 På delens side viser Bevegelser historikken.
 Filtrer etter retning og dato.

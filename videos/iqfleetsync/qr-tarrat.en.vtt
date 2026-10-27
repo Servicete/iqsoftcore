@@ -1,13 +1,13 @@
 WEBVTT
 
-00:00:00.000 --> 00:00:16.000
+00:00:00.000 --> 00:00:16.000 line:100%,end
 Open QR stickers. Each machine has its own code.
 Press Print.
 
-00:00:16.000 --> 00:00:32.000
+00:00:16.000 --> 00:00:32.000 line:100%,end
 The sticker has the machine’s identifier and a QR code.
 The example is ABC-123.
 
-00:00:32.000 --> 00:00:48.000
+00:00:32.000 --> 00:00:48.000 line:100%,end
 Fix the sticker on a flat surface of the machine,
 where the driver can see it and point at it.

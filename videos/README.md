@@ -1,10 +1,10 @@
 # iqFleetSync-videot
 
-iqFleetSync-sivun esittelyvideo on `assets/video/iqfleetsync_mainos_fi.mp4` ja juliste `assets/video/iqfleetsync_mainos_fi_thumb.jpg`. Suomenkielinen tekstitys on poltettu kuvaan. Pehmeä WebVTT-raita on jokaiselle sivuston kielelle tiedostona `assets/video/iqfleetsync_mainos_fi.<kieli>.vtt`. Soitin ei käynnisty itsestään, eikä videon alla ole otsikkopalkkia. Saavutettava nimi on videon `aria-label`- ja `title`-attribuuteissa.
+iqFleetSync-sivun esittelyvideo on `assets/video/iqfleetsync_mainos_fi.mp4` ja juliste `assets/video/iqfleetsync_mainos_fi_thumb.jpg`. Kuvassa ei ole tekstitystä. Pehmeä WebVTT-raita on jokaiselle sivuston kielelle tiedostona `assets/video/iqfleetsync_mainos_fi.<kieli>.vtt`. Soitin ei käynnisty itsestään, eikä videon alla ole otsikkopalkkia. Saavutettava nimi on videon `aria-label`- ja `title`-attribuuteissa.
 
 # iqFleetSync-ohjevideot
 
-Ohjekeskus on iqFleetSync-sivun osio `#ohjekeskus`. Se soittaa nämä tiedostot kansiosta `videos/iqfleetsync/`, kun tiedosto on olemassa. Paikkamerkkejä ei näytetä. Puhe on suomeksi, ja suomenkielinen tekstitys on poltettu kuvaan. Jokaisella klipillä on lisäksi pehmeä WebVTT-raita jokaiselle sivuston kielelle: `videos/iqfleetsync/<nimi>.<kieli>.vtt`. Videot eivät käynnisty itsestään.
+Ohjekeskus on iqFleetSync-sivun osio `#ohjekeskus`. Se soittaa nämä tiedostot kansiosta `videos/iqfleetsync/`, kun tiedosto on olemassa. Paikkamerkkejä ei näytetä. Puhe on suomeksi. Kuvassa ei ole tekstitystä. Alareunassa on tyhjä harmaa palkki, ja pehmeä WebVTT-tekstitys sijoitetaan siihen. Jokaisella klipillä on raita jokaiselle sivuston kielelle: `videos/iqfleetsync/<nimi>.<kieli>.vtt`. Videot eivät käynnisty itsestään.
 
 - `videos/iqfleetsync/qr-kirjautuminen-kuljettaja.mp4`
 - `videos/iqfleetsync/qr-kirjautuminen-kuljettaja.vtt`

@@ -1472,8 +1472,8 @@ const WORKSHOP_STOCK_HELP = {
 
 /**
  * In-app support assistant, for every role.
- * Shared video: { src, captions }. Finnish speech, with Finnish captions burned in.
- * helpMediaHtml adds a soft WebVTT track for every site language.
+ * Shared video: { src, captions }. Finnish speech, no burned-in captions.
+ * helpMediaHtml adds one soft WebVTT track per site language.
  */
 const SUPPORT_ASSISTANT_HELP = {
   video: {

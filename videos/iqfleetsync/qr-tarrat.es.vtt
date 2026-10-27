@@ -1,13 +1,13 @@
 WEBVTT
 
-00:00:00.000 --> 00:00:16.000
+00:00:00.000 --> 00:00:16.000 line:100%,end
 Abra Etiquetas QR. Cada máquina tiene su propio código.
 Pulse Imprimir.
 
-00:00:16.000 --> 00:00:32.000
+00:00:16.000 --> 00:00:32.000 line:100%,end
 La etiqueta tiene el identificador de la máquina y el código QR.
 En el ejemplo, ABC-123.
 
-00:00:32.000 --> 00:00:48.000
+00:00:32.000 --> 00:00:48.000 line:100%,end
 Pegue la etiqueta en una superficie lisa de la máquina,
 donde el conductor la vea y pueda apuntar.
