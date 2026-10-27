@@ -1,7 +1,8 @@
 /**
  * iqFleetSync help center.
- * Clips live in videos/iqfleetsync/ as mp4 plus a Finnish WebVTT file.
- * See videos/README.md for the expected filenames.
+ * Clips live in videos/iqfleetsync/ as mp4 plus WebVTT tracks.
+ * Speech is Finnish. A track exists for every site language: basename.<lang>.vtt.
+ * See videos/README.md for the filenames.
  */
 const HELP_MEDIA = [
   {
@@ -34,10 +35,10 @@ const HELP_MEDIA = [
 const HELP_CENTER = {
   fi: {
     metaTitle: "Ohjekeskus | iqFleetSync",
-    metaDescription: "Lyhyet suomenkieliset ohjevideot iqFleetSynciin: QR-kirjautuminen, lukemat ja vikailmoitus, huoltohenkilön raportit, kutsut ja roolit sekä QR-tarrat.",
+    metaDescription: "Ohjevideot iqFleetSynciin. Puhe on suomeksi, tekstitys valitulla kielellä: QR-kirjautuminen, lukemat ja vikailmoitus, huoltohenkilön raportit, kutsut ja roolit sekä QR-tarrat.",
     title: "Ohjekeskus",
     kicker: "iqFleetSync",
-    lead: "Lyhyet suomenkieliset ohjevideot iqFleetSynciin. Tekstitys on suomeksi.",
+    lead: "Lyhyet ohjevideot iqFleetSynciin. Puhe on suomeksi, tekstitys valitulla kielellä.",
     unsupported: "Selaimesi ei toista videota.",
     back: "Takaisin iqFleetSynciin",
     apps: "Tuotteet",
@@ -67,10 +68,10 @@ const HELP_CENTER = {
   },
   en: {
     metaTitle: "Help center | iqFleetSync",
-    metaDescription: "Short Finnish how-to videos for iqFleetSync: QR sign-in, readings and defect reports, workshop reports, invites and roles, and QR stickers.",
+    metaDescription: "How-to videos for iqFleetSync. The speech is Finnish, with subtitles in the selected language: QR sign-in, readings and defect reports, workshop reports, invites and roles, and QR stickers.",
     title: "Help center",
     kicker: "iqFleetSync",
-    lead: "Short Finnish how-to videos for iqFleetSync. Subtitles are in Finnish.",
+    lead: "Short how-to videos for iqFleetSync. The speech is Finnish, with subtitles in the selected language.",
     unsupported: "Your browser cannot play this video.",
     back: "Back to iqFleetSync",
     apps: "Products",
@@ -100,10 +101,10 @@ const HELP_CENTER = {
   },
   sv: {
     metaTitle: "Hjälpcenter | iqFleetSync",
-    metaDescription: "Korta finska instruktionsvideor för iqFleetSync: QR-inloggning, mätarställning och felanmälan, verkstadens rapporter, inbjudningar och roller samt QR-dekaler.",
+    metaDescription: "Instruktionsvideor för iqFleetSync. Talet är på finska och undertexterna på det valda språket: QR-inloggning, mätarställning och felanmälan, verkstadens rapporter, inbjudningar och roller samt QR-dekaler.",
     title: "Hjälpcenter",
     kicker: "iqFleetSync",
-    lead: "Korta finska instruktionsvideor för iqFleetSync. Undertexterna är på finska.",
+    lead: "Korta instruktionsvideor för iqFleetSync. Talet är på finska, och undertexterna är på det valda språket.",
     unsupported: "Din webbläsare kan inte spela videon.",
     back: "Tillbaka till iqFleetSync",
     apps: "Produkter",
@@ -133,10 +134,10 @@ const HELP_CENTER = {
   },
   no: {
     metaTitle: "Hjelpesenter | iqFleetSync",
-    metaDescription: "Korte finske instruksjonsvideoer for iqFleetSync: QR-innlogging, målerstand og feilmelding, verkstedets rapporter, invitasjoner og roller samt QR-merker.",
+    metaDescription: "Instruksjonsvideoer for iqFleetSync. Talen er finsk og undertekstene på det valgte språket: QR-innlogging, målerstand og feilmelding, verkstedets rapporter, invitasjoner og roller samt QR-merker.",
     title: "Hjelpesenter",
     kicker: "iqFleetSync",
-    lead: "Korte finske instruksjonsvideoer for iqFleetSync. Undertekstene er på finsk.",
+    lead: "Korte instruksjonsvideoer for iqFleetSync. Talen er finsk, og undertekstene er på det valgte språket.",
     unsupported: "Nettleseren din kan ikke spille av videoen.",
     back: "Tilbake til iqFleetSync",
     apps: "Produkter",
@@ -151,10 +152,10 @@ const HELP_CENTER = {
   },
   da: {
     metaTitle: "Hjælpecenter | iqFleetSync",
-    metaDescription: "Korte finske vejledningsvideoer til iqFleetSync: QR-login, målerstand og fejlmelding, værkstedets rapporter, invitationer og roller samt QR-mærker.",
+    metaDescription: "Vejledningsvideoer til iqFleetSync. Talen er finsk og underteksterne på det valgte sprog: QR-login, målerstand og fejlmelding, værkstedets rapporter, invitationer og roller samt QR-mærker.",
     title: "Hjælpecenter",
     kicker: "iqFleetSync",
-    lead: "Korte finske vejledningsvideoer til iqFleetSync. Underteksterne er på finsk.",
+    lead: "Korte vejledningsvideoer til iqFleetSync. Talen er finsk, og underteksterne er på det valgte sprog.",
     unsupported: "Din browser kan ikke afspille videoen.",
     back: "Tilbage til iqFleetSync",
     apps: "Produkter",
@@ -169,10 +170,10 @@ const HELP_CENTER = {
   },
   de: {
     metaTitle: "Hilfe | iqFleetSync",
-    metaDescription: "Kurze finnische Anleitungsvideos für iqFleetSync: QR-Anmeldung, Zählerstände und Mängelmeldung, Werkstattberichte, Einladungen und Rollen sowie QR-Aufkleber.",
+    metaDescription: "Anleitungsvideos für iqFleetSync. Die Sprache ist Finnisch, die Untertitel sind in der gewählten Sprache: QR-Anmeldung, Zählerstände und Mängelmeldung, Werkstattberichte, Einladungen und Rollen sowie QR-Aufkleber.",
     title: "Hilfe",
     kicker: "iqFleetSync",
-    lead: "Kurze finnische Anleitungsvideos für iqFleetSync. Die Untertitel sind auf Finnisch.",
+    lead: "Kurze Anleitungsvideos für iqFleetSync. Die Sprache ist Finnisch, die Untertitel sind in der gewählten Sprache.",
     unsupported: "Ihr Browser kann das Video nicht abspielen.",
     back: "Zurück zu iqFleetSync",
     apps: "Produkte",
@@ -187,10 +188,10 @@ const HELP_CENTER = {
   },
   es: {
     metaTitle: "Centro de ayuda | iqFleetSync",
-    metaDescription: "Vídeos cortos en finés para iqFleetSync: acceso con QR, lecturas y avisos de avería, informes del taller, invitaciones y roles, y etiquetas QR.",
+    metaDescription: "Vídeos de iqFleetSync. El audio es en finés y los subtítulos están en el idioma elegido: acceso con QR, lecturas y avisos de avería, informes del taller, invitaciones y roles, y etiquetas QR.",
     title: "Centro de ayuda",
     kicker: "iqFleetSync",
-    lead: "Vídeos cortos en finés para iqFleetSync. Los subtítulos están en finés.",
+    lead: "Vídeos cortos de iqFleetSync. El audio es en finés y los subtítulos están en el idioma elegido.",
     unsupported: "Su navegador no puede reproducir el vídeo.",
     back: "Volver a iqFleetSync",
     apps: "Productos",
@@ -205,10 +206,10 @@ const HELP_CENTER = {
   },
   it: {
     metaTitle: "Guida | iqFleetSync",
-    metaDescription: "Brevi video in finlandese per iqFleetSync: accesso con QR, letture e segnalazione guasti, rapporti dell’officina, inviti e ruoli, etichette QR.",
+    metaDescription: "Video per iqFleetSync. Il parlato è in finlandese e i sottotitoli sono nella lingua scelta: accesso con QR, letture e segnalazione guasti, rapporti dell’officina, inviti e ruoli, etichette QR.",
     title: "Guida",
     kicker: "iqFleetSync",
-    lead: "Brevi video in finlandese per iqFleetSync. I sottotitoli sono in finlandese.",
+    lead: "Brevi video per iqFleetSync. Il parlato è in finlandese e i sottotitoli sono nella lingua scelta.",
     unsupported: "Il browser non può riprodurre il video.",
     back: "Torna a iqFleetSync",
     apps: "Prodotti",
@@ -223,10 +224,10 @@ const HELP_CENTER = {
   },
   fr: {
     metaTitle: "Aide | iqFleetSync",
-    metaDescription: "Courtes vidéos en finnois pour iqFleetSync : connexion QR, relevés et signalement de panne, rapports d’atelier, invitations et rôles, étiquettes QR.",
+    metaDescription: "Vidéos pour iqFleetSync. La voix est en finnois et les sous-titres sont dans la langue choisie : connexion QR, relevés et signalement de panne, rapports d’atelier, invitations et rôles, étiquettes QR.",
     title: "Aide",
     kicker: "iqFleetSync",
-    lead: "Courtes vidéos en finnois pour iqFleetSync. Les sous-titres sont en finnois.",
+    lead: "Courtes vidéos pour iqFleetSync. La voix est en finnois et les sous-titres sont dans la langue choisie.",
     unsupported: "Votre navigateur ne peut pas lire la vidéo.",
     back: "Retour à iqFleetSync",
     apps: "Produits",
@@ -241,10 +242,10 @@ const HELP_CENTER = {
   },
   et: {
     metaTitle: "Abikeskus | iqFleetSync",
-    metaDescription: "Lühikesed soomekeelsed juhendivideod iqFleetSyncile: QR-sisselogimine, näidud ja rikketeade, töökoja aruanded, kutsed ja rollid ning QR-kleebised.",
+    metaDescription: "Juhendvideod iqFleetSyncile. Kõne on soome keeles, subtiitrid valitud keeles: QR-sisselogimine, näidud ja rikketeade, töökoja aruanded, kutsed ja rollid ning QR-kleebised.",
     title: "Abikeskus",
     kicker: "iqFleetSync",
-    lead: "Lühikesed soomekeelsed juhendivideod iqFleetSyncile. Subtiitrid on soome keeles.",
+    lead: "Lühikesed juhendvideod iqFleetSyncile. Kõne on soome keeles, subtiitrid valitud keeles.",
     unsupported: "Sinu brauser ei esita videot.",
     back: "Tagasi iqFleetSynci",
     apps: "Tooted",
@@ -259,10 +260,10 @@ const HELP_CENTER = {
   },
   lv: {
     metaTitle: "Palīdzība | iqFleetSync",
-    metaDescription: "Īsi somiski video iqFleetSync: QR pieteikšanās, rādījumi un defekta ziņojums, darbnīcas atskaites, ielūgumi un lomas, QR uzlīmes.",
+    metaDescription: "Video iqFleetSync. Runā somiski, subtitri ir izvēlētajā valodā: QR pieteikšanās, rādījumi un defekta ziņojums, darbnīcas atskaites, ielūgumi un lomas, QR uzlīmes.",
     title: "Palīdzība",
     kicker: "iqFleetSync",
-    lead: "Īsi somiski video iqFleetSync. Subtitri ir somiski.",
+    lead: "Īsi pamācību video iqFleetSync. Runā somiski, subtitri ir izvēlētajā valodā.",
     unsupported: "Pārlūks nevar atskaņot video.",
     back: "Atpakaļ uz iqFleetSync",
     apps: "Produkti",
@@ -277,10 +278,10 @@ const HELP_CENTER = {
   },
   lt: {
     metaTitle: "Pagalba | iqFleetSync",
-    metaDescription: "Trumpi suomiški iqFleetSync vaizdo įrašai: QR prisijungimas, rodmenys ir gedimo pranešimas, dirbtuvių ataskaitos, kvietimai ir rolės, QR lipdukai.",
+    metaDescription: "iqFleetSync vaizdo įrašai. Kalba yra suomių, subtitrai pasirinkta kalba: QR prisijungimas, rodmenys ir gedimo pranešimas, dirbtuvių ataskaitos, kvietimai ir rolės, QR lipdukai.",
     title: "Pagalba",
     kicker: "iqFleetSync",
-    lead: "Trumpi suomiški iqFleetSync vaizdo įrašai. Subtitrai suomių kalba.",
+    lead: "Trumpi iqFleetSync vaizdo įrašai. Kalba yra suomių, subtitrai pasirinkta kalba.",
     unsupported: "Naršyklė negali paleisti vaizdo įrašo.",
     back: "Atgal į iqFleetSync",
     apps: "Produktai",
@@ -295,10 +296,10 @@ const HELP_CENTER = {
   },
   pl: {
     metaTitle: "Pomoc | iqFleetSync",
-    metaDescription: "Krótkie fińskie filmy iqFleetSync: logowanie QR, odczyty i zgłoszenie usterki, raporty warsztatu, zaproszenia i role oraz naklejki QR.",
+    metaDescription: "Filmy iqFleetSync. Mowa jest po fińsku, a napisy w wybranym języku: logowanie QR, odczyty i zgłoszenie usterki, raporty warsztatu, zaproszenia i role oraz naklejki QR.",
     title: "Pomoc",
     kicker: "iqFleetSync",
-    lead: "Krótkie fińskie filmy iqFleetSync. Napisy są po fińsku.",
+    lead: "Krótkie filmy iqFleetSync. Mowa jest po fińsku, a napisy w wybranym języku.",
     unsupported: "Przeglądarka nie odtworzy tego filmu.",
     back: "Wróć do iqFleetSync",
     apps: "Produkty",
@@ -313,10 +314,10 @@ const HELP_CENTER = {
   },
   cs: {
     metaTitle: "Nápověda | iqFleetSync",
-    metaDescription: "Krátká finská videa pro iqFleetSync: přihlášení QR, odečty a hlášení závady, hlášení dílny, pozvánky a role a QR štítky.",
+    metaDescription: "Videa pro iqFleetSync. Řeč je finsky, titulky ve zvoleném jazyce: přihlášení QR, odečty a hlášení závady, hlášení dílny, pozvánky a role a QR štítky.",
     title: "Nápověda",
     kicker: "iqFleetSync",
-    lead: "Krátká finská videa pro iqFleetSync. Titulky jsou finsky.",
+    lead: "Krátká videa pro iqFleetSync. Řeč je finsky, titulky ve zvoleném jazyce.",
     unsupported: "Prohlížeč toto video nepřehrává.",
     back: "Zpět na iqFleetSync",
     apps: "Produkty",
@@ -368,11 +369,66 @@ function syncHelpSocial(lang, title, description) {
   set('meta[property="og:locale"]', HELP_OG_LOCALE[lang] || "en_US");
 }
 
-function helpMediaHtml(item, topic, unsupportedLabel) {
+const CAPTION_LANGS = [
+  ["fi", "Suomi"],
+  ["sv", "Svenska"],
+  ["no", "Norsk"],
+  ["da", "Dansk"],
+  ["de", "Deutsch"],
+  ["en", "English"],
+  ["es", "Español"],
+  ["it", "Italiano"],
+  ["fr", "Français"],
+  ["et", "Eesti"],
+  ["lv", "Latviešu"],
+  ["lt", "Lietuvių"],
+  ["pl", "Polski"],
+  ["cs", "Čeština"],
+];
+
+function preferredCaptionLang(lang) {
+  if (CAPTION_LANGS.some(([code]) => code === lang)) return lang;
+  if (lang) return "en";
+  return "fi";
+}
+
+function captionTracksHtml(src, lang) {
+  const base = String(src || "").replace(/\.mp4$/i, "");
+  const preferred = preferredCaptionLang(lang);
+  return CAPTION_LANGS.map(([code, label]) => {
+    const isDefault = code === preferred ? " default" : "";
+    return `<track kind="subtitles" src="${escapeHelpHtml(base)}.${code}.vtt" srclang="${code}" label="${escapeHelpHtml(label)}"${isDefault} />`;
+  }).join("\n      ");
+}
+
+function syncCaptionTracks(lang) {
+  const order = [preferredCaptionLang(lang), "en", "fi"];
+  document.querySelectorAll("video").forEach((video) => {
+    const tracks = video.textTracks;
+    if (!tracks || tracks.length === 0) return;
+    let chosen = null;
+    for (const code of order) {
+      for (let i = 0; i < tracks.length; i += 1) {
+        const trackLang = String(tracks[i].language || "").toLowerCase();
+        if (trackLang === code || trackLang.indexOf(code + "-") === 0) {
+          chosen = tracks[i];
+          break;
+        }
+      }
+      if (chosen) break;
+    }
+    if (!chosen) return;
+    for (let i = 0; i < tracks.length; i += 1) {
+      tracks[i].mode = tracks[i] === chosen ? "showing" : "hidden";
+    }
+  });
+}
+
+function helpMediaHtml(item, topic, unsupportedLabel, lang) {
   const title = escapeHelpHtml(topic.title);
   return `<video class="help-player" controls playsinline preload="metadata" poster="assets/iqfleetsync-icon-512.png" aria-label="${title}" title="${title}">
       <source src="${escapeHelpHtml(item.src)}" type="video/mp4" />
-      <track kind="subtitles" src="${escapeHelpHtml(item.captions)}" srclang="fi" label="Suomi" default />
+      ${captionTracksHtml(item.src, lang)}
       ${escapeHelpHtml(unsupportedLabel)}
     </video>`;
 }
@@ -400,7 +456,7 @@ function renderHelpCenter(lang) {
     return `<article class="help-card" id="${escapeHelpHtml(item.id)}">
       <h2>${escapeHelpHtml(topic.title)}</h2>
       <p>${escapeHelpHtml(topic.description)}</p>
-      ${helpMediaHtml(item, topic, page.unsupported)}
+      ${helpMediaHtml(item, topic, page.unsupported, resolvedLang)}
     </article>`;
   }).join("");
 

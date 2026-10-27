@@ -1,0 +1,45 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:06.000 line:100%,end
+Magazyn części ma dwa przyciski:
+Skanuj · Przyjęcie na magazyn i Skanuj · Wydanie z magazynu.
+
+00:00:06.000 --> 00:00:12.000 line:100%,end
+Administracja otwiera Przyjęcie na magazyn.
+Odczytaj kod kreskowy aparatem albo wpisz kod.
+
+00:00:12.000 --> 00:00:18.000 line:100%,end
+Nieznany kod można przypisać do istniejącej części
+albo utworzyć z niego nową część.
+
+00:00:18.000 --> 00:00:25.000 line:100%,end
+Gdy część jest znaleziona, ilość jest już 1.
+Wpisz miejsce na regale. Pozostałe pola są opcjonalne.
+
+00:00:25.000 --> 00:00:31.000 line:100%,end
+Naciśnij Zapisz.
+Ruch jest zapisany: kierunek, ilość, osoba i czas.
+
+00:00:31.000 --> 00:00:36.000 line:100%,end
+Przyjęcie na magazyn zostało zapisane.
+Stan rośnie o zapisaną ilość.
+
+00:00:36.000 --> 00:00:43.000 line:100%,end
+Wydanie z magazynu jest też dla serwisu.
+Odczytaj kod i wpisz ilość.
+
+00:00:43.000 --> 00:00:49.000 line:100%,end
+W razie potrzeby wybierz maszynę albo otwarte zlecenie.
+Potem naciśnij Zapisz.
+
+00:00:49.000 --> 00:00:56.000 line:100%,end
+Stan nigdy nie spada poniżej zera.
+Jeśli części nie wystarcza, widzisz ten komunikat.
+
+00:00:56.000 --> 00:01:01.000 line:100%,end
+Wydanie z magazynu zostało zapisane.
+Stan maleje o pobraną ilość.
+
+00:01:01.000 --> 00:01:09.000 line:100%,end
+Na stronie części Ruchy pokazują historię.
+Filtruj według kierunku i daty.

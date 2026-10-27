@@ -1,0 +1,45 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:06.000 line:100%,end
+Sklad dílů má dvě tlačítka:
+Skenovat · Příjem na sklad a Skenovat · Výdej ze skladu.
+
+00:00:06.000 --> 00:00:12.000 line:100%,end
+Správa otevře Příjem na sklad.
+Přečtěte čárový kód fotoaparátem nebo kód napište.
+
+00:00:12.000 --> 00:00:18.000 line:100%,end
+Neznámý kód lze připojit k existujícímu dílu
+nebo z něj vytvořit nový díl.
+
+00:00:18.000 --> 00:00:25.000 line:100%,end
+Když je díl nalezen, množství je už 1.
+Napište umístění v regálu. Ostatní pole jsou volitelná.
+
+00:00:25.000 --> 00:00:31.000 line:100%,end
+Stiskněte Uložit.
+Pohyb se zapíše: směr, množství, osoba a čas.
+
+00:00:31.000 --> 00:00:36.000 line:100%,end
+Příjem na sklad byl uložen.
+Stav vzroste o zapsané množství.
+
+00:00:36.000 --> 00:00:43.000 line:100%,end
+Výdej ze skladu je i pro údržbu.
+Přečtěte kód a napište množství.
+
+00:00:43.000 --> 00:00:49.000 line:100%,end
+V případě potřeby vyberte stroj nebo otevřený pracovní příkaz.
+Pak stiskněte Uložit.
+
+00:00:49.000 --> 00:00:56.000 line:100%,end
+Stav nikdy neklesne pod nulu.
+Když dílu není dost, uvidíte toto hlášení.
+
+00:00:56.000 --> 00:01:01.000 line:100%,end
+Výdej ze skladu byl uložen.
+Stav klesne o odebrané množství.
+
+00:01:01.000 --> 00:01:09.000 line:100%,end
+Na stránce dílu ukazuje Pohyby historii.
+Filtrujte podle směru a data.

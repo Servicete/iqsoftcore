@@ -1,0 +1,45 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:06.000 line:100%,end
+Parts stock has two buttons:
+Scan · Stock in and Scan · Stock out.
+
+00:00:06.000 --> 00:00:12.000 line:100%,end
+The administrator opens Stock in.
+Read the barcode with the camera, or type the code.
+
+00:00:12.000 --> 00:00:18.000 line:100%,end
+An unknown code can be linked to an existing part,
+or a new part can be created from it.
+
+00:00:18.000 --> 00:00:25.000 line:100%,end
+When the part is found, the quantity is already 1.
+Type the shelf location. The other fields are optional.
+
+00:00:25.000 --> 00:00:31.000 line:100%,end
+Press Save.
+The movement is stored: direction, quantity, person and time.
+
+00:00:31.000 --> 00:00:36.000 line:100%,end
+Stock in was saved.
+The balance rises by the quantity stored.
+
+00:00:36.000 --> 00:00:43.000 line:100%,end
+Stock out works for maintenance as well.
+Read the code and type the quantity.
+
+00:00:43.000 --> 00:00:49.000 line:100%,end
+If needed, choose a machine or an open work order.
+Then press Save.
+
+00:00:49.000 --> 00:00:56.000 line:100%,end
+The balance never falls below zero.
+If there is not enough of the part, you see this notice.
+
+00:00:56.000 --> 00:01:01.000 line:100%,end
+Stock out was saved.
+The balance drops by the quantity taken.
+
+00:01:01.000 --> 00:01:09.000 line:100%,end
+On the part page, Movements shows the history.
+Filter by direction and date.

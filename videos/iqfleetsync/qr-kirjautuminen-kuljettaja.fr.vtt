@@ -1,0 +1,18 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:14.000 line:100%,end
+Le conducteur vise le code QR de la machine.
+Le navigateur du téléphone ouvre la page de cette machine.
+
+00:00:14.000 --> 00:00:28.000 line:100%,end
+Le navigateur s’ouvre depuis le code QR.
+Un code e-mail n’est demandé que sur un nouveau téléphone.
+Saisissez l’e-mail et appuyez sur Se connecter avec un code e-mail.
+
+00:00:28.000 --> 00:00:42.000 line:100%,end
+La fois suivante, appuyez sur Se connecter par empreinte.
+Le téléphone demande l’empreinte, et la vue de la machine s’ouvre.
+
+00:00:42.000 --> 00:00:56.000 line:100%,end
+Après la connexion, la vue de la machine s’affiche.
+De là, on saisit les relevés ou on signale un défaut.

@@ -1,0 +1,45 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:06.000 line:100%,end
+Le stock de pièces a deux boutons :
+Scanner · Entrée de stock et Scanner · Sortie de stock.
+
+00:00:06.000 --> 00:00:12.000 line:100%,end
+L’administration ouvre Entrée de stock.
+Lisez le code-barres avec l’appareil photo, ou saisissez le code.
+
+00:00:12.000 --> 00:00:18.000 line:100%,end
+Un code inconnu peut être relié à une pièce existante,
+ou une nouvelle pièce peut en être créée.
+
+00:00:18.000 --> 00:00:25.000 line:100%,end
+Quand la pièce est trouvée, la quantité est déjà 1.
+Saisissez l’emplacement. Les autres champs sont facultatifs.
+
+00:00:25.000 --> 00:00:31.000 line:100%,end
+Appuyez sur Enregistrer.
+Le mouvement est consigné : sens, quantité, personne et heure.
+
+00:00:31.000 --> 00:00:36.000 line:100%,end
+L’entrée de stock a été enregistrée.
+Le solde augmente de la quantité consignée.
+
+00:00:36.000 --> 00:00:43.000 line:100%,end
+La sortie de stock est aussi pour l’entretien.
+Lisez le code et saisissez la quantité.
+
+00:00:43.000 --> 00:00:49.000 line:100%,end
+Au besoin, choisissez une machine ou un ordre de travail ouvert.
+Puis appuyez sur Enregistrer.
+
+00:00:49.000 --> 00:00:56.000 line:100%,end
+Le solde ne descend jamais sous zéro.
+S’il n’y a pas assez de la pièce, vous voyez cet avis.
+
+00:00:56.000 --> 00:01:01.000 line:100%,end
+La sortie de stock a été enregistrée.
+Le solde diminue de la quantité prise.
+
+00:01:01.000 --> 00:01:09.000 line:100%,end
+Sur la page de la pièce, Mouvements montre l’historique.
+Filtrez par sens et par date.

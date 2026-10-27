@@ -1,0 +1,21 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:12.000 line:100%,end
+Entretien ouvre Rapports.
+Un nouvel envoi et un signalement de défaut s’affichent ici.
+
+00:00:12.000 --> 00:00:24.000 line:100%,end
+Ouvrez le défaut. Accuser réception quand il est nouveau.
+Commencer le travail quand vous le prenez.
+
+00:00:24.000 --> 00:00:36.000 line:100%,end
+Ordres de travail listent les travaux ouverts.
+Rouge Non apte à circuler s’affiche si le travail a un défaut ouvert.
+
+00:00:36.000 --> 00:00:48.000 line:100%,end
+Sur la page de la machine, Intervalles d’entretien montre le prochain entretien.
+Le conducteur voit la même information en couleur.
+
+00:00:48.000 --> 00:01:00.000 line:100%,end
+Enregistrez l’entretien fait sur la page de la machine.
+Choisissez l’action, le jour et le relevé, puis appuyez sur Enregistrer l’entretien.

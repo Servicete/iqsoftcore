@@ -1,21 +1,21 @@
 WEBVTT
 
-00:00:00.000 --> 00:00:12.000
+00:00:00.000 --> 00:00:12.000 line:100%,end
 Huoltohenkilö avaa Raportit.
 Uusi lähetys ja vikailmoitus näkyvät tässä.
 
-00:00:12.000 --> 00:00:24.000
+00:00:12.000 --> 00:00:24.000 line:100%,end
 Avaa vika. Kuittaa vastaanotetuksi, kun se on uusi.
 Aloita työ, kun otat sen käsittelyyn.
 
-00:00:24.000 --> 00:00:36.000
+00:00:24.000 --> 00:00:36.000 line:100%,end
 Työmääräimet listaavat avoimet työt.
 Punainen Ei ajokunnossa näkyy, kun työhön liittyy avoin vika.
 
-00:00:36.000 --> 00:00:48.000
+00:00:36.000 --> 00:00:48.000 line:100%,end
 Koneen sivulla Huoltovälit näyttää seuraavan huollon.
 Sama tieto näkyy kuljettajalle värinä.
 
-00:00:48.000 --> 00:01:00.000
+00:00:48.000 --> 00:01:00.000 line:100%,end
 Kirjaa tehty huolto koneen sivulla.
 Valitse toimenpide, päivä ja lukema, ja paina Kirjaa huolto.

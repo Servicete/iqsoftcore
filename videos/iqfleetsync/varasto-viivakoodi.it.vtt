@@ -1,0 +1,45 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:06.000 line:100%,end
+Il magazzino ricambi ha due pulsanti:
+Scansiona · Carico e Scansiona · Scarico.
+
+00:00:06.000 --> 00:00:12.000 line:100%,end
+L’amministrazione apre Carico.
+Leggi il codice a barre con la fotocamera o scrivi il codice.
+
+00:00:12.000 --> 00:00:18.000 line:100%,end
+Un codice sconosciuto si può collegare a un ricambio esistente
+o da lì si può creare un ricambio nuovo.
+
+00:00:18.000 --> 00:00:25.000 line:100%,end
+Quando il ricambio è trovato, la quantità è già 1.
+Scrivi la posizione. Gli altri campi sono facoltativi.
+
+00:00:25.000 --> 00:00:31.000 line:100%,end
+Premi Salva.
+Il movimento viene registrato: direzione, quantità, persona e ora.
+
+00:00:31.000 --> 00:00:36.000 line:100%,end
+Il carico è stato salvato.
+La giacenza cresce della quantità registrata.
+
+00:00:36.000 --> 00:00:43.000 line:100%,end
+Lo scarico vale anche per l’officina.
+Leggi il codice e scrivi la quantità.
+
+00:00:43.000 --> 00:00:49.000 line:100%,end
+Se serve, scegli una macchina o un ordine di lavoro aperto.
+Poi premi Salva.
+
+00:00:49.000 --> 00:00:56.000 line:100%,end
+La giacenza non scende mai sotto zero.
+Se il ricambio non basta, vedi questo avviso.
+
+00:00:56.000 --> 00:01:01.000 line:100%,end
+Lo scarico è stato salvato.
+La giacenza diminuisce della quantità prelevata.
+
+00:01:01.000 --> 00:01:09.000 line:100%,end
+Nella pagina del ricambio, Movimenti mostra lo storico.
+Filtra per direzione e data.

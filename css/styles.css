@@ -1723,6 +1723,16 @@ section[id],
   background: #143d4a;
 }
 
+.help-player::cue {
+  background-color: transparent;
+  color: #fff;
+}
+
+.promo-video video::cue {
+  background-color: rgba(20, 61, 74, 0.55);
+  color: #fff;
+}
+
 .services-note {
   max-width: 42rem;
 }

@@ -1,0 +1,26 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:09.000 line:100%,end
+Administrateur ouvre Personnes et appareils.
+La liste montre les personnes de l’entreprise.
+
+00:00:09.000 --> 00:00:18.000 line:100%,end
+Inviter un utilisateur est le formulaire de la page.
+L’e-mail est obligatoire. Le rôle se choisit dans la liste.
+
+00:00:18.000 --> 00:00:27.000 line:100%,end
+Rôle Administrateur.
+
+00:00:27.000 --> 00:00:36.000 line:100%,end
+Rôle Entretien.
+
+00:00:36.000 --> 00:00:45.000 line:100%,end
+Rôle Conducteur.
+
+00:00:45.000 --> 00:00:54.000 line:100%,end
+L’invitation est envoyée. La personne n’est pas encore membre.
+Elle ouvre le lien depuis l’e-mail.
+
+00:00:54.000 --> 00:01:03.000 line:100%,end
+Ouvrir le lien d’invitation accepte l’invitation.
+La personne arrive dans la vue de son propre rôle.

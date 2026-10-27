@@ -978,7 +978,7 @@ function workshopGuideCard(article, lang) {
   if (article.video && typeof helpMediaHtml === "function") {
     const pages = typeof HELP_CENTER !== "undefined" ? HELP_CENTER : null;
     const page = pages ? (pages[lang] || pages.en) : null;
-    const video = helpMediaHtml(article.video, article, page && page.unsupported ? page.unsupported : "");
+    const video = helpMediaHtml(article.video, article, page && page.unsupported ? page.unsupported : "", lang);
     return `<article class="help-card" id="${escapeHelpHtml(article.id)}">
       <h3>${escapeHelpHtml(article.title)}</h3>
       <div class="help-copy">${copy}</div>
@@ -1472,8 +1472,8 @@ const WORKSHOP_STOCK_HELP = {
 
 /**
  * In-app support assistant, for every role.
- * Shared video: { src, captions }. Finnish clip with burned-in Finnish subtitles.
- * workshopGuideCard renders it on every language card.
+ * Shared video: { src, captions }. Finnish speech, no burned-in captions.
+ * helpMediaHtml adds one soft WebVTT track per site language.
  */
 const SUPPORT_ASSISTANT_HELP = {
   video: {
