@@ -1019,6 +1019,16 @@ function workshopGuidesHtml(lang) {
     const afterParts = articles.findIndex((article) => article.id === "partner-parts");
     articles.splice(afterParts === -1 ? articles.length : afterParts + 1, 0, withVideo);
   }
+  const invoicing = typeof WORKSHOP_INVOICING_HELP !== "undefined"
+    ? (WORKSHOP_INVOICING_HELP[lang] || WORKSHOP_INVOICING_HELP.en)
+    : null;
+  if (invoicing) {
+    const withVideo = WORKSHOP_INVOICING_HELP.video
+      ? Object.assign({}, invoicing, { video: WORKSHOP_INVOICING_HELP.video })
+      : invoicing;
+    const afterStock = articles.findIndex((article) => article.id === "stock-in-out");
+    articles.splice(afterStock === -1 ? articles.length : afterStock + 1, 0, withVideo);
+  }
   const cards = articles.map((article) => workshopGuideCard(article, lang)).join("");
   return `<h2 id="workshop-guides">${escapeHelpHtml(guide.heading)}</h2>
     <p>${escapeHelpHtml(guide.intro)}</p>
@@ -1466,6 +1476,228 @@ const WORKSHOP_STOCK_HELP = {
       "Množství je předem 1. Napište umístění v regálu. Poznámka nebo reference je volitelná. Uložit zaznamená pohyb: směr dovnitř, množství, osoba a čas.",
       "Skenovat · Výdej ze skladu je také pro personál údržby. Napište množství. Můžete vybrat stroj nebo otevřený pracovní příkaz. Stav klesá a neklesne pod nulu. Pokud stav nestačí, text je: Na skladě jen N ks. Požádejte správu, aby díly zaevidovala na sklad.",
       "Pokud je vybrán stroj nebo pracovní příkaz, díl se zapíše stejně jako použitý díl. Uložit zůstane šedé, dokud není vybrán díl a množství není větší než nula. Správa filtruje pohyby dílu podle směru a data.",
+    ],
+  },
+};
+
+/**
+ * Workshop invoicing. Visible only to the workshop admin.
+ * Shared video: { src, captions }. Finnish speech, no burned-in captions.
+ * helpMediaHtml adds one soft WebVTT track per site language.
+ */
+const WORKSHOP_INVOICING_HELP = {
+  video: {
+    src: "videos/iqfleetsync/korjaamo-laskutus.mp4",
+    captions: "videos/iqfleetsync/korjaamo-laskutus.vtt",
+  },
+  fi: {
+    id: "workshop-invoicing",
+    title: "Korjaamon laskutus",
+    paragraphs: [
+      "Laskutus näkyy vain korjaamon pääkäyttäjälle.",
+      "Avaa valikosta Laskut. Laskunumero ja suomalainen viitenumero muodostuvat automaattisesti.",
+      "Paina Uusi lasku ja valitse asiakas. Rastita yksi tai useampi valmis työmääräin. Laskun kielen voi valita neljästätoista kielestä. Paina sitten Luo laskuluonnos.",
+      "Tehdyt tunnit ja käytetyt varaosat tulevat riveille valmiiksi. Tarkista rivit ja paina Tallenna.",
+      "Esikatselussa näkyvät logo, viitenumero ja pankin virtuaaliviivakoodi. Laskun voi tulostaa tai ladata PDF-tiedostona.",
+      "Lähetä lasku asiakkaalle sähköpostilla. Lähetettyä laskua ei enää muuteta.",
+      "Verkkolaskua varten paina Lataa Finvoice. Lähetä tiedosto oman pankin tai kirjanpito-ohjelman kautta.",
+      "Kun maksu on tullut, paina Merkitse maksetuksi. Virheen voi korjata hyvityslaskulla.",
+      "Laskutetussa työmääräimessä näkyy linkki Laskulla ja laskun numero. Samaa työtä ei voi laskuttaa kahdesti.",
+    ],
+  },
+  sv: {
+    id: "workshop-invoicing",
+    title: "Verkstadens fakturering",
+    paragraphs: [
+      "Fakturering syns bara för verkstadens administratör.",
+      "Öppna Fakturor i menyn. Fakturanummer och finskt referensnummer skapas automatiskt.",
+      "Tryck på Ny faktura och välj kund. Kryssa för en eller flera färdiga arbetsorder. Fakturans språk kan väljas bland fjorton språk. Tryck sedan på Skapa fakturautkast.",
+      "Utförda timmar och använda reservdelar finns redan på raderna. Kontrollera raderna och tryck på Spara.",
+      "Förhandsgranskningen visar logotypen, referensnumret och bankens virtuella streckkod. Fakturan kan skrivas ut eller laddas ner som PDF.",
+      "Skicka fakturan till kunden med e-post. En skickad faktura ändras inte längre.",
+      "För e-faktura, tryck på Ladda ner Finvoice. Skicka filen via din egen bank eller ditt bokföringsprogram.",
+      "När betalningen har kommit, tryck på Markera som betald. Ett fel rättas med en kreditfaktura.",
+      "En fakturerad arbetsorder visar länken På faktura och fakturanumret. Samma arbete kan inte faktureras två gånger.",
+    ],
+  },
+  no: {
+    id: "workshop-invoicing",
+    title: "Verkstedets fakturering",
+    paragraphs: [
+      "Fakturering vises bare for verkstedets administrator.",
+      "Åpne Fakturaer i menyen. Fakturanummer og finsk referansenummer lages automatisk.",
+      "Trykk Ny faktura og velg kunde. Kryss av én eller flere ferdige arbeidsordrer. Fakturaspråket kan velges blant fjorten språk. Trykk deretter Opprett fakturautkast.",
+      "Utførte timer og brukte reservedeler står allerede på linjene. Kontroller linjene og trykk Lagre.",
+      "Forhåndsvisningen viser logoen, referansenummeret og bankens virtuelle strekkode. Fakturaen kan skrives ut eller lastes ned som PDF.",
+      "Send fakturaen til kunden med e-post. En sendt faktura endres ikke lenger.",
+      "For e-faktura trykker du Last ned Finvoice. Send filen via din egen bank eller ditt regnskapsprogram.",
+      "Når betalingen har kommet, trykk Merk som betalt. En feil rettes med en kreditnota.",
+      "En fakturert arbeidsordre viser lenken På faktura og fakturanummeret. Det samme arbeidet kan ikke faktureres to ganger.",
+    ],
+  },
+  da: {
+    id: "workshop-invoicing",
+    title: "Værkstedets fakturering",
+    paragraphs: [
+      "Fakturering vises kun for værkstedets administrator.",
+      "Åbn Fakturaer i menuen. Fakturanummer og finsk referencenummer oprettes automatisk.",
+      "Tryk på Ny faktura, og vælg kunde. Sæt kryds ved en eller flere færdige arbejdsordrer. Fakturasproget kan vælges blandt fjorten sprog. Tryk derefter på Opret fakturakladde.",
+      "Udførte timer og brugte reservedele står allerede på linjerne. Kontrollér linjerne, og tryk på Gem.",
+      "Forhåndsvisningen viser logoet, referencenummeret og bankens virtuelle stregkode. Fakturaen kan udskrives eller hentes som PDF.",
+      "Send fakturaen til kunden med e-mail. En sendt faktura ændres ikke længere.",
+      "Til e-faktura trykker du på Hent Finvoice. Send filen via din egen bank eller dit regnskabsprogram.",
+      "Når betalingen er kommet, tryk på Markér som betalt. En fejl rettes med en kreditnota.",
+      "En faktureret arbejdsordre viser linket På faktura og fakturanummeret. Det samme arbejde kan ikke faktureres to gange.",
+    ],
+  },
+  de: {
+    id: "workshop-invoicing",
+    title: "Rechnungsstellung der Werkstatt",
+    paragraphs: [
+      "Die Abrechnung ist nur für die Administration der Werkstatt sichtbar.",
+      "Öffnen Sie Rechnungen im Menü. Rechnungsnummer und finnische Referenznummer werden automatisch erstellt.",
+      "Tippen Sie auf Neue Rechnung und wählen Sie den Kunden. Haken Sie einen oder mehrere erledigte Arbeitsaufträge an. Die Sprache der Rechnung ist aus vierzehn Sprachen wählbar. Tippen Sie dann auf Rechnungsentwurf erstellen.",
+      "Geleistete Stunden und verwendete Ersatzteile stehen bereits in den Zeilen. Prüfen Sie die Zeilen und tippen Sie auf Speichern.",
+      "Die Vorschau zeigt das Logo, die Referenznummer und den virtuellen Strichcode der Bank. Die Rechnung lässt sich drucken oder als PDF laden.",
+      "Senden Sie die Rechnung per E-Mail an den Kunden. Eine gesendete Rechnung wird nicht mehr geändert.",
+      "Für die E-Rechnung tippen Sie auf Finvoice laden. Senden Sie die Datei über die eigene Bank oder die Buchhaltungssoftware.",
+      "Ist die Zahlung eingegangen, tippen Sie auf Als bezahlt markieren. Ein Fehler wird mit einer Gutschrift korrigiert.",
+      "Ein abgerechneter Arbeitsauftrag zeigt den Link Auf Rechnung und die Rechnungsnummer. Dieselbe Arbeit kann nicht zweimal abgerechnet werden.",
+    ],
+  },
+  en: {
+    id: "workshop-invoicing",
+    title: "Workshop invoicing",
+    paragraphs: [
+      "Invoicing is visible only to the workshop administrator.",
+      "Open Invoices from the menu. The invoice number and the Finnish payment reference are created automatically.",
+      "Press New invoice and choose the customer. Tick one or more completed work orders. The invoice language can be chosen from fourteen languages. Then press Create draft invoice.",
+      "Hours worked and parts used are already on the lines. Check the lines and press Save.",
+      "The preview shows the logo, the payment reference and the bank's virtual barcode. You can print the invoice or download it as a PDF.",
+      "Send the invoice to the customer by email. A sent invoice is no longer edited.",
+      "For an e-invoice, press Download Finvoice. Send the file through your own bank or accounting software.",
+      "When the payment has arrived, press Mark as paid. A mistake is corrected with a credit note.",
+      "An invoiced work order shows the link On invoice and the invoice number. The same work cannot be invoiced twice.",
+    ],
+  },
+  es: {
+    id: "workshop-invoicing",
+    title: "Facturación del taller",
+    paragraphs: [
+      "La facturación es visible solo para el administrador del taller.",
+      "Abra Facturas en el menú. El número de factura y la referencia de pago finlandesa se crean automáticamente.",
+      "Pulse Nueva factura y elija el cliente. Marque una o varias órdenes de trabajo terminadas. El idioma de la factura se elige entre catorce idiomas. Después pulse Crear borrador de factura.",
+      "Las horas trabajadas y los recambios usados ya están en las líneas. Revise las líneas y pulse Guardar.",
+      "La vista previa muestra el logotipo, la referencia de pago y el código de barras virtual del banco. La factura se puede imprimir o descargar en PDF.",
+      "Envíe la factura al cliente por correo. Una factura enviada ya no se edita.",
+      "Para la factura electrónica, pulse Descargar Finvoice. Envíe el archivo a través de su banco o de su programa de contabilidad.",
+      "Cuando llegue el pago, pulse Marcar como pagada. Un error se corrige con una factura rectificativa.",
+      "Una orden de trabajo facturada muestra el enlace En la factura y el número de factura. El mismo trabajo no se puede facturar dos veces.",
+    ],
+  },
+  it: {
+    id: "workshop-invoicing",
+    title: "Fatturazione dell’officina",
+    paragraphs: [
+      "La fatturazione è visibile solo all'amministratore dell'officina.",
+      "Apra Fatture dal menu. Il numero di fattura e il riferimento di pagamento finlandese vengono creati automaticamente.",
+      "Prema Nuova fattura e scelga il cliente. Spunti uno o più ordini di lavoro completati. La lingua della fattura si sceglie tra quattordici lingue. Poi prema Crea bozza di fattura.",
+      "Le ore lavorate e i ricambi usati sono già nelle righe. Controlli le righe e prema Salva.",
+      "L'anteprima mostra il logo, il riferimento di pagamento e il codice a barre virtuale della banca. La fattura si può stampare o scaricare in PDF.",
+      "Invii la fattura al cliente per e-mail. Una fattura inviata non si modifica più.",
+      "Per la fattura elettronica, prema Scarica Finvoice. Invii il file tramite la sua banca o il programma di contabilità.",
+      "Quando il pagamento è arrivato, prema Segna come pagata. Un errore si corregge con una nota di credito.",
+      "Un ordine di lavoro fatturato mostra il link In fattura e il numero di fattura. Lo stesso lavoro non si può fatturare due volte.",
+    ],
+  },
+  fr: {
+    id: "workshop-invoicing",
+    title: "Facturation de l’atelier",
+    paragraphs: [
+      "La facturation n'est visible que pour l'administrateur de l'atelier.",
+      "Ouvrez Factures dans le menu. Le numéro de facture et la référence de paiement finlandaise sont créés automatiquement.",
+      "Appuyez sur Nouvelle facture et choisissez le client. Cochez un ou plusieurs ordres de travail terminés. La langue de la facture se choisit parmi quatorze langues. Appuyez ensuite sur Créer un brouillon de facture.",
+      "Les heures effectuées et les pièces utilisées figurent déjà sur les lignes. Vérifiez les lignes et appuyez sur Enregistrer.",
+      "L'aperçu affiche le logo, la référence de paiement et le code-barres virtuel bancaire. La facture peut être imprimée ou téléchargée en PDF.",
+      "Envoyez la facture au client par e-mail. Une facture envoyée ne se modifie plus.",
+      "Pour la facture électronique, appuyez sur Télécharger Finvoice. Envoyez le fichier via votre banque ou votre logiciel de comptabilité.",
+      "Une fois le paiement reçu, appuyez sur Marquer comme payée. Une erreur se corrige avec un avoir.",
+      "Un ordre de travail facturé affiche le lien Sur la facture et le numéro de facture. Le même travail ne peut pas être facturé deux fois.",
+    ],
+  },
+  et: {
+    id: "workshop-invoicing",
+    title: "Töökoja arveldus",
+    paragraphs: [
+      "Arveldamine on nähtav ainult töökoja administraatorile.",
+      "Ava menüüst Arved. Arve number ja Soome viitenumber luuakse automaatselt.",
+      "Vajuta Uus arve ja vali klient. Märgi üks või mitu valmis töökäsku. Arve keele saab valida neljateistkümne keele hulgast. Seejärel vajuta Loo arve mustand.",
+      "Tehtud tunnid ja kasutatud varuosad on ridadel juba olemas. Kontrolli ridu ja vajuta Salvesta.",
+      "Eelvaates on näha logo, viitenumber ja panga virtuaalne vöötkood. Arve saab printida või laadida PDF-failina.",
+      "Saada arve kliendile e-postiga. Saadetud arvet enam ei muudeta.",
+      "E-arve jaoks vajuta Laadi Finvoice. Saada fail oma panga või raamatupidamisprogrammi kaudu.",
+      "Kui makse on laekunud, vajuta Märgi makstuks. Vea saab parandada kreeditarvega.",
+      "Arveldatud töökäsul on näha link Arvel ja arve number. Sama tööd ei saa arveldada kaks korda.",
+    ],
+  },
+  lv: {
+    id: "workshop-invoicing",
+    title: "Darbnīcas rēķini",
+    paragraphs: [
+      "Rēķini ir redzami tikai darbnīcas administratoram.",
+      "Izvēlnē atveriet Rēķini. Rēķina numurs un Somijas maksājuma atsauce tiek izveidoti automātiski.",
+      "Nospiediet Jauns rēķins un izvēlieties klientu. Atzīmējiet vienu vai vairākus pabeigtus darba uzdevumus. Rēķina valodu var izvēlēties no četrpadsmit valodām. Pēc tam nospiediet Izveidot rēķina melnrakstu.",
+      "Nostrādātās stundas un izmantotās rezerves daļas jau ir rindās. Pārbaudiet rindas un nospiediet Saglabāt.",
+      "Priekšskatījumā redzams logotips, maksājuma atsauce un bankas virtuālais svītrkods. Rēķinu var izdrukāt vai lejupielādēt PDF formātā.",
+      "Nosūtiet rēķinu klientam e-pastā. Nosūtītu rēķinu vairs nerediģē.",
+      "E-rēķinam nospiediet Lejupielādēt Finvoice. Nosūtiet failu ar savas bankas vai grāmatvedības programmas starpniecību.",
+      "Kad maksājums ir saņemts, nospiediet Atzīmēt kā apmaksātu. Kļūdu var labot ar kredītrēķinu.",
+      "Rēķinā iekļautam darba uzdevumam redzama saite Rēķinā un rēķina numurs. To pašu darbu nevar iekļaut rēķinā divreiz.",
+    ],
+  },
+  lt: {
+    id: "workshop-invoicing",
+    title: "Dirbtuvių sąskaitos",
+    paragraphs: [
+      "Sąskaitos matomos tik dirbtuvės administratoriui.",
+      "Meniu atidarykite Sąskaitos. Sąskaitos numeris ir Suomijos mokėjimo nuoroda sukuriami automatiškai.",
+      "Paspauskite Nauja sąskaita ir pasirinkite klientą. Pažymėkite vieną ar kelis baigtus darbo nurodymus. Sąskaitos kalbą galima pasirinkti iš keturiolikos kalbų. Tada paspauskite Sukurti sąskaitos juodraštį.",
+      "Atliktos valandos ir panaudotos atsarginės dalys jau yra eilutėse. Patikrinkite eilutes ir paspauskite Įrašyti.",
+      "Peržiūroje matyti logotipas, mokėjimo nuoroda ir banko virtualus brūkšninis kodas. Sąskaitą galima spausdinti arba atsisiųsti PDF formatu.",
+      "Išsiųskite sąskaitą klientui el. paštu. Išsiųstos sąskaitos neberedaguojama.",
+      "Elektroninei sąskaitai paspauskite Atsisiųsti Finvoice. Išsiųskite failą per savo banką arba apskaitos programą.",
+      "Kai mokėjimas gautas, paspauskite Pažymėti apmokėta. Klaidą galima ištaisyti kreditine sąskaita.",
+      "Į sąskaitą įtrauktame darbo nurodyme matyti nuoroda Sąskaitoje ir sąskaitos numeris. To paties darbo negalima įtraukti į sąskaitą du kartus.",
+    ],
+  },
+  pl: {
+    id: "workshop-invoicing",
+    title: "Fakturowanie warsztatu",
+    paragraphs: [
+      "Fakturowanie jest widoczne tylko dla administratora warsztatu.",
+      "Otwórz Faktury w menu. Numer faktury i fiński numer referencyjny tworzą się automatycznie.",
+      "Naciśnij Nowa faktura i wybierz klienta. Zaznacz jedno lub kilka ukończonych zleceń pracy. Język faktury można wybrać spośród czternastu języków. Następnie naciśnij Utwórz szkic faktury.",
+      "Przepracowane godziny i użyte części są już w wierszach. Sprawdź wiersze i naciśnij Zapisz.",
+      "Podgląd pokazuje logo, numer referencyjny i wirtualny kod kreskowy banku. Fakturę można wydrukować lub pobrać jako PDF.",
+      "Wyślij fakturę klientowi e-mailem. Wysłanej faktury już się nie edytuje.",
+      "Dla e-faktury naciśnij Pobierz Finvoice. Wyślij plik przez własny bank lub program księgowy.",
+      "Gdy płatność wpłynie, naciśnij Oznacz jako opłaconą. Błąd poprawia się fakturą korygującą.",
+      "Zafakturowane zlecenie pracy pokazuje link Na fakturze i numer faktury. Tej samej pracy nie można zafakturować dwa razy.",
+    ],
+  },
+  cs: {
+    id: "workshop-invoicing",
+    title: "Fakturace dílny",
+    paragraphs: [
+      "Fakturace je viditelná jen správci dílny.",
+      "V nabídce otevřete Faktury. Číslo faktury a finská platební reference se vytvoří automaticky.",
+      "Stiskněte Nová faktura a vyberte zákazníka. Zaškrtněte jeden nebo více hotových pracovních příkazů. Jazyk faktury lze vybrat ze čtrnácti jazyků. Potom stiskněte Vytvořit koncept faktury.",
+      "Odpracované hodiny a použité náhradní díly už jsou v řádcích. Zkontrolujte řádky a stiskněte Uložit.",
+      "Náhled ukazuje logo, platební referenci a virtuální čárový kód banky. Fakturu lze vytisknout nebo stáhnout jako PDF.",
+      "Odešlete fakturu zákazníkovi e-mailem. Odeslaná faktura se už neupravuje.",
+      "Pro e-fakturu stiskněte Stáhnout Finvoice. Soubor odešlete přes vlastní banku nebo účetní program.",
+      "Když platba dorazí, stiskněte Označit jako zaplacené. Chybu lze opravit dobropisem.",
+      "Vyfakturovaný pracovní příkaz ukazuje odkaz Na faktuře a číslo faktury. Stejnou práci nelze fakturovat dvakrát.",
     ],
   },
 };
