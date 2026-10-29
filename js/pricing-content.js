@@ -1274,8 +1274,11 @@ function renderPriceQuote(lang, page, quote, options) {
   }
 
   const total = `${formatPriceAmount(quote.totalCents, lang)}${page.perMonth}`;
+  const vatHtml = options && options.vatNote
+    ? `<p class="calc-total-vat">${escapePriceHtml(options.vatNote)}</p>`
+    : "";
   lines.push(
-    `<li class="calc-total calc-pair"><span>${escapePriceHtml(page.totalWord)}</span><span class="calc-total-amount">${escapePriceHtml(total)}</span></li>`
+    `<li class="calc-total calc-pair"><span>${escapePriceHtml(page.totalWord)}</span><span class="calc-total-amount">${escapePriceHtml(total)}</span>${vatHtml}</li>`
   );
 
   return `<ul class="calc-lines">${lines.join("")}</ul>`;
@@ -1327,7 +1330,7 @@ function bindFleetCalculator(root, lang, page, idPrefix, initial) {
         .map((line) => fleetLineFormula(line, lang, page, field.kind))
         .join("\n");
     });
-    result.innerHTML = renderPriceQuote(lang, page, quote, { breakdown: false });
+    result.innerHTML = renderPriceQuote(lang, page, quote, { breakdown: false, vatNote: page.vatNote });
   };
 
   FLEET_CALC_FIELDS.forEach((field) => {
@@ -1415,7 +1418,6 @@ function renderPricingPage(lang) {
         ${fleetCalcRowsMarkup("calc", page)}
       </div>
       <div id="calc-result" aria-live="polite"></div>
-      <p class="calc-total-vat">${escapePriceHtml(page.vatNote)}</p>
       <p class="calc-note">${escapePriceHtml(page.mounted)} ${escapePriceHtml(page.peak)} ${escapePriceHtml(page.archived)}</p>
     </div>
     <h2>${escapePriceHtml(page.examplesTitle)}</h2>
@@ -1456,7 +1458,6 @@ function mountFleetSyncCalculator(host, lang, initial) {
         ${fleetCalcRowsMarkup("fleet-calc", page)}
       </div>
       <div id="fleet-calc-result" aria-live="polite"></div>
-      <p class="calc-total-vat">${escapePriceHtml(page.vatNote)}</p>
     </div>`;
 
   bindFleetCalculator(host, lang, page, "fleet-calc", saved);
