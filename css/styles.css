@@ -1041,23 +1041,17 @@ ul.calc-lines {
   letter-spacing: -0.02em;
 }
 
-.calc-box .calc-lines .calc-total {
-  margin-bottom: 0;
-  padding-bottom: 0.45rem;
-  border-bottom: none;
-  border-radius: 14px 14px 0 0;
-}
-
-.calc-box .calc-total-vat {
-  margin: 0;
-  padding: 0.15rem 1rem 0.95rem;
-  border: 2px solid var(--teal);
-  border-top: none;
-  border-radius: 0 0 14px 14px;
-  background: rgba(11, 110, 106, 0.12);
-  color: var(--ink);
-  font-size: 0.98rem;
-  font-weight: 700;
+.calc-lines .calc-total .calc-total-vat {
+  flex: 1 0 100%;
+  margin: 0.7rem 0 0;
+  padding: 0.65rem 0 0;
+  border: none;
+  border-top: 1px solid rgba(11, 110, 106, 0.28);
+  border-radius: 0;
+  background: transparent;
+  color: var(--ink-soft);
+  font-size: 0.95rem;
+  font-weight: 650;
   line-height: 1.45;
 }
 
