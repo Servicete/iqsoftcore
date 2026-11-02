@@ -23,8 +23,8 @@ const WORKSHOP_PAGE = {
     invoice: [
       "Lasku muodostuu yhdestä tai useammasta valmiista työmääräimestä.",
       "PDF-laskussa on korjaamon oma logo. Laskun voi tulostaa tai lähettää sähköpostilla. Laskulla ovat viitenumero ja pankin virtuaaliviivakoodi, ja samasta laskutuksesta voi tehdä hyvityslaskun.",
-      "Verkkolaskua varten palvelu tekee Finvoice-tiedoston. Tiedosto lähetetään oman pankin tai kirjanpito-ohjelman kautta.",
-      "Laskutus näkyy vain korjaamon pääkäyttäjälle. Korjaamon omat hinnat näkyvät vain korjaamolle.",
+      "Verkkolaskua varten palvelu tekee Finvoice 3.0 -XML-tiedoston. Tiedosto lähetetään oman pankin tai kirjanpito-ohjelman kautta.",
+      "Laskun voi merkitä maksetuksi. Laskutus näkyy vain korjaamon pääkäyttäjälle. Korjaamon omat hinnat näkyvät vain korjaamolle.",
     ],
     programLead: "Korjaamon kumppaniohjelma on korjaamoiden kumppanuus- ja jälleenmyyntiohjelma. Nämä hinnat ovat vain tässä ohjelmassa.",
     share: [
@@ -83,8 +83,8 @@ const WORKSHOP_PAGE = {
     invoice: [
       "En faktura bildas av en eller flera färdiga arbetsordrar.",
       "PDF-fakturan har verkstadens egen logotyp. Fakturan kan skrivas ut eller skickas med e-post. På fakturan finns referensnummer och bankens virtuella streckkod, och från samma fakturering kan en kreditfaktura göras.",
-      "För e-faktura gör tjänsten en Finvoice-fil. Filen skickas via den egna banken eller bokföringsprogrammet.",
-      "Faktureringen syns bara för verkstadens administratör. Verkstadens egna priser syns bara för verkstaden.",
+      "För e-faktura gör tjänsten en Finvoice 3.0 XML-fil. Filen skickas via den egna banken eller bokföringsprogrammet.",
+      "Fakturan kan markeras som betald. Faktureringen syns bara för verkstadens administratör. Verkstadens egna priser syns bara för verkstaden.",
     ],
     programLead: "Korjaamon kumppaniohjelma är partner- och återförsäljarprogrammet för verkstäder. Dessa priser hör bara till det här programmet.",
     share: [
@@ -143,8 +143,8 @@ const WORKSHOP_PAGE = {
     invoice: [
       "En faktura lages av én eller flere ferdige arbeidsordrer.",
       "PDF-fakturaen har verkstedets egen logo. Fakturaen kan skrives ut eller sendes på e-post. På fakturaen står referansenummer og bankens virtuelle strekkode, og fra samme fakturering kan en kreditnota lages.",
-      "For e-faktura lager tjenesten en Finvoice-fil. Filen sendes via egen bank eller regnskapsprogram.",
-      "Faktureringen er synlig bare for verkstedets administrator. Verkstedets egne priser er synlige bare for verkstedet.",
+      "For e-faktura lager tjenesten en Finvoice 3.0 XML-fil. Filen sendes via egen bank eller regnskapsprogram.",
+      "Fakturaen kan merkes som betalt. Faktureringen er synlig bare for verkstedets administrator. Verkstedets egne priser er synlige bare for verkstedet.",
     ],
     programLead: "Korjaamon kumppaniohjelma er partner- og forhandlerprogrammet for verksteder. Disse prisene hører bare til dette programmet.",
     share: [
@@ -203,8 +203,8 @@ const WORKSHOP_PAGE = {
     invoice: [
       "En faktura dannes af én eller flere færdige arbejdsordrer.",
       "PDF-fakturaen har værkstedets eget logo. Fakturaen kan udskrives eller sendes med e-mail. På fakturaen står referencenummer og bankens virtuelle stregkode, og fra samme fakturering kan en kreditnota laves.",
-      "Til e-faktura laver tjenesten en Finvoice-fil. Filen sendes via egen bank eller regnskabsprogram.",
-      "Faktureringen er kun synlig for værkstedets administrator. Værkstedets egne priser er kun synlige for værkstedet.",
+      "Til e-faktura laver tjenesten en Finvoice 3.0 XML-fil. Filen sendes via egen bank eller regnskabsprogram.",
+      "Fakturaen kan markeres som betalt. Faktureringen er kun synlig for værkstedets administrator. Værkstedets egne priser er kun synlige for værkstedet.",
     ],
     programLead: "Korjaamon kumppaniohjelma er partner- og forhandlerprogrammet for værksteder. Disse priser hører kun til dette program.",
     share: [
@@ -263,8 +263,8 @@ const WORKSHOP_PAGE = {
     invoice: [
       "Eine Rechnung entsteht aus einem oder mehreren erledigten Aufträgen.",
       "Die PDF-Rechnung trägt das eigene Logo der Werkstatt. Die Rechnung kann gedruckt oder per E-Mail gesendet werden. Auf der Rechnung stehen Referenznummer und der virtuelle Strichcode der Bank, und aus derselben Abrechnung kann eine Gutschrift entstehen.",
-      "Für die E-Rechnung erstellt der Dienst eine Finvoice-Datei. Die Datei geht über die eigene Bank oder die Buchhaltungssoftware.",
-      "Die Abrechnung ist nur für die Administration der Werkstatt sichtbar. Die eigenen Preise der Werkstatt sind nur für die Werkstatt sichtbar.",
+      "Für die E-Rechnung erstellt der Dienst eine Finvoice-3.0-XML-Datei. Die Datei geht über die eigene Bank oder die Buchhaltungssoftware.",
+      "Die Rechnung kann als bezahlt markiert werden. Die Abrechnung ist nur für die Administration der Werkstatt sichtbar. Die eigenen Preise der Werkstatt sind nur für die Werkstatt sichtbar.",
     ],
     programLead: "Korjaamon kumppaniohjelma ist das Partner- und Wiederverkäuferprogramm für Werkstätten. Diese Preise gelten nur in diesem Programm.",
     share: [
@@ -323,8 +323,8 @@ const WORKSHOP_PAGE = {
     invoice: [
       "An invoice is built from one or more completed work orders.",
       "The PDF invoice carries the workshop’s own logo. The invoice can be printed or sent by email. It shows the payment reference and the bank’s virtual barcode, and a credit invoice can be made from the same invoicing.",
-      "For an e-invoice the service creates a Finvoice file. The file is sent through the workshop’s own bank or accounting software.",
-      "Invoicing is visible only to the workshop administrator. The workshop’s own prices are visible only to the workshop.",
+      "For an e-invoice the service creates a Finvoice 3.0 XML file. The file is sent through the workshop’s own bank or accounting software.",
+      "An invoice can be marked paid. Invoicing is visible only to the workshop administrator. The workshop’s own prices are visible only to the workshop.",
     ],
     programLead: "Korjaamon kumppaniohjelma is the partner and reseller programme for workshops. These prices belong only to this programme.",
     share: [
@@ -383,8 +383,8 @@ const WORKSHOP_PAGE = {
     invoice: [
       "La factura se forma a partir de una o varias órdenes de trabajo terminadas.",
       "La factura PDF lleva el logo propio del taller. Se puede imprimir o enviar por correo. La factura muestra el número de referencia y el código de barras virtual del banco, y de la misma facturación se puede hacer una factura de abono.",
-      "Para la factura electrónica el servicio crea un archivo Finvoice. El archivo se envía a través del propio banco o del programa de contabilidad.",
-      "La facturación es visible solo para la administración del taller. Los precios propios del taller son visibles solo para el taller.",
+      "Para la factura electrónica el servicio crea un archivo XML Finvoice 3.0. El archivo se envía a través del propio banco o del programa de contabilidad.",
+      "La factura se puede marcar como pagada. La facturación es visible solo para la administración del taller. Los precios propios del taller son visibles solo para el taller.",
     ],
     programLead: "Korjaamon kumppaniohjelma es el programa de socios y reventa para talleres. Estos precios pertenecen solo a este programa.",
     share: [
@@ -443,8 +443,8 @@ const WORKSHOP_PAGE = {
     invoice: [
       "La fattura nasce da uno o più ordini di lavoro completati.",
       "La fattura PDF ha il logo proprio dell’officina. Si può stampare o inviare per e-mail. In fattura ci sono il riferimento di pagamento e il codice a barre virtuale della banca, e dalla stessa fatturazione si può fare una nota di credito.",
-      "Per la fattura elettronica il servizio crea un file Finvoice. Il file si invia tramite la propria banca o il programma di contabilità.",
-      "La fatturazione è visibile solo all’amministrazione dell’officina. I prezzi propri dell’officina sono visibili solo all’officina.",
+      "Per la fattura elettronica il servizio crea un file XML Finvoice 3.0. Il file si invia tramite la propria banca o il programma di contabilità.",
+      "La fattura si può segnare come pagata. La fatturazione è visibile solo all’amministrazione dell’officina. I prezzi propri dell’officina sono visibili solo all’officina.",
     ],
     programLead: "Korjaamon kumppaniohjelma è il programma partner e rivendita per le officine. Questi prezzi appartengono solo a questo programma.",
     share: [
@@ -503,8 +503,8 @@ const WORKSHOP_PAGE = {
     invoice: [
       "La facture est formée d’un ou de plusieurs ordres de travail terminés.",
       "La facture PDF porte le logo propre de l’atelier. Elle peut être imprimée ou envoyée par e-mail. La facture montre la référence de paiement et le code-barres virtuel de la banque, et un avoir peut être fait à partir de la même facturation.",
-      "Pour la facture électronique, le service crée un fichier Finvoice. Le fichier est envoyé via la propre banque ou le logiciel de comptabilité.",
-      "La facturation est visible seulement pour l’administration de l’atelier. Les prix propres de l’atelier sont visibles seulement pour l’atelier.",
+      "Pour la facture électronique, le service crée un fichier XML Finvoice 3.0. Le fichier est envoyé via la propre banque ou le logiciel de comptabilité.",
+      "La facture peut être marquée comme payée. La facturation est visible seulement pour l’administration de l’atelier. Les prix propres de l’atelier sont visibles seulement pour l’atelier.",
     ],
     programLead: "Korjaamon kumppaniohjelma est le programme partenaire et revendeur pour les ateliers. Ces prix appartiennent seulement à ce programme.",
     share: [
@@ -563,8 +563,8 @@ const WORKSHOP_PAGE = {
     invoice: [
       "Arve tekib ühest või mitmest valmis töökäsust.",
       "PDF-arvel on töökoja oma logo. Arve saab printida või saata e-postiga. Arvel on viitenumber ja panga virtuaalne vöötkood ning samast arveldusest saab teha kreeditarve.",
-      "E-arve jaoks teeb teenus Finvoice-faili. Fail saadetakse oma panga või raamatupidamistarkvara kaudu.",
-      "Arveldus on nähtav ainult töökoja administraatorile. Töökoja oma hinnad on nähtavad ainult töökojale.",
+      "E-arve jaoks teeb teenus Finvoice 3.0 XML-faili. Fail saadetakse oma panga või raamatupidamistarkvara kaudu.",
+      "Arve saab märkida makstuks. Arveldus on nähtav ainult töökoja administraatorile. Töökoja oma hinnad on nähtavad ainult töökojale.",
     ],
     programLead: "Korjaamon kumppaniohjelma on töökodade partner- ja edasimüüjaprogramm. Need hinnad kuuluvad ainult sellesse programmi.",
     share: [
@@ -623,8 +623,8 @@ const WORKSHOP_PAGE = {
     invoice: [
       "Rēķins veidojas no viena vai vairākiem pabeigtiem darba uzdevumiem.",
       "PDF rēķinam ir darbnīcas paša logo. Rēķinu var izdrukāt vai nosūtīt e-pastā. Rēķinā ir atsauces numurs un bankas virtuālais svītrkods, un no tās pašas rēķināšanas var izveidot kredītrēķinu.",
-      "E-rēķinam pakalpojums izveido Finvoice failu. Fails tiek nosūtīts caur savu banku vai grāmatvedības programmu.",
-      "Rēķināšana ir redzama tikai darbnīcas administratoram. Darbnīcas pašu cenas ir redzamas tikai darbnīcai.",
+      "E-rēķinam pakalpojums izveido Finvoice 3.0 XML failu. Fails tiek nosūtīts caur savu banku vai grāmatvedības programmu.",
+      "Rēķinu var atzīmēt kā apmaksātu. Rēķināšana ir redzama tikai darbnīcas administratoram. Darbnīcas pašu cenas ir redzamas tikai darbnīcai.",
     ],
     programLead: "Korjaamon kumppaniohjelma ir partneru un tālākpārdevēju programma darbnīcām. Šīs cenas pieder tikai šai programmai.",
     share: [
@@ -683,8 +683,8 @@ const WORKSHOP_PAGE = {
     invoice: [
       "Sąskaita sudaroma iš vieno ar kelių baigtų darbo užsakymų.",
       "PDF sąskaitoje yra dirbtuvių logotipas. Sąskaitą galima atspausdinti arba išsiųsti el. paštu. Sąskaitoje yra nuorodos numeris ir banko virtualus brūkšninis kodas, o iš tos pačios sąskaitos galima padaryti kreditinę sąskaitą.",
-      "El. sąskaitai paslauga sukuria Finvoice failą. Failas siunčiamas per savo banką arba apskaitos programą.",
-      "Sąskaitos matomos tik dirbtuvių administratoriui. Dirbtuvių kainos matomos tik dirbtuvėms.",
+      "El. sąskaitai paslauga sukuria Finvoice 3.0 XML failą. Failas siunčiamas per savo banką arba apskaitos programą.",
+      "Sąskaitą galima pažymėti apmokėta. Sąskaitos matomos tik dirbtuvių administratoriui. Dirbtuvių kainos matomos tik dirbtuvėms.",
     ],
     programLead: "Korjaamon kumppaniohjelma yra dirbtuvių partnerių ir perpardavėjų programa. Šios kainos priklauso tik šiai programai.",
     share: [
@@ -743,8 +743,8 @@ const WORKSHOP_PAGE = {
     invoice: [
       "Faktura powstaje z jednego albo kilku ukończonych zleceń.",
       "Faktura PDF ma własne logo warsztatu. Można ją wydrukować albo wysłać e-mailem. Na fakturze są numer referencyjny i wirtualny kod kreskowy banku, a z tego samego fakturowania można zrobić fakturę korygującą.",
-      "Do e-faktury usługa tworzy plik Finvoice. Plik wysyła się przez własny bank albo program księgowy.",
-      "Fakturowanie jest widoczne tylko dla administratora warsztatu. Własne ceny warsztatu są widoczne tylko dla warsztatu.",
+      "Do e-faktury usługa tworzy plik XML Finvoice 3.0. Plik wysyła się przez własny bank albo program księgowy.",
+      "Fakturę można oznaczyć jako opłaconą. Fakturowanie jest widoczne tylko dla administratora warsztatu. Własne ceny warsztatu są widoczne tylko dla warsztatu.",
     ],
     programLead: "Korjaamon kumppaniohjelma to program partnerski i resellerski dla warsztatów. Te ceny należą tylko do tego programu.",
     share: [
@@ -803,8 +803,8 @@ const WORKSHOP_PAGE = {
     invoice: [
       "Faktura vzniká z jedné nebo více dokončených zakázek.",
       "PDF faktura má vlastní logo dílny. Lze ji vytisknout nebo poslat e-mailem. Na faktuře je referenční číslo a virtuální čárový kód banky a ze stejné fakturace lze udělat dobropis.",
-      "Pro elektronickou fakturu služba vytvoří soubor Finvoice. Soubor se odešle přes vlastní banku nebo účetní program.",
-      "Fakturace je viditelná jen pro správce dílny. Vlastní ceny dílny jsou viditelné jen pro dílnu.",
+      "Pro elektronickou fakturu služba vytvoří soubor XML Finvoice 3.0. Soubor se odešle přes vlastní banku nebo účetní program.",
+      "Fakturu lze označit jako zaplacenou. Fakturace je viditelná jen pro správce dílny. Vlastní ceny dílny jsou viditelné jen pro dílnu.",
     ],
     programLead: "Korjaamon kumppaniohjelma je partnerský a reseller program pro dílny. Tyto ceny patří jen tomuto programu.",
     share: [
