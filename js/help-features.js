@@ -1,9 +1,18 @@
 /**
  * Help-center articles for fault photos, the service book, fuel logging,
  * file attachments and QR sticker recommendations.
- * Same card markup as the other help articles. No prices in driver or
+ * Same card markup as the other help articles. The first four cards also
+ * play a help video (videos/iqfleetsync/, Finnish speech, a WebVTT track per
+ * site language), with the same player as the other help videos. No prices in driver or
  * mechanic text. Role visibility is phrased positively.
  */
+const FEATURE_MEDIA = {
+  "fault-photos": { src: "videos/iqfleetsync/vikailmoitus-kuvat.mp4" },
+  "service-book": { src: "videos/iqfleetsync/huoltokirja.mp4" },
+  "fuel-log": { src: "videos/iqfleetsync/tankkaus.mp4" },
+  "file-attachments": { src: "videos/iqfleetsync/liitetiedostot.mp4" },
+};
+
 const FEATURE_HELP = {
   fi: [
     { id: "fault-photos", title: "Vikailmoituksen kuvat", paragraphs: [
@@ -415,13 +424,18 @@ const FEATURE_HELP = {
 
 function featureGuidesHtml(lang) {
   const articles = FEATURE_HELP[lang] || FEATURE_HELP.en;
+  const unsupported = typeof HELP_CENTER !== "undefined"
+    ? (HELP_CENTER[lang] || HELP_CENTER.en).unsupported
+    : "";
   return articles.map((article) => {
     const copy = article.paragraphs
       .map((paragraph) => "<p>" + escapeHelpHtml(paragraph) + "</p>")
       .join("");
+    const media = FEATURE_MEDIA[article.id];
     return `<article class="help-card" id="${escapeHelpHtml(article.id)}">
       <h2>${escapeHelpHtml(article.title)}</h2>
       <div class="help-copy">${copy}</div>
+      ${media && typeof helpMediaHtml === "function" ? helpMediaHtml(media, article, unsupported, lang) : ""}
     </article>`;
   }).join("");
 }

@@ -22,7 +22,15 @@ Ohjekeskus on iqFleetSync-sivun osio `#ohjekeskus`. Se soittaa nämä tiedostot 
 - `videos/iqfleetsync/tukibotti.vtt`
 - `videos/iqfleetsync/korjaamo-laskutus.mp4`
 - `videos/iqfleetsync/korjaamo-laskutus.vtt`
+- `videos/iqfleetsync/vikailmoitus-kuvat.mp4`
+- `videos/iqfleetsync/vikailmoitus-kuvat.vtt`
+- `videos/iqfleetsync/huoltokirja.mp4`
+- `videos/iqfleetsync/huoltokirja.vtt`
+- `videos/iqfleetsync/tankkaus.mp4`
+- `videos/iqfleetsync/tankkaus.vtt`
+- `videos/iqfleetsync/liitetiedostot.mp4`
+- `videos/iqfleetsync/liitetiedostot.vtt`
 
-Vikakuvat, huoltokirja, tankkaus, liitetiedostot ja QR-tarrasuositukset ovat ohjekeskuksen tekstikortteja samassa listassa. Niille ei ole vielä kuvattua ohjevideota.
+Vikakuvat, huoltokirja, tankkaus, liitetiedostot ja QR-tarrasuositukset ovat ohjekeskuksen tekstikortteja samassa listassa. Neljässä ensimmäisessä kortissa on lisäksi ohjevideo tekstin alla. QR-tarrasuosituksille ei ole videota.
 
 Soitin lisää `<track kind="subtitles">` -raidan jokaiselle kielelle. Oletuksena näkyy sivuston valittu kieli, sitten englanti, sitten suomi. Käyttäjä voi vaihtaa raidan soittimen valikosta. Vanha osoite `ohjekeskus.html` ohjaa tähän osioon. Tiedosto ilman kielipäätettä, esimerkiksi `qr-kirjautuminen-kuljettaja.vtt`, on edelleen suomenkielinen raita.
