@@ -1,0 +1,39 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:03.939 line:100%,end
+Tankování se zapisuje telefonem
+na stránce stroje.
+
+00:00:03.939 --> 00:00:08.900 line:100%,end
+Naskenujte QR kód stroje
+a klepněte na Zapsat tankování.
+
+00:00:08.900 --> 00:00:13.496 line:100%,end
+Datum je vyplněné.
+Zadejte litry a stav počítadla.
+
+00:00:13.496 --> 00:00:18.200 line:100%,end
+Fotka účtenky a poznámka
+jsou nepovinné.
+
+00:00:18.200 --> 00:00:20.467 line:100%,end
+Klepněte na Uložit tankování.
+
+00:00:20.467 --> 00:00:24.400 line:100%,end
+U tankování se zapisují jen litry a stav počítadla.
+
+00:00:24.400 --> 00:00:31.938 line:100%,end
+Aplikace spočítá spotřebu mezi tankováními:
+litry na 100 km nebo za hodinu.
+
+00:00:31.938 --> 00:00:37.500 line:100%,end
+Osoba údržby a správce vidí
+tankování na stránce stroje.
+
+00:00:37.500 --> 00:00:44.045 line:100%,end
+Když se spotřeba liší od průměru
+o víc než 20 procent, řádek se zvýrazní.
+
+00:00:44.045 --> 00:00:50.000 line:100%,end
+Náhlá změna může ukazovat na závadu,
+takže se odhalí včas.
